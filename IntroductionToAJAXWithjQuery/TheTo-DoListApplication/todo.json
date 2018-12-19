@@ -1,0 +1,14 @@
+[
+    {
+        "task": "get milk",
+        "who": "Scott",
+        "dueDate": "today",
+        "done": false
+    },
+    {
+        "task": "get broccoli",
+        "who": "Elisabeth",
+        "dueDate": "today",
+        "done": false
+    }
+]
