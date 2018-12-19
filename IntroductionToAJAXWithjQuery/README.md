@@ -12,4 +12,4 @@ And here: https://github.com/JamieBort/LearningDirectory/blob/master/Introductio
 
 [First Lesson, "Your First Ajax Application"](https://github.com/JamieBort/LearningDirectory/tree/master/IntroductionToAJAXWithjQuery/YourFirstAjaxApplication)
 
-[Second Lesson, "The To-Do List Application"]
+[Second Lesson, "The To-Do List Application"](https://github.com/JamieBort/LearningDirectory/tree/master/IntroductionToAJAXWithjQuery/TheTo-DoListApplication)
