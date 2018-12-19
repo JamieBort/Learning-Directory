@@ -10,4 +10,6 @@ And here: https://github.com/JamieBort/LearningDirectory/blob/master/Introductio
 
 ## Table of Contents
 
-[First Lesson](https://github.com/JamieBort/LearningDirectory/tree/master/IntroductionToAJAXWithjQuery/YourFirstAjaxApplication)
+[First Lesson, "Your First Ajax Application"](https://github.com/JamieBort/LearningDirectory/tree/master/IntroductionToAJAXWithjQuery/YourFirstAjaxApplication)
+
+[Second Lesson, "The To-Do List Application"]
