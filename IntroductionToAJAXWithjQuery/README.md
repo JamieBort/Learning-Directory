@@ -1,7 +1,8 @@
 # Introduction To AJAX With jQuery
 
-This is my directory for learning this topic and using this book to do it.
-Title of book: Introduction To AJAX With jQuery
+This is my directory following the PDF version of 'Introduction To AJAX With jQuery'.
+I am using this book to learn how to use AJAX.
+This books consists of several lessons/tasks leading up to creating a to-do list that is saved to a .json file and displayed in an html file.
 
 [The book was originally found here](http://archive.oreilly.com/oreillyschool/courses/javascript2/Javascript%20JSON%20and%20Ajax%20v2.pdf).
 
