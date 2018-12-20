@@ -1,10 +1,21 @@
+// The Todo object constructor.
+function Todo(task, who, dueDate) {
+    this.task = task;
+    this.who = who;
+    this.dueDate = dueDate;
+    this.done = false;
+}
+
 var todos = new Array();
+
 window.onload = init;
+
 function init() {
     var submitButton = document.getElementById("submit");
     submitButton.onclick = getFormData;
     getTodoData();
 }
+
 function getTodoData() {
     var request = new XMLHttpRequest();
     request.open("GET", "todo.json");
@@ -21,6 +32,7 @@ function getTodoData() {
     };
     request.send();
 }
+
 function parseTodoItems(todoJSON) {
     if (todoJSON == null || todoJSON.trim() == "") {
         return;
@@ -35,6 +47,7 @@ function parseTodoItems(todoJSON) {
         todos.push(todoItem);
     }
 }
+
 function addTodosToPage() {
     var ul = document.getElementById("todoList");
     for (var i = 0; i < todos.length; i++) {
@@ -45,6 +58,7 @@ function addTodosToPage() {
         ul.appendChild(li);
     }
 }
+
 function getFormData() {
     var task = document.getElementById("task").value;
     if (checkInputText(task, "Please enter a task")) return;
@@ -53,7 +67,12 @@ function getFormData() {
     var date = document.getElementById("dueDate").value;
     if (checkInputText(date, "Please enter a due date")) return;
     console.log("New task: " + task + ", for: " + who + ", by: " + date);
+    var todoItem = new Todo(task, who, date);
+    todos.push(todoItem);
+    addTodoToPage(todoItem);
+    saveTodoData();
 }
+
 function checkInputText(value, msg) {
     if (value == null || value == "") {
         alert(msg);
@@ -61,3 +80,21 @@ function checkInputText(value, msg) {
     }
     return false;
 }
+
+function addTodoToPage(todoItem) {
+    var ul = document.getElementById("todoList");
+    var li = document.createElement("li");
+    li.innerHTML =
+        todoItem.who + " needs to " + todoItem.task + " by " + todoItem.dueDate;
+    ul.appendChild(li);
+    document.forms[0].reset();
+}
+
+function saveTodoData() {
+    var todoJSON = JSON.stringify(todos);
+    var request = new XMLHttpRequest();
+    var URL = "save.php?data=" + encodeURI(todoJSON);
+    request.open("GET", URL);
+    request.setRequestHeader("Content-Type", "text/plain;charset=UTF-8");
+    request.send();
+    }
