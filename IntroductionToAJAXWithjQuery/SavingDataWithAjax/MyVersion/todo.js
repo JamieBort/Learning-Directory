@@ -1,3 +1,6 @@
+var fs = require('fs');
+fs.writeFile('myjsonfile.json', json, 'utf8', callback);
+
 // The Todo object constructor.
 function Todo(task, who, dueDate) {
     this.task = task;
