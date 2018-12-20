@@ -1,6 +1,6 @@
 # The To-Do List Application
 
-This is my directory for the first lesson of this book.
+This is my directory for the second lesson of this book.
 It is found on page 44 out of page 214.
 
 NOTE: Chrome gave me the this error:

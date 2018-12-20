@@ -1,6 +1,6 @@
 # Saving Data with Ajax
 
-This is my directory for the first lesson of this book.
+This is my directory for the third lesson of this book.
 It is found on page 58 out of page 214.
 
 NOTE: Chrome gave me the this error:
