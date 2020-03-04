@@ -1,0 +1,21 @@
+{
+  "name": "busboy-file-upload",
+  "version": "1.0.0",
+  "description": "Receive uploaded files with the `busboy` package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "busboy-file-upload"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "busboy": "^0.2.14",
+    "express": "^4.15.3",
+    "fs-extra": "^3.0.1",
+    "mustache-express": "^1.2.4"
+  }
+}
