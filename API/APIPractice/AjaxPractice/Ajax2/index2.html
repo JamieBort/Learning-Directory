@@ -1,0 +1,59 @@
+<!-- from: https://www.youtube.com/watch?v=82hnvUYY6QA
+The title is 'AJAX Crash Course (Vanilla JavaScript)'. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ajax 2 - local json</title>
+</head>
+
+<body>
+  <button id="button1" type="button" name="button">Get User</button>
+  <button id="button2" type="button" name="button">Get Users</button>
+  <br><br>
+  <h1>User</h1>
+  <div id="user"></div>
+
+  <h1>Users</h1>
+  <div id="users"></div>
+<script>
+  document.getElementById('button1').addEventListener('click', loadUser);
+  function loadUser(){
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'user.json', true);
+    xhr.onload = function(){
+      if (this.status == 200) {
+        var user = JSON.parse(this.responseText);
+        console.log(user.name); // 'JSON.parse()' is necessary to log 'user.name' to the console.
+
+        console.log(this.responseText); // 'JSON.parse()' is not necessary here.
+
+        var output = ''; // Initialized variable with empty value.
+        output += '<ul>' +
+        '<li>ID: '+user.id +
+        '<li>NAME: '+user.name +
+        '<li>EMAIL: '+user.email;
+        document.getElementById('user').innerHTML = output;
+      }
+    }
+    xhr.send();
+  }
+
+    // document.getElementById('button2').addEventListener('click', loadUser2);
+    // function loadUser2(){
+    //   var xhr = new XMLHttpRequest();
+    //   xhr.open('GET', 'users.json', true);
+    //   xhr.onload = function(){
+    //     if (this.status == 200) {
+    //       console.log(this.responseText);
+    //     }
+    //   }
+    //   xhr.send();
+    // }
+
+</script>
+</body>
+
+</html>
