@@ -1,0 +1,1 @@
+// flickr-fetcher-spec.js for the code to test flickr-fetcher.js;
