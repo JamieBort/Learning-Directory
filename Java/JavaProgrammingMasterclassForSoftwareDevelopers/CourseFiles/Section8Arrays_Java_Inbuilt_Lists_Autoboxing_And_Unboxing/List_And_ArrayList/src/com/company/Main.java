@@ -1,11 +1,10 @@
 package com.company;
-
-import java.sql.SQLOutput;
+import java.util.ArrayList;
 import java.util.Scanner;
-
 public class Main {
+    private static GroceryList groceryList = new GroceryList();
+    private static  Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         printInstructions();
         System.out.println("Please enter a number corresponding to the action in the instructions you'd like to do.");
         int userInput= sc.nextInt();
@@ -14,11 +13,14 @@ public class Main {
                 break;
             case 1:  addItem();
                 break;
-            case 2:  modifyItem();
+            case 2:
+                groceryList.printGroceryList();
                 break;
-            case 3:  removeItem();
+            case 3:  modifyItem();
                 break;
-            case 4:  searchItem();
+            case 4:  removeItem();
+            break;
+            case 5:  searchItem();
                 break;
             default:
                 System.out.println("need a default method and/or statement");
@@ -29,25 +31,30 @@ public class Main {
 
     public static void printInstructions(){
         System.out.println("the instructions are as follows:");
-        System.out.println("0 To Do first thing.");
-        System.out.println("1 To Do first thing.");
-        System.out.println("2 To Do first thing.");
-        System.out.println("3 To Do first thing.");
-        System.out.println("4 To Do first thing.");
-        System.out.println("5 To Do first thing.");
-        System.out.println("6 To Do first thing.");
+        System.out.println("0 to display the instructions again.");
+        System.out.println("1 to add an item.");
+        System.out.println("2 to display the entire list.");
+        System.out.println("3 to modify an item.");
+        System.out.println("4 to remove an item.");
+        System.out.println("5 to search for an item.");
     }
     public static void addItem(){
-        System.out.println("an item was added");
+//        System.out.println("an item was added");
+        groceryList.addGroceryItem("this item");
+    }
+    public static void print(){
+        groceryList.printGroceryList();
     }
     public static void modifyItem(){
         System.out.println("an item was modified");
     }
     public static void removeItem(){
         System.out.println("an item was removed");
+        groceryList.removeGroceryItem();
     }
     public static void searchItem(){
         System.out.println("an item was searched for");
+        groceryList.findItem();
     }
 
 
