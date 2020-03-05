@@ -15,13 +15,14 @@ public class GroceryList {
 
 //    printGroceryList method(){} // prints the groceryList list. by iterating through it.
     public void printGroceryList(){
-        System.out.println("output of the grocery list");
+        groceryList.add("first item");
+        groceryList.add("second item");
+        groceryList.add("third item");
 
-        groceryList.add("beer");
-        groceryList.add("cheese");
-        groceryList.add("beer");
-
-        System.out.println(groceryList);
+        System.out.println("You have " + groceryList.size() + " items in your grocery list");
+        for (int i = 0; i < groceryList.size(); i++) {
+            System.out.println((i+1) + ". " + groceryList.get(i));
+        }
     }
 //    removeGroceryItem method(){} // removes item from the list.
     public void removeGroceryItem(){
