@@ -6,6 +6,4 @@ GroceryList class{
     printGroceryList method(){} // prints the groceryList list. by iterating through it.
     removeGroceryItem method(){} // removes item from the list.
     findItem method(){} // returns grocer list item (bonus: return the index too)
-
-
 }

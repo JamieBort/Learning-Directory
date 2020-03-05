@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="044d773c-bfd8-4e9c-9350-0ca15049049d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../List_And_ArrayList/GroceryList.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../List_And_ArrayList/GroceryList.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,6 +365,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1583418494155" />
+    <state x="17" y="22" key="new project wizard" timestamp="1583432053439">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="17" y="22" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1583432053439" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
