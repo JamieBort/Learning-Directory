@@ -6,7 +6,6 @@ public class Main {
     private static  Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         printInstructions();
-        System.out.println("Please enter a number corresponding to the action in the instructions you'd like to do.");
         int userInput= sc.nextInt();
         switch (userInput) {
             case 0:  printInstructions();
@@ -30,6 +29,7 @@ public class Main {
     }
 
     public static void printInstructions(){
+        System.out.println("Please enter a number corresponding to the action in the instructions you'd like to do.");
         System.out.println("the instructions are as follows:");
         System.out.println("0 to display the instructions again.");
         System.out.println("1 to add an item.");
@@ -43,6 +43,7 @@ public class Main {
         groceryList.addGroceryItem("this item");
     }
     public static void print(){
+        System.out.println("unused method");
         groceryList.printGroceryList();
     }
     public static void modifyItem(){

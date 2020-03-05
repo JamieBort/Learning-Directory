@@ -9,13 +9,19 @@ public class GroceryList {
 
     //    addGroceryItem method(){} // pass a variable to add item to the groceryList
     public void addGroceryItem(String itemToAdd){
-        System.out.println("item was added");
-        groceryList.add("this was added");
+        System.out.println(itemToAdd + "... Was added");
+        groceryList.add(itemToAdd);
     }
 
 //    printGroceryList method(){} // prints the groceryList list. by iterating through it.
     public void printGroceryList(){
-        System.out.println("output the grocery list");
+        System.out.println("output of the grocery list");
+
+        groceryList.add("beer");
+        groceryList.add("cheese");
+        groceryList.add("beer");
+
+        System.out.println(groceryList);
     }
 //    removeGroceryItem method(){} // removes item from the list.
     public void removeGroceryItem(){
@@ -26,7 +32,20 @@ public class GroceryList {
 //    findItem method(){} // returns grocer list item (bonus: return the index too)
     public void findItem(){
         System.out.println("item found");
-        groceryList.indexOf("maybe this method will return something when an item is searched for");
+//        groceryList.indexOf("maybe this method will return something when an item is searched for");
+
+
+        groceryList.add("cheese");
+        groceryList.add("beer");
+        groceryList.add("cheese");
+        groceryList.add("beer");
+        System.out.println(groceryList.indexOf(0));
+        System.out.println(groceryList);
+
+//
+        System.out.println(groceryList.indexOf("beesr"));
+
+        System.out.println(groceryList.contains("beer"));
     }
 
 }
