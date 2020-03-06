@@ -1,3 +1,7 @@
+// ************
+//    when this is done can consider video 106 to be complete
+// ************
+
 package com.company;
 import java.util.ArrayList; // this can be removed
 import java.util.Scanner;
@@ -80,6 +84,9 @@ public class Main {
     }
 
     // this one isn't done yet.
+//    next search for the item by name (string) rather than by element (integer)
+//    this way the modify and remove methods can use this method.
+//    also, it helps make the grocery list class be self contained.
     public static void searchItem() {
         System.out.println("an item was searched for");
         groceryList.findItem();

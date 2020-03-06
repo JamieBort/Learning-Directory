@@ -1,3 +1,7 @@
+// ************
+//    when this is done can consider video 106 to be complete
+// ************
+
 package com.company;
 
 import java.util.ArrayList;
@@ -23,22 +27,16 @@ public class GroceryList {
     }
 
     // this one isn't done yet.
+//    next search for the item by name (string) rather than by element (integer)
+//    this way the modify and remove methods can use this method.
+//    also, it helps make the grocery list class be self contained.
     public void findItem(){
         System.out.println("item found");
 //        groceryList.indexOf("maybe this method will return something when an item is searched for");
-
-
-        groceryList.add("cheese");
-        groceryList.add("beer");
-        groceryList.add("cheese");
-        groceryList.add("beer");
         System.out.println(groceryList.indexOf(0));
         System.out.println(groceryList);
-
-//
-        System.out.println(groceryList.indexOf("beesr"));
-
-        System.out.println(groceryList.contains("beer"));
+//        System.out.println(groceryList.indexOf("beesr")); // do not use this one.
+//        System.out.println(groceryList.contains("beer")); // use this one.
     }
 
 }
