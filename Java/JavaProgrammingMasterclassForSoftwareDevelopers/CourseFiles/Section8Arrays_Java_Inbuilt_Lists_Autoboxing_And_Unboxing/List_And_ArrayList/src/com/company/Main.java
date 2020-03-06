@@ -58,14 +58,13 @@ public class Main {
     public static void addItem() {
         System.out.println("Please type out the item you would like to add to the grocery list.");
         String newItem = sc.next();
-
         System.out.println(newItem  + " was added!!!");
         groceryList.addGroceryItem(newItem);
-//        groceryList.addGroceryItem("this item");
         System.out.println("********");
         printInstructions();
     }
 
+    // this one isn't done yet.
     public static void modifyItem() {
         System.out.println("an item was modified");
         System.out.println("********");
@@ -73,13 +72,14 @@ public class Main {
     }
 
     public static void removeItem() {
-        System.out.println("Ask the user to enter a number to remove an item.");
-        System.out.println("right now 0 is hard coded in.");
-        groceryList.removeGroceryItem(0);
+        System.out.println("Please type the number corresponding to the item you'd like to remove from the grocery list.");
+        int itemToRemove=sc.nextInt();
+        groceryList.removeGroceryItem(itemToRemove-1);
         System.out.println("********");
         printInstructions();
     }
 
+    // this one isn't done yet.
     public static void searchItem() {
         System.out.println("an item was searched for");
         groceryList.findItem();
