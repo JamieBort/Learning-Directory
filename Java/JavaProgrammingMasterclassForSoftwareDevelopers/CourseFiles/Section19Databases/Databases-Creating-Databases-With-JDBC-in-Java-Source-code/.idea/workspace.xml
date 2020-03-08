@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53328f25-24ab-4ac8-b336-ea97d51d404c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_30_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testjava.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../SuppliedFiles/Section19Databases/sqlite-jdbc-3.30.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Heroku/java-getting-started/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Heroku/java-getting-started/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_15_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestDB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestDB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestDB/com/timbuchalka/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestDB/com/timbuchalka/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/timbuchalka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/timbuchalka/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -531,22 +522,26 @@
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state x="2092" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1583622250390" />
-    <state width="1878" height="243" key="GridCell.Tab.0.bottom" timestamp="1583625354403">
+    <state width="1878" height="243" key="GridCell.Tab.0.bottom" timestamp="1583698742142">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="243" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1583625354403" />
-    <state width="1878" height="243" key="GridCell.Tab.0.center" timestamp="1583625354400">
+    <state width="1878" height="243" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.0.1920.1080@1280.0.1920.1080" timestamp="1583698742142" />
+    <state width="1878" height="243" key="GridCell.Tab.0.center" timestamp="1583698742141">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="243" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1583625354400" />
-    <state width="1878" height="243" key="GridCell.Tab.0.left" timestamp="1583625354390">
+    <state width="1878" height="243" key="GridCell.Tab.0.center/0.23.1280.777/1280.0.1920.1080@1280.0.1920.1080" timestamp="1583698742141" />
+    <state width="1878" height="243" key="GridCell.Tab.0.left" timestamp="1583698742140">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="243" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1583625354390" />
-    <state width="1878" height="243" key="GridCell.Tab.0.right" timestamp="1583625354402">
+    <state width="1878" height="243" key="GridCell.Tab.0.left/0.23.1280.777/1280.0.1920.1080@1280.0.1920.1080" timestamp="1583698742140" />
+    <state width="1878" height="243" key="GridCell.Tab.0.right" timestamp="1583698742142">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="243" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1583625354402" />
+    <state width="1878" height="243" key="GridCell.Tab.0.right/0.23.1280.777/1280.0.1920.1080@1280.0.1920.1080" timestamp="1583698742142" />
     <state x="1723" y="90" width="1024" height="608" key="SettingsEditor" timestamp="1583625159305">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
