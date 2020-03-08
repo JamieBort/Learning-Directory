@@ -13,7 +13,8 @@ public class Main {
 //            Statement statement = conn.createStatement()) {
 //            statement.execute("CREATE TABLE contacts (name TEXT, phone INTEGER, email TEXT)");
         try {
-            Connection conn = DriverManager.getConnection("jdbc:sqlite:/Volumes/Production/Courses/Programs/JavaPrograms/TestDB/testjava.db");
+//            Connection conn = DriverManager.getConnection("jdbc:sqlite:/Volumes/Production/Courses/Programs/JavaPrograms/TestDB/testjava.db"); // I changed this.
+            Connection conn = DriverManager.getConnection("jdbc:sqlite:/Users/jamiebort/Documents/DevFiles/LearningDirectory/Java/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/testjava.db"); // To this.
             Statement statement = conn.createStatement();
             statement.execute("CREATE TABLE contacts (name TEXT, phone INTEGER, email TEXT)");
 
