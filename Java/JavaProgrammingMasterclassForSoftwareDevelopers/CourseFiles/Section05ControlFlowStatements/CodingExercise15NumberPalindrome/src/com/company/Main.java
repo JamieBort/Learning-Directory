@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-//        isPalindrome(707);
-        isPalindrome(123454321);
+        isPalindrome(7017);
+//        isPalindrome(123454321);
     }
 
     public static boolean isPalindrome(int number){
@@ -16,28 +16,14 @@ public class Main {
         System.out.println("The size of the numberArray ArrayList is: " + numberArray.size());
         int nOI = numberOfIterations(numberArray);
         System.out.println("the number of iterations: " + nOI);
+        int i = 0;
         while(nOI>0){
-            compare(numberArray.get(0),numberArray.get(numberArray.size()-1));
-            System.out.println(nOI);
+            status = compare(numberArray.get(0+i),numberArray.get(numberArray.size()-1-i));
+            System.out.println("nOI is: " + nOI);
+            i ++;
+            System.out.println("i is: " + i);
             nOI -=1;
-//            compare(numberArray.get(0),numberArray.get(numberArray.size()-1));
         }
-
-//        if(numberArray.get(0)==numberArray.get(numberArray.size()-1)){
-//            System.out.println("the first and last match.");
-//        }
-//        if(numberArray.get(0+1)==numberArray.get(numberArray.size()-1-1)){
-//            System.out.println("the second and second to last match.");
-//        }
-//        if(numberArray.get(0+1+1)==numberArray.get(numberArray.size()-1-1-1)){
-//            System.out.println("the third and third to last match.");
-//        }
-//
-//
-//        if(numberArray.get(0)==numberArray.get(numberArray.size()-1)){
-//            System.out.println("It is true");
-//            status=true;
-//        }
         System.out.println("The status is: " + status);
         return status;
     }
@@ -58,7 +44,7 @@ public class Main {
     public static boolean compare(int a, int b){
         boolean status = false;
         if(a==b){
-            System.out.println("inside compare");
+            System.out.println(a + " and " + b + " are equal");
             status = true;
         }
         return status;
