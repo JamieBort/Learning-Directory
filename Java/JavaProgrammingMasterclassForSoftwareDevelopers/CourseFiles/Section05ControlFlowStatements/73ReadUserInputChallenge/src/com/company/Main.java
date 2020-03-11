@@ -14,32 +14,57 @@
 
 package com.company;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-//        int[] anArray = {};
-        int[] anArray = {1,2,3,4};
-        sum(anArray);
+//        ArrayList<Integer> anArray = new ArrayList<>();
+//        anArray.add(10);
+//        anArray.add(20);
+//        anArray.add(30);
+//        sum(anArray);
+//
+//        ArrayList a = collectNumbers();
+        sum();
     }
 
 //    method ot collect numbers
-    public static int[] collectNumbers(){
-//        this method is going to collect numbers from the user
-//        add them to an integer array
-//        and then return that integer array to sum()
+    public static ArrayList<Integer> collectNumbers(){
+////        this method is going to collect numbers from the user
+////        add them to an array list
+////        and then return that array list to sum()
+        ArrayList<Integer> anArray = new ArrayList<>();
+        int t=0;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter 10 numbers.");
+        while(t<10){
+//            System.out.println("t is : " + t);
+            anArray.add(sc.nextInt());
+//            anArray.add(t);
+//            System.out.println("the array list is: " + anArray);
+            t++;
+        }
+        return anArray;
     }
 
 //    method to sum numbers
-    public static int sum(int[] intArray){
+    public static int sum(){
+
+        ArrayList intArray = collectNumbers();
+        System.out.println("the length of the arrayList is: " + intArray.size());
         int totalSum=0;
-        if(intArray.length<1){
+        if(intArray.size()<1){
             totalSum = 0;
         } else {
-            for (int i = 0; i < intArray.length ; i++) {
-                totalSum+=intArray[i];
+            for (int i = 0; i < intArray.size() ; i++) {
+//                System.out.println("i inside the for loop: " + i);
+//                System.out.println("total sum inside the for loop: " + totalSum);
+//                System.out.println("the ith element inside the for loop: " + intArray.get(i));
+                totalSum= totalSum + (int) intArray.get(i);
             }
         }
-        System.out.println("the length of the array is: " + intArray.length);
         System.out.println("the sum is: " + totalSum);
         return totalSum;
     }
