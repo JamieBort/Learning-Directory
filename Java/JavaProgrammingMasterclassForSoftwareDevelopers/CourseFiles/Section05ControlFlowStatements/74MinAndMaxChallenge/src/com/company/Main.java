@@ -16,7 +16,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        collectNumbers();
+        ArrayList aL = collectNumbers();
+        minNum(aL);
     }
 
     //    method to collect numbers
@@ -39,19 +40,15 @@ public class Main {
         return anArray;
     }
 
-    //    method to sum numbers
-//    public static int sum(){
-//        ArrayList intArray = collectNumbers();
-//        System.out.println("the length of the arrayList is: " + intArray.size());
-//        int totalSum=0;
-//        if(intArray.size()<1){
-//            totalSum = 0;
-//        } else {
-//            for (int i = 0; i < intArray.size() ; i++) {
-//                totalSum= totalSum + (int) intArray.get(i);
-//            }
-//        }
-//        System.out.println("the sum is: " + totalSum);
-//        return totalSum;
-//    }
+    //    method for finding the minimum number
+    public static int minNum(ArrayList checkList){
+        while(checkList.size()>2){
+            System.out.println("Original list: " + checkList);
+            System.out.println(Math.max((int) checkList.get(0), (int) checkList.get(1)));
+            checkList.remove(checkList.indexOf(Math.max((int) checkList.get(0), (int) checkList.get(1))));
+            System.out.println("One item removed from the list: " + checkList);
+        }
+        System.out.println("The minimum number in the array list is: " + Math.min((int) checkList.get(0), (int) checkList.get(1)));
+        return Math.min((int) checkList.get(0), (int) checkList.get(1));
+    }
 }
