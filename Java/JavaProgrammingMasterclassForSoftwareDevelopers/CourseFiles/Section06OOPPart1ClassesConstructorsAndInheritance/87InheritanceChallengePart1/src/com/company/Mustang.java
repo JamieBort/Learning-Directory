@@ -8,24 +8,17 @@
 
 package com.company;
 
-public class Vehicle {
-    private int speed;
-    private int steer; // -1 for left, 0 for straight, 1 for right
+public class Mustang extends Car {
+    boolean serviceEngine = true;
 
-    public int getSpeed() {
-        return speed;
+    public boolean isServiceEngine() {
+        System.out.println("Service engine? " + serviceEngine);
+        return serviceEngine;
     }
 
-    public int getSteer() {
-        return steer;
-    }
-
-    public void setSpeed(int speed) {
-        this.speed = speed;
-    }
-
-    public void setSteer(int steer) {
-        this.steer = steer;
+    public void setServiceEngine(boolean serviceEngine) {
+        this.serviceEngine = serviceEngine;
+        System.out.println("Change service engine? " + this.serviceEngine);
     }
 
 }

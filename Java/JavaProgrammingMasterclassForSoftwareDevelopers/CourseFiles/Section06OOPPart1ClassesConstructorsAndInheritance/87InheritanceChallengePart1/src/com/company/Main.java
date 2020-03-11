@@ -11,6 +11,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello");
+        Mustang mustang = new Mustang();
+        mustang.isServiceEngine();
+        mustang.setServiceEngine(false);
+        mustang.isServiceEngine();
+
+        mustang.getGear();
     }
 }
