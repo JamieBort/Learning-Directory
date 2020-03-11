@@ -27,11 +27,15 @@ public class Main {
         ArrayList<Integer> anArray = new ArrayList<>();
         int t=0;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter 10 numbers.");
-        while(t<10){
+        System.out.println("How many integers would you like to enter?");
+        int numberOfIntegers = sc.nextInt();
+        System.out.println("You've chosen " + numberOfIntegers + " integers to enter.");
+        while(t<numberOfIntegers){
+            System.out.println("Please enter an integer.");
             anArray.add(sc.nextInt());
             t++;
         }
+        System.out.println("The ArrayList is: " + anArray);
         return anArray;
     }
 
