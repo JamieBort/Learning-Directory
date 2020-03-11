@@ -18,6 +18,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList aL = collectNumbers();
         minNum(aL);
+        maxNum(aL);
     }
 
     //    method to collect numbers
@@ -51,4 +52,18 @@ public class Main {
         System.out.println("The minimum number in the array list is: " + Math.min((int) checkList.get(0), (int) checkList.get(1)));
         return Math.min((int) checkList.get(0), (int) checkList.get(1));
     }
+
+
+    //    method for finding the minimum number
+    public static int maxNum(ArrayList checkList){
+        while(checkList.size()>2){
+            System.out.println("Original list: " + checkList);
+            System.out.println(Math.min((int) checkList.get(0), (int) checkList.get(1)));
+            checkList.remove(checkList.indexOf(Math.min((int) checkList.get(0), (int) checkList.get(1))));
+            System.out.println("One item removed from the list: " + checkList);
+        }
+        System.out.println("The maximum number in the array list is: " + Math.max((int) checkList.get(0), (int) checkList.get(1)));
+        return Math.max((int) checkList.get(0), (int) checkList.get(1));
+    }
+
 }
