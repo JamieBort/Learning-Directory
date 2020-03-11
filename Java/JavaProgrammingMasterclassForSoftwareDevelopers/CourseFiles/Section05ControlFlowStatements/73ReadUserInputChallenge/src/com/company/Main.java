@@ -20,13 +20,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-//        ArrayList<Integer> anArray = new ArrayList<>();
-//        anArray.add(10);
-//        anArray.add(20);
-//        anArray.add(30);
-//        sum(anArray);
-//
-//        ArrayList a = collectNumbers();
         sum();
     }
 
@@ -40,10 +33,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter 10 numbers.");
         while(t<10){
-//            System.out.println("t is : " + t);
             anArray.add(sc.nextInt());
-//            anArray.add(t);
-//            System.out.println("the array list is: " + anArray);
             t++;
         }
         return anArray;
@@ -51,7 +41,6 @@ public class Main {
 
 //    method to sum numbers
     public static int sum(){
-
         ArrayList intArray = collectNumbers();
         System.out.println("the length of the arrayList is: " + intArray.size());
         int totalSum=0;
@@ -59,9 +48,6 @@ public class Main {
             totalSum = 0;
         } else {
             for (int i = 0; i < intArray.size() ; i++) {
-//                System.out.println("i inside the for loop: " + i);
-//                System.out.println("total sum inside the for loop: " + totalSum);
-//                System.out.println("the ith element inside the for loop: " + intArray.get(i));
                 totalSum= totalSum + (int) intArray.get(i);
             }
         }
