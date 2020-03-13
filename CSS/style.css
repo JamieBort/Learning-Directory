@@ -1,0 +1,31 @@
+
+
+/* =========================================== */
+/* Style for mobile */
+/* =========================================== */
+
+
+
+/* =========================================== */
+/* Style for tablets */
+/* =========================================== */
+
+/* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
+
+@media (min-width: 40em) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/* =========================================== */
+/* Style for desktop */
+/* =========================================== */
+
+/* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
+
+@media (min-width: 60em) {
+  body {
+    background-color: lightblue;
+  }
+}
