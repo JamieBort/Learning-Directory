@@ -1,0 +1,44 @@
+html{
+  width: auto;
+  background: #45652D;
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  text-align: center;
+}
+
+h3{
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+h4{
+  font-size: 10px;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+.Audio{
+  display: flex;
+  justify-content: center;
+}
+.search{
+  text-align: center;
+}
+
+#results{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+}

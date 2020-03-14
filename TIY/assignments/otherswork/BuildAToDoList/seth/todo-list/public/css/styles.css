@@ -1,0 +1,17 @@
+li{
+  list-style: none;
+}
+
+html{
+  margin: 0 auto;
+
+}
+
+#wrapper{
+  margin: 0 auto;
+}
+
+#container{
+  width: 50%;
+  margin: 0 auto;
+}

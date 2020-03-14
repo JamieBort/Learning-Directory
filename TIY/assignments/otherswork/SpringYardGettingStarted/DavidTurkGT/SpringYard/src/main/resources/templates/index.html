@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Customer Report</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <div class="nav">
+        <a href="/">All Customers</a>
+        <a href="/add">Add Customer</a>
+      </div>
+    </div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr th:each="customer : ${customers}">
+              <td><a th:href="@{${customer.id}}" th:text="${customer.id}"></a></td>
+              <td><span th:text="${customer.firstname}"></span></td>
+              <td><span th:text="${customer.lastname}"></span></td>
+              <td><span th:text="${customer.phone}"></span></td>
+              <td><span th:text="${customer.email}"></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

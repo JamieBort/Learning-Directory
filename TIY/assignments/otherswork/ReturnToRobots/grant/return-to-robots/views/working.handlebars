@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Working Robos</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="title">
+      <a href="/"><h1>Working Robos</h1></a>
+    </div>
+    <div class="links">
+      <a href="/searching"><h3>Looking 4 Work</h3></a>
+      <a href="/employed"><h3>Currently Employed</h3></a>
+    </div>
+  </header>
+
+  <section id="index">
+    {{#robots}}
+      <!-- Displays only robots with jobs. -->
+      {{#if job}}
+        <div class="cards">
+          <a href="/{{username}}"><img src={{avatar}} class="avatar">
+      <h2>{{name}}</h2>
+      <p class="job">{{job}}, {{company}}</p>
+    </a>
+        </div>
+      {{/if}}
+    {{/robots}}
+  </section>
+</body>
+
+</html>

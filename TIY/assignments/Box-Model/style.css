@@ -1,0 +1,44 @@
+/*****************************/
+/**** Comment on my code *****/
+/*****************************/
+
+header {
+  background-color: Maroon;
+  color: white;
+  padding: .5em;
+  font-size: 2em
+}
+.one {
+  background-color: Red;
+  height: 385px;
+}
+.two {
+  /*border: blue 2px solid;*/
+
+
+    height: 321px;
+}
+.AA {
+  background-color: Maroon;
+  height: 225px;
+  margin: 64px 10px 32px 10px;
+}
+.three {
+  background-color: Brown;
+  height: 917px;
+  /*border: blue 2px solid;*/
+}
+.four {
+  background-color: Red;
+  height: 622px;
+  /*border: blue 2px solid;*/
+}
+.BB {
+  background-color: Maroon;
+  height: 412px;
+  margin: 70px 32px 140px 32px;
+}
+.five {
+  background-color: Black;
+  height: 204px;
+}

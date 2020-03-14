@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+td{
+  background-color: #64B255;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  height: 80px;
+  width: 80px;
+  border: 1px solid white;
+}
+
+td:hover{
+  background-color: #82C276;
+  color: grey;
+}
+
+td:active{
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+td.operator{
+  background-color: #82C276;
+  color: grey;
+}
+
+.operator:hover{
+  color: white;
+}
+
+.operator:active{
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+.clear:hover{
+  background-color: #82C276;
+}
+
+.clear:active{
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+span{
+  font-size: 25px;
+  margin: 0px;
+}
+
+td #inputfield {
+  justify-content: flex-end;
+}

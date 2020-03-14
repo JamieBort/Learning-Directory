@@ -1,0 +1,28 @@
+<h1>Soul Form</h1>
+
+<form action="/saveCollection" method="post">
+  <label for="firstName">First Name</label>
+  <input type="text" id="firstName" name="firstName" value="{{collection.firstName}}" />
+  <div class="fieldError">{{errors.firstName.message}}</div>
+  <br />
+
+  <label for="lastName">Last Name</label>
+  <input type="text" id="lastName" name="lastName" value="{{collection.lastName}}" />
+  <div class="fieldError">{{errors.lastName.message}}</div>
+  <br />
+
+  <label for="location">Location</label>
+  <input type="text" id="city" name="city" value="{{collection.location.city}}" placeholder="City" />
+  <input type="text" id="state" name="state" value="{{collection.location.state}}" placeholder="State" />
+  <br />
+
+  <label for="soulStrength">Soul Strength (1-100)</label>
+  <input type="number" id="soulStrength" name="soulStrength" value="{{collection.soulStrength}}" />
+  <br />
+
+  {{#if collection._id}}
+    <input type="hidden" name="id" value="{{collection._id}}" />
+  {{/if}}
+
+  <button class="button-primary">Save Soul</button>
+</form>

@@ -1,0 +1,136 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  background-color: #e9ebee;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color:olivedrab;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+
+#menu {
+  display: flex;
+  flex-flow: row, nowrap;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  background-color: olivedrab;
+  color: white;
+}
+
+.menuItem {
+  font-family: 'Roboto', sans-serif;
+  color: blanchedalmond;
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+.menuItem a {
+  font-family: 'Roboto', sans-serif;
+  color: blanchedalmond;
+}
+
+li+li {
+  border-left: 1px solid blanchedalmond;
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 0 0 20px;
+}
+
+textarea,
+input[type="text"],
+input[type="password"] {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 0 10px 10px 20px;
+}
+
+input[type=submit] {
+  padding: 10px;
+  margin: 0 10px 10px 20px;
+  color: blanchedalmond;
+  background-color: olivedrab;
+  border-radius: 5px;
+}
+
+input[type=submit]:hover {
+  color: blanchedalmond;
+  background-color: green;
+}
+
+.message {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  box-shadow: 2px 2px 2px #888888;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#wrapper-login,
+#wrapper-signup,
+#wrapper-create
+ {
+  margin-top: 40px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px #888888;
+  background-color: white;
+  border-radius: 5px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+#wrapper-create {
+  width: 500px;
+}
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+}
+#wrapper-likes,
+#wrapper-homepage {
+  padding: 50px 0 40px;
+}
+
+.line-1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.middle {
+  width: 75%;
+}
+
+input[type=submit] .btn-like {
+  padding: 0px;
+  color: blue;
+}
+
+.error {
+  color: red;
+}

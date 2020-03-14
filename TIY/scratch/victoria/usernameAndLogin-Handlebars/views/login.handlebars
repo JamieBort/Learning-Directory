@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Victoria's Super Ultimate Show Down Login Page That Does Nothing Awesomely</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <article class="wrapper" id="login">
+    <header>
+      <h1>Victoria's Corner of the Internet</h1>
+    </header>
+    <section>
+      <!-- this is the page that will display for /login
+      one form that has username and password inputs
+      and only one submit button -->
+      <ul class="error">
+        {{#errors}}
+          <li>{{msg}}</li>
+        {{/errors}}
+      </ul>
+      <form id="input" action="/login" method="POST">
+        <input class="input" type="text" name="username" placeholder="Login" value="">
+        <input class="input" type="password" name="password" placeholder="Password" value="">
+        <input class="button" type="submit" name="" value="login">
+      </form>
+      <div id="notAUser" class="error">
+        {{something}}
+      </div>
+    </section>
+  </article>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{"_id":{"$oid":"5990970399b394a8fa0d631e"},"passwordHash":"$2a$08$y1sCMhJtEwXsx.qMGkYYfuJ7RSjG/N2EE5DZrObnCDp68kNHfLDwu","username":"Helen","password":"Shaw","__v":0}
+{"_id":{"$oid":"5990971599b394a8fa0d631f"},"passwordHash":"$2a$08$5bTC/euMRqDTieje6D/y8ePApL6Vdja3tilGLG9cVc4pfliiNtIbe","username":"john","password":"doe","__v":0}
+{"_id":{"$oid":"5991b2aac228c1b8e213d754"},"passwordHash":"$2a$08$kTgDteZa8pYxb5kDZu7cjOiKmUB2rGvW7LBMar3msYIVUVrpwj5gS","username":"Helen","password":"shaw","__v":0}
+{"_id":{"$oid":"5991b2dec228c1b8e213d755"},"passwordHash":"$2a$08$Iww0eIOttMUrcQQ8XfCXgOhtOJ34BhGNUZ7ZikxV2mUj2Tu919kFm","username":"ree","password":"ree","__v":0}
+{"_id":{"$oid":"5991bbeb1010ddbc51bd403a"},"passwordHash":"$2a$08$22fqzmllXzgDb/EPa7aXkuDkYsoKTv2aEsaBtFKKtEQHfKuVjyN1m","username":"ree","password":"ree","__v":0}
+{"_id":{"$oid":"5992efc2f796f1d2cfff24bc"},"passwordHash":"$2a$08$IUcu6zlSZU/rLY2SNAMVr.WsBLHNBUa/5FNmSBAt9pPZcZ0IQ2Doa","username":"helen","password":"shaw","__v":0}
+{"_id":{"$oid":"59934a06f24a43ef2b244a3d"},"passwordHash":"$2a$08$.d7orYbwW8ZHySrLRvEJG.wQ8m8STMlaxGLjGAvH903bkNaOdOoru","username":"brett","password":"c","__v":0}

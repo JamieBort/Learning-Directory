@@ -1,0 +1,94 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url(img/bp.jpg);
+  margin: 0;
+}
+
+body>div {
+  background-color: white;
+  max-width: 80% none;
+  margin: 0 auto;
+}
+
+#site_header {
+  background-color: #ff8523;
+}
+
+#page_content{
+  padding: 20px;
+}
+
+.main_navigation a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1em 2em;
+  margin: 2em;
+  display: inline-block;
+}
+
+h2 {
+  color: #1fabe5
+}
+
+table, tr, td {
+  border: 2px solid blue;
+  border-collapse: collapse;
+}
+
+thead  td {
+  background-color: #1fabe5;
+  color: white;
+}
+
+tbody, tr, td{
+  padding: 10px;
+}
+
+td img {
+  width: 80px
+}
+
+form {
+  background: grey;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+.name {
+  background: orange;
+  padding: 15px;
+}
+
+.city_container {
+  margin: 20px 0;
+}
+
+
+label {
+  
+}
+
+
+
+}
+
+}
+
+}

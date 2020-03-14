@@ -1,0 +1,78 @@
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header h1, header h2 {
+  align-self: center;
+}
+
+header h2 {
+  font-weight: 500;
+}
+
+header input {
+  width: 250px;
+}
+
+header a {
+  align-self: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.employbutton  {
+  font-size: 2rem;
+  align-self: center;
+}
+
+/* User Directory */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 5%;
+}
+
+.users {
+  border: 1px solid lightgrey;
+  flex-basis: 15%;
+  padding: 10px;
+  margin: 1% .5%;
+}
+
+#name {
+  color: blue;
+}
+
+#job {
+  color: grey;
+}
+
+
+.wrapper {
+  margin-left: 2.5%
+}
+
+#avatar {
+  border: 1px solid lightgrey;
+  border-radius: 360px;
+  float: left;
+  margin-right: 32px;
+}
+
+#name2 {
+  font-size: 3rem;
+}
+
+#back {
+  margin-left: 2.5%;
+}

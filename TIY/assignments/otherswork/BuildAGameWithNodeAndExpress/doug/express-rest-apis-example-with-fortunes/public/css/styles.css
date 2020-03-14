@@ -1,0 +1,42 @@
+body {
+  font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  font-size: 2em;
+  margin: 1em;
+}
+
+input {
+  font-size: 2em;
+  margin: 2em;
+  display: block;
+  margin: 1em auto;
+  width: 75%;
+  text-align: center;
+}
+
+#fortune {
+  background-image: url(/images/cookie-left.png), url(/images/cookie-right.png), url(/images/paper.png);
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: top left, top right, top center;
+  background-size: auto, auto, 100% 268px;
+  height: 168px;
+  color: blue;
+  text-align: center;
+  padding-top: 63px;
+  padding-left: 234px;
+  padding-right: 283px;
+}
+
+#luckyNumbers div {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+  font-size: 2em;
+}

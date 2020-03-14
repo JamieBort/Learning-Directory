@@ -1,0 +1,12 @@
+body{
+  display: flex;
+    justify-content: center;
+  /*font-family: TBD;*/
+  background-image: url('../images/Eternal Sky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div id=wrapper>
+    <div id="container">
+
+      <form action="/" method="post" id="addForm">
+        <input type="text" name="todo" placeholder="Add a todo...">
+        <input type="submit" value="Add" class="addButton" >
+      </form>
+      <div id=todoList>
+
+        <ul>
+
+          {{ #todos }}
+          <li>
+            <form action="/completed" method="post">
+              <button class="completeButton">Mark as Complete</button>
+              <input type="text" name="completed" value="{{.}}" />
+            </form>
+          </li>
+
+          {{ /todos }}
+
+        </ul>
+        <div>
+          <div id=completedlist>
+            <h2>Completed Tasks</h2>
+            <ul>
+              {{ #completed }}
+              <li class="completedTasks">{{ . }}</li>
+              {{ /completed }}
+              </ol>
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<h1>List of Souls</h1>
+
+
+<table border="1">
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Location
+    </th>
+    <th>
+      Soul Strength
+    </th>
+    <th></th>
+  </tr>
+  {{#collections}}
+  <tr>
+    <td><a href="/collectionForm?id={{_id}}">{{lastName}}, {{firstName}} </a></td>
+    <td>{{#location}}{{city}}, {{state}}{{/location}}</td>
+    <td>{{soulStrength}}</td>
+    <td><a href="/deleteCollection/?id={{_id}}">Delete</a></td>
+  </tr>
+  {{/collections}}
+
+</table>

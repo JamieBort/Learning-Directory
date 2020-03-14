@@ -1,0 +1,116 @@
+
+Announcements:
+
+	- I will be out the rest of the week
+		- Brentice from Durham subbing
+			- talking about advanced SQL.
+
+Review:
+
+	- ???
+
+Lecture:
+
+	- Download Datagrip now:
+		- https://www.jetbrains.com/datagrip/
+		- 30 day trial
+		- can provide a full license later, if needed.
+
+	- Types of NoSQL Databases:
+		- https://newline.theironyard.com/courses/10/objective_lessons/163#storage
+		- Document Database 
+			- EG: Mongo
+		- Key-value Stores
+			- Amazon DynamoDB
+			- key / value pairs
+		- Columnar Database
+			- EG: Druid
+			- new to me 
+		- Graph Database
+			- EG: Neo4j
+			- data related by connections between nodes
+	
+	- NoSQL Pros/cons
+		- https://newline.theironyard.com/courses/10/objective_lessons/163#advantages
+		
+	- SQL databases
+		- More rigid
+		- Schema defined ahead of time
+		- Made up of rows and columns
+			- Columns define a particular datapoint
+				- name, age, height, color, price, quantity, taxable, etc
+			- Rows contain a set of data for each column
+				- Doug, 39, 6.0, pinkish, null, 1, false, true, etc...
+		- Tables related by keys and foreign keys
+			- https://newline.theironyard.com/courses/10/objective_lessons/163
+				- search for table example (user, addresses)
+	
+	- SQL Advantages:
+		- SQL has been in use in production for 30+ years
+		- SQL ACID transactions are extremely safe and data loss is extremely rare
+		- SQL data normalization helps prevent duplicate data
+		
+	- Restore DB:
+		https://tiy-learn-content.s3.amazonaws.com/27956d6e-people.sql
+		
+		- create database people;
+		- psql -d people < people.sql
+		
+	- Tour:
+		- Datagrip:
+			- https://www.jetbrains.com/datagrip/
+			- 30 day trial
+			- can provide a full license later, if needed.
+		- Show tables in people database
+		- Show relationships in people database
+			- Visualization
+	
+	- Create Database
+	
+	- Create Table
+		- Read the Postgres docs on:
+			- creating tables
+				- https://www.postgresql.org/docs/current/static/ddl-basics.html
+			- datatypes
+				- https://www.postgresql.org/docs/current/static/datatype.html
+
+	- Select
+	
+		- clauses:
+			- FROM
+			- WHERE
+		- Read the Postgres docs on:
+			- Basic queries.
+				- https://www.postgresql.org/docs/current/static/queries-overview.html
+			- The FROM clause
+				- https://www.postgresql.org/docs/current/static/queries-table-expressions.html#QUERIES-FROM
+			- The WHERE clause
+				- https://www.postgresql.org/docs/current/static/queries-table-expressions.html#QUERIES-WHERE
+
+	- Insert
+		- clauses:
+			- INTO
+			- VALUES
+		-  Read the Postgres docs on:
+			- The INSERT statement
+				- https://www.postgresql.org/docs/current/static/dml-insert.html
+	
+	- Update
+		- clauses
+			- SET
+			- WHERE
+		- Read the Postgres docs on:
+			 - Updating data
+				- https://www.postgresql.org/docs/current/static/dml-update.html
+	
+	- Delete
+		- clauses
+			- FROM
+			- WHERE
+		- Read the Postgres docs on:
+			- Deleting data
+				- https://www.postgresql.org/docs/9.5/static/dml-delete.html
+
+		
+		
+		

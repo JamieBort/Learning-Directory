@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <p>Guess a number</p>
+    <p>Attempts left: {{attemptsRemaining}}</p>
+
+    {{#if feedback}}
+      <p>{{feedback}}</p>
+    {{/if}}
+
+    <form action="/guess" method="post">
+      <input type="text" name="guess" maxlength="2" />
+      <button type="submit">Guess</button>
+    </form>
+
+  </body>
+</html>

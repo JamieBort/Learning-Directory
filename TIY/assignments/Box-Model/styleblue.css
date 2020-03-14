@@ -1,0 +1,56 @@
+/*****************************/
+/**** Comment on my code *****/
+/*****************************/
+
+header {
+  background-color: darkblue;
+  color: white;
+  padding: .5em;
+  /*margin:0px;*/
+  font-size: 2em;
+}
+/*
+section{
+  font-size: 200%;
+}*/
+
+.one {
+  font-size: 1.5em;
+  background-color: green;
+  height: 385px;
+  /*margin:0px;*/
+  padding: .016px
+
+}
+.two {
+  border: blue 2px solid;
+  margin:0;
+
+
+    height: 321px;
+}
+.AA {
+  background-color: blue;
+  height: 225px;
+  margin: 64px 10px 32px 10px;
+  font-size: 1.2em
+}
+.three {
+  background-color: Brown;
+  height: 917px;
+  border: blue 2px solid;
+}
+.four {
+  background-color: Red;
+  height: 622px;
+  border: blue 2px solid;
+}
+.BB {
+  background-color: Maroon;
+  height: 412px;
+  margin: 70px 32px 140px 32px;
+}
+.five {
+  background-color: Black;
+  height: 204px;
+}

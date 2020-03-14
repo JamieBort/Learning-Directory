@@ -1,0 +1,62 @@
+.coverpage {
+  background-image: url(images/Collapse-Ruin-Wall-Decay-Broken-Brickwork-Brick-2205882.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.startScreen {
+  display: block;
+  background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcREHrU7MtNx33zAf3CcZvXi7wKCN8qgyMPZiJ2XVTwuwIaXbwxN7Q);
+  background-repeat: no-repeat;
+
+
+}
+
+#game {
+  display: hidden;
+}
+
+.play {
+  border: black solid 5px;
+  color: red;
+  width: 60px;
+  height: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  background-color: yellow;
+  border-radius: 25%;
+  position:absolute;
+  transition: .5s ease;
+  top: 60%;
+  left: 50%;
+}
+
+
+
+h1 {
+  color: yellow;
+  text-shadow: -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
+  font-size: 50px;
+  text-align: center;
+  margin: 10% auto;
+  line-height: 1px;
+
+}
+
+body{
+  background-color: #ff33cc;
+}
+
+
+canvas {
+  background-image: url(http://cdn.business2community.com/wp-content/uploads/2016/03/Vd3MJo.jpg);
+  margin-top: 20px;
+  margin-left: 150px;
+  padding-bottom: 15px;
+ }

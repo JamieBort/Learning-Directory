@@ -1,0 +1,170 @@
+html{
+  width: 100%;
+  margin: 0 auto;
+  animation: lights 5s 1s infinite alternate;
+}
+
+@keyframes lights{
+  0%{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  25%{
+    background-color: rgba(102, 196, 234, 0.5);
+  }
+  50%{
+    background-color: rgba(244, 237, 51, 0.5);
+  }
+  75%{
+    background-color: rgba(44, 246, 13, 0.5);
+  }
+  100%{
+    background-color: rgba(19, 42, 214, 0.81);
+  }
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+	background-image: url("rock_out.jpg");
+  background-size: cover;
+  border-radius: 50px;
+	background-position: center;
+}
+
+marquee{
+  font-family: "Sedgwick Ave Display", cursive;
+  margin-top: 20px;
+  font-size: 24px;
+  height: 50px;
+  color: violet;
+}
+
+header{
+  height: 200px;
+}
+
+.container{
+  height: 1000px;
+  width: 100%;
+  margin: 10px auto;
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+h1{
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 48px;
+  color: violet;
+}
+
+.player{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.search-form{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  border-bottom: 2px solid grey;
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+input{
+  margin: 0 auto;
+  width: 40%;
+  height: 50px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 30px;
+  color: black;
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+
+#submit{
+  width: 20%;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 10px auto;
+  font-family: 'Alfa Slab One', cursive;
+  background: transparent;
+}
+
+#clear{
+  width: 20%;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 0 auto;
+  font-family: 'Alfa Slab One', cursive;
+  background: transparent;
+}
+
+#results{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(180, 180, 250, 0.5);
+}
+
+h3{
+  font-size: 24px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: black;
+  text-decoration: underline;
+}
+
+h4{
+  font-size: 20px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: white;
+}
+
+.artist_profile{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  padding: 20px;
+  text-align: center;
+}
+
+.artist_profile img{
+  width: 50%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.artist_profile button{
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 10px;
+}
+
+.artist_profile a{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: italic;
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.artist_profile audio{
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 10px;
+}

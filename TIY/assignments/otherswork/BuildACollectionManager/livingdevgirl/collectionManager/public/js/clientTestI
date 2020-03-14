@@ -1,0 +1,3 @@
+function findRobots(){
+
+fetch(../data.js)

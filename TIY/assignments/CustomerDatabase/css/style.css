@@ -1,0 +1,9 @@
+.social {
+	color: transparent;
+	text-shadow: 0 0 5px #000;
+}
+
+.social:hover {
+  color: black;
+  text-shadow: none;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Index</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Robot Employee Database</h1>
+  <div class="rows">
+
+    {{#users}}
+      <div class="profiles">
+        <img src="{{avatar}}">
+        <a href="/{{username}}"><h2>{{name}}</h2></a>
+        <h3>Position: {{job}}</h3>
+        <h4>Company: {{company}}</h4>
+      </div>
+    {{/users}}
+  </div>
+
+</body>
+
+</html>

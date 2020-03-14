@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {{#users}}
+    <title>{{name}}'s User Page'</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+        <img src="{{avatar}}" id="avatar">
+        <h1 id="name2">{{name}}</h1>
+        <h4>{{address.city}}, {{address.country}} | {{job}} {{company}}</h4>
+        <h4>{{email}} | {{phone}}</h4>
+        <h4><strong>Education</strong>:  {{university}}</h4>
+        <h4><strong>Skills</strong>: {{#skills}}{{.}}<br>{{/skills}}</h4>
+      {{/users}}
+    </div>
+    <a href="/" id="back">Home</a>
+  </body>
+</html>

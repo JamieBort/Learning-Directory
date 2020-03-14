@@ -1,0 +1,25 @@
+
+#IndexNav{
+  display: flex;
+  width: 100%;
+}
+#logo{
+  /*float:left;*/
+}
+#logo img{
+  width: 50%;
+  height: auto;
+}
+#NavDiv{
+  border: 1px solid black;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#NavSection{
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}

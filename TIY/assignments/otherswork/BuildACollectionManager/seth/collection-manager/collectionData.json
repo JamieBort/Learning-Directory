@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5988bed95d712f0780cd8f48"},"firstName":"Seth","lastName":"Carrino","soulStrength":75,"__v":0}
+{"_id":{"$oid":"5988c1b823a4a807c5350592"},"firstName":"Sho","lastName":"Weiner","soulStrength":1,"location":[],"__v":0}
+{"_id":{"$oid":"5988c61f855e32086abafc69"},"firstName":"Oh","lastName":"Yes","soulStrength":3,"location":[],"__v":0}
+{"_id":{"$oid":"5988ca84bf7d3b08b87f96e2"},"firstName":"Seth","lastName":"Broham","soulStrength":55,"__v":0}

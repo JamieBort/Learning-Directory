@@ -1,0 +1,212 @@
+/*
+Color Pallete:
+
+background: #222
+main theme color: #E64132;
+link color: #5f084c
+secondary color: #2f3c5e
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/*------- Main Styles -------*/
+
+*{
+  font-family: 'Oswald';
+}
+
+body {
+  background-color: #222;
+  color: white;
+
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  font-size: 18px;
+}
+
+h3{
+  font-size: 13px;
+  color: #E64132;
+}
+
+
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+header img{
+  width: 20%
+
+}
+
+/*------ Song List Styles -------*/
+
+.results{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.songContainer{
+  width: 20%;
+  padding: 1em;
+
+}
+
+.songContainer img{
+  width: 90%;
+  height: auto;
+
+}
+
+/*------- Search Bar & Form Styles ------*/
+
+.search{
+
+}
+
+.search-form{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+#search{
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+
+#searchButton{
+  background-color: #E64132;
+  border: none;
+  color: white;
+  padding: 1em;
+  display: flex;
+  flex-basis: 10%;
+  margin-left: 3em;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+form input[type="search"] {
+
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px 'Merriweather', serif;
+    height: 45px;
+    color: #E64132;
+    font-family: 'Oswald';
+    font-size: 18px;
+}
+
+/*------ Audio Section Styles ----*/
+
+.player{
+  display: flex;
+  justify-content: center;
+  padding: 1.8em;
+  width: 75%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.music-player{
+  width: 100%;
+}
+
+.playSong{
+  border: none;
+  padding: .5em;
+  margin-top: 1em;
+  margin-right: 1em;
+  background-color: white;
+  color: #E64132;
+  border-radius: 5px;
+  font-size: 12px;
+  outline: none;
+}
+
+.buySong{
+  border: none;
+  padding: .5em;
+  margin-top: 1em;
+  margin-right: 1em;
+  background-color: #E64132;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  outline: none;
+}
+
+#nowPlaying {
+  display: flex;
+  flex-direction: row;
+ height: 50px;
+ overflow: hidden;
+ position: relative;
+}
+
+#nowPlaying p{
+ font-size: 1.5em;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ color: #E64132;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: nowPlaying 20s linear infinite;
+ -webkit-animation: nowPlaying 20s linear infinite;
+ animation: nowPlaying 20s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes nowPlaying {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes nowPlaying {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes nowPlaying {
+ 0%   {
+ -moz-transform: translateX(100%);
+ -webkit-transform: translateX(100%);
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%);
+ -webkit-transform: translateX(-100%);
+ transform: translateX(-100%);
+ }
+}

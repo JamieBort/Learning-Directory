@@ -1,0 +1,17 @@
+<h1>Login</h1>
+
+
+
+{{#if failed}}
+Login failed :(
+{{/if}}
+
+<form action="/login" method="post">
+  Email: <input type="text" name="username" /><br />
+  Password: <input type="password" name="password" /><br />
+  <button>login</button>
+  <br>
+  <form action="/register" method="post">
+  <button>Register</button>
+  </form>
+</form>

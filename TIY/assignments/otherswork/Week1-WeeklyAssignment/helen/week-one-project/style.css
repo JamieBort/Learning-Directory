@@ -1,0 +1,286 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+/*Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
+
+body {
+  margin: 0 auto;
+}
+
+.topNav {
+  height: 80px;
+  background: white;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+.topNav ul {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.topNav img {
+  width: 50%;
+  margin-left: none;
+}
+
+.anchors {
+  margin-left: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topNav a {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #968772;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.topNav a:hover {
+  color: #CD5D67;
+}
+
+
+/*==========================section==========================*/
+
+.middle {
+  width: 100%;
+  height: 900px;
+  /*border: solid black;*/
+  background: #F2F1E8;
+  margin-top: 80px;
+}
+
+.headers {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: #131511;
+  padding: 30px;
+}
+
+.headers h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.headers h3 {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.gallery {
+  height: 70%;
+  width: 100%;
+}
+
+
+/*==============row1=============*/
+
+.row1 {
+  /*border: solid black;*/
+  height: 52%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 5px;
+}
+
+.img1 {
+  padding: 5px;
+  width: 60%;
+  height: 100%;
+}
+
+.img1 img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.img2 {
+  padding: 5px;
+  width: 19%;
+  height: 100%;
+}
+
+.img2 img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.img3 {
+  padding: 5px;
+  width: 19%;
+  height: 100%;
+}
+
+.img3 img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.row1 p {
+  position: relative;
+  bottom: 80px;
+  font-family: 'Merriweather', serif;
+  background: #2B2F26;
+  color: #F2F1E8;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 5px;
+}
+
+.img1 p {
+  width: 20%;
+}
+
+.img2 p {
+  width: 15%;
+}
+
+.img3 p {
+  width: 28%;
+}
+
+
+/*==============row1=============*/
+
+.row2 {
+  /*border: solid black;*/
+  margin-top: 0 auto;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 5px;
+}
+
+.img4 {
+  /*border: solid black;*/
+  padding: 5px;
+  width: 20%;
+  height: 100%;
+}
+
+.img4 img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.img5 {
+  /*border: solid black;*/
+  padding: 5px;
+  width: 20%;
+  height: 100%;
+}
+
+.img5 img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.img6 {
+  /*border: solid black;*/
+  padding: 5px;
+  width: 40%;
+  height: 100%;
+}
+
+.img6 img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.img7 {
+  /*border: solid black;*/
+  padding: 5px;
+  width: 20%;
+  height: 100%;
+}
+
+.img7 img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.row2 p {
+  position: relative;
+  bottom: 80px;
+  font-family: 'Merriweather', serif;
+  background: #2B2F26;
+  color: #F2F1E8;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 5px;
+}
+
+.img4 p {
+  width: 30%;
+}
+
+.img5 p {
+  width: 57%;
+}
+
+.img6 p {
+  width: 25%;
+}
+
+.img7 p {
+  width: 63%;
+}
+
+
+/*==============footer==============*/
+
+footer {
+  border: solid #2B2F26;
+  font-family: 'Merriweather', serif;
+  background: #2B2F26;
+  color: #F2F1E8;
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: none;
+}
+
+#footerp {
+  padding: 15px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Robots</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Employed Robots</h1>
+      <a href="/" id="back">Home</a>
+    </header>
+    <div class="container">
+      {{#users}}
+      <div class="users">
+        <a href="/users/{{username}}"><img src="{{avatar}}"></a>
+        <h2 id="name">{{name}}</h2>
+        <h5 id="job">{{job}} {{company}}</h5>
+      </div>
+      {{/users}}
+    </div>
+  <script src="main.js"></script>
+  </body>
+</html>

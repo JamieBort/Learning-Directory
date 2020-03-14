@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>USER</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <h1>USER</h1>
+<a href="/"><h5>home</h5></a>
+
+  <div class="users">
+    {{#robots}}
+
+<img class="radius" src= {{avatar}}>
+      <div class="right">
+        <h1 class="name">{{name}}</h1>
+        <p><b>Education: </b> {{university}}</p>
+        <p><b>Skills: </b> {{skills}}</p>
+        <p>{{address.country}} | {{job}}</p>
+        <p>{{email}} | {{phone}}</p>
+      </div>
+
+    {{/robots}}
+  </div>
+
+
+
+</body>
+
+</html>

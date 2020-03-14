@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivial Express App</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <style>
+        body { padding-top:50px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="jumbotron">
+            <h1>Fill Murray Pictures</h1>
+            <h3>A Trivial Node App</h3>
+        </header>
+        <section class="row">
+          <h3 class="col-xs-12 col-md-12">Fill Murray Images</h3>
+          <ul class="list-group col-xs-12 col-md-12">
+            <li class="list-group-item">
+              <p>Access the files in the browser:</p>
+              <pre><code>localhost:3000/files/murray1.jpg</code></pre>
+              <p>Or use the links below:</p>
+            </li>
+            <li class="list-group-item">
+              <a href="http://localhost:3000/files/murray1.jpg">Image 1</a>
+            </li>
+            <li class="list-group-item">
+              <a href="http://localhost:3000/files/murray1.jpg">Image 2</a>
+            </li>
+            <li class="list-group-item">
+              <a href="http://localhost:3000/files/murray3.jpg">Image 3</a>
+            </li>
+          </ul>
+        </section>
+        <section class="row">
+          <header class="jumbotron">
+            <h2>App Configuration</h2>
+          </header>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="files/murray1.jpg" alt="...">
+              <div class="caption">
+                <h3>Default Route</h3>
+                <h4>Listen on <code>root</code></h4>
+                <h4>Serve <code>index.html</code></h4>
+                <code>app.get('/', function (req, res) {
+res.sendFile(path.join(__dirname + '/index.html'));
+})</code>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="files/murray2.jpg" alt="...">
+              <div class="caption">
+                <h3>Set Static Files In A Directory</h3>
+                <p>configure <code>express.static</code> to use a virtual prefix (<code>/files</code>) and an absolute path.</p>
+                <code>app.use('/files', express.static(path.join(__dirname, 'files')));</code>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="files/murray3.jpg" alt="...">
+              <div class="caption">
+                <h3>Listen On Port 3000</h3>
+                <code>app.listen(3000, function () {
+                  console.log('Successfully started node application!')
+                })</code>
+              </div>
+            </div>
+          </div>
+        </section>
+    </div>
+
+</body>
+</html>

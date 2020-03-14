@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ToDoList</title>
+  
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+<!-- Title -->
+<h1>To Do Page</h1>
+
+<!-- Form -->
+<form id="input" action="/" method="post">
+    <input class="input" type="text" name="item" placeholder="Type an item that you want added to your to-do list." value="">
+    <input class="button" type="submit" name="" value="Add Item your item to the to-do list">
+</form>
+
+<!-- ToDo Items -->
+<section id = "one">
+    <h2>To Do Items</h2>
+    {{#data}}
+        <ul>
+            <li>
+                <form class="todo" action="/{{id4}}" method="post">
+                    <span>{{text2}}</span>
+                    <input type="submit" value="The item was completed." />
+                </form>
+            </li>
+        </ul>
+    {{/data}}
+</section>
+
+<section id = "two">
+<!-- Done Items -->
+    <h2>Done Items</h2>
+    {{#doneList}}
+        <ul>
+            <li>
+                <span>{{text2}}</span>
+            </li>
+        </ul>
+    {{/doneList}}
+</section>
+
+</body>
+</html>

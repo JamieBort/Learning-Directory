@@ -1,0 +1,28 @@
+
+
+    <table table align='center'>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Year Released
+        </th>
+        <th>
+          Outputs
+        </th>
+        <th>
+          Digital/Analogue
+        </th>
+      </tr>
+      {{#dmachines}}
+      <tr>
+        <td><a href="/dmForm?id={{_id}}">{{Name}} </a></td>
+        <td>{{yearReleased}}</td>
+        <td>{{components.outputs}}</td>
+        <td>{{components.digitalOranalogue}}</td>
+        <td><a href='/delete/?id={{_id}}'>Delete</a></button></td>
+      </tr>
+      {{/dmachines}}
+
+    </table>

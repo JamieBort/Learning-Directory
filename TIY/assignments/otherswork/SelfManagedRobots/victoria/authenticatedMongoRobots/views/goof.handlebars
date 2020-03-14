@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Directory</title>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+
+<body>
+
+  <a href="/">Go Back</a>
+
+  <div id="wrapper">
+    <div id="user">
+      <a href="/{{username}}"><img src={{avatar}}></a>
+      <h1>{{name}}</h1>
+
+      <!-- <p class="info" id="origin">{{state_or_province}},{{country}}</p> -->
+      <p class="info" id="origin">
+        {{#if address.city}}{{address.city}}, {{/if}}
+        {{#if address.state_or_province}}{{address.state_or_province}}, {{/if}}
+        {{address.country}}
+      </p>
+      <!-- <vr> -->
+
+      {{#if job}}
+      <p class="info" id="work">{{job}}, {{company}}</p>
+      {{/if}}
+      {{^job}}
+      <p id="availability">Available for hire</p>
+      {{/job}}
+
+      <p class="info" id="contact">{{email}}</p>
+      <!-- <vr> -->
+      <p class="info" id="contactNum">{{phone}}</p>
+
+      <h3>Education</h3>
+      <p class="info" id="edu">{{university}}</p>
+
+      <h3>Skills</h3>
+      <p class="info" id="skil">{{skills}}</p>
+    <!-- "email":
+    "university"
+    "skills"
+    "phone"
+    "address"
+    "street_num"
+    "street_name"
+    "city"
+    "state_or_province"
+    "postal_code"
+    "country" -->
+    </div>
+  </div>
+</body>
+
+</html>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help

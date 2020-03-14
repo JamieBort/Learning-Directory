@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Puppies!</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <a id="logo">
+        <img id="logo_img" src="./images/logo.png" alt="">
+      </a>
+      <nav id="nav" class="main_navigation">
+        <a href="#">Puppies</a>
+        <a href="#">Dog Breeds</a>
+        <a href="#">So Cute</a>
+      </nav>
+    </header>
+    <div id="page_content">
+      <section>
+        <h1>Puppies are pretty much the best...</h1> Humans have had a strong affinity for dogs of all sorts for <a href="#">tens of thousands of years</a>. We have an undeniable and unique social connection to them. <strong>Our love of puppies</strong> is a direct extension of that affinity.
+        <h3>So why do we love puppies?</h3>
+        <ul>
+          <li>Large eyes and head</li>
+          <li>Soft fluffy bodies</li>
+          <li>Adorable antics</li>
+        </ul>
+      </section>
+      <div class="line">
+        <h1 id="table_title">Table</h1>
+        <p>Below, you'll find some of the information about a few of the cutest puppies ever.</p>
+      </div>
+      <section>
+        <!-- <table> -->
+        <!-- For mobile version omit images of animals. Have the option to display the picture when the button of it is tapped. -->
+        <table>
+          <!-- <tr id="row_one">
+            <td id="">Breed</td>
+            <td>Image</td>
+            <td>Weight</td>
+            <td>Origin</td>
+            <td>Markings</td>
+          </tr> -->
+
+
+
+
+          <tr class="thumbwrap">
+            <td class="TextCell">Chow Chow</td>
+            <td>
+              <!-- new code -->
+              <div class="popup" onclick="myFunction()">Tap for picture.
+                <img class="popuptext" id="myPopup" src="http://itchmo.com/wp-content/uploads/2007/06/cat-facts.jpg" alt="">
+              </div>
+              <!-- new code -->
+              <!-- <a class="thumb" href="#">Tap for Picture.</a> -->
+            </td>
+            <td class="TextCell">45-70lb</td>
+            <td class="TextCell">China</td>
+            <td class="TextCell">Thick and course coat; red, brown and black</td>
+          </tr>
+          <tr class="thumbwrap">
+            <td class="TextCell">Doberman Pinscher</td>
+            <td>
+              <!-- new code -->
+              <div class="popup" onclick="myFunction2()">Tap for picture.
+                <!-- <span class="popuptext" id="myPopup">Popup text...</span> -->
+                <img class="popuptext" id="myPopup2" src="https://static.pexels.com/photos/159541/wildlife-photography-pet-photography-dog-animal-159541.jpeg" alt="">
+              </div>
+              <!-- new code -->
+              <!-- <a class="thumb" href="#">Tap for Picture.</a> -->
+            </td>
+            <td class="TextCell">32-45lb</td>
+            <td class="TextCell">Germany</td>
+            <td class="TextCell">Short coat; black, red, brown, blue</td>
+          </tr>
+          <trclass="thumbwrap">
+            <td class="TextCell">Golden Retriever</td>
+            <td>
+              <!-- new code -->
+              <div class="popup" onclick="myFunction3()">Tap for picture.
+                <img class="popuptext" id="myPopup3" src="https://www.gohawaii.com/sites/default/files/styles/listing_large/public/mmg_lfef_images/wild-side-specialty-tours-1417-3bfdc9c742b4c9191e2d35f729f96ee2.jpg?itok=Wu4LBENY" alt="">
+              </div>
+              <!-- new code -->
+              <!-- <a class="thumb" href="#">Tap for Picture.</a> -->
+            </td>
+            <td class="TextCell">55-75lb</td>
+            <td class="TextCell">Scotland</td>
+            <td class="TextCell">Straight or wavy fur; cream and gold</td>
+            </tr>
+        </table>
+      </section>
+      <div class="line">
+        <h1 id="form_title">Puppy love!</h1>
+        <p>Tell us why you love puppies. Favorite Breed:</p>
+      </div>
+      <form class="" action="index.html" method="post">
+        <div class="div_one" class="cheese" id="form_div">
+          <div id="orange" class="">
+            <div class="">
+              <label for="">First Name</label>
+              <input id="jazz" type="text" name="" value="">
+            </div>
+            <div class="">
+                <label for="">Last Name</label>
+                <input type="text" name="" value="">
+            </div>
+          </div>
+
+
+          <label class="cheese" id="FavoriteBreed" for="">Favorite Breed:</label>
+          <select name="">
+
+<!-- TODO: Make it so the 'Pick One' option cannot be used/sent to the database. -->
+            <option value="">Pick One</option>
+            <option value="one">Chow Chow</option>
+            <option value="">Doberman Pinscher</option>
+            <option value="">Golden Retriever</option>
+          </select>
+          <p class="div_one" class="cheese">Why do you love puppies?</p>
+          <!-- <textarea class="div_one" id="textarea" class="cheese" name="name" rows="8" cols="80">Puppies are the best because...</textarea> -->
+          <textarea class="div_one" id="textarea" class="cheese" name="name" rows="8" cols="80">Puppies are the best ...</textarea>
+          <button type="button" name="button">Submit!</button>
+        </div>
+      </form>
+      <div class="line"></div>
+    </div>
+  </div>
+
+
+
+  <!-- new code -->
+  <script>
+    // When the user clicks on <div>, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+    function myFunction2() {
+      var popup = document.getElementById("myPopup2");
+      popup.classList.toggle("show");
+    }
+    function myFunction3() {
+      var popup = document.getElementById("myPopup3");
+      popup.classList.toggle("show");
+    }
+  </script>
+  <!-- new code -->
+
+
+</body>
+
+</html>

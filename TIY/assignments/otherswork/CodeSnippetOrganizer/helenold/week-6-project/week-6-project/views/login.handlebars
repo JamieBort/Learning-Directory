@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+     <h1>Log In</h1>
+     <a href="/">Home</a>
+   </header>
+
+   <ul class="error">
+     {{#errors}}
+      <li>{{msg}}</li>
+      {{/errors}}
+  </ul>
+
+   <section>
+     <form class="form" action='/login' method="post">
+
+         <input type="text" name="username" value="" placeholder="Username">
+
+         <input type="password" name="password" value="" placeholder="Password">
+
+       <button type="submit" name="button">Login</button>
+
+       <a class="signup" href="/signup">Register</a>
+     </form>
+
+
+      <div class="errors">
+        {{invalid}}
+      </div>
+
+
+  </body>
+</html>

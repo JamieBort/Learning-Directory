@@ -1,0 +1,3 @@
+The first variable is: 1.
+The second variable is: true.
+The third variable is: My text string.

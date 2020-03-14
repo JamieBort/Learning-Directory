@@ -1,0 +1,31 @@
+
+    <h1>Add to Collection</h1>
+
+    <form action="/saveDm" method="post">
+      <label for="Name">Drum Machine</label>
+      <input type="text" id="Name" name="Name" value="{{dmachines.Name}}" />
+      <div class="fieldError">{{errors.Name.message}}</div>
+      <br />
+
+      <label for="yearReleased">Year Released</label>
+      <input type="text" id="yearReleased" name="yearReleased" value="{{dmachines.yearReleased}}"/>
+      <div class="fieldError">{{errors.yearReleased.message}}</div>
+      <br />
+
+      <label for="outputs">Outputs</label>
+      <input type="text" id="outputs" name="components.outputs" value="{{dmachines.components.outpust}}"/>
+      <div class="fieldError">{{errors.outputs.message}}</div>
+      <br />
+
+      <label for="digitalOranalogue">Digital/Analogue</label>
+      <input type="text" id="digitalOranalogue" name="components.digitalOranalogue" value="{{dmachines.components.digitalOranalogue}}"/>
+      <div class="fieldError">{{errors.digitalOranalogue.message}}</div>
+      <br />
+
+
+      {{#if dmachines._id}}
+        <input type="hidden" name="id" value="{{dmachines._id}}" />
+      {{/if}}
+
+      <button class ="primary">Save dmachines</button>
+    </form>

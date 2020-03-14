@@ -1,0 +1,25 @@
+<h1>Add to Collection</h1>
+
+    <form action="/save" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="user.name" value="${{user.name}}"/>
+      <div class="fieldError">{{errors.name.message}}</div>
+      <br />
+
+      <label for="email">E-mail</label>
+      <input type="text" id="yearReleased" name="user.email" value="{{user.email}}"/>
+      <div class="fieldError">{{errors.email.message}}</div>
+      <br />
+
+      <label for="outputs">Avatar</label>
+      <input type="text" id="outputs" name="user.avatar" value="{{user.avatar}}"/>
+      <div class="fieldError">{{errors.outputs.message}}</div>
+      <br />
+
+
+      {{#if user._id}}
+        <input type="hidden" name="id" value="{{user._id}}" />
+      {{/if}}
+
+      <button class ="primary">Save</button>
+    </form>

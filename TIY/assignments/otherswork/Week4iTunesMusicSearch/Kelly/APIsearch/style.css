@@ -1,0 +1,92 @@
+html {
+  width: auto;
+  background: linear-gradient(#FE651A, #FF41DE, #6F38E8, #67D6FF);
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(#FE651A, #FF41DE, #6F38E8, #67D6FF);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  border-radius: 150px;
+  height: 100px;
+  width: 100px;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 65px;
+}
+
+#searchSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#userSearch {
+  width: 50%;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  outline: none;
+  margin-left: 20%;
+}
+
+#searchButton {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background: white;
+  font-size: 15px;
+  outline: none;
+}
+
+#musicPlayer {
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 25px;
+}
+
+#searchResults {
+  height: 100%;
+  margin-top: 25px;
+}
+
+div {
+  display: inline-flex;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bolder;
+}

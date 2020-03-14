@@ -1,0 +1,149 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
+
+body {
+  margin: 0 auto;
+}
+
+.topNav {
+  height: 80px;
+  background: white;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+.topNav ul {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.topNav img {
+  width: 50%;
+  margin-left: none;
+}
+
+.anchors {
+  margin-left: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topNav a {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #968772;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.topNav a:hover {
+  color: #CD5D67;
+}
+
+
+/*================section============*/
+
+#background {
+  margin-top: 80px;
+  position: relative;
+}
+
+#background img {
+  width: 100%;
+  position: absolute;
+}
+
+#innerContent {
+  height: 400px;
+  width: 800px;
+  position: relative;
+  left: 280px;
+  top: 100px;
+  padding: 5px;
+  background-color: #F2F1E8;
+}
+
+#innerContent h2 {
+  text-align: center;
+  color: #131511;
+  font-family: 'Merriweather', serif;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+#innerContent h3 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #131511;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+form {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: #968772;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  border-bottom: 1.5px solid #968772;
+}
+
+.email {
+  border-top: 20px solid #F2F1E8;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  border-bottom: 2px solid #968772;
+}
+
+.form input {
+  border: none;
+  width: 100%;
+  background: #F2F1E8;
+}
+
+button {
+  position: relative;
+  left: 40%;
+  margin: 10px;
+  border: none;
+  background-color: #968772;
+  border: none;
+  color: #F2F1E8;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}

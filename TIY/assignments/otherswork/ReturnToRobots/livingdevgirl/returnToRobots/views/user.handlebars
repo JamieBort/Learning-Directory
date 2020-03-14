@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+<a href="/">return</a>
+  </header>
+
+    <section class="robotGuy">
+
+
+        <img class="userAvatar" src="{{avatar}}" alt="">
+
+      <section class="robotdetails">
+        <h1>{{name}}</h1>
+
+        <h3 class="job">{{job}}</h3>
+
+        <h3>Skills</h3>
+        {{#skills}} <p>{{.}}, </p>{{/skills}}
+      </section>
+
+
+    </section>
+
+
+
+
+</body>
+</html>

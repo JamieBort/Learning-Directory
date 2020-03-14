@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User Directory</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+
+    <h1>Edit Account Details</h1>
+
+    <form action="/save" method="post">
+
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" value="{{user.username}}" />
+      <div class="fieldError">{{errors.username.message}}</div>
+      <br />
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" value="{{user.name}}" />
+      <div class="fieldError">{{errors.name.message}}</div>
+      <br />
+
+      <label for="avatar">Avatar</label>
+      <input type="text" id="avatar" name="avatar" value="{{user.avatar}}" />
+      <div class="fieldError">{{errors.avatar.message}}</div>
+      <br />
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" value="{{user.email}}" />
+      <div class="fieldError">{{errors.email.message}}</div>
+
+      <label for="university">University</label>
+      <input type="text" id="university" name="university" value="{{user.university}}" />
+      <div class="fieldError">{{errors.university.message}}</div>
+      <br />
+
+      <label for="job">Job</label>
+      <input type="text" id="job" name="job" value="{{user.job}}" />
+      <div class="fieldError">{{errors.job.message}}</div>
+      <br />
+
+      <label for="company">Company</label>
+      <input type="text" id="company" name="company" value="{{user.company}}" />
+      <div class="fieldError">{{errors.company.message}}</div>
+      <br />
+
+      {{#if user._id}}
+        <input type="hidden" name="id" value="{{user._id}}" />
+      {{/if}}
+
+      <button class="button-primary">Update</button>
+    </form>
+
+  <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <th>Title</th>
+        <th>Language</th>
+        <th>Tags</th>
+        <th>Body</th>
+        <th>Notes</th>
+      </tr>
+      {{#snippets}}
+        <tr>
+          <td><a href="searches/add?id={{_id}}">{{title}}</a></td>
+          <td>{{language}}</td>
+          <td>{{tags}}</td>
+          <td>{{body}}</td>
+          <td>{{notes}}</td>
+        </tr>
+      {{/snippets}}
+
+    </table>
+  </body>
+</html>

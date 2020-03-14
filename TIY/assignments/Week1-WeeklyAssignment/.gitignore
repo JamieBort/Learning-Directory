@@ -1,0 +1,4 @@
+### macOS template
+# General
+*.DS_Store
+*__MACOSX

@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="site_wrapper">
+
+        <a id="logo" href="#"><img src="img/logo.svg" alt="SHAPES! Logo"></a>
+
+        <nav id="main_nav">
+            <a href="#">Home</a>
+            <a href="#">Geometry</a>
+            <a href="#">Design</a>
+        </nav>
+
+        <header id="site_header">
+            <h1>So Many Shapes!</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolores a, ipsum odit, pariatur omnis fugiat ipsa enim, numquam accusantium tempore eligendi cum autem iusto quis, assumenda neque facilis? Quis? Pariatur omnis fugiat ipsa enim, numquam accusantium tempore eligendi cum autem iusto quis, assumenda neque facilis? Quis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+            <p>Delectus animi dolorem sapiente facilis expedita illum repudiandae.</p>
+        </header>
+
+        <main>
+            <ul>
+                <li>
+                    <img src="img/triangle.svg" alt="Triangle">
+                    <h4>Triangle</h4>
+                    <p>Sides: 3</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolores a, ipsum odit, pariatur omnis fugiat ipsa enim</p>
+                    <p>Categories: <a href="">green</a>, <a href="">poly</a></p>
+                </li>
+                <li>
+                    <img src="img/wedge.svg" alt="Wedge">
+                    <h4>Wedge</h4>
+                    <p>Sides: 3</p>
+                    <p>Pariatur omnis fugiat ipsa enim, numquam accusantium tempore eligendi cum autem iusto quis</p>
+                    <p>Categories: <a href="">blue</a>, <a href="">poly</a>, <a href="">curve</a></p>
+                </li>
+                <li>
+                    <img src="img/heart.svg" alt="Heart">
+                    <h4>Heart</h4>
+                    <p>Sides: 2</p>
+                    <p>Numquam accusantium tempore eligendi cum autem iusto quis, assumenda neque facilis? Quis?</p>
+                    <p>Categories: <a href="">green</a>, <a href="">curve</a></p>
+                </li>
+                <li>
+                    <img src="img/crescent.svg" alt="Crescent">
+                    <h4>Crescent</h4>
+                    <p>Sides: 2</p>
+                    <p>Eius fuga, maxime harum praesentium, doloremque perspiciatis dignissimos aliquid impedit expedita doloribus eum voluptatem commodi!</p>
+                    <p>Categories: <a href="">purple</a>, <a href="">curve</a></p>
+                </li>
+                <li>
+                    <img src="img/rectangle.svg" alt="Square">
+                    <h4>Square</h4>
+                    <p>Sides: 4</p>
+                    <p>Tenetur incidunt libero excepturi laboriosam. Quia veniam labore quam dolore unde, consequuntur corporis?</p>
+                    <p>Categories: <a href="">blue</a>, <a href="">poly</a></p>
+                </li>
+                <li>
+                    <img src="img/pentagon.svg" alt="Pentagon">
+                    <h4>Pentagon</h4>
+                    <p>Sides: 5</p>
+                    <p>Quas consequatur sint facere aspernatur animi labore rerum velit iste quaerat, et corporis quam fugiat architecto enim.</p>
+                    <p>Categories: <a href="">green</a>, <a href="">poly</a></p>
+                </li>
+                <li>
+                    <img src="img/circle.svg" alt="Circle">
+                    <h4>Circle</h4>
+                    <p>Sides: 1</p>
+                    <p>Sunt quas rem iure esse aperiam provident officia nam magnam, consequatur delectus fuga odio fugiat nisi quae voluptate accusantium dicta, recusandae iste.</p>
+                    <p>Categories: <a href="">orange</a>, <a href="">curve</a></p>
+                </li>
+                <li>
+                    <img src="img/hexagon.svg" alt="Hexagon">
+                    <h4>Hexagon</h4>
+                    <p>Sides: 6</p>
+                    <p>Soluta asperiores a obcaecati ea consequatur reprehenderit ut officiis dignissimos, quae, laboriosam dolores fugiat blanditiis.</p>
+                    <p>Categories: <a href="">blue</a>, <a href="">poly</a></p>
+                </li>
+                <li>
+                    <img src="img/octogon.svg" alt="Octogon">
+                    <h4>Octagon</h4>
+                    <p>Sides: 8</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut obcaecati fugit deleniti corporis totam possimus molestias ratione modi, veniam! Ad modi eligendi sed dicta, delectus totam magnam fugiat ipsa, accusantium.</p>
+                    <p>Categories: <a href="">purple</a>, <a href="">poly</a></p>
+                </li>
+            </ul>
+        </main>
+
+        <div id="content_filter">
+            <h3>Filter Shapes:</h3>
+            
+            <form action="">
+                <fieldset>
+                    <h4>Color</h4>
+
+                    <input type="radio" name="color_options" id="all_color" value="all">
+                    <label for="all_color">All</label>
+
+                    <input type="radio" name="color_options" id="blue_color" value="blue">
+                    <label for="blue_color">Blue</label>
+
+                    <input type="radio" name="color_options" id="green_color" value="green">
+                    <label for="green_color">Green</label>
+
+                    <input type="radio" name="color_options" id="orange_color" value="orange">
+                    <label for="orange_color">Orange</label>
+
+                    <input type="radio" name="color_options" id="purple_color" value="purple">
+                    <label for="purple_color">Purple</label>
+                </fieldset>
+
+                <fieldset>
+                    <h4>Type</h4>
+
+                    <input type="radio" name="type_options" id="all_type" value="all">
+                    <label for="all_color">All</label>
+
+                    <input type="radio" name="type_options" id="curve_type" value="curves">
+                    <label for="curve_type">Curves</label>
+
+                    <input type="radio" name="type_options" id="poly_type" value="polygons">
+                    <label for="poly_type">Polygons</label>
+                </fieldset>
+                <input type="submit" value="Sumbit" id="submit_button">
+            </form>
+        </div>
+
+        <footer id="site_footer">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Geometry</a>
+                <a href="#">Design</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    background: #333;
+    margin: 20px 0 0 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+section {
+    display: block;
+    width: 600px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    /*
+    THIS IS NEW
+    */
+    height: 400px;
+    align-content: center;
+}
+div {
+    padding: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.width10 {
+    background: #ffdd99;
+    width: 10%;
+}
+.width30 {
+    background: #ddff99;
+    width: 30%;
+}
+.width50 {
+    background: #dd99ff;
+    width: 50%;
+}

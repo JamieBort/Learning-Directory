@@ -1,0 +1,31 @@
+Navigation Links : 
+- Text : "Home",       href: "index.html" 
+- Text : "Characters", href: "characters.html" 
+- Text : "Season One", href: "season_one.html" 
+
+Star vs. the Forces of Evil
+
+Image source: "https://media.giphy.com/media/10PFUoJu4psvCw/giphy.gif?response_id=591e3aa50b3724d34101e235"
+
+Characters
+
+Star Butterfly
+
+Princess Star Butterfly is the main protagonist of Star vs. the Forces of Evil. She is a teenage princess of the kingdom of Mewni (located in another dimension) sent to Earth by her parents in order to learn how to use the royal magic wand.
+
+Star has two main motivations:
+
+Learning to control her wand
+Keeping the wand out of the wrong hands
+
+Marco Diaz
+Marco is Star's best friend. He is kind, responsible, very organized, and supportive of others. He has a reputation at his school for being the "safe kid" due to avoiding danger and being cautious, though he insists that he is a "misunderstood bad boy".
+
+Ludo
+
+Ludo is a major antagonist of Star vs. the Forces of Evil. In season 1, he uses an army of monsters in order to steal Star's wand and take over the universe. As of season 2, however, he has his own wand and new monster followers. Toward the end of season 2, his body is possessed by Toffee.
+    
+Footer Navigation Links : 
+- Text : "Home",       href: "index.html" 
+- Text : "Characters", href: "characters.html" 
+- Text : "Season One", href: "season_one.html" 

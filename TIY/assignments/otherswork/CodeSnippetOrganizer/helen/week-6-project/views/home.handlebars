@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Home</h1>
+    <a href="/login">Login</a>
+    <a href="/addSnippet/search">Search</a>
+    <a href="/register">Register</a>
+    <a href="/logout">Log out</a>
+    <a href="/addSnippet/create">Create a snippet</a>
+  </header>
+
+
+  <table border="1">
+    <tr>
+      <th>Title</th>
+      <th>Language</th>
+      <th>Tags</th>
+      <th>Body</th>
+      <th>Notes</th>
+    </tr>
+    {{#snippets}}
+      <tr>
+        <td><a href="/addSnippet/create?id={{_id}}">{{title}}</a></td>
+        <td>{{language}}</td>
+        <td>{{tags}}</td>
+        <td>{{body}}</td>
+        <td>{{notes}}</td>
+        <td><a href="/deleteSnippet/?id={{_id}}">X</a></td>
+      </tr>
+    {{/snippets}}
+
+
+  </table>
+
+</body>
+
+</html>

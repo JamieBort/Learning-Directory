@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Create</title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>create a snippet</h1>
+    <a href="/">Home</a>
+  </header>
+
+  <section>
+    <form class="snippet" action='/addSnippet/new' method="post">
+
+      <button type="submit" name="button">+</button>
+
+      <input id="title" type="text" name="title" value="{{snippets.title}}" placeholder="Title">
+
+      <input id="language" type="text" name="language" value="{{snippets.language}}" placeholder="language">
+
+      <input id="tags" type="textarea" name="tags" value="{{snippets.tags}}" placeholder="tags">
+
+      <input id="body" type="textarea" name="body" value="{{snippets.body}}" placeholder="body">
+
+      <input id="notes" type="textarea" name="notes" value="{{snippets.notes}}" placeholder="notes">
+
+      <!-- {{#if snippets._id}}
+        <input type="hidden" name="id" value="{{snippets._id}}" />
+      {{/if}} -->
+
+    </form>
+  </section>
+
+
+</body>
+
+</html>

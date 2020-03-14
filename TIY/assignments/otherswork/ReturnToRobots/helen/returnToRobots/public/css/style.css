@@ -1,0 +1,34 @@
+body{
+  font-family: 'News Cycle', sans-serif;
+}
+.user{
+  margin: 10px;
+  width: 20%;
+  border: 1px solid grey;
+}
+
+a{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-weight: lighter;
+  text-align: center;
+  color: blue;
+}
+
+img{
+  padding-left: 60px;
+}
+
+p{
+  text-align: center;
+}
+
+.array{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

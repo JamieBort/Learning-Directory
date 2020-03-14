@@ -1,0 +1,43 @@
+h1{
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 30px 0px;
+}
+#mainBody{
+  padding: 10%;
+}
+#bodyLeft{
+  float: left;
+  display: inline-block;
+  width: 40%;
+}
+#bodyLeft strong{
+  color: lightblue;
+  font-weight:bold;
+}
+#bodyCenter{
+  display: inline-block;
+  width: 50%;
+}
+#bodyCenter p{
+  padding-left: 10px;
+  border-left: 1px dotted grey;
+}
+img{
+  height: 110px;
+  border-radius: 100%;
+  float: right;
+}
+@media (max-width: 900px) {
+  #bodyLeft{
+    float: left;
+    display: inline;
+    width: 45%;
+  }
+  #bodyCenter{
+    float: right;
+    display: inline;
+    width: 45%;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "user.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-flash-messages": "^0.1.1",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "flash": "^1.1.0",
+    "mongoose": "^4.11.6",
+    "mongoose-findorcreate": "^2.0.0",
+    "nodemon": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "session": "^0.1.0"
+  }
+}

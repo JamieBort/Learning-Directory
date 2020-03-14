@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Kelly's TO-DO List</title>
+  </head>
+  <body>
+
+    <form id="form" action="/ToDo" method="post">
+        <h1>TO-DO</h1>
+        <p>ENTER TO-DO ITEMS</p>
+        <input type="text" name="ToDo" placeholder="Enter To-Do items here" value=""/>
+        <input class="button" type="submit" name="add item button" value="Add Item"/>
+        <!-- <button type="submit">Mark Complete</button> -->
+    </form>
+
+<!--Create a section that renders the input value (aka the ToDo item)  -->
+
+ <div class="ListOutput">
+  <h2>Output Items</h2>
+
+  <li>{{TODOITEM}}</li>
+  
+  <input class="button" type="submit" name="Mark Complete" value="Mark Complete"/>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Todo</h1>
+      <ul class="todo-list">
+      {{#todoList}}
+        <li>
+          {{#complete}}
+            <input type="checkbox" checked>
+            <del>{{text}}</del>
+          {{/complete}}
+          {{^complete}}
+            <input type="checkbox">
+            {{text}}
+          {{/complete}}
+      {{/todoList}}
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+</html>

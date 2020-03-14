@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Likes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul id="menu">
+        <li class="menuItem"><a href="/">Gabble</a></li>
+        <li class="menuItem"><a href="/mygabs">My Gabs</a></li>
+        <li class="menuItem"><a href="/creategab">Create a new gab</a></li>
+        <li class="menuItem">Logged in as {{user.displayName}}</li>
+        <li class="menuItem"><a href="/logout">Log out</a></li>
+      </ul>
+    </nav>
+    <div id="wrapper-likes">
+      {{#messages}}
+      <div class="message">
+        <p>
+          <strong>{{author.displayname}}</strong>:  {{gab}}
+          <br><br>
+          {{createdAt}} 
+          <br>
+          <h1>Liked by</h1>
+          {{#likes}}
+            {{user.displayname}}<br>
+          {{/likes}}
+        </p>
+        </div>
+      {{/messages}}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <section>
+      <form action="/" method="post">
+            To Do Item: <input name="todoItem" class="todoItem"/>
+            <!-- name does not change is not an attribute, you can call it in javascript to ref.  -->
+
+
+      </form>
+                    <ul>
+                      {{#data}}
+                      <li>{{.}}<a href="/done/{{@index}}"><button>Complete!</button></a></li>
+                      {{/data}}
+
+                    </ul>
+
+                    <h3>Done!</h3>
+
+                    <ul>
+                      {{#doneList}}
+                      <li>{{.}}</li>
+                      {{/doneList}}
+                    </ul>
+
+
+
+
+
+
+</section>
+  </body>
+</html>

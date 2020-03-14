@@ -1,0 +1,12 @@
+.rows{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 100px;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+}

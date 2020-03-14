@@ -1,0 +1,16 @@
+{
+  "name": "collection_manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "handlebars": "^4.0.10",
+    "mongoose": "^4.10.8"
+  }
+}

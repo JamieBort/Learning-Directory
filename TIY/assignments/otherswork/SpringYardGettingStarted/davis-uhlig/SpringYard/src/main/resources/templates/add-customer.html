@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/view-customers">View Customers</a>
+        <a href="/add-customer">Add Customer</a>
+    </nav>
+    <h1>Add a customer</h1>
+    <form action="/create-customer" method="post">
+        <input type="text" name="first_name" placeholder="first name"/>
+        <input type="text" name="last_name" placeholder="last name"/>
+        <input type="text" name="phone" placeholder="phone"/>
+        <input type="text" name="email" placeholder="email"/>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+#header{
+  text-align: center;
+  font-size: 48px;
+  font-family: "Indie Flower", sans-serif;
+  border-bottom: 5px solid grey;
+  width: 75%;
+  margin: 10px auto;
+}
+
+#headerText{
+  padding-bottom: 20px;
+}
+
+#input_bar{
+  display: block;
+  width: 50%;
+  height: 25px;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+#input_bar:focus{
+  outline: 0;
+}
+
+button{
+  padding: 10px;
+  margin: 10px;
+}
+
+#main_content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid{
+  /*border: 1px solid red;*/
+  height: 150px;
+  width: 20%;
+  margin: 10px;
+}
+
+div{
+  text-align: center;
+  display: block;
+  margin: 20px;
+  border: 1px solid grey;
+  width: 20%;
+  text-overflow: none;
+  padding: 10px;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  font-size: 12px;
+}

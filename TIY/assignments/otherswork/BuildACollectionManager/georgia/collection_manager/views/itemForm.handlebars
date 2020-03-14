@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Items</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <form action="/saveItem" method="post">
+      <label for="category">Title</label>
+      <input type="text" id="category" name="category" value="{{item.category}}" />
+      <div class="fieldError">{{errors.category.message}}</div>
+
+      <label for="size">Medium</label>
+      <input type="text" id="size" name="size" value="{{item.size}}" />
+      <div class="fieldError">{{errors.size.message}}</div>
+
+      <label for="size">Price</label>
+      <input type="text" id="size" name="size" value="{{item.size}}" />
+      <div class="fieldError">{{errors.size.message}}</div>
+
+
+      <label for="materials">Style</label>
+      {{#item.materials}}
+        <input type="text" id="materials_{{@index}}" name="materials[{{@index}}]" value="{{.}}" />
+      {{/item.materials}}
+      <input type="text" id="materials" name="materials[]" value="" />
+
+      <label for="description">Description</label>
+      <input type="text" id="description" name="description.color" value="{{item.description.subject}}" placeholder="Subject Matter" />
+      <input type="text" id="description" name="description.image" value="{{item.description.image}}" placeholder="Images" />
+      <input type="text" id="description" name="description.shape" value="{{item.description.coloe}}" placeholder="Color Scheme" />
+
+
+      {{#if item._id}}
+        <input type="hidden" name="id" value="{{item._id}}" />
+      {{/if}}
+
+      <button class="button-primary">Save Item</button>
+    </form>
+  </div>
+
+
+</body>
+
+</html>

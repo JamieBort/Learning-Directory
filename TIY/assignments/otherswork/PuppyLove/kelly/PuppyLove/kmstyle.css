@@ -1,0 +1,140 @@
+*{
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+body{
+  padding: 10px;
+  background-color: white;
+  margin: 10px 200px 15px;
+  background-image: url("/Users/designbright/Desktop/THE IRON YARD/ClassProjects/css_styling_assessment/starter_files/img/bg.jpg");
+}
+
+.main{
+  background: white;
+  border: yellow solid 3px;
+}
+
+#site_header{
+  background: #ff8523;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#logo{
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.main_navigation{
+  padding-left: 20px;
+}
+
+.main_navigation a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid white 1px;
+  border-radius: 5px;
+}
+
+/*End Top Navigation==============*/
+
+/*/Start Page Content=======================*/
+
+#page_content{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section{
+  border-bottom: #dddddd solid 3px;
+  padding-bottom: 30px;
+}
+
+h2{
+  color: #1fabe5;
+}
+
+h3{
+  color: #1fabe5;
+}
+
+ul{
+  font-weight: bold;
+}
+
+table{
+  font-size: 12px;
+  margin: 5px auto;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td{
+  border: 1px solid #1fabe5;
+  padding: 10px;
+}
+
+table img{
+  height: 50px;
+  width: 50px;
+}
+
+thead{
+  background: #1fabe5;
+  color: white;
+  padding: 0px;
+}
+
+thead td{
+  border: solid #046c97 1px;
+}
+
+form{
+  background: #eee;
+  padding: 30px;
+  border-radius: 5px;
+  /*font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600px;*/
+}
+
+.name{
+  /*border: dashed black 3px;*/
+  background: #ff8523;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.city_container{
+  /*border: green dashed 2px;*/
+padding: 20px;
+}
+
+.puppy{
+  padding: 20px;
+}
+
+#bio{
+  border: 1px solid #1fabe5;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#submit_button{
+  /*border: yellow dashed 3px;*/
+  padding: 20px;
+  margin-left: 20px;
+  width: 100px;
+  background: #1fabe5;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+}

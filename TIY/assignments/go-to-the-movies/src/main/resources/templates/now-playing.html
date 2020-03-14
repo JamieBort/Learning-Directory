@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<a th:href="'/'">Home</a>
+<a th:href="'/medium-popular-long-name'">Popular Movies</a>
+<h1>Now playing in theaters.</h1>
+
+<!--Note to self: work with postman for this next section.-->
+<!--These movies are playing in theaters:-->
+<div th:each="movie : ${movies}">
+    <img width="150px" src="http://www.google.com" th:src="'http://image.tmdb.org/t/p/original' + ${movie.posterPath}"/>
+    <span th:text="${movie.title}"></span>
+</div>
+
+
+
+</body>
+</html>

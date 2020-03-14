@@ -1,0 +1,28 @@
+{
+  "name": "week-five-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soedeuce002/week-five-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soedeuce002/week-five-project/issues"
+  },
+  "homepage": "https://github.com/soedeuce002/week-five-project#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.4",
+    "express-validator": "^3.2.1",
+    "fs": "0.0.1-security"
+  }
+}

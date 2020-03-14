@@ -1,0 +1,7 @@
+img {
+  width: 350px;
+}
+
+img.food {
+  float: right;
+}

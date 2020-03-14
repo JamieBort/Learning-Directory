@@ -1,0 +1,84 @@
+/*
+    Colors from: https://color.adobe.com/doodoomchit-color-theme-9578264/edit/?copy=true
+*/
+
+
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 90%;
+    line-height: 1.6;
+    background-color: #ddd;
+}
+
+body > div{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 20px;
+
+    box-shadow: 0 0 6px rgba( 0, 0, 0, 0.2 );
+}
+
+a{
+    font-weight: bold;
+    color: #498978;
+}
+
+a:hover{
+    color: #D14720;
+}
+
+h1, h2{
+    margin-top: 1.8em;
+    margin-bottom: 0;
+}
+
+h1{
+    color: #D14720;
+}
+
+h2{
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+ul{
+    background-color: #498978;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    width: 40%;
+}
+
+#logo{
+    text-align: right;
+    color: #733462;
+    margin-top: 0;
+    margin-bottom: 0.6em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.main_navigation{
+    padding-top: 12px;
+    border-top: 1px dotted #D1D67C;
+}
+
+.main_navigation a{
+    padding: 0.5em 2em;
+    text-decoration: none;
+    border: 1px solid #D1D67C;
+    color: #8C031C;
+    font-weight: bold;
+}
+
+.main_navigation a:hover{
+    color: white;
+    background-color: #D1D67C;
+}
+
+

@@ -1,0 +1,203 @@
+html {
+  font-family: helvetica, arial, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+#status {
+  display: flex;
+  justify-content: center;
+}
+.employStatus {
+  padding: 0px 10px 20px 10px;
+}
+
+main {
+  margin: 0 10%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dirContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1 0 21%;
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.headshot {
+  text-align: center;
+}
+
+h2 {
+  color: #367dcd;
+}
+
+p {
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+}
+
+/* Bio specific styling */
+
+.bioContainer {
+  background-color: white;
+  width: 75%;
+  height: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.row1 {
+  display: flex;
+  flex-flow: wrap;
+}
+
+#bioAvaContainer {
+  text-align: right;
+  border-radius: 90px;
+  flex: 2 0 20%;
+}
+
+#bioAvatar {
+  border-radius: 90px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 4px;
+}
+
+#bioName {
+  font-size: 3em;
+  font-weight: 400;
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#bioContact {
+  display: flex;
+  flex-flow: column;
+  margin-left: 40px;
+  flex: 3 0 20%;
+}
+
+#address {
+  margin-top: 10px;
+}
+
+#address p {
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+.row2 {
+  margin-top: 20px;
+  display: flex;
+}
+
+#subHeaders {
+  margin: 0;
+  text-align: right;
+  flex: 2 0 20%;
+}
+
+#education {
+  margin: 0 0 .8em 0;
+}
+
+#skills {
+  margin-top: 0;
+}
+
+#subHeadInfo {
+  margin-left: 40px;
+  flex: 3 0 20%;
+}
+
+#subHeadInfo p {
+  font-size: 1em;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.backHome {
+  white-space: nowrap;
+  margin: 30px auto 10px auto;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.backHome a {
+  text-decoration: none;
+  color: white;
+}
+
+/*************  Registration  **************/
+
+#registerForm {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+#registerForm input {
+  font-size: 1em;
+  height: 30px;
+}
+
+#regSubmitButton {
+  width: 70px;
+}
+
+/*************** Edit Form ****************/
+
+#editForm {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+#editForm input {
+  font-size: 1em;
+  height: 30px;
+}
+
+#editSubmit {
+  width: 70px;
+}
+
+#robotDetail {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.75);
+  justify-content: center;
+  margin: 0;
+  padding: 2em;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

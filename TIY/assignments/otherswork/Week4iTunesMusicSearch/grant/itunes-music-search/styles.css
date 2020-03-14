@@ -1,0 +1,101 @@
+body {
+  /*background-color: #60d9f1;*/
+  background-color: #f5f5f5;
+  text-align: center;
+  font-family: sans-serif;
+  color: #393939;
+}
+
+h1 {
+  font-size: 3vw;
+  margin-bottom: 3vw;
+}
+
+audio {
+  background-color: #e7e7e7;
+  border: 2px solid #888888;
+  font-size: 2vw;
+  width: 96%;
+  margin: 0 10px 2vw;
+}
+
+input {
+  font-size: 1.8vw;
+  padding: .5vw;
+  width: 75%;
+  margin: 0 10px;
+  border: 2px solid #a5a5a5;
+}
+
+/*button {
+  font-size: 1.8vw;
+  padding: .6vw;
+  width: 19%;
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: #dadada;
+}*/
+
+img {
+  text-align: center;
+  overflow: hidden;
+  background-color: #ebebeb;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.search {
+  border-top: 2px solid #888888;
+  /*border-top: 2px solid #a5a5a5;*/
+  border-bottom: 2px solid #a5a5a5;
+  /*border-bottom: 2px solid #e7e7e7;*/
+  padding: 3vw 0;
+}
+
+#results {
+  display: flex;
+  justify-content: space-between;
+  margin-top: .5vw;
+  flex-wrap: wrap;
+}
+
+#searchTitle {
+  font-size: 1.5vw;
+  /*display: block;*/
+  width: 100%;
+  text-align: left;
+  /*align-content: flex-start;*/
+}
+
+.box {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 150px;
+  height: 210px;
+}
+
+.track {
+  width: 100%;
+  height: 100%;
+}
+
+.songTitle {
+  color: #090b7e;
+  font-size: 1.5vw;
+}
+
+.bandName {
+  font-size: 1.5vw;
+  margin: 5px;
+}
+
+/*.placeholderResult {
+  border: 3px solid #7e7e7e;
+  border-radius: 5px;
+  width: 10vw;
+  height: 10vw;
+}*/

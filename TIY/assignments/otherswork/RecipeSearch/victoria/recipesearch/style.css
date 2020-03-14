@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(244, 212, 66);
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.wrapper {
+margin: 5%;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 0;
+}
+
+header {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 2%;
+  border-bottom: 1px solid black;
+}
+
+#search_box {
+  width: 20%;
+}
+
+article {
+  min-width: 150px;
+  width: 15%;
+  height: auto;
+  margin: 2%;
+  padding: 2% 0;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(244, 163, 65);
+  padding: 8%;
+  border-radius: 7px;
+  color: rgb(130, 106, 79);
+}
+
+a:hover {
+  background-color: rgb(255, 189, 119);
+  color: rgb(94, 75, 53);
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  padding: 2%:
+}
+
+span {
+  margin-top: 10%;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mystery Word Game</title>
+</head>
+
+<body>
+    <section id=container>
+    <h1>Welcome to Mystery Word!!</h1>
+    <h1>You have {{turns}} incorrect guesses left</h1>
+
+    <!-- <div id='wordSpace'>
+      {{#guessedWord}}
+        {{.}}
+      {{/guessedWord}}
+    </div> -->
+    <form action='/cheese' method='post'>
+      <input type='text' name='guess' placeholder='Your guess goes here'>
+      <button>Submit Guess</button>
+    </form>
+    <div>
+      {{alert}}
+    </div>
+    <h2>Letters guessed:</h2>
+    <ul>
+      {{#beans}}
+        <li>{{.}}</li>
+      {{/beans}}
+    </ul>
+  </section>
+  <!-- /<style>
+    #wordSpace {
+      font-size: 36px;
+    }
+
+    body {
+      background-color: darkcyan;
+      color: indigo;
+      text-align: center;
+    }
+
+    #container {
+      padding: 200px;
+    }
+
+    button {
+      background-color: orchid;
+      border-radius: 40px;
+      color: purple;
+      border: 1px solid purple;
+      height: 52px;
+      font-weight: bold;
+    }
+
+    input {
+      background-color: plum;
+      border: 1px solid purple;
+      border-radius: 40px;
+      height: 50px;
+      text-align: center;
+      color: purple;
+    }
+
+    input::placeholder {
+      color: mediumpurple;
+    }
+  </style>*/ -->
+</body>
+
+</html>

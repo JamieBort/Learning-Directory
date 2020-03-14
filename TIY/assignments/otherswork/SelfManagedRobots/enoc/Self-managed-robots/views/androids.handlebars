@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>INDEX</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <h1>INDEX</h1>
+<a href="/logout">Log out</a>
+
+  <div class="rows">
+
+    {{#robots}}
+      <div class="profiles">
+        <img src= {{avatar}}>
+        <a href="{{username}}"><h2><a href='/save' >{{name}}</a></h2></a>
+        <h3>Job: {{job}}</h3>
+        <h4>Company: {{company}}</h4>
+      </div>
+    {{/robots}}
+
+  </div>
+
+
+
+</body>
+
+</html>

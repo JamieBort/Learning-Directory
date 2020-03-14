@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+
+  {{#items}}
+    <div class="itemsList">
+      <span><a href="/artForm?id={{_id}}">{{category}}</a></span>
+      <span>Title: {{title}}</span>
+      <span>Medium: {{medium}}</span>
+      <span>Price: {{price}}</span>
+      <span>Style: {{style}}</span>
+      <span>Description: {{description.content}} {{description.image}} {{description.color}}</span>
+      <span><a href="/deleteItem/?id={{_id}}">Delete</a></span>
+    </div>
+  {{/items}}
+
+
+
+</body>
+
+</html>

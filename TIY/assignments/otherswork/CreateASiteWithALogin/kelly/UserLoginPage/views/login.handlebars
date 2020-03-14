@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <h1>Login</h1>
+    </header>
+
+    <section>
+      <!--this is the page that will display for /login one form that has a username and password inputs and only one submit button  -->
+
+      <!-- The UL will not run until we tell it to in JS. This will not show up on page until the user tries to login and enters something incorrectly -->
+      <ul class"error">
+        {{#errors}}
+          <li>{{msg}}</li>
+          {{/errors}}
+      </ul>
+
+      <!-- The form will show up on the browser for the user -->
+      <form id="input" action="/login" method="POST"/>
+        <input class"input" type="text" name="username" placeholder="Login" value=""/>
+        <input class"input" type="password" name="password" placeholder="Password" value=""/>
+        <input class"button" type="submit" name="Submit" value="Login"/>
+      </form>
+
+      <div id="notAUser" class="error">
+        {{something}}
+      </div>
+    </section>
+
+  </body>
+</html>

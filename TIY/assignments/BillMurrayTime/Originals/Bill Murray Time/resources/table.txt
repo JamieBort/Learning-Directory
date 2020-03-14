@@ -1,0 +1,31 @@
+Film Title
+Character
+Date
+
+Isle of Dogs
+voice
+2018
+
+Ghostbusters
+Martin Heiss
+2016
+
+The Jungle Book
+Baloo
+2016
+
+Rock the Kasbah
+Rickie Lanz
+2015
+
+Aloha
+Carson Welch
+2015
+
+Dumb and Dumber To
+Ice Pick
+2014
+
+St. Vincent
+Vincent
+2014

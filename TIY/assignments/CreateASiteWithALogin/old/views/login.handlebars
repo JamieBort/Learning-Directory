@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>LogIn</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div class="">
+    <!-- the background image goes here -->
+    <header>
+      <h1>LogIn Page</h1>
+    </header>
+    <nav>
+      <!-- my vavigation buttons   -->
+    </nav>
+    <section>
+      <!-- error handling -->
+      <ul>
+        {{#errors}}
+          <li>{{msg}}</li>
+        {{/errors}}
+      </ul>
+      <!-- error handling -->
+
+      <!-- action "/login" is needed to ?????? -->
+      <!-- method needs to be POST, not GET. -->
+      <!-- leaving type, name, and value as default or blank -->
+      <form id="input" action="/login" method="POST" />
+      <input class="input" placeholder="Login" type="text" name="username" value="" />
+      <input class="input" placeholder="Password" type="password" name="password" value="" />
+      <input class="button" type="submit" name="" value="Submit"/>
+      </form>
+    </section>
+  </div>
+</body>
+
+</html>

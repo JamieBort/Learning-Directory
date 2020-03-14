@@ -1,0 +1,357 @@
+/**********************************
+*** This is my CSS file for the ***
+***   first weekly assignment.  ***
+***********************************/
+
+
+/*font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8 USED
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343
+
+Use CSS to style the website according to the provided layouts in the project-layout folder*/
+
+
+/*Index Code*/
+
+
+/*            */
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+#IndexNav {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 5em;
+  top: -.2em;
+  background: white;
+}
+
+#logo img {
+  width: 75%;
+  height: auto;
+  margin: 5% 0 10% 0;
+}
+
+#NavDiv {
+  /*border: 1px solid black;*/
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#NavSection {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  top: -6em;
+  /*overflow: scroll;*/
+  /*border: 1px solid green;*/
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+/*#NavSection a:active{
+  background-color: #968772;
+}*/
+.Link:active{
+  background-color: #968772;
+}
+
+
+#IndexH1, #IndexH2 {
+  text-align: center;
+}
+
+#IndexH1 {
+  font-size: 4em;
+}
+
+#IndexH2 {
+  font-size: 3em;
+}
+
+.row div {
+  margin: 0 1.3em;
+}
+
+#BodySection {
+  background-color: #F2F1E8;
+  margin-top: 2em;
+  padding-top: 3em;
+}
+
+.row1 {
+  height: 20em;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 2.5%;
+}
+
+#two {
+  /*margin: 2em;*/
+}
+
+.indexButton {
+  color: #FFFFFF;
+  background-color: #968772;
+  position: relative;
+  z-index: 2;
+  top: -6em;
+  right: -1.5em;
+  padding: 1em;
+  border: none;
+}
+
+.indexButton:hover {
+  color: #967343;
+}
+
+.indexButton:focus {
+  background-color: #967343;
+}
+
+
+/***********************/
+
+
+/* About page CSS Code */
+
+
+/***********************/
+
+
+/* Need to fix this below                   */
+
+
+/*https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only*/
+
+#AboutSection {
+  position: relative;
+  margin-top: 75px;
+  background-image: url(images/background-3.jpg);
+  background-size: 100% auto;
+  background-attachment: fixed;
+  /*background-position: center;*/
+  width: 100%;
+  /*height: 100%;*/
+  /*z-index: -1*/
+}
+
+#AboutTitle {
+  font-size: 4em;
+  text-align: center;
+}
+
+#quote {
+  /*margin-top: 5em;*/
+  padding: 1em;
+  /*margin-right: 6em;*/
+  margin: 5em 8em 0 3em;
+  border-left: brown 2px solid;
+}
+
+#div4, #div5 {
+  padding: 1.5em 5.5em;
+}
+
+#div1, #div3 {
+  background-color: #F2F1E8;
+}
+
+#div3 {
+  height: 100%;
+}
+
+#div2 {
+  height: 10em;
+}
+
+#div4, #div5 {
+  margin: 0 10em;
+}
+
+#div5 {
+  padding-bottom: 2em;
+  margin-bottom: 4.5em;
+}
+
+#middleText {
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  top: .2em;
+  position: relative;
+}
+
+#BirdHouse {
+  float: left;
+  width: 25%;
+  height: auto;
+  margin-right: 2em;
+}
+
+#div5 div, #div5 figure {
+  /*border: red 1px solid;*/
+}
+
+#div6 {
+  float: left;
+  width: 65%;
+  /*display: flex;*/
+  /*justify-content: flex-end;*/
+}
+
+figure {
+  width: 20%;
+  float: right;
+  margin-top: 3em;
+}
+
+#Shelf {
+  /*width: 25%;*/
+  /*height: auto;*/
+  /*float: right;*/
+}
+
+#div7 {
+  /*clear: right;*/
+}
+
+figcaption {
+  margin-top: .5em;
+  /*float: right;*/
+}
+
+#runrun {
+  /*float: left;*/
+  /*clear: right;*/
+}
+#div8{
+  /*height: 13em;*/
+}
+tr{
+  padding: 3px;
+}
+th, td{
+  padding: 1em;
+
+}
+.row2{
+  /*width: 3em;*/
+}
+table, #div8 {
+  clear: both;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#oddRow {
+  background-color: #F5DEB3;
+}
+
+#AboutBackground {
+  width: 100%;
+  height: 100%;
+}
+
+Footer {
+  background-color: gray;
+  color: white;
+  margin-bottom: 0;
+  padding: 2em 0;
+}
+
+span {
+  margin-left: 2em;
+}
+
+
+/***********************/
+
+
+/* Newsletter CSS Code */
+
+
+/***********************/
+
+#NewsletterSection {
+  position: relative;
+  top: 50px;
+  background-image: url(images/background-2.jpg);
+  height: 100vh;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*********** code for the form */
+
+#form {
+  width: 50%;
+  height: 350px;
+  background-color: white;
+}
+
+#form form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#FormH1 {
+  margin-top: 2em;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+#input1, #input2{
+  font: .8em arial;
+  width: 40em;
+  height: 2em;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+#signupButton {
+  font: 1em arial;
+  margin-top: 1.3em;
+  width: 9em;
+  height: 4em;
+  color: white;
+  background-color: #968772;
+  border: none;
+}
+
+
+/*********** code for the form */

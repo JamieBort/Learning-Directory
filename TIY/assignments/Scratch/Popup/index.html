@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="popup" onclick="myFunction()">Click me!
+    <!-- <span class="popuptext" id="myPopup">Popup text...</span> -->
+    <img class="popuptext" id="myPopup" src="http://itchmo.com/wp-content/uploads/2007/06/cat-facts.jpg" alt="">
+  </div>
+  <script>
+    // When the user clicks on <div>, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #BC8F8F;
+  color: #8B4513;
+  font-family: 'Raleway', sans-serif;
+}
+
+header{
+  margin-bottom: 15px;
+  font-weight: lighter;
+  font-size: 30px;
+  width: 100%;
+  border-bottom: solid #8B4513;
+}
+
+ul li{
+  list-style: none;
+}
+
+h2{
+  border-bottom: solid #8B4513;
+}

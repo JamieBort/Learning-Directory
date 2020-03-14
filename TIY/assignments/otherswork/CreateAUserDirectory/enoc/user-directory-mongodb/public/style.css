@@ -1,0 +1,70 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {}
+
+.rows {
+ max-height: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profiles {
+  border: 1px solid #cccccc;
+  margin: 10px;
+  max-height: 300px;
+  max-width: 150px;
+}
+
+.Users {
+  display: flex;
+  margin: 10px;
+  max-width: 250px;
+}
+
+.radius {
+  float: left;
+  margin-right: 30px;
+  padding: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 440px;
+}
+
+.name {
+  font-size: 50px;
+  color: #737373;
+
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #80bfff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 12px;
+  text-align: center;
+
+}
+
+h4 {
+  font-size: 12px;
+  text-align: center;
+}
+
+h5{
+  margin-left: 20px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul id="menu">
+        <li class="menuItem">Gabble</li>
+        <li class="menuItem">My Gabs</li>
+        <li class="menuItem">Create a new gab</li>
+        <li class="menuItem"><a href="login">Log in</a></li>
+        <li class="menuItem">Sign up</li>
+      </ul>
+    </nav>
+    <div id="wrapper-signup">
+      <h1>Sign up</h1>
+      <form action="/signup" method="post">
+        <label for="username">Username</label><br>
+        <input type="text" name="username" value="{{data.username}}" required autofocus><br>
+        <label for="password1">Password</label><br>
+        <input type="password" name="password" value="{{data.password}}" required><br>
+        <label for="passwordConfirm">Password Confirmation</label><br>
+        <input type="password" name="passwordConfirm" value="{{data.passwordConfirm}}" required><br>
+        <label for="displayName">Display name</label><br>
+        <input type="text" name="displayName" value="{{data.displayName}}" required><br>
+        <input type="submit" name="signup" value="Sign up">
+      </form>
+      {{#errors}}
+        <div class="error">
+          {{msg}} <br>
+        </div>
+      {{/errors}}
+    </div>
+  </body>
+</html>

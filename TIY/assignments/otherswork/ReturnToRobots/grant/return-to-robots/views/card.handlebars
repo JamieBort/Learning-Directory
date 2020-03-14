@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{name}}</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+
+<body>
+  {{#robots}}
+  <header id="header">
+    <div class="title">
+      <a href="/"><h1>Robos Directory</h1></a>
+    </div>
+    <div class="links">
+      <a href="/searching"><h3>Looking 4 Work</h3></a>
+      <a href="/employed"><h3>Currently Employed</h3></a>
+    </div>
+  </header>
+
+  <section id="cardHolder">
+    <div class="profilePic">
+      <img src="{{avatar}}" alt="" />
+    </div>
+
+    <div class="contactInfo">
+      <h1 class="cardName">{{name}}</h1>
+      {{#if address.city}}
+        <p>{{address.city}}, {{address.country}} |
+      {{else}}
+        <p>{{address.country}} |
+      {{/if}}
+      <!-- If a robot has a job, the job is listed. If not, then the robot is available for hire. -->
+        {{#if job}}
+          {{job}}, {{company}}
+        {{else}}
+        <span class="noJob">Available for hire</span>
+        {{/if}}
+      </p>
+      <p class="cardContactInfo"><a href="mailto:{{email}}?Subject=Hello%20from%20{{name}}" target="_top">{{email}}</a> | {{phone}}</p>
+    </div>
+
+    <div class="eduSkills">
+      <!-- Only displays Education if the robot has an education. -->
+      {{#if university}}
+        <p class="university"><b>Education</b></p>
+      {{else}}
+      <!-- If no education is listed, nothing is shown -->
+      {{/if}}
+      <p class="skills"><b>Skills</b></p>
+    </div>
+
+    <div class="eduSkillsDetails">
+      {{#if university}}
+        <p>{{university}}</p>
+      {{else}}
+      <!-- If no education is listed, nothing is shown -->
+      {{/if}}
+      {{#skills}}
+        <p class="skills">{{.}}</p>
+      {{/skills}}
+    </div>
+  </section>
+  {{/robots}}
+</body>
+
+</html>

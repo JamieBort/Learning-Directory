@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Add Customer</title>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="new.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <div class="nav">
+                <a href="/">All Customers</a>
+                <a href="/add">Add Customer</a>
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="/add_customer" method="post">
+              <fieldset>
+                <legend>New Customer</legend>
+                <input type="text" name="firstname" value="" placeholder="First Name"/>
+                <input type="text" name="lastname" value="" placeholder="Last Name"/>
+                <input type="tel" name="phone" value="" placeholder="Phone Number"/>
+                <input type="email" name="email" value="" placeholder="Email"/>
+              </fieldset>
+              <button type="submit">Create!</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+{"_id":{"$oid":"598c798f1a89c35da9fbf6dc"},"Name":"Roland 808","yearReleased":"1981","components":{"outputs":13,"digitalOranalogue":"Analogue"},"__v":0}
+{"_id":{"$oid":"598c7a101a89c35da9fbf6dd"},"Name":"Roland 909","yearReleased":"1984","components":{"outputs":12,"digitalOranalogue":"Analogue"},"__v":0}

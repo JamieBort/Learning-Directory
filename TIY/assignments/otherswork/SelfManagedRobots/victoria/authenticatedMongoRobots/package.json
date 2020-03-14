@@ -1,0 +1,30 @@
+{
+  "name": "authenticationpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.15.4",
+    "express-flash-messages": "^0.1.1",
+    "express-session": "^1.15.5",
+    "mongodb": "^2.2.30",
+    "mongoose": "^4.11.6",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriarainc/authenticatedMongoRobots.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriarainc/authenticatedMongoRobots/issues"
+  },
+  "homepage": "https://github.com/victoriarainc/authenticatedMongoRobots#readme"
+}

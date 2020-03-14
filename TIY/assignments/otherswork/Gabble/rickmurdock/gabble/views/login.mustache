@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul id="menu">
+        <li class="menuItem">Gabble</li>
+        <li class="menuItem">My Gabs</li>
+        <li class="menuItem">Create a new gab</li>
+        <li class="menuItem">Log in</li>
+        <li class="menuItem"><a href="signup">Sign up</a></li>
+      </ul>
+    </nav>
+    <div id="wrapper-login">
+    <h1>Login</h1>
+    <form action="/login" method="post">
+      <label for="username">Username</label><br>
+      <input type="text" name="username" value="" autofocus><br>
+      <label for="password1">Password</label><br>
+      <input type="password" name="password"><br>
+      <input type="submit" name="login" value="Log in">
+    </form>
+    </div>
+  </body>
+</html>

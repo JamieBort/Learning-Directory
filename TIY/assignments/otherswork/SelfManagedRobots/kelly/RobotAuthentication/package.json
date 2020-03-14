@@ -1,0 +1,26 @@
+{
+  "name": "robotauthentication",
+  "version": "1.0.0",
+  "description": "Practice with User Authentication, MongoDB, and Mongoose",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-flash-messages": "^0.1.1",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "handlebars": "^4.0.10",
+    "mongoose": "^4.11.6",
+    "mongoose-findorcreate": "^2.0.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "router-express": "^1.5.2"
+  }
+}

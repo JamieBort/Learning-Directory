@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<!--This line is where Thymleaf is "imported".
+If you add "th" tags to your file without this line, IntelliJ
+will suggest this import which you can confirm with alt-enter.-->
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Working with Thymeleaf</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<!-- Template element TBD-->
+<h1>Hello <span th:text="${name}"></span></h1>
+<br/>
+<ul>
+    <li>Name: <span th:text="${person.name}"></span></li>
+    <li>Soldier: <span th:text="${person.soldier}"></span></li>
+    <li>DOB: <span th:text="${person.dob}"></span></li>
+    <li>Nicknames: <span th:text="${person.nicknames}"></span></li>
+</ul>
+
+<br/>
+<h3>Select a day</h3>
+<select>
+    <option th:each="day : ${days}"
+            th:value="${day}"
+            th:text="${day}"></option>
+</select>
+
+
+
+</body>
+</html>

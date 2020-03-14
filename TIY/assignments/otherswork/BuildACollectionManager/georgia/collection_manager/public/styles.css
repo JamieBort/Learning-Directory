@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: left;
+  justify-content: center;
+  font-size: 23px;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.itemsList {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  border: black;
+  background-color:  #334100;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 5%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}

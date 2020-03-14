@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "rickmurdock",
+    "password": null,
+    "database": "gabbledb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "rickmurdock",
+    "password": null,
+    "database": "gabbledb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "rickmurdock",
+    "password": null,
+    "database": "gabbledb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

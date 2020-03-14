@@ -1,0 +1,32 @@
+.heading {
+    border-bottom: 1px solid;
+}
+
+.nav {
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+
+.container {
+    background-color: red;
+}
+
+table thead, table tbody {
+  display: block;
+}
+
+table tbody {
+  height: 30vh;
+  overflow-y: scroll;
+}
+
+th, td {
+  width: 13vw;
+  text-align: center;
+}
+
+th {
+  text-decoration: underline;
+}

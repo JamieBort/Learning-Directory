@@ -1,0 +1,35 @@
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+.Wrapper {
+  background-color: tan;
+  margin: 3em;
+}
+#PageTitle {
+  width: 600px;
+  float:left;
+}
+#SecondTitle {
+  float:right;
+  width: 300px;
+}
+#Quote {
+  text-align: center;
+  clear:both;
+}
+#ThirdTitle {
+  float:left;
+  width: 300px;
+}
+#FourthTitle {
+  margin-left: 90px;
+  margin-right: 90px;
+  float:left;
+  width: 300px;
+}
+#FifthTitle {
+  float:left;
+  width: 300px;
+}
