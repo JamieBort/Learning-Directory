@@ -1,3 +1,5 @@
+// Mostly done.
+
 package com.company;
 
 import java.util.ArrayList;
@@ -17,23 +19,28 @@ public class Main {
 
 //    method prompts user for integer. outputs an ArrayList
 public static void prompt(){
-    System.out.println("The prompt method was called.");
-    ArrayList<Integer> arrayList = new ArrayList<Integer>();
-    Scanner sc = new Scanner(System.in);
-    int t=0;
-    System.out.println("How many integers would you like to add to the arraylist?");
-    int count = sc.nextInt();
-    System.out.println("You chose to enter " + count + " integers to the arrayList.");
-    while(t<count){
-        System.out.println("Enter an integer");
-        int number = sc.nextInt();
-        System.out.println("the integer you entered was: " + number);
-        arrayList.add(number);
-        t++;
+        try{
+            System.out.println("The prompt method was called.");
+            ArrayList<Integer> arrayList = new ArrayList<Integer>();
+            Scanner sc = new Scanner(System.in);
+            int t=0;
+            System.out.println("How many integers would you like to add to the arraylist?");
+            int count = sc.nextInt();
+            System.out.println("You chose to enter " + count + " integers to the arrayList.");
+            while(t<count){
+                System.out.println("Enter an integer");
+                int number = sc.nextInt();
+                System.out.println("the integer you entered was: " + number);
+                arrayList.add(number);
+                t++;
+            }
+            System.out.println("The arraylist is now: " + arrayList);
+            sum(arrayList);
+            average(arrayList);
+
+        } catch (Exception e){
+        System.out.println("oops, there was an error: " + e);
     }
-    System.out.println("The arraylist is now: " + arrayList);
-    sum(arrayList);
-    average(arrayList);
 
 }
 
