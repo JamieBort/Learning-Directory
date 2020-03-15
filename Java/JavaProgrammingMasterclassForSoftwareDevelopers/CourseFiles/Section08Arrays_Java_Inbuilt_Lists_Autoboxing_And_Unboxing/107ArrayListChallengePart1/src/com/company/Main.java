@@ -20,10 +20,19 @@ import java.util.Objects;
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<Contacts> arrayList = new ArrayList<>();
-        arrayList.add(new Contacts("Jim", "Elm Street", "jim@jimbob.com", "1234567890"));
-        arrayList.add(new Contacts("Pam", "Oak Street", "pam@pamsplace.com", "0987654321"));
-        arrayList.get(0).printContact();
-        arrayList.get(1).printContact();
+        MobilePhone mobilePhone = new MobilePhone(new ArrayList<>());
+        mobilePhone.randomMethod();
+
+//        ArrayList<Integer> integer = new ArrayList<Integer>();
+//        integer.add(4);
+//        System.out.println(integer.get(0));
+
+//        ArrayList<Contacts> arrayList = new ArrayList<>();
+//        arrayList.add(new Contacts("Jim", "Elm Street", "jim@jimbob.com", "1234567890"));
+//        arrayList.add(new Contacts("Pam", "Oak Street", "pam@pamsplace.com", "0987654321"));
+//        arrayList.add(new Contacts("Erin", "Peach Street", "Erin@erin.com", "543212345"));
+//        for (int i = 0; i < arrayList.size(); i++) {
+//            arrayList.get(i).printContact();
+//        }
     }
 }
