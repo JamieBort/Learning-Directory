@@ -1,0 +1,32 @@
+/* =========================================== */
+/* Style for desktop */
+/* =========================================== */
+
+body {
+  background-color: lightblue;
+}
+
+/* =========================================== */
+/* Style for tablets */
+/* =========================================== */
+
+/* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
+
+@media (max-width: 1500px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/* =========================================== */
+/* Style for mobile */
+/* =========================================== */
+
+/* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
+
+@media (max-width: 1000px) {
+  body {
+    background-color: pink;
+  }
+}
+
