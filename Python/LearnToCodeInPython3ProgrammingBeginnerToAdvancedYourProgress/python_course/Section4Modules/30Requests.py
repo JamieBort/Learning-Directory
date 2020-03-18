@@ -1,3 +1,10 @@
+# NOTE: The files
+# ./LearningDirectory/Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section4Modules/30Requests.py
+# ./LearningDirectory/Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section4Modules/31SendingHTTPRequestsToAPIs.py
+# and
+# ./LearningDirectory/Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section4Modules/32WorkingWithJSON.py
+# are related - they should be kept together/learned together/etc.
+
 # Matplotlib is an external module.
 # External modules need to be installed.
 # to install this requests library type 'pip install requests' in the commnand line.
@@ -14,6 +21,7 @@
 
 import requests
 r = requests.get("https://www.google.com") #send request using the get() method
+print("The response/status code:")
 print(r.status_code) # Hoping for a 200 response.
 # The following is the response: 
 # 200

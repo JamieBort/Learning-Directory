@@ -1,16 +1,14 @@
+# NOTE: The files
+# ./LearningDirectory/Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section4Modules/30Requests.py
+# ./LearningDirectory/Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section4Modules/31SendingHTTPRequestsToAPIs.py
+# and
+# ./LearningDirectory/Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section4Modules/32WorkingWithJSON.py
+# are related - they should be kept together/learned together/etc.
+
 # Matplotlib is an external module.
 # External modules need to be installed.
 # to install this requests library type 'pip install requests' in the commnand line.
 # it was already installed. I didn't update it.
-
-# we'll be using these libraries in other lessons:
-# https://matplotlib.org/
-# https://scikit-learn.org/stable/
-# https://www.pygame.org/news
-# https://www.scipy.org/
-# https://www.sqlalchemy.org/
-# https://wxpython.org/
-# https://requests.readthedocs.io/en/master/
 
 # Did not write any code for htis video. Just navigated to this url 
 # https://opentdb.com/
