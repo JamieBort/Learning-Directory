@@ -24,3 +24,10 @@
 # plt.title("Monthly Sales")
 # plt.plot(x,y)
 # plt.show()
+
+# Exercise:
+# Create a program to help the user type faster. 
+# Give them a word and ask them to write it five times.
+# Check how many seconds it took them to type the word at each round.
+# In the end, tell the user how many mistakes were made.
+# And show a chart with the typing speed evolution during the 5 rounds.
