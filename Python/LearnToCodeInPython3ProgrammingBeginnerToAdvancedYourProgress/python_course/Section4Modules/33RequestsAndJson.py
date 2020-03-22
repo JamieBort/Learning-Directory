@@ -1,3 +1,5 @@
+# Mostly done. 
+
 #Exercise
 # Create a quizzing game. Make an HTTP request to the Open Trivia API at each round of the game to get a new question.
 # Present that question to the user for that person to answer.
@@ -20,28 +22,31 @@ while(quit != True):
     # import requests
     # r = requests.get("https://opentdb.com/api.php?amount=1&category=12&difficulty=easy&type=multiple")
 
-    print("The response/status code:")
-    print(r.status_code)
-    print("The body of the response:")
-    # print(r.text)
-    question = json.loads(r.text) # the loads() method convers json/string into a python dictionary.
-    print(question)
+    # try:
+    #     print("The response/status code:")
+    #     print(r.status_code)
+    # except:
+    #     print("An exception occurred")
 
-    print("-----------------------")
-    print(question["results"][0]["category"])
+    if(r.status_code!=200):
+        print("The response wasn't 200: ", r.status_code)
+    else:
+        print("The response/status code:")
+        print(r.status_code)
+        theEntireObject = json.loads(r.text) # the loads() method converst json/string into a python dictionary.
+        print("The Entire Object: ", theEntireObject)
+        theQuestion = theEntireObject["results"][0]["question"]
+        print("THE QUESTION: ", theQuestion)
+        theCorrectAnswer = theEntireObject["results"][0]["correct_answer"]
+        print("THE Correct Answer: ", theCorrectAnswer)
+        theIncorrectAnswer = theEntireObject["results"][0]["incorrect_answers"]
+        print("THE Incorrect Answers: ", theIncorrectAnswer)
 
-    print("-----------------------")
-    print(question["results"][0]["incorrect_answers"])
+        guess = input(theQuestion)
+        if(guess==theCorrectAnswer):
+            print("You are correct! The answer is ", theCorrectAnswer)
+            quit=True
+        else:
+            print("That is not correct. Please guess again.")
 
-    print("-----------------------")
-    person = {"name": "john", "age" : 30}
-    person_json = json.dumps(person) # converting a dictionary into a json/string using the dumps() method
-    pprint.pprint(person_json)
-    # print(type(person_json))
-    # print(type(person))
-
-    # print("***Quit:" , quit)
-    print("in the while statement")
-    # quit= input("Type true. ")
-    quit=True
-    # print("Quit***:" , quit)
+print("Answered Correctly.")
