@@ -10,7 +10,7 @@
 # to install this requests library type 'pip install requests' in the commnand line.
 # it was already installed. I didn't update it.
 
-# Did not write any code for htis video. Just navigated to this url 
+# Did not write any code for this video. Just navigated to this url 
 # https://opentdb.com/
 # to genearate this endpoint: https://opentdb.com/api.php?amount=1&category=12&difficulty=easy&type=multiple
 # We then navigated to that url in a new tab/page.
