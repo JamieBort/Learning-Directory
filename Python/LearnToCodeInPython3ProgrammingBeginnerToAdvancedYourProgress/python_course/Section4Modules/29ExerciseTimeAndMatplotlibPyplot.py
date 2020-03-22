@@ -42,50 +42,30 @@
 import time as t
 dictionary = {} # declare dictionary.
 
-# print("Please type the word 'run' five times.")
-# time1 = input("")
-# time2 = input("")
-# time3 = input("")
-# time4 = input("")
-# time5 = input("")
-# dictionary = {"first": time1,"second":time2, "third":time3, "fourth":time4, "fifth": time5}
-# dictionary = {"first": time1}
-
-# pr/int(dictionary)
-
 def timeMeasure(): # measures the delayed time
     since_beginning_of_time = t.time()
-    print(since_beginning_of_time)
+    # print(since_beginning_of_time)
     return since_beginning_of_time
 
 def measuringWordTime():
     beforeWordIsEntered=timeMeasure()
-    word = input("PLEASE TYPE A WORD")
+    word = input("PLEASE TYPE A WORD ")
     afterWordIsEntered=timeMeasure()
-    print("THE ELAPSEDB TIME: ", afterWordIsEntered-beforeWordIsEntered)
-    return word
+    delay=afterWordIsEntered-beforeWordIsEntered
+    # print("THE ELAPSED TIME: ", delay)
+    myObject= {"The Word": word, "the time to type the word":delay}
+    # print(myObject)
+    return myObject
 
 def masterFunction():
     print("The dictionary length: ", len(dictionary))
     t=0
-    # while t<2:
-    #     print("t: ", t)
-    #     t=t+1
-    # while len(dictionary)<3:
-    #     theword=measuringWordTime()
-    #     dictionary.update({"color": theword})
-    #     print("UPDATED")
-    #     dictionary.update({"color": measuringWordTime()})
-
-
-    # theword=measuringWordTime()
-    # dictionary.update({"color": theword})
-
-    # theword=measuringWordTime()
-    # dictionary.update({"color": theword})
-
+    while len(dictionary)<3:
+        dictionary.update({t: measuringWordTime()})
+        t+=1
     print("The dictionary: ", dictionary)
     print("The dictionary length: ", len(dictionary))
 
-# masterFunction()
+# timeMeasure()
+masterFunction()
 # measuringWordTime()
