@@ -53,21 +53,39 @@ dictionary = {} # declare dictionary.
 
 # pr/int(dictionary)
 
-def timeMeasure():
+def timeMeasure(): # measures the delayed time
     since_beginning_of_time = t.time()
     print(since_beginning_of_time)
     return since_beginning_of_time
 
 def measuringWordTime():
     beforeWordIsEntered=timeMeasure()
-    word = input("")
+    word = input("PLEASE TYPE A WORD")
     afterWordIsEntered=timeMeasure()
-    print(afterWordIsEntered-beforeWordIsEntered)
+    print("THE ELAPSEDB TIME: ", afterWordIsEntered-beforeWordIsEntered)
     return word
 
-def addToDictionary(theword):
-    dictionary.update({"color": theword})
-    print("The dictionary: ", dictionary)
+def masterFunction():
+    print("The dictionary length: ", len(dictionary))
+    t=0
+    # while t<2:
+    #     print("t: ", t)
+    #     t=t+1
+    # while len(dictionary)<3:
+    #     theword=measuringWordTime()
+    #     dictionary.update({"color": theword})
+    #     print("UPDATED")
+    #     dictionary.update({"color": measuringWordTime()})
 
+
+    # theword=measuringWordTime()
+    # dictionary.update({"color": theword})
+
+    # theword=measuringWordTime()
+    # dictionary.update({"color": theword})
+
+    print("The dictionary: ", dictionary)
+    print("The dictionary length: ", len(dictionary))
+
+# masterFunction()
 # measuringWordTime()
-addToDictionary(measuringWordTime())
