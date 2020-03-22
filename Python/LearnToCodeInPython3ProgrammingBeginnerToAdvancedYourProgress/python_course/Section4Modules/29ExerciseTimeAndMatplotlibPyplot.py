@@ -1,35 +1,4 @@
-# This is from /LearningDirectory/Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section4Modules/27Time.py
-# import time as t
-# print("THE OUTPUT OF t.localtime(): ", t.localtime()) # THE OUTPUT OF t.localtime(): time.struct_time(tm_year=2020, tm_mon=3, tm_mday=19, tm_hour=13, tm_min=36, tm_sec=36, tm_wday=3, tm_yday=79, tm_isdst=1)
-
-# current_time = t.localtime()
-# print("THE TYPE OF tm_hour: ", type(t.localtime().tm_hour).__name__)
-# print("THE OUTPUT OF t.localtime().tm_hour AND t.localtime().tm_min: ", current_time.tm_hour, "h:", current_time.tm_min, "m")
-# print("THE OUTPUT OF str(t.localtime().tm_hour) AND str(t.localtime().tm_min): ", str(current_time.tm_hour) + "h:" + str(current_time.tm_min) + "m" )
-
-# since_beginning_of_time = t.time()
-# print("NUMBER OF SECONDS SINCE THE BEGINNING OF THE EPOC, WHICH IS 0 SECONDS 0 MINUTES 0 HOURS JANUARY 1, 1970: ", since_beginning_of_time)
-# nsiad = 60*60*24 # number of seconds in a day
-# delivery_time = since_beginning_of_time + (nsiad * 7) # SEVEN DAYS FROM NOW
-# print("THE TIME SEVEN DAYS FROM NOW: ", t.localtime(delivery_time))
-# print("Before")
-# # print(t.sleep(5)) # Suspend execution of the calling thread for the given number of seconds.
-# # t.sleep(5) Suspend execution of the calling thread for the given number of seconds.
-# print("After")
-# ----------------------------------------
-
-# This is from /LearningDirectory/Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section4Modules/28Matplotlib.py
-# import matplotlib.pyplot as plt
-# x = [1,2,3,4]
-# y = [1500,1200,1100,1800]
-# legend = ["January", "February", "March", "April"]
-# plt.xticks(x,legend)
-# plt.bar(x,y)
-# plt.ylabel("Sales in US$")
-# plt.title("Monthly Sales")
-# plt.plot(x,y)
-# plt.show()
-# ----------------------------------------
+# NOT DONE - COME BACK TO
 
 # Exercise:
 # Create a program to help the user type faster. 
@@ -42,25 +11,23 @@
 import time as t
 dictionary = {} # declare dictionary.
 
-def timeMeasure(): # measures the delayed time
+def timeMeasure(): # measures the time
     since_beginning_of_time = t.time()
     # print(since_beginning_of_time)
     return since_beginning_of_time
 
-def measuringWordTime():
+def measuringWordTime(): # calculates the elapsed time. 
     beforeWordIsEntered=timeMeasure()
-    word = input("PLEASE TYPE A WORD ")
+    word = input("PLEASE TYPE THE WORD 'RUN' ")
     afterWordIsEntered=timeMeasure()
-    delay=afterWordIsEntered-beforeWordIsEntered
-    # print("THE ELAPSED TIME: ", delay)
-    myObject= {"The Word": word, "the time to type the word":delay}
-    # print(myObject)
+    elapsed=afterWordIsEntered-beforeWordIsEntered
+    myObject= {"The Word": word, "the time to type the word":elapsed} # creates an object of the elapsed time and the word.
     return myObject
 
 def masterFunction():
     print("The dictionary length: ", len(dictionary))
     t=0
-    while len(dictionary)<3:
+    while len(dictionary)<5:
         dictionary.update({t: measuringWordTime()})
         t+=1
     print("The dictionary: ", dictionary)
