@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>New Student</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Create a New Student</h1>
+    <!-- Add a form to post to /create_student url.
+         Add an inputs for first name, last name and grade.
+         Use thymeleaf to access the grades that were added to the model in the
+          controller to show in the <select> pulldown list -->
+`   <form action="/create_student" method="post">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><!-- first_name text field --></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><!-- last_name text field --></td>
+            </tr>
+            <tr>
+                <td>Grade:</td>
+                <td>
+                    <select name="grade">
+                        <!-- thymeleaf option tag -->
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button>Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
