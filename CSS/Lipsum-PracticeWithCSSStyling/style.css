@@ -1,0 +1,60 @@
+
+
+#logo{
+  text-transform: uppercase;
+}
+
+/**********************************/
+/*find a way to put a line in here*/
+/**********************************/
+/*
+div{
+  clear: right;
+}*/
+
+#logo{
+  float: right;
+}
+
+
+hr{
+    /*display: block;          // this line is not needed
+    height: 1px;               // this line is not needed
+    border: 0;                 // this line is not needed
+    */
+    clear: right;
+    border-top: 3px dotted #739e29;
+    /*margin: 1em 0;           // this line is not needed
+    padding: 0;               // this line is not needed
+    */
+}
+
+.main_navigation>a{
+  border: #739e29 1px solid;
+  padding: .3em 1.3em;
+  text-decoration: none;
+  color: maroon;
+}
+
+#header2{
+  color: lightr;
+}
+
+/*nav a:first-child{
+  text-transform: uppercase;
+}*/
+
+p a:first-child{
+  color: green;
+}
+
+ul{
+  width:10em;
+
+  padding: 1em 1em 1em 2em;
+  background-color: lightgreen;
+}
+
+h2{
+  text-transform: uppercase;
+}
