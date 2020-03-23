@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Puppies!</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div>
+            <header id="site_header">        
+            
+                <a id="logo"><img src="img/logo.png" alt="Puppy Logo"></a>
+            
+                <nav class="main_navigation">
+                    <a href="#">Puppies</a>
+                    <a href="#">Dog Breeds</a>
+                    <a href="#">So Cute</a>
+                </nav>
+            </header>
+
+            <div id="page_content">
+
+                <section>
+                    <h2>Puppies are pretty much the best...</h2>
+
+                    <p>Humans have had a strong affinity for dogs of all sorts for <a href="#">tens of thousands of years</a>. We have an undeniable and unique social connection to them. <strong>Our love of puppies</strong> is a direct extension of that affinity.</p>
+
+                    <h3>So, why do we love puppies?</h3>
+
+                    <ul>
+                        <li>Large eyes and head</li>
+                        <li>Soft fluffy bodies</li>
+                        <li>Adorable antics</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Table</h2>
+
+                    <p>Below, you'll find some information about a few of the cutest puppies ever.</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Breed</td>
+                                <td>Image</td>
+                                <td>Weight</td>
+                                <td>Origin</td>
+                                <td>Markings</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Chow Chow</td>
+                                <td><img src="img/puppy__12.jpg" alt=""></td>
+                                <td>45-70lb</td>
+                                <td>China</td>
+                                <td>Think and course coat; red, brown and black</td>
+                            </tr>
+                            <tr>
+                                <td>Doberman Pinscher</td>
+                                <td><img src="img/puppy__13.jpg" alt=""></td>
+                                <td>32-45lb</td>
+                                <td>Germany</td>
+                                <td>Short coat; black, red, brown, blue</td>
+                            </tr>
+                            <tr>
+                                <td>Golden Retriever</td>
+                                <td><img src="img/puppy__11.jpg" alt=""></td>
+                                <td>55-75lb</td>
+                                <td>Scotland</td>
+                                <td>Straight or wavy fur; cream and gold</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                </section>
+
+                <section>
+                    <h2>Puppy love!</h2>
+
+                    <p>Tell us why you love puppies!</p>
+            
+                    <form action="#">
+                        
+                        <div class="name">
+                            <label for="first_name">First Name:</label>
+                            <input type="text" name="first_name" id="first_name">
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+                        <div class="city_container">
+                            <label for="city">Favorite Breed:</label>
+                            <select name="city" id="city">
+                                <option value="south_carolina">Chow Chow</option>
+                                <option value="california">Doberman Pinscher</option>
+                                <option value="new_york">Golden Retriever</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="bio">Why do you Love Puppies?</label>
+                            <br>
+                            <textarea name="bio" id="bio" cols="50" rows="10">Puppies are the best because...</textarea>
+                        </div>
+
+                        <div class="submit_container">
+                            <input type="submit" id="submit_button" value="Submit!">
+                        </div>
+                    </form>
+                    
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

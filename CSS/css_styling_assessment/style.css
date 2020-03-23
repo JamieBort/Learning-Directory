@@ -1,0 +1,132 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+  border: 2px solid #ffd24a;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+nav>a {
+  border: .5px solid white;
+  border-radius: 3px;
+  padding: 8px 35px 8px 35px;
+  color: white;
+}
+
+header {
+  background-color: #ff8523;
+  padding: 20px 20px 20px 20px;
+}
+
+.main_navigation {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#page_content {
+  padding: 20px 20px 20px 20px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+li {
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+thead {
+  background-color: #1fabe5;
+  border: 1px solid #046c97;
+  color: white;
+  margin: auto;
+}
+
+td>img {
+  display: block;
+  height: 40%;
+  margin: auto;
+  width: 40%;
+}
+
+table, tr, td {
+  border: .25px solid #1fabe5;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+td {
+  padding: 8px 8px 8px 8px;
+}
+
+section {
+  border-bottom: solid #dddddd 2.5px;
+}
+
+h2, h3 {
+  color: #1fabe5;
+}
+
+form {
+  background-color: #dddddd;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+div>input {
+  padding: 10px;
+}
+
+.name {
+  background-color: #ff8523;
+  border-radius: 4px;
+  color: white;
+  padding: 20px;
+}
+
+.city_container {
+  padding: 15px 0px 20px 0px;
+}
+
+#bio {
+  margin-top: 10px;
+  outline: #1fabe5 solid 1px;
+  width: 98%;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  border-radius: 3px;
+  border: 0px;
+  color: white;
+  padding: 13px 18px 13px 18px;
+}
