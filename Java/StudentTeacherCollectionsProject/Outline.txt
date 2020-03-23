@@ -1,0 +1,26 @@
+Main
+Create arraylist of students ArrayList<Student>... DONE
+instantiate each student1...
+put the students into three groups?
+Create arraylist of teachers ArrayList<Teacher>... DONE
+instantiate each teacher1...
+create a hashmap with teacher as the key and student as the value
+
+
+
+Student
+
+variables DONE
+constructor DONE
+getters/setters DONE
+tostring override
+equals override
+hashcode override
+
+
+
+Teacher
+
+variables DONE
+constructor DONE
+getters/setters DONE
