@@ -21,7 +21,7 @@
         const divResult = document.getElementById("divResult")
         btnRepos.addEventListener("click", getRepos)
         btnIssues.addEventListener("click", getIssues)
-        btnCommits.addEventListener("click", getCommits)
+        btnCommits.addEventListener("click", e=> getCommits())
 
         async function getRepos(){
             clear();
@@ -53,9 +53,8 @@
             })
         }
 
-        async function getCommits(){
+        async function getCommits(url= "https://api.github.com/search/commits?q=repo:freecodecamp/freecodecamp author-date:2019-03-01..2019-03-31"){
             clear();
-            const url = "https://api.github.com/search/commits?q=repo:freecodecamp/freecodecamp author-date:2019-03-01..2019-03-31"
             const headers = {
                 "Accept": "application/vnd.github.cloak-preview"
             }
@@ -88,6 +87,17 @@
                 divResult.appendChild(anchor)
                 divResult.appendChild(document.createElement("br"))
             })
+
+            urls.forEach(u=>{
+                const btn = document.createElement("button")
+                btn.textContent = u.title;
+                btn.addEventListener("click",e=> getCommits(u.url))
+                divResult.appendChild(btn);
+            })
+
+
+
+
         }
 
         function clear(){ // this function clears the dom of any existing elements. So that when you press the button more than once, the page doesn't fill with dupicate links.
