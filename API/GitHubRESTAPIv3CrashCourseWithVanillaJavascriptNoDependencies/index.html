@@ -29,7 +29,7 @@
             const response= await fetch(url)
             const result = await response.json()
 
-            result.items.forEach(i=>{
+            result.items.forEach(i=>{ // TODO: what's going on here?
                 const anchor = document.createElement("a")
                 anchor.href = i.html_url;
                 anchor.textContent = i.full_name;
@@ -63,6 +63,17 @@
                 "method" : "GET", // By default it is GET. This line could be omitted.
                 "headers": headers
             })
+
+            const link = response.headers.get("link")
+            const links = link.split(",") // split() will create an array.
+            // <https://api.github.com/search/commits?q=repo%3Afreecodecamp%2Ffreecodecamp+author-date%3A2019-03-01..2019-03-31&page=2>; rel="next", <https://api.github.com/search/commits?q=repo%3Afreecodecamp%2Ffreecodecamp+author-date%3A2019-03-01..2019-03-31&page=28>; rel="last"
+            const urls = links.map(a=> {
+                return{
+                    url:a.split(";")[0].replace(">","").replace("<",""),
+                    title:a.split(";")[1],
+                }
+            })
+
             const result = await response.json()
 
             result.items.forEach(i=>{
@@ -72,7 +83,7 @@
                 img.style.height="32px"
                 const anchor = document.createElement("a")
                 anchor.href = i.html_url;
-                anchor.textContent = i.commit.message;
+                anchor.textContent = i.commit.message.substr(0,120) + "...";
                 divResult.appendChild(img)
                 divResult.appendChild(anchor)
                 divResult.appendChild(document.createElement("br"))

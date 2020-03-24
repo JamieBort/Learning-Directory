@@ -16,7 +16,8 @@ Steps:
     c. document.createTextNode
     d. document.createElement 
     e. using chrome dev tools to debug by creating breakpionts
-    f. 
+    f. headers
+    g. 
 
     ???. Reading GitHub API docs.
 
@@ -24,7 +25,15 @@ Section 3 Notes
 https://developer.github.com/v3/search/#search-commits
 fetch() takes two parameters    
 
+Section 4 Notes
+Look into this: console.log(response.headers.get("link"))
+// Result:
+// <https://api.github.com/search/commits?q=repo%3Afreecodecamp%2Ffreecodecamp+author-date%3A2019-03-01..2019-03-31&page=2>; rel="next", <https://api.github.com/search/commits?q=repo%3Afreecodecamp%2Ffreecodecamp+author-date%3A2019-03-01..2019-03-31&page=28>; rel="last"
+
 Table of Contents
 1. Search public repositories.
 2. Search public issues.
 3. Search public commits.
+4. Lazy fetching talked about in video but not covered. Refered to another video or lesson or tutorial.
+5. Pagination.
+6. Authorization - searching private repo issues.
