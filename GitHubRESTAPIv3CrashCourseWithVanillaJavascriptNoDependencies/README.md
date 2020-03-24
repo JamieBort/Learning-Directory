@@ -12,3 +12,9 @@ Steps:
     a. document.getElementById
     b. variable.appendChild
     c. document.createTextNode
+    d. document.createElement 
+
+Table of Contents
+1. Search public repositories.
+2. Search public issues.
+3. Search public commits.
