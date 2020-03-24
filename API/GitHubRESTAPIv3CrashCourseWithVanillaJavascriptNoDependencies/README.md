@@ -9,10 +9,20 @@ Steps:
 3. add <script> tag in html file for fetch
 4. learned about fetch().then().then() vs async and await.
 5. learned about 
+    ???. Typing `html-5` in the html file.
+    ???. starting up a server typ typing  `http-server .` in the terminal.
     a. document.getElementById
     b. variable.appendChild
     c. document.createTextNode
     d. document.createElement 
+    e. using chrome dev tools to debug by creating breakpionts
+    f. 
+
+    ???. Reading GitHub API docs.
+
+Section 3 Notes
+https://developer.github.com/v3/search/#search-commits
+fetch() takes two parameters    
 
 Table of Contents
 1. Search public repositories.
