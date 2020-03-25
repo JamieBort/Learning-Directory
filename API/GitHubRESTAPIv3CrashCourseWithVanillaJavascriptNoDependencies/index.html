@@ -65,7 +65,7 @@
         async function getIssuesPrivate(){
             clear();
             const headers = {
-                "Authorization": `Token ` // removed this so I can push it to git.
+                "Authorization": `Token ` // Removed this token so I can push it to git.
             }
             const url = "https://api.github.com/search/issues?q=repo:jamiebort/TestPrivateRepo type:issue"
             const response= await fetch(url, {
