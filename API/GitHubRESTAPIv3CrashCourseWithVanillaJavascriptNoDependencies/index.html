@@ -10,24 +10,32 @@
     <button id = 'btnRepos'>Repos</button>
     <button id = 'btnIssues'>Issues</button>
     <button id = 'btnCommits'>Commits</button>
+    <button id = 'btnIssuesPrivate'>Issues Private</button>
+
     <div id = 'divResult'>
 
     </div>
     <script>
         const btnRepos = document.getElementById("btnRepos")
         const btnIssues = document.getElementById("btnIssues")
+        const btnIssuesPrivate = document.getElementById("btnIssuesPrivate")
         const btnCommits = document.getElementById("btnCommits")
         
         const divResult = document.getElementById("divResult")
         btnRepos.addEventListener("click", getRepos)
         btnIssues.addEventListener("click", getIssues)
         btnCommits.addEventListener("click", e=> getCommits())
+        btnIssuesPrivate.addEventListener("click", e=> getIssuesPrivate())
 
         async function getRepos(){
             clear();
-            const url = "https://api.github.com/search/repositories?q=stars:300000..500000" // repository_search_url: "https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}" // repositories with between 200000 and 300000 stars.
+            // const url = "https://api.github.com/search/repositories"
+            // const url = "https://api.github.com/"
+            const url = "https://api.github.com/users/jamiebort/repos"
+            // const url = "https://api.github.com/search/repositories?q=stars:300000..500000" // repository_search_url: "https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}" // repositories with between 200000 and 300000 stars.
             const response= await fetch(url)
             const result = await response.json()
+            console.log(result)
 
             result.items.forEach(i=>{ // TODO: what's going on here?
                 const anchor = document.createElement("a")
@@ -40,8 +48,30 @@
 
         async function getIssues(){
             clear();
-            const url = "https://api.github.com/search/issues?q=author:raisedadead repo:freecodecamp/freecodecamp type:issue"
+            const url = "https://api.github.com/search/issues?q=repo:jamiebort/LearningDirectory type:issue"
+            // const url = "https://api.github.com/search/issues?q=author:raisedadead repo:freecodecamp/freecodecamp type:issue"
             const response= await fetch(url)
+            const result = await response.json()
+
+            result.items.forEach(i=>{
+                const anchor = document.createElement("a")
+                anchor.href = i.html_url;
+                anchor.textContent = i.title;
+                divResult.appendChild(anchor)
+                divResult.appendChild(document.createElement("br"))
+            })
+        }
+
+        async function getIssuesPrivate(){
+            clear();
+            const headers = {
+                "Authorization": `Token ` // removed this so I can push it to git.
+            }
+            const url = "https://api.github.com/search/issues?q=repo:jamiebort/TestPrivateRepo type:issue"
+            const response= await fetch(url, {
+                "method": "GET",
+                "headers": headers
+            })
             const result = await response.json()
 
             result.items.forEach(i=>{
@@ -94,8 +124,6 @@
                 btn.addEventListener("click",e=> getCommits(u.url))
                 divResult.appendChild(btn);
             })
-
-
 
 
         }
