@@ -11,6 +11,7 @@
     <button id = 'btnIssues'>Issues</button>
     <button id = 'btnCommits'>Commits</button>
     <button id = 'btnIssuesPrivate'>Issues Private</button>
+    <button id = 'btnCreateIssue'>Create Issue</button>
 
     <div id = 'divResult'>
 
@@ -19,6 +20,7 @@
         const btnRepos = document.getElementById("btnRepos")
         const btnIssues = document.getElementById("btnIssues")
         const btnIssuesPrivate = document.getElementById("btnIssuesPrivate")
+        const btnCreateIssue = document.getElementById("btnCreateIssue")
         const btnCommits = document.getElementById("btnCommits")
         
         const divResult = document.getElementById("divResult")
@@ -26,6 +28,7 @@
         btnIssues.addEventListener("click", getIssues)
         btnCommits.addEventListener("click", e=> getCommits())
         btnIssuesPrivate.addEventListener("click", e=> getIssuesPrivate())
+        btnCreateIssue.addEventListener("click", e=> createIssues())
 
         async function getRepos(){
             clear();
@@ -61,6 +64,34 @@
                 divResult.appendChild(document.createElement("br"))
             })
         }
+
+async function createIssues(){ // going to change get method to post method.
+    clear();
+    const url = "https://api.github.com/repos/jamiebort/TestPrivateRepo/issues"
+    // const url = "https://api.github.com/repos/husseintest/sandboxpublic/issues"
+    const headers = {
+                "Authorization": `Token ` // Removed this token so I can push it to git.
+    }
+    const payLoad = {
+        title: "Hey my brand new issues!!!!"
+    }
+    const response= await fetch(url, {
+        method: "POST",
+        headers: headers,
+        body: JSON.stringify(payLoad)
+    })
+    const result = await response.json()
+
+    const i = result;
+
+    // result.items.forEach(i=>{
+        const anchor = document.createElement("a")
+        anchor.href = i.html_url;
+        anchor.textContent = i.title;
+        divResult.appendChild(anchor)
+        divResult.appendChild(document.createElement("br"))
+    // })
+}
 
         async function getIssuesPrivate(){
             clear();

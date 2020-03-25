@@ -37,3 +37,4 @@ Table of Contents
 4. Lazy fetching talked about in video but not covered. Refered to another video or lesson or tutorial.
 5. Pagination.
 6. Authorization - searching private repo issues.
+7. Creating Issues.
