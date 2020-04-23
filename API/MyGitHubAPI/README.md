@@ -7,3 +7,6 @@ by adding the dotenv package; which uses the require() method. Which is not supp
 
 Since it is not supported in the browser I will also be using node.js. And will be following what I wrote from:
 /LearningDirectory/Node/NodePractice/TrivialExpressApp
+
+###Status
+Having touble. Need to come back to make proper notes here.
