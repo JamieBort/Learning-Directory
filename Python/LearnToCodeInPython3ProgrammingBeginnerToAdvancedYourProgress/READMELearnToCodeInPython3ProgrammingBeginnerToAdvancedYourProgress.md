@@ -6,3 +6,5 @@ The purpose of this directory is to house all the code I write for that course.
 
 For using vs code I followed this tutorial:
 https://code.visualstudio.com/docs/python/python-tutorial
+
+[Trello Card](https://trello.com/c/Upxkpgx3/683-learn-to-code-in-python-3-programming-beginner-to-advanced-your-progress-udemy-course?menu=filter&filter=label:Work,label:none) associated with this directory.
