@@ -1,3 +1,10 @@
+# When this challenge/assignment is revisited address the the following.
+# 1. make sure the user can enter decimal numbers.
+# 2. properly handle erros.
+# 3. clean up printed/output text.
+# 4. clean up variables. For example, 'bmi_metric' and 'bmi_imperial' are never used.
+# 5. what else?
+
 weight = 0
 height = 1
 bmi_metric = weight/(height * height) # weight in kg. height in meteres
@@ -30,23 +37,24 @@ def prompting_for_weight():
     # weight = 1
     return weight
 
-while unit != 1 and unit != 2:
-    unit = selecting_a_unit()
-    if unit == 1:
-        print(unit, " was selected. IT'S KILO")
-
-    if unit == 2:
-        print(unit, " was selected. IT'S POUNDS!!")
-
-while height < 2:
-    height = prompting_for_height()
-    print("The height is: ", height)
-
-while weight < 1:
-    weight = prompting_for_weight()
-    print("The weight is: ", weight)
-
 def calculating_BMI(unit, weight, height):
+
+    while unit != 1 and unit != 2:
+        unit = selecting_a_unit()
+        if unit == 1:
+            print(unit, " was selected. IT'S KILO")
+
+        if unit == 2:
+            print(unit, " was selected. IT'S POUNDS!!")
+
+    while height < 2:
+        height = prompting_for_height()
+        print("The height is: ", height)
+
+    while weight < 1:
+        weight = prompting_for_weight()
+        print("The weight is: ", weight)
+
     bmi = 0
     if unit == 1:
         bmi = weight/(height*height)
@@ -54,5 +62,18 @@ def calculating_BMI(unit, weight, height):
     if unit == 2:
         bmi = 703*weight/(height*height)
         print("The bmi is calculated in imperial units and is ", bmi,"[put units here]")
+    return bmi
 
-calculating_BMI(unit, weight, height)
+def bmi_status():
+    bmi = calculating_BMI(unit, weight, height)
+    print("the BMI is: ", bmi)
+    if bmi <= 18.5:
+        print("UNDERWEIGHT")
+    if bmi > 18.5 and bmi <= 24.9:
+        print("NORMAL WEIGHT")
+    if bmi > 24.9 and bmi <= 29.9:
+        print("OVERWEIGHT")
+    if bmi > 29.9:
+        print("OBESITY")
+
+bmi_status()
