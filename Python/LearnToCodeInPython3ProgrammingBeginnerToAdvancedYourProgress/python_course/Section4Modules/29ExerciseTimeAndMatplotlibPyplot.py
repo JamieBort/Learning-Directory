@@ -1,4 +1,8 @@
-# NOT DONE - COME BACK TO
+# NOT DONE - COME BACK TO to address the following:
+# Need to do the following.
+# 1. see TODO comment below: consolidate all these for loops below.
+# 2. graph plot code copied from ../LearningDirectory/Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section4Modules/28Matplotlib.py
+# 3. provide correct error handling/validation
 
 # Exercise:
 # Create a program to help the user type faster. 
@@ -9,6 +13,7 @@
 
 # Solution:
 import time as t
+import matplotlib.pyplot as plt
 
 word_to_practice = input("Please type a word that you would like to practice typing more quickly:\n") # does not have correct validation - crashes if a string is not entered
 print("The word is: ", word_to_practice)
@@ -35,14 +40,21 @@ def check_spelling(thelist):
 def master_function(wordToPractice): # this function calls measure_elapsed_time()
     my_dictionary = {}
     i=0
+    x = []
     while i < number_of_attempts:
+        x.append(i+1) # generating x array for the graph plot.
         myList = measure_elapsed_time(wordToPractice)
         my_dictionary[i] = myList
         i += 1
+    # print("X IS: ", x)
 
+# TODO: consolidate all these for loops below.
+    y = []
     for key in my_dictionary:
+        y.append(my_dictionary[key][1])  # generating y array.
         print("The ", key + 1, " attempt was ", round(my_dictionary[key][1], 4), " seconds long.")
-    
+    # print("Y IS: ", y)
+
     talley = 0
     for key in my_dictionary:
         if my_dictionary[key][0] != word_to_practice:
@@ -50,5 +62,29 @@ def master_function(wordToPractice): # this function calls measure_elapsed_time(
     print("There were ", talley, "mistakes made.")
     # my_dictionary["Number of incorrect spellings"] = talley
     # print("my_dictionary: ", my_dictionary)
+
+    # generating the graph
+    # import matplotlib.pyplot as plt # remove this
+    # x = [1,2,3,4]
+    
+
+    
+    # y = [1500,1200,1100,1800]
+    # y = []
+    # print(y)
+    # for key in my_dictionary: # generating y array
+        # print("key: ", key)
+        # print("my_dictionary[key][1]: ", my_dictionary[key][1])
+        # y.append(my_dictionary[key][1]) 
+        # print(y)
+
+    # legend = ["January", "February", "March", "April"]
+    # plt.xticks(x,legend)
+    plt.bar(x,y)
+    # plt.ylabel("Sales in US$")
+    # plt.title("Monthly Sales")
+    plt.plot(x,y)
+    plt.show()
+
     
 master_function(word_to_practice)
