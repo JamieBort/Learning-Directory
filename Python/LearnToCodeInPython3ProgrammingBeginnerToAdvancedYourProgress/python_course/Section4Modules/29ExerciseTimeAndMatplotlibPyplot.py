@@ -10,29 +10,40 @@
 # Solution:
 import time as t
 dictionary = {} # declare dictionary.
+theWord = ""
+word = ""
 
-def timeMeasure(): # measures the time
-    since_beginning_of_time = t.time()
-    # print(since_beginning_of_time)
-    return since_beginning_of_time
+def solicitWord():
+    theWord = input("Please type a word you'd like to practice typing more quickly.\n")
+    print("The word you've chosen is: ", theWord)
+    print("--------------------------------")
+    return theWord
+# theWord = solicitWord()
+# print("First time: ", theWord)
 
-def measuringWordTime(): # calculates the elapsed time. 
-    beforeWordIsEntered=timeMeasure()
-    word = input("PLEASE TYPE THE WORD 'RUN' ")
-    afterWordIsEntered=timeMeasure()
-    elapsed=afterWordIsEntered-beforeWordIsEntered
-    myObject= {"The Word": word, "the time to type the word":elapsed} # creates an object of the elapsed time and the word.
-    return myObject
+def measuringWordTime(some): # calculates the elapsed time. 
+    # print("Again ", some)
+    # print("The word you've chosen is: ", some)
+    beforeWordIsEntered = t.time()
+    bean = input("PLEASE TYPE THAT WORD FIVE TIMES\n")
+    print("bean ", bean)
+    afterWordIsEntered = t.time()
+    return afterWordIsEntered-beforeWordIsEntered # elapsed time.
 
 def masterFunction():
-    print("The dictionary length: ", len(dictionary))
+    word = solicitWord()
+    # print("word: ", word)
+    # a = 0
+    # dictionary.update({a: measuringWordTime(word)})
+    # print("The dictionary: ", dictionary)
+    # print("The dictionary length: ", len(dictionary))
+
     t=0
     while len(dictionary)<5:
-        dictionary.update({t: measuringWordTime()})
+        dictionary.update({t: measuringWordTime(word)})
         t+=1
-    print("The dictionary: ", dictionary)
-    print("The dictionary length: ", len(dictionary))
 
-# timeMeasure()
+    # print("The dictionary: ", dictionary)
+    # print("The dictionary length: ", len(dictionary))
+
 masterFunction()
-# measuringWordTime()
