@@ -1,4 +1,6 @@
-# Not done yet.
+# Not done yet. it works. But it needs to be cleaned up.
+
+# NOTE: used ../LearningDirectory/Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section4Modules/32WorkingWithJSON.py for this exercise.
 
 #Exercise
 # Create a quizzing game. Make an HTTP request to the Open Trivia API at each round of the game to get a new question.
@@ -11,6 +13,7 @@
 import requests
 import json
 import pprint # This allows us to print the json in a more readable format.
+import random
 r = requests.get("https://opentdb.com/api.php?amount=1&category=12&difficulty=easy&type=multiple")
 quit = False
 t=0
@@ -40,18 +43,52 @@ while(quit != True):
         print("The question is: ", theQuestion)
         
         theCorrectAnswer = theEntireObject["results"][0]["correct_answer"]
-        print("THE Correct Answer: ", theCorrectAnswer)
+        # print("THE Correct Answer: ", theCorrectAnswer)
         theIncorrectAnswer = theEntireObject["results"][0]["incorrect_answers"]
-        print("THE Incorrect Answers: ", theIncorrectAnswer)
+        # print("THE Incorrect Answers: ", theIncorrectAnswer)
 
-        guess = input("Please type your answer: ")
-        print("You guessed: ", guess)
+        # guess = input("Please type your answer: ")
+        # print("You guessed: ", guess)
+
         # if(guess==theCorrectAnswer):
         #     print("You are correct! The answer is ", theCorrectAnswer)
         #     quit=True
         # else:
         #     print("That is not correct. Please guess again.")
-    
-    quit = True
 
-print("Answered Correctly/out of while loop.")
+        # print("The type of the correct answer: ", type(theCorrectAnswer))
+
+        # print("The type of the incorrect answer: ", type(theIncorrectAnswer))
+
+
+        # print(random.choice(theIncorrectAnswer))
+
+        # Add the correct answer to the list of incorrect answers.
+        theIncorrectAnswer.append(theCorrectAnswer)
+
+        # Populate a different list randomly from the new list of incorrect answers.
+        completeList = []
+        for i in range(len(theIncorrectAnswer)):
+            first = random.choice(theIncorrectAnswer)
+            completeList.append(first)
+            theIncorrectAnswer.remove(first)
+
+        # Share that list with the user for them to guess from.
+        print("These are your choices to guess from:\n", completeList)
+
+        # Have them guess which one is correct.
+        guess = input("Please type your answer. Keep in mind, it has to be spelled correctly. Typos will be treated as incorrect: ")
+        print("You guessed: ", guess)
+
+        # When they guess correctly, game over.
+        if(guess==theCorrectAnswer):
+            print("You are correct! The answer is ", theCorrectAnswer)
+            quit=True
+        else:
+            print("That is not correct. Please guess again.")
+        
+        # When they guess incorrectly, they need to try again.
+    
+    # quit = True
+
+# print("Answered Correctly/out of while loop.")
