@@ -1,4 +1,4 @@
-# Mostly done. 
+# Not done yet.
 
 #Exercise
 # Create a quizzing game. Make an HTTP request to the Open Trivia API at each round of the game to get a new question.
@@ -7,6 +7,7 @@
 # At the end of each round ask the user if they want to play again.
 # Keep playing until the user types 'quit'.
 
+# Solution
 import requests
 import json
 import pprint # This allows us to print the json in a more readable format.
@@ -15,6 +16,7 @@ quit = False
 t=0
 
 while(quit != True):
+
 # while(!quit):
     # while t<20:
     #     print("t: ", t)
@@ -31,22 +33,25 @@ while(quit != True):
     if(r.status_code!=200):
         print("The response wasn't 200: ", r.status_code)
     else:
-        print("The response/status code:")
-        print(r.status_code)
+        print("The response/status code is: ", r.status_code)
         theEntireObject = json.loads(r.text) # the loads() method converst json/string into a python dictionary.
-        print("The Entire Object: ", theEntireObject)
+        # print("The Entire Object: ", theEntireObject)
         theQuestion = theEntireObject["results"][0]["question"]
-        print("THE QUESTION: ", theQuestion)
+        print("The question is: ", theQuestion)
+        
         theCorrectAnswer = theEntireObject["results"][0]["correct_answer"]
         print("THE Correct Answer: ", theCorrectAnswer)
         theIncorrectAnswer = theEntireObject["results"][0]["incorrect_answers"]
         print("THE Incorrect Answers: ", theIncorrectAnswer)
 
-        guess = input(theQuestion)
-        if(guess==theCorrectAnswer):
-            print("You are correct! The answer is ", theCorrectAnswer)
-            quit=True
-        else:
-            print("That is not correct. Please guess again.")
+        guess = input("Please type your answer: ")
+        print("You guessed: ", guess)
+        # if(guess==theCorrectAnswer):
+        #     print("You are correct! The answer is ", theCorrectAnswer)
+        #     quit=True
+        # else:
+        #     print("That is not correct. Please guess again.")
+    
+    quit = True
 
-print("Answered Correctly.")
+print("Answered Correctly/out of while loop.")
