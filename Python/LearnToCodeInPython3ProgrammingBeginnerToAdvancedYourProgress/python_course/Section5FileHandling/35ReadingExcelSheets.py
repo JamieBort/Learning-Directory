@@ -1,32 +1,34 @@
-# Started.
-# From https://www.udemy.com/course/learn-python-programming-a-step-by-step-course-to-beginners/learn/lecture/13131584#questions/9460970
-# Return to this for more experience. More to learn.
+# NOTE: before writing in this file I created a text.txt file in the same directory.
 
-import pandas as pd
-file = pd.ExcelFile("./Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section5FileHandling/original.xlsx")
-# print(file.sheet_names)
-sheet = file.parse('sales')
-print("The entire sheet: ")
-print(sheet)
-print("The sum of the column 'Amount': ", sheet.Amount.sum())
-print("The sum of the column 'Invoice': ", sheet.Invoice.sum())
-# type(sheet) # this isn't working for me.
-atype = type(sheet)
-print("The type of file: ", atype)
-print("The 'Date' column of sheet: ")
-print(sheet.Date)
+# Reading
+f = open("./Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section5FileHandling/test.txt", "r") # "r" for read mode.
 
-# Print a specific line of the sheet.
-print("First")
-print(sheet.loc[0])
-print("Second")
-print(sheet.loc[0, "Amount"])
+# f = open("./test.txt") # NOTE: Since the read mode is the default mode,  "r" can be ommited.
 
-# Search for a specific customer.
-print("Third")
-sheet.set_index("Customer", inplace=True) #set the index first.
-print(sheet.loc["MMC Inc."])
+print(f.read())
+# ------------------
 
-# Resetting the index:
-sheet = sheet.reset_index()
+# Writing
+f = open("./Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section5FileHandling/test.txt", "w") #NOTE" the write mode, "w" will overwrite text that is already written in the file. Also, this mode will create the file if it does not already exist.
 
+f.write("This text will overwrite the content of our file.")
+
+f = open("./Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section5FileHandling/test.txt") # Using default syntaxt by ommiting the "r".
+
+print(f.read()) # NOTE: the read method will return an error if the file does not exist.
+# ------------------
+
+# Appending
+f = open("./Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section5FileHandling/test.txt", "a") #NOTE" the apend mode, "a" will append text to what is already written in the file. Also, this mode will create the file if it does not already exist.
+
+f.write("\nThis text will be appended to the file.")
+
+f = open("./Python/LearnToCodeInPython3ProgrammingBeginnerToAdvancedYourProgress/python_course/Section5FileHandling/test.txt", "r")
+
+print(f.read())
+# ------------------
+
+# Create
+# f = open(<file path>, "x") # NOTE: The create mode, "x" creates a file. If the file already exists it returns an error.
+
+# open(<file path>, "x") # NOTE: If all you want to do is create the file, you do not need to assign the statement to a vairable.
