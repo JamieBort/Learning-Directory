@@ -5,6 +5,31 @@ This is to help keep my GitHub account organized.
 
 For the most part each directory in LearningDirectory/ consists of only the technology that that directory is named.
 
+Each sub-directory of each sub-directory has (or will have) three directories:
+1. `Courses`
+2. `Coding Challenges` and
+3. `Projects`
+
+The `Coures` directory will have the course work I complete via sites such as Udemy. The name of the directories in `Coures` will match the name of the course.
+
+The `Coding Challenges` directory will have ....
+
+
+# CodeChallenges
+## Repository for all the online challenges I work on.
+
+### Coding Challenge Websites:
+1. [Project Euler](https://projecteuler.net/).
+2. [Codewars](https://www.codewars.com/).
+3. [HackerRank](https://www.hackerrank.com/dashboard).
+4. [Coder Byte](https://coderbyte.com/).
+5. [LeetCode](https://leetcode.com).
+
+For more code challenge sites see 'Online Games' of [this google doc](https://docs.google.com/document/d/1K-FDmLzGuYkasZpv9A1gTEV396rtWAi1bnCDh2uE7Q0/edit).
+
+The `Projects` directory will house ....
+
+
 ## Table of Contents
 
 [Introduction To AJAX With jQuery](https://github.com/JamieBort/LearningDirectory/tree/master/IntroductionToAJAXWithjQuery)
