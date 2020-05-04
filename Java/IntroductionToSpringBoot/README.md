@@ -1,4 +1,4 @@
-#README Introduction To Spring Boot
+# README Introduction To Spring Boot
 
 This directory houses files for the Udemy course.
 
@@ -10,7 +10,7 @@ This directory houses files for the Udemy course.
 
 =================
 
-###Resources from the course.
+### Resources from the course.
 From Section 1, video 2, 7:25 minutes in:
 [Twitter](twitter.com/springcentral)
 [YouTube](spring.io/video)
@@ -26,7 +26,7 @@ Getting Started Guides - http://spring.io/guides
 
 =================
 
-###Course Description
+### Course Description
 
 
 Are you familiar with the Java language but not quite sure how to start building applications for the real world? The Spring Framework is the standard for building applications in Java, but this isn't your parents Spring Framework.
