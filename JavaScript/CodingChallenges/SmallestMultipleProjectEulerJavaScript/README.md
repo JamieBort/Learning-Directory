@@ -1,0 +1,2 @@
+# SmallestMultipleProjectEulerJavaScript
+SmallestMultiple ProjectEuler JavaScript
