@@ -9,3 +9,4 @@ Three free resources for learning Spring Boot are:
 4. [Java Spring Boot + IntelliJ IDEA](https://medium.com/danielpadua/java-spring-boot-intellij-idea-b919b0097a0) Medium tutorial.
 5. [How to create a Spring Boot Project in Visual Studio Code](https://www.youtube.com/watch?v=5mpHejytgFE) YouTube video.
 6. [Spring Boot Tutorials | Full Course](https://www.youtube.com/watch?v=35EQXmHKZYs) YouTube video.
+7. [Spring Tools 4: Getting Started in Visual Studio Code](https://www.youtube.com/watch?v=epDPEphSYSI) YouTube video.
