@@ -6,26 +6,33 @@ This directory houses files for the Udemy course.
 
 ### Resources for this course
 
-[Trello card](https://trello.com/c/gyJTOmuK/877-introducing-spring-boot-udemy-course)
+My [Trello card](https://trello.com/c/gyJTOmuK/877-introducing-spring-boot-udemy-course).
 
-[Github repo](https://github.com/JamieBort/LearningDirectory/tree/master/Java/IntroductionToSpringBoot)
+My [Github repo](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/IntroducingSpringBoot).
 
-[Website](https://www.udemy.com/course/spring-boot-getting-started/)
+The Udemy [Website](https://www.udemy.com/course/spring-boot-getting-started/).
 
 ---
 
 ### Resources from the course
 From Section 1, video 2, 7:25 minutes in:
 [Twitter](twitter.com/springcentral)
+
 [YouTube](spring.io/video)
+
 [Questions](spring.io.questions)
 [JIRA](jira.spring.io)
+
 [Course Source Code](https://github.com/danvega/spring-boot-intro)
 
 From section 1, video 5:
+
 Spring Boot Docs - http://docs.spring.io/spring-boot/docs/current/ref...
+
 Spring Boot API - http://docs.spring.io/spring-boot/docs/current/api...
+
 Spring IO Platform - http://spring.io/projects
+
 Getting Started Guides - http://spring.io/guides
 
 ---
@@ -60,7 +67,11 @@ You will write your own Hello World application by the end of this short introdu
 ### What I have learned.
 
 How to install SDKMAN. And how to install Groovy, Gradle, and the Spring Boot CLI using SDKMAN.
+
 How to manually write a Spring Boot app.
+
 How to create a Spring Boot app using Visual Studio Code.
+
 How to execute Java code in Visual Studio Code.
+
 How to use spring initializr.
