@@ -1,6 +1,10 @@
-# README Introduction To Spring Boot
+# README Introducing Spring Boot
 
 This directory houses files for the Udemy course.
+
+---
+
+### Resources for this course
 
 [Trello card](https://trello.com/c/gyJTOmuK/877-introducing-spring-boot-udemy-course)
 
@@ -8,9 +12,9 @@ This directory houses files for the Udemy course.
 
 [Website](https://www.udemy.com/course/spring-boot-getting-started/)
 
-=================
+---
 
-### Resources from the course.
+### Resources from the course
 From Section 1, video 2, 7:25 minutes in:
 [Twitter](twitter.com/springcentral)
 [YouTube](spring.io/video)
@@ -24,10 +28,9 @@ Spring Boot API - http://docs.spring.io/spring-boot/docs/current/api...
 Spring IO Platform - http://spring.io/projects
 Getting Started Guides - http://spring.io/guides
 
-=================
+---
 
 ### Course Description
-
 
 Are you familiar with the Java language but not quite sure how to start building applications for the real world? The Spring Framework is the standard for building applications in Java, but this isn't your parents Spring Framework.
 
@@ -51,3 +54,13 @@ You will write your own Hello World application by the end of this short introdu
 * Students new to Spring Boot
 * Students new & existing to the Spring Framework
 * You should NOT take this course if you have never used Java before.
+
+---
+
+### What I have learned.
+
+How to install SDKMAN. And how to install Groovy, Gradle, and the Spring Boot CLI using SDKMAN.
+How to manually write a Spring Boot app.
+How to create a Spring Boot app using Visual Studio Code.
+How to execute Java code in Visual Studio Code.
+How to use spring initializr.
