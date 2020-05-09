@@ -29,10 +29,21 @@ For more code challenge sites see 'Online Games' of [this google doc](https://do
 
 The `Projects` directory will house ....
 
-
+---
 ## Table of Contents
 
 [Introduction To AJAX With jQuery](https://github.com/JamieBort/LearningDirectory/tree/master/IntroductionToAJAXWithjQuery)
 
 [Testing](https://github.com/JamieBort/LearningDirectory/tree/master/Testing)
 description: For my exploration of code testing.
+
+---
+## Other files and directories
+
+The [.vscode](https://github.com/JamieBort/LearningDirectory/tree/master/.vscode) directory. This was created when I modified some changes in Visual Studio Code, I think.
+
+The [.gitignore](https://github.com/JamieBort/LearningDirectory/blob/master/.gitignore) file. This lists all the file types that I do not want this repo to track.
+
+The [node_modules](https://github.com/JamieBort/LearningDirectory/tree/master/node_modules) directory. I am pretty sure this directory was created when I attempted to use dotenv for my website work in this repo.
+
+The [package.json]() file. This one doesn't currently exist. But since there's a `node_modules` directory I expect this one to exist. There is a `package-lock.json` file so this is another reason I expect the `package.json` to exist.
