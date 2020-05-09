@@ -4,6 +4,26 @@ This directory houses files for the Udemy course.
 
 ---
 
+## What I have learned.
+
+1. How to install SDKMAN. And how to install Groovy, Gradle, and the Spring Boot CLI using SDKMAN.
+
+2. How to manually write a Spring Boot app.
+
+3. How to create a Spring Boot app using Visual Studio Code.
+
+4. How to execute Java code in Visual Studio Code.
+
+5. How to create a Spring Boot app with Spring Initializr.
+
+6. How to create a Spring Boot app with curl.
+
+7. How to create a Spring Boot app with the CLI.
+
+8. 
+
+---
+
 ## Status
 
 ### Section 1 Introduction
@@ -37,11 +57,11 @@ To be continued...
 ### Section 3 Hello, Spring Boot
 Video 15 was a 1 minute intro to this section.
 
-Video 16 I should watch again. And take notes in [this README](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/SpringBoot/IntroducingSpringBoot/CourseFiles/Section3HelloSpringBoot/16HelloWorldCreatingYourFirstSpringBootApplication/README.md) file.
+Video 16 covered how to write a Spring Boot app from scratch. Come back to this video to understand better what is going on. And take notes in [this README](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/SpringBoot/IntroducingSpringBoot/CourseFiles/Section3HelloSpringBoot/16HelloWorldCreatingYourFirstSpringBootApplication/README.md) file.
 
-Video 17 is an exercise that I didn't do yet.
+Video 17 is an exercise that I didn't start yet.
 
-Video 18 covers Spring Iniializr. As well as generating a Spring Boot app via the CLI. See [the README](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/SpringBoot/IntroducingSpringBoot/CourseFiles/Section3HelloSpringBoot/18SpringInitializr/README.md) file for notes taken.
+Video 18 covers creating a Spring Boot app using Spring Initializr. As well as generating a Spring Boot app via the CLI. See [the README](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/SpringBoot/IntroducingSpringBoot/CourseFiles/Section3HelloSpringBoot/18SpringInitializr/README.md) file for notes taken.
 
 To be continued...
 
@@ -111,23 +131,3 @@ You will write your own Hello World application by the end of this short introdu
 * Students new to Spring Boot
 * Students new & existing to the Spring Framework
 * You should NOT take this course if you have never used Java before.
-
----
-
-## What I have learned.
-
-1. How to install SDKMAN. And how to install Groovy, Gradle, and the Spring Boot CLI using SDKMAN.
-
-2. How to manually write a Spring Boot app.
-
-3. How to create a Spring Boot app using Visual Studio Code.
-
-4. How to execute Java code in Visual Studio Code.
-
-5. How to create a Spring Boot app with Spring Initializr.
-
-6. How to create a Spring Boot app with curl.
-
-7. How to create a Spring Boot app with the CLI.
-
-8. 
