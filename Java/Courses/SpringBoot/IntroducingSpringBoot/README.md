@@ -54,7 +54,7 @@ Video 28 contains more resources to take note of.
 
 ---
 
-### Resources for this course
+## Resources for this course
 
 My [Trello card](https://trello.com/c/gyJTOmuK/877-introducing-spring-boot-udemy-course).
 
@@ -64,7 +64,7 @@ The Udemy [Website](https://www.udemy.com/course/spring-boot-getting-started/).
 
 ---
 
-### Resources from the course
+## Resources from the course
 From Section 1, video 2, 7:25 minutes in:
 [Twitter](twitter.com/springcentral)
 
@@ -87,7 +87,7 @@ Getting Started Guides - http://spring.io/guides
 
 ---
 
-### Course Description
+## Course Description
 
 Are you familiar with the Java language but not quite sure how to start building applications for the real world? The Spring Framework is the standard for building applications in Java, but this isn't your parents Spring Framework.
 
@@ -114,14 +114,20 @@ You will write your own Hello World application by the end of this short introdu
 
 ---
 
-### What I have learned.
+## What I have learned.
 
-How to install SDKMAN. And how to install Groovy, Gradle, and the Spring Boot CLI using SDKMAN.
+1. How to install SDKMAN. And how to install Groovy, Gradle, and the Spring Boot CLI using SDKMAN.
 
-How to manually write a Spring Boot app.
+2. How to manually write a Spring Boot app.
 
-How to create a Spring Boot app using Visual Studio Code.
+3. How to create a Spring Boot app using Visual Studio Code.
 
-How to execute Java code in Visual Studio Code.
+4. How to execute Java code in Visual Studio Code.
 
-How to use spring initializr.
+5. How to create a Spring Boot app with Spring Initializr.
+
+6. How to create a Spring Boot app with curl.
+
+7. How to create a Spring Boot app with the CLI.
+
+8. 
