@@ -6,7 +6,10 @@ This directory houses files for the Udemy course.
 
 ## Status
 
-# Section 2 Development Environment
+### Section 1 Introduction
+All of it should be watched again.
+
+### Section 2 Development Environment
 
 Didn't watch videos 7, 9, 10, 11, nor 13. They deal with Windows.
 
@@ -31,7 +34,7 @@ To that end I found these tutorials:
 
 To be continued...
 
-# Section 3 Hello, Spring Boot
+### Section 3 Hello, Spring Boot
 Video 15 was a 1 minute intro to this section.
 
 Video 16 I should watch again.
