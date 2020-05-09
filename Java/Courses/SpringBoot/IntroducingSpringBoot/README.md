@@ -37,13 +37,20 @@ To be continued...
 ### Section 3 Hello, Spring Boot
 Video 15 was a 1 minute intro to this section.
 
-Video 16 I should watch again.
+Video 16 I should watch again. And take notes in [this README](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/SpringBoot/IntroducingSpringBoot/CourseFiles/Section3HelloSpringBoot/16HelloWorldCreatingYourFirstSpringBootApplication/README.md) file.
 
 Video 17 is an exercise that I didn't do yet.
 
-Video 18 covers Spring Iniializr. As well as generating a Spring Boot app via the CLI.
+Video 18 covers Spring Iniializr. As well as generating a Spring Boot app via the CLI. See [the README](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/SpringBoot/IntroducingSpringBoot/CourseFiles/Section3HelloSpringBoot/18SpringInitializr/README.md) file for notes taken.
 
-to be continued.
+To be continued...
+
+### Section 3 Hello, Spring Boot
+Video 26 has resources. Come back to and take note of them.
+
+Video 27 was a thank you.
+
+Video 28 contains more resources to take note of.
 
 ---
 
