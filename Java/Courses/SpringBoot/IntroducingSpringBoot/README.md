@@ -32,7 +32,15 @@ To that end I found these tutorials:
 To be continued...
 
 # Section 3 Hello, Spring Boot
-<nothing added yet>
+Video 15 was a 1 minute intro to this section.
+
+Video 16 I should watch again.
+
+Video 17 is an exercise that I didn't do yet.
+
+Video 18 covers Spring Iniializr. As well as generating a Spring Boot app via the CLI.
+
+to be continued.
 
 ---
 
