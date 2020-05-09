@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  font-family: monospace, sans-serif;
+  background-image: url('../images/FB_IMG_1481035367063.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  background-color: white;
+  padding: 5%;
+  margin-top: 3%;
+  border-radius: 10px;
+  opacity: .8;
+  width: 50%;
+}
+
+.error {
+  color: red;
+}
+
+button {
+  margin-top: 8px;
+}
