@@ -1,5 +1,9 @@
 # README Section 2 Development Environment
 
+Moved the below to [this README](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/SpringBoot/IntroducingSpringBoot/README.md) file. 
+
+---
+
 Didn't watch videos 7, 9, 10, 11, nor 13. They deal with Windows.
 
 Watched videos 6, 8, and 12.
@@ -17,6 +21,8 @@ Video 14 was for installing IntelliJ IDEA.
 The instructor omitted the fact that the Spring Initializr plugin wasn't an option for the community version of V. S. Code. 
 So I need to use: 
 https://start.spring.io/ to create/start the project.
-To that end I found this tutorial:
-https://medium.com/danielpadua/java-spring-boot-intellij-idea-b919b0097a0
+To that end I found these tutorials:
+1. https://medium.com/danielpadua/java-spring-boot-intellij-idea-b919b0097a0
+2. https://www.youtube.com/watch?v=5mpHejytgFE
+
 To be continued...
