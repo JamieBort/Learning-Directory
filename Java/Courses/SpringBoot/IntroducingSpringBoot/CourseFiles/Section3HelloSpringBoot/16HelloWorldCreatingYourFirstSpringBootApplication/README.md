@@ -1,0 +1,1 @@
+Come back to video 16 to take notes about explained_app.groovy file.
