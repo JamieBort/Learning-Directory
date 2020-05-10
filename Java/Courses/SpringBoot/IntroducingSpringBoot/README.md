@@ -65,7 +65,7 @@ Video 18 covers creating a Spring Boot app using Spring Initializr. As well as g
 
 To be continued...
 
-### Section 3 Hello, Spring Boot
+### Section 4 Bonus, Thank You & Coupon Code
 Video 26 has resources. Come back to and take note of them.
 
 Video 27 was a thank you.
