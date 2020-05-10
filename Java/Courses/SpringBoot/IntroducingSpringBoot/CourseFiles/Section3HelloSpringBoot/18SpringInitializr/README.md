@@ -11,8 +11,8 @@ Different ways to create a Spring Boot App.
 
 Once the app is created there are a few ways to start/run the app.
 1. In Terminal run `spring run <app name>` in the directory where the app lies. Or run `spring run <file path to app name>`.
-2.
-3.
+2. In Visual Studio Code, select the dropdown menu `Run > Run Without Debugging`. Or `Run > Start Debugging`.
+3. In Visual Studio Code, whith the proper plugins added (see notes from Section 2) select the `SPRING-BOOT DASHBOARD` in the bottom left of the IDE. Then choose the Spring Boot app to run. Then Select the play button. The one that is triangle shaped.
 4.
 
 ### Spring Initializr 

@@ -1,3 +1,6 @@
+// NOTE: when this app was generated the `HomeController` file was not created.
+// I created it following the course instructions.
+
 package com.example.myapp;
 
 import org.springframework.boot.SpringApplication;
