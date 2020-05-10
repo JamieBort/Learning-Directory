@@ -26,6 +26,8 @@ This directory houses files for the Udemy course.
 
 ## Status
 
+Taking a break from this series. Slow, boring, and doesn't fill in all the holes - its a high level overview that isn't comprhensive.
+
 ### Section 1 Introduction
 All of it should be watched again.
 
@@ -62,6 +64,10 @@ Video 16 covered how to write a Spring Boot app from scratch. Come back to this 
 Video 17 is an exercise that I didn't start yet.
 
 Video 18 covers creating a Spring Boot app using Spring Initializr. As well as generating a Spring Boot app via the CLI. See [the README](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/SpringBoot/IntroducingSpringBoot/CourseFiles/Section3HelloSpringBoot/18SpringInitializr/README.md) file for notes taken.
+
+Video 19 shared a very brief bit about build tools.
+
+Video 20 dives in a bit more on Maven.
 
 To be continued...
 
