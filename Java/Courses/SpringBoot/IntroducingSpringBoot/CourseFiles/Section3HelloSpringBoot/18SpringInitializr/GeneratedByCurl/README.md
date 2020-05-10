@@ -1,4 +1,6 @@
+# README demo in GeneratedByCurl
 
+When I use the features in Visual Studio Code to run this app nothing happens.
 
 ---
 When I run this `spring run DemoApplication.java ` command in Terminal I get this response:
