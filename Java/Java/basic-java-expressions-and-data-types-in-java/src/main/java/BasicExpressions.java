@@ -1,4 +1,4 @@
-import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
+// import com.sun.tools.doclets.formats.html.SourceToHTMLConverter; // NOTE: commented this out. It was breaking the code. Not sure if it's needed. 20200511
 
 /**
  * There are a number of methods listed below. Follow the instructions therein
