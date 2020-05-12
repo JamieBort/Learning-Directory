@@ -1,42 +1,37 @@
-// package com.company;
+// Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
 
-// public class Solution {
-    
-// }
+// Note:
+
+// The length of both num1 and num2 is < 5100.
+// Both num1 and num2 contains only digits 0-9.
+// Both num1 and num2 does not contain any leading zero.
+// You must not use any built-in BigInteger library or convert the inputs to integer directly.
 
 package com.company;
 
-// public class Solution {
-//     public void abc(String myString){
-//         System.out.println(myString);
-//     }
-// }
-
 class Solution {
     public String addStrings(String num1, String num2) {
-        
-        // System.out.println(num1.charAt(0)); // 1
-        System.out.println(num1.getClass().getName()); // String
-        // System.out.println((num1.charAt(3)); // 
-        // System.out.println(num1.charAt(0)+3); // 52
-        // System.out.println(num1.charAt(0)+num2.charAt(3));
-        // System.out.println(num1.charAt(0)+num2.charAt(3));
-        // System.out.println(num2.charAt(3));
-        // System.out.println("4"+"3"); // 43
+        int length1 = num1.length();
+        // System.out.println(length1);
+        int length2 = num2.length();
+        // System.out.println(length2);    
 
+        for (int i = 0; i < length1; i++) {
+            System.out.println(Character.getNumericValue(num1.charAt(i)));
+        }
+        // int number1 = Character.getNumericValue(num1.charAt(2));
+        // System.out.println("number1");
+        // System.out.println(number1);
 
-        String str="123";
-	int inum = 100;
-
-	/* converting the string to an int value
-	 * ,the value of inum2 would be 123 after
-	 * conversion
-	 */
-	int inum2 = Integer.parseInt(str);
-		
-	int sum = inum+inum2;
-	System.out.println("Result is: "+sum);
-        
-        return num2;
+    int inum1 = Integer.parseInt(num1);
+    int inum2 = Integer.parseInt(num2);
+    int sum = inum1+inum2;
+    // System.out.println("Result is: "+sum);
+	// System.out.println("check: ");
+    // System.out.println(12345+67890);
+    String Sum = String.valueOf(sum);
+	// System.out.println("check2: ");
+    // System.out.println(Sum);
+    return Sum;
     }
 }
