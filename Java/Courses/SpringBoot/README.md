@@ -4,6 +4,7 @@ This directory is for learning Spring Boot.
 
 Below are a list of (free?) resources for learning Spring Boot.
 
+---
 ### Started
 [Spring Boot Quick Start](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x) YouTube video.
 
@@ -11,8 +12,10 @@ TABLED THIS ONE FOR NOW. [Introducing Spring Boot](https://www.udemy.com/course/
 
 WATCHED THE FIRST 5 MINUTES. DIDN'T SEEM TO COVER SPRING BOOT ENOUGH. [Spring Core - Learn Spring Framework 4 and Spring Boot](https://www.udemy.com/cart/subscribe/course/724502/) Udemy course. This course work is also found here: https://github.com/JamieBort/LearningDirectory/tree/master/Java/IntroductionToSpringBoot
 
+---
 ### Completed
 
+---
 ### Not Started
 1. [Spring Boot Tutorial for Beginners (Java Framework)](https://www.youtube.com/watch?v=vtPkZShrvXQ) YouTube video.
 2. Dan Vega's Spring Boot [videos](https://www.youtube.com/channel/UCc98QQw1D-y38wg6mO3w4MQ) on YouTube.
