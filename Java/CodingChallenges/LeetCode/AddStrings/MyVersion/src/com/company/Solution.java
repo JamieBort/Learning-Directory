@@ -16,9 +16,14 @@ class Solution {
         int length2 = num2.length();
         // System.out.println(length2);    
 
-        for (int i = 0; i < length1; i++) {
-            System.out.println(Character.getNumericValue(num1.charAt(i)));
-        }
+        System.out.println(Character.getNumericValue(num1.charAt(0)));
+        System.out.println(Character.getNumericValue(num2.charAt(0)));
+        System.out.println(Character.getNumericValue(num1.charAt(0))+Character.getNumericValue(num1.charAt(0)));
+        // +Character.getNumericValue(3);
+
+        // for (int i = 0; i < length1; i++) {
+        //     System.out.println(Character.getNumericValue(num1.charAt(i)));
+        // }
         // int number1 = Character.getNumericValue(num1.charAt(2));
         // System.out.println("number1");
         // System.out.println(number1);
