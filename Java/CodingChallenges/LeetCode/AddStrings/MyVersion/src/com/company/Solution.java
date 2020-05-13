@@ -11,15 +11,52 @@ package com.company;
 
 class Solution {
     public String addStrings(String num1, String num2) {
-        int length1 = num1.length();
-        // System.out.println(length1);
-        int length2 = num2.length();
-        // System.out.println(length2);    
+        // We know num1 = 12345 and num2 = 67890
 
-        System.out.println(Character.getNumericValue(num1.charAt(0)));
-        System.out.println(Character.getNumericValue(num2.charAt(0)));
-        System.out.println(Character.getNumericValue(num1.charAt(0))+Character.getNumericValue(num1.charAt(0)));
+        int length1 = num1.length();
+        int length2 = num2.length();
+        int[] intarr1 = new int[length1];
+        int[] intarr2 = new int[length2];
+        int[] intarr3 = new int[length1];   
+
+        // System.out.println(Character.getNumericValue(num1.charAt(0)));
+        // System.out.println(Character.getNumericValue(num2.charAt(0)));
+        // System.out.println(Character.getNumericValue(num1.charAt(0))+Character.getNumericValue(num1.charAt(0)));
         // +Character.getNumericValue(3);
+
+        // Let's try adding two arrays.
+        // Let's try adding two integers
+        int a = Character.getNumericValue(num1.charAt(0));
+        int b = Character.getNumericValue(num1.charAt(1));
+        int c = Character.getNumericValue(num1.charAt(2));
+        int d = Character.getNumericValue(num1.charAt(3));
+        int e = Character.getNumericValue(num1.charAt(4));
+
+        int f = Character.getNumericValue(num2.charAt(0));
+        int g = Character.getNumericValue(num2.charAt(1));
+        int h = Character.getNumericValue(num2.charAt(2));
+        int i = Character.getNumericValue(num2.charAt(3));
+        int j = Character.getNumericValue(num2.charAt(4));
+        
+        intarr1[0]=a;
+        intarr1[1]=b;
+        intarr1[2]=c;
+        intarr1[3]=d;
+        intarr1[4]=e;
+        
+        intarr2[0]=f;
+        intarr2[1]=g;
+        intarr2[2]=h;
+        intarr2[3]=i;
+        intarr2[4]=j;
+        
+        intarr3[0] = a +f;
+        intarr3[1] = intarr1[1]+intarr2[1];
+
+
+        // System.out.println(intarr1[0]+intarr2[0]);
+        System.out.println(intarr3[0]);
+        System.out.println(intarr3[1]);
 
         // for (int i = 0; i < length1; i++) {
         //     System.out.println(Character.getNumericValue(num1.charAt(i)));
@@ -28,15 +65,6 @@ class Solution {
         // System.out.println("number1");
         // System.out.println(number1);
 
-    int inum1 = Integer.parseInt(num1);
-    int inum2 = Integer.parseInt(num2);
-    int sum = inum1+inum2;
-    // System.out.println("Result is: "+sum);
-	// System.out.println("check: ");
-    // System.out.println(12345+67890);
-    String Sum = String.valueOf(sum);
-	// System.out.println("check2: ");
-    // System.out.println(Sum);
-    return Sum;
+        return "Sum";
     }
 }
