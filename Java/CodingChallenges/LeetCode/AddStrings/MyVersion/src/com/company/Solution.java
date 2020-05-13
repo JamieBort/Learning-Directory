@@ -9,6 +9,8 @@
 
 package com.company;
 
+// import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 class Solution {
     public String addStrings(String num1, String num2) {
         // We know num1 = 12345 and num2 = 67890
@@ -27,56 +29,6 @@ class Solution {
         int[] intarr3 = new int[maxLength];
         int[] intarr4 = new int[maxLength];   
 
-        // System.out.println(Character.getNumericValue(num1.charAt(0)));
-        // System.out.println(Character.getNumericValue(num2.charAt(0)));
-        // System.out.println(Character.getNumericValue(num1.charAt(0))+Character.getNumericValue(num1.charAt(0)));
-        // +Character.getNumericValue(3);
-
-        // Let's try adding two arrays.
-        // Let's try adding two integers
-        int a = Character.getNumericValue(num1.charAt(0));
-        int b = Character.getNumericValue(num1.charAt(1));
-        int c = Character.getNumericValue(num1.charAt(2));
-        int d = Character.getNumericValue(num1.charAt(3));
-        int e = Character.getNumericValue(num1.charAt(4));
-
-        int f = Character.getNumericValue(num2.charAt(0));
-        int g = Character.getNumericValue(num2.charAt(1));
-        int h = Character.getNumericValue(num2.charAt(2));
-        int i = Character.getNumericValue(num2.charAt(3));
-        int j = Character.getNumericValue(num2.charAt(4));
-        
-        intarr1[0]=a;
-        intarr1[1]=b;
-        intarr1[2]=c;
-        intarr1[3]=d;
-        intarr1[4]=e;
-        
-        intarr2[0]=f;
-        intarr2[1]=g;
-        intarr2[2]=h;
-        intarr2[3]=i;
-        intarr2[4]=j;
-        
-        intarr3[0] = a +f;
-        intarr3[1] = intarr1[1]+intarr2[1];
-
-
-        // System.out.println(intarr1[0]+intarr2[0]);
-        // System.out.println(intarr3[0]);
-        // System.out.println(intarr3[1]);
-
-        intarr4[0] = Character.getNumericValue(num1.charAt(0)) + Character.getNumericValue(num2.charAt(0));
-        intarr4[1] = Character.getNumericValue(num1.charAt(1)) + Character.getNumericValue(num2.charAt(1));
-        intarr4[2] = Character.getNumericValue(num1.charAt(2)) + Character.getNumericValue(num2.charAt(2));
-        intarr4[3] = Character.getNumericValue(num1.charAt(3)) + Character.getNumericValue(num2.charAt(3));
-        intarr4[4] = Character.getNumericValue(num1.charAt(4)) + Character.getNumericValue(num2.charAt(4));
-
-        // System.out.println(intarr4[0]);
-        // System.out.println(intarr4[1]);
-        // System.out.println(intarr4[2]);
-        // System.out.println(intarr4[3]);
-        // System.out.println(intarr4[4]);
 
         for (int index = 0; index < length1; index++) {
             // System.out.println("Hello");
@@ -91,10 +43,37 @@ class Solution {
         System.out.println(intarr4[3]);
         System.out.println(intarr4[4]);
 
-        // int number1 = Character.getNumericValue(num1.charAt(2));
-        // System.out.println("number1");
-        // System.out.println(number1);
+        // Checking for size/position
+        if(intarr4[0]<10){
+            System.out.println("The firset element is less than 10. It is: ");
+            System.out.println(intarr4[0]);
+        } else {
+        System.out.println("The firset element is not less than 10. It is: ");
+        System.out.println(intarr4[0]);
+        }
 
-        return "Sum";
+        if(intarr4[1]<100){
+            System.out.println("The firset element is less than 100. It is: ");
+            System.out.println(intarr4[1]);
+        } else {
+            System.out.println("The firset element is not less than 100. It is: ");
+            System.out.println(intarr4[1]);
+        }
+
+        
+        if(intarr4[2]<1000){
+            System.out.println("The firset element is less than 1000. It is: ");
+            System.out.println(intarr4[2]);
+        } else {
+            System.out.println("The firset element is not less than 1000. It is: ");
+            System.out.println(intarr4[2]);
+        }
+
+
+        String builtString = Integer.toString(intarr4[0])+intarr4[1]+intarr4[2]+intarr4[3]+intarr4[4];
+        
+        // System.out.println(builtString);
+
+        return builtString;
     }
 }
