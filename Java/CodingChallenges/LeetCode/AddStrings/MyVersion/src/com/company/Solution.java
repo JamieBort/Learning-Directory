@@ -15,9 +15,17 @@ class Solution {
 
         int length1 = num1.length();
         int length2 = num2.length();
+        // int length1 = 7;
+        // int length2 = 6;
+
+        // which is longer?
+        int maxLength = Math.max(length1,length2);
+        // System.out.println(maxLength);
+
         int[] intarr1 = new int[length1];
         int[] intarr2 = new int[length2];
-        int[] intarr3 = new int[length1];   
+        int[] intarr3 = new int[maxLength];
+        int[] intarr4 = new int[maxLength];   
 
         // System.out.println(Character.getNumericValue(num1.charAt(0)));
         // System.out.println(Character.getNumericValue(num2.charAt(0)));
@@ -55,12 +63,34 @@ class Solution {
 
 
         // System.out.println(intarr1[0]+intarr2[0]);
-        System.out.println(intarr3[0]);
-        System.out.println(intarr3[1]);
+        // System.out.println(intarr3[0]);
+        // System.out.println(intarr3[1]);
 
-        // for (int i = 0; i < length1; i++) {
-        //     System.out.println(Character.getNumericValue(num1.charAt(i)));
-        // }
+        intarr4[0] = Character.getNumericValue(num1.charAt(0)) + Character.getNumericValue(num2.charAt(0));
+        intarr4[1] = Character.getNumericValue(num1.charAt(1)) + Character.getNumericValue(num2.charAt(1));
+        intarr4[2] = Character.getNumericValue(num1.charAt(2)) + Character.getNumericValue(num2.charAt(2));
+        intarr4[3] = Character.getNumericValue(num1.charAt(3)) + Character.getNumericValue(num2.charAt(3));
+        intarr4[4] = Character.getNumericValue(num1.charAt(4)) + Character.getNumericValue(num2.charAt(4));
+
+        // System.out.println(intarr4[0]);
+        // System.out.println(intarr4[1]);
+        // System.out.println(intarr4[2]);
+        // System.out.println(intarr4[3]);
+        // System.out.println(intarr4[4]);
+
+        for (int index = 0; index < length1; index++) {
+            // System.out.println("Hello");
+            intarr4[index] = Character.getNumericValue(num1.charAt(index)) + Character.getNumericValue(num2.charAt(index));
+        //     System.out.println(intarr4[index]);
+        }
+
+
+        System.out.println(intarr4[0]);
+        System.out.println(intarr4[1]);
+        System.out.println(intarr4[2]);
+        System.out.println(intarr4[3]);
+        System.out.println(intarr4[4]);
+
         // int number1 = Character.getNumericValue(num1.charAt(2));
         // System.out.println("number1");
         // System.out.println(number1);
