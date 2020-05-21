@@ -16,3 +16,6 @@ Exercises from sites such as CodeWars.com
 
 ### Projects
 I don't think this should be in here any more. But will leave it for now.
+
+Associated repo:
+https://github.com/JamieBort/NodePractice
