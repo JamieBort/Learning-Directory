@@ -1,4 +1,4 @@
-The controller facilitates communication between models and views and handles user input.
+// The controller facilitates communication between models and views and handles user input.
 
 const express = require('express');
 const exphbs = require('express-handlebars');
