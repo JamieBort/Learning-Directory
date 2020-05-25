@@ -1,6 +1,6 @@
-#README My GitHub API
+# README My GitHub API
 
-###About
+### About
 I am going to recreate this tutorial:
 /LearningDirectory/API/GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies
 
@@ -11,8 +11,8 @@ Since it is not supported in the browser I will also be using node.js. And will 
 
 [Trello card](https://trello.com/c/bt92aOAd/845-mygithubapi) associated with this directory.
 
-###Status
+### Status
 Having touble. Need to come back to make proper notes here.
 
-###Next Steps
+### Next Steps
 Address the dotenv issue mentioned above by running a node.js environment.
