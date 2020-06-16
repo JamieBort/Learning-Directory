@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "build": "ng build",
-    "start": "ng serve",
+    "start": "node server.js",
     "test": "ng test",
     "lint": "tslint ./src/**/*.ts -t verbose",
     "e2e": "ng e2e"
@@ -16,8 +16,10 @@
   "license": "MIT",
   "dependencies": {
     "@angular/animations": "~9.1.4",
+    "@angular/cli": "~9.1.4",
     "@angular/common": "~9.1.4",
     "@angular/compiler": "~9.1.4",
+    "@angular/compiler-cli": "~9.1.4",
     "@angular/core": "~9.1.4",
     "@angular/forms": "~9.1.4",
     "@angular/platform-browser": "~9.1.4",
@@ -25,13 +27,12 @@
     "@angular/router": "~9.1.4",
     "@angular/upgrade": "~9.1.4",
     "angular-in-memory-web-api": "~0.11.0",
+    "express": "^4.17.1",
     "rxjs": "~6.5.4",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.4",
-    "@angular/cli": "~9.1.4",
-    "@angular/compiler-cli": "~9.1.4",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
