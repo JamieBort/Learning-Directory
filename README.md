@@ -10,10 +10,10 @@ Each sub-directory of each sub-directory has (or will have) three directories:
 2. `Coding Challenges` and
 3. `Projects`
 
-## Courses
+### Courses
 The `Coures` directory will have the course work I complete via sites such as Udemy. The name of the directories in `Coures` will match the name of the course.
 
-## Coding Challenges
+#### Coding Challenges
 The `Coding Challenges` directory is the repository for all the online challenges I work on.
 
 Some of those are:
@@ -25,7 +25,7 @@ Some of those are:
 
 For more code challenge sites see 'Online Games' of [this google doc](https://docs.google.com/document/d/1K-FDmLzGuYkasZpv9A1gTEV396rtWAi1bnCDh2uE7Q0/edit).
 
-## Projects
+### Projects
 The `Projects` directory will house ....
 
 ---
@@ -37,7 +37,7 @@ The `Projects` directory will house ....
 description: For my exploration of code testing.
 
 ---
-## Other files and directories
+## Explanation of other files and directories
 
 The [.vscode](https://github.com/JamieBort/LearningDirectory/tree/master/.vscode) directory. This was created when I modified some changes in Visual Studio Code, I think.
 
