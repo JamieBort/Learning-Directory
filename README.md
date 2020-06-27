@@ -6,9 +6,9 @@ This is to help keep my GitHub account organized.
 ---
 ## Explanation of files and directories.
 
-For the most part each directory in LearningDirectory/ consists of only one technology. And the name of that directory will be the name of that technology.
+For the most part each directory in `LearningDirectory/` consists of only one technology. And the name of that directory will be the name of that technology. For example [LearningDirectory/JavaScript/](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript).
 
-Inside of each technology directory will be three sub-directories:
+Inside of each technology directory there will (eventually) be three sub-directories:
 1. `Courses`
 2. `Coding Challenges` and
 3. `Projects`
