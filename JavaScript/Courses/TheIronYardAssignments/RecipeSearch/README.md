@@ -1,11 +1,12 @@
-ToDo:
+#### To Do
 
 1. ~~Refactor this code so that it works correctly.~~ DONE.
 
 2. Work on the CSS file so it looks like the mockup.
 
+[This URL](https://newline.theironyard.com/cohorts/15/courses/9/projects/73) for the  assignment no longer works.
 
-from: https://newline.theironyard.com/cohorts/15/courses/9/projects/73
+#### Assignment
 
 **Recipe Search**
 
