@@ -16,7 +16,7 @@ Inside of each technology directory there will (eventually) be three sub-directo
 For example 
 [LearningDirectory/Node/Courses/](https://github.com/JamieBort/LearningDirectory/tree/master/Node/Courses) and [LearningDirectory/Node/Projects/](https://github.com/JamieBort/LearningDirectory/tree/master/Node/Projects).
 
-### Courses
+#### Courses
 The `Coures` directory will have the course work I complete via sites such as Udemy. The name of the directories in `Coures` will match the name of the course.
 
 #### Coding Challenges
@@ -31,16 +31,16 @@ Some of those are:
 
 For more code challenge sites see 'Online Games' of [this google doc](https://docs.google.com/document/d/1K-FDmLzGuYkasZpv9A1gTEV396rtWAi1bnCDh2uE7Q0/edit).
 
-### Projects
+#### Projects
 The `Projects` directory will house ....
 
 ---
 ## Explanation of other files and directories
 
-### .vscode
+#### .vscode
 The [.vscode](https://github.com/JamieBort/LearningDirectory/tree/master/.vscode) directory. This was created when I modified some changes in Visual Studio Code, I think.
 
-### .gitignore
+#### .gitignore
 The [.gitignore](https://github.com/JamieBort/LearningDirectory/blob/master/.gitignore) file. This lists all the file types that I do not want this repo to track.
 Currently that list consts of:
 
@@ -49,12 +49,13 @@ Currently that list consts of:
 and
 *node_modules/
 
-### node_modules
+#### node_modules
 The [node_modules](https://github.com/JamieBort/LearningDirectory/tree/master/node_modules) directory. I am pretty sure this directory was created when I attempted to use dotenv for my website work in this repo.
 
-### package.json
+#### package.json
 The [package.json]() file. This one doesn't currently exist. But since there's a `node_modules` directory I expect this one to exist. There is a `package-lock.json` file so this is another reason I expect the `package.json` to exist.
 
+#### .env
 The .env file... (not uploaded to git as should be the case)
 
 ---
