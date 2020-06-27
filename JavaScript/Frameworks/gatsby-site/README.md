@@ -1,5 +1,6 @@
 From: https://hackathon.freecodecamp.org/
-Per step #15 from the URL above here's my Netlify URL: https://distracted-nightingale-07ea09.netlify.com/````
+
+Per step #15 from the URL above here's my Netlify URL: https://distracted-nightingale-07ea09.netlify.com/
 
 <p align="center">
   <a href="https://next.gatsbyjs.org">
