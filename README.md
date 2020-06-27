@@ -1,24 +1,22 @@
 # README Learning Directory
 
-The purpose of this directory is to house all the code I write as I learn new technologies and hone my skills.
+The purpose of this directory is to house all of the code I write as I learn new technologies and hone my skills.
 This is to help keep my GitHub account organized.
 
-For the most part each directory in LearningDirectory/ consists of only the technology that that directory is named.
+For the most part each directory in LearningDirectory/ consists of only one technology. And the name of that directory will be the name of that technology.
 
 Each sub-directory of each sub-directory has (or will have) three directories:
 1. `Courses`
 2. `Coding Challenges` and
 3. `Projects`
 
+## Courses
 The `Coures` directory will have the course work I complete via sites such as Udemy. The name of the directories in `Coures` will match the name of the course.
 
-The `Coding Challenges` directory will have ....
+## Coding Challenges
+The `Coding Challenges` directory is the repository for all the online challenges I work on.
 
-
-# CodeChallenges
-## Repository for all the online challenges I work on.
-
-### Coding Challenge Websites:
+Some of those are:
 1. [Project Euler](https://projecteuler.net/).
 2. [Codewars](https://www.codewars.com/).
 3. [HackerRank](https://www.hackerrank.com/dashboard).
@@ -27,6 +25,7 @@ The `Coding Challenges` directory will have ....
 
 For more code challenge sites see 'Online Games' of [this google doc](https://docs.google.com/document/d/1K-FDmLzGuYkasZpv9A1gTEV396rtWAi1bnCDh2uE7Q0/edit).
 
+## Projects
 The `Projects` directory will house ....
 
 ---
