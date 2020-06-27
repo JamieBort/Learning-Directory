@@ -60,15 +60,10 @@ The .env file... (not uploaded to git as should be the case)
 
 ---
 ### Licensing Info
+To be edited later.
 
 ### Code of Conduct
+To be edited later.
 
 ### Contributing
-
----
-## Table of Contents
-
-[Introduction To AJAX With jQuery](https://github.com/JamieBort/LearningDirectory/tree/master/IntroductionToAJAXWithjQuery)
-
-[Testing](https://github.com/JamieBort/LearningDirectory/tree/master/Testing)
-description: For my exploration of code testing.
+To be edited later.
