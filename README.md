@@ -35,7 +35,7 @@ For more code challenge sites see 'Online Games' of [this google doc](https://do
 The `Projects` directory will house ....
 
 ---
-## Explanation of other files and directories
+## Explanation of other files and directories in this repository.
 
 #### .vscode
 The [.vscode](https://github.com/JamieBort/LearningDirectory/tree/master/.vscode) directory. This was created when I modified some changes in Visual Studio Code, I think.
