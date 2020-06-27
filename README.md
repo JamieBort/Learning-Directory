@@ -4,7 +4,7 @@ The purpose of this directory is to house all of the code I write as I learn new
 This is to help keep my GitHub account organized.
 
 ---
-## Explanation of files and directories.
+## Explanation of files and directories
 
 For the most part each directory in `LearningDirectory/` consists of only one technology. And the name of that directory will be the name of that technology. For example [LearningDirectory/JavaScript/](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript).
 
@@ -17,7 +17,8 @@ For example
 [LearningDirectory/Node/Courses/](https://github.com/JamieBort/LearningDirectory/tree/master/Node/Courses) and [LearningDirectory/Node/Projects/](https://github.com/JamieBort/LearningDirectory/tree/master/Node/Projects).
 
 #### Courses
-The `Coures` directory will have the course work I complete via sites such as Udemy. The name of the directories in `Coures` will match the name of the course.
+The `Coures` directory will have the course work I complete via sites such as Udemy. As well as tutorials found on blogs and the like. 
+The name of the directories in `Coures` will match the name of the course.
 
 #### Coding Challenges
 The `Coding Challenges` directory is the repository for all the online challenges I work on.
