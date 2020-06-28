@@ -1,12 +1,34 @@
-#### To Do
+## Status
+The is a CORS issue:
+```
+index.html:1 Access to fetch at 'https://crossorigin.me//http://www.recipepuppy.com/api/?i=cheese' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+19:48:55.614 main.js:42 GET https://crossorigin.me//http://www.recipepuppy.com/api/?i=cheese net::ERR_FAILED
+(anonymous) @ main.js:42
+19:48:55.614 
+```
+
+Looked at the repose of these colleagues to compare and research. The all had the same issue.
+
+https://github.com/takaides/puppy_recipe
+https://github.com/tenvega/recipe_search_api-fetch
+https://github.com/victoriarainc/recipesearch
+
+But this one worked:
+https://github.com/jtcanfield/recipepuppy-search-project
+
+## To Do
 
 1. ~~Refactor this code so that it works correctly.~~ DONE.
 
 2. Work on the CSS file so it looks like the mockup.
 
-[This URL](https://newline.theironyard.com/cohorts/15/courses/9/projects/73) for the  assignment no longer works.
+This [URL for the  assignment](https://newline.theironyard.com/cohorts/15/courses/9/projects/73) no longer works.
 
-#### Assignment
+The associated[Recipe Search](https://trello.com/c/gp44nJAM/966-recipe-search?menu=filter&filter=label:Home) Trello card.
+
+The associated[RecipeSearch](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Courses/TheIronYardAssignments/RecipeSearch) GitHub repository directory.
+
+## Assignment
 
 **Recipe Search**
 
