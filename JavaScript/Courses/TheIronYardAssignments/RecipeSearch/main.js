@@ -21,9 +21,33 @@ div.appendChild(searchButton);
 div.appendChild(clearButton);
 
 // Add attributes
+searchField.setAttribute("id", "searchFieldID")
 searchButton.setAttribute("onClick", "searchFunction()");
 clearButton.setAttribute("onClick", "clearFunction()");
 
 // Functions
-function searchFunction(){console.log("Search was performed.")};
-function clearFunction(){console.log("Clear was performed.")};
+function searchFunction(){
+  console.log("Search was performed.");
+  console.log(document.getElementById('searchFieldID').value);
+  usersearch = document.getElementById('searchFieldID').value;
+
+  // fetch("http://www.google.com")
+  fetch("http://recipepuppyproxy.herokuapp.com/api/?q=" + usersearch)
+  .then(
+    function(response){
+      console.log("The response status is: ", response.status);
+
+      response.json().then(function(data) {
+        console.log("Inside");
+        console.log(data.results);
+      });
+    }
+  )
+  .catch(
+    function(err){
+      console.log("The fetch error: ", err);
+    }
+  );
+}
+
+function clearFunction(){console.log("Clear was performed.");}
