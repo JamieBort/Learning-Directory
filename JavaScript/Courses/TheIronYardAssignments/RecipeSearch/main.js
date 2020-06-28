@@ -27,6 +27,10 @@ divSearch.setAttribute("id", "divSearchID");
 searchField.setAttribute("id", "searchFieldID");
 // searchField.setAttribute("value", "Name");
 searchField.setAttribute("onfocus", "this.value=''");
+
+// searchField.setAttribute("onkeydown", "if (event.keyCode == 13){document.getElementById('searchFieldID').click()}");
+searchField.setAttribute("onkeydown", "enterKeyFunction()");
+
 searchButton.setAttribute("onClick", "searchFunction()");
 clearButton.setAttribute("onClick", "clearFunction()");
 // clearButton.setAttribute("onClick", "clearField()");
@@ -40,6 +44,7 @@ searchButton.innerHTML = "Search";
 clearButton.innerHTML = "Clear";
 
 // Functions
+// NOTE: this may not be working as expected.
 function searchFunction(){
   console.log(document.getElementById('searchFieldID').value);
   searchPhrase = document.getElementById('searchFieldID').value;
@@ -68,7 +73,14 @@ function searchFunction(){
         // Add attributes
         // TODO: add attributes so that the site conforms to a11y.
         // TODO: have a default image for when one is not available.
-        image.setAttribute("src", data.results[i].thumbnail);
+        if(data.results[i].thumbnail==""){
+          console.log("Its empty");
+          image.setAttribute("src", "./images/mcdonalds.jpg");
+        } else {
+          image.setAttribute("src", data.results[i].thumbnail);
+        }
+
+        divResponse.setAttribute("id", "divResponse");
 
         // Add text.
         h3.innerHTML = data.results[i].title;
@@ -86,18 +98,15 @@ function searchFunction(){
 
 function clearFunction(input){
   console.log("Clear was performed.");
-  // TODO: creat this functionality.
-  // input.value='';
-  this.input.value='';
-  
+  document.getElementById('searchFieldID').value = '';
+  document.getElementById('searchFieldID').focus();
 }
 
-function clearField(input) {
-  console.log("Clear was performed.");
-  // searchField.setAttribute("value", "");
-  input.value='';
-
-  console.log("Clear was performed again.");
-  // if(input.value == val)
-     input.value="";
+// NOTE: this may not be working as expected.
+// TODO: refactor this so that enterKeyFunction() is not needed.
+function enterKeyFunction(){
+  if (event.keyCode == 13){
+    console.log("Enter Key hit");
+    searchFunction();
+    }
 }
