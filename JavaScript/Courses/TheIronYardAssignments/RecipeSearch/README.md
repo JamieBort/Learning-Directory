@@ -12,6 +12,7 @@ See [To Do](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScrip
 2. Upload to GitHub pages.
 3. Upload to Heroku.
 4. Come back to see how I can build out the functionality using their api. See `Optional Parameters` on the http://www.recipepuppy.com/about/api/ page.
+5. Need to address having two repos for the same work...
 
 ## Recources
 
@@ -20,6 +21,13 @@ This [URL for the  assignment](https://newline.theironyard.com/cohorts/15/course
 The associated [Recipe Search](https://trello.com/c/gp44nJAM/966-recipe-search?menu=filter&filter=label:Home) Trello card.
 
 The associated [RecipeSearch](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Courses/TheIronYardAssignments/RecipeSearch) GitHub repository directory.
+
+The gh-pages site: https://jamiebort.github.io/RecipeSearch/
+
+The heroku site: [not yet up].
+
+Also, this work is now in it's own repo: https://github.com/JamieBort/RecipeSearch
+**Need to address having two repos for the same work...**
 
 ## Assignment
 
