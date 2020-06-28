@@ -1,15 +1,14 @@
 ## Status
-There is a CORS issue:
-```
-index.html:1 Access to fetch at 'https://crossorigin.me//http://www.recipepuppy.com/api/?i=cheese' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
-19:48:55.614 main.js:42 GET https://crossorigin.me//http://www.recipepuppy.com/api/?i=cheese net::ERR_FAILED
-(anonymous) @ main.js:42
-19:48:55.614 
-```
+Mostly done with functionality.
+May want to make it look nice.
+See [To Do](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Courses/TheIronYardAssignments/RecipeSearch#to-do) below.
 
 ## To Do
 
-1. Finish the assignment.
+1. Address the TODO items in these files.
+2. Upload to GitHub pages.
+3. Upload to GitHub pages.Upload to Heroku.
+4. Come back to see how I can build out the functionality using their api.
 
 ## Recources
 

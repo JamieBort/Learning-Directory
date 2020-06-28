@@ -8,7 +8,7 @@ var searchField = document.createElement("input");
 var searchButton = document.createElement("button");
 var clearButton = document.createElement("button");
 
-var divResponse = document.createElement("div");
+var container = document.createElement("div");
 // var paragraph = document.createElement("p");
 
 // Appending the elements
@@ -18,8 +18,8 @@ divSearch.appendChild(searchField);
 divSearch.appendChild(searchButton);
 divSearch.appendChild(clearButton);
 
-body.appendChild(divResponse);
-// divResponse.appendChild(paragraph);
+body.appendChild(container);
+// container.appendChild(paragraph);
 
 // Add attributes
 divSearch.setAttribute("id", "divSearchID");
@@ -27,7 +27,7 @@ searchField.setAttribute("id", "searchFieldID");
 searchButton.setAttribute("onClick", "searchFunction()");
 clearButton.setAttribute("onClick", "clearFunction()");
 
-divResponse.setAttribute("id", "divResponseID");
+container.setAttribute("id", "containerID");
 
 // Add text.
 title.innerHTML = "Recipe Search";
@@ -36,35 +36,38 @@ clearButton.innerHTML = "Clear";
 
 // Functions
 function searchFunction(){
-  console.log("Search was performed.");
   console.log(document.getElementById('searchFieldID').value);
-  usersearch = document.getElementById('searchFieldID').value;
+  searchPhrase = document.getElementById('searchFieldID').value;
 
-  // fetch("http://www.google.com")
-  fetch("http://recipepuppyproxy.herokuapp.com/api/?q=" + usersearch)
+  fetch("http://recipepuppyproxy.herokuapp.com/api/?q=" + searchPhrase)
   .then(
     function(response){
       console.log("The response status is: ", response.status);
       response.json().then(function(data) {
         console.log(data.results);
-        var i = data.results.length-1;
-        console.log(data.results[i]);
-        console.log(data.results[i].title);
-        console.log(data.results[i].thumbnail);
-        console.log(typeof(data.results[i]));
+
+        for(var i = 0; i<data.results.length; i++){
 
         // Creating the elements
-        var h2 = document.createElement("h2");
+        var divResponse = document.createElement("div");
+        var h3 = document.createElement("h3");
         var paragraph = document.createElement("p");
+        var image = document.createElement("img");
 
         // Appending the elements
-        divResponse.appendChild(h2);
+        container.appendChild(divResponse);
+        divResponse.appendChild(h3);
         divResponse.appendChild(paragraph);
+        divResponse.appendChild(image);
+
+        // Add attributes
+        // TODO: have a default image for when one is not available.
+        image.setAttribute("src", data.results[i].thumbnail);
 
         // Add text.
-        h2.innerHTML = i;
-        paragraph.innerHTML = data.results[i].title;
-
+        h3.innerHTML = data.results[i].title;
+        paragraph.innerHTML = data.results[i].ingredients;
+      }
       });
     }
   )
@@ -75,4 +78,7 @@ function searchFunction(){
   );
 }
 
-function clearFunction(){console.log("Clear was performed.");}
+function clearFunction(){
+  console.log("Clear was performed.");
+  // TODO: creat this functionality.
+}
