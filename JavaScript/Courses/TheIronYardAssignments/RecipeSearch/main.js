@@ -2,28 +2,37 @@
 var body = document.querySelector("body");
 
 // Creating the elements
-var div = document.createElement("div");
+var divSearch = document.createElement("div");
 var title = document.createElement("h3");
 var searchField = document.createElement("input");
 var searchButton = document.createElement("button");
 var clearButton = document.createElement("button");
 
+var divResponse = document.createElement("div");
+// var paragraph = document.createElement("p");
+
+// Appending the elements
+divSearch.appendChild(title);
+body.appendChild(divSearch);
+divSearch.appendChild(searchField);
+divSearch.appendChild(searchButton);
+divSearch.appendChild(clearButton);
+
+body.appendChild(divResponse);
+// divResponse.appendChild(paragraph);
+
+// Add attributes
+divSearch.setAttribute("id", "divSearchID");
+searchField.setAttribute("id", "searchFieldID");
+searchButton.setAttribute("onClick", "searchFunction()");
+clearButton.setAttribute("onClick", "clearFunction()");
+
+divResponse.setAttribute("id", "divResponseID");
+
 // Add text.
 title.innerHTML = "Recipe Search";
 searchButton.innerHTML = "Search";
 clearButton.innerHTML = "Clear";
-
-// Appending the elements
-div.appendChild(title);
-body.appendChild(div);
-div.appendChild(searchField);
-div.appendChild(searchButton);
-div.appendChild(clearButton);
-
-// Add attributes
-searchField.setAttribute("id", "searchFieldID")
-searchButton.setAttribute("onClick", "searchFunction()");
-clearButton.setAttribute("onClick", "clearFunction()");
 
 // Functions
 function searchFunction(){
@@ -36,10 +45,26 @@ function searchFunction(){
   .then(
     function(response){
       console.log("The response status is: ", response.status);
-
       response.json().then(function(data) {
-        console.log("Inside");
         console.log(data.results);
+        var i = data.results.length-1;
+        console.log(data.results[i]);
+        console.log(data.results[i].title);
+        console.log(data.results[i].thumbnail);
+        console.log(typeof(data.results[i]));
+
+        // Creating the elements
+        var h2 = document.createElement("h2");
+        var paragraph = document.createElement("p");
+
+        // Appending the elements
+        divResponse.appendChild(h2);
+        divResponse.appendChild(paragraph);
+
+        // Add text.
+        h2.innerHTML = i;
+        paragraph.innerHTML = data.results[i].title;
+
       });
     }
   )
