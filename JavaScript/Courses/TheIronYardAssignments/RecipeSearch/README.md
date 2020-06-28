@@ -7,20 +7,11 @@ index.html:1 Access to fetch at 'https://crossorigin.me//http://www.recipepuppy.
 19:48:55.614 
 ```
 
-Looked at the repose of these colleagues to compare and research. The all had the same issue.
-
-https://github.com/takaides/puppy_recipe
-https://github.com/tenvega/recipe_search_api-fetch
-https://github.com/victoriarainc/recipesearch
-
-But this one worked:
-https://github.com/jtcanfield/recipepuppy-search-project
-
 ## To Do
 
-1. ~~Refactor this code so that it works correctly.~~ DONE.
+1. 
 
-2. Work on the CSS file so it looks like the mockup.
+## Recources
 
 This [URL for the  assignment](https://newline.theironyard.com/cohorts/15/courses/9/projects/73) no longer works.
 
