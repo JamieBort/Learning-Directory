@@ -8,10 +8,10 @@ See [To Do](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScrip
 
 ## To Do
 
-1. Address the TODO items in these files.
+1. Address the TODO items in the `main.js` file.
 2. Upload to GitHub pages.
-3. Upload to GitHub pages.Upload to Heroku.
-4. Come back to see how I can build out the functionality using their api.
+3. Upload to Heroku.
+4. Come back to see how I can build out the functionality using their api. See `Optional Parameters` on the http://www.recipepuppy.com/about/api/ page.
 
 ## Recources
 

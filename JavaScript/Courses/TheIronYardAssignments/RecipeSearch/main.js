@@ -73,7 +73,7 @@ function searchFunction(){
         // Add text.
         h3.innerHTML = data.results[i].title;
         paragraph.innerHTML = data.results[i].ingredients;
-      }
+        }
       });
     }
   )
@@ -84,7 +84,7 @@ function searchFunction(){
   );
 }
 
-function clearFunction(){
+function clearFunction(input){
   console.log("Clear was performed.");
   // TODO: creat this functionality.
   // input.value='';
