@@ -1,5 +1,5 @@
 ## Status
-The is a CORS issue:
+There is a CORS issue:
 ```
 index.html:1 Access to fetch at 'https://crossorigin.me//http://www.recipepuppy.com/api/?i=cheese' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
 19:48:55.614 main.js:42 GET https://crossorigin.me//http://www.recipepuppy.com/api/?i=cheese net::ERR_FAILED
@@ -9,15 +9,15 @@ index.html:1 Access to fetch at 'https://crossorigin.me//http://www.recipepuppy.
 
 ## To Do
 
-1. 
+1. Finish the assignment.
 
 ## Recources
 
 This [URL for the  assignment](https://newline.theironyard.com/cohorts/15/courses/9/projects/73) no longer works.
 
-The associated[Recipe Search](https://trello.com/c/gp44nJAM/966-recipe-search?menu=filter&filter=label:Home) Trello card.
+The associated [Recipe Search](https://trello.com/c/gp44nJAM/966-recipe-search?menu=filter&filter=label:Home) Trello card.
 
-The associated[RecipeSearch](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Courses/TheIronYardAssignments/RecipeSearch) GitHub repository directory.
+The associated [RecipeSearch](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Courses/TheIronYardAssignments/RecipeSearch) GitHub repository directory.
 
 ## Assignment
 
