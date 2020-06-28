@@ -1,6 +1,9 @@
 ## Status
+
 Mostly done with functionality.
+
 May want to make it look nice.
+
 See [To Do](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Courses/TheIronYardAssignments/RecipeSearch#to-do) below.
 
 ## To Do
