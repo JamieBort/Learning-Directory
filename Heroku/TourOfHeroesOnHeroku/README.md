@@ -1,5 +1,9 @@
 # README Tour Of Heroes On Heroku
 
+## Status
+
+Running into issues. Going to pause here and look at different tutorials.
+
 Two things of note.
 1. This tutorial follows in the footsteps of [this one](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Angular/TourOfHerosAngularTutorial).
 2. This tutorial mentions
@@ -13,5 +17,3 @@ I am going to forego these both of these for now in an effort to accomplish the 
 [Deploy the angular “Tour of heroes” tutorial on Heroku](https://trello.com/c/dxi8F2so/232-deploy-the-angular-tour-of-heroes-tutorial-on-heroku) Trello card associated with this directory.
 
 The [Tour Of Heroes On Heroku](https://github.com/JamieBort/LearningDirectory/tree/master/Heroku/TourOfHeroesOnHeroku) directory in the GitHub repo.
-
-NOTE: Running into issues. Going to pause here and look at different tutorials.
