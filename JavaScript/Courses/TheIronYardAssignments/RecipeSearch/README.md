@@ -4,19 +4,23 @@
 ---
 ## Status
 
-Mostly done with functionality.
+Please see note above.
 
-May want to make it look nice.
+~~Mostly done with functionality.~~
 
-See [To Do](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Courses/TheIronYardAssignments/RecipeSearch#to-do) below.
+~~May want to make it look nice.~~
+
+~~See [To Do](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Courses/TheIronYardAssignments/RecipeSearch#to-do) below.~~
 
 ## To Do
 
-1. Address the TODO items in the `main.js` file.
+Please see note above.
+
+~~1. Address the TODO items in the `main.js` file.
 2. Upload to GitHub pages.
 3. Upload to Heroku.
 4. Come back to see how I can build out the functionality using their api. See `Optional Parameters` on the http://www.recipepuppy.com/about/api/ page.
-5. Need to address having two repos for the same work...
+5. Need to address having two repos for the same work...~~
 
 ## Recources
 
