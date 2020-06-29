@@ -1,3 +1,7 @@
+## Note:
+1. This the work in this directory has moved to [here](https://github.com/JamieBort/RecipeSearch). It was moved to it's own repo in order to host it on gh-pages and Heroku.
+
+---
 ## Status
 
 Mostly done with functionality.
