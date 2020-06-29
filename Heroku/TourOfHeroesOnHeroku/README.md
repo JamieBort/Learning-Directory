@@ -17,7 +17,3 @@ I am going to forego these both of these for now in an effort to accomplish the 
 [Deploy the angular “Tour of heroes” tutorial on Heroku](https://trello.com/c/dxi8F2so/232-deploy-the-angular-tour-of-heroes-tutorial-on-heroku) Trello card associated with this directory.
 
 The [Tour Of Heroes On Heroku](https://github.com/JamieBort/LearningDirectory/tree/master/Heroku/TourOfHeroesOnHeroku) directory in the GitHub repo.
-
-or is this the one?
-
-The [Tour Of Heroes On Heroku](https://github.com/JamieBort/LearningDirectory/tree/master/Heroku/TourOfHeroesOnHeroku#status) directory in the GitHub repo.
