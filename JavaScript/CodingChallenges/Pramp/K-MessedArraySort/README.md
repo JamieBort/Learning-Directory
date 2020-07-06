@@ -1,0 +1,1 @@
+The purpose of this directory is to house the code for this coding challenge: https://www.pramp.com/challenge/XdMZJgZoAnFXqwjJwnBZ
