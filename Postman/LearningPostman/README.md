@@ -15,7 +15,7 @@ What I know so that I can retrace my steps.
 
 Outside of any repository I've saved certain authentication strings, such as keys and tokens in this `/DevFiles/KeysTokens` directory.
 
-(For the moment) the Google Calendar authentication strings are in the  `/DevFiles/KeysTokens/GoogleCalendarCredientials/` directory. And the Trello authentication strings `TrelloKeyToken.txt` file.
+(For the moment) the Google Calendar authentication strings are in the  `/DevFiles/KeysTokens/GoogleCalendarCredientials/` directory. And the Trello authentication strings `/DevFiles/KeysTokens/TrelloKeyToken.txt` file.
 
 I've then followed the first two videos of this https://www.youtube.com/watch?v=Q23wkkfezfM&list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ&index=2 YouTube video series to make authenticated api calls in Postman.
 
