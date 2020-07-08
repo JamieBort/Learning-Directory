@@ -14,6 +14,7 @@ Also, consider createing a new section for authentication and putting [this](htt
 
 ### What have I learned so far
 How to authenticate.
+
 What I know so that I can retrace my steps.
 
 Outside of any repository I've saved certain authentication strings, such as keys and tokens in this `/DevFiles/KeysTokens` directory.
