@@ -10,7 +10,10 @@ Started documenting here what I've done to learn how to authenticate with Postma
 ### Next Steps
 Come back and finish documenting here what I've done to learn how to authenticate with Postman.
 
+Also, consider createing a new section for authentication and putting [this](https://github.com/JamieBort/LearningDirectory/tree/master/Postman/LearningPostman#what-have-i-learned-so-far) "How to authenticate." info there.
+
 ### What have I learned so far
+How to authenticate.
 What I know so that I can retrace my steps.
 
 Outside of any repository I've saved certain authentication strings, such as keys and tokens in this `/DevFiles/KeysTokens` directory.
