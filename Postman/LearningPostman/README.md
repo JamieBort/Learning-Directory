@@ -35,6 +35,8 @@ And maybe this too:
 https://developer.github.com/v3/#current-version
 
 ### Resources
+See the `Resources` section of the
+[read up on Get familiar with Postman](https://trello.com/c/mmkFuAOA/218-read-up-on-get-familiar-with-postman) Trello card associated with this directory.
 
 ### Associated Links
 [read up on Get familiar with Postman](https://trello.com/c/mmkFuAOA/218-read-up-on-get-familiar-with-postman) Trello card associated with this directory.
