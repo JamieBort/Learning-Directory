@@ -3,7 +3,7 @@
 
 The purpose of this directory is for learning to use Postman.
 
-###Associated Links
+### Associated Links
 [Postman Professional Development](https://trello.com/c/ni15ggqo/239-postman-professional-development) Trello card associated with this directory.
 
 Old link:
