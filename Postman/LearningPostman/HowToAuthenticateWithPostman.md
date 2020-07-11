@@ -2,10 +2,6 @@
 
 Notes for authenticating. Associated with the second video.
 
-~~### Status~~
-
-~~### Next Steps~~
-
 ### What have I learned so far
 How to authenticate using Postman.
 
@@ -13,25 +9,18 @@ What I know so that I can retrace my steps.
 
 Outside of any repository I've saved certain authentication strings, such as keys and tokens in this `/DevFiles/KeysTokens` directory.
 
-(For the moment) the Google Calendar authentication strings are in the  `/DevFiles/KeysTokens/GoogleCalendarCredientials/` directory. And the Trello authentication strings `/DevFiles/KeysTokens/TrelloKeyToken.txt` file.
+For example, (for the moment) the Google Calendar authentication strings are in the  `/DevFiles/KeysTokens/GoogleCalendarCredientials/` directory. And the Trello authentication strings `/DevFiles/KeysTokens/TrelloKeyToken.txt` file.
 
-I've then followed the first two videos of this https://www.youtube.com/watch?v=Q23wkkfezfM&list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ&index=2 YouTube video series to make authenticated api calls in Postman.
+I then followed this [Intro to Postman Part 2: authorizing a request](https://www.youtube.com/watch?v=Q23wkkfezfM&list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ&index=3&t=0s) YouTube video; which is from this [Intro To Postman](https://www.youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ) YouTube video series on Postman.
 
-Also used this:
-https://learning.postman.com/docs/postman/variables-and-environments/variables/#variables-quick-start
+Also used these resources:
 
-And this:
-https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/#your-first-api-call
+* [Using variables](https://learning.postman.com/docs/postman/variables-and-environments/variables/#variables-quick-start) Postman doc.
 
-And this:
-https://jobs.github.com/api
+* [Your First API Call](https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/#your-first-api-call) doc.
 
-Maybe this too:
-https://developer.github.com/v3/repos/#create-a-repository-for-the-authenticated-user
+* [GitHub Jobs API](https://jobs.github.com/api) doc.
 
-And maybe this too:
-https://developer.github.com/v3/#current-version
+* [Create a repository for the authenticated user](https://developer.github.com/v3/repos/#create-a-repository-for-the-authenticated-user) GitHub doc.
 
-~~### Resources~~
-
-~~### Associated Links~~
+* [Current version](https://developer.github.com/v3/#current-version) GitHub doc.
