@@ -1,16 +1,27 @@
 const fetch = require("node-fetch"); // might need to run: npm i node-fetch --save
 require('dotenv').config();
-console.log(process.env); // The contents of the .env file.
+// console.log("the whole process env:");
+// console.log(process.env); // The contents of the .env file.
+console.log("the whole api key:");
 console.log(process.env.api_key); // The contents of the .env file.
-console.log(process.env.api_token); // The contents of the .env file.
+// console.log(process.env.api_token); // The contents of the .env file.
 
-var myString = 'https://api.trello.com/1/members/me/boards?key='+api_key+'&token='+api_token;
+// var api_key = DELETED
+// var api_token = DELETED
+
+var api_key = process.env.api_key;
+var api_token =process.env.api_token;
+
+// var myString = 'https://api.trello.com/1/members/me/boards?key='+api_key+'&token='+api_token;
+
+// var myString = 'https://api.trello.com/1/members/me/boards?key='+'b2b04ca8f818a58b607c8e226d68003e'+'&token='+'e3e3dccf8143f51db990f253506a49a226ff6ef7dfd8439c9c96d9818016451a';
 
 var api_key = process.env.api_key;
 var api_token = process.env.api_token;
 
 async function getAll(){
     let response = await fetch('https://api.trello.com/1/members/me/boards?key='+api_key+'&token='+api_token);
+    // let response = await fetch(myString);
     let data = await response.json();
     return data;
 }
