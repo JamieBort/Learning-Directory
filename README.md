@@ -62,7 +62,9 @@ The [package.json]() file. This one doesn't currently exist. But since there's a
 
 #### .env
 The .env file(s)... (not uploaded to git as should be the case)
-Trello card for my reference. Info placed there is for me to refer back to. 
+
+[dotENV Professional Development](https://trello.com/c/CN0CvXEA/261-dotenv-professional-development?menu=filter&filter=label:none) Trello card for my reference - info placed there is for me to refer back to. 
+
 (Note to self: consider linking to a google doc instead. Since info will be placed there and will not need to be dealt with in a trello card.)
 
 ---
