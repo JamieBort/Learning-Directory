@@ -1,5 +1,7 @@
 const fetch = require("node-fetch"); // might need to run: npm i node-fetch --save
-require('dotenv').config();
+// require('dotenv').config(); // path to a .env file that is local
+require('dotenv').config({ path: './../../.env' }); // path to the "global" .env file.
+
 // console.log("the whole process env:");
 // console.log(process.env); // The contents of the .env file.
 console.log("the whole api key:");
