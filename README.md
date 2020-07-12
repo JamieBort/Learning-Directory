@@ -53,7 +53,9 @@ and
 ```
 
 #### node_modules
-The [node_modules](https://github.com/JamieBort/LearningDirectory/tree/master/node_modules) directory. I am pretty sure this directory was created when I attempted to use dotenv for my website work in this repo.
+~~The [node_modules](https://github.com/JamieBort/LearningDirectory/tree/master/node_modules) directory. I am pretty sure this directory was created when I attempted to use dotenv for my website work in this repo.~~
+
+This has been removed. It should not be uploaded to git repositories.
 
 #### package.json
 The [package.json]() file. This one doesn't currently exist. But since there's a `node_modules` directory I expect this one to exist. There is a `package-lock.json` file so this is another reason I expect the `package.json` to exist.
