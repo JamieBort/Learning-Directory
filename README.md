@@ -61,7 +61,9 @@ This has been removed. It should not be uploaded to git repositories.
 The [package.json]() file. This one doesn't currently exist. But since there's a `node_modules` directory I expect this one to exist. There is a `package-lock.json` file so this is another reason I expect the `package.json` to exist.
 
 #### .env
-The .env file... (not uploaded to git as should be the case)
+The .env file(s)... (not uploaded to git as should be the case)
+Trello card for my reference. Info placed there is for me to refer back to. 
+(Note to self: consider linking to a google doc instead. Since info will be placed there and will not need to be dealt with in a trello card.)
 
 ---
 ### Licensing Info
