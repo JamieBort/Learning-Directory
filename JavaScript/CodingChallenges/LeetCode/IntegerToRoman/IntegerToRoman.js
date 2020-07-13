@@ -3,6 +3,10 @@
  * @return {string}
  */
 
+//  To runt his code, in terminal in this directory run "nodemon IntegerToRoman.js"
+
+// TODO: refine parseFunction() by red green refactor.
+
 // Symbol       Value
 // I             1
 // V             5
@@ -13,9 +17,9 @@
 // M             1000
 
 // Examples
-input = 3; // Output: "III"
-// input: 4 // Output: "IV"
-// input: 9 // Output: "IX"
+// input = 3; // Output: "III"
+// input = 4; // Output: "IV"
+input = 9; // Output: "IX"
 // input: 58 // Output: "LVIII" // Explanation: L = 50, V = 5, III = 3.
 // input: 1994 // Output: "MCMXCIV" // Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
@@ -36,13 +40,14 @@ function parseFunction(input){
         // So we use the array[0] item, input - input % array[0] times.
         // so call switchFunction(array[0]) input - input % array[0] times.
         tally = input - input % array[0];
-        array2=[tally,array[0]];
-        return array2;
+        // array2=[true, tally,array[0]];
+        return [true, tally,array[0]];
+    } else {
+        console.log(input ,">=", array[0]);
+        return[false];
     }
-    else {console.log(input ,">=", array[0]);}
         // else how many times does 500 go into input?
         // if input < 100....
-    // switchFunction();
 }
 
 function switchFunction(numeral){
@@ -73,21 +78,22 @@ function switchFunction(numeral){
     return result;
 }
 
-
 function IntegerToRomans(input){
-    // let romanNumberal = "";
-    
-    
     let parse = parseFunction(input);
     console.log(parse);
-    a=b="";
-    t=0;
-    while(t < parse[0]){
-        // TODO: concatenate the strings.
-        a = switchFunction(parse[1]);
-        b=b+a;
-        console.log(b);
-        t++;
+
+    if(parse[0]==false){
+        console.log("it was false");
+    }else{
+        a=b="";
+        t=0;
+        while(t < parse[1]){
+            // TODO: concatenate the strings.
+            a = switchFunction(parse[2]);
+            b=b+a;
+            console.log(b);
+            t++;
+        }
     }
  }
  IntegerToRomans(input);
