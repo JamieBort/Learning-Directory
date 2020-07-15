@@ -29,37 +29,78 @@ var arrayOfArrays = [["I", 1], ["V", 5], ["X", 10], ["L", 50], ["C", 100], ["D",
 var array = [1, 5, 10, 50, 100, 500, 1000];
 
 function shaveOff(input){
-    console.log("Original: ", input);
-    input = input - 1000;           // we removed 1 M
-    console.log("Next: ", input);
-    input = input - 500;           // we removed 1 D
-    console.log("Next: ", input);
-    input = input - 100;           // we removed 4 C
-    console.log("Next: ", input);
-    input = input - 100;
-    console.log("Next: ", input);
-    input = input - 100;
-    console.log("Next: ", input);
-    input = input - 100;
-    console.log("Next: ", input);
-    input = input - 50;           // we removed 1 L
-    console.log("Next: ", input);
-    input = input - 10;           // we removed 4 X
-    console.log("Next: ", input);
-    input = input - 10;
-    console.log("Next: ", input);
-    input = input - 10;
-    console.log("Next: ", input);
-    input = input - 10;
-    console.log("Next: ", input);
-    input = input - 1;           // we removed 4 I
-    console.log("Next: ", input);
-    input = input - 1;
-    console.log("Next: ", input);
-    input = input - 1;
-    console.log("Next: ", input);
-    input = input - 1;
-    console.log("Next: ", input);
+    outerT=6;
+    while (outerT>=0){
+        innerT=0;
+        while(input >= arrayOfArrays[outerT][1]){
+            input = input - arrayOfArrays[outerT][1];
+            innerT++;   
+        }
+        console.log("input: ", input, "t: ", innerT);
+        count = [innerT, arrayOfArrays[outerT][0]];
+        console.log(count);
+        outerT--;
+    }
+
+    // t=0;
+    // while(input>arrayOfArrays[6][1]){
+    //     input = input - arrayOfArrays[6][1];
+    //     t++;   
+    // }
+    // console.log("input: ", input, "t: ", t);
+    // count = [t, arrayOfArrays[6][0]];
+    // console.log(count);
+    
+    // t=0;
+    // while(input>arrayOfArrays[5][1]){
+    //     input = input - arrayOfArrays[5][1];
+    //     t++;   
+    // }
+    // console.log("input: ", input, "t: ", t);
+    // count = [t, arrayOfArrays[5][0]];
+    // console.log(count);
+    
+    // t=0;
+    // while(input>arrayOfArrays[4][1]){
+    //     input = input - arrayOfArrays[4][1];
+    //     t++;   
+    // }
+    // console.log("input: ", input, "t: ", t);
+    // count = [t, arrayOfArrays[4][0]];
+    // console.log(count);
+
+
+    // console.log("Original: ", input);
+    // input = input - 1000;           // we removed 1 M
+    // console.log("Next: ", input);
+    // input = input - 500;           // we removed 1 D
+    // console.log("Next: ", input);
+    // input = input - 100;           // we removed 4 C
+    // console.log("Next: ", input);
+    // input = input - 100;
+    // console.log("Next: ", input);
+    // input = input - 100;
+    // console.log("Next: ", input);
+    // input = input - 100;
+    // console.log("Next: ", input);
+    // input = input - 50;           // we removed 1 L
+    // console.log("Next: ", input);
+    // input = input - 10;           // we removed 4 X
+    // console.log("Next: ", input);
+    // input = input - 10;
+    // console.log("Next: ", input);
+    // input = input - 10;
+    // console.log("Next: ", input);
+    // input = input - 10;
+    // console.log("Next: ", input);
+    // input = input - 1;           // we removed 4 I
+    // console.log("Next: ", input);
+    // input = input - 1;
+    // console.log("Next: ", input);
+    // input = input - 1;
+    // console.log("Next: ", input);
+    // input = input - 1;
+    // console.log("Next: ", input);
 }
 shaveOff(input);
 
