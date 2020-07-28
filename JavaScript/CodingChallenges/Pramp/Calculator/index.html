@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <style>
+        /* --------------------
+     Add your styling here
+     -------------------- */
+        table,
+        td {
+            border: 1px solid #333;
+        }
+
+        thead,
+        tfoot {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calculator">
+        <!----------------------
+    Add your markup here
+    ------------------------>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">The table header</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The results screen</td>
+                    <td>Clear</td>
+                </tr>
+                <tr>
+                    <td onclick="{numArray.push(1); console.log(numArray);}">1</td>
+                    <td onclick="{numArray.push(2); console.log(numArray);}">2</td>
+                    <td onclick="numArray.push(3)">3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td onclick="return 'plus';">+</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>/</td>
+                    <td>X</td>
+                    <td onclick="calculate()">=</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        /* --------------------
+         Add your code here
+        --------------------- */
+        const numArray = [];
+
+        switch (expression) {
+            case 'plus':
+                console.log("plus was returned");
+                // code block
+                break;
+            // case y:
+            //     // code block
+            //     break;
+            default:
+            // code block
+            console.log("Nothing happened")
+        }
+
+        function additon(numArray) {
+            console.log(numArray)
+            sum = numArray[0] + numArray[1];
+            console.log("The sum is: ", sum)
+            // return sum;
+        }
+
+
+        function calculate(numArray, value1, value2, operation) {
+            console.log(numArray)
+            console.log("calculate has been pushed")
+            // function calculate(value1, value2, ){ // assume additon
+            // if addition, do this
+
+
+            // if subtraction, do this
+
+            // clear the array
+            numArray = [];
+            console.log(numArray)
+        }
+    </script>
+</body>
+
+</html>
