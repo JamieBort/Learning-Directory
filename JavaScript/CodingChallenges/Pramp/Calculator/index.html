@@ -44,7 +44,7 @@
                 </tr>
                 <tr>
                     <td onclick="integer(4)">4</td>
-                    <td onclick="integer(4)">5</td>
+                    <td onclick="integer(5)">5</td>
                     <td onclick="integer(6)">6</td>
                 </tr>
                 <tr>
@@ -56,12 +56,12 @@
                     <td onclick="integer(0)">0</td>
                     <!-- <td onclick=" operationTree('sum');">+</td> -->
                     <!-- <td onclick=" operation = 'sum';">+</td> -->
-                    <td onclick=" additon(numString)">+</td>
-                    <td onclick=" operation='difference';">-</td>
+                    <td onclick="additon(numString)">+</td>
+                    <td onclick="subtraction(numString)">-</td>
                 </tr>
                 <tr>
-                    <td>/</td>
-                    <td>X</td>
+                    <td onclick="division(numString)">/</td>
+                    <td onclick="multiplication(numString)">x</td>
                     <td onclick="calculate(numString, array)">=</td>
                 </tr>
             </tbody>
@@ -81,6 +81,36 @@
             document.getElementById('resultsScreen').innerHTML = numString;
         }
 
+        operation = () => {
+
+            switch (casetopassin) {
+                case 'addition':
+                    break;
+                case 'subtraction':
+                    result = parseInt(array[0]) - parseInt(numString);
+                    console.log("The difference is: ", result);
+                    document.getElementById('resultsScreen').innerHTML = result;
+                    array[0] = result;
+                    return result;
+                case 'multiplication':
+                    result = parseInt(array[0]) * parseInt(numString);
+                    console.log("The product is: ", result);
+                    document.getElementById('resultsScreen').innerHTML = result;
+                    array[0] = result;
+                    return result;
+                case 'division':
+                    result = parseInt(array[0]) / parseInt(numString);
+                    console.log("The quotient is: ", result);
+                    document.getElementById('resultsScreen').innerHTML = result;
+                    array[0] = result;
+                    return result;
+                    console.log("you've multiplied by zero.");
+                default:
+                    console.log("Nothing happened")
+            }
+
+        }
+
         additon = (numString) => {
             array = [];
             array.push(numString);
@@ -93,31 +123,73 @@
             return array;
         }
 
+        subtraction = (numString) => {
+            array = [];
+            array.push(numString);
+            array.push('subtraction');
+            // numString = ""; // this isn't working for some reason.
+            console.log(array);
+            clearNumString();
+            document.getElementById('resultsScreen').innerHTML = "-";
+            console.log(numString);
+            return array;
+        }
+
+        multiplication = (numString) => {
+            array = [];
+            array.push(numString);
+            array.push('multiplication');
+            // numString = ""; // this isn't working for some reason.
+            console.log(array);
+            clearNumString();
+            document.getElementById('resultsScreen').innerHTML = "x";
+            console.log(numString);
+            return array;
+        }
+
+        division = (numString) => {
+            array = [];
+            array.push(numString);
+            array.push('division');
+            // numString = ""; // this isn't working for some reason.
+            console.log(array);
+            clearNumString();
+            document.getElementById('resultsScreen').innerHTML = "/";
+            console.log(numString);
+            return array;
+        }
+
         clearNumString = () => { numString = ""; } // Needed to clear the string. not sure why I couldn't do this without a funciton. But it didn't work for me.
 
-        function calculate(numString, array) {
+        calculate = (numString, array) => {
             console.log("calculate has been pushed.", "numString was received: ", numString, "array was recevied: ", array);
             switch (array[1]) {
                 case 'addition':
-                    result = parseInt(numString) + parseInt(array[0]);
+                    result = parseInt(array[0] + parseInt(numString));
                     console.log("The sum is: ", result);
                     document.getElementById('resultsScreen').innerHTML = result;
+                    array[0] = result;
+                    console.log("array[0]: ", array[0]);
                     return result;
-                // break;
-                case 'difference':
-                    difference = numString[0] - numString[1];
-                    // console.log("difference was returned");
-                    // operation = 'difference';
-                    return difference;
-                // break;
-                case 'quotient':
-                    console.log("you've divided by zero.");
-                    // return difference;
-                    break;
-                case 'product':
+                case 'subtraction':
+                    result = parseInt(array[0]) - parseInt(numString);
+                    console.log("The difference is: ", result);
+                    document.getElementById('resultsScreen').innerHTML = result;
+                    array[0] = result;
+                    return result;
+                case 'multiplication':
+                    result = parseInt(array[0]) * parseInt(numString);
+                    console.log("The product is: ", result);
+                    document.getElementById('resultsScreen').innerHTML = result;
+                    array[0] = result;
+                    return result;
+                case 'division':
+                    result = parseInt(array[0]) / parseInt(numString);
+                    console.log("The quotient is: ", result);
+                    document.getElementById('resultsScreen').innerHTML = result;
+                    array[0] = result;
+                    return result;
                     console.log("you've multiplied by zero.");
-                    // return difference;
-                    break;
                 default:
                     console.log("Nothing happened")
             }
@@ -127,9 +199,6 @@
             // document.getElementById("resultsScreen").innerHTML = numString[0];
         }
 
-// pushing items to results screen
-
-// document.getElementById("resultsScreen").innerHTML = "hello world";
 
     </script>
 </body>
