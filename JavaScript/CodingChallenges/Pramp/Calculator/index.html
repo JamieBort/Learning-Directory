@@ -38,30 +38,31 @@
                     <td>Clear</td>
                 </tr>
                 <tr>
-                    <td onclick="{numArray.push(1); console.log(numArray); console.log('push to screen here.'); document.getElementById('resultsScreen').innerHTML = '1';}">1</td>
-                    <td onclick="{numArray.push(2); console.log(numArray); document.getElementById('resultsScreen').innerHTML = '2';}">2</td>
-                    <td onclick="numArray.push(3)">3</td>
+                    <td onclick="integer(1)">1</td>
+                    <td onclick="integer(2)">2</td>
+                    <td onclick="integer(3)">3</td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
+                    <td onclick="integer(4)">4</td>
+                    <td onclick="integer(4)">5</td>
+                    <td onclick="integer(6)">6</td>
                 </tr>
                 <tr>
-                    <td>7</td>
-                    <td>8</td>
-                    <td>9</td>
+                    <td onclick="integer(7)">7</td>
+                    <td onclick="integer(8)">8</td>
+                    <td onclick="integer(9)">9</td>
                 </tr>
                 <tr>
-                    <td>0</td>
+                    <td onclick="integer(0)">0</td>
                     <!-- <td onclick=" operationTree('sum');">+</td> -->
-                    <td onclick=" operation = 'sum';">+</td>
+                    <!-- <td onclick=" operation = 'sum';">+</td> -->
+                    <td onclick=" additon(numString)">+</td>
                     <td onclick=" operation='difference';">-</td>
                 </tr>
                 <tr>
                     <td>/</td>
                     <td>X</td>
-                    <td onclick="calculate(numArray, operation)">=</td>
+                    <td onclick="calculate(numString, array)">=</td>
                 </tr>
             </tbody>
         </table>
@@ -70,48 +71,41 @@
         /* --------------------
          Add your code here
         --------------------- */
-        const numArray = [];
+        numString = "";
         operation = "";
 
-        function operationTree(expression) {
-            // switch (expression) {
-            //     case 'sum':
-            //         console.log("sum was returned");
-            //         console.log("sum was returned");
-            //         operation = 'sum';
-            //         return operation;
-            //         // break;
-            //     case 'difference':
-            //         console.log("difference was returned");
-            //         operation = 'difference';
-            //         return operation;
-            //         // break;
-            //     default:
-            //         console.log("Nothing happened")
-            // }
+        integer = (int) => {
+            console.log(int)
+            numString += int;
+            console.log(numString);
+            document.getElementById('resultsScreen').innerHTML = numString;
         }
 
-        function additon(numArray) {
-            console.log(numArray)
-            result = numArray[0] + numArray[1];
-            console.log("The sum is: ", result)
-            // return result;
+        additon = (numString) => {
+            array = [];
+            array.push(numString);
+            array.push('addition');
+            // numString = ""; // this isn't working for some reason.
+            console.log(array);
+            clearNumString();
+            document.getElementById('resultsScreen').innerHTML = "+";
+            console.log(numString);
+            return array;
         }
 
+        clearNumString = () => { numString = ""; } // Needed to clear the string. not sure why I couldn't do this without a funciton. But it didn't work for me.
 
-        function calculate(numArray, operation) {
-            console.log(numArray)
-            console.log("calculate has been pushed", operation, " was returned")
-            switch (operation) {
-                case 'sum':
-                    result = numArray[0] + numArray[1];
-                    console.log("sum was returned");
-                    // console.log("sum was returned");
-                    // operation = 'sum';
+        function calculate(numString, array) {
+            console.log("calculate has been pushed.", "numString was received: ", numString, "array was recevied: ", array);
+            switch (array[1]) {
+                case 'addition':
+                    result = parseInt(numString) + parseInt(array[0]);
+                    console.log("The sum is: ", result);
+                    document.getElementById('resultsScreen').innerHTML = result;
                     return result;
                 // break;
                 case 'difference':
-                    difference = numArray[0] - numArray[1];
+                    difference = numString[0] - numString[1];
                     // console.log("difference was returned");
                     // operation = 'difference';
                     return difference;
@@ -123,14 +117,14 @@
                 case 'product':
                     console.log("you've multiplied by zero.");
                     // return difference;
-                break;
+                    break;
                 default:
                     console.log("Nothing happened")
             }
 
-            numArray = [];
-            console.log(numArray)
-// document.getElementById("resultsScreen").innerHTML = numArray[0];
+            // numString = [];
+            // console.log(numString)
+            // document.getElementById("resultsScreen").innerHTML = numString[0];
         }
 
 // pushing items to results screen
