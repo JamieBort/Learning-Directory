@@ -7,8 +7,9 @@ I didn't finish it.
 I have most of the functonality.
 
 ### Next Steps
-Finish it.
-Then study the [solution](https://codepen.io/prampcontent/pen/jvNyKR) given. Theres info in there that I could learn from.
+1. Finish it.
+
+2. Then study the [solution](https://codepen.io/prampcontent/pen/jvNyKR) given. Theres info in there that I could learn from.
 
 ---
 ## Problem statement
