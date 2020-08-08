@@ -4,4 +4,4 @@
 Not started yet.
 
 ### Problem Statement
-[link to `NumbersWithAGivenPrimeFactorSum` in `images/`]
+[link to `NumbersWithAGivenPrimeFactorSum` in `images/`](https://github.com/JamieBort/LearningDirectory/blob/master/JavaScript/CodingChallenges/ProjectEuler/NumbersWithAGivenPrimeFactorSum/images/NumbersWithAGivenPrimeFactorSum.png)!

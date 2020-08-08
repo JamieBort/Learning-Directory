@@ -2,41 +2,35 @@ primeNumberArray = [1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 5
 // console.log(primeNumberArray.length);
 
 // generate primes of 15.
-f = 15;
+numberOfInterest = 15;
+// numberOfInterest = 23;
 
-// find greatest integer in primeNumberArray that is less than 15.
-var find = (f) => {
-    
-    newArray = [];
-    t = 0;
-    while (primeNumberArray[t] < f) {
-        // console.log(primeNumberArray[t]);
-        newArray[0] = primeNumberArray[t];
-        t++;
-    }
-    console.log(newArray);
-    return newArray;
+// Want to find all primes factors of f by starting with newArray[0].
+var findPrimes = (int) => {
+    aaa = numberOfInterest;
+    console.log("findPrimesOutput: ", int, "\n=============================");
+
+    primeNumberArray.forEach(element => {
+        if (aaa % primeNumberArray[element] == 0) {
+            console.log("the first prime is: ", primeNumberArray[element]);
+            console.log("it is divided", aaa/primeNumberArray[element], "times");
+            thisArray = [primeNumberArray[element],aaa/primeNumberArray[element]];
+            return thisArray;
+        }
+    });
+
+    // console.log(aaa%primeNumberArray[1]);
+    // if(aaa%primeNumberArray[2]==0){console.log("yes");}
+    // console.log(aaa%primeNumberArray[2]);
+    // console.log(primeNumberArray[2]); // primeNumberArray[2] = 3
+
+    // console.log(aaa%primeNumberArray[6]);
+    // console.log(aaa%primeNumberArray[5]);
+    // console.log(aaa%primeNumberArray[4]);
+    // console.log(aaa%primeNumberArray[3]);
+    // if(aaa%primeNumberArray[3]]==0){console.log("abc")}
+    findPrimesOutput = int;
+    return findPrimesOutput;
 };
-find(f);
-
-// want to find all primes factors of f by starting with newArray[0].
-var test = (array,f) => {
-    // console.log(array[0]% f==13);
-    // console.log(15%13);
-    // console.log(15%11);
-    // console.log(15%7);
-    // console.log(15%5);
-    // console.log(15%3);
-    // console.log(15%2);
-
-    if(f%5==0){
-        console.log(f%5);
-        console.log(f);
-        f-=5;
-        console.log(f);
-        f-=5;
-        console.log(f);
-    }
-    // if(array[0]% f==15){console.log("true")}
-};
-test(newArray,f);
+// findPrimes(greatestPrimeArray);
+findPrimes(15);
