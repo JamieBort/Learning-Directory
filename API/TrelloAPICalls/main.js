@@ -12,7 +12,7 @@ console.log(process.env.api_key); // The contents of the .env file.
 // var api_token = DELETED
 
 var api_key = process.env.api_key;
-var api_token =process.env.api_token;
+var api_token = process.env.api_token;
 
 // var myString = 'https://api.trello.com/1/members/me/boards?key='+api_key+'&token='+api_token;
 
@@ -21,8 +21,8 @@ var api_token =process.env.api_token;
 var api_key = process.env.api_key;
 var api_token = process.env.api_token;
 
-async function getAll(){
-    let response = await fetch('https://api.trello.com/1/members/me/boards?key='+api_key+'&token='+api_token);
+async function getAll() {
+    let response = await fetch('https://api.trello.com/1/members/me/boards?key=' + api_key + '&token=' + api_token);
     // let response = await fetch(myString);
     let data = await response.json();
     return data;
@@ -31,10 +31,36 @@ async function getAll(){
 var port = 4000;
 const http = require('http');
 var server = http.createServer(function (request, response) {
-    response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World!\n", getAll().then(data => console.log(data[0].name))); // When the local host page is refreshed, data[0].name is logged to the consol. I now need to learn Node.js better so I can send the data object to the page.
     
+    if (request.url == '/') {
+
+        response.writeHead(200, { 'Content-Type': 'text/html' });
+
+        response.write('<html><body><p>This is home page.</p></body></html>');
+        response.end();
+
+    } else if (request.url == "/contact") {
+
+        response.writeHead(200, { 'Content-Type': 'text/html' });
+        response.write('<html><body><p>This is contact page</p></body></html>');
+        response.end();
+
+    } else if (request.url == "/admin") {
+
+        response.writeHead(200, { 'Content-Type': 'text/html' });
+        response.write('<html><body><p>This is admin page</p></body></html>');
+        response.end();
+
+    } else {
+
+        response.end('Invalid request');
+    }
+
+
+    // response.writeHead(200, {"Content-Type": "text/plain"});
+    // response.end("Hello World!\n", getAll().then(data => console.log(data[0].name))); // When the local host page is refreshed, data[0].name is logged to the consol. I now need to learn Node.js better so I can send the data object to the page.
+
 });
 
-console.log("Listening in on: http://localhost:",port);
+console.log("Listening in on: http://localhost:", port);
 server.listen(port);
