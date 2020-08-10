@@ -1,2 +1,0 @@
-# EvenFibonacciNumbersProjectEulerJavaScript
-EvenFibonacciNumbers ProjectEuler JavaScript
