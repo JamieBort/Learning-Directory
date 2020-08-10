@@ -32,7 +32,7 @@ var port = 4000;
 const http = require('http');
 var server = http.createServer(function (request, response) {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World!\n", getAll().then(data => console.log(data[0].name)));
+    response.end("Hello World!\n", getAll().then(data => console.log(data[0].name))); // When the local host page is refreshed, data[0].name is logged to the consol. I now need to learn Node.js better so I can send the data object to the page.
     
 });
 
