@@ -1,6 +1,8 @@
-This README file was created for my own notes. 
-README.md was auto-generated when I ran the command `npx create-react-app my-app`.
+This README file was created for my own notes. On account of the fact that the README.md file was auto-generated when I ran the command `npx create-react-app my-app`.
 This directory and tutorial were created in preparation for this `LearningDirectory/JavaScript/Frameworks/React/ReactTicTacToeTutorial` turoial.
+
+### Status
+I left off at the [Adding Time Travel](https://reactjs.org/tutorial/tutorial.html#adding-time-travel) section so that I could learn the fundamental comcepts from another tutorial before moving on with this one.
 
 ---
 The following is from https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
@@ -13,14 +15,10 @@ Create React App doesn’t handle backend logic or databases; it just creates a 
 
 When you’re ready to deploy to production, running npm run build will create an optimized build of your app in the build folder. You can learn more about Create React App from its README and the User Guide.
 
-
-
 [Next.js](https://reactjs.org/docs/create-a-new-react-app.html#nextjs)
 Next.js is a popular and lightweight framework for static and server‑rendered applications built with React. It includes styling and routing solutions out of the box, and assumes that you’re using Node.js as the server environment.
 
 Learn Next.js from its official guide.
-
-
 
 [Gatsby](https://reactjs.org/docs/create-a-new-react-app.html#gatsby)
 Gatsby is the best way to create static websites with React. It lets you use React components, but outputs pre-rendered HTML and CSS to guarantee the fastest load time.
