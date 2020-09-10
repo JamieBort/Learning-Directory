@@ -1,8 +1,6 @@
 This README file was created for my own notes. On account of the fact that the README.md file was auto-generated when I ran the command `npx create-react-app my-app`.
-This directory and tutorial were created in preparation for this [LearningDirectory/JavaScript/Frameworks/React/ReactTicTacToeTutorial](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Frameworks/React/ReactTicTacToeTutorial/my-app) turoial.
 
-### Status
-I left off at the [Adding Time Travel](https://reactjs.org/tutorial/tutorial.html#adding-time-travel) section so that I could learn the fundamental comcepts from another tutorial before moving on with this one.
+This directory and tutorial were created in preparation for this [LearningDirectory/JavaScript/Frameworks/React/ReactTicTacToeTutorial](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Frameworks/React/ReactTicTacToeTutorial/my-app) turoial.
 
 ---
 The following is from https://reactjs.org/docs/create-a-new-react-app.html#create-react-app.
