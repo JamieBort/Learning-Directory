@@ -3,28 +3,32 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 class ParentClass extends React.Component {
-
     render() {
         return (
             <div>
                 <h1>This is the parent class</h1>
-                <SecondClass text="The attribute text gets passed from Parent class to child class" />
+                <ChildClass text="The attribute text gets passed from Parent class to child class" />
                 <Button
-                    message="This is from my button component">
+                    myFunction={function () { alert('click'); }}
+                    message="Click this button for an alert">
                 </Button>
-                <Button 
-                    myFunction = {function () { alert('click'); }}
-                    message="Here is a second button">
+                <Button
+                    myFunction={function () { console.log("Hello!"); }}
+                    message="Click this button to console log a message">
                 </Button>
             </div>
         );
     }
 }
 
-class SecondClass extends React.Component {
+class ChildClass extends React.Component {
     render() {
+        const paragraph = "text entered into the paragraph tag"
         return (
-            <h2>{this.props.text}</h2>
+            <div>
+                <h2>{this.props.text}</h2>
+                <p>{paragraph}</p>
+            </div>
         )
     }
 }
@@ -33,7 +37,7 @@ class Button extends React.Component {
     render() {
         return (<button
             onClick={this.props.myFunction}
-             >
+        >
             {this.props.message}
         </button>);
     }
