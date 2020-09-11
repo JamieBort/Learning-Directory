@@ -2,13 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-class FirstClass extends React.Component {
+class ParentClass extends React.Component {
+
     render() {
         return (
             <div>
-                <h1>Hi</h1>
-                <SecondClass text="hi again!!!"/>
-                <Button />
+                <h1>This is the parent class</h1>
+                <SecondClass text="The attribute text gets passed from Parent class to child class" />
+                <Button
+                    message="This is from my button component">
+                </Button>
+                <Button 
+                    myFunction = {function () { alert('click'); }}
+                    message="Here is a second button">
+                </Button>
             </div>
         );
     }
@@ -24,12 +31,16 @@ class SecondClass extends React.Component {
 
 class Button extends React.Component {
     render() {
-        return (<p>this is my button</p>);
+        return (<button
+            onClick={this.props.myFunction}
+             >
+            {this.props.message}
+        </button>);
     }
 }
 
 ReactDOM.render(
-    <FirstClass />,
+    <ParentClass />,
     document.getElementById('root')
 );
 
@@ -37,7 +48,9 @@ ReactDOM.render(
 
 
 
-
+// function myFunction() {
+    //  console.log("It works!")
+// }
 
 
 
