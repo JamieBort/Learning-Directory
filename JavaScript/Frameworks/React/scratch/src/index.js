@@ -9,22 +9,46 @@ class ParentClass extends React.Component {
     render() {
         return (
             <div>
-                <h1>This is the parent class</h1>
-                <ChildClass text="The attribute text gets passed from Parent class to child class" />
                 <Button
-                    myFunction={function () { alert('click'); }}
-                    message="Click this button for an alert">
+                    myFunction={function () { console.log(boards); }}
+                    message="Click this button to console log a boards">
                 </Button>
                 <Button
-                    myFunction={function () { console.log(cards); }}
-                    message="Click this button to console log a cards">
+                    myFunction={boardNames}
+                    message="Click this button to console log the board names">
                 </Button>
                 <Button
                     myFunction={function () { console.log(boards[0]); }}
-                    message="Click this button to console log a boards">
+                    message="Click this button to console log a 'Bills an Health' board">
                 </Button>
+                <Button
+                    myFunction={function () { console.log(cards); }}
+                    message="Click this button to console log the 'Bills an Health' cards">
+                </Button>
+                <ListBoard></ListBoard>
+                <p>This is the parent class</p>
+                <ChildClass text="The attribute text gets passed from Parent class to child class" />
+                {/* <Button
+                    myFunction={function () { alert('click'); }}
+                    message="Click this button for an alert">
+                </Button> */}
             </div>
         );
+    }
+}
+
+class ListBoard extends React.Component {
+    render() {
+        return (
+            <div>
+                <p>this is my card for listing boards.</p>
+                <Button
+                    myFunction={boardNames}
+                    message="Click this button to console log a boards">
+                </Button>
+                <p id="myBoards"></p>
+            </div>
+        )
     }
 }
 
@@ -55,8 +79,20 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
+// Display the content to the page.
+// I populate the titles of the boards.
+// I then populate the titles of the cards.
+// I then list the description of one of the cards I select.
 
 
+function boardNames() {
+    console.log(boards);
+    for (let i = 0; i < boards.length; i++) {
+        console.log("The board name is: ", boards[i].name);
+    }
+    // document.getElementById('myBoards').innerHTML="Hello!";
+    document.getElementById('myBoards').innerHTML=boards[0].name;
+}
 
 
 // function myFunction() {
