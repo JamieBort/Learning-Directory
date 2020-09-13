@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+let boards = require('./trelloJson.json');
+let cards = require('./trelloJsonCards.json');
+
 class ParentClass extends React.Component {
     render() {
         return (
@@ -13,8 +16,12 @@ class ParentClass extends React.Component {
                     message="Click this button for an alert">
                 </Button>
                 <Button
-                    myFunction={function () { console.log("Hello!"); }}
-                    message="Click this button to console log a message">
+                    myFunction={function () { console.log(cards); }}
+                    message="Click this button to console log a cards">
+                </Button>
+                <Button
+                    myFunction={function () { console.log(boards[0]); }}
+                    message="Click this button to console log a boards">
                 </Button>
             </div>
         );
