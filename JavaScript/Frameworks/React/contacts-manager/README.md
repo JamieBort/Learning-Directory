@@ -3,6 +3,7 @@ https://www.andreasreiterer.at/creating-react-app-create-react-app/
 
 ### Status
 I omitted the `Validating Props with prop-types` step.
+
 Finished this [How To Create a React List Component](https://www.andreasreiterer.at/react-list-component/) section.
 
 ### Next Steps

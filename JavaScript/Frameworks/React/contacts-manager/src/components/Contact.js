@@ -5,6 +5,8 @@ function Contact(props) {
     return (
         <div className="contact">
             <span>{props.name}</span>
+            <p>{props.email}</p>
+            <p>{props.phone}</p>
         </div>
     )
 }
