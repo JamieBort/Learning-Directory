@@ -1,26 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// var myObj = {
+//   name: 'Umut',
+//   age: 34,
+// };
+// var myCar = {
+//   make: 'Ford',
+//   model: 'Mustang',
+//   year: 1969
+// };
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      info: "hi",
+      make: 'Ford',
+      model: 'Mustang',
+      year: 1969,
+    }
+  }
+
+  onClickFunction = () => {
+    // console.log(myObj);
+    console.log(this.state);
+    this.setState({make: 'Fords'});
+    console.log(this.state);
+    // if (this.state.info === "hi") {
+    //   this.setState({ info: "bye" });
+    // }
+    // else {
+    //   this.setState({ info: "hi" });
+    // }
+  }
+
+  render() {
+    return (
+      <div>
+        {/* <span>{this.state.info}</span> */}
+        <button onClick={this.onClickFunction}>To update state: {this.state.info}</button>
+      </div>
+    );
+  }
 }
 
 export default App;
