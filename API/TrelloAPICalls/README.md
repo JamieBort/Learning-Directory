@@ -29,6 +29,5 @@ This has been a help for re-learning node.js: http://zetcode.com/javascript/http
 
 See `Research` section of https://trello.com/c/kUT82Vto/244-trello-heat-map
 
-
 ## Associated links
-[Trello ApI To Develop](https://trello.com/c/ckENy2E8/255-trello-api-to-develop) Trello card.
+[Trello Api To Develop](https://trello.com/c/ckENy2E8/255-trello-api-to-develop) Trello card.
