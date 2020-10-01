@@ -31,3 +31,5 @@ See `Research` section of https://trello.com/c/kUT82Vto/244-trello-heat-map
 
 ## Associated links
 [Trello Api To Develop](https://trello.com/c/ckENy2E8/255-trello-api-to-develop) Trello card.
+
+And the [TrelloApi](https://github.com/JamieBort/TrelloAPI) GitHub repo.
