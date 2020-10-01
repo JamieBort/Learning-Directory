@@ -24,5 +24,11 @@ Go look at the [Node](https://github.com/JamieBort/LearningDirectory/tree/master
 
 Now to explore api calls by exploiting the api - look at keypieces of info. Display them on the site. Toggle between types of cards. Etc.
 
+## Resources
+This has been a help for re-learning node.js: http://zetcode.com/javascript/http/
+
+See `Research` section of https://trello.com/c/kUT82Vto/244-trello-heat-map
+
+
 ## Associated links
 [Trello ApI To Develop](https://trello.com/c/ckENy2E8/255-trello-api-to-develop) Trello card.
