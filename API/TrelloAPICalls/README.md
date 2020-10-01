@@ -12,10 +12,14 @@ And run `npm i node-fetch` in the root directory of this project.
 ## Status
 
 I am making api calls successfully via postman. 
-Now I need to learn node.js better so I can make the calls in the .js file.
+~~Now I need to learn node.js better so I can make the calls in the .js file.~~
 
-I learned that I now need to become more familiar with Node (or some other framework to make api calls that I can send to the website)
-I got it working as wanted.
+Successfully making api calls via the .js file using local variables and hiding them in the .env file.
+
+~~I learned that I now need to become more familiar with Node (or some other framework to make api calls that I can send to the website)~~
+
+Currently using these skills in this [TrelloAPI](https://github.com/JamieBort/TrelloAPI) GitHub repo.
+
 
 ## Next Steps
 See `I now need to learn Node.js better so I can send the data object to the page.` in the `main.js` file. To this end, watch Node.js videos, read documentation. Etc.
