@@ -1,13 +1,13 @@
 # README Trello API Calls
 
-## Steps to run this.
+## Steps to run this App
 
-Install the required npm packages. To date they're `dotenv` and `node-fetch`. To this end, run `npm i dotenv` in the root directory of this project.
+1. Install the required npm packages. To date they're `dotenv` and `node-fetch`. To this end, run `npm i dotenv` in the root directory of this project.
 And run `npm i node-fetch` in the root directory of this project.
 
-The `.env` file needs to be in the directory where `require('dotenv').config({ path: './../../.env' });` is expecting it to be.
+2. The `.env` file needs to be in the directory where `require('dotenv').config({ path: './../../.env' });` is expecting it to be.
 
-When these above conditions are met, run `nodemon main.js` in the root directory of this project.
+3. When these above conditions are met, run `nodemon main.js` in the root directory of this project.
 
 ## Status
 
