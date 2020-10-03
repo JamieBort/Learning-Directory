@@ -3,9 +3,9 @@
 ### Purpose
 A directory to use to hone my accessibility exploration. Specifically so that I can make my website(s) more accessible.
 
-###Status
+### Status
 
-###Next Steps
+### Next Steps
 
 which tools are available to test with?
 which resources are there for learning about this?
