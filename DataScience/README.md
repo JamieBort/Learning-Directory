@@ -1,4 +1,4 @@
-#README Data Science
+# README Data Science
 
 This directory houses all of the courses that Chris Manna sent me via the email below. (see gmail link) They were given to him by his manager to get ramped up for their data science project.
 
