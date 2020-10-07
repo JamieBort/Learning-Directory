@@ -1,6 +1,6 @@
 #README Data Science
 
-This directory houses all of the coures that Chris Manna sent me via the email below. (see gmail link) They were given to him by his manager to get ramped up for their data science project.
+This directory houses all of the courses that Chris Manna sent me via the email below. (see gmail link) They were given to him by his manager to get ramped up for their data science project.
 
 chrome bookmark on home computer: chrome://bookmarks/?id=1725
 
