@@ -22,12 +22,15 @@ class App extends Component {
     console.log(name);
     switch (name) {
       case "showHideDemo1":
+        console.log("Jamie's showHideDemo1");
         this.setState({ showHideDemo1: !this.state.showHideDemo1 });
         break;
       case "showHideDemo2":
+        console.log("Jamie's showHideDemo2");
         this.setState({ showHideDemo2: !this.state.showHideDemo2 });
         break;
       case "showHideDemo3":
+        console.log("Jamie's showHideDemo3");
         this.setState({ showHideDemo3: !this.state.showHideDemo3 });
         break;
       default:

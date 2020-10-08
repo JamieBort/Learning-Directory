@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home!!</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <a href="/food">Go to the fruit</a>
+    <ol>
+      {{#fruits}}
+        <li><a href="/food/{{.}}">{{.}}</a></li>
+      {{/fruits}}
+    </ol>
+
+    <p>It is currently {{ formattedDate }}. Have a great day!</p>
+    <img src="/images/sneeze.gif" />
+  </body>
+</html>
