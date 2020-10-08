@@ -14,6 +14,9 @@ which resources are there me to use as an end user - if I want to list to a text
 ### Resources
 [explore this WCAG Contrast Ratio article (AND the rest of the website) that was posted by Mili](https://trello.com/c/bgdUXGZM/436-explore-this-article-and-the-rest-of-the-website-that-was-posted-by-mili) Trello card.
 
+[Bureau of Internet Accessibility](https://www.boia.org/) website.
+
+
 ### Related Links
 [Work on accessibility issues](https://trello.com/c/QiXs2V0r/164-work-on-accessibility-issues) Trello card.
 
@@ -25,3 +28,5 @@ See also resources collected in
 * google drive, 
 * email, 
 * etc.
+
+[Make Your Hashtags Accessible](https://www.boia.org/blog/make-your-hashtags-accessible) blog entry.
