@@ -2,6 +2,8 @@
 
 **The purpose** of this directory is to house my Heroku files.
 
+`TourOfHeroesOnHeroku` is an Angular app.
+
 Running into issues. The following is the status update from `/LearningDirectory/Heroku/GettingStartedOnHerokuWithNodeJs/README.md`
 >Followed this tutorial in another directory outside of on account of
 >1. this exercise/tutorial required a `.git` directory; which messes with the `.git` directory in the root directory.
