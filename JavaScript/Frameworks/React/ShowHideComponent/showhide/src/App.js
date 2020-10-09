@@ -10,7 +10,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: "React",
+      // name: "React",
       showHideDemo1: false,
       showHideDemo2: false,
       showHideDemo3: false
@@ -19,8 +19,9 @@ class App extends Component {
   }
 
   hideComponent(name) {
-    console.log(name);
-    switch (name) {
+    // console.log(name);
+    // switch (name) {
+      switch (name) {
       case "showHideDemo1":
         console.log("Jamie's showHideDemo1");
         this.setState({ showHideDemo1: !this.state.showHideDemo1 });

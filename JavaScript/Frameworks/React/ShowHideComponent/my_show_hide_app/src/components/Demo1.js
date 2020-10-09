@@ -4,7 +4,7 @@ class Demo1 extends Component {
     constructor() { // Why isn't props passed in here?
         super(); // Why isn't props passed in here?
         this.state = {
-            name: "React"
+            // name: "React"
         }
     }
 

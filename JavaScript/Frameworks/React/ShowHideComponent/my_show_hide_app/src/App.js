@@ -10,7 +10,7 @@ class App extends Component {
   constructor() { // Why isn't props passed in here?
     super(); // Why isn't props passed in here?
     this.state = {
-      name: "React",
+      // name: "React",
       showHideDemo1: false,
       showHideDemo2: false,
       showHideDemo3: false,
@@ -20,6 +20,7 @@ class App extends Component {
 
   hideComponent(name) {
     console.log(name);
+    console.log(this.state);
     switch (name) {
       case "showHideDemo1":
         console.log("case one was selected");
@@ -31,6 +32,7 @@ class App extends Component {
         break;
       case "showHideDemo3":
         console.log("case three was selected");
+        console.log(this.state);
         this.setState({ showHideDemo3: !this.state.showHideDemo3});
         break;
       default:
@@ -57,23 +59,6 @@ class App extends Component {
         {showHideDemo2 && <Demo2 />}
         {showHideDemo3 && <Demo3 />}
       </div>
-
-      // <div className="App" >
-      //   <header className="App-header">
-      //     <img src={logo} className="App-logo" alt="logo" />
-      //     <p>
-      //       Edit <code>src/App.js</code> and save to reload.
-      //     </p>
-      //     <a
-      //       className="App-link"
-      //       href="https://reactjs.org"
-      //       target="_blank"
-      //       rel="noopener noreferrer"
-      //     >
-      //       Learn React
-      //     </a>
-      //   </header>
-      // </div>
     );
   }
 }
