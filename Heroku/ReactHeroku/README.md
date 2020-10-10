@@ -1,5 +1,8 @@
 # README React Heroku
 
+### Purpose
+The purpose of this directory is to house all of the React.js apps I plan on using to post to Heroku.
+
 [node-knockout-react-node-starter](https://github.com/JamieBort/LearningDirectory/tree/master/Heroku/ReactHeroku/node-knockout-react-node-starter) is cloned from [heroku-examples / node-knockout-react-node-starter](https://github.com/heroku-examples/node-knockout-react-node-starter) GitHub repo.
 
 ---
