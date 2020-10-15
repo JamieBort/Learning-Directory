@@ -1,0 +1,20 @@
+body {
+    font-family: system-ui;
+    background: #fff;
+    color: white;
+    text-align: center;
+  }
+  
+  p{
+    padding:60px 0;
+    color:#000;
+  }
+  footer{
+    background-color:#555;
+  }
+  footer p{
+    color:#fff;
+  }
+  footer li a{
+    color:#fff;
+  }
