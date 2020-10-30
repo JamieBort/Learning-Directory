@@ -24,6 +24,9 @@ https://css-tricks.com/smooth-scrolling-accessibility/
 ### Buttons
 [ARIA: button role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role) mdn webdocs documentation.
 
+### Focus
+[Never remove CSS outlines](https://www.a11yproject.com/posts/2013-01-25-never-remove-css-outlines/) from the a11yproject.
+
 ---
 ## Resources
 [explore this WCAG Contrast Ratio article (AND the rest of the website) that was posted by Mili](https://trello.com/c/bgdUXGZM/436-explore-this-article-and-the-rest-of-the-website-that-was-posted-by-mili) Trello card.
@@ -35,6 +38,8 @@ Also, See the Resources.md file in this directory.
 ### Documentation
 https://www.a11yproject.com/
 https://developer.mozilla.org/en-US/docs/Web/Accessibility
+https://www.w3.org/TR/wai-aria-practices-1.1/
+https://reactjs.org/docs/accessibility.html
 
 ---
 ## Related Links
