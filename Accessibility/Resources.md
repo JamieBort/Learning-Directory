@@ -30,16 +30,16 @@ https://www.w3.org/TR/wai-aria-practices/examples/landmarks/main.html
   * https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh?hl=en
   * https://chrome.google.com/webstore/detail/simple-text-to-speech/ghlkijaiidmimbolhoipnelekfidnpoi?hl=en&_asi=1
   * https://play.google.com/store/apps/details?id=com.chromereadervoice&hl=en_US
-  * Ones [I am using](chrome://extensions/) and also [found online here](https://chrome.google.com/webstore/user/purchases?hl=en)
-* https://a11yproject.com/
-* https://www.w3.org/
-Particularly [Web for All](https://www.w3.org/Consortium/mission.html#principles) and [Accessibility](https://www.w3.org/WAI/).
-* https://www.google.com/accessibility/products-features/
+  * Ones [I am using](chrome://extensions/) (see: chrome://extensions/) and also [found online here](https://chrome.google.com/webstore/user/purchases?hl=en)
+* ~~https://a11yproject.com/~~
+* ~~https://www.w3.org/
+Particularly [Web for All](https://www.w3.org/Consortium/mission.html#principles) and [Accessibility](https://www.w3.org/WAI/).~~
+* ~~https://www.google.com/accessibility/products-features/~~
 * Regarding the <nav> tag inside the <header> tag:
 >[Accessibility
 I like to put menus at the end of the source code rather than the start. I use CSS to send it to the top of a computer screen or leave it at the end for text-speech browsers and small screens. This avoids the need for skip-links.](https://stackoverflow.com/a/28699764/8210460)
 
-https://blog.logrocket.com/a-guide-to-improving-web-accessibility-with-css/
+~~https://blog.logrocket.com/a-guide-to-improving-web-accessibility-with-css/~~
 
 From Vinny and Maria during the meeting to share our websites for review.
 >Hey Jamie! Sorry that I've been mia the last two days. Crazy couple of days but I'm back in the saddle. With that being said, here are the links for accessibility.

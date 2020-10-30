@@ -30,19 +30,34 @@ https://css-tricks.com/smooth-scrolling-accessibility/
 
 ---
 ## Resources
-[explore this WCAG Contrast Ratio article (AND the rest of the website) that was posted by Mili](https://trello.com/c/bgdUXGZM/436-explore-this-article-and-the-rest-of-the-website-that-was-posted-by-mili) Trello card.
+* [explore this WCAG Contrast Ratio article (AND the rest of the website) that was posted by Mili](https://trello.com/c/bgdUXGZM/436-explore-this-article-and-the-rest-of-the-website-that-was-posted-by-mili) Trello card.
 
-[Bureau of Internet Accessibility](https://www.boia.org/) website.
+* [Bureau of Internet Accessibility](https://www.boia.org/) website.
 
-Also, see the [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md) file in this directory.
+* Also, see the [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md) file in this directory.
 
-[a11y courses](https://github.com/mgifford/a11y-courses)
+* [a11y courses](https://github.com/mgifford/a11y-courses)
+
+* https://www.google.com/accessibility/products-features/
+
+* [A guide to improving web accessibility with CSS](https://blog.logrocket.com/a-guide-to-improving-web-accessibility-with-css/)
+
+### Chrome extensions
+* https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm
+* https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en
+* https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh?hl=en
+* https://chrome.google.com/webstore/detail/simple-text-to-speech/ghlkijaiidmimbolhoipnelekfidnpoi?hl=en&_asi=1
+* https://play.google.com/store/apps/details?id=com.chromereadervoice&hl=en_US
+* Ones [I am using](chrome://extensions/) (see: chrome://extensions/) and also [found online here](https://chrome.google.com/webstore/user/purchases?hl=en)
 
 ### Documentation
 * https://www.a11yproject.com/
 * https://developer.mozilla.org/en-US/docs/Web/Accessibility
-* https://www.w3.org/TR/wai-aria-practices-1.1/
 * https://reactjs.org/docs/accessibility.html
+* w3.org
+  * Particularly [Web for All](https://www.w3.org/Consortium/mission.html#principles)
+  * and [Accessibility](https://www.w3.org/WAI/).
+  * also, https://www.w3.org/TR/wai-aria-practices-1.1/
 
 ---
 ## Related Links
