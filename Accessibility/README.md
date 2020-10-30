@@ -8,10 +8,11 @@ A directory to use to hone my accessibility exploration. Specifically so that I 
 
 ---
 ## Next Steps
+Which tools are available to test with?
 
-which tools are available to test with?
-which resources are there for learning about this?
-which resources are there me to use as an end user - if I want to list to a text-based site for example?
+Which resources are there for learning about this?
+
+Which resources are there me to use as an end user - if I want to list to a text-based site for example?
 
 ---
 ## Research
@@ -33,13 +34,13 @@ https://css-tricks.com/smooth-scrolling-accessibility/
 
 [Bureau of Internet Accessibility](https://www.boia.org/) website.
 
-Also, See the Resources.md file in this directory.
+Also, see the [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md) file in this directory.
 
 ### Documentation
-https://www.a11yproject.com/
-https://developer.mozilla.org/en-US/docs/Web/Accessibility
-https://www.w3.org/TR/wai-aria-practices-1.1/
-https://reactjs.org/docs/accessibility.html
+* https://www.a11yproject.com/
+* https://developer.mozilla.org/en-US/docs/Web/Accessibility
+* https://www.w3.org/TR/wai-aria-practices-1.1/
+* https://reactjs.org/docs/accessibility.html
 
 ---
 ## Related Links
