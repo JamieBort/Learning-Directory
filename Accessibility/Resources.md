@@ -1,6 +1,6 @@
 <!-- Temporary file to collect resources for until they can be added to the Resources section of the README.md file. -->
 
-https://trello.com/c/nSgl3vaI/437-a11y-resources
+https://trello.com/c/nSgl3vaI/437-a11y-resources  <-- this might be a link to stye guides.
 
 [website accessibility and navigation](https://www.google.com/search?q=website+accessibility+and+navigation&oq=website+accessibility+and+navigation&aqs=chrome..69i57.6116j0j7&sourceid=chrome&ie=UTF-8) internet search.
 
@@ -10,11 +10,11 @@ For `accessible navigation` Maria Lamardo shared this:
 https://www.w3.org/TR/wai-aria-practices/examples/landmarks/main.html
 
 * ARIA (Accessible Rich Internet Applications) spec
- * [MDN web docs on aria](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
- * [ARIA 1.1 Spec](https://goo.gl/1rGD7S)
- * [ARIA Authoring Practices 1.1](https://www.youtube.com/redirect?v=g9Qff0b-lHk&event=video_description&redir_token=57BldOoWvg-EHPR53zPArK3GN5Z8MTU3NDY5ODU4MkAxNTc0NjEyMTgy&q=https%3A%2F%2Fwww.w3.org%2FTR%2Fwai-aria-practices-1.1%2F)
- * [Intro to ARIA -- A11ycasts #13](https://www.youtube.com/watch?v=g9Qff0b-lHk)
- * [Why do semantics matter? -- #A11ycasts 08](https://www.youtube.com/watch?v=g2tzEil5TL0)
+  * [MDN web docs on aria](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+  * [ARIA 1.1 Spec](https://goo.gl/1rGD7S)
+  * [ARIA Authoring Practices 1.1](https://www.youtube.com/redirect?v=g9Qff0b-lHk&event=video_description&redir_token=57BldOoWvg-EHPR53zPArK3GN5Z8MTU3NDY5ODU4MkAxNTc0NjEyMTgy&q=https%3A%2F%2Fwww.w3.org%2FTR%2Fwai-aria-practices-1.1%2F)
+  * [Intro to ARIA -- A11ycasts #13](https://www.youtube.com/watch?v=g9Qff0b-lHk)
+  * [Why do semantics matter? -- #A11ycasts 08](https://www.youtube.com/watch?v=g2tzEil5TL0)
 
 * [Google Accessibility Products & Features](https://www.google.com/accessibility/products-features/)
 * youtube videos on NVDA
