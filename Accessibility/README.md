@@ -16,23 +16,22 @@ Which resources are there me to use as an end user - if I want to list to a text
 
 ---
 ## Research
-https://css-tricks.com/smooth-scrolling-accessibility/
+### Smooth Scrolling
+* [Smooth Scrolling and Accessibility](https://css-tricks.com/smooth-scrolling-accessibility/) CSS Tricks article.
 
 ### Links/<a> tags
-[Creating valid and accessible links](https://www.a11yproject.com/posts/2019-02-15-creating-valid-and-accessible-links/) from the a11yproject.
-[html anchor accessibility](https://www.google.com/search?q=html+anchor+accessibility&oq=html+anchor+accessibility&aqs=chrome..69i57.6984j0j4&sourceid=chrome&ie=UTF-8) internet search.
+* [Creating valid and accessible links](https://www.a11yproject.com/posts/2019-02-15-creating-valid-and-accessible-links/) from the a11yproject.
+* [html anchor accessibility](https://www.google.com/search?q=html+anchor+accessibility&oq=html+anchor+accessibility&aqs=chrome..69i57.6984j0j4&sourceid=chrome&ie=UTF-8) internet search.
 
 ### Buttons
-[ARIA: button role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role) mdn webdocs documentation.
+* [ARIA: button role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role) mdn webdocs documentation.
 
 ### Focus
-[Never remove CSS outlines](https://www.a11yproject.com/posts/2013-01-25-never-remove-css-outlines/) from the a11yproject.
+* [Never remove CSS outlines](https://www.a11yproject.com/posts/2013-01-25-never-remove-css-outlines/) from the a11yproject.
 
 ---
 ## Resources
 * [explore this WCAG Contrast Ratio article (AND the rest of the website) that was posted by Mili](https://trello.com/c/bgdUXGZM/436-explore-this-article-and-the-rest-of-the-website-that-was-posted-by-mili) Trello card.
-
-* [Bureau of Internet Accessibility](https://www.boia.org/) website.
 
 * Also, see the [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md) file in this directory.
 
@@ -58,6 +57,7 @@ https://css-tricks.com/smooth-scrolling-accessibility/
   * Particularly [Web for All](https://www.w3.org/Consortium/mission.html#principles)
   * and [Accessibility](https://www.w3.org/WAI/).
   * also, https://www.w3.org/TR/wai-aria-practices-1.1/
+* [Bureau of Internet Accessibility](https://www.boia.org/) website.
 
 ---
 ## Related Links
