@@ -24,13 +24,13 @@ https://www.w3.org/TR/wai-aria-practices/examples/landmarks/main.html
 * [another youtube video](https://www.youtube.com/watch?v=Lktz1KXbTOU)
 * [and another youtube video](https://www.youtube.com/watch?v=x18vEEfpK3g)
 
-* Chrome extensions
-  * https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm
-  * https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en
-  * https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh?hl=en
-  * https://chrome.google.com/webstore/detail/simple-text-to-speech/ghlkijaiidmimbolhoipnelekfidnpoi?hl=en&_asi=1
-  * https://play.google.com/store/apps/details?id=com.chromereadervoice&hl=en_US
-  * Ones [I am using](chrome://extensions/) (see: chrome://extensions/) and also [found online here](https://chrome.google.com/webstore/user/purchases?hl=en)
+* ~~Chrome extensions~~
+  * ~~https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm~~
+  * ~~https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en~~
+  * ~~https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh?hl=en~~
+  * ~~https://chrome.google.com/webstore/detail/simple-text-to-speech/ghlkijaiidmimbolhoipnelekfidnpoi?hl=en&_asi=1~~
+  * ~~https://play.google.com/store/apps/details?id=com.chromereadervoice&hl=en_US~~
+  * ~~Ones [I am using](chrome://extensions/) (see: chrome://extensions/) and also [found online here](https://chrome.google.com/webstore/user/purchases?hl=en)~~
 * ~~https://a11yproject.com/~~
 * ~~https://www.w3.org/
 Particularly [Web for All](https://www.w3.org/Consortium/mission.html#principles) and [Accessibility](https://www.w3.org/WAI/).~~
