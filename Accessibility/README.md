@@ -47,7 +47,7 @@ Which resources are there me to use as an end user - if I want to list to a text
 * https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh?hl=en
 * https://chrome.google.com/webstore/detail/simple-text-to-speech/ghlkijaiidmimbolhoipnelekfidnpoi?hl=en&_asi=1
 * https://play.google.com/store/apps/details?id=com.chromereadervoice&hl=en_US
-* Ones [I am using](chrome://extensions/) (see: chrome://extensions/) and also [found online here](https://chrome.google.com/webstore/user/purchases?hl=en)
+* Ones [I am using](chrome://extensions/) (see: chrome://extensions/) and also found online [here](https://chrome.google.com/webstore/user/purchases?hl=en).
 
 ### Documentation
 * https://www.a11yproject.com/
@@ -58,6 +58,7 @@ Which resources are there me to use as an end user - if I want to list to a text
   * and [Accessibility](https://www.w3.org/WAI/).
   * also, https://www.w3.org/TR/wai-aria-practices-1.1/
 * [Bureau of Internet Accessibility](https://www.boia.org/) website.
+* [IBM Accessibility](https://www.ibm.com/able/)
 
 ---
 ## Related Links
