@@ -23,14 +23,25 @@ Which resources are there me to use as an end user - if I want to list to a text
 * [Creating valid and accessible links](https://www.a11yproject.com/posts/2019-02-15-creating-valid-and-accessible-links/) from the a11yproject.
 * [html anchor accessibility](https://www.google.com/search?q=html+anchor+accessibility&oq=html+anchor+accessibility&aqs=chrome..69i57.6984j0j4&sourceid=chrome&ie=UTF-8) internet search.
 
+###Images
+* [Images Concepts](https://www.w3.org/WAI/tutorials/images/) tutorial from w3.org.
+
 ### Buttons
 * [ARIA: button role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role) mdn webdocs documentation.
 
 ### Focus
 * [Never remove CSS outlines](https://www.a11yproject.com/posts/2013-01-25-never-remove-css-outlines/) from the a11yproject.
 
+### Forms
+* [Forms Concepts](https://www.w3.org/WAI/tutorials/forms/) tutorial from w3.org.
+
+### Tables
+* [Tables Concepts](https://www.w3.org/WAI/tutorials/tables/) tutorial from w3.org.
+
 ---
 ## Resources
+* [Chrome & Chrome OS Accessibility](https://www.youtube.com/playlist?list=PL5aqr5w5fRe7QWzXhqxrilIVduWEmLHM2) YouTube videos.
+
 * [explore this WCAG Contrast Ratio article (AND the rest of the website) that was posted by Mili](https://trello.com/c/bgdUXGZM/436-explore-this-article-and-the-rest-of-the-website-that-was-posted-by-mili) Trello card.
 
 * Also, see the [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md) file in this directory.
@@ -56,6 +67,7 @@ Which resources are there me to use as an end user - if I want to list to a text
 * w3.org
   * Particularly [Web for All](https://www.w3.org/Consortium/mission.html#principles)
   * and [Accessibility](https://www.w3.org/WAI/).
+  * and [Tutorials](https://www.w3.org/WAI/tutorials/.)
   * also, https://www.w3.org/TR/wai-aria-practices-1.1/
 * [Bureau of Internet Accessibility](https://www.boia.org/) website.
 * [IBM Accessibility](https://www.ibm.com/able/)

@@ -47,3 +47,33 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/
 https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
 https://webaim.org/resources/contrastchecker/
 https://blog.prototypr.io/align-svg-icons-to-text-and-say-goodbye-to-font-icons-d44b3d7b26b4
+
+
+
+### New tabs as of 20201106 ~~- add these to the [Resources](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/README.md#resources) section of the Accessibility directory of the LearningDirectory repo.~~
+https://sites.google.com/a/chromium.org/dev/user-experience/assistive-technology-support
+https://www.google.com/accessibility/products-features/
+https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility
+which led to: chrome://accessibility/
+
+https://www.youtube.com/playlist?list=PL5aqr5w5fRe7QWzXhqxrilIVduWEmLHM2
+
+https://sites.google.com/a/chromium.org/dev/user-experience/keyboard-access
+
+[chrome tabbing focus through website](https://www.google.com/search?sxsrf=ALeKk00KVv2k4cUckB7ggFSqpJN3coY8eg%3A1604720976055&ei=UBmmX8LtAqWwytMPk7adoAg&q=chrome+tabbing+focus+through+website&oq=chrome+tabbing+focus+through+website&gs_lcp=CgZwc3ktYWIQAzoECAAQRzoECCMQJ1CyWFiFXWC0XmgAcAJ4AIABjgGIAdcFkgEDMS41mAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab&ved=0ahUKEwjC1fa9w-_sAhUlmHIEHRNbB4QQ4dUDCA0&uact=5)
+https://help.apple.com/voiceover/mac/10.15/#/vo28017
+https://developers.google.com/web/fundamentals/accessibility/focus/using-tabindex
+
+https://www.codecademy.com/articles/how-to-setup-screen-reader
+
+https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn
+
+https://fsw.teamdynamix.com/TDClient/2031/Portal/KB/ArticleDet?ID=73921
+
+https://www.youtube.com/watch?v=NyuuK7tB9fM&index=12&list=PL5aqr5w5fRe7QWzXhqxrilIVduWEmLHM2
+
+https://webaim.org/techniques/keyboard/
+
+https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en
+
+https://www.youtube.com/watch?v=LS9BljDHJe0
