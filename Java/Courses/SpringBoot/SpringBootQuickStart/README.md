@@ -69,6 +69,18 @@ The [Spring Boot Quick Start](https://www.youtube.com/playlist?list=PLqq-6Pq4lTT
 
 ## Resources from the course
 
+---
+## Associated Links
+[Spring Boot Quick Start](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/SpringBootQuickStart) directory in the LearningDirectory GitHub repo.
+
+[Course Website](https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3323790#overview) Last video watched.
+
+Course website Landing Page: [Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/)
+
+
+
+To answer this see the various directory names here: https://github.com/JamieBort/LearningDirectory/tree/master/Java/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles
+
 
 ---
 
