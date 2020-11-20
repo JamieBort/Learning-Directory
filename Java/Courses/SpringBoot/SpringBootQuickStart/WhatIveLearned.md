@@ -64,3 +64,56 @@ I generated one using Visual Studio Code and this [How to create a Spring Boot P
 As a result, I didn't add the dependencies that the instructor did. Or at least not the way he did. But it's still valuable info.
 
 ### Spring Boot Quick Start 9 - Starting a Spring Boot application
+
+### Spring Boot Quick Start 10 - [name to be added later]
+
+### Spring Boot Quick Start 11 - [name to be added later]
+
+### Spring Boot Quick Start 12 - [name to be added later]
+
+### Spring Boot Quick Start 13 - [name to be added later]
+
+### Spring Boot Quick Start 14 - [name to be added later]
+
+### Spring Boot Quick Start 15 - [name to be added later]
+
+### Spring Boot Quick Start 16 - [name to be added later]
+
+### Spring Boot Quick Start 17 - [name to be added later]
+
+### Spring Boot Quick Start 18 - [name to be added later]
+
+### Spring Boot Quick Start 19 - Creating a new resource using POST
+What did I miss at about 9 minutes? there was an error trying to make a post.
+I was able to post. However I needed to have certain header information that wasn't explicitely mentioned in the video.
+
+The below table worked for GET and POST.
+
+|   | Key | Value |
+|---|---|---|
+| [X] | Cache-Contole | no-cache |
+| [X] | Postmane-Token | <calculated when request is sent> |
+| [ ] | Conent-Type | text/plain |
+| [X] | Content-Length | <calculated when request is sent> |
+| [X] | Host | <calculated when request is sent> |
+| [X] | User-Agent | PostmanRuntime/7.26.1 |
+| [X] | Accept | */* |
+| [X] | Accept-Encoding | gzip, deflate, br |
+| [X] | Connection | keep-alive |
+| [X] | Conent-Type  | application/json |
+
+### Spring Boot Quick Start 20 - [name to be added later]
+
+### Spring Boot Quick Start 21 - [name to be added later]
+
+### Spring Boot Quick Start 22 - [name to be added later]
+
+### Spring Boot Quick Start 23 - [name to be added later]
+
+### Spring Boot Quick Start 24 - [name to be added later]
+
+### Spring Boot Quick Start 25 - [name to be added later]
+
+### Spring Boot Quick Start 26 - [name to be added later]
+
+### Spring Boot Quick Start 30 - [name to be added later]
