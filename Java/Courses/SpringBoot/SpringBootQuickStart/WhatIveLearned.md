@@ -30,7 +30,26 @@ Production ready.
 ### Spring Boot Quick Start 6 - Setting Up Development Environment
 Setup the environment with Java 8 SDK.
 `java -version` in Terminal to check that the version is 1.8. For me it's version 13.0.2.
-`echo $JAVA_HOME` in Terminal to check that the home is set. For me it doesn't appear to be.
+`echo $JAVA_HOME` in Terminal to check that the home is set. ~~For me it doesn't appear to be.~~
+NOTE: when I ran `echo $JAVA_HOME` in Terminal nothing was returned.
+Following the instructions here: http://www.sajeconsultants.com/how-to-set-java_home-on-mac-os-x/
+I ran `export JAVA_HOME=/Library/Java/Home`.
+Now when I run `echo $JAVA_HOME` I get `/Library/Java/Home`.
+However when I run `java -version` I get 
+```
+java version "13.0.2" 2020-01-14
+Java(TM) SE Runtime Environment (build 13.0.2+8)
+Java HotSpot(TM) 64-Bit Server VM (build 13.0.2+8, mixed mode, sharing)
+```
+And when I run `/usr/libexec/java_home -V`
+I get
+```
+Matching Java Virtual Machines (2):
+    13.0.2, x86_64:	"Java SE 13.0.2"	/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
+    1.8.0_144, x86_64:	"Java SE 8"	/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home
+
+/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
+```
 
 ### Spring Boot Quick Start 7 - Maven
 Manage dependencies and import jars.
