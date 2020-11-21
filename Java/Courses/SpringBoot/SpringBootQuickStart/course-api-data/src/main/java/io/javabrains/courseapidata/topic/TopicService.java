@@ -3,7 +3,6 @@ package io.javabrains.courseapidata.topic;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -37,22 +36,14 @@ public class TopicService {
         // return topics;
     }
 
-    // // // modified in video 29
-    // public Optional<Topic> getTopic(String id) {
-    //     // in the tutorial it was `return topicRepository.findOne(id);`. 
-    //     // findById() requires the return type to be `Optional<Topic>` rather than `Topic`.
-    //     return topicRepository.findById(id);
-    //     // return topics.stream().filter(t -> t.getId().equals(id)).findFirst().get();
-    // }
-
+    // modified in video 29
     public Topic getTopic(String id) {
+        // in the tutorial it was `return topicRepository.findOne(id);`. 
+        // findOne() is no longer available. It is replaced by findById().
+        // findById() requires the return type to be `Optional<Topic>` rather than `Topic`.
         return topicRepository.findById(id).get();
+        // return topics.stream().filter(t -> t.getId().equals(id)).findFirst().get();
     }
-
-    // public Topic getTopic(String id) {
-    //     // return topicRepository.findById(id).orElse(null);
-    //     return topicRepository.findById(id).orElseGet(Topic::new);
-    // }
 
     // modified in video 29
     public void addTopic(Topic topic) {
