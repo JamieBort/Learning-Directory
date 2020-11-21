@@ -12,7 +12,7 @@ WATCHED THE FIRST 5 MINUTES. DIDN'T SEEM TO COVER SPRING BOOT ENOUGH. [Spring Co
 
 ---
 ### Completed
-[Spring Boot Quick Start](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x) YouTube video. Done. However need to study some more to understand better.
+[Spring Boot Quick Start](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/SpringBootQuickStart) directory in the LearningDirectory GitHub repo. Done. However need to study some more to understand better.
 
 ---
 ### Not Started
