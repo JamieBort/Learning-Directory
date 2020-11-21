@@ -112,15 +112,20 @@ The below table worked for GET and POST.
 
 ## Unit Three - Booting Spring Boot
 ### Spring Boot Quick Start 21 - Unit Overview
+Skipped this video.
 
 ### Spring Boot Quick Start 22 - Using Spring Initializr
+Skipped this video.
 
 ### Spring Boot Quick Start 23 - Using Spring Boot CLI
 `Learn how to run quick Groovy scripts as complete Spring applications, directly from the command line.`
+Skipped this video.
 
 ### Spring Boot Quick Start 24 - Using the STS IDE
+Skipped this video.
 
 ### Spring Boot Quick Start 25 - Using application properties
+Skipped this video.
 
 ## Unit Four - Spring Data JPA: The Data Tier
 ### Spring Boot Quick Start 26 - What is JPA
