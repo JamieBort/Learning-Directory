@@ -4,9 +4,17 @@ This directory houses files for this YouTube course.
 
 ---
 ## Status
-Watched videos 1-19.
+Watched videos 1-23.
 Created the 09SpringBootQuickStart9StartingASpringBootApplication directory but my app name doesn't match the instructors.
-Using the 09SpringBootQuickStart9StartingASpringBootApplication app for videos through 19.
+Using the 09SpringBootQuickStart9StartingASpringBootApplication app for videos through 20.
+
+Stopped coding after Unit 3 started. 
+
+Created the `old/` directory
+Moved `07SpringBootQuickStart8CreatingASpringBootProject` and `09SpringBootQuickStart9StartingASpringBootApplication` directories into the `old/` directory.
+
+Then generated a new project based on the instrutions from `Spring Boot Quick Start 27 - Adding Spring Data JPA`. This will be used to follow the tutorial from the begging.
+
 ~~Tabling to work on coding exercises today.~~
 
 ---
@@ -37,9 +45,13 @@ The [Spring Boot Quick Start](https://www.youtube.com/playlist?list=PLqq-6Pq4lTT
 ## Associated Links
 [Spring Boot Quick Start](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/SpringBootQuickStart) directory in the LearningDirectory GitHub repo.
 
-[Course Website](https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3323790#overview) Last video watched.
+One of the videos from the series: https://www.youtube.com/watch?v=yGeI_WORmco&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=21 YouTube video series.
 
-Course website Landing Page: [Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/)
+Course website: https://www.javabrains.io/courses/springboot-quickstart
+
+~~[Course Website](https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3323790#overview) Last video watched.~~
+
+~~Course website Landing Page: [Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/)~~
 
 
 

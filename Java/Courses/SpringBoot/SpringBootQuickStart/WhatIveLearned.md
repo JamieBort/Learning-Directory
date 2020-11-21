@@ -1,5 +1,6 @@
 # What I've Learned
 
+## Unit One - Introducing Spring Boot
 ### Spring Boot Quick Start 1 - Introduction
 
 ### Spring Boot Quick Start 2 - About The Course
@@ -75,6 +76,7 @@ As a result, I didn't add the dependencies that the instructor did. Or at least 
 
 ### Spring Boot Quick Start 14 - [name to be added later]
 
+## Unit Two - Spring MVC: The View Tier
 ### Spring Boot Quick Start 15 - [name to be added later]
 
 ### Spring Boot Quick Start 16 - [name to be added later]
@@ -92,28 +94,59 @@ The below table worked for GET and POST.
 |   | Key | Value |
 |---|---|---|
 | [X] | Cache-Contole | no-cache |
-| [X] | Postmane-Token | <calculated when request is sent> |
+| [X] | Postmane-Token | `<calculated when request is sent>` |
 | [ ] | Conent-Type | text/plain |
-| [X] | Content-Length | <calculated when request is sent> |
-| [X] | Host | <calculated when request is sent> |
+| [X] | Content-Length | `<calculated when request is sent>` |
+| [X] | Host | `<calculated when request is sent>` |
 | [X] | User-Agent | PostmanRuntime/7.26.1 |
-| [X] | Accept | */* |
+| [X] | Accept | `*/*` |
 | [X] | Accept-Encoding | gzip, deflate, br |
 | [X] | Connection | keep-alive |
 | [X] | Conent-Type  | application/json |
 
-### Spring Boot Quick Start 20 - [name to be added later]
+### Spring Boot Quick Start 20 - Implementing Update and Delete
 
-### Spring Boot Quick Start 21 - [name to be added later]
+## Unit Three - Booting Spring Boot
+### Spring Boot Quick Start 21 - Unit Overview
 
-### Spring Boot Quick Start 22 - [name to be added later]
+### Spring Boot Quick Start 22 - Using Spring Initializr
 
-### Spring Boot Quick Start 23 - [name to be added later]
+### Spring Boot Quick Start 23 - Using Spring Boot CLI
+`Learn how to run quick Groovy scripts as complete Spring applications, directly from the command line.`
 
-### Spring Boot Quick Start 24 - [name to be added later]
+### Spring Boot Quick Start 24 - Using the STS IDE
 
-### Spring Boot Quick Start 25 - [name to be added later]
+### Spring Boot Quick Start 25 - Using application properties
 
-### Spring Boot Quick Start 26 - [name to be added later]
+## Unit Four - Spring Data JPA: The Data Tier
+### Spring Boot Quick Start 26 - What is JPA
+Java Persistence API
+Object Relational Mapping
+Typically SQL, which is a relational database.
+
+
+### Spring Boot Quick Start 27 - Adding Spring Data JPA
+Created a new project. Contrary to the instructions I used the website https://start.spring.io/ and the following options:
+Packaging Jar
+Java 11
+Spring Web, Spring Data JPA, and Apache Database dependencies.
+Group: io.javabrains
+Artifact: course-api-data
+Name: course-api-data
+Description: Course API with data for Spring Boot QuickStart Java Brains course.
+Package name: io.javabrains
+
+### Spring Boot Quick Start 28 - [name to be added later]
+
+### Spring Boot Quick Start 29 - [name to be added later]
 
 ### Spring Boot Quick Start 30 - [name to be added later]
+
+### Spring Boot Quick Start 31 - [name to be added later]
+
+## Unit Five - Deployment and Monitoring
+### Spring Boot Quick Start 32 - [name to be added later]
+
+### Spring Boot Quick Start 33 - [name to be added later]
+
+### Spring Boot Quick Start 34 - [name to be added later]
