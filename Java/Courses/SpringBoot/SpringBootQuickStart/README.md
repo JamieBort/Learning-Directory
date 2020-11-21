@@ -22,9 +22,9 @@ Then generated a new project based on the instrutions from `Spring Boot Quick St
 - [ ] 1. Finish watching the tutorial. Follow along and build the same thing.
 - [ ] 2. Study what has been built.
 - [ ] 3. Build it again.
- - [ ] a. The 07 directory isn't anthing of consequence.
- - [ ] b. The 09 directory can be renamed as something like "first try".
- - [ ] c. The second time I build this it can be renamed something like "final".
+  - [ ] a. The 07 directory isn't anthing of consequence.
+  - [ ] b. The 09 directory can be renamed as something like "first try".
+  - [ ] c. The second time I build this it can be renamed something like "final".
 
 ---
 ## What I have learned

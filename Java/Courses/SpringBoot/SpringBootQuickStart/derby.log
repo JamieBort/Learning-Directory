@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Sat Nov 21 14:59:03 EST 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0175-ec63-7868-00000a638440 
-on database directory memory:/Users/jamiebort/Documents/DevFiles/LearningDirectory/Java/Courses/SpringBoot/SpringBootQuickStart/963fc35a-c4a8-4f8c-8b97-34f8c817a349 with class loader sun.misc.Launcher$AppClassLoader@4e25154f 
+Sat Nov 21 16:05:00 EST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0175-ec9f-da0e-000008ea55a0 
+on database directory memory:/Users/jamiebort/Documents/DevFiles/LearningDirectory/Java/Courses/SpringBoot/SpringBootQuickStart/cd017626-cbbb-4dab-9d70-e3d3efdae251 with class loader sun.misc.Launcher$AppClassLoader@4e25154f 
 Loaded from file:/Users/jamiebort/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_144-b01
