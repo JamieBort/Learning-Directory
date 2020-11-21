@@ -12,9 +12,10 @@ public class CourseService {
     @Autowired
     private CourseRepository courseRepository;
 
-    public List<Course> getAllCourses(String id) { // GET request
+    public List<Course> getAllCourses(String topicId) { // GET request
         List<Course> courses = new ArrayList<>();
-        courseRepository.findAll().forEach(courses::add); // look into method references. free resource mentioned in video
+        courseRepository.findByTopicId(topicId).forEach(courses::add);
+        // courseRepository.findAll().forEach(courses::add); // look into method references. free resource mentioned in video
                                                         // 29 Java 8 Lambda Basics on Java Brains at javabrains.io
         return courses;
     }
