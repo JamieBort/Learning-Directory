@@ -89,6 +89,7 @@ Discusses @Autowired and @Service annotations.
 ### Spring Boot Quick Start 18 - [name to be added later]
 
 ### Spring Boot Quick Start 19 - Creating a new resource using POST
+Introduction of/to PostMan.
 What did I miss at about 9 minutes? there was an error trying to make a post.
 I was able to post. However I needed to have certain header information that wasn't explicitely mentioned in the video.
 
