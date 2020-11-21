@@ -4,7 +4,7 @@ This directory houses files for this YouTube course.
 
 ---
 ## Status
-Watched videos 1-23.
+Watched videos 1-29.
 Created the 09SpringBootQuickStart9StartingASpringBootApplication directory but my app name doesn't match the instructors.
 Using the 09SpringBootQuickStart9StartingASpringBootApplication app for videos through 20.
 

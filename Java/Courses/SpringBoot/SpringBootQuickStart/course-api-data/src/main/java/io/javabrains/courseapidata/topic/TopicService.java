@@ -1,7 +1,6 @@
 package io.javabrains.courseapidata.topic;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,20 +11,6 @@ public class TopicService {
 
     @Autowired
     private TopicRepository topicRepository;
-
-    private List<Topic> topics = new ArrayList<>(
-    Arrays.asList(new Topic("spring", "Spring Framework", "Spring Framework Description"),
-    new Topic("java", "Java Framework", "Java Framework Description"),
-    new Topic("javascript", "JavaScript Framework", "JavaScript Framework Description")));
-
-    // The below is commented out becuase the below is not mutable. When we tried to
-    // update the list we couldn't.
-    // So we used the above because it's mutable.
-    // private List<Topic> topics = Arrays.asList(new Topic("spring", "Spring
-    // Framework", "Spring Framework Description"),
-    // new Topic("java", "Java Framework", "Java Framework Description"),
-    // new Topic("javascript", "JavaScript Framework", "JavaScript Framework
-    // Description"));
 
     // modified in video 29
     public List<Topic> getAllTopics() { // GET request
