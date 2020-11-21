@@ -86,7 +86,7 @@ In Spring, business serves are typically singletons.
 Created TopicService.java file.
 Discusses @Autowired and @Service annotations.
 
-### Spring Boot Quick Start 18 - [name to be added later]
+### Spring Boot Quick Start 18 - Getting a single resource
 
 ### Spring Boot Quick Start 19 - Creating a new resource using POST
 Introduction of/to PostMan.
@@ -135,7 +135,7 @@ Typically SQL, which is a relational database.
 
 
 ### Spring Boot Quick Start 27 - Adding Spring Data JPA
-Created a new project. Contrary to the instructions I used the website https://start.spring.io/ and the following options:
+~~Created a new project. Contrary to the instructions I used the website https://start.spring.io/ and the following options:
 Packaging Jar
 Java 11
 Spring Web, Spring Data JPA, and Apache Database dependencies.
@@ -143,11 +143,17 @@ Group: io.javabrains
 Artifact: course-api-data
 Name: course-api-data
 Description: Course API with data for Spring Boot QuickStart Java Brains course.
-Package name: io.javabrains
+Package name: io.javabrains~~
 
-### Spring Boot Quick Start 28 - [name to be added later]
+### Spring Boot Quick Start 28 - Creating a Spring Data JPA Repository
+We're going to update the TopicService.java file.
+We're going to remove the hardcoded list.
+By making it connect to the data layer - the database.
+Created the TopicRepository.java file.
+Discussion of `CrudRepository`.
 
-### Spring Boot Quick Start 29 - [name to be added later]
+### Spring Boot Quick Start 29 - Making Crud Operations with Repository
+
 
 ### Spring Boot Quick Start 30 - [name to be added later]
 
