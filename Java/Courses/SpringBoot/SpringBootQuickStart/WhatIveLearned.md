@@ -81,7 +81,10 @@ As a result, I didn't add the dependencies that the instructor did. Or at least 
 
 ### Spring Boot Quick Start 16 - [name to be added later]
 
-### Spring Boot Quick Start 17 - [name to be added later]
+### Spring Boot Quick Start 17 - Creating a business service
+In Spring, business serves are typically singletons.
+Created TopicService.java file.
+Discusses @Autowired and @Service annotations.
 
 ### Spring Boot Quick Start 18 - [name to be added later]
 
