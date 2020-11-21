@@ -159,10 +159,11 @@ Connected to an embedded database.
 `Now let's apply our learning to create a set of Course REST APIs.`
 Connect to an external database.
 
-### Spring Boot Quick Start 31 - [name to be added later]
+### Spring Boot Quick Start 31 - Adding Entity Relationship and Extending Repository
 
 ## Unit Five - Deployment and Monitoring
-### Spring Boot Quick Start 32 - [name to be added later]
+### Spring Boot Quick Start 32 - Packaging and running a Spring Boot app
+`Learn how to package and run your Spring Boot application as a JAR file, and also if necessary, as a WAR file.`
 
 ### Spring Boot Quick Start 33 - [name to be added later]
 

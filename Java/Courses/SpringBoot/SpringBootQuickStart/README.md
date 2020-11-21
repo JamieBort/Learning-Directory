@@ -4,27 +4,14 @@ This directory houses files for this YouTube course.
 
 ---
 ## Status
-Watched videos 1-29.
-Created the 09SpringBootQuickStart9StartingASpringBootApplication directory but my app name doesn't match the instructors.
-Using the 09SpringBootQuickStart9StartingASpringBootApplication app for videos through 20.
-
-Stopped coding after Unit 3 started. 
-
-Created the `old/` directory
-Moved `07SpringBootQuickStart8CreatingASpringBootProject` and `09SpringBootQuickStart9StartingASpringBootApplication` directories into the `old/` directory.
-
-Then generated a new project based on the instrutions from `Spring Boot Quick Start 27 - Adding Spring Data JPA`. This will be used to follow the tutorial from the begging.
-
-~~Tabling to work on coding exercises today.~~
+Watched videos 1-31.
+Generated a new project based on the instrutions from `Spring Boot Quick Start 27 - Adding Spring Data JPA`. This will be used to follow the tutorial from the begging.
 
 ---
 ## To Do
-- [ ] 1. Finish watching the tutorial. Follow along and build the same thing.
+- [X] 1. Finish watching the tutorial. Follow along and build the same thing.
 - [ ] 2. Study what has been built.
-- [ ] 3. Build it again.
-  - [ ] a. The 07 directory isn't anthing of consequence.
-  - [ ] b. The 09 directory can be renamed as something like "first try".
-  - [ ] c. The second time I build this it can be renamed something like "final".
+- [ ] 3. Build it again. Maybe.
 
 ---
 ## What I have learned
