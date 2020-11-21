@@ -8,6 +8,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - CourseApiDataApplication",
             "request": "launch",
+            "mainClass": "io.javabrains.courseapidata.CourseApiDataApplication.CourseApiDataApplication",
+            "projectName": "course-api-data"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CourseApiDataApplication",
+            "request": "launch",
             "mainClass": "io.javabrains.courseapidata.CourseApiDataApplication",
             "projectName": "course-api-data"
         },

@@ -153,9 +153,11 @@ Created the TopicRepository.java file.
 Discussion of `CrudRepository`.
 
 ### Spring Boot Quick Start 29 - Making Crud Operations with Repository
+Connected to an embedded database.
 
-
-### Spring Boot Quick Start 30 - [name to be added later]
+### Spring Boot Quick Start 30 - Adding Course APIs
+`Now let's apply our learning to create a set of Course REST APIs.`
+Connect to an external database.
 
 ### Spring Boot Quick Start 31 - [name to be added later]
 
