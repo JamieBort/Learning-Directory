@@ -1,6 +1,6 @@
 # Java Programming Masterclass for Software Developers
 
-This is the course url: https://www.udemy.com/course/java-the-complete-java-developer-course/
+~~This is the course url: https://www.udemy.com/course/java-the-complete-java-developer-course/~~
 
 **This course was started on my work laptop. I had to purge the files however. So some of the exercises may be missing.**
 
@@ -12,19 +12,29 @@ Left off here on this exercise: /Users/jamiebort/Documents/DevFiles/LearningDire
 Course website Landing Page: [Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/)
 
 
-
 To answer this see the various directory names here: https://github.com/JamieBort/LearningDirectory/tree/master/Java/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles
 
+## A description of the directories and files in this directory
+[Coursefiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles) - my working files for this course.
+[SuppliedFiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles) - The original files downloaded.
+[README.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/README.md) - this file.
+[WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned.md) - the markdown file containing a brief summary of what I've learned.
 
 ## Associated Links
+[Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/) Udemy course site.
+
+Emails about this course.
+
 ~~[Spring Boot Quick Start YouTube Course](https://trello.com/c/KUHSH6SS/462-spring-boot-quick-start-youtube-course) Trello card.~~ Incorrect info.
+
+### What I've learned so far
+See the [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned.md) file.
+
 
 
 ### Next Steps
 
 ### Resources
-
-### What I've learned so far
 
 
 
