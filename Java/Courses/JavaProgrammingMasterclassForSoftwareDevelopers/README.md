@@ -1,4 +1,4 @@
-# README Java Programming Masterclass for Software Developers
+# Java Programming Masterclass for Software Developers
 
 This is the course url: https://www.udemy.com/course/java-the-complete-java-developer-course/
 
