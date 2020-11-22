@@ -15,10 +15,10 @@ Course website Landing Page: [Java Programming Masterclass for Software Develope
 To answer this see the various directory names here: https://github.com/JamieBort/LearningDirectory/tree/master/Java/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles
 
 ## A description of the directories and files in this directory
-[Coursefiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles) - my working files for this course.
-[SuppliedFiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles) - The original files downloaded.
-[README.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/README.md) - this file.
-[WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned.md) - the markdown file containing a brief summary of what I've learned.
+* [Coursefiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles) - my working files for this course.
+* [SuppliedFiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles) - The original files downloaded.
+* [README.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/README.md) - this file.
+* [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned.md) - the markdown file containing a brief summary of what I've learned.
 
 ## Associated Links
 [Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/) Udemy course site.
