@@ -15,6 +15,4 @@ Running into issues. The following is the status update from `/LearningDirectory
 ## Associated Links
 The [Heroku](https://trello.com/c/9SRRsEWo/43-heroku) Trello card associated with this GitHub repo directory.
 
-[Heroku]() directory of the LearningDirectory GitHub repo.
-
-~~The [Heroku](https://github.com/JamieBort/LearningDirectory/tree/master/Heroku) associated with these files/with this directory.~~
+[Heroku](https://github.com/JamieBort/LearningDirectory/tree/master/Hosting/Heroku) directory of the LearningDirectory GitHub repo.
