@@ -10,6 +10,11 @@ Running into issues. The following is the status update from `/LearningDirectory
 >2. And the git commands for heroku conflict with the ones for the GitHub repo.
 
 ### Resources
+
+
+## Associated Links
 The [Heroku](https://trello.com/c/9SRRsEWo/43-heroku) Trello card associated with this GitHub repo directory.
 
-The [GitHub repo directory](https://github.com/JamieBort/LearningDirectory/tree/master/Heroku) associated with these files/with this directory.
+[Heroku]() directory of the LearningDirectory GitHub repo.
+
+~~The [Heroku](https://github.com/JamieBort/LearningDirectory/tree/master/Heroku) associated with these files/with this directory.~~
