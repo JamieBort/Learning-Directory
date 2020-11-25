@@ -8,3 +8,5 @@ https://trello.com/c/cut7eOci/581-valuable-info-regarding-postman-and-making-a-p
 [Postman Professional Development](https://trello.com/c/ni15ggqo/239-postman-professional-development) Trello card associated with this directory.
 
 [Postman](https://github.com/JamieBort/LearningDirectory/tree/master/Postman) directory in the GitHub LearningDirectory repo.
+
+[API](https://github.com/JamieBort/LearningDirectory/tree/master/API) directory in the GitHub LearningDirectory repo.
