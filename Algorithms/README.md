@@ -5,6 +5,8 @@ Or to link to those algorithms in the directory of their respective language in 
 ## Algorithms
 1. Binary Search
 2. Merge Sort
+Old location:
+~~See [Algorithms](https://trello.com/c/32EUbWm6/272-algorithms-professional-development#comment-5fdf618df2a6700e75c4604f) in the Activity of the Trello card.~~
 
 ## Associtated Links
 [Algorithms Professional Development](https://trello.com/c/32EUbWm6/272-algorithms-professional-development) Trello card.
@@ -13,7 +15,7 @@ The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algo
 
 ## Resources
 
-**another place/sandbox?** to practice coding:
+~~**another place/sandbox?** to practice coding:~~ Added to proper trello card.
 https://www.geeksforgeeks.org/merge-sort/
 
 https://stackoverflow.com/questions/1933759/when-is-each-sorting-algorithm-used
