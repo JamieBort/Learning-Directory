@@ -25,5 +25,8 @@ https://u.osu.edu/cstutorials/2016/11/21/7-algorithms-and-data-structures-every-
 https://github.com/trekhleb/javascript-algorithms#algorithms (also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures  and https://trello.com/c/XNIpgnjj/685-read-up-on-big-o-notation)
 >Algorithms and data structures implemented in JavaScript with explanations and links to further readings
 
+### Started
+https://trello.com/c/iahXSPAE/697-work-through-the-mergesort-algorithm
+
 ### Not Started
 https://trello.com/c/xYY925Nv/273-courseras-algorithms
