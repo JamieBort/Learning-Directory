@@ -1,5 +1,18 @@
 # Merge Sort
 
+The algorithm (psuedo code):
+1. fuction to divide the array.
+Takes in an array as an argument.
+Divides the array into two arrays of equal length +/- one element.
+Calls the sorting function on each array half. 
+Returns the array sorted.
+2. fuction to sort the array.
+Takes two arguments, the two arrays generated in the divide function above.
+Sorts them.
+Joins them again.
+
+
+## Resources
 Some of the below are are different algorithms. And using different languages Quick Sort, Binary Search, etc.
 
 https://repl.it/@JamieBort/temp#index.js
