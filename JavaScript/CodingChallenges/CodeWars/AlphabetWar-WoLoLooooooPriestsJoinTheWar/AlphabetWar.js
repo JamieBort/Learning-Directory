@@ -1,58 +1,84 @@
-// from: https://www.codewars.com/kata/alphabet-war-wo-lo-loooooo-priests-join-the-war/javascript
+// Test.assertEquals( alphabetWar("z") , "Right side wins!" );
+// Test.assertEquals( alphabetWar("tz") , "Left side wins!" );
+// Test.assertEquals( alphabetWar("jz") , "Right side wins!" );
+// Test.assertEquals( alphabetWar("zt") , "Left side wins!" );
+// Test.assertEquals( alphabetWar("sj") , "Right side wins!" ); 
+// Test.assertEquals( alphabetWar("azt") , "Left side wins!" );
+// Test.assertEquals( alphabetWar("tzj") , "Right side wins!" );
+// Test.assertEquals( alphabetWar("jbdt") , "Let's fight again!" );
+// Test.assertEquals( alphabetWar("wololooooo") , "Left side wins!" );
+// Test.assertEquals( alphabetWar("zdqmwpbs") , "Let's fight again!" );
 
-// Left
-// w - 4
-// p - 3 
-// b - 2
-// s - 1
-// t - 0 (but it's priest with Wo lo loooooooo power)
+// string = "z"; // "Right side wins!"
+// string = "tz"; // "Left side wins!" 
+string = "wololzooooo" // "Left side wins!"
+alphabetWar(string);
+function alphabetWar(fight) {
+    leftTotal = 0; rightTotal = 0;
 
-// Right
-// m - 4
-// q - 3 
-// d - 2
-// z - 1
-// j - 0 (but it's priest with Wo lo loooooooo power)
+    leftPower = {
+        w: 4,
+        p: 3,
+        b: 2,
+        s: 1,
+        t: 0,
+    };
+    rightPower = {
+        m: 4,
+        q: 3,
+        d: 2,
+        z: 1,
+        j: 0,
+    };
 
-function fight(str) {
-    // Initialize variable for left scrore and right score.
-    // Initialize arrays arrays for left and right.
-    // Iterate through the string. Check each character. Tally right scores for the right string.
-    let leftScore = 0;
-    let rightScore = 0;
-    let leftArray = ["t", "s", "b", "p", "w"];
-    let rightArray = ["j", "z", "d", "q", "m"];
+    leftArray = []; rightArray = [];
 
-    let swapArray = [];
-    // Iterate through the string. 
-    // If a character is 't' or 'j', and character+2 is not the opposite, 
-
-
-
-    for (i = 0; i < str.length; i++) {
-        for (j = 0; j < leftArray.length; j++) {
-            // if the character in the string matches a character in the array, change that array to score.
-            if (str[i] === leftArray[j]) {
-                leftScore += j;
-
-            }
-            if (str[i] === rightArray[j]) {
-                rightScore += j;
-
-            }
-        }
+    for (let index = 0; index < fight.length/2; index++) {
+        leftArray.push(fight[index]);
     }
-    if (leftScore > rightScore) {
-        return "Left side wins!";
-    } else if (leftScore < rightScore) {
-        return "Right side wins!";
+    console.log(leftArray);
+
+    for (let index2 = fight.length/2+0.5; index2 < fight.length; index2++) {
+        rightArray.push(fight[index2]);
     }
+    console.log(rightArray);
 
+    // const keys = Object.keys(leftPower);
+    // console.log(keys);
+    // // const values = Object.values(power);
+    // // console.log(values);
+    // if(Object.keys(leftPower)[4]=="t"){
+    //     console.log("yes");
+    // }
+    // console.log(leftPower.t);
 
-
-    return "Let's fight again!";
+    // console.log(fight.length);
+    outcome = "Right side wins!";
+    console.log(outcome);
+    return outcome;
 }
 
-string = "wm";
+// power = {
+//     "4": ["w", "m"],
+//     "3": ["p", "q"],
+//     "2": ["b", "d"],
+//     "1": ["s", "z"],
+//     "0": ["t", "j"],
+// };
 
-console.log(fight(string));
+// power = {
+//     left: {
+//         w: 4,
+//         p: 3,
+//         b: 2,
+//         s: 1,
+//         t: 0,
+//     },
+//     right: {
+//         m: 4,
+//         q: 3,
+//         d: 2,
+//         z: 1,
+//         j: 0,
+//     },
+// };
