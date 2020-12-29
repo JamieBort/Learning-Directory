@@ -1,4 +1,4 @@
-# README React Heroku
+# React Heroku
 
 ### Purpose
 The purpose of this directory is to house all of the React.js apps I plan on using to post to Heroku.
