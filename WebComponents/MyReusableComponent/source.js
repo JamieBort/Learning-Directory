@@ -25,8 +25,5 @@ class Footer extends HTMLElement {
     }
 }
 
-
-
-
 customElements.define('header-web-component', Header);
 customElements.define('footer-web-component', Footer);
