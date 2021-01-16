@@ -32,19 +32,22 @@ Variables
 `#` comments out the line
 
 if function
-#if [ 35 -gt 0 ]
+```#if [ 35 -gt 0 ]
 #then
 #    echo "Greater"
-#fi
+#fi```
 
 Assignment of string to variable
-str="Current date is `date`"
+`str="Current date is `date`"`
 
 Print variable value to console
-echo $str
+`echo $str`
 
 For loop
+```
 for i in 1 2 3
 do
 echo "hello world $i"
 done
+```
+

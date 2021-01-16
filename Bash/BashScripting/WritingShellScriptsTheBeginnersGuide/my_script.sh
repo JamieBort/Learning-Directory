@@ -1,6 +1,4 @@
 #!/bin/bash
-
-
 echo "hello world"
 
 #if [ 35 -gt 0 ]
@@ -22,3 +20,5 @@ for i in 1 2 3
 do
 echo "hello world $i"
 done
+
+echo $PATH
