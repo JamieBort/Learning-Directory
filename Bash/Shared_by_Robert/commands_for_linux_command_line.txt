@@ -1,0 +1,261 @@
+Mkdir: makes a new directory folder
+Touch: makes a new file
+Cd: moves to the prior directory level
+Ls: lists the contents of the directory you're in
+Ls -lah makes it humanly readable with hidden files
+Ls -l makes long list with permissions
+L -a shows hidden files
+
+
+Pwd: present working directory
+
+. => means pwd
+
+Man: manual pages
+
+Rm: remove
+
+Head: when used before a file name, displays first ten lines of the file
+
+Tail: gives you last ten lines by default.
+
+
+-n allows you to specify number of lines to display.
+
+-f appends data as the file grows
+
+Cron tab allows you to schedule stuff
+
+cron
+
+Cp: copies files and directories. By default it will overwrite existing stuff
+
+Mv: moves a file, and changes the name
+
+I asks before overwrite.
+U updates when the source is newer than the destination
+
+. Represents the current directory.
+
+Rmdir: removes existing EMPTY directories. Will not work if the directory you want to remove is not empty.
+
+Rmdir -r forces removal if directory is full but it can make important data disappear if you are not careful.
+
+Use ../ to go up a single directory at a time.
+
+Stderr: standard error, your process writes error information to this file handle
+
+Find: looks from the current directory onwards, not backwards. Best used in the root directory.
+
+Grep is one of the commands that allows for pattern matching in searches. 
+Grep <text pattern/string> <where to search>
+
+Sed: noninteractive text editor, sed options file is the syntax.
+
+Awk: define variables
+Syntax: awk options program file
+Options -F fs to specify a file seperator
+-f file to specify a file that contains awk script
+-v var=value to declare a variable
+
+Cut: sections from lines of text by character, byte, position, delimiter (space). Can be used to pull pertinent info out of text files and display that to you. Syntax: cut -s',' -f | names.cvs
+This is to work with files, not directories.
+
+Sort: sorts contents in a specified order.
+Sort names.csv
+-u removes duplicates.
+-m puts lines in order of month.
+
+Uniq: view all the unique entries in log files
+
+Tr: finds characters and replaces them with other characters
+Tr [OPTION] SET1 [SET2]
+Options:
+-c complements the set of characters in string
+-d delete characters
+-s
+-t
+
+*****DON'T USE THIS
+Tee directs output to screen and file.
+Tee file1.txt
+*****DON'T USE THIS
+
+
+Noclobber variable:
+Prevents overriting an existing file with no warning.
+
+
+
+
+xargs is a command on Unix and most Unix-like operating systems used to build and execute commands from standard input. It converts input from standard input into arguments to a command. Some commands such as grep and awk can take input either as command-line arguments or from the standard input.
+
+Useradd: creates a new user
+-c adds comment
+-e account expiration date (year-month-day)
+-d adds directory path
+
+Usermod: modifies or changes piecces of a existing account
+-c comment
+-e account expiration
+
+Userdel deletes user account
+-r forces delete user's home directory
+
+Lock/unlock user accounts
+
+-l lock
+-u unlock
+
+/etc/skel
+
+Chage -l username
+
+Gpasswd -d <user_name> <group_name>: remove a user from a group
+
+Umask: used to configure default commands
+
+***
+Read is 4
+Write is 2
+Execute is 1
+***
+Chmod ugo+wrx
+
+Chmod 000 file2.txt
+--------- 1 robert robert 33 Sep 21 10:32 file1.txt
+Sudo chmod ugo+rwx file1.txt
+(enter password)
+Ls:
+-rwxrwxrwx 1 robert robert 33 Sep 21 10:33 file1.txt
+:)
+Chown changed owner of a group
+
+Chown new-owner:new-group file1
+Chown new-owner file1
+Chown :new-group file1
+
+If 
+-rw-r--r--. 1 cmason root 0 feb 27 12:15
+, the first dash means it's a file. If it's a d, it's a directory.
+
+What group? Root.
+Who's the owner? Cmason
+What's in the file? Nothing, since it's 0
+What permissions are granted to others? Read only
+Which command would you use to grant the user and group executable permission for file1? Chmod
+
+  sudo chmod g+w exec.sh 
+Sudo Changemode Group plus write
+
+Don't use chmod 777, that's bad practice unless they need them
+
+Always use least permissions
+
+__
+
+711 means 
+user can read,write,execute
+Group can execute
+Others can execute
+
+__
+
+Only grant more permissions as the need arises.
+__
+
+Use alphanumeric chars, dots, and dashes, nothing else.
+__
+
+Ps
+-e every process
+-f is longer list
+
+
+Ps aux --sort -rss displays the processes in order from highest to lowest memory
+
+Ps aux --sort pid sorts by smallest PID to highest PID
+
+Pstree shows a tree diagram of all of the parent and child processes.
+
+Pstree -p shows all of that, plus the PID of each process next to it
+
+Top lists processes by cpu use
+
+Kill command explicitly ends processes, usually when the process fails to quit on its own.
+  if the parent process is killed, USUALLY kills the child processes but not always
+  -9 signal immediately kills without  a graceful exit
+ -15 signal gracefully kills the process
+	You might need to use 9 after 15, but you should try 15 first.
+	Recommended to be in root when you do this
+
+
+Addtl kill commands
+
+SIGHUP value of 1 hangup
+SIGINT value of 2 interrupt from keyboard (ctrl-c)
+SIGKILL value of 9 kill signal
+SIGTERM value of 15 termination signal
+SIGSTOP value of stop the process
+Nice and renice commands:
+ launch process with nice <-value> <cmd> to start at a given priority
+ smallest number, highest priority.
+
+
+____
+
+Jobs are processes started and managed by regular users
+
+Move jobs to foregroud with fg %jobnumber
+Must suspend the job with ctrl+Z first
+Move jobs to background with bg %jobnumber
+
+Schedule tasks with the at and cron commands
+
+At command runs a task once, at a specific time
+   used for one-time tasks like running a backup script today.
+Chron daemon runs a task on a regular basis, at a specific time
+   used for repetitive tasks
+
+
+____
+
+
+Ssh used to securely connect to remote server or system.
+   user_name@host(IP/Hostname_name)
+  ssh user01#computer42
+
+Systemctl <subcommand> <service name>  BE CAREFUL. You can manage services with this. Don't stop a service you're using, and don't disable a service your computer needs.
+
+Lscpu: shows cpu information
+Dmidecode: shows system hardware information
+Lshw: shows detailed hardware information
+Hwinfo: detailed hardware information
+Du -h: file and directory sizes humanly readable
+Df -h: disk size and free space
+Cat /proc/partitions: partitions on the hard drive
+Vmstat: use of virtual memory
+Free: use of physical memory
+Ip addr show
+
+Nice goes from -20 (highest priority) to 19 (lowest priority
+
+Nslookup finds ip address of business or website.
+
+Traceroute <ip address>
+
+Ssh stands for secure shell
+
+Ssh daemon executes commands at command line as though you were in your own computer.
+
+Scp: secure copy. 
+	1.    my_username@remotehost:myfile.txt /home/local/directory
+	2.   scp my_local_file.txt my_username@remotehost:/destination/directory
+
+Yum -y install <package name>
+   -y = assume yes is the answer to any question.
+
+Diff compares files line by line and displays the difference. Is for comparing two files.
+  diff file1.txt file2.txt
+
+Sudo apt install Openssh-server
