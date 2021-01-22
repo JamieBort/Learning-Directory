@@ -4,6 +4,4 @@
 
 https://trello.com/c/NNY3BKH0/711-coding-challenge-with-diana-liubimova
 
-RemoveDuplicatesFromSortedArray
-
 Solved using JavaScript.
