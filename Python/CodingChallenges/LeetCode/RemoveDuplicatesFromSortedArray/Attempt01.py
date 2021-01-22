@@ -1,7 +1,9 @@
-print("Hello world")
+from typing import List
 
-def my_function():
-  print("Hello from a function")
-my_function()
+nums = [1, 2, 3]
 
+def removeDuplicates(nums: List[int]) -> int: # omitted "self" from signature.
 # def removeDuplicates(self, nums: List[int]) -> int:
+  print(nums)
+
+removeDuplicates(nums)
