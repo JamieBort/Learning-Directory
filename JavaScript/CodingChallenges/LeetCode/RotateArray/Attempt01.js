@@ -15,25 +15,3 @@ var rotate = function (nums, k) {
     return nums;
 };
 console.log(rotate(nums, k));
-
-
-
-
-
-
-
-
-
-
-
-
-// var rotate = function (nums, k) {
-//     // console.log(nums);
-//     var newArray = [];
-//     for (let index = 0; index < nums.length; index++) {
-//         newArray.push(nums[(index + k + 1) % nums.length]);
-//         // console.log(newArray);   
-//     }
-//     console.log(newArray);
-//     return (newArray);
-// };
