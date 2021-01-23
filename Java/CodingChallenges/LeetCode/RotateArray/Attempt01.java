@@ -6,18 +6,26 @@ public class Attempt01 {
         // int k = 3;
         // Output: [5,6,7,1,2,3,4]
 
-        // int[] nums = [-1,-100,3,99];
-        // int k = 2;
+        int[] nums = {-1,-100,3,99};
+        int k = 2;
         // Output: [3,99,-1,-100]
 
-        // rotate(nums, k);
+        rotate(nums, k);
         // String[] array = new String[] { "John", "Mary", "Bob" };
         // System.out.println("\n" + Arrays.toString(array));
         // System.out.println(Arrays.toString({5,6,7,1,2,3,4}));
-        System.out.println((0+4)%7);
-        System.out.println((5+4)%7);
-        System.out.println((6+4)%7);
-        System.out.println((7+4)%7);
+
+        // System.out.println((0+4)%7);
+        // System.out.println((1+4)%7);
+        // System.out.println((2+4)%7);
+        // System.out.println((3+4)%7);
+        // System.out.println((4+4)%7);
+        // System.out.println((5+4)%7);
+        // System.out.println((6+4)%7);
+
+        // System.out.println((i+(nums.length-k))%nums.length);
+
+        // System.out.println("\n");
     }
 
     static void rotate(int[] nums, int k) {
@@ -25,7 +33,12 @@ public class Attempt01 {
 
         // Using Two Arrays
         int[] copy = new int[nums.length];
-        // copy[0]=nums[4];
+        for (int i = 0; i < copy.length; i++) {
+            copy[i]=nums[(i+(nums.length-k))%nums.length];
+        }
+        System.out.println("\n" + Arrays.toString(copy));
+
+        // copy[0]=nums[(0+4)%nums.length)];
         // copy[1]=nums[5];
         // copy[2]=nums[6];
         // copy[3]=nums[7];
