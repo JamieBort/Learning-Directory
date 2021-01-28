@@ -25,7 +25,7 @@ public class Attempt02 {
         total += upTo06_10Integer04;
         total += upTo06_10Integer05;
            
-        System.out.println(total);
+        // System.out.println(total);
 
 
 
@@ -42,11 +42,16 @@ public class Attempt02 {
         int upTo01_05Integer05 = Integer.parseInt(upTo01_05Characters05);
 
         total += upTo01_05Integer01;
-        total += upTo01_05Integer02;
-        total += upTo01_05Integer03;
-        total += upTo01_05Integer04;
-        total += upTo01_05Integer05;
+        // total += upTo01_05Integer02;
+        // total += upTo01_05Integer03;
+        // total += upTo01_05Integer04;
+        // total += upTo01_05Integer05;
 
         System.out.println(total);
+
+        System.out.println("================");
+
+        // String first10 = line01.substring(0, Math.min(line01.length(), 10));
+        // System.out.println(first10);
     }
 }
