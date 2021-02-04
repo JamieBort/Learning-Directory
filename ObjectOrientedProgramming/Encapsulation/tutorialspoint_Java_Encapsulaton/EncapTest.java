@@ -1,5 +1,3 @@
-package com.company;
-
 public class EncapTest {
     private int myNumber;
     private String myName;

@@ -1,1 +1,0 @@
-From: https://www.tutorialspoint.com/java/java_encapsulation.htm
