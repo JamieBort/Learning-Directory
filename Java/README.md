@@ -9,6 +9,8 @@ When done, this directory should have ONLY the following directies in it, plus t
 2. `Coding Challenges` and
 3. `Projects`
 
+Note: Added the `Java_Specific_Concepts` directory to work on Packages.
+
 ## Courses
 Udemy courses and the like.
 Tutorials.
@@ -18,3 +20,5 @@ Exercises from sites such as CodeWars.com
 
 ### Projects
 I don't think this should be in here any more. But will leave it for now.
+
+## Java_Specific_Concepts
