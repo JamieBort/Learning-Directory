@@ -27,8 +27,6 @@ Emails about regarding this course:
 
 [Java Programming Masterclass for Software Developers Udemy Course](https://trello.com/c/FXZ4k4PL/459-java-programming-masterclass-for-software-developers-udemy-course) Trello card.
 
-~~[Spring Boot Quick Start YouTube Course](https://trello.com/c/KUHSH6SS/462-spring-boot-quick-start-youtube-course) Trello card.~~ Incorrect info.
-
 ### What I've learned so far
 See the [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned.md) file.
 
