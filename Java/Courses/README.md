@@ -13,4 +13,4 @@ See the [Started](https://github.com/JamieBort/LearningDirectory/tree/master/Jav
 ### Completed
 
 ## Associated Links
-The associated ["Java Professional Development" Trello card](https://trello.com/c/KDy9CqkS/170-java-professional-development).
+The associated [Java Professional Development](https://trello.com/c/KDy9CqkS/170-java-professional-development) Trello card.
