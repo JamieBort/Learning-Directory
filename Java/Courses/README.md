@@ -28,10 +28,8 @@ The associated [Java Professional Development](https://trello.com/c/KDy9CqkS/170
 ## Resources
 https://trello.com/c/VlG021TW/551-read-up-on-spring-and-react-full-stack-developer?menu=filter&filter=label:Work%20Research
 
-https://trello.com/c/WgaOh2r6/573-read-up-on-spring-framework?menu=filter&filter=label:Work%20Research
-
 https://trello.com/c/K71KT31y/608-read-up-on-these-resources
 
-Parker Hawk's GitHub [repo](https://github.com/ParkHawk?tab=repositories) has Java repos for reference. (maybe move this to [this](https://github.com/JamieBort/LearningDirectory/blob/master/Java/README.md) README.md file instead?)
+Parker's GitHub [repo](https://github.com/ParkHawk?tab=repositories) has Java repos for reference. (maybe move this to [this](https://github.com/JamieBort/LearningDirectory/blob/master/Java/README.md) README.md file instead?)
 
-Ben Talor's GitHub [repo](https://github.com/takaides?tab=repositories) has Java repos for reference. (maybe move this to [this](https://github.com/JamieBort/LearningDirectory/blob/master/Java/README.md) README.md file instead?)
+Ben's GitHub [repo](https://github.com/takaides?tab=repositories) has Java repos for reference. (maybe move this to [this](https://github.com/JamieBort/LearningDirectory/blob/master/Java/README.md) README.md file instead?)
