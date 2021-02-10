@@ -27,11 +27,43 @@
 ### 18
 ### 19
 ### 20
+Keywords
+* Access modifiers
+  * public
+* Class
 ### 21
+Main method
+Method declaration
+Parameters
+
+Keywords
+* Access modifiers
+  * staic
+  * void
+  
+Process finished with exit code 0
+Code block
+Statement - It can include one or more expressions and we'll be talking about expressions and a related topic operators later in the course.
 ### 22
+String literal
 ### 23
+Variables
+int
+expressions - "what is after the equals sign". A construct that evaluates to a single value.
 ### 24
 ### 25
+Eight primitive types
+* boolean
+* byte
+* char
+* short
+* int
+* long
+* float
+* double
+
+overflow
+underflow
 ### 26
 ### 27
 ### 28
