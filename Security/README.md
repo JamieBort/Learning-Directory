@@ -19,8 +19,8 @@ Sites with Lists of CyberSecurity Courses
 * [Free Online Cybersecurity Courses](https://www.classcentral.com/subject/cybersecurity) class central.
 * [Cybersecurity Courses](https://www.edx.org/learn/cybersecurity) edX.
 * [Cybersecurity Courses](https://www.coursera.org/courses?query=cybersecurity)
- * [IT Fundamentals for Cybersecurity Specialization](https://www.coursera.org/specializations/it-fundamentals-cybersecurity) Coursera course.
- * [Introduction to Cyber Security Specialization](https://www.coursera.org/specializations/intro-cyber-security) Coursera course.
+  * [IT Fundamentals for Cybersecurity Specialization](https://www.coursera.org/specializations/it-fundamentals-cybersecurity) Coursera course.
+  * [Introduction to Cyber Security Specialization](https://www.coursera.org/specializations/intro-cyber-security) Coursera course.
 
 ## Associated Links
 https://trello.com/c/BA1eLJS4/873-security-professional-development
