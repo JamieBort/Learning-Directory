@@ -52,6 +52,8 @@ int
 expressions - "what is after the equals sign". A construct that evaluates to a single value.
 ### 24
 ### 25
+Data types
+
 Eight primitive types
 * boolean
 * byte
@@ -62,9 +64,14 @@ Eight primitive types
 * float
 * double
 
+Wrapper class
+* int -> Integer
+
 overflow
+
 underflow
 ### 26
+
 ### 27
 ### 28
 ### 29
