@@ -8,6 +8,8 @@ Left off here on this exercise:
 
 **Last video** [watched](https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3323790#overview).
 
+Also, started to review the previous videos so that I could take proper notes. I completed video 26. And took notes in the `WhatIveLearned.md` file.
+
 ## A description of the directories and files in this directory
 * [CourseFiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles) - my working files for this course.
 * [SuppliedFiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles) - The original files downloaded.
