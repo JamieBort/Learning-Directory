@@ -1,4 +1,4 @@
-# README JavaScript
+# JavaScript
 
 This directory houses all the JavaScript courses, projects, and coding challenges I have started and completed.
 
