@@ -2,6 +2,14 @@
 The purpose of this directory is to house the algorithms I am working on.
 Or to link to those algorithms in the directory of their respective language in which I am solving them with.
 
+In case I choose to organize them by language:
+
+* https://github.com/JamieBort/LearningDirectory/tree/master/Java/CodingChallenges
+
+* https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/CodingChallenges
+
+* https://github.com/JamieBort/LearningDirectory/tree/master/Python/CodingChallenges
+
 ## Algorithms
 1. Binary Search
 2. Merge Sort
