@@ -11,3 +11,6 @@ and
 While collaborating with https://trello.com/c/mD2AFgUJ/948-julia-zolotarev-master-card
 
 ~~`attempt_01` is the directory for my first attempt at the tutorial.~~
+
+### Status
+Finished this tutorial.

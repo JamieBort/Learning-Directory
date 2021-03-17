@@ -22,3 +22,6 @@ Exercises from sites such as CodeWars.com
 I don't think this should be in here any more. But will leave it for now.
 
 ~~## Java_Specific_Concepts~~
+
+Some TypeScript resources found here:
+https://trello.com/c/HN0yPqxa/949-pair-programming-with-julia-on-march-10
