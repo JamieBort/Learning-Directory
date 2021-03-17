@@ -1,5 +1,8 @@
+"use strict";
 // URL for the instructions: 
 // https://education.launchcode.org/intro-to-professional-web-dev/chapters/typescript/exercises.html 
+exports.__esModule = true;
+var SpaceLocation_1 = require("./SpaceLocation");
 // Part 1: Declare (5) Variables With Type
 // let spacecraftName: string = 'Determination'; // commented out for Part 4.
 // let speedMph: number = 17500; // commented out for Part 4.
@@ -61,18 +64,19 @@ var Spacecraft = /** @class */ (function () {
         var getDaysToLocation = hoursToLocation / 24;
         return getDaysToLocation;
     };
+    Spacecraft.prototype.printDaysToLocation = function (location) {
+        console.log(this.name + " would take " + this.getDaysToLocation(location.kilometersAway) + " days to get to " + location.name + ".");
+    };
     return Spacecraft;
 }());
 var spaceShuttle = new Spacecraft('Determination', 17500);
 // Move your output statements from part 3 here. Update the template literals use the
 // instance of the class.
-// console.log(`SECOND. The spacecraft name is ${spacecraftName} and it is ${getDaysToLocation(kilometersToMars)} the days to Mars.`) 
-// Use template literals, ${spaceShuttle.getDaysToLocation(kilometersToMars)} and ${spaceShuttle.name}.
-console.log(spaceShuttle.name + " would take " + spaceShuttle.getDaysToLocation(kilometersToMars) + " days to get to Mars.");
-// Use template literals, ${spaceShuttle.getDaysToLocation(kilometersToTheMoon)} and ${spaceShuttle.name}.
-console.log(spaceShuttle.name + " would take " + spaceShuttle.getDaysToLocation(kilometersToTheMoon) + " to get to the moon.");
-// console.log(`THIRD. The spacecraft name is ${spacecraftName} and it is ${getDaysToLocation(kilometersToTheMoon)} the days to the Moon.`)
+// console.log(`${spaceShuttle.name} would take ${spaceShuttle.getDaysToLocation(kilometersToMars)} days to get to Mars.`); // commented out for Part 5
+// console.log(`${spaceShuttle.name} would take ${spaceShuttle.getDaysToLocation(kilometersToTheMoon)} to get to the moon.`); // commented out for Part 5
 // Part 5: Export and Import the SpaceLocation Class
 // Add the required import statement BEFORE the part 1 concent.
 // Add the printDaysToLocation function to the Spacecraft class.
 // Paste in the code from step 6 here:
+spaceShuttle.printDaysToLocation(new SpaceLocation_1.SpaceLocation('Mars', kilometersToMars));
+spaceShuttle.printDaysToLocation(new SpaceLocation_1.SpaceLocation('the Moon', kilometersToTheMoon));
