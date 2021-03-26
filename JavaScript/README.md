@@ -12,3 +12,13 @@ When done, this directory should have ONLY the following directies in it:
 as defined in this [Explanation of files and directories](https://github.com/JamieBort/LearningDirectory#explanation-of-files-and-directories) section; and this readme file.
 
 There are also `Frameworks` and `scratch` directories.
+
+##Courses
+Udemy courses and the like. Tutorials.
+
+## Coding Challenges
+Exercises from sites such as CodeWars.com
+
+## Projects
+
+## JavaScriptSpecificConcepts
