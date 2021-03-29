@@ -12,6 +12,9 @@ Move all of the directories in `JavaScript/CodingChallenges/` into
 2. `JavaScript/CodingChallenges/CodeWars`
 3. etc.
 
+### Status
+Leetcode's [Defue The Bomb](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/CodingChallenges/LeetCode/DefuseTheBomb#status) is amost completed. And it's a quick fix.
+
 ### Associated Links
 NOTE: make sure this section is in the `README Coding Challenges` for other languages, particularly the link to the very same Trello card.
 
