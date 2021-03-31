@@ -1,4 +1,5 @@
-package com.company;
+// package com.company;
+package attempt01.src.com.company.com.company;
 
 public class Main {
 
