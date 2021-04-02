@@ -1,6 +1,9 @@
-from: https://projecteuler.net/problem=6
+# Sum square difference
 
-Sum square difference
+## Status
+Completed.
+
+from: https://projecteuler.net/problem=6
 
 Problem 6
 
@@ -26,4 +29,3 @@ Hence the difference between the sum of the squares of the first ten natural num
 
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
-Completed.
