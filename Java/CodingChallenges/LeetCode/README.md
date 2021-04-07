@@ -4,5 +4,5 @@ For Java Coding Challenges.
 ## Status
 
 * DesignBlackjackGame is just started.
+* RemoveDuplicatesFromSortedArray completed.
 * RotateArray is almost completed.
-* RemoveDuplicatesFromSortedArray about to try again now.
