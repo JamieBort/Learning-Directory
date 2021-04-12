@@ -31,7 +31,7 @@ https://www.geeksforgeeks.org/merge-sort/
 
 * https://stackoverflow.com/questions/1933759/when-is-each-sorting-algorithm-used
 
-* https://u.osu.edu/cstutorials/2016/11/21/7-algorithms-and-data-structures-every-programmer-must-know/
+* [7 algorithms and data structures every programmer must know](https://u.osu.edu/cstutorials/2016/11/21/7-algorithms-and-data-structures-every-programmer-must-know/)
 
 * [Top 25 Algorithms Every Programmer Should Know](https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b) Medium article.
 
@@ -41,6 +41,11 @@ https://www.geeksforgeeks.org/merge-sort/
 
 * Algorithms and data structures implemented in JavaScript with explanations and links to further readings.
 https://github.com/trekhleb/javascript-algorithms#algorithms (also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures  and https://trello.com/c/XNIpgnjj/685-read-up-on-big-o-notation)
+
+* https://visualgo.net/en
+visualising data structures and algorithms through animation
+
+* Google's [Data Structures And Algorithms](https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/) 
 
 ### Started
 https://trello.com/c/iahXSPAE/697-work-through-the-mergesort-algorithm
