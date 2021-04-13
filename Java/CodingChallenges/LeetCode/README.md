@@ -6,3 +6,4 @@ For Java Coding Challenges.
 * DesignBlackjackGame is just started.
 * RemoveDuplicatesFromSortedArray completed.
 * RotateArray is almost completed.
+* two-sum is completed.
