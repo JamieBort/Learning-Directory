@@ -8,6 +8,9 @@ See 'Online Games' from this [Career To-Dos](https://docs.google.com/document/d/
 
 ### To Do
 
+### Status
+~~Currently working on [two-sum](https://github.com/JamieBort/LearningDirectory/tree/master/Java/CodingChallenges/LeetCode/two-sum).~~ Completed.
+
 
 ### Associated Links
 NOTE: make sure this section is in the `README Coding Challenges` for other languages, particularly the link to the very same Trello card.
