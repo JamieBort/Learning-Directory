@@ -1,3 +1,7 @@
+// package CodeWars.CalculateAverage;
+// package CalculateAverage.CodeWars;
+// package CalculateAverage;
+
 public class Attempt01 {
 
     public static void main(String[] args) {
