@@ -3,6 +3,9 @@
 From: https://binarysearch.com/problems/Robinhood
 
 ## Status
+Close. 
+~~Need to first move the checkMethod() inside the solve() method.~~
+That is no longer the case. I can have >1 method inside of class Solution {}
 
 ## Problem Statement
 

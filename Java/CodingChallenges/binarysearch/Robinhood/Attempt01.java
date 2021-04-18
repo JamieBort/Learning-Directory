@@ -1,3 +1,7 @@
+// Close. 
+// ~~Need to first move the checkMethod() inside the solve() method.~~
+// That is no longer the case. I can have >1 method inside of class Solution {}
+
 public class Attempt01 {
     public static void main(String[] args) throws Exception {
         solve(100, 20, 10, 130); // Output/expected: 2
@@ -9,8 +13,6 @@ public class Attempt01 {
         // e = first year/even year/year 0 interest
         // o = second year/odd year/year 1 interest
         // t = target
-
-        
 
         int talley = 0;
         System.out.println("1 talley:" + talley + " n:" + n + " t:" + t);
