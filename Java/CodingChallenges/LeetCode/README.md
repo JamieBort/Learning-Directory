@@ -7,3 +7,4 @@ For Java Coding Challenges.
 * RemoveDuplicatesFromSortedArray completed.
 * RotateArray is almost completed.
 * two-sum is completed.
+* ShortestMajoritySubstring not yet started.
