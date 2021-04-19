@@ -1,5 +1,7 @@
-# JavaScriptSpecificConcepts
+# JavaScript Specific Concepts
 
-Created this to explore variables.
+A directory to house files and directories used to learn these specific concepts.
 
-(There will be more concepts I am sure.)
+~~Created this to explore variables.~~
+
+~~(There will be more concepts I am sure.)~~

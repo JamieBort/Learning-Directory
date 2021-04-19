@@ -11,9 +11,9 @@ When done, this directory should have ONLY the following directies in it:
 
 as defined in this [Explanation of files and directories](https://github.com/JamieBort/LearningDirectory#explanation-of-files-and-directories) section; and this readme file.
 
-There are also `Frameworks` and `scratch` directories.
+There are also `Frameworks`, `JavaScript`, and `scratch` directories.
 
-##Courses
+## Courses
 Udemy courses and the like. Tutorials.
 
 ## Coding Challenges
@@ -21,4 +21,5 @@ Exercises from sites such as CodeWars.com
 
 ## Projects
 
-## JavaScriptSpecificConcepts
+## JavaScript Specific Concepts
+A directory to house files and directories used to learn these specific concepts.
