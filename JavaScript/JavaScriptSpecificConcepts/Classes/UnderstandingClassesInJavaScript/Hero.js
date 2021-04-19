@@ -1,5 +1,5 @@
 // Initializing a class definition
-class Hero {
+export default class Hero {
     constructor(name, level) {
         this.name = name;
         this.level = level;
@@ -13,5 +13,23 @@ class Hero {
     }
 }
 
-let hero = new Hero("Jim", 3);
-hero.greet();
+// // Creating a new class from the parent
+// class Mage extends Hero {
+//     constructor(name, level, spell) {
+//         // Chain constructor with super
+//         super(name, level);
+
+//         // Add a new property
+//         this.spell = spell;
+//     }
+// }
+
+// const hero1 = new Hero('Varg', 1);
+// console.log(hero1);
+
+// const hero2 = new Mage('Lejon', 2, 'Magic Missile');
+// console.log(hero2);
+
+// // let hero = new Hero("Jim", 3);
+// // hero.greet();
+
