@@ -1,15 +1,20 @@
-import java.util.*;
+// import java.util.*;
+import java.util.LinkedList;
 
 public class Main {
 
     public static void main(String args[]) {
-        LinkedList<Integer>ll = new LinkedList<Integer>();
-        ll.add(3);
-        ll.add(2);
-        ll.add(0);
-        ll.add(-4);
+        LinkedList<Integer> head = new LinkedList<Integer>();
+        head.add(3);
+        head.add(2);
+        head.add(0);
+        head.add(-4);
+        head.add(2);
 
-        System.out.println(ll);
+        // System.out.println(ll);
+        Solution solution = new Solution();
+        solution.hasCycle(head);
+        // solution.hasCycle(head);
 
     }
 }

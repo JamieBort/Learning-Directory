@@ -3,7 +3,7 @@
 From: https://leetcode.com/problems/linked-list-cycle/
 
 ## Status
-Not started yet.
+Still Grasping the concept. Not yet sure how to attack this/what is being asked of me, or if I am approaching this correctly.
 
 ## Problem Statement
 Given head, the head of a linked list, determine if the linked list has a cycle in it.
