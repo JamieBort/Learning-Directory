@@ -5,10 +5,15 @@ So that Data Structures can be explored and learned separately.
 
 ## List of Data Structures
 * Arrays
-* Hash Table
+* Graphs
+* Hash Table/Hash Map
 * Linked Lists
+* Maps
 * Objects
-* Stacks
+* Queues (first in, first out)
+* Sets
+* Stacks (first in, last out)
+* Trees
 
 ## Associated Links
 
