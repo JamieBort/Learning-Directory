@@ -24,7 +24,9 @@ The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algo
 
 ## Resources
 
-* Coderbyte's [Learn Algorithms in One Week](https://coderbyte.com/starter-course/algorithms-and-data-structures)
+* Coderbyte's
+ * [Learn Algorithms in One Week](https://coderbyte.com/starter-course/algorithms-and-data-structures)
+ * [Interview Kit: Algorithms](https://coderbyte.com/interview-kit/algorithms)
 
 * ~~**another place/sandbox?** to practice coding:~~ Added to proper trello card.
 https://www.geeksforgeeks.org/merge-sort/
