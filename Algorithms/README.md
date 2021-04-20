@@ -26,7 +26,7 @@ The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algo
 
 * Coderbyte's
   * [Learn Algorithms in One Week](https://coderbyte.com/starter-course/algorithms-and-data-structures)
-  * [Interview Kit: Algorithms](https://coderbyte.com/interview-kit/algorithms)
+  * [Interview Kit: Algorithms](https://coderbyte.com/interview-kit/algorithms) (Started - see: https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/CodingChallenges/coderbyte/InterviewKitAlgorithms)
   * [Interview Kit: Google](https://coderbyte.com/interview-kit/google)
 
 * ~~**another place/sandbox?** to practice coding:~~ Added to proper trello card.
