@@ -22,7 +22,7 @@ https://trello.com/c/4fxf8Eif/220-learn-redux
 * [Understanding Redux: The World’s Easiest Guide to Beginning Redux](https://www.freecodecamp.org/news/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6/)
 * [#1 WTF is Redux? | React Native App | Redux Tutorial](https://www.youtube.com/watch?v=KcC8KZ_Ga2M) YouTube video. 13 minutes. **A great resource.**
 
-###Tutorial
+### Tutorial
 **Building something**
 
 * [Learn Redux
@@ -39,7 +39,7 @@ Learn Redux Course (RDX1)](https://courses.wesbos.com/account/access/6080143675f
 * [An Introduction to Redux's Core Concepts](https://www.digitalocean.com/community/tutorials/redux-redux-intro)
 * [Redux Basics Explained From A Beginner's Perspective](https://dev.to/dylanmesty/redux-basics-explained-from-a-beginner-s-perspective-abm)
 
-###Documentation & Tools
+### Documentation & Tools
 
 * I installed these two Chrome extensions (both were listed in the [Redux documentation](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)):
  * [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd/related?hl=en)
