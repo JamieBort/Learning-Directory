@@ -14,6 +14,7 @@ So that Data Structures can be explored and learned separately.
 * Sets
 * Stacks (first in, last out)
 * Trees
+* Tuples
 
 ## Associated Links
 
