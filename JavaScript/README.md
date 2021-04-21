@@ -23,3 +23,6 @@ Exercises from sites such as CodeWars.com
 
 ## JavaScript Specific Concepts
 A directory to house files and directories used to learn these specific concepts.
+
+## Libraries
+Libraries such as Redux or D3 that I am trying to lear using.
