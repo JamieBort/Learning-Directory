@@ -3,7 +3,7 @@
 Following this tutorial to learn Redux better.
 
 ## Status
-20210422
+20210422 1400
 Picking up here: https://www.valentinog.com/blog/redux/#react-redux-tutorial-connecting-react-with-redux
 I have worked up to this section:
 https://www.valentinog.com/blog/redux/#react-redux-tutorial-what-is-a-redux-middleware
