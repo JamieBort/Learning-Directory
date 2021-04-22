@@ -4,7 +4,7 @@ Following this tutorial to learn Redux better.
 
 ## Status
 I read through up to this section:
-https://www.valentinog.com/blog/redux/#react-redux-tutorial-redux-store-methods
+https://www.valentinog.com/blog/redux/#react-redux-tutorial-connecting-react-with-redux
 
 ## Notes
 Ran `npm i redux --save-dev` in the `react-redux-tutorial` root directory. Which reslted in this Redux dependency
