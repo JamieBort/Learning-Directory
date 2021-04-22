@@ -6,7 +6,7 @@ Following this tutorial to learn Redux better.
 20210422
 Picking up here: https://www.valentinog.com/blog/redux/#react-redux-tutorial-connecting-react-with-redux
 I have worked up to this section:
-https://www.valentinog.com/blog/redux/#react-redux-tutorial-form-component-and-redux-actions
+https://www.valentinog.com/blog/redux/#react-redux-tutorial-what-is-a-redux-middleware
 
 20210421
 I read through up to this section:
