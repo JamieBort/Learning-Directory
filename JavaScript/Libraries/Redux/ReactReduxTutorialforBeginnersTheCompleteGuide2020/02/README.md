@@ -3,6 +3,9 @@
 Following this tutorial to learn Redux better.
 
 ## Status
+20210422
+Picking up here: https://www.valentinog.com/blog/redux/#react-redux-tutorial-connecting-react-with-redux
+
 20210421
 I read through up to this section:
 https://www.valentinog.com/blog/redux/#react-redux-tutorial-connecting-react-with-redux
