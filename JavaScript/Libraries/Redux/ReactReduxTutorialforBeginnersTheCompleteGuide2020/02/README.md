@@ -5,7 +5,7 @@ Following this tutorial to learn Redux better.
 ## Status
 20210422
 Picking up here: https://www.valentinog.com/blog/redux/#react-redux-tutorial-connecting-react-with-redux
-I have worked through this section:
+I have worked up to this section:
 https://www.valentinog.com/blog/redux/#react-redux-tutorial-list-component-and-redux-state
 
 20210421
