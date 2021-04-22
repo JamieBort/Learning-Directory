@@ -4,3 +4,5 @@
 // See src/js/actions/index.js
 
 export const ADD_ARTICLE = "ADD_ARTICLE";
+
+export const REMOVE_ARTICLE = "REMOVE_ARTICLE";

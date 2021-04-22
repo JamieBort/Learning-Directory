@@ -1,8 +1,11 @@
+// src/index.js
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import index from "./js/index"; // Instructed to add this line. But it's never used. ?
 
 ReactDOM.render(
   <React.StrictMode>
