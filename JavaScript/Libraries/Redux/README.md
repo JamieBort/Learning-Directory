@@ -9,6 +9,14 @@ Keeping the Redux code in a single file:
 The above is from the [React Redux tutorial: getting to know Redux actions and named constants](https://www.valentinog.com/blog/redux/#react-redux-tutorial-getting-to-know-redux-actions-and-named-constants) section of `React Redux Tutorial for Beginners: The Complete Guide (2020)`.
 >As you can see we're starting to deal with multiple files. That's the main pet peeve with Redux for most people. You can follow the Redux duck convention if you want, it keeps every Redux related piece in a single file.
 
+## Status
+20210421
+Starting to this https://trello.com/c/5nNobFgd/1097-react-redux-tutorial-for-beginners-the-complete-guide-2020
+
+## Next Steps
+Start this [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867) 30 videos of "lessons".
+
+
 ## Associated Links
 https://trello.com/c/4fxf8Eif/220-learn-redux
 
