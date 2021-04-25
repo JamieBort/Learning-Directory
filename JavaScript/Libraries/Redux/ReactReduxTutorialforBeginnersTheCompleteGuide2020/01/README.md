@@ -6,8 +6,9 @@ In this directory this is the tutorial up through [React Redux tutorial: Redux s
 
 ## Status
 20210421
-I read through up to this section:
-https://www.valentinog.com/blog/redux/#react-redux-tutorial-connecting-react-with-redux
+
+I read up through this [React Redux tutorial: connecting React with Redux](https://www.valentinog.com/blog/redux/#react-redux-tutorial-connecting-react-with-redux) section.
+
 At which point in the `src/js/reducers/index.js` file I created the remove action: `if (action.type === REMOVE_ARTICLE)`. This was not part of the tutorial. I did it to solidify my understanding.
 
 ## Notes
