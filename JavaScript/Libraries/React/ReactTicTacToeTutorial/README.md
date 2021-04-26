@@ -8,6 +8,7 @@ LearningDirectory/JavaScript/Frameworks/React/ReactTicTacToeTutorial/my-app
 ### Status
 20210425
 I just created `attempt02`. Rather than reread what I wrote previously, I think starting fresh will be more productive.
+Reading up on React Classes.
 
 Before 20210425
 `my-app` is my first attempt, attempt01 if you will.
