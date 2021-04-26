@@ -6,6 +6,9 @@ LearningDirectory/JavaScript/Frameworks/React/ReactTicTacToeTutorial/my-app
 
 
 ### Status
+20210426
+For `attempt02`, completed up through the [Declaring A Winner](https://reactjs.org/tutorial/tutorial.html#declaring-a-winner) section.
+
 20210425
 
 I just created `attempt02`. Rather than reread what I wrote previously, I think starting fresh will be more productive.
