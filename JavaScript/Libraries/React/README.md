@@ -6,7 +6,8 @@
 
 `my-app` is done - it was created in preparation for `ReactTicTacToeTutorial`.
 
-`ReactTicTacToeTutorial` is still being worked on.
+`ReactTicTacToeTutorial` is technically done. But there's more work to be done. 
+See the [Next Step](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Libraries/React/ReactTicTacToeTutorial#next-steps) of the `ReactTicTacToeTutorial` directory.
 
 `scratch` is created for practicing what I've learned/am learning from these tutorials.
 
