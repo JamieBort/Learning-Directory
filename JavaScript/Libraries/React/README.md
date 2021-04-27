@@ -1,5 +1,7 @@
 ### Status
 
+`10 React Challenges (Beginner) Courses` has not been started yet.
+
 `BuildYourOwnReact` has not been started yet.
 
 `contacts-manager` was a great tutorial. It introduced `componentDidMount`, API calls, and the concept of adding components for each item that's returned by the api call.
