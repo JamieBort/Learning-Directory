@@ -4,11 +4,10 @@
 10 React Challenges (Beginner) Courses
 
 ## Status
-Not yet started.
-
-* 01 Display Simple Data with JSX
-01DisplaySimpleDataWithJSX
-Not yet started.
+* 01 Display Simple Data with JSX - Completed
+Rather than use the sandbox in the tutorial I created my own environment in `01DisplaySimpleDataWithJSX`.
+* 02LoopOverAndDisplayDataWithJSX
+Not started.
 
 ## Associated Links
 * https://scotch.io/courses/10-react-challenges-beginner
