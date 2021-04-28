@@ -5,7 +5,7 @@ which resulted in this directory:
 LearningDirectory/JavaScript/Frameworks/React/ReactTicTacToeTutorial/my-app
 
 ### Next Steps
-a. Study what was done this morning. From the [Declaring A Winner](https://reactjs.org/tutorial/tutorial.html#declaring-a-winner) section to the end.
+a. Study what was done this morning. From the [Adding Time Travel](https://reactjs.org/tutorial/tutorial.html#adding-time-travel) section to the end.
 
 b. Then, from the [Wrapping Up](https://reactjs.org/tutorial/tutorial.html#wrapping-up) section do the following suggested tasks:
 1. Display the location for each move in the format (col, row) in the move history list.
