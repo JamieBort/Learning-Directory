@@ -6,7 +6,8 @@ Each sub-directory is the name of a coding challenge website.
 
 ~~See 'Online Games' from this [Career To-Dos](https://docs.google.com/document/d/1K-FDmLzGuYkasZpv9A1gTEV396rtWAi1bnCDh2uE7Q0/edit#) Google Drive document for more code challenge website ideas.~~
 
-### To Do
+### Next Steps
+Finish working on: https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial
 
 ### Status
 20210429
