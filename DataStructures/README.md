@@ -4,6 +4,7 @@ This directory is going to be broken down into respective languages.
 So that Data Structures can be explored and learned separately.
 
 ## Table of Data Structures
+The `X` indicates that the language has that data structure.
 |   |Java|JavaScript|   |   |
 |---|---|---|---|---|
 |Arrays|   |   |   |   |
