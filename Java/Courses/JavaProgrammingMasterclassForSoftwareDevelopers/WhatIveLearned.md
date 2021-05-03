@@ -92,46 +92,47 @@ underflow
 
 ## Section 5
 
-## Section 6
+## Section 6 - OOP Part 1 - Classes, Constructors and Inheritance
 
-## Section 7
+## Section 7- OOP Part 2 - Composition, Encapsulation, and Polymorphism
 
-## Section 8
+## Section 8- Arrays, Java inbuilt Lists, Autoboxing and Unboxing
+### 105
 
-## Section 9
+## Section 9 - Inner and Abstract Classes & Interfaces
 
-## Section 10
+## Section 10 - Java Generics
 
-## Section 11
+## Section 11 - Naming Conventions and Packages. static and final keywords
 
-## Section 12
+## Section 12 - Java Collections
 
-## Section 13
+## Section 13 - JavaFX
 
-## Section 14
+## Section 14 - Basic Input & Output including java.util
 
-## Section 15
+## Section 15 - Concurrency in Java
 
-## Section 16
+## Section 16 - Lambda Expressions
 
-## Section 17
+## Section 17- Regular Expressions
 
-## Section 18
+## Section 18 - Debugging and Unit Testing
 
-## Section 19
+## Section 19 - Databases
 
-## Section 20
+## Section 20 - Java Networking Programming
 
-## Section 21
+## Section 21 - Java 9 Module System
 
-## Section 22
+## Section 22 - Migrating Java Projects to Java 9
 
-## Section 23
+## Section 23 - Course Remaster in Progress
 
-## Section 24
+## Section 24 - Archived Videos
 ### 397
 ### 398
 
-## Section 25
+## Section 25 - Extra Information - Source code, and other stuff
 ### 399
 ### 400
