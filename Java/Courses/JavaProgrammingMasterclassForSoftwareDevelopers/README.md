@@ -3,7 +3,7 @@
 **This course was started on my work laptop. I had to purge the files however. So some of the exercises may be missing.**
 
 ## Next Steps
-1. Go back and work on the challenges that I have **not completed**. And then the ones that I have **not stareted**.
+1. Go back and work on the challenges that I have **not completed**. And then the ones that I have **not started**.
 2. Start looking into the implementation of the database in this course - can I start working on it? Or do I need to follow the course sequentially?
 3. Continue to take notes on the videos.
 
