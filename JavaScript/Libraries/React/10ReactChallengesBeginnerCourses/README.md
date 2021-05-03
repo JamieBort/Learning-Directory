@@ -6,9 +6,10 @@
 * 01 Display Simple Data with JSX - Completed
 Rather than use the sandbox in the tutorial I created my own environment in `01DisplaySimpleDataWithJSX`.
 * 02LoopOverAndDisplayDataWithJSX
-20210503
 Completed the task. Styling is terrible. Code isn't cleaned up.
-* 03_____
+* 03UseReactStateToUpdateTheDOM
+The files have been set up (in attempt01).
+But haven't started anything yet.
 
 ## Associated Links
 * The tutorial I am following for this: https://scotch.io/courses/10-react-challenges-beginner
