@@ -202,24 +202,24 @@ Database - container
 Sqlite stores the entire database in a single file.
 Not true of most other database systems.
 * Database dictionary
- * comprehensive list of the structure and types of data in teh database
- * Describes the tables and columns.
+  * comprehensive list of the structure and types of data in teh database
+  * Describes the tables and columns.
 * Table
- * collection of related data in a database.
+  * collection of related data in a database.
 * Field
- * Basic unit of data in a datatable. 
- * Thought of similarly to a variable
- * Has a name and a type.
- * Field type called BLOBS (Binary Large OBject)
- * Columns in Database
+  * Basic unit of data in a datatable. 
+  * Thought of similarly to a variable
+  * Has a name and a type.
+  * Field type called BLOBS (Binary Large OBject)
+  * Columns in Database
 * Record
- * Single set of data for all fields in that table.
- * A row of data across all of the fiels in that table.
+  * Single set of data for all fields in that table.
+  * A row of data across all of the fiels in that table.
 
 * Flat file database
- * Stores all data in a single file.
- * SQLite is an example of this.
- * Can result in a lot of duplication of data.
+  * Stores all data in a single file.
+  * SQLite is an example of this.
+  * Can result in a lot of duplication of data.
 * Database Normalization
 * View
 SQLite cannot update data in a view.
@@ -241,14 +241,62 @@ Connected to a transient in-memory database.
 Use ".open FILENAME" to reopen on a persistent database.
 sqlite> 
 ```
-`.quit` to quit out of the program.
+This opens up the command line for SQLite.
+
+`.quit` to quit out of the command line program.
 
 ### 329
 Installing SQLite on Linux - didn't watch this video.
 ### 330 - Introduction to SQLite
+Create database: `sqlite3 <database name>`
+Help Man Pages: `.help`
+`sqlite3 test.db` to open up the database in the command line interface.
+`.databases` lists the databases
+`.headers on` when in a database will display the headers when the `SELECT` command is executed.
+`create table contacts(name text, phone integer, email text);` creates a table called `contacts` with `name`, `phone`, and `email` as headers.
+`.tables ?TABLE?` didn't do anything for me
+`.tables` Lists all the tables in the database. This was the output:
+`contacts`
+`INSERT INTO contacts( name, phone, email) values('Tim', 6545678, 'tim@email.com');` added those values to the `contacts` table.
+`SELECT * FROM contacts;` displayed the entire contents of the `contacts` table.
+`SELECT email FROM contacts;`  displayed the each email from the `contacts` table.
+`INSERT INTO contacts values("Brian", 1234, "brian@email.com");` added those values to the `contacts` table.
+`INSERT INTO contacts( name, phone) values('Steve', 87654);` added those values to the `name` and `phone` columns of the `contacts` table.
 
+### 331 - More with SQLite
+`.quit` closes the sqlite command line.
+`sqlite3 test.db` opens the `test` database in the sqlite comman line.
+`SELECT * FROM contacts;`
+`INSERT INTO contacts values("Avril", "+61 (0) 87654321", "avril@email.com.au");`
+`.backup testbackup` **Note:** dot/period first or semicolen last. Not both. SQL statements require a semicolon. SQLite commands require a dot/period.
+`.backup testbackup.db` didn't need to run this.
+`UPDATE contacts SET email="steve@hisemail.com";` intentionally ran a command that we did not want to run.
+`SELECT * FROM contacts;` verified that we ran a command that we shouldn't have run.
+`.restore testbackup` restored the database at this step.
+`SELECT * FROM contacts;` verified that the database was restored correctly.
+`UPDATE contacts SET email="steve@hisemail.com" WHERE name = "Steve";` 
+`DELETE FROM contacts WHERE phone = 1234;`
+`SELECT * FROM contacts;` verified that the row(s) that have `1234` as an `email` was deleted correctly.
+`.schema` lists the command used to create the tables in that database. This was the output:
+`CREATE TABLE contacts(name text, phone integer, email text);`
+`.schema <table name>` lists the command used to create that table. 
+`.dump` Will talk about more later. Output:
+```
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE contacts(name text, phone integer, email text);
+INSERT INTO "contacts" VALUES('Tim',6545678,'tim@email.com');
+INSERT INTO "contacts" VALUES('Steve',87654,'steve@hisemail.com');
+INSERT INTO "contacts" VALUES('Avril','+61 (0) 87654321','avril@email.com.au');
+COMMIT;
+```
+`.exit`
 
+### 332 - Querying Data with SQL
 
+### 333 - SQL Order by and Joins
+
+### 334 - More complex Joins
 
 ## Section 20 - Java Networking Programming
 
