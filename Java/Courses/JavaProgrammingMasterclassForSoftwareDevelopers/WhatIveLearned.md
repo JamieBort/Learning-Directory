@@ -90,17 +90,27 @@ Challenge - not done yet. I'm getting a negative number.
 ### 40
 ### 41
 
-## Section 4
-### 49
-Challenge - not started. 
+## Section 4 - Java Tutorial: Expressions, Statements, Code blocks, Methods and more
+### 49 - More on Methods and a Challenge
+Challenge - started. 
+Nothing I don't already know. 
 ### 50
 Challenge - not started. 
+Nothing I don't already know. 
+### 51
+### 52
+### 53
+### 54
 ### 55
-Coding Exercise Example Part 1 - not started. 
+Coding Exercise Example Part 1 - not started.
+Nothing I don't already know.  
 ### 56
 Coding Exercise Example Part 2 - not started. 
+Nothing I don't already know. 
 ### 57
 Coding Exercise Example Part 3 - not started. 
+Nothing I don't already know. 
+**This video shows how to share solution with instructor and other students.**
 ### Coding Exercise 1
 Not Started.
 ### Coding Exercise 2
@@ -119,7 +129,7 @@ Not Started.
 ### 59
 ### 60
 Challenge not started yet.
-### 61
+### 61 Bonus Challenge Solution
 ### Coding Exercise 8
 Not Started.
 ### Coding Exercise 9
@@ -138,8 +148,32 @@ Not Started.
 ## Section 7- OOP Part 2 - Composition, Encapsulation, and Polymorphism
 
 ## Section 8- Arrays, Java inbuilt Lists, Autoboxing and Unboxing
+### 99 Arrays
+Introduces `new Scanner(System.in)` method.
+### 100 Arrays (Challenge Exercise)
+Not Started.
+### Coding Exercise 41: Sorted Array
+Not Started.
+### 103
+Not Started.
+### Coding Exercise 42: 
+Not Started.
+### 104
+Not Started.
+### Coding Exercise 43: 
+Not Started.
 ### 105
-
+### 108
+Not Started.
+### 109
+Not Started.
+### 110
+Not Started.
+### 111
+Not Started.
+### Coding Exercise 44: 
+Not Started.
+### 116 Linked Lists Part 1
 ## Section 9 - Inner and Abstract Classes & Interfaces
 
 ## Section 10 - Java Generics
@@ -161,6 +195,8 @@ Not Started.
 ## Section 18 - Debugging and Unit Testing
 
 ## Section 19 - Databases
+### 325
+Installing SQLite
 
 ## Section 20 - Java Networking Programming
 
