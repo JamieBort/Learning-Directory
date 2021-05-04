@@ -292,11 +292,13 @@ COMMIT;
 ```
 `.exit`
 
-### 332 - Querying Data with SQL
-
+### 332 - 332. Querying Data With SQL
+See [this README](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL) file for what I have done for this video.
 ### 333 - SQL Order by and Joins
 
 ### 334 - More complex Joins
+### 338 - Creating Databases with JDBC in Java
+338CreatingDatabasesWithJDBCInJava
 
 ## Section 20 - Java Networking Programming
 
