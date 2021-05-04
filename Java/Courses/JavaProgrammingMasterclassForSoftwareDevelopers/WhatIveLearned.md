@@ -195,8 +195,60 @@ Not Started.
 ## Section 18 - Debugging and Unit Testing
 
 ## Section 19 - Databases
-### 325
-Installing SQLite
+### 325 - Section Introduction
+Overview of what to expect in this section.
+### 326 - Database Terminology
+Database - container
+Sqlite stores the entire database in a single file.
+Not true of most other database systems.
+* Database dictionary
+ * comprehensive list of the structure and types of data in teh database
+ * Describes the tables and columns.
+* Table
+ * collection of related data in a database.
+* Field
+ * Basic unit of data in a datatable. 
+ * Thought of similarly to a variable
+ * Has a name and a type.
+ * Field type called BLOBS (Binary Large OBject)
+ * Columns in Database
+* Record
+ * Single set of data for all fields in that table.
+ * A row of data across all of the fiels in that table.
+
+* Flat file database
+ * Stores all data in a single file.
+ * SQLite is an example of this.
+ * Can result in a lot of duplication of data.
+* Database Normalization
+* View
+SQLite cannot update data in a view.
+
+### 327
+Installing SQLite on Windows - didn't watch this video.
+### 328
+Installing SQLite on Macs
+SQLite command line shell is already installed on a Mac.
+So nothing extra needed to do to start using it.
+To start using it:
+Open up Terminal.
+At the command prompt type `sqlite3`:
+```
+jamiebort@My-MacBook-Pro-3:~$ sqlite3
+SQLite version 3.13.0 2016-05-18 10:57:30
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> 
+```
+`.quit` to quit out of the program.
+
+### 329
+Installing SQLite on Linux - didn't watch this video.
+### 330 - Introduction to SQLite
+
+
+
 
 ## Section 20 - Java Networking Programming
 
