@@ -46,6 +46,7 @@ Code block
 Statement - It can include one or more expressions and we'll be talking about expressions and a related topic operators later in the course.
 ### 22
 String literal
+Challenge. Too simple to complete.
 ### 23
 Variables
 int
@@ -74,6 +75,7 @@ underflow
 
 ### 27
 ### 28
+Challenge - not done yet. I'm getting a negative number.
 ### 29
 ### 30
 ### 31
@@ -89,6 +91,45 @@ underflow
 ### 41
 
 ## Section 4
+### 49
+Challenge - not started. 
+### 50
+Challenge - not started. 
+### 55
+Coding Exercise Example Part 1 - not started. 
+### 56
+Coding Exercise Example Part 2 - not started. 
+### 57
+Coding Exercise Example Part 3 - not started. 
+### Coding Exercise 1
+Not Started.
+### Coding Exercise 2
+Not Started.
+### Coding Exercise 3
+Not Started.
+### Coding Exercise 4
+Not Started.
+### Coding Exercise 5
+Not Started.
+### Coding Exercise 6
+Not Started.
+### Coding Exercise 7
+Not Started.
+### 58
+### 59
+### 60
+Challenge not started yet.
+### 61
+### Coding Exercise 8
+Not Started.
+### Coding Exercise 9
+Not Started.
+### Coding Exercise 10
+Not Started.
+### Coding Exercise 11
+Not Started.
+
+
 
 ## Section 5
 
