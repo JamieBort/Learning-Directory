@@ -1,10 +1,18 @@
 public class Primitive_Types_Challenge_28 {
 
-    public static void primative_types_challenge() {
-        byte aByte = 126;
-        short aShort = 32766;
-        int aInt = 2147483646;
-        long aLong = 50000L + (10L * (aByte + aShort + aInt));
-        System.out.println("aLong: " + aLong);
+    static void primative_types_challenge(byte byteParameter,short shortParameter, int intParameter) {
+        long result = (10L * (byteParameter + shortParameter + intParameter));
+        System.out.println("result with three parameters: " + result);
     }
+
+    static void primative_types_challenge(byte byteParameter,short shortParameter, int intParameter, long longParameter) {
+        long result = longParameter + (10L * (byteParameter + shortParameter + intParameter));
+        System.out.println("longParameter: " + longParameter);
+        System.out.println("byteParameter: " + byteParameter);
+        System.out.println("shortParameter: " + shortParameter);
+        System.out.println("intParameter: " + intParameter);
+        // long longParameter = 50000L + (10L * (byteParameter + shortParameter + intParameter));
+        System.out.println("result with four parameters: " + result);
+    }
+
 }
