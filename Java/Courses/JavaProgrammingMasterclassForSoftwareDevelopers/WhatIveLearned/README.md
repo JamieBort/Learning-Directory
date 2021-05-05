@@ -5,16 +5,12 @@
 <!-- used this to populate the video titles https://docs.google.com/spreadsheets/d/1T5__se_ChZxoXZvkZaOl9QkjPdeYXxXMbDBR9tFP__k/edit#gid=656806513 -->
 
 ## [Section 1 - Course Introduction](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section01CourseIntroduction.md)
-
-~~### 1 - Introduction to the Course
 ### 2 - Remaster in Progress
 ### 3 - Video Quality
 ### 4 - Subtitles
 ### 5 - How to get help
-### 6 - Important Tip - Source Code~~
-
-## Section 2 - Software Tools Setup
-~~### 7
+### 6 - Important Tip - Source Code
+## [Section 2 - Software Tools Setup](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section02SoftwareToolsSetup.md)
 ### 8
 ### 9
 ### 10
@@ -25,61 +21,18 @@
 ### 15
 ### 16
 ### 17
-### 18~~
-
-## Section 3 - First Steps
-~~Section03FirstSteps
+### 18
+## [Section 3 - First Steps](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section03FirstSteps.md)
 ### 19
 ### 20
-Keywords
-* Access modifiers
-  * public
-* Class
 ### 21
-Main method
-Method declaration
-Parameters
-
-Keywords
-* Access modifiers
-  * staic
-  * void
-  
-Process finished with exit code 0
-Code block
-Statement - It can include one or more expressions and we'll be talking about expressions and a related topic operators later in the course.
 ### 22
-String literal
-Challenge. Too simple to complete.
 ### 23
-Variables
-int
-expressions - "what is after the equals sign". A construct that evaluates to a single value.
 ### 24
 ### 25
-Data types
-
-Eight primitive types
-* boolean
-* byte
-* char
-* short
-* int
-* long
-* float
-* double
-
-Wrapper class
-* int -> Integer
-
-overflow
-
-underflow
 ### 26
-
 ### 27
 ### 28
-Challenge - not done yet. I'm getting a negative number.
 ### 29
 ### 30
 ### 31
@@ -93,196 +46,71 @@ Challenge - not done yet. I'm getting a negative number.
 ### 39
 ### 40
 ### 41
-### 42~~
-
-## Section 4 - Java Tutorial: Expressions, Statements, Code blocks, Methods and more
-
-~~Section04JavaTutorialExpressionsStatementsCodeBlocksMethodsAndMore
+### 42
+## [Section 4 - Java Tutorial: Expressions, Statements, Code blocks, Methods and more](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section04JavaTutorialExpressionsStatementsCodeBlocksMethodsAndMore.md)
 ### 49 - More on Methods and a Challenge
-Challenge - started. 
-Nothing I don't already know. 
 ### 50
-Challenge - not started. 
-Nothing I don't already know. 
 ### 51
 ### 52
 ### 53
 ### 54
 ### 55
-Coding Exercise Example Part 1 - not started.
-Nothing I don't already know.  
 ### 56
-Coding Exercise Example Part 2 - not started. 
-Nothing I don't already know. 
 ### 57
-Coding Exercise Example Part 3 - not started. 
-Nothing I don't already know. 
-**This video shows how to share solution with instructor and other students.**
 ### Coding Exercise 1
-Not Started.
 ### Coding Exercise 2
-Not Started.
 ### Coding Exercise 3
-Not Started.
 ### Coding Exercise 4
-Not Started.
 ### Coding Exercise 5
-Not Started.
 ### Coding Exercise 6
-Not Started.
 ### Coding Exercise 7
-Not Started.
 ### 58
 ### 59
 ### 60
-Challenge not started yet.
 ### 61 Bonus Challenge Solution
 ### Coding Exercise 8
-Not Started.
 ### Coding Exercise 9
-Not Started.
 ### Coding Exercise 10
-Not Started.
 ### Coding Exercise 11
-Not Started.~~
-
-
-
-## Section 5 - Control Flow Statements
-~~Section05ControlFlowStatements~~
-
-## Section 6 - OOP Part 1 - Classes, Constructors and Inheritance
-
-~~Section06OOPPart1ClassesConstructorsAndInheritance
-
+## [Section 5 - Control Flow Statements](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section05ControlFlowStatements.md)
+## [Section 6 - OOP Part 1 - Classes, Constructors and Inheritance](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section06OOPPart1ClassesConstructorsAndInheritance.md)
 ### 76 - Introduction
-Nothing to make note of.
 ### 77 - Classes Part 1
-* State
- * Stored in Fields (variables)
-* Behavior - action items (verbs)
- * methods
-
-* Class is a template for creating objects
-
-* access modifyer
- * public - unrestricted access to the class
- * private - no other class can access this class
- * protected - only classes in this package can access this class
- * no access modifyer
- * discussed more in future videos
-
-* encapsulation
- * hide fields and methods from other classes
-
 ### 78 - Classes Part 2
-Continuation of the previous video.
-`Set` and `get` methods
-`this` to refer to a field in a class.
-`null pointer exception` - defined a type but hasn't been initialized.
-Encapsulation involves `private access modifiers`, `getters`, and `setters`.
-
 ### Coding Exercise 29: Sum Calculator
 ### Coding Exercise 30: Person
 ### 79 - Constructors - Part 1 (+Challenge Exercise)
-* **Didn't do challenge yet.** It is at the very beginning of the video. First 11 minutes.
-* Constructors
- * can be overloaded
- * call one constructor from another constructor. See 17:00 min. in on the video.
- * default values can be defined in one constructor by calling the non-empty constructor. See 17:00 min. in on the video.
- 
 ### 80 - Constructors - Part 2 (+Challenge Exercise)
-* Coninuation of previous video.
-* **Didn't do challenge yet.** Starts at 5:30 minutes into the video.
-
 ### Coding Exercise 31: 
-
 ### Coding Exercise 32: 
-Not Started.
-
 ### Coding Exercise 33: 
-Not Started.
-
 ### Coding Exercise 34: 
-Not Started.
-
 ### 81 - Inheritance Part 1
-Child classes inherate fields and methods from parent classes
-Example Animal class is a partent class to Dog class and Cat class
-```public class <child class> extends <parent class>{
-  public <child class>(<parameters for this constructor>){
-    super(<the parameters found in the parent class>)
-  }
-  
-}
-```
-
-Inheritance synonomous with `super`, `child class`, and ` parent class`.
-
-`super` calls constructor from parent class
-
-Good review. Nothing new. Need to put it into practice now.
-
-Introduction to overriding methods.
-
-`@Override` keyword indicating that the method is overriding one that is in the parent class.
-
 ### 82 - Inheritance Part 2
-* Coninuation of previous video.
-
 ### 83 - Reference vs Object vs Instance vs Class
-
 ### 84 - this vs super
-
 ### 85 - Method Overloading vs Overriding Recap
-
 ### 86 - Static vs Instance Methods
-
 ### 87 - Static vs Instance Variables
-
 ### 88
-Not Started.
-
 ### 89
-Not Started.
-
 ### Coding Exercise 35:
-
 ### Coding Exercise 36:  ~~
-
-## Section 7- OOP Part 2 - Composition, Encapsulation, and Polymorphism
-
-~~Section07OOPPart2CompositionEncapsulationAndPolymorphism~~
-
-## Section 8 - Arrays, Java inbuilt Lists, Autoboxing and Unboxing
-
-Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing
-
+## [Section 7- OOP Part 2 - Composition, Encapsulation, and Polymorphism](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section07OOPPart2CompositionEncapsulationAndPolymorphism.md)
+## [Section 8 - Arrays, Java inbuilt Lists, Autoboxing and Unboxing](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing.md)
 ### 99 Arrays
-Introduces `new Scanner(System.in)` method.
 ### 100 Arrays (Challenge Exercise)
-Not Started.
 ### Coding Exercise 41: Sorted Array
-Not Started.
 ### 103
-Not Started.
 ### Coding Exercise 42: 
-Not Started.
 ### 104
-Not Started.
 ### Coding Exercise 43: 
-Not Started.
 ### 105
 ### 108
-Not Started.
 ### 109
-Not Started.
 ### 110
-Not Started.
 ### 111
-Not Started.
 ### Coding Exercise 44: 
-Not Started.
 ### 116 Linked Lists Part 1
 ## Section 9 - Inner and Abstract Classes & Interfaces
 
