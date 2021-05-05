@@ -3,12 +3,12 @@
 <!-- used this to populate the video titles https://docs.google.com/spreadsheets/d/1T5__se_ChZxoXZvkZaOl9QkjPdeYXxXMbDBR9tFP__k/edit#gid=656806513 -->
 
 ## Section 1
-### 1
-### 2
-### 3
-### 4
-### 5
-### 6
+### 1 - Introduction to the Course
+### 2 - Remaster in Progress
+### 3 - Video Quality
+### 4 - Subtitles
+### 5 - How to get help
+### 6 - Important Tip - Source Code
 
 ## Section 2
 ### 7
@@ -22,9 +22,10 @@
 ### 15
 ### 16
 ### 17
+### 18
 
 ## Section 3
-### 18
+
 ### 19
 ### 20
 Keywords
@@ -89,6 +90,7 @@ Challenge - not done yet. I'm getting a negative number.
 ### 39
 ### 40
 ### 41
+### 42
 
 ## Section 4 - Java Tutorial: Expressions, Statements, Code blocks, Methods and more
 ### 49 - More on Methods and a Challenge
@@ -144,7 +146,60 @@ Not Started.
 ## Section 5
 
 ## Section 6 - OOP Part 1 - Classes, Constructors and Inheritance
+### 76 - Introduction
+Nothing to make note of.
+### 77 - Classes Part 1
+* State
+ * Stored in Fields (variables)
+* Behavior - action items (verbs)
+ * methods
 
+* Class is a template for creating objects
+
+* access modifyer
+ * public - unrestricted access to the class
+ * private - no other class can access this class
+ * protected - only classes in this package can access this class
+ * no access modifyer
+ * discussed more in future videos
+
+* encapsulation
+ * hide fields and methods from other classes
+
+### 78 - Classes Part 2
+Continuation of the previous video.
+`Set` and `get` methods
+`this` to refer to a field in a class.
+`null pointer exception` - defined a type but hasn't been initialized.
+Encapsulation involves `private access modifiers`, `getters`, and `setters`.
+
+### Coding Exercise 29: Sum Calculator
+### Coding Exercise 30: Person
+### 79 - Constructors - Part 1 (+Challenge Exercise)
+* **Didn't do challenge yet.** It is at the very beginning of the video. First 11 minutes.
+* Constructors
+ * can be overloaded
+ * call one constructor from another constructor. See 17:00 min. in on the video.
+ * default values can be defined in one constructor by calling the non-empty constructor. See 17:00 min. in on the video.
+ 
+### 80 - Constructors - Part 2 (+Challenge Exercise)
+* **Didn't do challenge yet.** 
+
+### Coding Exercise 31: 
+### Coding Exercise 32: 
+### Coding Exercise 33: 
+### Coding Exercise 34: 
+### 81 - Inheritance Part 1
+### 82 - Inheritance Part 2
+### 83
+### 84
+### 85
+### 86
+### 87
+### 88
+### 89
+### Coding Exercise 35:
+### Coding Exercise 36:  
 ## Section 7- OOP Part 2 - Composition, Encapsulation, and Polymorphism
 
 ## Section 8- Arrays, Java inbuilt Lists, Autoboxing and Unboxing
@@ -190,7 +245,9 @@ Not Started.
 
 ## Section 16 - Lambda Expressions
 
-## Section 17- Regular Expressions
+## Section 17 - Regular Expressions
+### 306 - Regular Expressions Introduction
+
 
 ## Section 18 - Debugging and Unit Testing
 
@@ -299,10 +356,27 @@ Other things of note:
 `ID column` and `_id` mentioned here.
 
 ### 333 - SQL Order by and Joins
-Copied the contents of [this directory](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL) into [new new directory]().
+**Revisit this video at 3:45 to complete the challenges - there are at least 2.**
 
+Also, **I didn't take notes nor watch after 3:45.** 
+
+Copied the contents of [this directory](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL) into [new new directory](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/333SQLOrderByAndJoins).
+
+`SELECT * FROM albums ORDER BY name;` displays alphabetically.
+`SELECT * FROM albums ORDER BY name COLLATE NOCASE;` displays alphabetically & ignorse case.
+`SELECT * FROM albums ORDER BY name COLLATE NOCASE DESC;` displays alphabetically & ignorse case & reverse order.
+`SELECT * FROM albums ORDER BY artist, name COLLATE NOCASE;`
 
 ### 334 - More complex Joins
+
+### 335 - Wildcards Queries and Views
+
+### 337 - JDBC and SQLite GUI Browser
+Java Database Connectivity
+We need a SQLite JDBC driver in order to access a SQLite database.
+The driver is a Java Library containing classes that implement the JDBC API.
+
+Already installed the driver when I followed this course 1+ year(s) ago. Also found [here](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles/Section19Databases/338CreatingDatabasesWithJDBCInJava).
 
 ### 338 - Creating Databases with JDBC in Java
 338CreatingDatabasesWithJDBCInJava
