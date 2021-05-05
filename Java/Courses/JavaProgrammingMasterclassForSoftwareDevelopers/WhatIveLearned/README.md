@@ -5,15 +5,16 @@
 <!-- used this to populate the video titles https://docs.google.com/spreadsheets/d/1T5__se_ChZxoXZvkZaOl9QkjPdeYXxXMbDBR9tFP__k/edit#gid=656806513 -->
 
 ## [Section 1 - Course Introduction](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section01CourseIntroduction.md)
-### 1 - Introduction to the Course
+
+~~### 1 - Introduction to the Course
 ### 2 - Remaster in Progress
 ### 3 - Video Quality
 ### 4 - Subtitles
 ### 5 - How to get help
-### 6 - Important Tip - Source Code
+### 6 - Important Tip - Source Code~~
 
 ## Section 2 - Software Tools Setup
-### 7
+~~### 7
 ### 8
 ### 9
 ### 10
@@ -24,10 +25,10 @@
 ### 15
 ### 16
 ### 17
-### 18
+### 18~~
 
 ## Section 3 - First Steps
-Section03FirstSteps
+~~Section03FirstSteps
 ### 19
 ### 20
 Keywords
@@ -92,9 +93,11 @@ Challenge - not done yet. I'm getting a negative number.
 ### 39
 ### 40
 ### 41
-### 42
+### 42~~
 
 ## Section 4 - Java Tutorial: Expressions, Statements, Code blocks, Methods and more
+
+~~Section04JavaTutorialExpressionsStatementsCodeBlocksMethodsAndMore
 ### 49 - More on Methods and a Challenge
 Challenge - started. 
 Nothing I don't already know. 
@@ -141,13 +144,17 @@ Not Started.
 ### Coding Exercise 10
 Not Started.
 ### Coding Exercise 11
-Not Started.
+Not Started.~~
 
 
 
 ## Section 5 - Control Flow Statements
+~~Section05ControlFlowStatements~~
 
 ## Section 6 - OOP Part 1 - Classes, Constructors and Inheritance
+
+~~Section06OOPPart1ClassesConstructorsAndInheritance
+
 ### 76 - Introduction
 Nothing to make note of.
 ### 77 - Classes Part 1
@@ -241,11 +248,16 @@ Not Started.
 
 ### Coding Exercise 35:
 
-### Coding Exercise 36:  
+### Coding Exercise 36:  ~~
 
 ## Section 7- OOP Part 2 - Composition, Encapsulation, and Polymorphism
 
-## Section 8- Arrays, Java inbuilt Lists, Autoboxing and Unboxing
+~~Section07OOPPart2CompositionEncapsulationAndPolymorphism~~
+
+## Section 8 - Arrays, Java inbuilt Lists, Autoboxing and Unboxing
+
+Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing
+
 ### 99 Arrays
 Introduces `new Scanner(System.in)` method.
 ### 100 Arrays (Challenge Exercise)
