@@ -1,8 +1,8 @@
-# Title
+# WhatIveLearned
 
 <!-- used this to populate the video titles https://docs.google.com/spreadsheets/d/1T5__se_ChZxoXZvkZaOl9QkjPdeYXxXMbDBR9tFP__k/edit#gid=656806513 -->
 
-## Section 1
+## Section 1 - Course Introduction
 ### 1 - Introduction to the Course
 ### 2 - Remaster in Progress
 ### 3 - Video Quality
@@ -10,7 +10,7 @@
 ### 5 - How to get help
 ### 6 - Important Tip - Source Code
 
-## Section 2
+## Section 2 - Software Tools Setup
 ### 7
 ### 8
 ### 9
@@ -24,8 +24,8 @@
 ### 17
 ### 18
 
-## Section 3
-
+## Section 3 - First Steps
+Section03FirstSteps
 ### 19
 ### 20
 Keywords
@@ -143,7 +143,7 @@ Not Started.
 
 
 
-## Section 5
+## Section 5 - Control Flow Statements
 
 ## Section 6 - OOP Part 1 - Classes, Constructors and Inheritance
 ### 76 - Introduction
@@ -183,23 +183,64 @@ Encapsulation involves `private access modifiers`, `getters`, and `setters`.
  * default values can be defined in one constructor by calling the non-empty constructor. See 17:00 min. in on the video.
  
 ### 80 - Constructors - Part 2 (+Challenge Exercise)
-* **Didn't do challenge yet.** 
+* Coninuation of previous video.
+* **Didn't do challenge yet.** Starts at 5:30 minutes into the video.
 
 ### Coding Exercise 31: 
+
 ### Coding Exercise 32: 
+Not Started.
+
 ### Coding Exercise 33: 
+Not Started.
+
 ### Coding Exercise 34: 
+Not Started.
+
 ### 81 - Inheritance Part 1
+Child classes inherate fields and methods from parent classes
+Example Animal class is a partent class to Dog class and Cat class
+```public class <child class> extends <parent class>{
+  public <child class>(<parameters for this constructor>){
+    super(<the parameters found in the parent class>)
+  }
+  
+}
+```
+
+Inheritance synonomous with `super`, `child class`, and ` parent class`.
+
+`super` calls constructor from parent class
+
+Good review. Nothing new. Need to put it into practice now.
+
+Introduction to overriding methods.
+
+`@Override` keyword indicating that the method is overriding one that is in the parent class.
+
 ### 82 - Inheritance Part 2
-### 83
-### 84
-### 85
-### 86
-### 87
+* Coninuation of previous video.
+
+### 83 - Reference vs Object vs Instance vs Class
+
+### 84 - this vs super
+
+### 85 - Method Overloading vs Overriding Recap
+
+### 86 - Static vs Instance Methods
+
+### 87 - Static vs Instance Variables
+
 ### 88
+Not Started.
+
 ### 89
+Not Started.
+
 ### Coding Exercise 35:
+
 ### Coding Exercise 36:  
+
 ## Section 7- OOP Part 2 - Composition, Encapsulation, and Polymorphism
 
 ## Section 8- Arrays, Java inbuilt Lists, Autoboxing and Unboxing
