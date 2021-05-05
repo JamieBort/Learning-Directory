@@ -131,6 +131,8 @@ This video gives example of constructor chaining.
  Good explanation and examples in video.
 
 ### 86 - Static vs Instance Methods
+Left of here.
+
 * Static Methods
 * Instance Methods
 

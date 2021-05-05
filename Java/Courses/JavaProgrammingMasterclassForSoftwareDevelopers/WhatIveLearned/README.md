@@ -113,13 +113,13 @@
 ### Coding Exercise 44: 
 ### 116 Linked Lists Part 1
 ## Section 9 - Inner and Abstract Classes & Interfaces
-
+Section09InnerAndAbstractClassesAndInterfaces
 ## Section 10 - Java Generics
-
+Section10JavaGenerics
 ## Section 11 - Naming Conventions and Packages. static and final keywords
-
+Section11NamingConventionsAndPackagesStaticAndFinalKeywords
 ## Section 12 - Java Collections
-
+Section12JavaCollections
 ## Section 13 - JavaFX
 
 ## Section 14 - Basic Input & Output including java.util
@@ -135,6 +135,7 @@
 ## Section 18 - Debugging and Unit Testing
 
 ## Section 19 - Databases
+Section19Databases
 ### 325 - Section Introduction
 Overview of what to expect in this section.
 ### 326 - Database Terminology
@@ -265,17 +266,19 @@ Already installed the driver when I followed this course 1+ year(s) ago. Also fo
 338CreatingDatabasesWithJDBCInJava
 
 ## Section 20 - Java Networking Programming
-
+Section20JavaNetworkingProgramming
 ## Section 21 - Java 9 Module System
-
+Section21Java9ModuleSystem
 ## Section 22 - Migrating Java Projects to Java 9
-
+Section22MigratingJavaProjectsToJava9
 ## Section 23 - Course Remaster in Progress
-
+Section23CourseRemasterInProgress
 ## Section 24 - Archived Videos
+Section24ArchivedVideos
 ### 397
 ### 398
 
 ## Section 25 - Extra Information - Source code, and other stuff
+Section25ExtraInformationSourceCodeAndOtherStuff
 ### 399
 ### 400

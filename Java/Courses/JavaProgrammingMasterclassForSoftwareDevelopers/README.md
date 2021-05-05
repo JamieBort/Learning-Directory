@@ -23,7 +23,8 @@ Also, started to review the previous videos so that I could take proper notes. I
 * [CourseFiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles) - my working files for this course. This directory holds the course work that I am creating for this Udemy course.
 * [SuppliedFiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles) - The original files downloaded. This directory holds orignial, unaltered files that are downloaded from the Udemy course for the use of this course.
 * [README.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/README.md) - this file.
-* [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) - the markdown file containing a brief summary of what I've learned.
+* [WhatIveLearned](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) - the directory housing the markdown files containing notes of what I've learned.
+* ~~[WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) - the markdown file containing a brief summary of what I've learned.~~
 
 ## Associated Links
 * [Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/) Udemy **Landing Page**.
