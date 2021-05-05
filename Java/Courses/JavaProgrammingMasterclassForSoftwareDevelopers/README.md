@@ -17,13 +17,13 @@ Left off here on this exercise:
 
 **Last video** [watched](https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3323790#overview).
 
-Also, started to review the previous videos so that I could take proper notes. I completed video 26. And took notes in the [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned.md) file.
+Also, started to review the previous videos so that I could take proper notes. I completed video 26. And took notes in the [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) file.
 
 ## A description of the directories and files in this directory
 * [CourseFiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles) - my working files for this course. This directory holds the course work that I am creating for this Udemy course.
 * [SuppliedFiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles) - The original files downloaded. This directory holds orignial, unaltered files that are downloaded from the Udemy course for the use of this course.
 * [README.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/README.md) - this file.
-* [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned.md) - the markdown file containing a brief summary of what I've learned.
+* [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) - the markdown file containing a brief summary of what I've learned.
 
 ## Associated Links
 * [Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/) Udemy **Landing Page**.
@@ -35,6 +35,6 @@ Also, started to review the previous videos so that I could take proper notes. I
 * [Java Programming Masterclass for Software Developers Udemy Course](https://trello.com/c/FXZ4k4PL/459-java-programming-masterclass-for-software-developers-udemy-course) **Trello card**.
 
 ## What I've learned so far
-See the [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned.md) file.
+See the [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) file.
 
 ## Resources
