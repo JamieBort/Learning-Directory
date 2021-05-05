@@ -95,7 +95,7 @@
 ### 88
 ### 89
 ### Coding Exercise 35:
-### Coding Exercise 36:  ~~
+### Coding Exercise 36:
 ## [Section 7- OOP Part 2 - Composition, Encapsulation, and Polymorphism](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section07OOPPart2CompositionEncapsulationAndPolymorphism.md)
 ## [Section 8 - Arrays, Java inbuilt Lists, Autoboxing and Unboxing](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing.md)
 ### 99 Arrays
