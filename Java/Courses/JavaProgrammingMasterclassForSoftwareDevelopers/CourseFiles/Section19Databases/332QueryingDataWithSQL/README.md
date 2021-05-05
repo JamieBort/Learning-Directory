@@ -19,3 +19,21 @@ Enter ".help" for usage hints.
 sqlite> 
 ```
 So it worked.
+
+Revieing the structure: `.schema`
+Resulted in:
+```
+CREATE TABLE songs (_id INTEGER PRIMARY KEY, track INTEGER, title TEXT NOT NULL, album INTEGER);
+CREATE TABLE albums (_id INTEGER PRIMARY KEY, name TEXT NOT NULL, artist INTEGER);
+CREATE TABLE artists (_id INTEGER PRIMARY KEY, name TEXT NOT NULL);
+```
+
+`.backup music-backup1`
+No output. However `.backup music-backup1` is now in the same directory:
+```
+jamiebort@My-MBP-3:~/Documents/DevFiles/personal_projects/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL$ ls
+README.md      music-backup1  music.db       music.zip
+```
+`INSERT INTO artists(name) VALUES("Beyonce");`
+
+`SELECT * FROM artists WHERE name = "Beyonce";`
