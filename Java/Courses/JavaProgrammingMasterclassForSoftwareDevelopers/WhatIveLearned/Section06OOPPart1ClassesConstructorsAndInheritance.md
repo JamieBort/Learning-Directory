@@ -30,10 +30,13 @@ Continuation of the previous video.
 `Set` and `get` methods
 `this` to refer to a field in a class.
 `null pointer exception` - defined a type but hasn't been initialized.
+
 Encapsulation involves `private access modifiers`, `getters`, and `setters`.
 
 ### Coding Exercise 29: Sum Calculator
+
 ### Coding Exercise 30: Person
+
 ### 79 - Constructors - Part 1 (+Challenge Exercise)
 * **Didn't do challenge yet.** It is at the very beginning of the video. First 11 minutes.
 * Constructors
@@ -71,7 +74,7 @@ Inheritance synonomous with `super`, `child class`, and ` parent class`.
 
 `super` calls constructor from parent class
 
-Good review. Nothing new. Need to put it into practice now.
+Good review. Nothing new. But need to put it into practice now.
 
 Introduction to overriding methods.
 
@@ -79,22 +82,67 @@ Introduction to overriding methods.
 
 ### 82 - Inheritance Part 2
 * Coninuation of previous video.
+Good review. Nothing new. But need to put it into practice now.
 
 ### 83 - Reference vs Object vs Instance vs Class
+* References
+* Objects
+* Instances
+* Classes
+
+Good review. Nothing new. 
 
 ### 84 - this vs super
+* `this` - use to call the current class members (variables and methods)
+* `super` - used to access or call the parent class members (variables and methods)
+* can use either of these anywhere EXCEPT in `static` areas (static block or static methods) - this will lead to compile time errors.
+* more on `static` later in course.
+* `this()`
+ * use to call a constructor from another overloaded constructor in the same class.
+ * can only be used in a constructor.
+ * must be the first statement in a constructor.
+* `super()`
+ * only way to call a parent constructor.
+ * without it Java makes default call to no-arguments constructor in the parent class.
+ * must be the first statement in each constructor.
+* Abstract classes
+ * is a super class.
+ * Have constructors. Although you can never instantiate an abstract class using a `new` keyword.
+ * more on abstract classes later in the course.
+* a constructor cannot have both `this()` and `super()`.
+
+This video gives example of constructor chaining.
 
 ### 85 - Method Overloading vs Overriding Recap
+* overloading
+ * > 1 methods in the same class with the same name but different paramters.
+ * can overload static and instance methods. (more on differences between static and instance methods later in the course.)
+ * usually happens inside single class.
+ * however can also happen in subclass of that class.
+ * Known as Compile Time Polymorphism.
+* overriding
+ * define method in child class as the parent class that has same name and same signature.
+ * Known as Runtime polymorphism and Dynamic Method Dispatch (because the method that is going to be run is decided at runtime by the JVM.)
+ * Put `@Overrrid` annotation immediately above the method definition.
+ * can override instance methods
+ * cannot override static methods
+ * methods that are final cannot be overriden.
+
+ Good explanation and examples in video.
 
 ### 86 - Static vs Instance Methods
+* Static Methods
+* Instance Methods
 
 ### 87 - Static vs Instance Variables
+* Static Variables
+* Instance Variables
 
 ### 88
-Not Started.
+* **Didn't do challenge yet.** 
 
 ### 89
-Not Started.
+* **Didn't do challenge yet.** 
 
 ### Coding Exercise 35:
 
