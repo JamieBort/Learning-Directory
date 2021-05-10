@@ -5,6 +5,16 @@ import "./styles.css";
 function App() {
   // MOST OF YOUR CODE GOES HERE
 
+
+  let myString = "";
+
+  function myPrint(myString){
+    console.log(myString.nativeEvent.data);
+    console.log(myString);
+    myString = "abc.nativeEvent.data";
+    return myString;
+  }
+
   return (
     <div className="App">
       <div>
@@ -22,13 +32,13 @@ function App() {
         {/* Input name */}
         <div className="field">
           <label className="label">Name: </label>
-          <input className="input" type="text" placeholder="William" />
+          <input onChange={(event) => myPrint(event)} className="input" type="text" placeholder="Type your name here." />
         </div>
 
         {/* Input age */}
         <div className="field">
           <label className="label">Age: </label>
-          <input className="input" type="number" placeholder="38" />
+          <input className="input" type="number" placeholder="Type your age here." />
         </div>
       </div>
     </div>
