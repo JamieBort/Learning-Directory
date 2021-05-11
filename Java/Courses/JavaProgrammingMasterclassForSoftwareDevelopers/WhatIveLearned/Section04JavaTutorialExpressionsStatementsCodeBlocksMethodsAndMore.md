@@ -6,6 +6,7 @@
 
 Section04JavaTutorialExpressionsStatementsCodeBlocksMethodsAndMore
 ### 49 - More on Methods and a Challenge
+More_on_Methods_and_a_Challenge_49
 Challenge - started. 
 Nothing I don't already know. 
 ### 50
@@ -41,7 +42,8 @@ Not Started.
 Not Started.
 ### 58
 ### 59
-### 60
+### 60 - Seconds and Minutes Challenge
+Seconds_and_Minutes_Challenge_60
 Challenge not started yet.
 ### 61 Bonus Challenge Solution
 ### Coding Exercise 8
