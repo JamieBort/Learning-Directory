@@ -30,12 +30,12 @@ Also, started to review the previous videos so that I could take proper notes. I
 * [Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/) Udemy **Landing Page**.
 
 * Emails regarding this course:
- * [Tim Buchalka](https://mail.google.com/mail/u/0/#search/Tim+Buchalka)
- * [Java Programming Masterclass for Software Developers](https://mail.google.com/mail/u/0/#search/Java+Programming+Masterclass+for+Software+Developers)
+    * [Tim Buchalka](https://mail.google.com/mail/u/0/#search/Tim+Buchalka)
+    * [Java Programming Masterclass for Software Developers](https://mail.google.com/mail/u/0/#search/Java+Programming+Masterclass+for+Software+Developers)
 
 * [Java Programming Masterclass for Software Developers Udemy Course](https://trello.com/c/FXZ4k4PL/459-java-programming-masterclass-for-software-developers-udemy-course) **Trello card**.
 
 ## What I've learned so far
-See the [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) file.
+See the [WhatIveLearned](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) directory.
 
 ## Resources

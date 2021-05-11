@@ -29,7 +29,8 @@
 ### 22
 ### 23
 ### 24
-### 25
+### 25 - Primitive Types
+### 26 - byte, short, long and width
 ### 26
 ### 27
 ### 28
@@ -112,6 +113,8 @@
 ### 111
 ### Coding Exercise 44: 
 ### 116 Linked Lists Part 1
+### 117 Linked Lists Part 2
+### 118 Linked Lists Part 3
 ## Section 9 - Inner and Abstract Classes & Interfaces
 Section09InnerAndAbstractClassesAndInterfaces
 ## Section 10 - Java Generics
