@@ -2,9 +2,9 @@ package Section04JavaTutorialExpressionsStatementsCodeBlocksMethodsAndMore;
 
 public class Section04Methods {
 
-    public void printMe() {
-        // Section59SecondsAndMinutesChallenge.getDurationString(60, 4);
-        System.out.println("Hello");
+    public void Seconds_and_Minutes_Challenge_60(int minutes, int seconds){
+        Seconds_and_Minutes_Challenge_60 Example01 = new Seconds_and_Minutes_Challenge_60();
+        Example01.getDurationString(minutes,seconds);
     }
 
     // public void Floating_Point_Precision_and_a_Challenge_30() {

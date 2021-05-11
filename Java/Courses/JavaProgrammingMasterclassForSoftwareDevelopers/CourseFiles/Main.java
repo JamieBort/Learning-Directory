@@ -10,7 +10,8 @@ public class Main {
         // section03methods.float_and_double_Primitive_Types_29();
 
         Section04Methods section04methods = new Section04Methods();
-        section04methods.printMe();
+        // section04methods.Seconds_and_Minutes_Challenge_60(2,4);
+        section04methods.Seconds_and_Minutes_Challenge_60(61,59);
 
         // Section05Methods() section05methods = new Section05Methods();
     }
