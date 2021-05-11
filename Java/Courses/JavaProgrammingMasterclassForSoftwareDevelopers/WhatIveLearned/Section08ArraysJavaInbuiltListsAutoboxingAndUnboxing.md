@@ -32,3 +32,8 @@ Not Started.
 ### Coding Exercise 44: 
 Not Started.
 ### 116 Linked Lists Part 1
+* Allocates 4 bytes of memory for each integer.
+Watch the first half of this over again.
+
+### 117 Linked Lists Part 2
+### 118 Linked Lists Part 3
