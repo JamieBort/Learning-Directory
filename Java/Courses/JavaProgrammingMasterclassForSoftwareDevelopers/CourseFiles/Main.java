@@ -1,6 +1,6 @@
-// import Section03FirstSteps.Section03Methods;
 import Section03FirstSteps.*;
 import Section04JavaTutorialExpressionsStatementsCodeBlocksMethodsAndMore.*;
+import Section05ControlFlowStatements.*;
 
 public class Main {
 
@@ -9,10 +9,11 @@ public class Main {
         // section03methods.Floating_Point_Precision_and_a_Challenge_30();
         // section03methods.float_and_double_Primitive_Types_29();
 
-        Section04Methods section04methods = new Section04Methods();
-        // section04methods.Seconds_and_Minutes_Challenge_60(2,4);
-        section04methods.Seconds_and_Minutes_Challenge_60(61,59);
+        // Section04Methods section04methods = new Section04Methods();
+        // // section04methods.Seconds_and_Minutes_Challenge_60(2,4);
+        // section04methods.Seconds_and_Minutes_Challenge_60(61,59);
 
-        // Section05Methods() section05methods = new Section05Methods();
+        Section05Methods section05methods = new Section05Methods();
+        section05methods.The_Switch_Statement_Challenge_Exercise_63();
     }
 }
