@@ -26,9 +26,9 @@
 //	Create a new console project and call it SecondsAndMinutesChallenge
 
 // ----
-// package com.company;
+package Section04JavaTutorialExpressionsStatementsCodeBlocksMethodsAndMore;
 
-public class Section59SecondsAndMinutesChallenge {
+public class Seconds_and_Minutes_Challenge_60 {
 
     public static String getDurationString(int minutes, int seconds){
         if(minutes<0 || seconds<0 || seconds > 60){

@@ -15,9 +15,11 @@
 // 4 in all other cases
 // call both methods and display the results of the following
 // a score of 1500, 900, 400 and 50
-//
 
-public class Section29MoreOnMethodsAndAChallenge {
+
+package Section04JavaTutorialExpressionsStatementsCodeBlocksMethodsAndMore;
+
+public class More_on_Methods_and_a_Challenge_49 {
 
     public static void displayHighScorePosition(String name, int position) {
         int theScore = calculateHighScorePosition(position);
