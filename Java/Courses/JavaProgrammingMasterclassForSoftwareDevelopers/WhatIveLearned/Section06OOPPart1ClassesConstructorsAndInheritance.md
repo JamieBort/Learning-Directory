@@ -35,9 +35,11 @@ Continuation of the previous video.
 Encapsulation involves `private access modifiers`, `getters`, and `setters`.
 
 ### Coding Exercise 29: Sum Calculator
-CodingExercise29SumCalculator.java
+Coding_Exercise_29_Sum_Calculator.java
+Completed
 
 ### Coding Exercise 30: Person
+Coding_Exercise_30_Person.java
 
 ### 79 - Constructors - Part 1 (+Challenge Exercise)
 * **Didn't do challenge yet.** It is at the very beginning of the video. First 11 minutes.

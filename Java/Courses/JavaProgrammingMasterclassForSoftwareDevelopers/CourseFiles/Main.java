@@ -18,8 +18,8 @@ public class Main {
         // section05methods.The_Switch_Statement_Challenge_Exercise_63();
 
         Section06Methods section06methods = new Section06Methods();
-        // section06methods.generalMethod();
-        section06methods.Coding_Exercise_29_Sum_Calculator();
+        // section06methods.Coding_Exercise_29_Sum_Calculator();
+        section06methods.Coding_Exercise_30_Person();
         
     }
 }
