@@ -7,6 +7,7 @@ Section06OOPPart1ClassesConstructorsAndInheritance
 
 ### 76 - Introduction
 Nothing to make note of.
+
 ### 77 - Classes Part 1
 * State
   * Stored in Fields (variables)
@@ -34,6 +35,7 @@ Continuation of the previous video.
 Encapsulation involves `private access modifiers`, `getters`, and `setters`.
 
 ### Coding Exercise 29: Sum Calculator
+CodingExercise29SumCalculator.java
 
 ### Coding Exercise 30: Person
 
