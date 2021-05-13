@@ -1,4 +1,4 @@
-package Section09InnerAndAbstractClassesAndInterfaces;
+package Section09InnerAndAbstractClassesAndInterfaces.PracticeInterface;
 
 public interface myInterface {
     public void myFirstFunction();

@@ -1,4 +1,4 @@
-package Section09InnerAndAbstractClassesAndInterfaces;
+package Section09InnerAndAbstractClassesAndInterfaces.PracticeInterface;
 
 public class myClass implements myInterface {
     public void myPrint(){
