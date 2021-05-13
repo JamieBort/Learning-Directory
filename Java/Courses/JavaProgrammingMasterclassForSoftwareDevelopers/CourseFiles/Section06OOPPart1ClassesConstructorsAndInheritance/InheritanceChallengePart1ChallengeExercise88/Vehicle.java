@@ -24,7 +24,7 @@ public class Vehicle {
     // speed indication on dashboard working/not working
     private boolean dashboardWorking;
 
-    public void Vehicle(int fuel, int acceleration) {
+    public Vehicle(int fuel, int acceleration) {
         this.speed = 0;
         this.directionForward = false;
         this.directionBackward = false;
@@ -38,7 +38,7 @@ public class Vehicle {
     }
 
     public Vehicle(int fuel) {
-        Vehicle(fuel, 5);
+        this(fuel, 5);
     }
 
     /**
@@ -183,10 +183,9 @@ public class Vehicle {
         this.dashboardWorking = dashboardWorking;
     }
 
-    public void allDirections(){    // method reading out all current directions that are "true";
-System.out.println("is it turning right?" + isDirectionRight());
-// need to add logic and give more feedback.
+    public void allDirections() { // method reading out all current directions that are "true";
+        System.out.println("is it turning right?" + isDirectionRight());
+        // need to add logic and give more feedback.
     }
-
 
 }

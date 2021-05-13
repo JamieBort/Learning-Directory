@@ -2,7 +2,7 @@
 
 package Section06OOPPart1ClassesConstructorsAndInheritance.InheritanceChallengePart1ChallengeExercise88;
 
-public class Car{
+public class Car extends Vehicle {
 // have windows go up and down
 // default position is up
 // have headlights - headlights are on/off
@@ -10,7 +10,14 @@ public class Car{
 // default headlights are on
 // has sound system - it's working or not?
 
-    public void abc(){
-        System.out.println("car");
+    public Car(int fuel) {
+        super(fuel);
+        //TODO Auto-generated constructor stub
     }
+
+    public Car(int fuel, int acceleration) { // is this redundant?
+        super(fuel, acceleration);
+        //TODO Auto-generated constructor stub
+    }
+    
 }

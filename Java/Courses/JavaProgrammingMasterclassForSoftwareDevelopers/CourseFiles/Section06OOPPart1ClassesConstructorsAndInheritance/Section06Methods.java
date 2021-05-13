@@ -1,4 +1,5 @@
 package Section06OOPPart1ClassesConstructorsAndInheritance;
+
 // import Section06OOPPart1ClassesConstructorsAndInheritance.*;
 // package Section09InnerAndAbstractClassesAndInterfaces;
 import Section09InnerAndAbstractClassesAndInterfaces.*;
@@ -55,10 +56,11 @@ public class Section06Methods {
         account.deposit(1030);
         System.out.println(account.getBalance());
     }
-    
+
     public void Constructors_Part_1_Challenge_Exercise_80() {
         Constructors_Part_2_Challenge_Exercise_80 beans = new Constructors_Part_2_Challenge_Exercise_80();
-        // Constructors_Part_1_Challenge_Exercise_80 account = new Constructors_Part_1_Challenge_Exercise_80();
+        // Constructors_Part_1_Challenge_Exercise_80 account = new
+        // Constructors_Part_1_Challenge_Exercise_80();
         beans.setBalance(100);
         beans.getBalance();
         System.out.println(beans.getBalance());
@@ -70,13 +72,18 @@ public class Section06Methods {
         // System.out.println(account.getBalance());
     }
 
-    public void InheritanceChallengePart1ChallengeExercise88(){
-        Car car = new Car();
-        car.abc();
-        Vehicle vehicle = new Vehicle();
-        vehicle.abc();
-        Mustang mustang = new Mustang();
-        mustang.abc();
+    public void InheritanceChallengePart1ChallengeExercise88() {
+        Vehicle vehicle1 = new Vehicle(2);
+        Vehicle vehicle2 = new Vehicle(6, 9);
+        // vehicle.abc();
+
+        Car car1 = new Car(4);
+        Car car2 = new Car(8, 9);
+        // car.abc();
+
+        // Mustang mustang1 = new Mustang();
+        // Mustang mustang2 = new Mustang();
+        // mustang.abc();
     }
 
 }
