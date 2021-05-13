@@ -10,34 +10,29 @@ public class Section05Methods {
         example01.switchValue(9);
     }
 
-    // public void Floating_Point_Precision_and_a_Challenge_30() {
-    //     System.out.println("Floating_Point_Precision_and_a_Challenge_30()");
-    //     // Floating_Point_Precision_and_a_Challenge_30 Example01 = new Floating_Point_Precision_and_a_Challenge_30();
-    //     // Example01.Floating_Point_Precision_and_a_Challenge();
-    // }
+    public void Coding_Exercise_16_First_And_Last_Digit_Sum(){
+        Coding_Exercise_16_First_And_Last_Digit_Sum sum = new Coding_Exercise_16_First_And_Last_Digit_Sum();
+        // sum.sumFirstAndLastDigit(252); // 4
+        // sum.sumFirstAndLastDigit(-2532); // 4
+        // sum.sumFirstAndLastDigit(25982732); // 4
+        // sum.sumFirstAndLastDigit(257); // 9
+        // sum.sumFirstAndLastDigit(0); // 0
+        sum.sumFirstAndLastDigit(5); // 0
+    }
 
-    // public void float_and_double_Primitive_Types_29(){
-    //     System.out.println("float_and_double_Primitive_Types_29()");
-    //     float_and_double_Primitive_Types_29 Example01 = new float_and_double_Primitive_Types_29();
-    //     Example01.float_and_double_Primitive_Types();
-    // }
+    public void Coding_Exercise_15_Number_Palindrome(){
+        Coding_Exercise_15_Number_Palindrome palindrome = new Coding_Exercise_15_Number_Palindrome();
+        // palindrome.isPalindrom(11212); // false
+        // palindrome.isPalindrom(707); // true
+        palindrome.isPalindrom(-1221); // true
+        // palindrome.isPalindrom(13); // false
+        // palindrome.isPalindrom(1331); // true
+        // palindrome.isPalindrom(1324); // false
+    }
 
-    // public void Number28() {
-
-    //     // byte byteValue = 127;
-    //     byte byteValue = 10;
-    //     // short shortValue = 32767;
-    //     short shortValue = 20;
-    //     // int intValue=214748364;
-    //     int intValue = 50;
-    //     long longValue = 50000;
-    //     // Long longValue = 50000L;
-
-    //     Primitive_Types_Challenge_28 threeParameterVariable = new Primitive_Types_Challenge_28();
-    //     Primitive_Types_Challenge_28 fourParameterVariable = new Primitive_Types_Challenge_28();
-    //     threeParameterVariable.primative_types_challenge(byteValue, shortValue, intValue);
-    //     fourParameterVariable.primative_types_challenge(byteValue, shortValue, intValue, longValue);
-
-    // }
+    public void Coding_Exercise_27_Input_Calculator(){
+        Coding_Exercise_27_Input_Calculator input_Calculator = new Coding_Exercise_27_Input_Calculator();
+        input_Calculator.inputThenPrintSumAndAverage();
+    }
 
 }
