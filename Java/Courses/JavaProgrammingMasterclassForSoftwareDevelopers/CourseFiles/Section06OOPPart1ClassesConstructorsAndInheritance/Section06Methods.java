@@ -14,7 +14,7 @@ public class Section06Methods {
         System.out.println("Divide: " + calculator.getDivisionResult());
     }
 
-    public void     Coding_Exercise_30_Person() {
+    public void Coding_Exercise_30_Person() {
         Coding_Exercise_30_Person person = new Coding_Exercise_30_Person();
         // person.setAge(10);
         // person.setFirstName("Jamie");
@@ -36,5 +36,32 @@ public class Section06Methods {
         person.setLastName("smith");
         System.out.println("full Name: " + person.getFullName());
     }
+
+    public void Constructors_Part_1_Challenge_Exercise_79() {
+        Constructors_Part_1_Challenge_Exercise_79 account = new Constructors_Part_1_Challenge_Exercise_79();
+        account.setBalance(100);
+        account.getBalance();
+        System.out.println(account.getBalance());
+        account.setBalance(145);
+        System.out.println(account.getBalance());
+        account.withdraw(10);
+        System.out.println(account.getBalance());
+        account.deposit(1030);
+        System.out.println(account.getBalance());
+    }
     
+    public void Constructors_Part_1_Challenge_Exercise_80() {
+        Constructors_Part_2_Challenge_Exercise_80 beans = new Constructors_Part_2_Challenge_Exercise_80();
+        // Constructors_Part_1_Challenge_Exercise_80 account = new Constructors_Part_1_Challenge_Exercise_80();
+        beans.setBalance(100);
+        beans.getBalance();
+        System.out.println(beans.getBalance());
+        // account.setBalance(145);
+        // System.out.println(account.getBalance());
+        // account.withdraw(10);
+        // System.out.println(account.getBalance());
+        // account.deposit(1030);
+        // System.out.println(account.getBalance());
+    }
+
 }
