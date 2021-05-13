@@ -21,15 +21,16 @@ public class Main {
         // // section05methods.Coding_Exercise_15_Number_Palindrome();
         // section05methods.Coding_Exercise_27_Input_Calculator();
 
-        // Section06Methods section06methods = new Section06Methods();
+        Section06Methods section06methods = new Section06Methods();
         // section06methods.Coding_Exercise_29_Sum_Calculator();
         // section06methods.Coding_Exercise_30_Person();
         // section06methods.Constructors_Part_1_Challenge_Exercise_79();
         // section06methods.Constructors_Part_1_Challenge_Exercise_80();
+        section06methods.InheritanceChallengePart1ChallengeExercise88();
 
-        Section09Methods section09methods = new Section09Methods();
+        // Section09Methods section09methods = new Section09Methods();
         // section09methods.The_Switch_Statement_Challenge_Exercise_63();
-        section09methods.printing();
-        
+        // section09methods.printing();
+
     }
 }

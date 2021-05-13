@@ -174,7 +174,9 @@ Nothing more to watch here/take notes on except:
 
 Nothing more to take notes on.
 
-### 88
+### 88 - Inheritance Challenge Part 1 (+Challenge Exercise)
+Inheritance_Challenge_Part_1_Challenge_Exercise_88.java
+88InheritanceChallengePart1ChallengeExercise
 * **Didn't do challenge yet.** 
 
 ### 89

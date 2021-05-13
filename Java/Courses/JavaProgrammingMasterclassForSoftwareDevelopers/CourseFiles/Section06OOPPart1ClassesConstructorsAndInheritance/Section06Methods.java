@@ -1,4 +1,10 @@
 package Section06OOPPart1ClassesConstructorsAndInheritance;
+// import Section06OOPPart1ClassesConstructorsAndInheritance.*;
+// package Section09InnerAndAbstractClassesAndInterfaces;
+import Section09InnerAndAbstractClassesAndInterfaces.*;
+import Section06OOPPart1ClassesConstructorsAndInheritance.InheritanceChallengePart1ChallengeExercise88.Car;
+import Section06OOPPart1ClassesConstructorsAndInheritance.InheritanceChallengePart1ChallengeExercise88.Mustang;
+import Section06OOPPart1ClassesConstructorsAndInheritance.InheritanceChallengePart1ChallengeExercise88.Vehicle;
 
 public class Section06Methods {
 
@@ -62,6 +68,15 @@ public class Section06Methods {
         // System.out.println(account.getBalance());
         // account.deposit(1030);
         // System.out.println(account.getBalance());
+    }
+
+    public void InheritanceChallengePart1ChallengeExercise88(){
+        Car car = new Car();
+        car.abc();
+        Vehicle vehicle = new Vehicle();
+        vehicle.abc();
+        Mustang mustang = new Mustang();
+        mustang.abc();
     }
 
 }
