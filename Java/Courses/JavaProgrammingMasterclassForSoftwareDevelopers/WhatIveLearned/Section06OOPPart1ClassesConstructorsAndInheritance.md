@@ -141,14 +141,38 @@ This video gives example of constructor chaining.
  Good explanation and examples in video.
 
 ### 86 - Static vs Instance Methods
-Left off here.
 
 * Static Methods
+  * delcared using `static` modifier.
+  * `static` methods cannot access instance methods nor instance variables directly.
+  * usually used for operations that don't require data from an instance of a class (from 'this').
+    * `this` keyword refers to the current instance of a class.
+  * methods that don't use instance variables should (proably) be delcared as `static`.
+  * don't require an instance to be created - simply type <the class name>.<the static method name>.
 * Instance Methods
+  * belong to a specific instance of a class.
+  * to use need to instantiate the class first (usually by uing the `new` keyword).
+  * instance methods can access instance methods directly. +++
+  * instance methods can access instance variables directly. +++
+  * instance methods can access static methods directly. +++
+  * instance methods can access static variables directly. +++
+  
+Nothing more to watch here/take notes on except:
+  these four lines (above) don't seem right to me. +++
 
 ### 87 - Static vs Instance Variables
 * Static Variables
+  * also known as static member variables.
+  * every instance of that class shares that variable.
+  * if that variable changes, all instances of that class will see that change.
 * Instance Variables
+  * don't use `static` keyword.
+  * also know as `fields` or `member variables`.
+  * belong to each instance - each instance has it's own "copy" of this/these variables.
+  * every instance can have a different value or state.
+  * instance variables represent the state of a specific instance of a class.
+
+Nothing more to take notes on.
 
 ### 88
 * **Didn't do challenge yet.** 

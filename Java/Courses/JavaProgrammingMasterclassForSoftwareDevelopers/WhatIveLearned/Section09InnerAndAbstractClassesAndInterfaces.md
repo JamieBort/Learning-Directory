@@ -13,4 +13,4 @@ Section09InnerAndAbstractClassesAndInterfaces
 * on other words standardize way a set of classes is used
 * in the body of the interface function signatures are writen, but not the logic - that is left up to each class the implements the interface.
 * access modifiers are not needed in the function signatures of interfaces.
-* **use `implements` keyword**, not `extends` keyword.
+* **use** `implements` keyword, **not** `extends` keyword.
