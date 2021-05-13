@@ -28,6 +28,7 @@ Challenge not done.
 ## 67 - Sum 3 and 5 Challenge
 
 ## Coding Exercise 14 Sum Add
+Coding_Exercise_14_Sum_Add.java
 Challenge not done.
 
 ## 68 - The while and do while statements (+Challenge Exercise)
@@ -36,10 +37,27 @@ Challenge not done.
 .
 .
 
+## Coding Exercise 15: Number Palindrome
+Coding_Exercise_15_Number_Palindrome.java
+Completed.
+
+## Coding Exercise 16: First And Last Digit Sum
+Coding_Exercise_16_First_And_Last_Digit_Sum.java
+Completed.
+
+.
+.
+.
+
+
 ## 75 - 
 
 ## Coding Exercise 27: Input Calculator
-Challenge not done.
+Coding_Exercise_27_Input_Calculator.java
+~~Challenge not done.~~
+Close enough - no need to revisit in order to complete it.
 
 ## Coding Exercise 28: Paint Job
+Coding_Exercise_28_Paint_Job.java
+
 Challenge not done.

@@ -36,21 +36,27 @@ Encapsulation involves `private access modifiers`, `getters`, and `setters`.
 
 ### Coding Exercise 29: Sum Calculator
 Coding_Exercise_29_Sum_Calculator.java
-Completed
+Completed.
 
 ### Coding Exercise 30: Person
 Coding_Exercise_30_Person.java
+Completed.
 
 ### 79 - Constructors - Part 1 (+Challenge Exercise)
-* **Didn't do challenge yet.** It is at the very beginning of the video. First 11 minutes.
+79_Constructors_Part_1_Challenge_Exercise.java
+79ConstructorsPart1ChallengeExercise
+* ~~**Didn't do challenge yet.** It is at the very beginning of the video. First 11 minutes.~~ Completed. 
 * Constructors
   * can be overloaded
   * call one constructor from another constructor. See 17:00 min. in on the video.
   * default values can be defined in one constructor by calling the non-empty constructor. See 17:00 min. in on the video.
  
 ### 80 - Constructors - Part 2 (+Challenge Exercise)
+Constructors_Part_2_Challenge_Exercise_80.java
+80ConstructorsPart2ChallengeExercise
+
 * Coninuation of previous video.
-* **Didn't do challenge yet.** Starts at 5:30 minutes into the video.
+* **Didn't do challenge yet.** ~~Starts at 5:30 minutes into the video.~~ I copied the instructions into the file.
 
 ### Coding Exercise 31: 
 
