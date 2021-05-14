@@ -3,162 +3,130 @@
 // package Section09InnerAndAbstractClassesAndInterfaces.PracticeInterface;
 package Section06OOPPart1ClassesConstructorsAndInheritance.InheritanceChallengePart1ChallengeExercise88;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.ListIterator;
+
+// air, water, land
+
 public class Vehicle {
 
-    private int speed;
-    // moves forward OR backword (not at the same time.)
-    private boolean directionForward;
-    // if speed = 0 then foward and backward are false
-    private boolean directionBackward;
-    // if speed = 0 then foward and backward are false
-    private boolean directionUp;
-    // if speed = 0 then foward and backward are false
-    private boolean directionDown;
-    private boolean directionLeft;
-    private boolean directionRight;
-    // initial fuel not set to full nor zero. needs to be instantiated with the
-    // class.
-    private int fuel;
-    // default acceleartion to be overridden by sub classes
+    private int speedForward;
+    private int speedUp;
+    private int speedRight;
+    private int fuelQuantity;
+    private String fuelType; // choices: gasoline, diesel, kerosene, electrical
+    private String[] fuelTypeOptions = {"zero", "one", "two"}; // should this be static? or assigned a different way?
     private int acceleration;
-    // speed indication on dashboard working/not working
     private boolean dashboardWorking;
-
-    public Vehicle(int fuel, int acceleration) {
-        this.speed = 0;
-        this.directionForward = false;
-        this.directionBackward = false;
-        this.directionUp = false;
-        this.directionDown = false;
-        this.directionLeft = false;
-        this.directionRight = false;
-        this.fuel = fuel;
-        this.acceleration = acceleration;
-        this.dashboardWorking = true;
+    private int engineTime;
+    private int engineDistance;
+    
+    public Vehicle(int fuelQuantity, int acceleration) {
+        this.speedForward=0;
+        this.speedUp=0;
+        this.speedRight=0;
+        this.fuelQuantity = fuelQuantity; // needs to be instantiated with the class.
+        this.fuelType=fuelTypeOptions[0]; // choices: gasoline, diesel, kerosene, electrical
+        // this.fuelTypeOptions= {"zero", "one", "two"};
+        this.acceleration = acceleration; // default acceleartion to be overridden by sub classes
+        this.dashboardWorking = true; // speed indication on dashboard working/not working
+        this.engineTime=0;
+        this.engineDistance=0;
     }
 
-    public Vehicle(int fuel) {
-        this(fuel, 5);
+    public Vehicle(int fuelQuantity) {
+        this(fuelQuantity, 5); // `this` calls the constructor with two parameters.
     }
 
     /**
      * @return int return the speed
      */
-    public int getSpeed() { // method reading out speed indication on dashboard indicates speed
-        System.out.println("The current speed is: " + speed + "miles per hour.");
-        return speed;
+    public int getSpeedForward() { // method reading out speed indication on dashboard indicates speed
+        System.out.println("The current speed is: " + speedForward + "kilometers per hour.");
+        System.out.println("If the value is negative, the vehicle is moving backwards.");
+        return speedForward;
     }
-
+    
     /**
      * @param speed the speed to set
      */
-    public void setSpeed(int speed) {
-        this.speed = speed;
+    public void setSpeedForward(int speedForward) {
+        System.out.println("The speed forward is now: " + speedForward + "kilometers per hour.");
+        this.speedForward = speedForward;
     }
 
     /**
-     * @return boolean return the directionForward
+     * @return int return the speed
      */
-    public boolean isDirectionForward() {
-        return directionForward;
+    public int getSpeedUp() { // method reading out speed indication on dashboard indicates speed
+        System.out.println("The current speed is: " + speedUp + "kilometers per hour.");
+        System.out.println("If the value is negative, the vehicle is moving down.");
+        return speedUp;
+    }
+    
+    /**
+     * @param speed the speed to set
+     */
+    public void setSpeedUp(int speedUp) {
+        System.out.println("The current speed moving Up is now: " + speedForward + "kilometers per hour.");
+        this.speedUp = speedUp;
     }
 
     /**
-     * @param directionForward the directionForward to set
+     * @return int return the speed
      */
-    public void setDirectionForward(boolean directionForward) {
-        this.directionForward = directionForward;
+    public int getSpeedRight() { // method reading out speed indication on dashboard indicates speed
+        System.out.println("The current speed is: " + speedRight + "kilometers per hour.");
+        System.out.println("If the value is negative, the vehicle is moving/turning left.");
+        return speedRight;
+    }
+    
+    /**
+     * @param speed the speed to set
+     */
+    public void setSpeedRight(int speedRight) {
+        System.out.println("The current speed moving Right is now: " + speedRight + "kilometers per hour.");
+        this.speedRight = speedRight;
     }
 
     /**
-     * @return boolean return the directionBackward
+     * @return int return the fuelQuantity
      */
-    public boolean isDirectionBackward() {
-        return directionBackward;
+    public int getFuelQuantity() { // method reading out fuelQuantity quantity
+        System.out.println("The amount of fuel is " + fuelQuantity + " litters.");
+        return fuelQuantity;
     }
 
     /**
-     * @param directionBackward the directionBackward to set
+     * @param fuelQuantity the fuelQuantity to set
      */
-    public void setDirectionBackward(boolean directionBackward) {
-        this.directionBackward = directionBackward;
+    public void setFuelQuantity(int fuelQuantity) {
+        System.out.println("The amount of fuel is now: " + fuelQuantity + " litters.");
+        this.fuelQuantity = fuelQuantity;
     }
 
     /**
-     * @return boolean return the directionUp
+     * @return int return the fuelType
      */
-    public boolean isDirectionUp() {
-        return directionUp;
+    public String getFuelType() { // method reading out fuelType quantity
+        System.out.println("The type of fuel is: " + fuelType + " .");
+        return fuelType;
     }
 
     /**
-     * @param directionUp the directionUp to set
+     * @param fuelType the fuelType to set
      */
-    public void setDirectionUp(boolean directionUp) {
-        this.directionUp = directionUp;
-    }
-
-    /**
-     * @return boolean return the directionDown
-     */
-    public boolean isDirectionDown() {
-        return directionDown;
-    }
-
-    /**
-     * @param directionDown the directionDown to set
-     */
-    public void setDirectionDown(boolean directionDown) {
-        this.directionDown = directionDown;
-    }
-
-    /**
-     * @return boolean return the directionLeft
-     */
-    public boolean isDirectionLeft() {
-        return directionLeft;
-    }
-
-    /**
-     * @param directionLeft the directionLeft to set
-     */
-    public void setDirectionLeft(boolean directionLeft) {
-        this.directionLeft = directionLeft;
-    }
-
-    /**
-     * @return boolean return the directionRight
-     */
-    public boolean isDirectionRight() {
-        return directionRight;
-    }
-
-    /**
-     * @param directionRight the directionRight to set
-     */
-    public void setDirectionRight(boolean directionRight) {
-        this.directionRight = directionRight;
-    }
-
-    /**
-     * @return int return the fuel
-     */
-    public int getFuel() { // method reading out fuel quantity
-        System.out.println("the fuel amount is " + fuel + " gallons.");
-        return fuel;
-    }
-
-    /**
-     * @param fuel the fuel to set
-     */
-    public void setFuel(int fuel) {
-        this.fuel = fuel;
+    public void setFuelType(String fuelType) {
+        System.out.println("The type of fuel is now: " + fuelType + " .");
+        this.fuelType = fuelType;
     }
 
     /**
      * @return int return the acceleration
      */
     public int getAcceleration() {
+        System.out.println("This vehicle's acceleration is: " +acceleration);
         return acceleration;
     }
 
@@ -166,6 +134,7 @@ public class Vehicle {
      * @param acceleration the acceleration to set
      */
     public void setAcceleration(int acceleration) {
+        System.out.println("This vehicle's acceleration is updated to: " +acceleration);
         this.acceleration = acceleration;
     }
 
@@ -173,6 +142,9 @@ public class Vehicle {
      * @return boolean return the dashboardWorking
      */
     public boolean isDashboardWorking() { // method reading out dashboard condition
+        if(dashboardWorking==true){
+            System.out.println("The dashboard is working." );
+        } else {System.out.println("The dashboard is NOT working." );}
         return dashboardWorking;
     }
 
@@ -181,11 +153,41 @@ public class Vehicle {
      */
     public void setDashboardWorking(boolean dashboardWorking) {
         this.dashboardWorking = dashboardWorking;
+        if(dashboardWorking==true){
+            System.out.println("The dashboard is now working." );
+        } else {System.out.println("The dashboard is now NOT working." );}
     }
 
-    public void allDirections() { // method reading out all current directions that are "true";
-        System.out.println("is it turning right?" + isDirectionRight());
-        // need to add logic and give more feedback.
+    /**
+     * @return int return the engineTime
+     */
+    public int getEngineTime() {
+        System.out.println("The total amount of time the engine has been running is: " + engineTime);
+        return engineTime;
+    }
+
+    /**
+     * @param engineTime the engineTime to set
+     */
+    public void setEngineTime(int engineTime) {
+        System.out.println("The total amount of time the engine has been running is now set to: " + engineTime);
+        this.engineTime = engineTime;
+    }
+
+    /**
+     * @return int return the engineDistance
+     */
+    public int getEngineDistance() {
+        System.out.println("The total amount of distance the engine has been running is: " + engineDistance);
+        return engineDistance;
+    }
+
+    /**
+     * @param engineTime the engineTime to set
+     */
+    public void setEngineDistance(int engineDistance) {
+        System.out.println("The total amount of distance the engine has been running is now set to: " + engineDistance);
+        this.engineDistance = engineDistance;
     }
 
 }
