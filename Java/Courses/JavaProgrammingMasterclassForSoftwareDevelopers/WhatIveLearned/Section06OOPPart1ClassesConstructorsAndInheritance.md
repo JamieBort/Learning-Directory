@@ -94,6 +94,10 @@ Introduction to overriding methods.
 * Coninuation of previous video.
 Good review. Nothing new. But need to put it into practice now.
 
+(from video `91 - Composition` of `Section 7- OOP Part 2 - Composition, Encapsulation, and Polymorphism`:
+
+* Car is a vehicle ( because it extends from vehicle ) inheritance relationship)
+
 ### 83 - Reference vs Object vs Instance vs Class
 * References
 * Objects
