@@ -10,13 +10,16 @@
 ## Status
 See the various markdown files in the [WhatIveLearned](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) directory for
 
-* the status of which videos I've watched,
-* the status of which videos I have not watched,
-* the status of which videos I've taken notes on,
-* the status of which videos I have not taken notes on,
-* the status of which challenges I've completed,
-* the status of which challenges I've started, and
-* the status of which challenges I have not completed.
+* the status of which videos I have 
+    * watched and
+    * not watched.
+* the status of which videos I have
+    * started taking notes on.
+    * finished taking notes on, and
+    * completed taking notes on. 
+* the status of which challenges I have
+    * started and
+    * not completed.
 
 ~~20210428
 Starting where I left off.~~
