@@ -16,13 +16,24 @@ public class Vehicle {
     private int speedRight;
     private int fuelQuantity;
     private String fuelType; // choices: gasoline, diesel, kerosene, electrical
-    private String[] fuelTypeOptions = {"zero", "one", "two"}; // should this be static? or assigned a different way?
+    // private String[] fuelTypeOptions = {"zero", "one", "two"}; // should this be static? or assigned a different way?
+    private final static String[] fuelTypeOptions = {"zero", "one", "two"}; // Should this be in the constructor?
     private int acceleration;
     private boolean dashboardWorking;
     private int engineTime;
     private int engineDistance;
-    
+
+    // *** create a no-argument constructor? See: https://stackoverflow.com/a/285187/8210460 ***
+    public Vehicle() {
+        this(5);
+    }
+
+    public Vehicle(int fuelQuantity) {
+        this(fuelQuantity, 5); // `this` calls the constructor with two parameters.
+    }
+
     public Vehicle(int fuelQuantity, int acceleration) {
+        // String[] fuelTypeOptions = {"zero", "one", "two"}; // based on reading I am keeping this out of the constructor.
         this.speedForward=0;
         this.speedUp=0;
         this.speedRight=0;
@@ -33,10 +44,6 @@ public class Vehicle {
         this.dashboardWorking = true; // speed indication on dashboard working/not working
         this.engineTime=0;
         this.engineDistance=0;
-    }
-
-    public Vehicle(int fuelQuantity) {
-        this(fuelQuantity, 5); // `this` calls the constructor with two parameters.
     }
 
     /**
@@ -142,7 +149,7 @@ public class Vehicle {
      * @return boolean return the dashboardWorking
      */
     public boolean isDashboardWorking() { // method reading out dashboard condition
-        if(dashboardWorking==true){
+        if(dashboardWorking){
             System.out.println("The dashboard is working." );
         } else {System.out.println("The dashboard is NOT working." );}
         return dashboardWorking;
@@ -153,7 +160,7 @@ public class Vehicle {
      */
     public void setDashboardWorking(boolean dashboardWorking) {
         this.dashboardWorking = dashboardWorking;
-        if(dashboardWorking==true){
+        if(dashboardWorking){
             System.out.println("The dashboard is now working." );
         } else {System.out.println("The dashboard is now NOT working." );}
     }

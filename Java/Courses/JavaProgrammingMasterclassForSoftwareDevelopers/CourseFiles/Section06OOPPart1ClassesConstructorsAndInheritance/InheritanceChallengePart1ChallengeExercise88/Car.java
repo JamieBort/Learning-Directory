@@ -18,7 +18,7 @@ public class Car extends Vehicle {
     private int milageWheels;
     private boolean serviceEngine;
     private boolean tirePressureLow;
-    
+
     public Car(int fuelQuantity, int acceleration, int numStationaryWindows, int numNonStationaryWindows,
             boolean headLightOnStatus, boolean headLightWorkingStatus, boolean soundSystemWorkingStatus, int numWheels,
             int milageWheels, boolean serviceEngine, boolean tirePressureLow) {
@@ -33,6 +33,7 @@ public class Car extends Vehicle {
         this.serviceEngine = serviceEngine;
         this.tirePressureLow = tirePressureLow;
     }
+
     public Car(int fuelQuantity, int numStationaryWindows, int numNonStationaryWindows, boolean headLightOnStatus,
             boolean headLightWorkingStatus, boolean soundSystemWorkingStatus, int numWheels, int milageWheels,
             boolean serviceEngine, boolean tirePressureLow) {
@@ -52,6 +53,7 @@ public class Car extends Vehicle {
      * @return int return the numStationaryWindows
      */
     public int getNumStationaryWindows() {
+        System.out.println("The number of stationary windows is: " + numStationaryWindows + ".");
         return numStationaryWindows;
     }
 
@@ -59,6 +61,7 @@ public class Car extends Vehicle {
      * @param numStationaryWindows the numStationaryWindows to set
      */
     public void setNumStationaryWindows(int numStationaryWindows) {
+        System.out.println("The NEW number of stationary windows is: " + numStationaryWindows + ".");
         this.numStationaryWindows = numStationaryWindows;
     }
 
@@ -66,6 +69,7 @@ public class Car extends Vehicle {
      * @return int return the numNonStationaryWindows
      */
     public int getNumNonStationaryWindows() {
+        System.out.println("The number of non-stationary windows is: " + numNonStationaryWindows + ".");
         return numNonStationaryWindows;
     }
 
@@ -73,6 +77,7 @@ public class Car extends Vehicle {
      * @param numNonStationaryWindows the numNonStationaryWindows to set
      */
     public void setNumNonStationaryWindows(int numNonStationaryWindows) {
+        System.out.println("The NEW number of non-stationary windows is: " + numNonStationaryWindows + ".");
         this.numNonStationaryWindows = numNonStationaryWindows;
     }
 
@@ -80,6 +85,11 @@ public class Car extends Vehicle {
      * @return boolean return the headLightOnStatus
      */
     public boolean isHeadLightOnStatus() {
+        if (headLightOnStatus) {
+            System.out.println("The headlights are on.");
+        } else {
+            System.out.println("The headlights are NOT on.");
+        }
         return headLightOnStatus;
     }
 
@@ -87,6 +97,11 @@ public class Car extends Vehicle {
      * @param headLightOnStatus the headLightOnStatus to set
      */
     public void setHeadLightOnStatus(boolean headLightOnStatus) {
+        if (headLightOnStatus) {
+            System.out.println("The headlights are NOW on.");
+        } else {
+            System.out.println("The headlights are still NOT on.");
+        }
         this.headLightOnStatus = headLightOnStatus;
     }
 
@@ -94,6 +109,11 @@ public class Car extends Vehicle {
      * @return boolean return the headLightWorkingStatus
      */
     public boolean isHeadLightWorkingStatus() {
+        if (headLightWorkingStatus) {
+            System.out.println("The headlights are working.");
+        } else {
+            System.out.println("The headlights are working.");
+        }
         return headLightWorkingStatus;
     }
 
@@ -101,6 +121,11 @@ public class Car extends Vehicle {
      * @param headLightWorkingStatus the headLightWorkingStatus to set
      */
     public void setHeadLightWorkingStatus(boolean headLightWorkingStatus) {
+        if (headLightWorkingStatus) {
+            System.out.println("The headlights are NOW working.");
+        } else {
+            System.out.println("The headlights are still NOT working.");
+        }
         this.headLightWorkingStatus = headLightWorkingStatus;
     }
 
@@ -150,6 +175,11 @@ public class Car extends Vehicle {
      * @return boolean return the serviceEngine
      */
     public boolean isServiceEngine() {
+        if (serviceEngine) {
+            System.out.println("The engine needs to be serviced.");
+        } else {
+            System.out.println("The engine does not need to be serviced.");
+        }
         return serviceEngine;
     }
 
@@ -157,6 +187,11 @@ public class Car extends Vehicle {
      * @param serviceEngine the serviceEngine to set
      */
     public void setServiceEngine(boolean serviceEngine) {
+        if (serviceEngine) {
+            System.out.println("The engine no longer needs to be serviced.");
+        } else {
+            System.out.println("The engine still needs to be serviced.");
+        }
         this.serviceEngine = serviceEngine;
     }
 
@@ -164,6 +199,11 @@ public class Car extends Vehicle {
      * @return boolean return the tirePressureLow
      */
     public boolean isTirePressureLow() {
+        if (tirePressureLow) {
+            System.out.println("The tire pressure is low.");
+        } else {
+            System.out.println("The tire pressure is NOT low.");
+        }
         return tirePressureLow;
     }
 
@@ -171,6 +211,11 @@ public class Car extends Vehicle {
      * @param tirePressureLow the tirePressureLow to set
      */
     public void setTirePressureLow(boolean tirePressureLow) {
+        if (tirePressureLow) {
+            System.out.println("The tire pressure is no longer low.");
+        } else {
+            System.out.println("The tire pressure is still low.");
+        }
         this.tirePressureLow = tirePressureLow;
     }
 

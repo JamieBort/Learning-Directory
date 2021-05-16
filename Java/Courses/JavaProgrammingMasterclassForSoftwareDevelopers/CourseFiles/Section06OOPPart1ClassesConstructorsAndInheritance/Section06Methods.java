@@ -77,9 +77,9 @@ public class Section06Methods {
         Vehicle vehicle2 = new Vehicle(6, 9);
         // vehicle.abc();
 
-        Car car1 = new Car(4);
-        Car car2 = new Car(8, 9);
-        // car.abc();
+        // Car car1 = new Car(4);
+        // Car car2 = new Car(8, 9);
+        // // car.abc();
 
         // Mustang mustang1 = new Mustang();
         // Mustang mustang2 = new Mustang();
