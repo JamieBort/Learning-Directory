@@ -1,4 +1,22 @@
 computer
+    computer has a motherboard
+    computer has a monitor 
+        monitor class has a resolution
+    computer has a case 
+        case has a Dimensions
+
+---
+
+Create a class that is comprised of the case, the monitor and the motherboard.
+    Instatiate a motherboard, instatiate a monitor, and instantiate a case.
+    
+    ~~fields~~:
+        ~~private motherboard~~
+        ~~private monitor~~
+        ~~private case~~
+
+---
+
     computer has a motherboard // create this as a class
         create fields as usual
             private String ...
@@ -46,3 +64,11 @@ computer
         getters and setters as usual
 
 Create a class that is comprised of the case, the monitor and the motherboard.
+    Instatiate a motherboard, instatiate a monitor, and instantiate a case.
+
+    Instatiate pc and pass in the three classes (motherboard, monitor, case);
+
+    ~~fields~~:
+        ~~private motherboard~~
+        ~~private monitor~~
+        ~~private case~~

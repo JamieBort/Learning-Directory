@@ -12,7 +12,7 @@ Section07OOPPart2CompositionEncapsulationAndPolymorphism
 ### 91 - Composition
 91Composition
 Composition91/
-Composition_91.java
+~~Composition_91.java~~
 
 * Car is a vehicle ( because it extends from vehicle ) inheritance relationship
 * `inheritance relationship`/`extends`/`is a`
@@ -24,12 +24,30 @@ a computer has a monitor
 a computer has a mouse
 a computer has a keyboard
 
+Notes started - need to be cleaned up.
+Also, not done taking notes.
+
 ### 92 - 
 
-### 93 - 
-.
-.
-.
+
+### Coding Exercise 37
+
+### 93 - Encapuslation
+Encapuslation93/
+
+
+### 94 - 
+
+### Coding Exercise 38
+
+### 95 - Polymorphism
+Polymorphism95/
+
+### 96
+
+### Coding Exercise 39
+
+### 97
 
 ### 98
 
