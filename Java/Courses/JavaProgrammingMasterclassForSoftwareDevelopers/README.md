@@ -8,16 +8,26 @@
 3. Continue to take notes on the videos.
 
 ## Status
-20210428
-Starting where I left off.
+See the various markdown files in the [WhatIveLearned](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) directory for
 
-Before 20210428
-Left off here on this exercise: 
-* /Users/jamiebort/Documents/DevFiles/LearningDirectory/Java/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section08Arrays_Java_Inbuilt_Lists_Autoboxing_And_Unboxing/107ArrayListChallengePart1
+* the status of which videos I've watched,
+* the status of which videos I have not watched,
+* the status of which videos I've taken notes on,
+* the status of which videos I have not taken notes on,
+* the status of which challenges I've completed,
+* the status of which challenges I've started, and
+* the status of which challenges I have not completed.
 
-**Last video** [watched](https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3323790#overview).
+~~20210428
+Starting where I left off.~~
 
-Also, started to review the previous videos so that I could take proper notes. I completed video 26. And took notes in the [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) file.
+~~Before 20210428
+Left off here on this exercise:~~
+* ~~/Users/jamiebort/Documents/DevFiles/LearningDirectory/Java/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section08Arrays_Java_Inbuilt_Lists_Autoboxing_And_Unboxing/107ArrayListChallengePart1~~
+
+~~**Last video** [watched](https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/3323790#overview).~~
+
+~~Also, started to review the previous videos so that I could take proper notes. I completed video 26. And took notes in the [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned) file.~~
 
 ## A description of the directories and files in this directory
 * [CourseFiles](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles) - my working files for this course. This directory holds the course work that I am creating for this Udemy course.
