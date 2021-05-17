@@ -34,7 +34,8 @@ public class Main {
         // section09methods.printing();
 
         Section07Methods section07methods = new Section07Methods();
-        section07methods.myPC();
+        // section07methods.myPC();
+        section07methods.myPolymorphism();
 
         
 

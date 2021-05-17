@@ -27,28 +27,47 @@ a computer has a keyboard
 Notes started - need to be cleaned up.
 Also, not done taking notes.
 
-### 92 - 
+Done watching video and following along with `LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section07OOPPart2CompositionEncapulationAndPolymorphism/Composition91/`
 
+### 92 - Composition Part 2 (+Challenge Exercise)
+Coding callenge not yet started.
 
 ### Coding Exercise 37
+Not yet started.
 
 ### 93 - Encapuslation
 Encapuslation93/
+* Mechanism protects members from external access.
+* `private` keyword vs `public` keyword
+* also need to use `getters` and `setters`.
+* put validation in constructor to make sure fields are assigned properly and as expected.
+* field names can be changed without effecting the classes that use this encapsulated class, so long as the methods names in this class are not changed.
 
 
-### 94 - 
+### 94 - Encapuslation (+Challenge Exercise)
 
 ### Coding Exercise 38
+Not yet started.
 
 ### 95 - Polymorphism
 Polymorphism95/
+* "mechanism allows actions to act differently based on the actual object that the action is being performed on"
+* associated with the `@Override` keyword
+* In this lesson we have (see: `/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section07OOPPart2CompositionEncapulationAndPolymorphism/Polymorphism95/`):
+    * a Movie class with a `plot()` method
+    * five other classes that extend `Movie`
+        * four of these also have a `plot()` method.
 
-### 96
+### 96 - Polymorphism (+Challenge Exercise)
+Coding callenge not yet started.
 
-### Coding Exercise 39
+### Coding Exercise 39: Polymorphism
+Coding callenge not yet started.
 
 ### 97
+Coding callenge not yet started.
 
 ### 98
 
 ### Coding Exercise 40: Bill's Burgers
+Coding callenge not yet started.
