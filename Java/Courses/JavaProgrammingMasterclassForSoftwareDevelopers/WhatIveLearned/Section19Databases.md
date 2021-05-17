@@ -147,8 +147,11 @@ Also, **I didn't take notes nor watch after 3:45.**
 Copied the contents of [this directory](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL) into [new new directory](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/333SQLOrderByAndJoins).
 
 `SELECT * FROM albums ORDER BY name;` displays alphabetically.
+
 `SELECT * FROM albums ORDER BY name COLLATE NOCASE;` displays alphabetically & ignorse case.
+
 `SELECT * FROM albums ORDER BY name COLLATE NOCASE DESC;` displays alphabetically & ignorse case & reverse order.
+
 `SELECT * FROM albums ORDER BY artist, name COLLATE NOCASE;`
 
 ### 334 - More complex Joins
