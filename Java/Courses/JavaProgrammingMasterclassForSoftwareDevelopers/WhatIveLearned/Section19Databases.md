@@ -65,6 +65,14 @@ Help Man Pages: `.help`
 `sqlite3 test.db` to open up the database in the command line interface.
 
 `.databases` lists the databases
+Result if no databases:
+```
+sqlite> .databases
+seq  name             file                                                      
+---  ---------------  ----------------------------------------------------------
+0    main                                                                       
+sqlite> 
+```
 
 `.headers on` when in a database will display the headers when the `SELECT` command is executed.
 
