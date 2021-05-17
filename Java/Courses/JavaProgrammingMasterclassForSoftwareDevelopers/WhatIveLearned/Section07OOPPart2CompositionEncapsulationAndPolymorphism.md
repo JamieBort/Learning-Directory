@@ -57,6 +57,7 @@ Polymorphism95/
     * a Movie class with a `plot()` method
     * five other classes that extend `Movie`
         * four of these also have a `plot()` method.
+* assigning different functionality depending on the class called/created
 
 ### 96 - Polymorphism (+Challenge Exercise)
 Coding callenge not yet started.

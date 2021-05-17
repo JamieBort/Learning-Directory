@@ -86,24 +86,26 @@ Done with video.
 
 ### 31 - The char and boolean Primitive Data Types
 
-### 32
+### 32 - Primitive Types Recap and the String Data Type
 
-### 33
+### 33 - Operators, Operands and Expressions
 
-### 34
+### 34 - Abbreviating Operators
 
-### 35
+### 35 - if-then Statement
 
-### 36
+### 36 - Logical and Operator
 
-### 37
+### 37 - Logical OR Operator
 
-### 38
+### 38 - Assignment Operator VS Equals to Operator
 
-### 39
+### 39 - Ternary Operator
+Ternary_Operator_39.java
+Not much too it.
 
-### 40
+### 40 - Operator Precedence and Operator Challenge
 
-### 41
+### 41 - First Steps Summary
 
-### 42
+### 42 - End of Remaster
