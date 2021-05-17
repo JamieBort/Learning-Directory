@@ -38,17 +38,15 @@ public class Section07Methods {
 
     // An example of Encapuslation (has not been created yet).
 
-    public void myPolymorphism() { // An example of Polymorphism.
+    public void myPolymorphism() { // An example of Polymorphism. Used with the randomMovie() method below.
         System.out.println("I am in my myPolymorphism method.");
-
         for (int i = 1; i < 11; i++) {
             Movie movie = randomMovie();
             System.out.println("Movie #: " + i + " : " + movie.getName() + "\n" + "Plot: " + movie.plot() + "\n");
         }
-
     }
 
-    public static Movie randomMovie() { // used for Polymorphism video.
+    public static Movie randomMovie() { // used for Polymorphism video and the myPolymorphism() method above.
         int randomNumber = (int) (Math.random() * 5) + 1; // will return a number between 1 and 5.
         System.out.println("The random number generated is: " + randomNumber);
         switch (randomNumber) {

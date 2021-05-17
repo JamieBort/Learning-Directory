@@ -8,9 +8,11 @@ import Section07OOPPart2CompositionEncapulationAndPolymorphism.*;
 public class Main {
 
     public static void main(String[] args) {
-        // Section03Methods section03methods = new Section03Methods();
-        // section03methods.Floating_Point_Precision_and_a_Challenge_30();
+        Section03Methods section03methods = new Section03Methods();
+        // section03methods.Primitive_Types_Challenge_28();
         // section03methods.float_and_double_Primitive_Types_29();
+        // section03methods.Floating_Point_Precision_and_a_Challenge_30();
+        section03methods.Ternary_Operator_39();
 
         // Section04Methods section04methods = new Section04Methods();
         // // section04methods.Seconds_and_Minutes_Challenge_60(2,4);
@@ -33,9 +35,9 @@ public class Main {
         // section09methods.The_Switch_Statement_Challenge_Exercise_63();
         // section09methods.printing();
 
-        Section07Methods section07methods = new Section07Methods();
-        // section07methods.myPC();
-        section07methods.myPolymorphism();
+        // Section07Methods section07methods = new Section07Methods();
+        // // section07methods.myPC();
+        // section07methods.myPolymorphism();
 
         
 

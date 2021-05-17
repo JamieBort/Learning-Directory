@@ -14,8 +14,7 @@ public class Section03Methods {
         Example01.float_and_double_Primitive_Types();
     }
 
-    public void Number28() {
-
+    public void Primitive_Types_Challenge_28(){
         // byte byteValue = 127;
         byte byteValue = 10;
         // short shortValue = 32767;
@@ -30,6 +29,13 @@ public class Section03Methods {
         threeParameterVariable.primative_types_challenge(byteValue, shortValue, intValue);
         fourParameterVariable.primative_types_challenge(byteValue, shortValue, intValue, longValue);
 
+    }
+
+    public void Ternary_Operator_39(){
+        System.out.println("Inside Ternary_Operator_39");
+        Ternary_Operator_39 ternaryOperator = new Ternary_Operator_39();
+        // ternaryOperator.myPrint();
+        ternaryOperator.ternaryMethod();
     }
 
 }
