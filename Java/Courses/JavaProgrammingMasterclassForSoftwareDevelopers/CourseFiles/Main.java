@@ -34,8 +34,7 @@ public class Main {
         // section09methods.printing();
 
         Section07Methods section07methods = new Section07Methods();
-        // section07methods.myPrintMethod();
-        section07methods.myDimensions();
+        section07methods.myPC();
 
         
 

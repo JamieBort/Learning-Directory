@@ -1,39 +1,39 @@
 package Section07OOPPart2CompositionEncapulationAndPolymorphism.Composition91;
 
-public class Dimensions {
+public class Resolution {
     private int width;
     private int height;
-    private int depth;
-
-    public Dimensions(int width, int height, int depth) {
+    public Resolution(int width, int height) {
         this.width = width;
         this.height = height;
-        this.depth = depth;
     }
 
+    /**
+     * @return int return the width
+     */
     public int getWidth() {
         return width;
     }
 
+    /**
+     * @param width the width to set
+     */
     public void setWidth(int width) {
         this.width = width;
     }
 
+    /**
+     * @return int return the height
+     */
     public int getHeight() {
         return height;
     }
 
+    /**
+     * @param height the height to set
+     */
     public void setHeight(int height) {
         this.height = height;
     }
 
-    public int getDepth() {
-        return depth;
-    }
-
-    public void setDepth(int depth) {
-        this.depth = depth;
-    }
-
-    
 }
