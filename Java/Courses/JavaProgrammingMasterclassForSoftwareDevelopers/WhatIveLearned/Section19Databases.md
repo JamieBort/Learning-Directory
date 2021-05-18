@@ -64,7 +64,8 @@ Help Man Pages: `.help`
 
 `sqlite3 test.db` to open up the database in the command line interface.
 
-`.databases` lists the databases
+`.databases` lists the databases.
+
 Result if no databases:
 ```
 sqlite> .databases
@@ -142,29 +143,147 @@ COMMIT;
 `.exit`
 
 ### 332 - Querying Data With SQL
-See [this README](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL) file for what I have done for this video.
+See [this](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL) README.md file for what I have done for this video. 
+
+Navigate to that file to see how I created the database for the following video(s).
 
 Other things of note:
 `ID column` and `_id` mentioned here.
 
 ### 333 - SQL Order by and Joins
-**Revisit this video at 3:45 to complete the challenges - there are at least 2.**
+For the purpose of this video I copied the contents of the directory for the [previous video](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL) and pasted them into the directory for [this video](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/333SQLOrderByAndJoins).
 
-Also, **I didn't take notes nor watch after 3:45.** 
+`SELECT * FROM artists;` displays based on the primary key.  it's the same every time. 
 
-Copied the contents of [this directory](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL) into [new new directory](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/333SQLOrderByAndJoins).
+`ORDER BY` clause specifies a different order.
 
 `SELECT * FROM albums ORDER BY name;` displays alphabetically.
 
-`SELECT * FROM albums ORDER BY name COLLATE NOCASE;` displays alphabetically & ignorse case.
+`SELECT * FROM albums ORDER BY name COLLATE NOCASE;` displays alphabetically & ignores case.
 
-`SELECT * FROM albums ORDER BY name COLLATE NOCASE DESC;` displays alphabetically & ignorse case & reverse order.
+`SELECT * FROM albums ORDER BY name COLLATE NOCASE DESC;` displays alphabetically & ignores case & reverse order.
 
 `SELECT * FROM albums ORDER BY artist, name COLLATE NOCASE;`
 
+Challenge (the first challenge): list all of the songs from the same album so that they appear in track order.
+I first ran `.schema` to see what the tables looked like.
+```
+CREATE TABLE songs (_id INTEGER PRIMARY KEY, track INTEGER, title TEXT NOT NULL, album INTEGER);
+CREATE TABLE albums (_id INTEGER PRIMARY KEY, name TEXT NOT NULL, artist INTEGER);
+CREATE TABLE artists (_id INTEGER PRIMARY KEY, name TEXT NOT NULL);
+```
+
+`songs` is the only table with track info.
+
+Solution:
+`SELECT * FROM songs ORDER BY album, track;`
+
+Mini-challenge (the second challenge): 
+The last record from the query `SELECT * FROM songs ORDER BY album, track;` is:
+```
+_id|track|title|album
+5021|11|Things Ain't Like They Used To Be|439
+```
+Suppose you want to find the name of the band/group for that album. You'd have to run these two queries:
+
+`SELECT * FROM albums WHERE _id = 439;`
+
+Result:
+```
+_id|name|artist
+439|Attack & Release|133
+```
+
+and `SELECT * FROM artists WHERE _id = 133;`
+
+Result:
+```
+_id|name
+133|Black Keys
+```
+
+In order to find "Black Keys" as the name.
+Alternatively use `JOIN`.
+
+Looking at a screenshot from the video I see that `album` in the `songs` table is the `PRIMARY KEY` in the `albums` table.
+And that `artist` in the `albums` table is the `PRIMARY KEY` in the `artists` table.
+```
+songs (_id INTEGER PRIMARY KEY, track INTEGER, title TEXT NOT NULL, album INTEGER);
+albums (_id INTEGER PRIMARY KEY, name TEXT NOT NULL, artist INTEGER);
+artists (_id INTEGER PRIMARY KEY, name TEXT NOT NULL);
+```
+
+With this info we can (and will) use the `JOIN`.
+`SELECT songs.track, songs.title, albums.name FROM songs JOIN albums ON songs.album = albums._id;`
+
+The above is equivelent to:
+`SELECT songs.track, songs.title, albums.name FROM songs INNER JOIN albums ON songs.album = albums._id;`
+
+These are the columns I want to display: songs.track, songs.title, and albums.name
+track and title are in the songs table, hence songs.track and songs.title
+name is in the albums table, hence albums.name
+the songs table is joined with the albums table where the values in the album column (of the songs table) match the values in the _id column (of the albums table).
+Note: since track and title  are in only one table, "songs." could have been left off in songs.track and songs.title
+
 ### 334 - More complex Joins
+Continuation of the last video.
+`SELECT albums.name, songs.track, songs.title FROM songs INNER JOIN albums ON songs.album = albums._id ORDER BY albums.name, songs.track;`
+
+Mini-challenge: 
+Produce a list of all artists, with their albums, in alphabetical order of artist name.
+SELECT * WHERE <> JOIN <> ORDER BY name;
+`SELECT artists.name, albums.name FROM albums 
+INNER JOIN artists ON albums.artist = albums._id 
+ORDER BY artists.name;`
+
+`SELECT artists.name, albums.name, songs.track, songs.title FROM songs 
+INNER JOIN albums ON songs.album = albums._id 
+INNER JOIN artists ON albums.artist = artists._id 
+ORDER BY artists.name, albums.name, songs.track;`
+
+Using `WHERE` clause:
+`SELECT artists.name, albums.name, songs.track, songs.title FROM songs 
+INNER JOIN albums ON songs.album = albums._id 
+INNER JOIN artists ON albums.artist = artists._id
+WHERE albums._id = 19 
+ORDER BY artists.name, albums.name, songs.track;`
 
 ### 335 - Wildcards Queries and Views
+Wildcard with 'doctor':
+`SELECT artists.name, albums.name, songs.track, songs.title FROM songs 
+INNER JOIN albums ON songs.album = albums._id 
+INNER JOIN artists ON albums.artist = artists._id
+WHERE songs.title LIKE "%doctor%"
+ORDER BY artists.name, albums.name, songs.track;`
+
+Creating a view:
+`CREATE VIEW artist_list AS
+SELECT artists.name, albums.name, songs.track, songs.title FROM songs 
+INNER JOIN albums ON songs.album = albums._id 
+INNER JOIN artists ON albums.artist = artists._id
+ORDER BY artists.name, albums.name, songs.track;`
+
+Now verify it is party of the database by running `.schema`:
+```
+sqlite> .schema
+CREATE TABLE songs (_id INTEGER PRIMARY KEY, track INTEGER, title TEXT NOT NULL, album INTEGER);
+CREATE TABLE albums (_id INTEGER PRIMARY KEY, name TEXT NOT NULL, artist INTEGER);
+CREATE TABLE artists (_id INTEGER PRIMARY KEY, name TEXT NOT NULL);
+CREATE VIEW artist_list AS
+SELECT artists.name, albums.name, songs.track, songs.title FROM songs 
+INNER JOIN albums ON songs.album = albums._id 
+INNER JOIN artists ON albums.artist = artists._id
+ORDER BY artists.name, albums.name, songs.track;
+sqlite> 
+```
+
+To use this view run a `SELECT` query:
+`SELECT * FROM artist_list;`
+
+Benefits of views:
+* security **watch video again at 10:00 min. for these notes**
+
+**watch video again for notes on deleting views**
 
 ### 337 - JDBC and SQLite GUI Browser
 Java Database Connectivity
@@ -175,3 +294,9 @@ Already installed the driver when I followed this course 1+ year(s) ago. Also fo
 
 ### 338 - Creating Databases with JDBC in Java
 338CreatingDatabasesWithJDBCInJava
+
+.
+.
+.
+
+### 359 - Handling Updates

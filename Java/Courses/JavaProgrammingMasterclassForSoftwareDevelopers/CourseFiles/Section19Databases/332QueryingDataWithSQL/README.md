@@ -1,14 +1,17 @@
 # 332 Querying Data With SQL
 
-The second supplied "file" was actually this link: https://www.sqlite.org/autoinc.html
+The second supplied "file" for this video was actually this link: https://www.sqlite.org/autoinc.html
 
-Commands I am running for [this section](https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/6060828#overview) of the course.
+It covers incrementing.
 
-First obtained the zipped music file from the supplied files [here](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles/Section19Databases/332QueryingDataWithSQL/music.zip).
+~~Commands I am running for [this section](https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/6060828#overview) of the course.~~
 
-Then navigated to the location of the music file:
+1. I first obtained the zipped music file from the supplied files [here](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles/Section19Databases/332QueryingDataWithSQL/music.zip).
+
+2. Then in Terminal I navigated to the location of the music file:
 `cd Documents/DevFiles/personal_projects/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL/`
 
+3. I then ran this
 `sqlite3 music.db`
 
 Result:
@@ -37,3 +40,10 @@ README.md      music-backup1  music.db       music.zip
 `INSERT INTO artists(name) VALUES("Beyonce");`
 
 `SELECT * FROM artists WHERE name = "Beyonce";`
+
+Result:
+```
+sqlite> SELECT * FROM artists WHERE name = "Beyonce";
+202|Beyonce
+sqlite> 
+```
