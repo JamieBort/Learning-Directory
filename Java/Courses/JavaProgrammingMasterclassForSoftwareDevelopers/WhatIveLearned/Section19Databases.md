@@ -460,6 +460,8 @@ Using this https://stackoverflow.com/a/54535301/8210460 I did the following to u
 4. Select the `+` symbol.
 5. Navigate to and select the JAR file that I need to add. In this case that file is located in the `/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles/Section19Databases/338CreatingDatabasesWithJDBCInJava` directory. And is called `sqlite-jdbc-3.30.1.jar`.
 
+**Note:** Created the `TestDB.java` file for this. Then replaced it with `TestDB_Video_338.java`.
+
 Now it seems to work just fine. 
 Also, per the video, the `testjava.db` database in the `/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles/Section19Databases/338CreatingDatabasesWithJDBCInJava` directory.
 
@@ -472,7 +474,27 @@ Open Database in the Databse Browser.
 3. Navigate to `/Users/jamiebort/Documents/DevFiles/personal_projects/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/CreatingDatabasesWithJDBCInJava338/testjava.db` and select it.
 4. 
 
-### 339 - 
+### 339 - JDBC Insert, Update, Delete
+JDBCInsertUpdateDelete339
+`TestDB_Video_339.java` created for this video. And it was copied from `TestDB_Video_338.java`.
+
+Received this error:
+```
+Something went wrong: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table contacts already exists)
+```
+
+Because the table already exists. And 
+```
+statement.execute("CREATE TABLE contacts (name TEXT, phone INTEGER, email TEXT)");
+```
+is trying to create it.
+
+The rest of the video is pretty straight forward.
+See the `statement.execute()` methods in the `TestDB_Video_339.java` file.
+
+**Come back to re-watch starting from 10:00 min. And to take more notes.**
+
+### 340 - 
 
 .
 .

@@ -41,7 +41,11 @@ public class Main {
         // section07methods.myPolymorphism();
 
         Section19Methods section19methods = new Section19Methods();
-        section19methods.TestDB();
+
+        // This "section19methods.TestDB_Video_338();" is throwing errors (as expected.)
+        // section19methods.TestDB_Video_338();
+
+        section19methods.TestDB_Video_339();
 
     }
 }
