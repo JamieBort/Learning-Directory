@@ -463,6 +463,14 @@ Using this https://stackoverflow.com/a/54535301/8210460 I did the following to u
 Now it seems to work just fine. 
 Also, per the video, the `testjava.db` database in the `/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/SuppliedFiles/Section19Databases/338CreatingDatabasesWithJDBCInJava` directory.
 
+**Come back to make more comprehensive notes.**
+
+At around 12:45 minutes we start using the Database Browser again. (from video 337 I **believe**.)
+Open Database in the Databse Browser.
+1. Open or navigate to the Databse Browser app.
+2. Select `Open Database` button at top.
+3. Navigate to `/Users/jamiebort/Documents/DevFiles/personal_projects/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/CreatingDatabasesWithJDBCInJava338/testjava.db` and select it.
+4. 
 
 ### 339 - 
 
