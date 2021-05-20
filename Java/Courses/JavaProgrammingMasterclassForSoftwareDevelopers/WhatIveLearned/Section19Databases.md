@@ -143,7 +143,9 @@ COMMIT;
 `.exit`
 
 ### 332 - Querying Data With SQL
-See [this](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL) README.md file for what I have done for this video. 
+
+See [this README.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/QueryingDataWithSQL332/README.md)
+~~See [this](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL) README.md~~ file for what I have done for this video. 
 
 Navigate to that file to see how I created the database for the following video(s).
 
@@ -151,7 +153,7 @@ Other things of note:
 `ID column` and `_id` mentioned here.
 
 ### 333 - SQL Order by and Joins
-See also: https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/333SQLOrderByAndJoins/README.md
+See also: ~~https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/333SQLOrderByAndJoins/README.md~~ https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/SQLOrderByAndJoins333/README.md
 
 For the purpose of this video I copied the contents of the directory for the [previous video](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/332QueryingDataWithSQL) and pasted them into the directory for [this video](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/333SQLOrderByAndJoins).
 
@@ -492,13 +494,32 @@ is trying to create it.
 The rest of the video is pretty straight forward.
 See the `statement.execute()` methods in the `TestDB_Video_339.java` file.
 
+We perform CRUD operations (Create, Read, Update, and Delete) using the execute() method in Java.
+
 **Come back to re-watch starting from 10:00 min. And to take more notes.**
 
 ### 340 - .executeQuery() and using Constants
 executeQueryAndUsingConstants340
 
+psfs public static final string
 
-### 341 - 
+We create a method to Create a record/entry.
+~~We perform CRUD operations (Create, Read, Update, and Delete) using the execute() method in Java.~~
+
+**Come back to re-watch video. And to take more notes.**
+
+### 341 - The Music SQLite Database
+341TheMusicSQLiteDatabase
+TheMusicSQLiteDatabase341
+The_Music_SQLite_Database_341
+
+psfs public static final string again
+
+Wrote the code. But could benefit from watching the video to see what I missed from his lecture.
+
+**Come back to re-watch video. And to take more notes.**
+
+### 342 - Write...
 
 .
 .
