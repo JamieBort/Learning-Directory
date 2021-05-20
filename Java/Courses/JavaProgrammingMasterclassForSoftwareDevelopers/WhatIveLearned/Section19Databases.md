@@ -494,7 +494,11 @@ See the `statement.execute()` methods in the `TestDB_Video_339.java` file.
 
 **Come back to re-watch starting from 10:00 min. And to take more notes.**
 
-### 340 - 
+### 340 - .executeQuery() and using Constants
+executeQueryAndUsingConstants340
+
+
+### 341 - 
 
 .
 .
