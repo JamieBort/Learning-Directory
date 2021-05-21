@@ -46,7 +46,9 @@ public class Main {
         // section19methods.TestDB_Video_338();
         // section19methods.TestDB_Video_339();
         // section19methods.TestDB_Video_340();
-        section19methods.Datasource();
+        // section19methods.Datasource(); // don't use this one.
+        // section19methods.The_Music_SQLite_Database_341();
+        section19methods.Write_Java_Query_For_Artists_342();
 
     }
 }

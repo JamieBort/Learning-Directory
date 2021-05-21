@@ -6,10 +6,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-// *** This class is called Datasource in the video. ***
-public class The_Music_SQLite_Database_341 {
+public class Datasource341 {
 
     public static final String DB_NAME = "music.db";
+    // public static final String DB_NAME = "dummyDataBase.db";
     // *** This directory (below) is where the database (above) will be located. ***
     public static final String CONNECTION_STRING = "jdbc:sqlite:/Users/jamiebort/Documents/DevFiles/personal_projects/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/TheMusicSQLiteDatabase341/"
             + DB_NAME;

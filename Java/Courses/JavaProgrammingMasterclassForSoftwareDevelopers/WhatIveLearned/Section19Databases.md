@@ -476,6 +476,8 @@ Open Database in the Databse Browser.
 3. Navigate to `/Users/jamiebort/Documents/DevFiles/personal_projects/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section19Databases/CreatingDatabasesWithJDBCInJava338/testjava.db` and select it.
 4. 
 
+**What did we create in this file?** List it here.
+
 ### 339 - JDBC Insert, Update, Delete
 JDBCInsertUpdateDelete339
 `TestDB_Video_339.java` created for this video. And it was copied from `TestDB_Video_338.java`.
@@ -496,6 +498,8 @@ See the `statement.execute()` methods in the `TestDB_Video_339.java` file.
 
 We perform CRUD operations (Create, Read, Update, and Delete) using the execute() method in Java.
 
+**What did we create in this file?** List it here.
+
 **Come back to re-watch starting from 10:00 min. And to take more notes.**
 
 ### 340 - .executeQuery() and using Constants
@@ -506,6 +510,8 @@ psfs public static final string
 We create a method to Create a record/entry.
 ~~We perform CRUD operations (Create, Read, Update, and Delete) using the execute() method in Java.~~
 
+**What did we create in this file?** List it here.
+
 **Come back to re-watch video. And to take more notes.**
 
 ### 341 - The Music SQLite Database
@@ -513,13 +519,32 @@ We create a method to Create a record/entry.
 TheMusicSQLiteDatabase341
 The_Music_SQLite_Database_341
 
+`TheMusicSQLiteDatabase341` is the `model` folder in the video.
+
 psfs public static final string again
 
 Wrote the code. But could benefit from watching the video to see what I missed from his lecture.
 
+**What did we create in this file?** List it here.
+Created `Datasource341` file.
+
 **Come back to re-watch video. And to take more notes.**
 
-### 342 - Write...
+### 342 - Write Java Query for Artists
+WriteJavaQueryForArtists342
+Write_Java_Query_For_Artists_342
+Write_Java_Query_For_Artists342.java
+
+`WriteJavaQueryForArtists342` is the `model` folder in the video.
+
+**What did we create in this file?** List it here. And annotate the code too (create comments explaining what is happening).
+Created `Artist`, `Album`, and `Song` files.
+Edited the `Datasource342` file. -> added `public List<Artist> queryArtist()`.
+A lot done in that file. Revisit it. Particularly at 4:00 and/or 5:00 minutes.
+At 8:45 minuts he refactored the `Datasource342` file. I didn't do this (yet). I may not end up doing it. And/or I might refactor it for `Datasource343` to be used in the next video/directory.
+
+
+### 343 - Executing SQL in DB Browser.
 
 .
 .
