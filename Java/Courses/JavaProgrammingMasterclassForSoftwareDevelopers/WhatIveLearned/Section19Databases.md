@@ -545,9 +545,37 @@ At 8:45 minuts he refactored the `Datasource342` file. I didn't do this (yet). I
 
 
 ### 343 - Executing SQL in DB Browser.
+Executing SQL in DB Browser
 
-.
-.
-.
+### 344 - Query Albums by Artist Method
+
+### 345 - 
+
+### 346 - 
+
+### 347 - 
+
+### 348 - 
+
+### 349 - 
+
+### 350 - 
+
+### 351 - 
+
+### 352 - 
+
+### 353 - 
+
+### 354 - 
+
+### 355 - 
+
+### 356 - 
+
+### 357
+
+### 358
+
 
 ### 359 - Handling Updates
