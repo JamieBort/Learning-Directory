@@ -7,8 +7,14 @@
 Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing
 
 ### 99 Arrays
+
+Basic integer arrays & string arrays.
+`int []` and `double []`.
+
 Introduces `new Scanner(System.in)` method.
+
 ### 100 Arrays (Challenge Exercise)
+Arrays_Challenge_Exercise_100.java
 Not Started.
 ### Coding Exercise 41: Sorted Array
 Not Started.
@@ -18,9 +24,24 @@ Not Started.
 Not Started.
 ### 104
 Not Started.
+See `READMEList_And_ArrayList.md` found here:
+/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing/ListAndArrayList/READMEList_And_ArrayList.md
+
 ### Coding Exercise 43: 
 Not Started.
+See `READMEList_And_ArrayList.md` found here:
+/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing/ListAndArrayList/READMEList_And_ArrayList.md
+
 ### 105
+See `READMEList_And_ArrayList.md` found here:
+/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing/ListAndArrayList/READMEList_And_ArrayList.md
+
+### 106
+See `READMEList_And_ArrayList.md` found here:
+/LearningDirectory/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing/ListAndArrayList/READMEList_And_ArrayList.md
+
+### 107
+
 ### 108
 Not Started.
 ### 109
