@@ -12,21 +12,36 @@
 
 package Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing;
 
+import java.util.Arrays;
+
 public class Arrays_Challenge_Exercise_100 {
     // int[] givenArray = {106, 26, 81, 5, 15};
     int pointer1;
     int pointer2;
     // int[] modifiedArray = new int[givenArray.length];
 
-    public int[] sortArrayToDescendingOrder(int[] anArray) {
-        int[] modifiedArray = new int[anArray.length];
-        // modifiedArray[0]=106;
-        modifiedArray[0]=myMax(anArray);
+    public int[] sortArrayToDescendingOrder(int[] anotherArray) {
+        int[] modifiedArray = new int[anotherArray.length];
 
-        // modifiedArray={106, 26, 81, 5, 15};
-        // for(int element : anArray) System.out.println(element);
-        // int[] modifiedArray = {106, 26, 81, 5, 15};
-        
+        // // will need to cycle through so that next
+        // modifiedArray[1]=myMax(anotherArray);
+        // modifiedArray[0] = myMax(anotherArray); // should be 106 here
+
+        // // now we reduce:
+        // anotherArray=removeElementFromArray(anotherArray);
+
+        // modifiedArray[1] = myMax(anotherArray); // should be 81 here
+
+        int length = anotherArray.length;
+        int tally = length;
+        // while(length>1){
+        while (tally - length) { // See https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing.md#100-arrays-challenge-exercise for how to address this error.
+            modifiedArray[tally - length] = myMax(anotherArray);
+            anotherArray = removeElementFromArray(anotherArray);
+            System.out.println("tally: " +tally + " & length: " + length);
+            // length--;
+        }
+
         System.out.println("The elements of the modifiedArray are:");
         for (int element : modifiedArray)
             System.out.println(element);
@@ -35,22 +50,49 @@ public class Arrays_Challenge_Exercise_100 {
 
     // this finds the highest integer
     public int myMax(int[] anArray) {
-        int i;
+        System.out.println("The original:");
+        for (int element : anArray) {
+            System.out.println(element);
+        }
+
+        // the logic for finding the max of anArray[]
+        int index;
         int max = anArray[0];
-        for (i = 1; i < anArray.length; i++) {
-            if (anArray[i] > max) {
-                max = anArray[i];
+        // int max = 0;
+        for (index = 1; index < anArray.length; index++) {
+            if (anArray[index] > max) {
+                max = anArray[index];
             }
         }
+
+        // // removing the first entry (since it's the max) and reassigning it to the
+        // same array
+        // anArray = Arrays.copyOfRange(anArray, 1, anArray.length);
+        // System.out.println("check here after:");
+        // for (int element : anArray){
+        // System.out.println(element);
+        // }
+
         System.out.println("the max is: " + max);
         return max;
     }
 
-    // sortArrayToDescendingOrder(givenArray);
+    // removing the first entry (since it's the max) and reassigning it to the same
+    // array
+    public int[] removeElementFromArray(int[] someArray) {
+        System.out.println("someArray before:");
+        for (int element : someArray) {
+            System.out.println(element);
+        }
 
-    // public void myPrintMethod() {
-    // System.out.println("hello from Arrays_Challenge_Exercise_100");
-    // System.out.println("givenArray: " + givenArray);
-    // for(int element : givenArray) System.out.println(element);
-    // }
+        someArray = Arrays.copyOfRange(someArray, 1, someArray.length);
+
+        System.out.println("someArray here after:");
+        for (int element : someArray) {
+            System.out.println(element);
+        }
+
+        return someArray;
+    }
+
 }
