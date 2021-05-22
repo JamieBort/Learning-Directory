@@ -15,11 +15,14 @@ Introduces `new Scanner(System.in)` method.
 
 ### 100 Arrays (Challenge Exercise)
 Arrays_Challenge_Exercise_100.java
-**Started**.
-However, see the `Arrays_Challenge_Exercise_100.java` [file](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing/Arrays_Challenge_Exercise_100.java).
-Specifically, the condition of the `While` loop on line 38 needs to be addressed/fixed.
-It is replacing lines 27,28,31, and 33.
 
+**Started**.
+
+However, see the `Arrays_Challenge_Exercise_100.java` [file](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing/Arrays_Challenge_Exercise_100.java).
+
+Specifically, the condition of the `While` loop on line 38 needs to be addressed/fixed.
+
+It is replacing lines 27, 28, 31, and 33.
 
 ### Coding Exercise 41: Sorted Array
 Not Started.
