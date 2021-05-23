@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-public class Demo {
+public class Demo_117 {
 
     public void printList(){
         System.out.println("Inside the printList() method in the Demo class. No parameters");

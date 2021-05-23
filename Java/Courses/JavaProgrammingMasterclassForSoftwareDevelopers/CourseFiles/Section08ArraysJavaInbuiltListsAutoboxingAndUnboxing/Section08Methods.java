@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 import Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing.LinkedListsPart1_116.*;
-import Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing.LinkedListsPart2_117.Demo;
+import Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing.LinkedListsPart2_117.Demo_117;
+import Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing.LinkedListsPart3_118.Demo_118;
 
 public class Section08Methods {
 
@@ -54,31 +55,39 @@ public class Section08Methods {
         placesToVisit.add("Adelaide");
         placesToVisit.add("Darwin");
 
-        Demo.printList(placesToVisit);
+        Demo_117.printList(placesToVisit);
         // demo.printList();
 
         placesToVisit.add(1,"Alice Springs"); // Now Sydney points to Alice Springs; which points to Melbourne.
-        Demo.printList(placesToVisit);
+        Demo_117.printList(placesToVisit);
         
         placesToVisit.remove(4); // Perth is removed.
-        Demo.printList(placesToVisit);
+        Demo_117.printList(placesToVisit);
 
         placesToVisit.remove(); // Head is removed/sydney is removed.
-        Demo.printList(placesToVisit);
+        Demo_117.printList(placesToVisit);
 
     }
 
     public void LinkedListsPart3_118(){
         System.out.println("Inside the LinkedListsPart3_118() method in the Section08Methods class.");
         LinkedList<String> placesToVisit = new LinkedList<String>(); 
-        Demo.addInOrder(placesToVisit, "Sydney");
-        Demo.addInOrder(placesToVisit, "Melbourne");
-        Demo.addInOrder(placesToVisit, "Brisbane");
-        Demo.addInOrder(placesToVisit, "Perth");
-        Demo.addInOrder(placesToVisit, "Canberra");
-        Demo.addInOrder(placesToVisit, "Adelaide");
-        Demo.addInOrder(placesToVisit, "Darwin");
-        Demo.printList(placesToVisit);
+        Demo_118.addInOrder(placesToVisit, "Sydney");
+        Demo_118.addInOrder(placesToVisit, "Melbourne");
+        Demo_118.addInOrder(placesToVisit, "Brisbane");
+        Demo_118.addInOrder(placesToVisit, "Perth");
+        Demo_118.addInOrder(placesToVisit, "Canberra");
+        Demo_118.addInOrder(placesToVisit, "Adelaide");
+        Demo_118.addInOrder(placesToVisit, "Darwin");
+        Demo_118.printList(placesToVisit);
+
+        Demo_118.addInOrder(placesToVisit, "Alice Springs"); 
+        Demo_118.printList(placesToVisit);
+
+        Demo_118.addInOrder(placesToVisit, "Perth");
+        Demo_118.printList(placesToVisit);
+
+        Demo_118.visit(placesToVisit);
     }
 
 }
