@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 // *** This The_Music_SQLite_Database_341 class is called Datasource in the video. ***
 
-public class The_Music_SQLite_Database_341 {
+public class old_The_Music_SQLite_Database_341 {
 
     public static final String DB_NAME = "music.db";
     // public static final String DB_NAME = "dummyDataBase.db";

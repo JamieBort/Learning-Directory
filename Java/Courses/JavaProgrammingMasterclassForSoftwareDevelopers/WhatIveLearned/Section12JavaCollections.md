@@ -9,8 +9,10 @@ Section12JavaCollections
 CollectionsOverview153
 
 What are `Collections`?
+**Watch video again**
 
 ### 154 - Binary Search
+**Watch video again**
 
 ### 155 - 
 

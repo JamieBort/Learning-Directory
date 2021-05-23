@@ -38,13 +38,14 @@ public class Main {
         // // section07methods.myPC();
         // section07methods.myPolymorphism();
 
-        Section08Methods section08Methods = new Section08Methods();
-        section08Methods.Arrays_Challenge_Exercise_100();
-        // section08Methods.randomMethod();
+        // Section08Methods section08Methods = new Section08Methods();
+        // section08Methods.Arrays_Challenge_Exercise_100();
+        // // section08Methods.randomMethod();
 
-        // Section09Methods section09methods = new Section09Methods();
+        Section09Methods section09methods = new Section09Methods();
         // section09methods.The_Switch_Statement_Challenge_Exercise_63();
-        // section09methods.printing();
+        section09methods.Random_Class();
+        section09methods.An_Interface();
 
         // Section12Methods section12Methods = new Section12Methods();
         // // section12Methods.randomMethod();

@@ -14,3 +14,25 @@ Section09InnerAndAbstractClassesAndInterfaces
 * in the body of the interface function signatures are writen, but not the logic - that is left up to each class the implements the interface.
 * access modifiers are not needed in the function signatures of interfaces.
 * **use** `implements` keyword, **not** `extends` keyword.
+
+**Need to look this up!!!!**
+
+Notice the `Random_Class` and `An_Interface` methods in the [Section09Methods.java](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles/Section09InnerAndAbstractClassesAndInterfaces/Section09Methods.java) file.
+
+On line 10 is `RandomClass randomClass = new RandomClass();`.
+
+On line 20 is `AnInterface anInterface = new RandomClass();`. 
+
+But the result seems to be teh same. What's the difference? Does it matter?
+
+### 124 - Interfaces Part 2
+
+### 125 - 
+
+.
+.
+.
+
+### 135 - 
+
+### Coding Exercise

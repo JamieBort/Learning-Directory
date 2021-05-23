@@ -1,6 +1,8 @@
 package Section09InnerAndAbstractClassesAndInterfaces.PracticeInterface;
 
-public class myClass implements myInterface {
+// import Section09InnerAndAbstractClassesAndInterfaces.PracticeInterface.*;
+
+public class old_RandomClass implements AnInterface {
     public void myPrint(){
         System.out.println("Inside myClass. Inside myPrint");
     }
