@@ -43,9 +43,10 @@ public class Main {
         // // section08Methods.randomMethod();
 
         Section09Methods section09methods = new Section09Methods();
-        // section09methods.The_Switch_Statement_Challenge_Exercise_63();
-        section09methods.Random_Class();
-        section09methods.An_Interface();
+        // section09methods.Random_Class();
+        // section09methods.An_Interface();
+        // section09methods.Desk_Phone();
+        section09methods.Mobile_Phone();
 
         // Section12Methods section12Methods = new Section12Methods();
         // // section12Methods.randomMethod();

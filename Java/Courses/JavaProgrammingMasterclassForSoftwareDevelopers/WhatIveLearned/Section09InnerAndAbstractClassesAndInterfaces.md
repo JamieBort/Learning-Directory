@@ -6,6 +6,7 @@
 Section09InnerAndAbstractClassesAndInterfaces
 
 ### 123 - Interfaces
+Interfaces123
 * Interfaces specifiy methods that a particular class that implements the interface must implement.
 * In other words, if a class implements an interface, then the methods in that interface must be implemented by that class.
 * it's abstract - no code (logic?) is writen. only the methods
@@ -23,11 +24,21 @@ On line 10 is `RandomClass randomClass = new RandomClass();`.
 
 On line 20 is `AnInterface anInterface = new RandomClass();`. 
 
-But the result seems to be teh same. What's the difference? Does it matter?
+But the result seems to be the same. What's the difference? Does it matter?
+
+**NOTE:** - this is discussed a bit at 10:45 min. in this video.
+**NOTE:** - this is discussed again at 4:15 min. in the next video.
 
 ### 124 - Interfaces Part 2
+InterfacesPart2_124
 
-### 125 - 
+**Stopped watching** at **6:00 minutes** to go back over the [`### Coding Exercise 46: Playlist`](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing.md#coding-exercise-46-playlist) prerequisit material.
+Which means I need to first watch, study, and  work on the chapters/videos leading up to it; starting with [`### 116 - LinkedList Part 1`](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers/WhatIveLearned/Section08ArraysJavaInbuiltListsAutoboxingAndUnboxing.md#116-linked-lists-part-1).
+
+
+### 125 - Interfaces Challenge Part 1
+Not started yet.
+
 
 .
 .
