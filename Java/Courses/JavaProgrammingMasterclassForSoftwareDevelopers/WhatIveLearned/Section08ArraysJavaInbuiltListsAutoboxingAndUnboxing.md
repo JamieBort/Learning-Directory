@@ -50,7 +50,7 @@ See `READMEList_And_ArrayList.md` found here:
 
 ### 107
 
-### 108
+### 108 - 
 Not Started.
 ### 109
 Not Started.
@@ -61,10 +61,15 @@ Not Started.
 ### Coding Exercise 44: 
 Not Started.
 ### 116 Linked Lists Part 1
+LinkedListsPart1_116
 * Allocates 4 bytes of memory for each integer.
-Watch the first half of this over again.
+**Watch the first half** of this over again - need to revisit how much memory each data type takes in Java. And why. Before fully grasping this part of the video.
+
+ArrayLists take a lot of resources for large array lists. LinkedLists address this issue.
 
 ### 117 Linked Lists Part 2
+LinkedListsPart2_117
+
 ### 118 Linked Lists Part 3
 
 .
