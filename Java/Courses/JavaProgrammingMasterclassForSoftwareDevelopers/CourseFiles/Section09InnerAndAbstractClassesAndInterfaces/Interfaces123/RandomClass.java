@@ -1,4 +1,4 @@
-package Section09InnerAndAbstractClassesAndInterfaces.PracticeInterface;
+package Section09InnerAndAbstractClassesAndInterfaces.Interfaces123;
 
 public class RandomClass implements AnInterface {
 
