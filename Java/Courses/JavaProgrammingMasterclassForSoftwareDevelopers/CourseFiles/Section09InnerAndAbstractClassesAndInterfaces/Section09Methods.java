@@ -1,5 +1,6 @@
 package Section09InnerAndAbstractClassesAndInterfaces;
 
+import Section09InnerAndAbstractClassesAndInterfaces.InnerClassesPart1_127.Gearbox;
 import Section09InnerAndAbstractClassesAndInterfaces.Interfaces123.*;
 import Section09InnerAndAbstractClassesAndInterfaces.InterfacesPart2_124.MobilePhone;
 
@@ -43,4 +44,17 @@ public class Section09Methods {
         // iTelephone.answer();
     }
 
+    public void Gear_box(){
+        // *** This one works as expected. ***
+        Gearbox mcLaren = new Gearbox(6);
+        // However once we changed Gear classs to private this ceased to work.
+        Gearbox.Gear first = mcLaren.new Gear(1, 12.3);
+        System.out.println(first.driveSpeed(1000));
+
+        // // *** This one doesn't work. ***
+        // Gearbox.Gear second = new Gearbox.Gear(1, 12.3);
+
+        // // *** This one doesn't work. ***
+        // Gearbox.Gear third = new mcLaren.Gear(1, 12.3);
+    }
 }

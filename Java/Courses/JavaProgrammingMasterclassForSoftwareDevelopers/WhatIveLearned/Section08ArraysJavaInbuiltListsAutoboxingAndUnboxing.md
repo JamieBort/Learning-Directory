@@ -72,7 +72,7 @@ LinkedListsPart2_117
 
 ### 118 - Linked Lists Part 3
 LinkedListsPart3_118
-
+**Left off at 14:00 minutes.**
 
 ### 119 -
 .

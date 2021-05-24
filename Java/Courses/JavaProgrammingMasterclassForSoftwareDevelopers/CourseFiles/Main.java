@@ -40,18 +40,19 @@ public class Main {
         // // section07methods.myPC();
         // section07methods.myPolymorphism();
 
-        Section08Methods section08Methods = new Section08Methods();
-        // section08Methods.Arrays_Challenge_Exercise_100();
-        // // section08Methods.randomMethod();
-        // section08Methods.LinkedListsPart1_116();
-        // section08Methods.LinkedListsPart2_117();
-        section08Methods.LinkedListsPart3_118();
+        // Section08Methods section08Methods = new Section08Methods();
+        // // section08Methods.Arrays_Challenge_Exercise_100();
+        // // // section08Methods.randomMethod();
+        // // section08Methods.LinkedListsPart1_116();
+        // // section08Methods.LinkedListsPart2_117();
+        // section08Methods.LinkedListsPart3_118();
 
-        // Section09Methods section09methods = new Section09Methods();
-        // // section09methods.Random_Class();
-        // // section09methods.An_Interface();
-        // // section09methods.Desk_Phone();
+        Section09Methods section09methods = new Section09Methods();
+        // section09methods.Random_Class();
+        // section09methods.An_Interface();
+        // section09methods.Desk_Phone();
         // section09methods.Mobile_Phone();
+        section09methods.Gear_box();
 
         // Section12Methods section12Methods = new Section12Methods();
         // // section12Methods.randomMethod();

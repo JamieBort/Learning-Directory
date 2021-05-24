@@ -39,6 +39,38 @@ Which means I need to first watch, study, and  work on the chapters/videos leadi
 ### 125 - Interfaces Challenge Part 1
 Not started yet.
 
+### 126 - 
+
+### 127 - Inner classes Part 1
+InnerClassesPart1_127
+**Need to study these files and/or this video again.** But first the files.
+
+* Static nested classes
+ * 
+* Non-static nested classes
+* Local class
+* Annonymous class nested class without a class name
+
+
+// Gearbox class is the top level class.
+// Gear class is the inner class.
+
+// NOTE: the use of `this` refers to the scope of the Gear Class.
+// `this.gearNumber` (and `gearNumber`) in the Gear class 
+// will NOT refer to `gearNumber` in the Gearbox class.
+// NOTE: while in Gear class, if you want to refer to the gearNumber outside of it,
+// you need to use `Gearbox.this.gearNumber`.
+
+
+// NOTE: When an inner class has the same variable name as the outer class, 
+// it is shaddowing the declaration of the/in the outer class.
+// So we've renamed `gearNumber` to `currentGear`.
+
+When an inner class has the same variable name as the outer class, it is shaddowing the declaration of the/in the outer class.
+
+Gear class is a member of Gearbox class. So it must be created with an instance of Gearbox.
+
+### 128 - 
 
 .
 .
