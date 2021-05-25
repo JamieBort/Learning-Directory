@@ -1,5 +1,3 @@
-import java.util.LinkedList;
-
 import Section03FirstSteps.*;
 import Section04JavaTutorialExpressionsStatementsCodeBlocksMethodsAndMore.*;
 import Section05ControlFlowStatements.*;
@@ -14,14 +12,18 @@ public class Main {
 
     public static void main(String[] args) {
         // Section03Methods section03methods = new Section03Methods();
+        // section03methods.Primitive_Types_25();
+        // section03methods.Casting_In_Java_27();
         // // section03methods.Primitive_Types_Challenge_28();
         // // section03methods.float_and_double_Primitive_Types_29();
         // // section03methods.Floating_Point_Precision_and_a_Challenge_30();
-        // section03methods.Ternary_Operator_39();
+        // // section03methods.Ternary_Operator_39();
 
-        // Section04Methods section04methods = new Section04Methods();
+        Section04Methods section04methods = new Section04Methods();
+        // section04methods.Coding_Exercise_1_Speed_Converter();
         // // section04methods.Seconds_and_Minutes_Challenge_60(2,4);
         // section04methods.Seconds_and_Minutes_Challenge_60(61,59);
+        section04methods.Coding_Exercise_8_Area_Calculator();
 
         // Section05Methods section05methods = new Section05Methods();
         // // section05methods.The_Switch_Statement_Challenge_Exercise_63();
@@ -47,12 +49,14 @@ public class Main {
         // // section08Methods.LinkedListsPart2_117();
         // section08Methods.LinkedListsPart3_118();
 
-        Section09Methods section09methods = new Section09Methods();
-        // section09methods.Random_Class();
-        // section09methods.An_Interface();
-        // section09methods.Desk_Phone();
-        // section09methods.Mobile_Phone();
-        section09methods.Gear_box();
+        // Section09Methods section09methods = new Section09Methods();
+        // // section09methods.Random_Class();
+        // // section09methods.An_Interface();
+        // // section09methods.Desk_Phone();
+        // // section09methods.Mobile_Phone();
+        // // section09methods.Gear_box_127();
+        // // section09methods.Gear_box_128_a();
+        // section09methods.Gear_box_128_b();
 
         // Section12Methods section12Methods = new Section12Methods();
         // // section12Methods.randomMethod();
