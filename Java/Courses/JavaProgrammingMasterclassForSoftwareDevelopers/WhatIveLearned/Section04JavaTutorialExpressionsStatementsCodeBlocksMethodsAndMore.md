@@ -28,9 +28,12 @@ Nothing I don't already know.
 Coding Exercise Example Part 3 - not started. 
 Nothing I don't already know. 
 **This video shows how to share solution with instructor and other students.**
-### - Coding Exercise 1: Speed Converter
-Coding Exercise 1
-Not Started.
+
+### Coding Exercise 1: Speed Converter
+Coding_Exercise_1_Speed_Converter.java
+
+**Started**.
+
 ### - Coding Exercise 2: MegaBytes Converter
 Coding Exercise 2
 Not Started.
@@ -66,8 +69,10 @@ Challenge not started yet.
 
 ### Coding Exercise 8: Area Calculator
 
-Coding Exercise 8
-Not Started.
+Coding_Exercise_8_Area_Calculator.java
+
+**Completed**
+
 ### Coding Exercise 9: Minutes To Years and Days Calculator
 
 Coding Exercise 9

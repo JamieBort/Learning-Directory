@@ -138,23 +138,7 @@ Java has well-defined rules for specifying the order in which the operators in a
 
 **Precedence and associativity of Java operators**. The table below shows all Java operators from highest to lowest precedence, along with their associativity. Most programmers do not memorize them all, and even those that do still use parentheses for clarity.
 
-01
-![Operator Precedence Table](../CourseFiles/Section03FirstSteps/Operator_Precedence_Table.png "h")
-
-02
-![Operator Precedence Table](./../CourseFiles/Section03FirstSteps/Operator_Precedence_Table.png "v")
-
-03
-![Operator Precedence Table](./../deleteme.png)
-
-04
-![Operator Precedence Table](../deleteme.png)
-
-05
-![Operator Precedence Table](./Operator_Precedence_Table.png)
-
-06
-![Operator Precedence Table](./../WhatIveLearned/Operator_Precedence_Table.png)
+![Operator Precedence Table](./../CourseFiles/Section03FirstSteps/Operator_Precedence_Table.png "Operator Precedence Table")
 
 There is no explicit operator precedence table in the Java Language Specification. Different tables on the web and in textbooks disagree in some minor ways.
 
