@@ -46,10 +46,18 @@ InnerClassesPart1_127
 **Need to study these files and/or this video again.** But first the files.
 
 * Static nested classes
- * 
 * Non-static nested classes
-* Local class
-* Annonymous class nested class without a class name
+* Inner class (covered/discussed in video 128)
+    * Local class
+        * declared inside a block such as a method or an if statement.
+        * scope is restricted to that block
+        * increase encapsulation
+        * used less often in practice
+    * Annonymous class nested class without a class name
+        * a local class but with no name
+        * have to be declared and instantiated at teh same time because they don't have a name
+        * used when a local class is required only once
+        * very common for attaching event handlers to buttons
 
 
 // Gearbox class is the top level class.
@@ -70,7 +78,41 @@ When an inner class has the same variable name as the outer class, it is shaddow
 
 Gear class is a member of Gearbox class. So it must be created with an instance of Gearbox.
 
-### 128 - 
+**A lot was covered in this video.**
+
+**Not much else to take notes on.**
+
+**However MIGHT be beneficial to watch again.**
+
+// However once we change Gear classs to private this will ceased to work.
+// NOTE: I think that proper nested classes should be private.
+// We'll make this change in the next video.
+// See `Gear_box_128()` below for working implementation.
+
+### 128 - Inner Classes Part 2
+InnerClassesPart2_128
+
+**Need to study files to understand better what is going on.**
+
+**Watch this all over again.**
+
+`Gearbox_128.java` is the only file used up through 5:45 minutes.
+`Button.java` is created at 5:45 minutes.
+
+### 129 - Inner Classes Challenge
+**Watch video again to take notes.**
+
+Define what, not how.
+
+Need to complete a previous challenge before moving one; possibly one of the interface challenges.
+
+### Coding Exercise ...
+
+### 130 - Abstract Classes Part 1
+
+### 131 - Abstract Classes Part 2
+
+### 132 - 
 
 .
 .
