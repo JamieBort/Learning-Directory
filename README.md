@@ -78,4 +78,5 @@ To be edited later.
 To be edited later.
 
 ## Associated Links
-https://trello.com/c/vx0oVl0e/237-learningdirectory-professional-development Trello card. **Note:** The directories in this repo should mirror the Trello cards found in this one.
+* [LearningDirectory Professional Development](https://trello.com/c/vx0oVl0e/237-learningdirectory-professional-development) Trello card. 
+**Note:** The directories in this repo should mirror the Trello cards found in this one.
