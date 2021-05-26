@@ -3,11 +3,11 @@ package Section05ControlFlowStatements;
 public class Section05Methods {
 
     public void The_Switch_Statement_Challenge_Exercise_63(){
-        System.out.println("inside insdie");
-        The_Switch_Statement_Challenge_Exercise_63 example01 = new The_Switch_Statement_Challenge_Exercise_63();
-        example01.switchValue(1);
-        example01.switchValue(4);
-        example01.switchValue(9);
+        System.out.println("Inside The_Switch_Statement_Challenge_Exercise_63() method of Section05Methods class.");
+        The_Switch_Statement_Challenge_Exercise_63 the_Switch_Statement_Challenge_Exercise_63 = new The_Switch_Statement_Challenge_Exercise_63();
+        the_Switch_Statement_Challenge_Exercise_63.switchValue('Z');
+        the_Switch_Statement_Challenge_Exercise_63.switchValue('S');
+        the_Switch_Statement_Challenge_Exercise_63.switchValue('@');
     }
 
     public void Coding_Exercise_16_First_And_Last_Digit_Sum(){

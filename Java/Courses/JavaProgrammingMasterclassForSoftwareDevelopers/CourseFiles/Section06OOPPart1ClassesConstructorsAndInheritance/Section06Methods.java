@@ -57,19 +57,19 @@ public class Section06Methods {
         System.out.println(account.getBalance());
     }
 
-    public void Constructors_Part_1_Challenge_Exercise_80() {
-        Constructors_Part_2_Challenge_Exercise_80 beans = new Constructors_Part_2_Challenge_Exercise_80();
-        // Constructors_Part_1_Challenge_Exercise_80 account = new
-        // Constructors_Part_1_Challenge_Exercise_80();
-        beans.setBalance(100);
-        beans.getBalance();
-        System.out.println(beans.getBalance());
-        // account.setBalance(145);
-        // System.out.println(account.getBalance());
-        // account.withdraw(10);
-        // System.out.println(account.getBalance());
-        // account.deposit(1030);
-        // System.out.println(account.getBalance());
+    public void Constructors_Part_2_Challenge_Exercise_80() {
+        System.out.println("Inside Constructors_Part_2_Challenge_Exercise_80() method of Section06Methods class.");
+
+        // VipCustomer vipCustomer = new VipCustomer();
+        // VipCustomer vipCustomer = new VipCustomer("Dave", "Dave@Dave.com");
+        VipCustomer vipCustomer = new VipCustomer("Sam", 1500, "Sam@Sam.com");
+
+        // vipCustomer.getCreditLimit();
+        vipCustomer.printOutEveryting();
+        vipCustomer.setCreditLimit(2);
+        vipCustomer.setEmailAddress("new@email.com");
+        vipCustomer.setName("newName");
+        vipCustomer.printOutEveryting();
     }
 
     public void InheritanceChallengePart1ChallengeExercise88() {

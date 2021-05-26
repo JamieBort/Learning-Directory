@@ -5,23 +5,24 @@ public class The_Switch_Statement_Challenge_Exercise_63 {
     // System.out.println("Hello from The_Switch_Statement_Challenge_Exercise_63");
     // }
 
-    public void switchValue(int switchValue) {
+    public void switchValue(char switchValue) {
+        System.out.println("Inside switchValue() method of The_Switch_Statement_Challenge_Exercise_63 class.");
         // int switchValue = 1;
         switch (switchValue) {
-            case 1:
-                System.out.println("the value was 1");
+            case 'Z':
+                System.out.println("Z was chosen");
                 break;
-            case 2:
-                System.out.println("The value was 2");
+            case 'S':
+            System.out.println("S was chosen");
                 break;
-            case 3:
+            case '@':
             case 4:
             case 5:
-                System.out.println("The value was 3, 4, or 5.");
+                System.out.println("The value was @, 4, or 5.");
                 break;
             default:
                 System.out.println("default was tripped");
-                break; // this break is redundant.
+                break; // this break is redundant/unecessary.
         }
     }
 }
