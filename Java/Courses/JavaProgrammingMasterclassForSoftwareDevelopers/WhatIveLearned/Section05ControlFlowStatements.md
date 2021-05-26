@@ -10,7 +10,8 @@ Short 1 minute.
 
 ## 63 - The switch statement (+Challenge Exercise)
 The_Switch_Statement_Challenge_Exercise_63
-Challenge not done.
+
+**Completed**
 
 ## 64 - Day of the Week Challenge
 Challenge not done.
@@ -50,7 +51,10 @@ Completed.
 .
 
 
-## 75 - 
+## 75 - Min and Max Challenge
+
+**Challenge not done.**
+
 
 ## Coding Exercise 27: Input Calculator
 Coding_Exercise_27_Input_Calculator.java
@@ -60,4 +64,4 @@ Close enough - no need to revisit in order to complete it.
 ## Coding Exercise 28: Paint Job
 Coding_Exercise_28_Paint_Job.java
 
-Challenge not done.
+**Challenge not done.**
