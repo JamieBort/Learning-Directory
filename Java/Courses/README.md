@@ -1,7 +1,18 @@
 # Courses
 
-## Prupose
+## Purpose
 This directory houses all the Java Courses
+
+## Directories
+`JavaProgrammingMasterclassForSoftwareDevelopers` - [started](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/JavaProgrammingMasterclassForSoftwareDevelopers#status).
+
+`SpringAndHibernateForBeginnersIncludesSpringBoot` - [not started](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringAndHibernateForBeginnersIncludesSpringBoot#status).
+
+`SpringBoot` - [started](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot#started).
+
+`TheIronYard` - [unknown](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/TheIronYard).
+
+`java-in-depth-become-a-complete-java-engineer` - [unknown](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/java-in-depth-become-a-complete-java-engineer).
 
 ## Status
 
