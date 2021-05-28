@@ -1,4 +1,4 @@
-# README Spring Boot
+# Spring Boot
 
 This directory is for learning Spring Boot.
 

@@ -1,4 +1,4 @@
-# README How To Create A Spring Boot Prject In Visual Studio Code
+# How to create a Spring Boot Project in Visual Studio Code
 
 Course video:
 [How to create a Spring Boot Project in Visual Studio Code](https://www.youtube.com/watch?v=5mpHejytgFE) YouTube video.
