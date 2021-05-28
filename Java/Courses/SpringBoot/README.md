@@ -4,7 +4,7 @@ This directory is for learning Spring Boot.
 
 ~~Below are a list of (free?) resources for learning Spring Boot.~~
 
-###Directories
+### Directories
 `How to create a Spring Boot Project in Visual Studio Code` - [unknown](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/HowToCreateASpringBootProjectInVisualStudioCode).
 
 `IntroducingSpringBoot` - [started](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/IntroducingSpringBoot#status).
@@ -14,17 +14,11 @@ This directory is for learning Spring Boot.
 `SpringYardGettingStarted` - [unknown](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/SpringYardGettingStarted).
 
 ---
-### Started
-**swap the below link for one to the directory in the github repo...**
-TABLED THIS ONE FOR NOW. [Introducing Spring Boot](https://www.udemy.com/course/spring-boot-getting-started/learn/lecture/4538362#overview) Udemy course.
+[Spring Core - Learn Spring Framework 4 and Spring Boot](https://www.udemy.com/cart/subscribe/course/724502/) Udemy course - didn't seem to cover spring boot enough.
+* Watched the first 5 minutes.
+* This course work is also found [here](https://github.com/JamieBort/LearningDirectory/tree/master/Java/IntroductionToSpringBoot)
+* However the link is now broken.
 
-WATCHED THE FIRST 5 MINUTES. DIDN'T SEEM TO COVER SPRING BOOT ENOUGH. [Spring Core - Learn Spring Framework 4 and Spring Boot](https://www.udemy.com/cart/subscribe/course/724502/) Udemy course. This course work is also found here: https://github.com/JamieBort/LearningDirectory/tree/master/Java/IntroductionToSpringBoot
-
----
-### Completed
-[Spring Boot Quick Start](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/SpringBootQuickStart) directory in the LearningDirectory GitHub repo. Done. However need to study some more to understand better.
-
----
 ### Not Started
 1. [Spring Boot Tutorial for Beginners (Java Framework)](https://www.youtube.com/watch?v=vtPkZShrvXQ) YouTube video.
 2. Dan Vega's Spring Boot [videos](https://www.youtube.com/channel/UCc98QQw1D-y38wg6mO3w4MQ) on YouTube.

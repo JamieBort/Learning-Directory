@@ -5,7 +5,9 @@ This directory houses files for this YouTube course.
 ---
 ## Status
 Watched videos 1-31.
-Generated a new project based on the instrutions from `Spring Boot Quick Start 27 - Adding Spring Data JPA`. This will be used to follow the tutorial from the begging.
+Generated a new project based on the instructions from `Spring Boot Quick Start 27 - Adding Spring Data JPA`. This will be used to follow the tutorial from the begging.
+
+[Spring Boot Quick Start](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/SpringBootQuickStart) directory in the LearningDirectory GitHub repo. Done. However need to study some more to understand better.
 
 ---
 ## To Do

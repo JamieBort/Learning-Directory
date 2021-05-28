@@ -37,7 +37,7 @@ https://trello.com/c/3rWIK5nD/698-spring-hibernate-for-beginners-includes-spring
 The associated [Java Professional Development](https://trello.com/c/KDy9CqkS/170-java-professional-development) Trello card.
 
 ## Resources
-https://trello.com/c/VlG021TW/551-read-up-on-spring-and-react-full-stack-developer?menu=filter&filter=label:Work%20Research
+https://trello.com/c/VlG021TW/551-read-up-on-spring-and-react-full-stack-developer
 
 https://trello.com/c/K71KT31y/608-read-up-on-these-resources
 
