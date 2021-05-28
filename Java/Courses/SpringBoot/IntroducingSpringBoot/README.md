@@ -6,12 +6,10 @@ This directory houses files for the Udemy course.
 
 Taking a break from this series. Slow, boring, and doesn't fill in all the holes - its a high level overview that isn't comprehensive.
 
-**~~swap the below link for one to the directory in the github repo...~~**
-
 TABLED THIS ONE FOR NOW. [Introducing Spring Boot](https://www.udemy.com/course/spring-boot-getting-started/learn/lecture/4538362#overview) Udemy course.
 
 ## What I Have Learned
-See the `WhatIveLearned.mk` file.
+See the [WhatIveLearned.md](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/SpringBoot/IntroducingSpringBoot/WhatIveLearned.md) file.
 
 ## Resources for this course
 

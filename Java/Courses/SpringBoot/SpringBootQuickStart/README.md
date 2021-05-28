@@ -2,35 +2,27 @@
 
 This directory houses files for this YouTube course.
 
----
 ## Status
 Watched videos 1-31.
 Generated a new project based on the instructions from `Spring Boot Quick Start 27 - Adding Spring Data JPA`. This will be used to follow the tutorial from the begging.
 
 [Spring Boot Quick Start](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/SpringBootQuickStart) directory in the LearningDirectory GitHub repo. Done. However need to study some more to understand better.
 
----
 ## To Do
 - [X] 1. Finish watching the tutorial. Follow along and build the same thing.
 - [ ] 2. Study what has been built.
 - [ ] 3. Build it again. Maybe.
 
----
 ## What I have learned
 See the [What I've Learned](https://github.com/JamieBort/LearningDirectory/blob/master/Java/Courses/SpringBoot/SpringBootQuickStart/WhatIveLearned.md) file.
-
----
 
 ## Resources for this course
 Associated [Trello card](https://trello.com/c/KUHSH6SS/889-spring-boot-quick-start-youtube-course).
 
 The [Spring Boot Quick Start](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x) YouTube video.
 
----
-
 ## Resources from the course
 
----
 ## Associated Links
 [Spring Boot Quick Start](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/SpringBootQuickStart) directory in the LearningDirectory GitHub repo.
 
@@ -45,9 +37,6 @@ Course website: https://www.javabrains.io/courses/springboot-quickstart
 
 
 To answer this see the various directory names here: https://github.com/JamieBort/LearningDirectory/tree/master/Java/JavaProgrammingMasterclassForSoftwareDevelopers/CourseFiles
-
-
----
 
 ## Course Description
 There isn't one.

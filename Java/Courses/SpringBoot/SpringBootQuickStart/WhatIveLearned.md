@@ -23,19 +23,29 @@ Multiple build and deploy steps.
 Spring Boot addresses these issues by abstracting these steps.
 
 ### Spring Boot Quick Start 5 - What Spring Boot gives us
-Spring Boot is opionionated.
+Spring Boot is opinionated.
+
 Convention over configuration.
+
 Stand alone application.
+
 Production ready.
 
 ### Spring Boot Quick Start 6 - Setting Up Development Environment
 Setup the environment with Java 8 SDK.
+
 `java -version` in Terminal to check that the version is 1.8. For me it's version 13.0.2.
+
 `echo $JAVA_HOME` in Terminal to check that the home is set. ~~For me it doesn't appear to be.~~
-NOTE: when I ran `echo $JAVA_HOME` in Terminal nothing was returned.
+
+**NOTE**: when I ran `echo $JAVA_HOME` in Terminal nothing was returned.
+
 Following the instructions here: http://www.sajeconsultants.com/how-to-set-java_home-on-mac-os-x/
+
 I ran `export JAVA_HOME=/Library/Java/Home`.
+
 Now when I run `echo $JAVA_HOME` I get `/Library/Java/Home`.
+
 However when I run `java -version` I get 
 ```
 java version "13.0.2" 2020-01-14
@@ -54,12 +64,16 @@ Matching Java Virtual Machines (2):
 
 ### Spring Boot Quick Start 7 - Maven
 Manage dependencies and import jars.
+
 In the pom.xml is a list of all the dependencies. 
+
 Maven lets you declare all your dependencies and lists them in the pom.xml file.
+
 Maven is a build and dependency management tool.
 
 ### Spring Boot Quick Start 8 - Creating a Spring Boot project
 Instructor created a Spring Boot app using the Spring STS IDE. 
+
 I generated one using Visual Studio Code and this [How to create a Spring Boot Project in Visual Studio Code](https://www.youtube.com/watch?v=5mpHejytgFE) YouTube video.
 
 As a result, I didn't add the dependencies that the instructor did. Or at least not the way he did. But it's still valuable info.

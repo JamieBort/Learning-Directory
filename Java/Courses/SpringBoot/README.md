@@ -2,8 +2,6 @@
 
 This directory is for learning Spring Boot.
 
-~~Below are a list of (free?) resources for learning Spring Boot.~~
-
 ### Directories
 `How to create a Spring Boot Project in Visual Studio Code` - [unknown](https://github.com/JamieBort/LearningDirectory/tree/master/Java/Courses/SpringBoot/HowToCreateASpringBootProjectInVisualStudioCode).
 
