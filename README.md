@@ -80,3 +80,5 @@ To be edited later.
 ## Associated Links
 * [LearningDirectory Professional Development](https://trello.com/c/vx0oVl0e/237-learningdirectory-professional-development) Trello card. 
 **Note:** The directories in this repo should mirror the Trello cards found in this one.
+* `Learning Resources` Google Drive spreadsheet
+https://docs.google.com/spreadsheets/d/19T01muqRrKYyg8yOHhmBDMcRdTuwNerqlsc_D00qWTs/edit?usp=drive_open&ouid=116456824083566236348
