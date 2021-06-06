@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background: #595;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-top: 30px;
+}
+
+div{
+    box-shadow: 0 5px 10px rgba( 0, 0, 0, 0.4 );
+    background: white;
+    margin: 0 auto;
+    padding: 20px;
+    width: 500px;
+}
+h2{
+    margin-top: 0;
+}
+
+code{
+    padding: 5px;
+    background: linear-gradient(to bottom, #cddccd, #ffffff);
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba( 0, 0, 0, 0.3 );
+}
