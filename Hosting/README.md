@@ -1,5 +1,11 @@
 # Hosting
 
+## Directories and Files
+
+`Heroku/`
+
+`README.md`
+
 ## Associated Links
 [Hosting](https://trello.com/c/Z6kPD3vr/573-hosting) Trello card.
 
