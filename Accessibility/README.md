@@ -13,6 +13,15 @@ Which resources are there for learning about this?
 Which resources are there me to use as an end user - if I want to list to a text-based site for example?
 
 ## Questions
+## More general questions
+* what are some good resources?
+* where to start reading? (I have a lot of resources to look though...)
+* what are the general issues that need to be addressed?
+* what are the more easily addressed issues?
+
+## Accessability-specific questions to have answered
+
+
 Of particular interest: User accessible navigation - color blind and screenreader friendly
 
 What to keep in mind?
@@ -54,7 +63,8 @@ What to keep in mind?
 * [Tables Concepts](https://www.w3.org/WAI/tutorials/tables/) tutorial from w3.org.
 
 ## Resources
-
+### Good Resources to keep
+### Resources that have not been studied yet
 * (not sure where to put these)
   * https://www.w3.org/TR/2016/NOTE-UNDERSTANDING-WCAG20-20161007/Overview.html#contents
   * https://webaim.org/techniques/javascript/eventhandlers
@@ -67,6 +77,7 @@ What to keep in mind?
   * google drive, 
   * email, 
   * etc.
+  * The [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md) file in this directory.
 
 * [a11y resources](https://trello.com/c/nSgl3vaI/437-a11y-resources) Trello card
 
@@ -74,15 +85,13 @@ What to keep in mind?
 
 * [explore this WCAG Contrast Ratio article (AND the rest of the website) that was posted by Mili](https://trello.com/c/bgdUXGZM/436-explore-this-article-and-the-rest-of-the-website-that-was-posted-by-mili) Trello card.
 
-* Also, see the [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md) file in this directory.
-
 * [a11y courses](https://github.com/mgifford/a11y-courses)
 
 * https://www.google.com/accessibility/products-features/
 
 * [A guide to improving web accessibility with CSS](https://blog.logrocket.com/a-guide-to-improving-web-accessibility-with-css/)
 
-### Chrome extensions
+#### Chrome extensions
 * https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm
 * https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en
 * https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh?hl=en
@@ -90,7 +99,7 @@ What to keep in mind?
 * https://play.google.com/store/apps/details?id=com.chromereadervoice&hl=en_US
 * Ones [I am using](chrome://extensions/) (see: chrome://extensions/) and also found online [here](https://chrome.google.com/webstore/user/purchases?hl=en).
 
-### Documentation
+#### Documentation
 * https://www.a11yproject.com/
 * https://developer.mozilla.org/en-US/docs/Web/Accessibility
 * https://reactjs.org/docs/accessibility.html
