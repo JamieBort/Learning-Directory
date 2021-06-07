@@ -15,9 +15,13 @@ Which resources are there me to use as an end user - if I want to list to a text
 ## Questions
 ## More general questions
 * what are some good resources?
+  * answer...
 * where to start reading? (I have a lot of resources to look though...)
+  * answer...
 * what are the general issues that need to be addressed?
+  * answer...
 * what are the more easily addressed issues?
+  * answer...
 
 ## Accessability-specific questions to have answered
 
