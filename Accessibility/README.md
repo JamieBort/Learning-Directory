@@ -9,27 +9,33 @@ A directory to use to hone my accessibility exploration. Specifically so that I 
 3. Then going to set up this `README.md` file to mirror the structure and content of `https://github.com/JamieBort/LearningDirectory/tree/master/Java`, `https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript`, or the other `LearningDirectory/` directories.
 
 ## Next Steps
-Which tools are available to test with?
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#next-steps section.
 
-Which resources are there for learning about this?
+~~Which tools are available to test with?~~
 
-Which resources are there me to use as an end user - if I want to list to a text-based site for example?
+~~Which resources are there for learning about this?~~
+
+~~Which resources are there me to use as an end user - if I want to list to a text-based site for example?~~
 
 ## Questions
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#questions section.
+
 ## More general questions
-* what are some good resources?
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#more-general-questions section.
+
+[* what are some good resources?
   * answer...
 * where to start reading? (I have a lot of resources to look though...)
   * answer...
 * what are the general issues that need to be addressed?
   * answer...
 * what are the more easily addressed issues?
-  * answer...
+  * answer...]
 
 ## Accessability-specific questions to have answered
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#accessability-specific-questions-to-have-answered section.
 
-
-Of particular interest: User accessible navigation - color blind and screenreader friendly
+[Of particular interest: User accessible navigation - color blind and screenreader friendly
 
 What to keep in mind?
 
@@ -44,35 +50,57 @@ What to keep in mind?
 * understanding focus through the page and making sure it is handled properly
 * style buttons properly
 * style links properly
-* what else?
+* what else?]
 
 ## Research
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#research section.
+
 ### Smooth Scrolling
-* [Smooth Scrolling and Accessibility](https://css-tricks.com/smooth-scrolling-accessibility/) CSS Tricks article.
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#smooth-scrolling section.
+
+[* [Smooth Scrolling and Accessibility](https://css-tricks.com/smooth-scrolling-accessibility/) CSS Tricks article.]
 
 ### Links/<a> tags
-* [Creating valid and accessible links](https://www.a11yproject.com/posts/2019-02-15-creating-valid-and-accessible-links/) from the a11yproject.
-* [html anchor accessibility](https://www.google.com/search?q=html+anchor+accessibility&oq=html+anchor+accessibility&aqs=chrome..69i57.6984j0j4&sourceid=chrome&ie=UTF-8) internet search.
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#links-tags section.
+
+[* [Creating valid and accessible links](https://www.a11yproject.com/posts/2019-02-15-creating-valid-and-accessible-links/) from the a11yproject.
+* [html anchor accessibility](https://www.google.com/search?q=html+anchor+accessibility&oq=html+anchor+accessibility&aqs=chrome..69i57.6984j0j4&sourceid=chrome&ie=UTF-8) internet search.]
 
 ### Images
-* [Images Concepts](https://www.w3.org/WAI/tutorials/images/) tutorial from w3.org.
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#images section.
+
+[* [Images Concepts](https://www.w3.org/WAI/tutorials/images/) tutorial from w3.org.]
 
 ### Buttons
-* [ARIA: button role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role) mdn webdocs documentation.
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#buttons section.
+
+[* [ARIA: button role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role) mdn webdocs documentation.]
 
 ### Focus
-* [Never remove CSS outlines](https://www.a11yproject.com/posts/2013-01-25-never-remove-css-outlines/) from the a11yproject.
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#focus section.
+
+[* [Never remove CSS outlines](https://www.a11yproject.com/posts/2013-01-25-never-remove-css-outlines/) from the a11yproject.]
 
 ### Forms
-* [Forms Concepts](https://www.w3.org/WAI/tutorials/forms/) tutorial from w3.org.
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#forms section.
+
+[* [Forms Concepts](https://www.w3.org/WAI/tutorials/forms/) tutorial from w3.org.]
 
 ### Tables
-* [Tables Concepts](https://www.w3.org/WAI/tutorials/tables/) tutorial from w3.org.
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#tables section.
+
+[* [Tables Concepts](https://www.w3.org/WAI/tutorials/tables/) tutorial from w3.org.]
 
 ## Resources
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#resources section.
+
 ### Good Resources to keep
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#good-resources-to-keep section.
+
 ### Resources that have not been studied yet
-* (not sure where to put these)
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#resources-that-have-not-been-studied-yet section.
+
+[* (not sure where to put these)
   * https://www.w3.org/TR/2016/NOTE-UNDERSTANDING-WCAG20-20161007/Overview.html#contents
   * https://webaim.org/techniques/javascript/eventhandlers
   * https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets
@@ -97,18 +125,22 @@ What to keep in mind?
 * https://www.google.com/accessibility/products-features/
 
 * css-tricks website accessability [search](https://css-tricks.com/?s=Accessibility)
-  * [A guide to improving web accessibility with CSS](https://blog.logrocket.com/a-guide-to-improving-web-accessibility-with-css/)
+  * [A guide to improving web accessibility with CSS](https://blog.logrocket.com/a-guide-to-improving-web-accessibility-with-css/)]
 
 #### Chrome extensions
-* https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#chrome-extensions section.
+
+[* https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm
 * https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en
 * https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh?hl=en
 * https://chrome.google.com/webstore/detail/simple-text-to-speech/ghlkijaiidmimbolhoipnelekfidnpoi?hl=en&_asi=1
 * https://play.google.com/store/apps/details?id=com.chromereadervoice&hl=en_US
-* Ones [I am using](chrome://extensions/) (see: chrome://extensions/) and also found online [here](https://chrome.google.com/webstore/user/purchases?hl=en).
+* Ones [I am using](chrome://extensions/) (see: chrome://extensions/) and also found online [here](https://chrome.google.com/webstore/user/purchases?hl=en).]
 
 #### Documentation
-* https://www.a11yproject.com/
+See the https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#documentation section.
+
+[* https://www.a11yproject.com/
 * https://developer.mozilla.org/en-US/docs/Web/Accessibility
 * https://reactjs.org/docs/accessibility.html
 * w3.org
@@ -117,8 +149,7 @@ What to keep in mind?
   * and [Tutorials](https://www.w3.org/WAI/tutorials/.)
   * also, https://www.w3.org/TR/wai-aria-practices-1.1/
 * [Bureau of Internet Accessibility](https://www.boia.org/) website.
-* [IBM Accessibility](https://www.ibm.com/able/)
+* [IBM Accessibility](https://www.ibm.com/able/)]
 
 ## Associated Links
 * [Accessibility Master Card](https://trello.com/c/QiXs2V0r/164-accessibility-master-card) Trello card
-* ~~[Work on accessibility issues](https://trello.com/c/QiXs2V0r/164-work-on-accessibility-issues) Trello card~~
