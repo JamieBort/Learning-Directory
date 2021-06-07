@@ -93,7 +93,8 @@ What to keep in mind?
 
 * https://www.google.com/accessibility/products-features/
 
-* [A guide to improving web accessibility with CSS](https://blog.logrocket.com/a-guide-to-improving-web-accessibility-with-css/)
+* css-tricks website accessability [search](https://css-tricks.com/?s=Accessibility)
+  * [A guide to improving web accessibility with CSS](https://blog.logrocket.com/a-guide-to-improving-web-accessibility-with-css/)
 
 #### Chrome extensions
 * https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm
