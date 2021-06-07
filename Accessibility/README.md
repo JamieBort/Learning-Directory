@@ -4,6 +4,9 @@
 A directory to use to hone my accessibility exploration. Specifically so that I can make my website(s) more accessible.
 
 ## Status
+1. ~~Going to copy this `README.md` file as `Research.md`.~~ Done.
+2. Going to point the content of this file to the `Research.md` file - so links to it are not broken.
+3. Then going to set up this `README.md` file to mirror the structure and content of `https://github.com/JamieBort/LearningDirectory/tree/master/Java`, `https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript`, or the other `LearningDirectory/` directories.
 
 ## Next Steps
 Which tools are available to test with?
