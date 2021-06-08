@@ -13,7 +13,7 @@ This directory houses all the JavaScript courses, projects, and coding challenge
 
     a. the sections and links under the [Files](https://github.com/JamieBort/LearningDirectory/tree/master/Accessibility#files) section. Starting with [Next Steps](https://github.com/JamieBort/LearningDirectory/tree/master/Accessibility#next-steps) and ending with [Documentation](https://github.com/JamieBort/LearningDirectory/tree/master/Accessibility#documentation). **Note:** leave the `Resources.md` line.
     
-    b. the [Status](https://github.com/JamieBort/LearningDirectory/tree/master/Accessibility#status) section.
+    b. this [Status](https://github.com/JamieBort/LearningDirectory/tree/master/Accessibility#status) section.
 
 ## Directories and Files
 ### Directories
