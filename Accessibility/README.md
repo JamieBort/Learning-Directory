@@ -9,6 +9,11 @@ This directory houses all the JavaScript courses, projects, and coding challenge
 1. ~~Going to copy this `README.md` file as `Research.md`.~~ Done.
 2. ~~Going to point the content of this file to the `Research.md` file - so links to it are not broken.~~ Done.
 3. ~~Then going to set up this `README.md` file to mirror the structure and content of `https://github.com/JamieBort/LearningDirectory/tree/master/Java`, `https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript`, or the other `LearningDirectory/` directories.~~ Done.
+4. Remove 
+
+    a. the sections and links under the [Files](https://github.com/JamieBort/LearningDirectory/tree/master/Accessibility#files) section. Starting with [Next Steps](https://github.com/JamieBort/LearningDirectory/tree/master/Accessibility#next-steps) and ending with [Documentation](https://github.com/JamieBort/LearningDirectory/tree/master/Accessibility#documentation). **Note:** leave the `Resources.md` line.
+    
+    b. the [Status](https://github.com/JamieBort/LearningDirectory/tree/master/Accessibility#status) section.
 
 ## Directories and Files
 ### Directories
