@@ -30,8 +30,11 @@ Running into issues. The following is the status update from `/LearningDirectory
 * used it a bit here: https://github.com/JamieBort/PersonalDashboard/blob/host/hosting_progress/attempt01.md
 This might have some useful info...
 
-* 
-["3.5 Web Application Deployment (Glitch and Heroku) - Working with Data and APIs in JavaScript"](https://www.youtube.com/watch?v=Rz886HkV1j4) YouTube video. (This might be a tutorial)
+* ["3.5 Web Application Deployment (Glitch and Heroku) - Working with Data and APIs in JavaScript"](https://www.youtube.com/watch?v=Rz886HkV1j4) YouTube video. (This might be a tutorial)
+
+* I (needed and) used this https://stackoverflow.com/a/11143639/8210460
+    * then needed this `git push --force heroku master` from here https://stackoverflow.com/a/21088381/8210460
+    * but later found this https://stackoverflow.com/a/8123465/8210460
 
 ## Associated Links
 The [Heroku](https://trello.com/c/9SRRsEWo/43-heroku) Trello card associated with this GitHub repo directory.
