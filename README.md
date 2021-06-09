@@ -3,6 +3,8 @@
 The purpose of this directory is to house all of the code I write as I learn new technologies and hone my skills.
 This is to help keep my GitHub account organized.
 
+Add a [Table of Contents](https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki) to this file. (?)
+
 ---
 ## Explanation of files and directories
 
@@ -17,8 +19,8 @@ For example
 [LearningDirectory/Node/Courses/](https://github.com/JamieBort/LearningDirectory/tree/master/Node/Courses) and [LearningDirectory/Node/Projects/](https://github.com/JamieBort/LearningDirectory/tree/master/Node/Projects).
 
 #### Courses
-The `Coures` directory will have the course work I complete via sites such as Udemy. As well as tutorials found on blogs and the like. 
-The name of the directories in `Coures` will match the name of the course.
+The `Courses` directory will have the course work I complete via sites such as Udemy. As well as tutorials found on blogs and the like. 
+The name of the directories in `Courses` will match the name of the course.
 
 #### Coding Challenges
 The `Coding Challenges` directory is the repository for all the online challenges I work on.
@@ -43,7 +45,7 @@ The [.vscode](https://github.com/JamieBort/LearningDirectory/tree/master/.vscode
 
 #### .gitignore
 The [.gitignore](https://github.com/JamieBort/LearningDirectory/blob/master/.gitignore) file. This lists all the file types that I do not want this repo to track.
-Currently that list consts of:
+Currently that list consists of:
 
 ```
 *.DS_Store
@@ -65,7 +67,7 @@ The .env file(s)... (not uploaded to git as should be the case)
 
 [dotENV Professional Development](https://trello.com/c/CN0CvXEA/261-dotenv-professional-development?menu=filter&filter=label:none) Trello card for my reference - info placed there is for me to refer back to. 
 
-(Note to self: consider linking to a google doc instead. Since info will be placed there and will not need to be dealt with in a trello card.)
+(Note to self: consider linking to a google doc instead. Since info will be placed there and will not need to be dealt with in a Trello card.)
 
 ---
 ### Licensing Info
