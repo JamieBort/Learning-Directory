@@ -1,5 +1,12 @@
 # CSS
+
+## Purpose
 This directory is for or playing with CSS.
+
+## Directories and Files
+### Directories
+
+### Files
 
 ## Resources
 
@@ -70,7 +77,6 @@ This directory is for or playing with CSS.
 
     * [what is fluid typography](https://www.google.com/search?q=what+is+fluid+typography&oq=what+is+fluid+typography&aqs=chrome..69i57.5343j0j7&sourceid=chrome&ie=UTF-8)
 
-
 * From the `Research` section of the `Read up on css units` https://trello.com/c/CkPGtizj/534-read-up-on-css-units Trello Card:
 
     * https://www.w3.org/Style/Examples/007/units.en.html
@@ -78,3 +84,15 @@ This directory is for or playing with CSS.
     * https://stackoverflow.com/questions/609517/why-em-instead-of-px#:~:text=If%20you%20use%20px%20as,the%20size%20of%20the%20system.
 
     * https://stackoverflow.com/a/609561/8210460
+
+* From the `Research` section of the `Style Links` https://trello.com/c/AsOQKQjI/562-style-links Trello Card:
+
+    * https://css-tricks.com/css-basics-styling-links-like-boss/
+
+* From the `Research` section of the `Style buttons for my portfolio website` https://trello.com/c/Fny58qFO/538-style-buttons-for-my-portfolio-website Trello Card:
+
+    * https://css-tricks.com/css-basics-styling-links-like-boss/
+    
+    * ~~https://www.w3schools.com/css/css_link.asp~~ Nothing of note - can do an internet search for this.
+
+## Associated Links
