@@ -3,6 +3,8 @@
 ## Purpose
 This directory is for or playing with CSS.
 
+(Aside from `id` and `class`) How to use CSS with html tags?
+
 ## Directories and Files
 ### Directories
 
@@ -26,8 +28,60 @@ README.md
 
 ## Resources
 
+### Font
+
+### Selectors
+[CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) documentation.
+
+### Style
+
+### Units
+
 ## ~~Resources~~ Research
 (When I know the item is a good resource, I'll add it to the Resources section.)
+
+* Font
+    * From the `Adjust font sizes` https://trello.com/c/5vxxnfr6/540-adjust-font-sizes Trello Card
+        
+        * https://stackoverflow.com/questions/7025756/how-to-apply-global-font-to-whole-html-document/7025774
+
+        * https://stackoverflow.com/questions/10041706/applying-a-single-font-to-an-entire-website-with-css/10041724
+        
+        * https://stackoverflow.com/questions/609517/why-em-instead-of-px#:~:text=If%20you%20use%20px%20as,the%20size%20of%20the%20system.
+        
+        * https://css-tricks.com/almanac/properties/f/font-size/
+
+        * https://css-tricks.com/snippets/css/fluid-typography/
+
+        * https://www.madebymike.com.au/writing/fluid-type-calc-examples/
+
+        * https://css-tricks.com/simplified-fluid-typography/#:~:text=Fluid%20typography%20is%20the%20idea,queries%20if%20we%20had%20them).&text=That's%20essentially%20setting%20a%20minimum,grow%20to%20anything%20too%20extreme.
+
+        * https://css-tricks.com/snippets/css/fluid-typography/
+
+        * [what is fluid typography](https://www.google.com/search?q=what+is+fluid+typography&oq=what+is+fluid+typography&aqs=chrome..69i57.5343j0j7&sourceid=chrome&ie=UTF-8)
+
+* Selectors
+    * Also see 
+
+* Style
+    * https://css-tricks.com/css-basics-styling-links-like-boss/
+        * from
+            * the `Research` section of the `Style Links` https://trello.com/c/AsOQKQjI/562-style-links Trello card
+            * and the `Research` section of the `Style buttons for my portfolio website` https://trello.com/c/Fny58qFO/538-style-buttons-for-my-portfolio-website Trello card
+
+
+
+
+            * ~~From the `Research` section of the `Style Links` https://trello.com/c/AsOQKQjI/562-style-links Trello Card:~~
+
+                * ~~https://css-tricks.com/css-basics-styling-links-like-boss/~~
+
+            * ~~From the `Research` section of the `Style buttons for my portfolio website` https://trello.com/c/Fny58qFO/538-style-buttons-for-my-portfolio-website Trello Card:~~
+
+                * ~~https://css-tricks.com/css-basics-styling-links-like-boss/~~
+                
+                * ~~https://www.w3schools.com/css/css_link.asp~~ Nothing of note - can do an internet search for this.
 
 * Units
     * From the `Resources` section of the `Be deliberate with the css units for the Portfolio Website project` https://trello.com/c/HVuqs695/563-be-deliberate-with-the-css-units-for-the-portfolio-website-project Trello Card
@@ -81,37 +135,5 @@ README.md
         * https://stackoverflow.com/questions/609517/why-em-instead-of-px#:~:text=If%20you%20use%20px%20as,the%20size%20of%20the%20system.
 
         * https://stackoverflow.com/a/609561/8210460
-
-* Style
-    * From the `Research` section of the `Style Links` https://trello.com/c/AsOQKQjI/562-style-links Trello Card:
-
-        * https://css-tricks.com/css-basics-styling-links-like-boss/
-
-    * From the `Research` section of the `Style buttons for my portfolio website` https://trello.com/c/Fny58qFO/538-style-buttons-for-my-portfolio-website Trello Card:
-
-        * https://css-tricks.com/css-basics-styling-links-like-boss/
-        
-        * ~~https://www.w3schools.com/css/css_link.asp~~ Nothing of note - can do an internet search for this.
-
-* Font
-    * From the `Adjust font sizes` https://trello.com/c/5vxxnfr6/540-adjust-font-sizes Trello Card
-        
-        * https://stackoverflow.com/questions/7025756/how-to-apply-global-font-to-whole-html-document/7025774
-
-        * https://stackoverflow.com/questions/10041706/applying-a-single-font-to-an-entire-website-with-css/10041724
-        
-        * https://stackoverflow.com/questions/609517/why-em-instead-of-px#:~:text=If%20you%20use%20px%20as,the%20size%20of%20the%20system.
-        
-        * https://css-tricks.com/almanac/properties/f/font-size/
-
-        * https://css-tricks.com/snippets/css/fluid-typography/
-
-        * https://www.madebymike.com.au/writing/fluid-type-calc-examples/
-
-        * https://css-tricks.com/simplified-fluid-typography/#:~:text=Fluid%20typography%20is%20the%20idea,queries%20if%20we%20had%20them).&text=That's%20essentially%20setting%20a%20minimum,grow%20to%20anything%20too%20extreme.
-
-        * https://css-tricks.com/snippets/css/fluid-typography/
-
-        * [what is fluid typography](https://www.google.com/search?q=what+is+fluid+typography&oq=what+is+fluid+typography&aqs=chrome..69i57.5343j0j7&sourceid=chrome&ie=UTF-8)
 
 ## Associated Links
