@@ -12,6 +12,8 @@ AnotherPractice/
 
 Box-Model/
 
+Font/
+
 css_styling_assessment/
 
 Lipsum-PracticeWithCSSStyling/
@@ -21,6 +23,12 @@ MediaQueries/
 PracticeBoxes/
 
 ResponsivePageLayoutBuild/
+
+Selectors/
+
+Style/
+
+Units/
 
 ### Files
 
@@ -69,19 +77,6 @@ README.md
         * from
             * the `Research` section of the `Style Links` https://trello.com/c/AsOQKQjI/562-style-links Trello card
             * and the `Research` section of the `Style buttons for my portfolio website` https://trello.com/c/Fny58qFO/538-style-buttons-for-my-portfolio-website Trello card
-
-
-
-
-            * ~~From the `Research` section of the `Style Links` https://trello.com/c/AsOQKQjI/562-style-links Trello Card:~~
-
-                * ~~https://css-tricks.com/css-basics-styling-links-like-boss/~~
-
-            * ~~From the `Research` section of the `Style buttons for my portfolio website` https://trello.com/c/Fny58qFO/538-style-buttons-for-my-portfolio-website Trello Card:~~
-
-                * ~~https://css-tricks.com/css-basics-styling-links-like-boss/~~
-                
-                * ~~https://www.w3schools.com/css/css_link.asp~~ Nothing of note - can do an internet search for this.
 
 * Units
     * From the `Resources` section of the `Be deliberate with the css units for the Portfolio Website project` https://trello.com/c/HVuqs695/563-be-deliberate-with-the-css-units-for-the-portfolio-website-project Trello Card
