@@ -66,5 +66,9 @@ README.md
         * https://stackoverflow.com/questions/609517/why-em-instead-of-px#:~:text=If%20you%20use%20px%20as,the%20size%20of%20the%20system.
 
         * https://stackoverflow.com/a/609561/8210460
+    
+    * [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) Mozilla documentation.
+    * https://stackoverflow.com/a/36876937/8210460
+    * https://stackoverflow.com/a/34953591/8210460
 
 ## Associated Links
