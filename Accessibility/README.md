@@ -76,5 +76,11 @@ A directory to house files and directories used to learn these specific concepts
 
 `Resources.md` - this file contains resources from previous research. It has not been studied, read, vetted, etc.
 
+## Questions to have answered
+* what are the Accessibility best practices in terms of 
+    * font size (see https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Units#questions-to-have-answered)
+    * font choices (see https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Font#questions-to-have-answered)
+    * etc. 
+
 ## Associated Links
 * [Accessibility Master Card](https://trello.com/c/QiXs2V0r/164-accessibility-master-card) Trello card
