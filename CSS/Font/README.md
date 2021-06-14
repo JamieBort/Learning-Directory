@@ -10,6 +10,10 @@
 
 README.md
 
+## Questions to have answered
+* what are the CSS font best practices?
+    * consider accessability
+
 ## Resources
 
 ## Research
