@@ -12,9 +12,11 @@ README.md
 
 ## Questions to have answered
 * what are the CSS font size best practices?
-    * consider accessability
+    * consider accessability (see https://github.com/JamieBort/LearningDirectory/tree/master/Accessibility#questions-to-have-answered)
 
 ## Resources
+
+Good info here: https://blog.devgenius.io/a-bite-sized-best-practices-guide-for-css-units-em-rem-px-and-more-f621c0d56df4
 
 ## Research
 

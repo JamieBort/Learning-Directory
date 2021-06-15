@@ -80,7 +80,11 @@ A directory to house files and directories used to learn these specific concepts
 * what are the Accessibility best practices in terms of 
     * font size (see https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Units#questions-to-have-answered)
     * font choices (see https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Font#questions-to-have-answered)
+    * number of characters per line/line length
     * etc. 
+
+## Research
+* number of characters per line/line length https://practicaltypography.com/line-length.html
 
 ## Associated Links
 * [Accessibility Master Card](https://trello.com/c/QiXs2V0r/164-accessibility-master-card) Trello card

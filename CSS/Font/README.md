@@ -39,4 +39,6 @@ README.md
 
         * [what is fluid typography](https://www.google.com/search?q=what+is+fluid+typography&oq=what+is+fluid+typography&aqs=chrome..69i57.5343j0j7&sourceid=chrome&ie=UTF-8)
 
+* number of characters per line/line length https://practicaltypography.com/line-length.html
+
 ## Associated Links
