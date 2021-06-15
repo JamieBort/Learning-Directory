@@ -31,6 +31,8 @@ Style/
 
 Units/
 
+Variables/
+
 ### Files
 
 README.md
@@ -45,6 +47,8 @@ README.md
 ### Style
 
 ### Units
+
+## Variables
 
 ## Research
 
