@@ -18,26 +18,27 @@ README.md
 
 ## Research
 
-* Font
-    * From the `Adjust font sizes` https://trello.com/c/5vxxnfr6/540-adjust-font-sizes Trello Card
-        
-        * https://stackoverflow.com/questions/7025756/how-to-apply-global-font-to-whole-html-document/7025774
+* [css font size units best practices](https://www.google.com/search?q=css+font+size+units+best+practices&sxsrf=ALeKk00ZGwEdBkkg3mZ19ZXcJCXTWFB19Q%3A1623680712720&ei=yGbHYNu3K82u5NoPmJ6OoAk&oq=css+font+size+best+practices&gs_lcp=Cgdnd3Mtd2l6EAEYADIGCAAQBxAeMgIIADoHCAAQRxCwAzoHCCMQsAIQJzoICAAQCBANEB46BAgjECdQpZ4DWISsA2CF1wNoAnACeACAAagBiAGBB5IBAzcuMpgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz) internet search.
 
-        * https://stackoverflow.com/questions/10041706/applying-a-single-font-to-an-entire-website-with-css/10041724
-        
-        * https://stackoverflow.com/questions/609517/why-em-instead-of-px#:~:text=If%20you%20use%20px%20as,the%20size%20of%20the%20system.
-        
-        * https://css-tricks.com/almanac/properties/f/font-size/
+* From the `Adjust font sizes` https://trello.com/c/5vxxnfr6/540-adjust-font-sizes Trello Card
+    
+    * https://stackoverflow.com/questions/7025756/how-to-apply-global-font-to-whole-html-document/7025774
 
-        * https://css-tricks.com/snippets/css/fluid-typography/
+    * https://stackoverflow.com/questions/10041706/applying-a-single-font-to-an-entire-website-with-css/10041724
+    
+    * https://stackoverflow.com/questions/609517/why-em-instead-of-px#:~:text=If%20you%20use%20px%20as,the%20size%20of%20the%20system.
+    
+    * https://css-tricks.com/almanac/properties/f/font-size/
 
-        * https://www.madebymike.com.au/writing/fluid-type-calc-examples/
+    * https://css-tricks.com/snippets/css/fluid-typography/
 
-        * https://css-tricks.com/simplified-fluid-typography/#:~:text=Fluid%20typography%20is%20the%20idea,queries%20if%20we%20had%20them).&text=That's%20essentially%20setting%20a%20minimum,grow%20to%20anything%20too%20extreme.
+    * https://www.madebymike.com.au/writing/fluid-type-calc-examples/
 
-        * https://css-tricks.com/snippets/css/fluid-typography/
+    * https://css-tricks.com/simplified-fluid-typography/#:~:text=Fluid%20typography%20is%20the%20idea,queries%20if%20we%20had%20them).&text=That's%20essentially%20setting%20a%20minimum,grow%20to%20anything%20too%20extreme.
 
-        * [what is fluid typography](https://www.google.com/search?q=what+is+fluid+typography&oq=what+is+fluid+typography&aqs=chrome..69i57.5343j0j7&sourceid=chrome&ie=UTF-8)
+    * https://css-tricks.com/snippets/css/fluid-typography/
+
+    * [what is fluid typography](https://www.google.com/search?q=what+is+fluid+typography&oq=what+is+fluid+typography&aqs=chrome..69i57.5343j0j7&sourceid=chrome&ie=UTF-8)
 
 * number of characters per line/line length https://practicaltypography.com/line-length.html
 
