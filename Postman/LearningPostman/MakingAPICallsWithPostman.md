@@ -1,4 +1,4 @@
-# README Making API Calls
+# Making API Calls With Postman
 
 Notes for making api calls. from the first video.
 

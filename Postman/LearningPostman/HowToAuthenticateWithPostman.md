@@ -1,4 +1,4 @@
-# README LearningPostman
+# How To Authenticate With Postman
 
 Notes for authenticating. Associated with the second video.
 
