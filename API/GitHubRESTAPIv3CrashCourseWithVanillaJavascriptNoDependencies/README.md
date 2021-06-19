@@ -1,4 +1,4 @@
-# README GitHub RESTAPI v3 Crash Course with Vanilla Javascript (No Dependencies)
+# GitHub RESTAPI v3 Crash Course with Vanilla Javascript (No Dependencies)
 
 This directory houses code that I am writing from following along with this [github REST API v3 Crash Course with Vanilla Javascript (No dependencies)](https://www.youtube.com/watch?v=5QlE6o-iYcE) YouTube video.
 

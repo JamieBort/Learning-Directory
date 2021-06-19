@@ -1,4 +1,4 @@
-# README LearningPostman
+# LearningPostman
 
 The purpose of this directory is for learning to use Postman.
 
@@ -17,6 +17,15 @@ See:
 1. [Making API Calls With Postman](https://github.com/JamieBort/LearningDirectory/blob/master/Postman/LearningPostman/MakingAPICallsWithPostman.md).
 2. [How To Authenticate With Postman](https://github.com/JamieBort/LearningDirectory/blob/master/Postman/LearningPostman/HowToAuthenticateWithPostman.md).
 3. 
+
+## Directories and Files
+### Directories
+* ~~[LearningPostman](https://github.com/JamieBort/LearningDirectory/tree/master/Postman/LearningPostman) - unknown~~.
+
+### Files
+* [HowToAuthenticateWithPostman.md](https://github.com/JamieBort/LearningDirectory/blob/master/Postman/LearningPostman/HowToAuthenticateWithPostman.md) - unknown.
+* [MakingAPICallsWithPostman.md.md](https://github.com/JamieBort/LearningDirectory/blob/master/Postman/LearningPostman/MakingAPICallsWithPostman.md) - unknown.
+* [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/Postman/LearningPostman)
 
 ### Resources
 See the `Resources` section of the

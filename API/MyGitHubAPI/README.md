@@ -12,7 +12,7 @@ Since it is not supported in the browser I will also be using node.js. And will 
 [Trello card](https://trello.com/c/bt92aOAd/845-mygithubapi) associated with this directory.
 
 ### Status
-Having touble. Need to come back to make proper notes here.
+Having trouble. Need to come back to make proper notes here.
 
 ### Next Steps
 Address the dotenv issue mentioned above by running a node.js environment.
