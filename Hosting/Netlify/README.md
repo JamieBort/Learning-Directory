@@ -1,4 +1,6 @@
-# Netflify
+# Netlify
+
+Working on setting up this `https://github.com/JamieBort/CreateAUserdirectory` repo to be hosted on Netlify.
 
 ## Directories and Files
 ### Directories
