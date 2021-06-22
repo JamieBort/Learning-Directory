@@ -37,6 +37,6 @@ This might have some useful info...
     * but later found this https://stackoverflow.com/a/8123465/8210460
 
 ## Associated Links
-The [Heroku](https://trello.com/c/9SRRsEWo/43-heroku) Trello card associated with this GitHub repo directory.
-
-[Heroku](https://github.com/JamieBort/LearningDirectory/tree/master/Hosting/Heroku) directory of the LearningDirectory GitHub repo.
+* Heroku [Dashboard](https://dashboard.heroku.com/apps).
+* The [Heroku](https://trello.com/c/9SRRsEWo/43-heroku) Trello card associated with this GitHub repo directory.
+* [Heroku](https://github.com/JamieBort/LearningDirectory/tree/master/Hosting/Heroku) directory of the LearningDirectory GitHub repo.

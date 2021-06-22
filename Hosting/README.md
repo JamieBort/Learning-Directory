@@ -1,10 +1,12 @@
 # Hosting
 
 ## Directories and Files
+### Directories
+* `Heroku/` - 
+* `Netflify/` -
 
-`Heroku/`
-
-`README.md`
+### Files
+* `README.md`
 
 ##
 
