@@ -1,4 +1,5 @@
 # Hosting
+Note, hosting sites. Not Node or the like.
 
 ## Directories and Files
 ### Directories

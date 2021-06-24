@@ -1,4 +1,9 @@
-# README Node
+# Node
+Note, not hosting sites. 
+
+Also, note the relationship to the https://github.com/JamieBort/LearningDirectory/tree/master/Servers directory.
+
+Specifically, https://github.com/JamieBort/LearningDirectory/tree/master/Servers/Node
 
 This directory houses all the Node courses, projects, and coding challenges I have started and completed.
 
@@ -16,6 +21,9 @@ Exercises from sites such as CodeWars.com
 
 ### Projects
 I don't think this should be in here any more. But will leave it for now.
+
+## Resources
+https://stackoverflow.com/questions/5778245/expressjs-how-to-structure-an-application (not meant for https://github.com/JamieBort/LearningDirectory/tree/master/Hosting)
 
 ## Associated links
 Associated repo:
