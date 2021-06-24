@@ -9,3 +9,10 @@ Also, note the relationship to the https://github.com/JamieBort/LearningDirector
 ## Directories and Files
 
 `NodePractice`
+
+## Resource
+
+[Node JS Tutorial for Beginners #25 - Template Engines](https://www.youtube.com/watch?v=oZGmHNZv7Sc) YouTube video. 11.5 minutes.
+
+For express, more good info commented here:
+https://github.com/JamieBort/CreateAUserdirectory/blob/url/main.js
