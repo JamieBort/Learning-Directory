@@ -2,15 +2,20 @@ API
 
 The purpose of this directory is to learn how to use APIs.
 
-## ~~Status~~
+## Status
+
+Move all directories into the `GraphQL` directory or the `REST` directory.
+
 ~~Just finished working on [Trello API Calls](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls)~~. 
 
 ## Directories and Files
 ### Directories
 * [APIPractice](https://github.com/JamieBort/LearningDirectory/tree/master/API/APIPractice) - unknown. Probably a playground or not valuable.
 * [GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies](https://github.com/JamieBort/LearningDirectory/tree/master/API/GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies) - unknown. **Probably valuable.**
+* [GraphQL]()
 * [MyGitHubAPI](https://github.com/JamieBort/LearningDirectory/tree/master/API/MyGitHubAPI) - unknown. **Probably valuable.**
 * [PlayingWithAPIsUsingPython](https://github.com/JamieBort/LearningDirectory/tree/master/API/PlayingWithAPIsUsingPython/01) - unknown.
+* [REST]()
 * [TrelloAPICalls](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls) - Just finished working on it.  **Valuable.**
 
 ### Files
