@@ -1,13 +1,13 @@
 # Redux
 
-React Redux Tutorial for Beginners The Complete Guide 2020
-ReactReduxTutorialforBeginnersTheCompleteGuide2020
+~~React Redux Tutorial for Beginners The Complete Guide 2020
+ReactReduxTutorialforBeginnersTheCompleteGuide2020~~
 
-Keeping the Redux code in a single file:
-[Ducks: Redux Reducer Bundles](https://github.com/erikras/ducks-modular-redux)
+~~Keeping the Redux code in a single file:
+[Ducks: Redux Reducer Bundles](https://github.com/erikras/ducks-modular-redux)~~
 
-The above is from the [React Redux tutorial: getting to know Redux actions and named constants](https://www.valentinog.com/blog/redux/#react-redux-tutorial-getting-to-know-redux-actions-and-named-constants) section of `React Redux Tutorial for Beginners: The Complete Guide (2020)`.
->As you can see we're starting to deal with multiple files. That's the main pet peeve with Redux for most people. You can follow the Redux duck convention if you want, it keeps every Redux related piece in a single file.
+~~The above is from the [React Redux tutorial: getting to know Redux actions and named constants](https://www.valentinog.com/blog/redux/#react-redux-tutorial-getting-to-know-redux-actions-and-named-constants) section of `React Redux Tutorial for Beginners: The Complete Guide (2020)`.~~
+>~~As you can see we're starting to deal with multiple files. That's the main pet peeve with Redux for most people. You can follow the Redux duck convention if you want, it keeps every Redux related piece in a single file.~~
 
 ## Status
 20210421
@@ -16,6 +16,12 @@ Started this https://trello.com/c/5nNobFgd/1097-react-redux-tutorial-for-beginne
 ## Next Steps
 Start this [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867) 30 videos of "lessons". (Also found in resources below.)
 
+## Directories and Files
+### Directories
+* ReactReduxTutorialforBeginnersTheCompleteGuide2020/ - The "React Redux Tutorial for Beginners The Complete Guide 2020" tutorial.
+
+### Files
+* README.md - this file.
 
 ## Associated Links
 https://trello.com/c/4fxf8Eif/220-learn-redux
@@ -29,6 +35,11 @@ https://trello.com/c/4fxf8Eif/220-learn-redux
 * there are more which can be found here: [redux course](https://www.google.com/search?q=redux+course&oq=redux+course&aqs=chrome..69i57j69i64j69i60l3.2286j0j4&sourceid=chrome&ie=UTF-8) internet search
 * [Understanding Redux: The World’s Easiest Guide to Beginning Redux](https://www.freecodecamp.org/news/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6/)
 * [#1 WTF is Redux? | React Native App | Redux Tutorial](https://www.youtube.com/watch?v=KcC8KZ_Ga2M) YouTube video. 13 minutes. **A great resource.**
+* Keeping the Redux code in a single file:
+[Ducks: Redux Reducer Bundles](https://github.com/erikras/ducks-modular-redux)
+Found from a tutorial. 
+See that tutorial's README file:
+https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Libraries/Redux/ReactReduxTutorialforBeginnersTheCompleteGuide2020
 
 ### Tutorial
 **Building something**
