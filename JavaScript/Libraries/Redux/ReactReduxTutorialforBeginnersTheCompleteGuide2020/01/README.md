@@ -12,7 +12,9 @@ I read up through this [React Redux tutorial: connecting React with Redux](https
 At which point in the `src/js/reducers/index.js` file I created the remove action: `if (action.type === REMOVE_ARTICLE)`. This was not part of the tutorial. I did it to solidify my understanding.
 
 ## Notes
-Ran `npm i redux --save-dev` in the `react-redux-tutorial` root directory. Which reslted in this Redux dependency
+Ran `npm i redux --save-dev` in the `react-redux-tutorial` root directory. 
+
+Which resulted in this Redux dependency
 ```
   "devDependencies": {
     "redux": "^4.0.5"

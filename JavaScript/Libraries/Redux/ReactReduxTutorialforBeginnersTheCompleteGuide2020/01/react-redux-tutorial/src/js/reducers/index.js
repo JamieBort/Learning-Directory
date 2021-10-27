@@ -1,5 +1,9 @@
 // src/js/reducers/index.js
 
+// ************************************************************
+// below is commented out because it is replaced with the code underneath it.
+// ************************************************************
+
 // Reducers - Redux reducer is just a JavaScript function. It takes two parameters: the current state and action. Returns the (new) state.
 
 // const initialState = {
@@ -12,6 +16,9 @@
 
 //   export default rootReducer;
 
+
+// ************************************************************
+// below is commented out because it is replaced with the code underneath it.
 // ************************************************************
 
 // import { ADD_ARTICLE } from "../constants/action-types";
