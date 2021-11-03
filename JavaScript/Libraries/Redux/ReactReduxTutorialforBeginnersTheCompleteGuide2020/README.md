@@ -21,6 +21,10 @@ The above is from the [React Redux tutorial: getting to know Redux actions and n
 
 * The [03](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Libraries/Redux/ReactReduxTutorialforBeginnersTheCompleteGuide2020/03) directory has not been started yet.
 
+* 04/
+
+* scratch/ - used to go through the tutorial up through the sections that I already completed. A refresher since it had been so long.
+
 ### Files
 * README.md - this file.
 
