@@ -20,13 +20,14 @@ https://trello.com/c/4fxf8Eif/220-learn-redux
 
 ## Resources
 
-* https://www.youtube.com/watch?v=OSSpVLpuVWA
-* https://www.youtube.com/watch?v=3sjMRS1gJys
+* [Redux Tutorial - Learn React/Redux in one video](https://www.youtube.com/watch?v=OSSpVLpuVWA) 32 minute YouTube video
+* [[Redux] - The Best Explanation of How it Works](https://www.youtube.com/watch?v=3sjMRS1gJys) 47 minute YouTube video
 * [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867) 30 videos of "lessons".
-* [Learning Resources](https://redux.js.org/introduction/learning-resources) from the documentation.
+* Redux [Learning Resources](https://redux.js.org/introduction/learning-resources) from the documentation.
 * there are more which can be found here: [redux course](https://www.google.com/search?q=redux+course&oq=redux+course&aqs=chrome..69i57j69i64j69i60l3.2286j0j4&sourceid=chrome&ie=UTF-8) internet search
-* [Understanding Redux: The World’s Easiest Guide to Beginning Redux](https://www.freecodecamp.org/news/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6/)
-* [#1 WTF is Redux? | React Native App | Redux Tutorial](https://www.youtube.com/watch?v=KcC8KZ_Ga2M) YouTube video. 13 minutes. **A great resource.**
+* [Understanding Redux: The World’s Easiest Guide to Beginning Redux](https://www.freecodecamp.org/news/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6/) Free Code Camp article.
+* https://trello.com/c/dHePgKjO/1217-1-wtf-is-redux-react-native-app-redux-tutorial Trello card for the 13 minute YouTube video. **A great resource.**
+~~[#1 WTF is Redux? | React Native App | Redux Tutorial](https://www.youtube.com/watch?v=KcC8KZ_Ga2M) YouTube video. 13 minutes.~~
 * Keeping the Redux code in a single file:
 [Ducks: Redux Reducer Bundles](https://github.com/erikras/ducks-modular-redux)
 Found from a tutorial. 
