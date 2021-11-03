@@ -6,7 +6,7 @@ import { addArticle } from "../actions/index";
 
 function mapDispatchToProps(dispatch) {
   return {
-    addArticle: article => dispatch(addArticle(article))
+    addArticle: (article) => dispatch(addArticle(article))
   };
 }
 
