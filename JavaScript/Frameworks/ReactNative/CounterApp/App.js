@@ -1,7 +1,25 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Switch } from 'react-native';
 import CounterApp from './CounterApp';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+
+const initialState = {
+	counter: 0
+};
+
+const reducer = (state = initialState, action) => {
+	switch (action.type) {
+		case 'INCREASE_COUNTER':
+			return { counter: state.counter + 1 };
+		case 'DECREASE_COUNTER':
+			return { counter: state.counter - 1 };
+	}
+	return state;
+};
+
+const store = createStore(reducer);
 
 class App extends React.Component {
 	// state = {
@@ -20,46 +38,18 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<CounterApp />
-
-			// <View style={styles.container}>
-			// 	<View style={{ flexDirection: 'row', width: 200, justifyContent: 'space-around' }}>
-			// 		<TouchableOpacity onPress={() => this.increaseCounter()}>
-			// 			<Text style={{ fontSize: 20 }}>Increase</Text>
-			// 		</TouchableOpacity>
-			// 		<Text style={{ fontSize: 20 }}>{this.state.counter}</Text>
-			// 		<TouchableOpacity onPress={() => this.decreaseCounter()}>
-			// 			<Text style={{ fontSize: 20 }}>Decrease</Text>
-			// 		</TouchableOpacity>
-			// 	</View>
-			// </View>
+			<Provider store={store}>
+				<CounterApp />
+			</Provider>
 		);
 	}
 }
 export default App;
 
-const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		// backgroundColor: 'red',
-		alignItems: 'center',
-		justifyContent: 'center'
-	}
-});
-
-// export default function App() {
-// 	return (
-// 		<View style={styles.container}>
-// 			<Text>Open up App.js to start working on your app!</Text>
-// 			<StatusBar style="auto" />
-// 		</View>
-// 	);
-// }
-
 // const styles = StyleSheet.create({
 // 	container: {
 // 		flex: 1,
-// 		backgroundColor: '#fff',
+// 		// backgroundColor: 'red',
 // 		alignItems: 'center',
 // 		justifyContent: 'center'
 // 	}
