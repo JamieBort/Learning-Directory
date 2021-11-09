@@ -32,4 +32,5 @@ The above is from the [React Redux tutorial: getting to know Redux actions and n
 
 * The https://trello.com/c/5nNobFgd/1097-react-redux-tutorial-for-beginners-the-complete-guide-2020 Trello card.
 
-* https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Frameworks/ReactNative/ReactNativeTutorialForBeginners
+* Same tutorial covered here:
+https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Frameworks/ReactNative/ReactNativeTutorialForBeginners
