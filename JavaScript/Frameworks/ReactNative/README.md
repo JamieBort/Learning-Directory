@@ -9,3 +9,7 @@
 
 ### Files
 * README.md - this file.
+
+## Resources
+* Resources section of the React directory
+https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Libraries/React#resources
