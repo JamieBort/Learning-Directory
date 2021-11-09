@@ -24,4 +24,5 @@ See the [Next Step](https://github.com/JamieBort/LearningDirectory/tree/master/J
 * README.md - this readme file.
 
 ## Resources
-* https://www.cloudsavvyit.com/10021/how-to-use-state-in-functional-react-components/ - good resource for learning about AND using state.
+* How to Use State in Functional React Components
+https://www.cloudsavvyit.com/10021/how-to-use-state-in-functional-react-components/ - good resource for learning about AND using state.
