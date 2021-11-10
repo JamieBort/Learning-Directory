@@ -1,4 +1,6 @@
-# README ~~Trello API Calls~~
+# practiceJS/
+
+Former directory name: `06practiceJS`
 
 ## Status
 All of these files are from the iron yard.

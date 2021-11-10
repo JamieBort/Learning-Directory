@@ -26,5 +26,3 @@ I don't think this should be in here any more. But will leave it for now.
 https://stackoverflow.com/questions/5778245/expressjs-how-to-structure-an-application (not meant for https://github.com/JamieBort/LearningDirectory/tree/master/Hosting)
 
 ## Associated links
-Associated repo:
-https://github.com/JamieBort/NodePractice
