@@ -23,4 +23,7 @@ Sites with Lists of CyberSecurity Courses
   * [Introduction to Cyber Security Specialization](https://www.coursera.org/specializations/intro-cyber-security) Coursera course.
 
 ## Associated Links
-https://trello.com/c/BA1eLJS4/873-security-professional-development
+* https://trello.com/c/BA1eLJS4/873-security-professional-development
+* Defcon
+  * https://www.meetup.com/es-ES/DefCon919
+  * https://forum.defcon.org/social-groups
