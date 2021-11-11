@@ -12,6 +12,10 @@ This directory should have ONLY the following directies in it, plus this readme 
 2. `Coding Challenges` and
 3. `Projects`
 
+##What is Node.js?
+From [this](https://www.simform.com/blog/best-nodejs-frameworks/) article:
+>..more often than not, we do refer to it as [a framework]. However, Node. js is actually a JavaScript runtime environment — a platform to execute JavaScript codes on the server-side and make it portable.
+
 ## Courses
 Udemy courses and the like.
 Tutorials.
