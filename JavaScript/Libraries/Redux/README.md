@@ -1,9 +1,10 @@
 # Redux
 
-
 ## Status
 20210421
-Started this https://trello.com/c/5nNobFgd/1097-react-redux-tutorial-for-beginners-the-complete-guide-2020 (Also found in resources below.)
+Started this [React Redux Tutorial For Beginners The Complete Guide 2020](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Libraries/Redux/ReactReduxTutorialforBeginnersTheCompleteGuide2020) 
+
+~~https://trello.com/c/5nNobFgd/1097-react-redux-tutorial-for-beginners-the-complete-guide-2020 (Also found in resources below.)~~
 
 ## Next Steps
 Start this [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867) 30 videos of "lessons". (Also found in resources below.)
