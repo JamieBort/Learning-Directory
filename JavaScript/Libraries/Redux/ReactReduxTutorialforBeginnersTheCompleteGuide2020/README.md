@@ -1,13 +1,14 @@
 # React Redux Tutorial for Beginners: The Complete Guide (2020)
 
-From: [React Redux Tutorial for Beginners: The Complete Guide (2020)](https://www.valentinog.com/blog/redux/) 
+This directory was created by following along with the 
 
-It comes with associated [Redux](https://www.youtube.com/playlist?list=PLfNd7po_IV0GTfQb8RJirrt83BFMF-Lj0) YouTube videos.
+* [React Redux Tutorial for Beginners: The Complete Guide (2020)](https://www.valentinog.com/blog/redux/) tutorial.
 
-Keeping the Redux code in a single file:
-[Ducks: Redux Reducer Bundles](https://github.com/erikras/ducks-modular-redux)
+* and the [Redux](https://www.youtube.com/playlist?list=PLfNd7po_IV0GTfQb8RJirrt83BFMF-Lj0) YouTube video series.
 
-The above is from the [React Redux tutorial: getting to know Redux actions and named constants](https://www.valentinog.com/blog/redux/#react-redux-tutorial-getting-to-know-redux-actions-and-named-constants) section of `React Redux Tutorial for Beginners: The Complete Guide (2020)`.
+[Ducks: Redux Reducer Bundles](https://github.com/erikras/ducks-modular-redux) GitHub repo is from the `React Redux Tutorial for Beginners: The Complete Guide (2020)` section of [React Redux tutorial: getting to know Redux actions and named constants](https://www.valentinog.com/blog/redux/#react-redux-tutorial-getting-to-know-redux-actions-and-named-constants).
+
+It is for keeping the Redux code in a single file:
 >As you can see we're starting to deal with multiple files. That's the main pet peeve with Redux for most people. You can follow the Redux duck convention if you want, it keeps every Redux related piece in a single file.
 
 
@@ -32,5 +33,5 @@ The above is from the [React Redux tutorial: getting to know Redux actions and n
 
 * The https://trello.com/c/5nNobFgd/1097-react-redux-tutorial-for-beginners-the-complete-guide-2020 Trello card.
 
-* Same tutorial covered here:
-https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Frameworks/ReactNative/ReactNativeTutorialForBeginners
+* ~~Same tutorial covered here:~~ **I was mistaken.**
+~~https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Frameworks/ReactNative/ReactNativeTutorialForBeginners~~ 
