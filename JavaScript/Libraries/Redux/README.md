@@ -10,7 +10,11 @@ Started this [React Redux Tutorial For Beginners The Complete Guide 2020](https:
 Start this https://trello.com/c/MnaXAjHf/1221-fundamentals-of-redux-course-from-dan-abramov ~~[Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867) 30 videos of "lessons".~~ (Also found in resources below.)
 
 ## Directories and Files
+
 ### Directories
+
+* FundamentalsOfReduxCourseFromDanAbramov/ - 
+* LearnReduxByWesBos/ - 
 * ReactReduxTutorialforBeginnersTheCompleteGuide2020/ - The "React Redux Tutorial for Beginners The Complete Guide 2020" tutorial.
 
 ### Files
