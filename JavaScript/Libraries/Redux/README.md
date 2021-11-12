@@ -17,7 +17,8 @@ Start this [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/co
 * README.md - this file.
 
 ## Associated Links
-https://trello.com/c/4fxf8Eif/220-learn-redux
+
+* https://trello.com/c/4fxf8Eif/220-learn-redux
 
 ## Resources
 
