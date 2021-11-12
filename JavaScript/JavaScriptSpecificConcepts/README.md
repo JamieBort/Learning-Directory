@@ -2,6 +2,18 @@
 
 A directory to house files and directories used to learn these specific concepts.
 
-~~Created this to explore variables.~~
+## Directories and Files
 
-~~(There will be more concepts I am sure.)~~
+### Directories
+
+* Classes
+* Destructuring/
+* Packages/
+* SpreadSyntax/
+* This
+* TruthyFalsy/
+* VariablesAndScope/
+
+### Files
+
+* README.md - this readme file.
