@@ -6,6 +6,7 @@ import { ADD_ARTICLE } from '../constants/action-types';
 //     articles: [],
 // }
 
+// I modified the original initialState above.
 const initialState = {
 	articles: [
 		{
