@@ -15,7 +15,9 @@ Started this [React Redux Tutorial For Beginners The Complete Guide 2020](https:
 
 ## Associated Links
 
-* https://trello.com/c/4fxf8Eif/220-learn-redux
+* ~~https://trello.com/c/4fxf8Eif/220-learn-redux~~
+
+* https://trello.com/c/8VW28bqK/1222-redux
 
 ## Resources
 
