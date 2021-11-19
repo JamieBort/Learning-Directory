@@ -21,11 +21,16 @@ const App = () => {
 		},
 	];
 
-	// const [ searchTerm, setSearchTerm ] = React.useState('');
-	const [ searchTerm, setSearchTerm ] = React.useState('Re');
+	const [ searchTerm, setSearchTerm ] = React.useState(localStorage.getItem('search') || 'Re');
+
+	React.useEffect(
+		() => {
+			localStorage.setItem('search', searchTerm);
+		},
+		[ searchTerm ],
+	);
 
 	const handleSearch = (event) => {
-		console.log('App: ', event.target.value);
 		setSearchTerm(event.target.value);
 	};
 
@@ -49,18 +54,30 @@ const Search = ({ search, onSearch }) => (
 );
 
 const List = ({ list }) => {
-	return <ul>{list.map((item) => <Item key={item.objectID} item={item} />)}</ul>;
+	// return <ul>{list.map((item) => <Item key={item.objectID} item={item} />)}</ul>;
+	return <ul>{list.map((item) => <Item key={item.objectID} {...item} />)}</ul>;
 };
 
-const Item = ({ item }) => (
+const Item = ({ title, url, author, num_comments, points }) => (
 	<li>
 		<span>
-			<a href={item.url}>{item.title}</a>
+			<a href={url}>{title}</a>
 		</span>
-		<span>{item.author}</span>
-		<span>{item.num_comments}</span>
-		<span>{item.points}</span>
+		<span>{author}</span>
+		<span>{num_comments}</span>
+		<span>{points}</span>
 	</li>
 );
+
+// const Item = ({ item }) => (
+// 	<li>
+// 		<span>
+// 			<a href={item.url}>{item.title}</a>
+// 		</span>
+// 		<span>{item.author}</span>
+// 		<span>{item.num_comments}</span>
+// 		<span>{item.points}</span>
+// 	</li>
+// );
 
 export default App;
