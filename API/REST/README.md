@@ -3,35 +3,37 @@
 ## Directories and Files
 
 ### Directories
-* [APIPractice]() - unknown. Probably a playground or not valuable.
+* [APIPractice](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/APIPractice) - Valuable to review what's been written here.
 
-* [GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies]() - unknown. **Probably valuable.**
+* [GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies) - Valuable. REST API calls using Vanilla Javascript and No Dependencies.
 
-* [MyGitHubAPI]() - unknown. **Probably valuable.**
+* [MyGitHubAPI](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/MyGitHubAPI) - Recreated [GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies).
 
-* [TrelloAPICalls]() - Just finished working on it.  **Valuable.**
+* [PlayingWithAPIsUsingPython]() - unknown. Not much here.
 
-* [PlayingWithAPIsUsingPython]() - unknown.
+* [TrelloAPICalls](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/TrelloAPICalls) - Just finished working on it.  **Valuable.**
 
 ### Files
 * [README.md]() - This file.
 
 
 ## Started
-* https://trello.com/c/9L26mWSo/844-github-restapi-v3-crash-course-with-vanilla-javascript-no-dependencies-again
+All of the following have been moved to their respective directories.
+* ~~https://trello.com/c/9L26mWSo/844-github-restapi-v3-crash-course-with-vanilla-javascript-no-dependencies-again~~
 
-* https://trello.com/c/bt92aOAd/845-mygithubapi
+* ~~https://trello.com/c/bt92aOAd/845-mygithubapi~~
 
-* https://trello.com/c/ckENy2E8/255-trello-api-to-develop
+* ~~https://trello.com/c/ckENy2E8/255-trello-api-to-develop~~
 
 ## Not Started
-* [Web Application Deployment (Glitch and Heroku) - Working with Data and APIs in JavaScript](https://www.youtube.com/watch?v=Rz886HkV1j4) YouTube video.
+* Web Application Deployment (Glitch and Heroku) - Working with Data and APIs in JavaScript YouTube video.
+https://www.youtube.com/watch?v=Rz886HkV1j4
 
 * https://trello.com/c/eMXkEtOP/230-goodreads-api-to-develop
 
-* https://trello.com/c/6JIDc2mT/585-consuming-rest-apis-in-react-with-fetch-and-axios <-- **NOTE:** This is not in the repo yet.
+* https://trello.com/c/6JIDc2mT/585-consuming-rest-apis-in-react-with-fetch-and-axios
 
-* https://trello.com/c/rq3HwoQw
+* ~~https://trello.com/c/rq3HwoQw~~
 
 ## Tabled
 

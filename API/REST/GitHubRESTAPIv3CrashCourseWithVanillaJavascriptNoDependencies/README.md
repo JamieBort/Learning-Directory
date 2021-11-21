@@ -38,3 +38,7 @@ Table of Contents
 5. Pagination.
 6. Authorization - searching private repo issues.
 7. Creating Issues.
+
+## Associated Links
+* `GitHub RESTAPI v3 Crash Course with Vanilla Javascript (No Dependencies)` Trello card.
+https://trello.com/c/9L26mWSo/461-github-restapi-v3-crash-course-with-vanilla-javascript-no-dependencies

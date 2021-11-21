@@ -1,4 +1,4 @@
-# README Trello API Calls
+# Trello API Calls
 
 ## Steps to run this App
 
@@ -45,6 +45,7 @@ See `Research` section of https://trello.com/c/kUT82Vto/244-trello-heat-map
 * [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls)
 
 ## Associated links
-[Trello Api To Develop](https://trello.com/c/ckENy2E8/255-trello-api-to-develop) Trello card.
+* `Trello Api To Develop` Trello card.
+https://trello.com/c/ckENy2E8/255-trello-api-to-develop
 
 And the [TrelloApi](https://github.com/JamieBort/TrelloAPI) GitHub repo.
