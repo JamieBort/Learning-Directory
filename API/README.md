@@ -6,11 +6,11 @@ The purpose of this directory is to learn how to use APIs.
 
 ### Directories
 
-* [GraphQL](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL)
+* [GraphQL/](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL) - [about this directory].
 
-* Postman/
+* [Postman/](https://github.com/JamieBort/LearningDirectory/tree/master/API/Postman) - [about this directory]. No used for REST and GraphQL
 
-* [REST](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST)
+* [REST/](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST) - [about this directory].
 
 ### Files
 * [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/API) - This file.
@@ -22,7 +22,7 @@ Return to [Trello API Calls](https://github.com/JamieBort/LearningDirectory/tree
 
 * GraphQL `Resources` - see the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL#resources) section of the GraphQL README\.md file.
 
-* Postman `Resources` - see the [Resources]() section of the Postman README\.md file.
+* Postman `Resources` - see the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/API/Postman#resource) section of the Postman README\.md file.
 
 * Rest `Resources` - see the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST#resources) section of the REST README\.md file.
 
@@ -30,6 +30,6 @@ Return to [Trello API Calls](https://github.com/JamieBort/LearningDirectory/tree
 
 * GraphQL `Associated Links` - see the [Associated Links](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL#associated-links) section of the GraphQL README\.md file.
 
-* Postman `Associated Links` - see the [Associated Links]() section of the Postman README\.md file.
+* Postman `Associated Links` - see the [Associated Links](https://github.com/JamieBort/LearningDirectory/tree/master/API/Postman#associated-links) section of the Postman README\.md file.
 
 * Rest `Associated Links` - see the [Associated Links](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST#associated-links) section of the REST README\.md file.
