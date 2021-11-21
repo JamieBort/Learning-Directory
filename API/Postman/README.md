@@ -1,6 +1,8 @@
 # Postman
 
-The purpose of this directory is for learning to use Postman.## Directories and Files
+The purpose of this directory is for learning to use Postman.
+
+## Directories and Files
 
 ### Directories
 * [LearningPostman](https://github.com/JamieBort/LearningDirectory/tree/master/Postman/LearningPostman) - unknown.
@@ -22,8 +24,4 @@ The purpose of this directory is for learning to use Postman.## Directories and 
 
 ### Associated Links
 * `Postman Professional Development` Trello card associated with this directory.
-https://trello.com/c/ni15ggqo/239-postman-professional-development
-
-~~[Postman](https://github.com/JamieBort/LearningDirectory/tree/master/Postman) directory in the GitHub LearningDirectory repo.~~
-
-~~[API](https://github.com/JamieBort/LearningDirectory/tree/master/API) directory in the GitHub LearningDirectory repo.~~
+    https://trello.com/c/ni15ggqo/239-postman-professional-development
