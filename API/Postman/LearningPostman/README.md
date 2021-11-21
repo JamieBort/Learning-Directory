@@ -18,12 +18,12 @@ See the various `markdown Files` in the [File](https://github.com/JamieBort/Lear
 ## Directories and Files
 
 ### Directories
-* ~~[LearningPostman](https://github.com/JamieBort/LearningDirectory/tree/master/Postman/LearningPostman) - unknown~~.
+* None so far.
 
 ### Files
-* [HowToAuthenticateWithPostman.md](https://github.com/JamieBort/LearningDirectory/blob/master/API/Postman/LearningPostman/HowToAuthenticateWithPostman.md) - unknown.
+* [HowToAuthenticateWithPostman.md](https://github.com/JamieBort/LearningDirectory/blob/master/API/Postman/LearningPostman/HowToAuthenticateWithPostman.md) - How To Authenticate With Postman.
 
-* [MakingAPICallsWithPostman.md.md](https://github.com/JamieBort/LearningDirectory/blob/master/API/Postman/LearningPostman/MakingAPICallsWithPostman.md) - unknown.
+* [MakingAPICallsWithPostman.md.md](https://github.com/JamieBort/LearningDirectory/blob/master/API/Postman/LearningPostman/MakingAPICallsWithPostman.md) - Making (REST ?) API Calls With Postman.
 
 * README.md - this readme file.
 
