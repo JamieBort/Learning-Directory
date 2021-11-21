@@ -1,6 +1,6 @@
 # LearningPostman
 
-The purpose of this directory is for learning to use Postman.
+The purpose of this directory is for actually practicing with API calls using Postman.
 
 ### Status
 Started watching the [Intro To Postman](https://www.youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ) YouTube series.
@@ -55,11 +55,7 @@ See:
 
 * [The Basics of Using Postman for API Testing](https://www.youtube.com/watch?v=t5n07Ybz7yI) YouTube video.
 
-* https://learning.postman.com/docs/postman/sending-api-requests/authorization/
-
-* [How to use postman to manage and execute your apis](https://www.blazemeter.com/blog/how-use-postman-manage-and-execute-your-apis/) article. (from this Trello card: https://trello.com/c/Z2f1M22A/152-time-dedicated-to-professional-reading)
-
-* http://postman-echo.com/
+* [How to use postman to manage and execute your apis](https://www.blazemeter.com/blog/how-use-postman-manage-and-execute-your-apis/) Blaze Meter article. (from this Trello card: https://trello.com/c/Z2f1M22A/152-time-dedicated-to-professional-reading)
 
 ### Associated Links
 

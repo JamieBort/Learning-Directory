@@ -12,6 +12,8 @@ The purpose of this directory is to learn how to use APIs.
 
 * [REST/](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST) - [about this directory].
 
+* [SOAP](https://github.com/JamieBort/LearningDirectory/tree/master/API/SOAP) - [about this directory]. - doesn't exist yet.
+
 ### Files
 * [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/API) - This file.
 
