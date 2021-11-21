@@ -34,18 +34,28 @@ This has been a help for re-learning node.js: http://zetcode.com/javascript/http
 See `Research` section of https://trello.com/c/kUT82Vto/244-trello-heat-map
 
 ## Directories and Files
+
 ### Directories
+
 * [node_modules]() - this should be removed from the repo.
 
 ### Files
+
 * [.env]() - 
+
 * [index.html](https://github.com/JamieBort/LearningDirectory/blob/master/API/TrelloAPICalls/index.html) - 
+
 * [main.js](https://github.com/JamieBort/LearningDirectory/blob/master/API/TrelloAPICalls/main.js) - 
+
 * [package-lock.json](https://github.com/JamieBort/LearningDirectory/blob/master/API/TrelloAPICalls/package-lock.json) - 
+
 * [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls)
 
 ## Associated links
 * `Trello Api To Develop` Trello card.
-https://trello.com/c/ckENy2E8/255-trello-api-to-develop
+    
+    https://trello.com/c/ckENy2E8/255-trello-api-to-develop
 
-And the [TrelloApi](https://github.com/JamieBort/TrelloAPI) GitHub repo.
+* `TrelloApi` GitHub repo.
+
+    https://github.com/JamieBort/TrelloAPI)

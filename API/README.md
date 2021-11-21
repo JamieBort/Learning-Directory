@@ -8,6 +8,8 @@ The purpose of this directory is to learn how to use APIs.
 
 * [GraphQL](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL)
 
+* Postman/
+
 * [REST](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST)
 
 ### Files
@@ -20,10 +22,14 @@ Return to [Trello API Calls](https://github.com/JamieBort/LearningDirectory/tree
 
 * GraphQL `Resources` - see the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL#resources) section of the GraphQL README\.md file.
 
+* Postman `Resources` - see the [Resources]() section of the Postman README\.md file.
+
 * Rest `Resources` - see the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST#resources) section of the REST README\.md file.
 
 ## Associated Links
 
 * GraphQL `Associated Links` - see the [Associated Links](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL#associated-links) section of the GraphQL README\.md file.
+
+* Postman `Associated Links` - see the [Associated Links]() section of the Postman README\.md file.
 
 * Rest `Associated Links` - see the [Associated Links](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST#associated-links) section of the REST README\.md file.
