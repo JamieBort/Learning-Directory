@@ -14,7 +14,9 @@
 * [TrelloAPICalls](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/TrelloAPICalls) - Just finished working on it.  **Valuable.**
 
 ### Files
-* [README.md]() - This file.
+* [NOTES.md](https://github.com/JamieBort/LearningDirectory/blob/master/API/README.md) - Notes about REST Headers, RESTful, non-RESTful, etc.
+
+* [README.md](https://github.com/JamieBort/LearningDirectory/blob/master/API/README.md) - This file.
 
 
 ## Started
