@@ -1,26 +1,10 @@
-# NOTES
+# HTTP_Headers
 
-Rest makes extensive use the HTTP standard.
 
-## URI (Uniform Resource Identifier)
 
-Consists of four parts:
+>HTTP defines a set of standard request and response headers. Use the headers to provide information about the entity or other resource that you are requesting. The Decision Server Insights REST API supports the following HTTP headers.
 
-scheme_name:hierarchical_part?query#fragment
-
-### URL (Uniform Resource Locator)
-
-Special case of the URI
-
- ## RESTful
- 
- ## non-RESTful
-
- ## HTTP Headers
-
- >HTTP defines a set of standard request and response headers. Use the headers to provide information about the entity or other resource that you are requesting. The Decision Server Insights REST API supports the following HTTP headers.
-
- > The REST headers and parameters contain a wealth of information that can help you track down issues when you encounter them. HTTP Headers are an important part of the API request and response as they represent the meta-data associated with the API request and response. Headers carry information for:
+> The REST headers and parameters contain a wealth of information that can help you track down issues when you encounter them. HTTP Headers are an important part of the API request and response as they represent the meta-data associated with the API request and response. Headers carry information for:
 
 1. Request and Response Body
 2. Request Authorization
@@ -75,26 +59,6 @@ The REST response includes a status code that indicates whether the request was 
 | 415 | Unsupported Media Type: the request contains a format that the server cannot interpret. |
 | 500 | Internal Server Error: this status indicates that an error occurred on the server and it was unable to respond. |
 | 503 | Service Not Available: the solution is not ready and could not respond to the request. |
-
- ## Verbs
-
- ### GET
-
-
- ### POST
-
-
- ### etc.
-
- ## Authentication
-
- ### OAUTH2
-
- ### Tokens
-
- ### Secret
-
- ### Client ID
 
 ---
  #### Sources for these notes
