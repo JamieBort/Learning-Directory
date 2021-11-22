@@ -15,6 +15,11 @@ Also, consider creating a new section for authentication and putting [this](http
 ### What have I learned so far
 See the various `markdown Files` in the [File](https://github.com/JamieBort/LearningDirectory/tree/master/API/Postman/LearningPostman#files) section below.
 
+### APIs that I can experiment with
+
+See the [APIs to use](https://github.com/JamieBort/PersonalDashboard/blob/master/Progress.md#apis-to-use) section of the Progress\.md file of the PersonalDashboard repo.
+
+
 ## Directories and Files
 
 ### Directories
