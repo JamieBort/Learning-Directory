@@ -19,6 +19,7 @@ chrome://settings/content/popups?search=site+settings
 * [LearningPostman](https://github.com/JamieBort/LearningDirectory/tree/master/Postman/LearningPostman) - directory for my notetaking as I learn how to use Postman.
 
 ### Files
+* documentation.png - used for the [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/Postman) file.
 * [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/Postman)
 
 ## Not Started
