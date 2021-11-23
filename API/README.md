@@ -8,7 +8,7 @@ The purpose of this directory is to learn how to use APIs.
 
 * [GraphQL/](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL) - [about this directory].
 
-* [Postman/](https://github.com/JamieBort/LearningDirectory/tree/master/API/Postman) - [about this directory]. No used for REST and GraphQL
+* [Postman/](https://github.com/JamieBort/LearningDirectory/tree/master/API/Postman) - The purpose of this directory is for learning to use Postman. Postman is an REST API endpoint testing tool. **There are other testing tools.**
 
 * [REST/](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST) - [about this directory].
 

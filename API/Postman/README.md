@@ -2,7 +2,16 @@
 
 The purpose of this directory is for learning to use Postman.
 
+Postman is an REST API endpoint testing tool.
+
 Apparently you can make SOAP, REST, and graphql calls with Postman....
+
+## Notes
+
+When using Postman to acquire a token and I'm signing into a site via the browser (prompted by Postman), it maybe necessary to allow chrome to allow popups:
+To that end, navigate to 
+`Pop-ups and redirects`
+chrome://settings/content/popups?search=site+settings
 
 ## Directories and Files
 
