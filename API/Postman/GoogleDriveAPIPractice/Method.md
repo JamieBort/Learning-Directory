@@ -35,24 +35,18 @@
         ![](./01.png)
 
     b. Set up the collection and edit it.
-        
-    ![](./02.png)
-    and
-    ![](./03.png)
-    and
+    
     ![](./05.png)
+    and 
+    ![](./03.png)
+    
 
     c. select the orange button.
 
     d. ...
 
 4. Fill in the api fields
-01
 
-02
-
-03
-
-04
-![](./04.png)
-05
+    ![](./02.png)
+    and
+    ![](./04.png)
