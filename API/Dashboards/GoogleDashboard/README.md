@@ -9,9 +9,12 @@ Note: other documentation might be found in various api and project Trello cards
 ### Directories
 
 ### Files
+
 * NOTES.md - things of note that gave me errors while using this interface, particularly with Postman.
+
 * OAuth_consent_screen.png - used in the NOTES.md file.
-* [README.md]() - this readme file.
+
+* README.md - this readme file.
 
 ### Associated Links
 

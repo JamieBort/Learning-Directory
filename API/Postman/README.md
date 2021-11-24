@@ -22,7 +22,8 @@ chrome://settings/content/popups?search=site+settings
 
 ### Files
 * documentation.png - used for the [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/Postman) file.
-* [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/Postman)
+
+* [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/Postman) - this readme file.
 
 ## Not Started
 
