@@ -32,8 +32,14 @@
 3. To obtain a token
 
     a. Set up the environment.
+        ![](./01.png)
+        and
+        ![](./02.png)
 
     b. Set up the collection and edit it.
+        ![](./03.png)
+        
+        ![](./05.png)
 
     c. select the orange button.
 
@@ -41,12 +47,11 @@
 
 4. Fill in the api fields
 01
-![](./01.png)
+
 02
-![](./02.png)
+
 03
-![](./03.png)
+
 04
 ![](./04.png)
 05
-![](./05.png)
