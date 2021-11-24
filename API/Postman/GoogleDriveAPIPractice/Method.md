@@ -33,13 +33,14 @@
 
     a. Set up the environment.
         ![](./01.png)
-        and
-        ![](./02.png)
 
     b. Set up the collection and edit it.
-        ![](./03.png)
         
-        ![](./05.png)
+    ![](./02.png)
+    and
+    ![](./03.png)
+    and
+    ![](./05.png)
 
     c. select the orange button.
 
