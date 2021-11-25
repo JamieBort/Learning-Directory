@@ -9,3 +9,6 @@ See
 * and https://trello.com/c/oLdgSonr/468-google-gmail-api
 
 for successful experience with the google Console Dashboard
+
+Great resource
+[Authentication and authorization overview](https://developers.google.com/workspace/guides/auth-overview) **document spells out authentication process** very well.

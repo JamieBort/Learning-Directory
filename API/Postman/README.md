@@ -8,10 +8,12 @@ Apparently you can make SOAP, REST, and graphql calls with Postman....
 
 ## Notes
 
-When using Postman to acquire a token and I'm signing into a site via the browser (prompted by Postman), it maybe necessary to allow chrome to allow popups:
+* When using Postman to acquire a token and I'm signing into a site via the browser (prompted by Postman), it maybe necessary to allow chrome to allow popups:
 To that end, navigate to 
 `Pop-ups and redirects`
 chrome://settings/content/popups?search=site+settings
+
+* This https://github.com/JamieBort/GoogleCalendarAPIPractice/tree/Postman repo was successful with Postman. Not sure where to put this for reference.
 
 ## Directories and Files
 
