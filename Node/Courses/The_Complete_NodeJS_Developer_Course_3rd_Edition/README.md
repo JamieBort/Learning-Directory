@@ -6,8 +6,9 @@
 
 ### Directories
 
-* notes-app/ - the first app we're creating for the course.
-* resources/ - original files.
+* notes_app/ - the first app we're creating for the course.
+* playground/ - created to demonstrate writing to and reading from JSON files. Created for the Notes App.
+* resources/ - the original files organized by video. They're current as of when that video ended.
 
 ### Files
 
