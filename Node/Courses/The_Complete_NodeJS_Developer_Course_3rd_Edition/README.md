@@ -16,7 +16,7 @@ Complete the course and review it for Code The Dream.
 
 ## Associated Links
 
-* https://trello.com/c/E7A4MpJp/1233-node-code-the-dream - this this in a directory
+* https://trello.com/c/E7A4MpJp/1233-node-code-the-dream - the associated Trello card.
 
 * Course resources
     * Website
