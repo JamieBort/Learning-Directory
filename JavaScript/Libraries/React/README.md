@@ -8,6 +8,8 @@
 
 * `BuildYourOwnReact` has not been started yet.
 
+* [ReactSpecificConcepts/](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Libraries/React/ReactSpecificConcepts) - 
+
 * `ReactTicTacToeTutorial` is technically done. But there's more work to be done. 
 See the [Next Step](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Libraries/React/ReactTicTacToeTutorial#next-steps) of the `ReactTicTacToeTutorial` directory.
 
