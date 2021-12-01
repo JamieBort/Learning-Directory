@@ -1,10 +1,16 @@
 # RoadToReact/
 
-## Status
+## Directories and Files
 
-Worked up through the 'Inline Handler' section.
+### Directories
 
-~~Worked through the 'Side-Effects/React Side-Effects' section.~~
+* hacker-stories01/ - First pass at this course. Worked up through the 'Inline Handler' section.
+
+* hacker-stories02/ - Going back over it to learn it better (not done yet.)
+
+### Files
+
+* README.md - this readme file.
 
 ## Associated Links
 * https://trello.com/c/BdPESNc3/1224-the-road-to-react-by-robin-wieruch
