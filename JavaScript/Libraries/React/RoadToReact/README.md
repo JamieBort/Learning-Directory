@@ -2,7 +2,9 @@
 
 ## Status
 
-Worked through the 'Side-Effects/React Side-Effects' section.
+Worked up through the 'Inline Handler' section.
+
+~~Worked through the 'Side-Effects/React Side-Effects' section.~~
 
 ## Associated Links
 * https://trello.com/c/BdPESNc3/1224-the-road-to-react-by-robin-wieruch
