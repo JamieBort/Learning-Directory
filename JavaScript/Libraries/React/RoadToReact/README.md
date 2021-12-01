@@ -22,3 +22,7 @@ Use 1Password
     https://www.youtube.com/playlist?list=PLWxkYvHUbRdmbTyGoeOgmjGRt9t5Ma0N9
 
 * https://trello.com/c/YJijAWjX/1193-canary-react-master-card
+
+* Local
+
+    ~/Documents/DevFiles/personal_projects/LearningDirectory/JavaScript/Libraries/React/RoadToReact
