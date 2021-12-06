@@ -1,12 +1,13 @@
 # Git
 
-Compare two branches using git diff
+
+## Commands
+
+### Compare two branches using git diff
 https://devconnected.com/how-to-compare-two-git-branches/
 git diff branch1..branch2
 
-
-Commands
-
+### Delete branches
 https://trello.com/c/XZXUcEjo/757-read-up-on-deleting-old-github-branches
 
 ## Directories and Files
