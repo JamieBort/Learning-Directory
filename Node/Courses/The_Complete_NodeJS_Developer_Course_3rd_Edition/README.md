@@ -12,6 +12,7 @@ Complete the course and review it for Code The Dream.
 
 ### Files
 
+* PROGRESS.md - the file used to organize what has happened and what to do next.
 * README.md - this readme file.
 
 ## Associated Links
