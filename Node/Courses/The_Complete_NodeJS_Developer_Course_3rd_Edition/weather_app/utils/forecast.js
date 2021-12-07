@@ -12,16 +12,19 @@ const forecast = (latitude, longitude, passed_api_key, callback) => {
 		longitude +
 		'&units=f';
 
-	request({ url: url, json: true }, (error, response) => {
+	request({ url: url, json: true }, (error, { body }) => {
 		if (error) {
 			callback('The error is: ' + error, undefined);
-		} else if (response.body.error) {
-			callback('The new error is: ' + response.body.error, undefined);
+		} else if (body.error) {
+			callback('The new error is: ' + body.error, undefined);
 		} else {
-			callback(
-				undefined,
-				'The current temperature is ' + response.body.current.temperature + ' degrees Fahrenheit.',
-			);
+			callback(undefined, {
+				// name: response.body.location.name,
+				// region: response.body.location.region,
+				temperature: body.current.temperature,
+				// location: response.Data.location,
+				// all: response,
+			});
 		}
 	});
 };
