@@ -2,8 +2,17 @@
 
 const request = require('request');
 
-const weather = (passed_api_key, callback) => {
-	const url = 'http://api.weatherstack.com/current?access_key=' + passed_api_key + '&query=37.8267,-122.4233';
+const forecast = (latitude, longitude, passed_api_key, callback) => {
+	const url =
+		'http://api.weatherstack.com/current?access_key=' +
+		passed_api_key +
+		'&query=' +
+		latitude +
+		',' +
+		longitude +
+		'&units=f';
+
+	// const url = 'http://api.weatherstack.com/current?access_key=' + passed_api_key + '&query=37.8267,-122.4233';
 
 	request({ url: url, json: true }, (error, response) => {
 		if (error) {
@@ -19,4 +28,4 @@ const weather = (passed_api_key, callback) => {
 	});
 };
 
-module.exports = weather;
+module.exports = forecast;

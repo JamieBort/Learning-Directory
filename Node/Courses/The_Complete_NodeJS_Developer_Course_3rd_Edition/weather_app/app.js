@@ -1,13 +1,12 @@
 // ./app.js
 require('dotenv').config();
 const geocode = require('./utils/geocode');
-const weather = require('./utils/weather');
+const forecast = require('./utils/forecast');
 
-// console.log(process.env.DB_URL);
-// console.log(process.env.WEATHER_URL);
+// console.log(process.env.FORECAST_API_KEY);
 // console.log(process.env);
 
-weather(process.env.WEATHER_API_KEY, (error, data) => {
+forecast(37.8267, -122.4233, process.env.FORECAST_API_KEY, (error, data) => {
 	if (error) {
 		console.log('Error: ', error);
 	} else {
