@@ -1,4 +1,4 @@
-# React Specific Concepts
+# LearningDirectory/JavaScript/Libraries/React/ReactSpecificConcepts/
 
 A directory to house files and directories used to learn these specific concepts.
 
