@@ -10,6 +10,7 @@ A directory to house files and directories used to learn these specific concepts
 * Destructuring/
 * Packages/
 * SpreadSyntax/
+* State/
 * This
 * TruthyFalsy/
 * VariablesAndScope/
