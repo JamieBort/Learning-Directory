@@ -10,14 +10,28 @@ In case I choose to organize them by language:
 
 * https://github.com/JamieBort/LearningDirectory/tree/master/Python/CodingChallenges
 
-## Algorithms
-1. Binary Search
-2. Merge Sort
+## ~~Algorithms~~
+1. ~~Binary Search~~
+2. ~~Merge Sort~~
 
 Old location:
 ~~See [Algorithms](https://trello.com/c/32EUbWm6/272-algorithms-professional-development#comment-5fdf618df2a6700e75c4604f) in the Activity of the Trello card.~~
 
-## Associtated Links
+## Directories and Files
+
+### Directories
+
+* BinarySearch/ - directory for the Quick Sort algorithm. (doesn't exist yet)
+
+* MergeSort/ - directory for the Merge Sort algorithm.
+
+* Quicksort/ - directory for the Quick Sort algorithm. (doesn't exist yet)
+
+### Files
+
+* README.md - this file.
+
+## Associated Links
 [Algorithms Professional Development](https://trello.com/c/32EUbWm6/272-algorithms-professional-development) Trello card.
 
 The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algorithms) directory of the LearningDirectory GitHub repo.
@@ -49,6 +63,13 @@ https://github.com/trekhleb/javascript-algorithms#algorithms (also shared this w
 visualising data structures and algorithms through animation
 
 * Google's [Data Structures And Algorithms](https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/) 
+
+## Status
+
+Have a table here or link to a spreadsheet:
+
+Algorithm Status
+https://docs.google.com/spreadsheets/d/1oVgFB5jMs6Fvcj-ZUAz5ukYWTJpIKLywiqRSRWdGrNc/edit#gid=0
 
 ### Started
 https://trello.com/c/iahXSPAE/697-work-through-the-mergesort-algorithm

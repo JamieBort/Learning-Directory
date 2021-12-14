@@ -1,15 +1,32 @@
 # Merge Sort
 
-The algorithm (psuedo code):
-1. fuction to divide the array.
+The algorithm (pseudo code):
+1. function to divide the array.
 Takes in an array as an argument.
 Divides the array into two arrays of equal length +/- one element.
 Calls the sorting function on each array half. 
 Returns the array sorted.
-2. fuction to sort the array.
+2. function to sort the array.
 Takes two arguments, the two arrays generated in the divide function above.
 Sorts them.
 Joins them again.
+
+
+
+## Directories and Files
+
+### Directories
+
+* __________/ - None so far.
+
+### Files
+
+* MergeSort_v1.js - The first version of the solution.
+
+* MergeSort_v2.js - The second version of the solution.
+
+* README.md - this file.
+
 
 
 ## Resources
