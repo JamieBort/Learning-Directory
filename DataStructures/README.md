@@ -21,9 +21,11 @@ The `X` indicates that the language has that data structure.
 
 ## Associated Links
 
-https://trello.com/c/NcksvPdV/1092-data-structures-master-card
+* https://trello.com/c/NcksvPdV/1092-data-structures-master-card
 
 ## Resources
+
+* [JavaScript Data Structures: Getting Started](https://www.youtube.com/watch?v=41GSinwoMYA) 97 minute YouTube video.
 
 * https://github.com/trekhleb/javascript-algorithms#big-o-notation 
 Note: Also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures  and https://trello.com/c/32EUbWm6/272-algorithms-professional-development

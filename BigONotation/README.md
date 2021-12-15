@@ -10,7 +10,7 @@
 
 ## Associated Links
 
-* 
+* https://trello.com/c/XNIpgnjj/685-big-o-notation
 
 ## Resources
 
