@@ -6,7 +6,7 @@
 
 * hacker-stories01/ - First pass at this course. Worked up through the 'Inline Handler' section.
 
-* hacker-stories02/ - Going back over it to learn it better (not done yet.)
+* hacker-stories02/ - Going back over it to learn it better.
 
 ### Files
 

@@ -20,10 +20,10 @@
 
 * [Top Data Structures and Algorithms every developer must know](https://dev.to/educative/top-data-structures-and-algorithms-every-developer-must-know-241a) Dev.to article. (copied from: https://trello.com/c/32EUbWm6/272-algorithms-professional-development)
 
-* https://github.com/trekhleb/javascript-algorithms#big-o-notation
+* [Big O Notation](https://github.com/trekhleb/javascript-algorithms#big-o-notation) section of the `JavaScript Algorithms and Data Structures` article.
 Notes: lso shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures  and https://trello.com/c/32EUbWm6/272-algorithms-professional-development
 Note: also found in https://github.com/JamieBort/LearningDirectory/tree/master/DataStructures#resources and https://github.com/JamieBort/LearningDirectory/tree/master/Algorithms#resources
->Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+    >Algorithms and data structures implemented in JavaScript with explanations and links to further readings
 
 * [Big O Notation: A primer for beginning devs](https://www.educative.io/blog/a-big-o-primer-for-beginning-devs) 
 (from `What is Big O Notation Explained: Space and Time Complexity` above.)
