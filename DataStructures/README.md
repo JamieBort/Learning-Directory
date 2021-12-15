@@ -27,7 +27,7 @@ The `X` indicates that the language has that data structure.
 
 * [JavaScript Data Structures: Getting Started](https://www.youtube.com/watch?v=41GSinwoMYA) 97 minute YouTube video.
 
-* https://github.com/trekhleb/javascript-algorithms#big-o-notation 
+* [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms) article.
 Note: Also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures  and https://trello.com/c/32EUbWm6/272-algorithms-professional-development
 Note: also found in https://github.com/JamieBort/LearningDirectory/tree/master/Algorithms#resources and https://github.com/JamieBort/LearningDirectory/tree/master/BigONotation#resources
->Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+    >Algorithms and data structures implemented in JavaScript with explanations and links to further readings
