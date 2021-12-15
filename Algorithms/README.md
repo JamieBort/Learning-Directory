@@ -14,11 +14,11 @@ In case I choose to organize them by language:
 
 ### Directories
 
-* BinarySearch/ - directory for the Quick Sort algorithm. (doesn't exist yet)
+* BinarySearch/ - directory for the Binary Search algorithm.
 
 * MergeSort/ - directory for the Merge Sort algorithm.
 
-* Quicksort/ - directory for the Quick Sort algorithm. (doesn't exist yet)
+* Quicksort/ - directory for the Quick Sort algorithm.
 
 ### Files
 

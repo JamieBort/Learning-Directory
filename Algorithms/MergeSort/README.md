@@ -11,8 +11,6 @@ Takes two arguments, the two arrays generated in the divide function above.
 Sorts them.
 Joins them again.
 
-
-
 ## Directories and Files
 
 ### Directories
@@ -25,40 +23,23 @@ Joins them again.
 
 * MergeSort_v2.js - The second version of the solution. Note: I am following the algorithm from https://en.wikipedia.org/wiki/Merge_sort#, specifically from https://en.wikipedia.org/wiki/Merge_sort#/media/File:Merge-sort-example-300px.gif
 
+* https://repl.it/@JamieBort/temp#index.js - another attempt.
+
+* https://repl.it/@JamieBort/JavaScriptVersion01#index.js - and another attempt.
+
+* https://repl.it/@JamieBort/HelpfulResponsibleBots#index.js - an a last attempt.
+
 * README.md - this file.
 
-
-
 ## Resources
-Some of the below are are different algorithms. And using different languages Quick Sort, Binary Search, etc.
 
-https://repl.it/@JamieBort/temp#index.js
+* good one to read **I think**.
+https://javascript.plainenglish.io/javascript-merge-sort-3205891ac060
 
-https://repl.it/@JamieBort/JavaScriptVersion01#index.js
+* The article I was just reading --> https://medium.com/javascript-in-plain-english/javascript-merge-sort-3205891ac060
 
-https://repl.it/@JamieBort/HelpfulResponsibleBots#index.js
+* https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort
 
-The aritlce I was just reading --> https://medium.com/javascript-in-plain-english/javascript-merge-sort-3205891ac060
+* https://www.geeksforgeeks.org/merge-sort/
 
-https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort
-
-https://www.geeksforgeeks.org/merge-sort/
-
-https://www.tutorialspoint.com/data_structures_algorithms/merge_sort_algorithm.htm
-
-https://en.wikipedia.org/wiki/Quicksort
-
-https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b
-
-https://repl.it/@JamieBort/Binary-Search#index.js
-
-https://www.techiedelight.com/quicksort/
-
-https://www.techiedelight.com/binary-search/
-
-https://dev.to/educative/top-data-structures-and-algorithms-every-developer-must-know-241a
-
-https://www.geeksforgeeks.org/binary-search/
-
-https://en.wikipedia.org/wiki/Binary_search_algorithm
-
+* https://www.tutorialspoint.com/data_structures_algorithms/merge_sort_algorithm.htm
