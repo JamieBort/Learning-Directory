@@ -56,6 +56,12 @@ Visualizing data structures and algorithms through animation
 
 * Google's [Data Structures And Algorithms](https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/) 
 
+* https://github.com/trekhleb/javascript-algorithms#big-o-notation
+Notes: Also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures  and https://trello.com/c/32EUbWm6/272-algorithms-professional-development
+Note: also found in https://github.com/JamieBort/LearningDirectory/tree/master/DataStructures#resources and https://github.com/JamieBort/LearningDirectory/tree/master/BigONotation#resources
+>Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+
+
 ## ~~Status~~
 
 ~~Have a table here or link to a spreadsheet:~~
