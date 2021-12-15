@@ -23,7 +23,7 @@ Joins them again.
 
 * MergeSort_v1.js - The first version of the solution.
 
-* MergeSort_v2.js - The second version of the solution.
+* MergeSort_v2.js - The second version of the solution. Note: I am following the algorithm from https://en.wikipedia.org/wiki/Merge_sort#, specifically from https://en.wikipedia.org/wiki/Merge_sort#/media/File:Merge-sort-example-300px.gif
 
 * README.md - this file.
 

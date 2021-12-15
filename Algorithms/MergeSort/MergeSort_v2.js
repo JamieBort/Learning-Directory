@@ -4,6 +4,8 @@
 
 // 2. function to sort the array. Takes two arguments, the two arrays generated in the divide function above. Sorts them. Joins them again.
 
+// Note: I am following the algorithm from https://en.wikipedia.org/wiki/Merge_sort#, specifically from https://en.wikipedia.org/wiki/Merge_sort#/media/File:Merge-sort-example-300px.gif
+
 const given_even = [ 14, 33, 27, 10, 35, 19, 42, 44 ];
 const given_odd = [ 14, 33, 27, 10, 35, 19, 42, 44, 01 ];
 const single = [ 3 ];
