@@ -11,6 +11,9 @@ Takes two arguments, the two arrays generated in the divide function above.
 Sorts them.
 Joins them again.
 
+**What to do with this?**
+https://trello.com/c/iahXSPAE/697-work-through-the-mergesort-algorithm
+
 ## Directories and Files
 
 ### Directories

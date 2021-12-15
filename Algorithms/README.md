@@ -1,14 +1,10 @@
 # Algorithms
+
 The purpose of this directory is to house the algorithms I am working on.
 Or to link to those algorithms in the directory of their respective language in which I am solving them with.
 
-In case I choose to organize them by language:
-
-* https://github.com/JamieBort/LearningDirectory/tree/master/Java/CodingChallenges
-
-* https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/CodingChallenges
-
-* https://github.com/JamieBort/LearningDirectory/tree/master/Python/CodingChallenges
+See `Algorithm Status` for a global view of the solved algorithms. And by which languages.
+https://docs.google.com/spreadsheets/d/1oVgFB5jMs6Fvcj-ZUAz5ukYWTJpIKLywiqRSRWdGrNc/edit#gid=0
 
 ## Directories and Files
 
@@ -30,6 +26,9 @@ In case I choose to organize them by language:
 The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algorithms) directory of the LearningDirectory GitHub repo.
 
 ## Resources
+
+* Coursera Algorithms
+https://trello.com/c/xYY925Nv/273-courseras-algorithms
 
 * Coderbyte's
   * [Learn Algorithms in One Week](https://coderbyte.com/starter-course/algorithms-and-data-structures)
@@ -53,19 +52,19 @@ https://www.geeksforgeeks.org/merge-sort/
 https://github.com/trekhleb/javascript-algorithms#algorithms (also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures  and https://trello.com/c/XNIpgnjj/685-read-up-on-big-o-notation)
 
 * https://visualgo.net/en
-visualising data structures and algorithms through animation
+Visualizing data structures and algorithms through animation
 
 * Google's [Data Structures And Algorithms](https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/) 
 
-## Status
+## ~~Status~~
 
-Have a table here or link to a spreadsheet:
+~~Have a table here or link to a spreadsheet:~~
 
-Algorithm Status
-https://docs.google.com/spreadsheets/d/1oVgFB5jMs6Fvcj-ZUAz5ukYWTJpIKLywiqRSRWdGrNc/edit#gid=0
+~~Algorithm Status
+https://docs.google.com/spreadsheets/d/1oVgFB5jMs6Fvcj-ZUAz5ukYWTJpIKLywiqRSRWdGrNc/edit#gid=0~~
 
 ### Started
-https://trello.com/c/iahXSPAE/697-work-through-the-mergesort-algorithm
+~~https://trello.com/c/iahXSPAE/697-work-through-the-mergesort-algorithm~~ Moved to https://github.com/JamieBort/LearningDirectory/blob/master/Algorithms/MergeSort/README.md
 
-### Not Started
-https://trello.com/c/xYY925Nv/273-courseras-algorithms
+### ~~Not Started~~
+~~https://trello.com/c/xYY925Nv/273-courseras-algorithms~~
