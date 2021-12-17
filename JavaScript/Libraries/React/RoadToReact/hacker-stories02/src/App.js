@@ -14,7 +14,7 @@ const useSemiPersistentState = (key, initialState) => {
 };
 
 function App() {
-	const stories = [
+	const initialStories = [
 		{
 			title: 'React',
 			url: 'https://reactjs.org/',
@@ -33,30 +33,29 @@ function App() {
 		},
 	];
 
-	// const initialStories = [
-	// 	{
-	// 		title: 'React',
-	// 		url: 'https://reactjs.org/',
-	// 		author: 'Jordan Walke',
-	// 		num_comments: 3,
-	// 		points: 4,
-	// 		objectID: 0,
-	// 	},
-	// 	{
-	// 		title: 'Redux',
-	// 		url: 'https://redux.js.org/',
-	// 		author: 'Dan Abramov, Andrew Clark',
-	// 		num_comments: 2,
-	// 		points: 5,
-	// 		objectID: 1,
-	// 	},
-	// ];
+	const getAsyncStories = () =>
+		new Promise((resolve) => setTimeout(() => resolve({ data: { stories: initialStories } }), 5000));
+
 	const [ booleanValue, setBooleanValueValue ] = React.useState({ status01: true, status02: false });
 	// const [ stories, setStories ] = React.useState(initialStories);
-	// const handleRemoveStory = (item) => {
-	// 	const newStories = stories.filter((story) => item.objectID !== story.objectID);
-	// 	setStories(newStories);
-	// };
+	const [ stories, setStories ] = React.useState([]);
+	const [ isLoading, setIsLoading ] = React.useState(false);
+	const [ isError, setIsError ] = React.useState(false);
+
+	React.useEffect(() => {
+		setIsLoading(true);
+
+		getAsyncStories().then((result) => {
+			setStories(result.data.stories);
+			setIsLoading(false);
+		});
+	}, []);
+
+	const handleRemoveStory = (item) => {
+		const newStories = stories.filter((story) => item.objectID !== story.objectID);
+		setStories(newStories);
+	};
+
 	const [ searchTerm, setSearchTerm ] = useSemiPersistentState('search', 'Re');
 
 	const handleSearch = (event) => {
@@ -84,8 +83,9 @@ function App() {
 			>
 				<strong>Search:</strong>
 			</InputWithLabel>
-			<List list={searchedStories} />
 			{/* <List list={searchedStories} onRemoveItem={handleRemoveStory} /> */}
+			{isError && <p>Something went wrong ...</p>}
+			{isLoading ? <p>Loading ...</p> : <List list={searchedStories} onRemoveItem={handleRemoveStory} />}
 			<InputWithLabel
 				id="search"
 				label="Search"
@@ -133,28 +133,33 @@ const Search = ({ search, onSearch }) => (
 	</React.Fragment>
 );
 
-const List = ({ list }) => <ul>{list.map(({ objectID, ...item }) => <Item key={objectID} {...item} />)}</ul>;
-// const List = ({ list, onRemoveItem }) => (
-//   <ul>
-//     {list.map((item) => (
-//       <Item
-//         key={item.objectID}
-//         item={item}
-//         onRemoveItem={onRemoveItem}
-//       />
-//     ))}
-//   </ul>
-// );
+// const List = ({ list }) => <ul>{list.map(({ objectID, ...item }) => <Item key={objectID} {...item} />)}</ul>;
 
-const Item = ({ title, url, author, num_comments, points }) => (
-	<li>
-		<span>
-			<a href={url}>{title}</a>
-		</span>
-		<span>{author}</span>
-		<span>{num_comments}</span>
-		<span>{points}</span>
-	</li>
+const List = ({ list, onRemoveItem }) => (
+	<ul>{list.map((item) => <Item key={item.objectID} item={item} onRemoveItem={onRemoveItem} />)}</ul>
 );
+
+const Item = ({ item, onRemoveItem }) => {
+	const handleRemoveItem = () => {
+		onRemoveItem(item);
+	};
+
+	return (
+		<li>
+			<span>
+				<a href={item.url}>{item.title}</a>
+			</span>
+			<span>{item.author}</span>
+			<span>{item.num_comments}</span>
+			<span>{item.points}</span>
+			<span>
+				<button type="button" onClick={handleRemoveItem}>
+					{/* <button type="button" onClick={() => onRemoveItem(item)}> */}
+					Dismiss
+				</button>
+			</span>
+		</li>
+	);
+};
 
 export default App;
