@@ -14,18 +14,31 @@ const useSemiPersistentState = (key, initialState) => {
 };
 
 const storiesReducer = (state, action) => {
-	// if (action.type === 'SET_STORIES') {
-	// 	return action.payload;
-	// } else if (action.type === 'REMOVE_STORY') {
-	// 	return state.filter((story) => action.payload.objectID !== story.objectID);
-	// } else {
-	// 	throw new Error();
-	// }
 	switch (action.type) {
-		case 'SET_STORIES':
-			return action.payload;
+		case 'STORIES_FETCH_INIT':
+			return {
+				...state,
+				isLoading: true,
+				isError: false,
+			};
+		case 'STORIES_FETCH_SUCCESS':
+			return {
+				...state,
+				isLoading: false,
+				isError: false,
+				data: action.payload,
+			};
+		case 'STORIES_FETCH_FAILURE':
+			return {
+				...state,
+				isLoading: false,
+				isError: true,
+			};
 		case 'REMOVE_STORY':
-			return state.filter((story) => action.payload.objectID !== story.objectID);
+			return {
+				...state,
+				data: state.data.filter((story) => action.payload.objectID !== story.objectID),
+			};
 		default:
 			throw new Error();
 	}
@@ -54,34 +67,32 @@ function App() {
 	const getAsyncStories = () =>
 		new Promise((resolve) => setTimeout(() => resolve({ data: { stories: initialStories } }), 5000));
 
+	//   // Try to use the erroneous data fetching function again and check whether everything works as expected now:
+	//   const getAsyncStories = () =>
+	// new Promise((resolve, reject) => setTimeout(reject, 2000));
+
 	const [ booleanValue, setBooleanValueValue ] = React.useState({ status01: true, status02: false });
-	// const [ stories, setStories ] = React.useState(initialStories);
-	// const [ stories, setStories ] = React.useState([]);
-	const [ stories, dispatchStories ] = React.useReducer(storiesReducer, []);
-	const [ isLoading, setIsLoading ] = React.useState(false);
-	const [ isError, setIsError ] = React.useState(false);
+	// const [ stories, dispatchStories ] = React.useReducer(storiesReducer, []);
+	const [ stories, dispatchStories ] = React.useReducer(storiesReducer, {
+		data: [],
+		isLoading: false,
+		isError: false,
+	});
 
 	React.useEffect(() => {
-		setIsLoading(true);
+		dispatchStories({ type: 'STORIES_FETCH_INIT' });
 
-		getAsyncStories().then((result) => {
-			// setStories(result.data.stories);
-			dispatchStories({
-				type: 'SET_STORIES',
-				payload: result.data.stories,
-			});
-			setIsLoading(false);
-		});
+		getAsyncStories()
+			.then((result) => {
+				dispatchStories({
+					type: 'STORIES_FETCH_SUCCESS',
+					payload: result.data.stories,
+				});
+			})
+			.catch(() => dispatchStories({ type: 'STORIES_FETCH_FAILURE' }));
 	}, []);
 
 	const handleRemoveStory = (item) => {
-		// const newStories = stories.filter((story) => item.objectID !== story.objectID);
-		// // setStories(newStories);
-		// dispatchStories({
-		// 	type: 'SET_STORIES',
-		// 	payload: newStories,
-		// });
-
 		dispatchStories({
 			type: 'REMOVE_STORY',
 			payload: item,
@@ -94,7 +105,9 @@ function App() {
 		setSearchTerm(event.target.value);
 	};
 
-	const searchedStories = stories.filter((story) => story.title.toLowerCase().includes(searchTerm.toLowerCase()));
+	const searchedStories = stories.data.filter((story) =>
+		story.title.toLowerCase().includes(searchTerm.toLowerCase()),
+	);
 
 	const handleClick = () => {
 		booleanValue.status01
@@ -105,7 +118,6 @@ function App() {
 	return (
 		<div>
 			<h1>My Hacker Stories</h1>
-			<button onClick={handleClick}>Button</button>
 			<InputWithLabel
 				id="search"
 				label="Search"
@@ -115,9 +127,9 @@ function App() {
 			>
 				<strong>Search:</strong>
 			</InputWithLabel>
-			{/* <List list={searchedStories} onRemoveItem={handleRemoveStory} /> */}
-			{isError && <p>Something went wrong ...</p>}
-			{isLoading ? <p>Loading ...</p> : <List list={searchedStories} onRemoveItem={handleRemoveStory} />}
+			<hr />
+			<button onClick={handleClick}>Button</button>
+			<hr />
 			<InputWithLabel
 				id="search"
 				label="Search"
@@ -127,6 +139,8 @@ function App() {
 			>
 				<strong>second:</strong>
 			</InputWithLabel>
+			{stories.isError && <p>Something went wrong ...</p>}
+			{stories.isLoading ? <p>Loading ...</p> : <List list={searchedStories} onRemoveItem={handleRemoveStory} />}
 		</div>
 	);
 }
@@ -164,8 +178,6 @@ const Search = ({ search, onSearch }) => (
 		</div>
 	</React.Fragment>
 );
-
-// const List = ({ list }) => <ul>{list.map(({ objectID, ...item }) => <Item key={objectID} {...item} />)}</ul>;
 
 const List = ({ list, onRemoveItem }) => (
 	<ul>{list.map((item) => <Item key={item.objectID} item={item} onRemoveItem={onRemoveItem} />)}</ul>

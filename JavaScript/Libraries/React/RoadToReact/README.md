@@ -4,9 +4,9 @@
 
 ### Directories
 
-* hacker-stories01/ - First pass at this course. Worked up through the 'Inline Handler' section.
+* hacker-stories01/ - First pass at this course. **Worked up through the 'Inline Handler' section.**
 
-* hacker-stories02/ - Going back over it to learn it better.
+* hacker-stories02/ - Going back over it to learn it better. Currently worked up through the **Impossible State** section.
 
 ### Files
 
