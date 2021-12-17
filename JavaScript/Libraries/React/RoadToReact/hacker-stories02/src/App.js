@@ -67,7 +67,7 @@ function App() {
 	];
 
 	const getAsyncStories = () =>
-		new Promise((resolve) => setTimeout(() => resolve({ data: { stories: initialStories } }), 5000));
+		new Promise((resolve) => setTimeout(() => resolve({ data: { stories: initialStories } }), 2000));
 
 	//   // Try to use the erroneous data fetching function again and check whether everything works as expected now:
 	//   const getAsyncStories = () =>
@@ -81,32 +81,25 @@ function App() {
 		isError: false,
 	});
 
-	// React.useEffect(() => {
-	// 	dispatchStories({ type: 'STORIES_FETCH_INIT' });
+	React.useEffect(
+		() => {
+			if (!searchTerm) return;
 
-	// 	getAsyncStories()
-	// 		.then((result) => {
-	// 			dispatchStories({
-	// 				type: 'STORIES_FETCH_SUCCESS',
-	// 				payload: result.data.stories,
-	// 			});
-	// 		})
-	// 		.catch(() => dispatchStories({ type: 'STORIES_FETCH_FAILURE' }));
-	// }, []);
+			dispatchStories({ type: 'STORIES_FETCH_INIT' });
 
-	React.useEffect(() => {
-		dispatchStories({ type: 'STORIES_FETCH_INIT' });
-
-		fetch(`${API_ENDPOINT}react`) // B
-			.then((response) => response.json()) // C
-			.then((result) => {
-				dispatchStories({
-					type: 'STORIES_FETCH_SUCCESS',
-					payload: result.hits, // D
-				});
-			})
-			.catch(() => dispatchStories({ type: 'STORIES_FETCH_FAILURE' }));
-	}, []);
+			fetch(`${API_ENDPOINT}${searchTerm}`)
+				.then((response) => response.json())
+				.then((result) => {
+					dispatchStories({
+						type: 'STORIES_FETCH_SUCCESS',
+						payload: result.hits,
+					});
+				})
+				.catch(() => dispatchStories({ type: 'STORIES_FETCH_FAILURE' }));
+		},
+		// [ searchTerm ], // *** This produces an error. ***
+		[], // *** This does not produce an error. ***
+	);
 
 	const handleRemoveStory = (item) => {
 		dispatchStories({
@@ -121,9 +114,9 @@ function App() {
 		setSearchTerm(event.target.value);
 	};
 
-	const searchedStories = stories.data.filter((story) =>
-		story.title.toLowerCase().includes(searchTerm.toLowerCase()),
-	);
+	// const searchedStories = stories.data.filter((story) =>
+	// 	story.title.toLowerCase().includes(searchTerm.toLowerCase()),
+	// );
 
 	const handleClick = () => {
 		booleanValue.status01
@@ -156,7 +149,7 @@ function App() {
 				<strong>second:</strong>
 			</InputWithLabel>
 			{stories.isError && <p>Something went wrong ...</p>}
-			{stories.isLoading ? <p>Loading ...</p> : <List list={searchedStories} onRemoveItem={handleRemoveStory} />}
+			{stories.isLoading ? <p>Loading ...</p> : <List list={stories.data} onRemoveItem={handleRemoveStory} />}
 		</div>
 	);
 }
