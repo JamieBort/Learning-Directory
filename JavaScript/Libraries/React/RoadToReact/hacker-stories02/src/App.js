@@ -66,6 +66,8 @@ function App() {
 		},
 	];
 
+	const [ searchTerm, setSearchTerm ] = useSemiPersistentState('search', 'React');
+
 	const getAsyncStories = () =>
 		new Promise((resolve) => setTimeout(() => resolve({ data: { stories: initialStories } }), 2000));
 
@@ -81,8 +83,10 @@ function App() {
 		isError: false,
 	});
 
-	React.useEffect(
+	// A
+	const handleFetchStories = React.useCallback(
 		() => {
+			// B
 			if (!searchTerm) return;
 
 			dispatchStories({ type: 'STORIES_FETCH_INIT' });
@@ -97,9 +101,15 @@ function App() {
 				})
 				.catch(() => dispatchStories({ type: 'STORIES_FETCH_FAILURE' }));
 		},
-		// [ searchTerm ], // *** This produces an error. ***
-		[], // *** This does not produce an error. ***
-	);
+		[ searchTerm ],
+	); // E
+
+	React.useEffect(
+		() => {
+			handleFetchStories(); // C
+		},
+		[ handleFetchStories ],
+	); // D
 
 	const handleRemoveStory = (item) => {
 		dispatchStories({
@@ -108,7 +118,7 @@ function App() {
 		});
 	};
 
-	const [ searchTerm, setSearchTerm ] = useSemiPersistentState('search', 'Re');
+	// const [ searchTerm, setSearchTerm ] = useSemiPersistentState('search', 'React');
 
 	const handleSearch = (event) => {
 		setSearchTerm(event.target.value);
@@ -155,14 +165,11 @@ function App() {
 }
 
 const InputWithLabel = ({ id, label, value, type = 'type', onInputChange, isFocused, children }) => {
-	// A
 	const inputRef = React.useRef();
 
-	// C
 	React.useEffect(
 		() => {
 			if (isFocused && inputRef.current) {
-				// D
 				inputRef.current.focus();
 			}
 		},
