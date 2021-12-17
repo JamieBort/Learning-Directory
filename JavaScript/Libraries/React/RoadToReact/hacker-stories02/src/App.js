@@ -13,6 +13,24 @@ const useSemiPersistentState = (key, initialState) => {
 	return [ value, setValue ];
 };
 
+const storiesReducer = (state, action) => {
+	// if (action.type === 'SET_STORIES') {
+	// 	return action.payload;
+	// } else if (action.type === 'REMOVE_STORY') {
+	// 	return state.filter((story) => action.payload.objectID !== story.objectID);
+	// } else {
+	// 	throw new Error();
+	// }
+	switch (action.type) {
+		case 'SET_STORIES':
+			return action.payload;
+		case 'REMOVE_STORY':
+			return state.filter((story) => action.payload.objectID !== story.objectID);
+		default:
+			throw new Error();
+	}
+};
+
 function App() {
 	const initialStories = [
 		{
@@ -38,7 +56,8 @@ function App() {
 
 	const [ booleanValue, setBooleanValueValue ] = React.useState({ status01: true, status02: false });
 	// const [ stories, setStories ] = React.useState(initialStories);
-	const [ stories, setStories ] = React.useState([]);
+	// const [ stories, setStories ] = React.useState([]);
+	const [ stories, dispatchStories ] = React.useReducer(storiesReducer, []);
 	const [ isLoading, setIsLoading ] = React.useState(false);
 	const [ isError, setIsError ] = React.useState(false);
 
@@ -46,14 +65,27 @@ function App() {
 		setIsLoading(true);
 
 		getAsyncStories().then((result) => {
-			setStories(result.data.stories);
+			// setStories(result.data.stories);
+			dispatchStories({
+				type: 'SET_STORIES',
+				payload: result.data.stories,
+			});
 			setIsLoading(false);
 		});
 	}, []);
 
 	const handleRemoveStory = (item) => {
-		const newStories = stories.filter((story) => item.objectID !== story.objectID);
-		setStories(newStories);
+		// const newStories = stories.filter((story) => item.objectID !== story.objectID);
+		// // setStories(newStories);
+		// dispatchStories({
+		// 	type: 'SET_STORIES',
+		// 	payload: newStories,
+		// });
+
+		dispatchStories({
+			type: 'REMOVE_STORY',
+			payload: item,
+		});
 	};
 
 	const [ searchTerm, setSearchTerm ] = useSemiPersistentState('search', 'Re');
