@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+const API_ENDPOINT = 'https://hn.algolia.com/api/v1/search?query=';
+
 const useSemiPersistentState = (key, initialState) => {
 	const [ value, setValue ] = React.useState(localStorage.getItem(key) || initialState);
 
@@ -79,14 +81,28 @@ function App() {
 		isError: false,
 	});
 
+	// React.useEffect(() => {
+	// 	dispatchStories({ type: 'STORIES_FETCH_INIT' });
+
+	// 	getAsyncStories()
+	// 		.then((result) => {
+	// 			dispatchStories({
+	// 				type: 'STORIES_FETCH_SUCCESS',
+	// 				payload: result.data.stories,
+	// 			});
+	// 		})
+	// 		.catch(() => dispatchStories({ type: 'STORIES_FETCH_FAILURE' }));
+	// }, []);
+
 	React.useEffect(() => {
 		dispatchStories({ type: 'STORIES_FETCH_INIT' });
 
-		getAsyncStories()
+		fetch(`${API_ENDPOINT}react`) // B
+			.then((response) => response.json()) // C
 			.then((result) => {
 				dispatchStories({
 					type: 'STORIES_FETCH_SUCCESS',
-					payload: result.data.stories,
+					payload: result.hits, // D
 				});
 			})
 			.catch(() => dispatchStories({ type: 'STORIES_FETCH_FAILURE' }));
