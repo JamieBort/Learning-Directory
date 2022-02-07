@@ -10,6 +10,8 @@
 * BuildANodeJsAPIInUnder30Minutes/ 
 * HelloWorldWithNodeJS/   
 * Node/
+* NodeJs Express Course Build 4 Projects <-- directory not created yet.
+https://trello.com/c/QQMi74zH/1267-nodejs-express-course-build-4-projects
 
 ### Files
 
