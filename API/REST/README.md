@@ -44,11 +44,6 @@ https://www.youtube.com/watch?v=Rz886HkV1j4
 * Look into this website. It might be helpful for learning APIs better: https://apiary.io/how-apiary-works
     > Write an API in 30 minutes. Share it with your teammates or customers. Let them use the API mock to take your API for a spin--without writing any code. Iterate, rinse & repeat. Coding can wait until you know what your developers really need.
 
-* [ReqRes](https://reqres.in/)
-    >Test your front-end against a real API.
-
-    >A hosted REST-API ready to respond to your AJAX requests.
-
 * [How To Interact With Github API Using JavaScript](https://www.youtube.com/watch?v=PPLorPKmHBA) YouTube video.
 
 * https://trello.com/c/HfBEw6MB/744-api-resource-and-or-practice
@@ -57,6 +52,15 @@ https://www.youtube.com/watch?v=Rz886HkV1j4
 * [All possible ways of making an API call in JavaScript.](https://levelup.gitconnected.com/all-possible-ways-of-making-an-api-call-in-plain-javascript-c0dee3c11b8b)
 
 * [simple javascript api call](https://www.google.com/search?q=simple+javascript+api+call&oq=simple+javascript+api+call&aqs=chrome..69i57.4772j0j7&sourceid=chrome&ie=UTF-8) internet search.
+
+* Rest API Call Resources
+    * https://jsonplaceholder.typicode.com/
+        >Free fake API for testing and prototyping.
+
+    * [ReqRes](https://reqres.in/)
+        >Test your front-end against a real API.
+
+        >A hosted REST-API ready to respond to your AJAX requests.
 
 ## Associated Links
 
