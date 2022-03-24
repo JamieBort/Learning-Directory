@@ -2,6 +2,12 @@
 
 Non-relational (NoSQL) data structure.
 
+the NoSQL database management program MongoDB uses JSON-like documents to store and organize data. (Technically, it uses a variant of JSON call BSON, or binary JSON.)
+
+
+Popular noSQL database management system (DBMS) examples:
+MongoDB, Redis, Cassandra, Elasticsearch, and Firebase.
+
 ## Directories and Files
 
 ### Directories
