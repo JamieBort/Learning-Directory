@@ -9,51 +9,35 @@ This directory is for or playing with CSS.
 
 ### Directories
 
-AnotherPractice/                
-
-Box-Model/
-
-Font/
-
-css_styling_assessment/
-
-Lipsum-PracticeWithCSSStyling/
-
-MediaQueries/
-
-PracticeBoxes/
-
-ResponsivePageLayoutBuild/
-
-Selectors/
-
-Style/
-
-Units/
-
-Variables/
+* AnotherPractice/                
+* Box-Model/
+* Font/ - See the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Font#resources) section in the `Font` directory.
+* css_styling_assessment/
+* Lipsum-PracticeWithCSSStyling/
+* MediaQueries/
+* PracticeBoxes/
+* ResponsivePageLayoutBuild/
+* Selectors/ - See the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Selectors#resources) section in the `Selectors` directory.
+~~[CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) documentation.~~
+* Style/ - See the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Style#resources) section in the `Style` directory.
+* Units/ - See the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Units#resources) section in the `Units` directory.
+* Variables/ - See the [Resources]() section in the `Variables` directory. (url doesn't exist yet.)
 
 ### Files
 
-README.md
+* README.md - this readme file.
 
-## Resources
+## Comparison table:
 
-### Font
-See the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Font#resources) section in the `Font` directory.
-
-### Selectors
-See the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Selectors#resources) section in the `Selectors` directory.
-~~[CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) documentation.~~
-
-### Style
-See the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Style#resources) section in the `Style` directory.
-
-### Units
-See the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/CSS/Units#resources) section in the `Units` directory.
-
-### Variables
-See the [Resources]() section in the `Variables` directory. (url doesn't exist yet.)
+| ? | CSS | CSS3 |
+| :----:    | :----:|:----: |
+| Compatibility | Not compatible with CSS3 | Is backward compatible |
+| ? | CSS is the basic version, and it does not support responsive design. | The main difference between CSS and CSS3 is that CSS3 has modules. CSS3, on the other hand, is the latest version and supports responsive design. |
+| Alignment | CSS does not have any box-sizing tool, and hence the user needs to use the standard procedures defined to align text. | In addition to these, CSS3 has many alignment features. CSS3 provides a box-sizing tool that allows the user to get the correct size of any element without making any changes in the element’s dimensions or padding. |
+| 3D animation | CSS does not provide 3D animation and transformations. | The animations and 3D transformations are better in CSS3. Elements can be moved on the screen with the help of flash and JavaScript. Using this, the elements will also be able to change their size and color. All kinds of transitions, transformations, and animations can be done using CSS3. |
+| Color | CSS provides basic color schema and standard colors.  | CSS3 supports RGBA, HSLA, HSL and gradient colours. It also supports rounded image corners for text boxes. |
+| Blocks | CSS only supports single text blocks. | Multi-column text blocks can be defined in CSS3.  |
+| List goes on... | List goes on... | List goes on... |
 
 ## Research
 
