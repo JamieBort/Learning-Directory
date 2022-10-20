@@ -4,11 +4,11 @@ Old title: EvenFibonacciNumbersProjectEulerJavaScript
 
 EvenFibonacciNumbers ProjectEuler JavaScript
 
-https://projecteuler.net/problem=2
+Problem URL: https://projecteuler.net/problem=2
 
 ### Status 
-Not done.
-Tableing for now.
+With attempt02.js I think I have the correct solution. 
+But when I test my answer with the website I'm told it's not correct.
 
 ### Research
 [Project Euler #2: Even Fibonacci numbers](https://medium.com/@TheZaki/project-euler-2-even-fibonacci-numbers-2219e9438970) Medium blog post.
