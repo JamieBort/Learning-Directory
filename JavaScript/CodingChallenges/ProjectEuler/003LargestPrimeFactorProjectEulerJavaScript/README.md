@@ -24,7 +24,15 @@ What is the largest prime factor of the number 600851475143 ?
 
 ### Files
 
-attempt01.js -
+attempt01.js - nothing worthwhile.
+
+attempt02.js - nothing worthwhile.
+
+attempt03.js - Close to a solution.
+
+attempt04.js - A "Solution" for the example. Doesn't work for the number given to solve the problem.
+
+attempt05.js -
 
 README.md - this file.
 
