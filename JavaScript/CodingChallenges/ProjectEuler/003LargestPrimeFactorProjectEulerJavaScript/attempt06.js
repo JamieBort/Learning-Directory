@@ -32,104 +32,94 @@ let theList = [];
 let tempNum = num;
 let counter = 0;
 
-// for (const el of list_of_prime_numbers) {
-// 	if (Number.isInteger(num / el)) {
-// 		// console.log(el); // 5
-// 		theList.push(el);
-// 		break;
-// 	}
-// }
-
-while (tempNum != 1) {
-	// while (counter < 1) {
-	// let counter = 0;
-	for (const el of list_of_prime_numbers) {
-		if (Number.isInteger(num / el)) {
-			// console.log(el); // 5
-			theList.push(el);
-			break;
-		}
+for (const el of list_of_prime_numbers) {
+	if (Number.isInteger(num / el)) {
+		console.log('The first prime is:', el); // 5
+		theList.push(el);
+		break;
 	}
+}
 
-	// tempNum = tempNum / theList[counter];
-	// console.log('tempNum:', tempNum);
-	// console.log('counter:', counter);
-	// console.log('theList:', theList);
-	// console.log('theList[counter]:', theList[counter]);
-	// counter++;
+// while (tempNum != 1) {
+while (counter < 1) {
+	// let counter = 0;
 
-	// tempNum = tempNum / theList[counter];
-
+	// // tempNum = tempNum / theList[counter];
 	// // console.log('tempNum:', tempNum);
-	// // console.log('-----');
-	// for (const el of list_of_prime_numbers) {
-	// 	if (Number.isInteger(tempNum / el)) {
-	// 		// console.log(el); // 7
-	// 		theList.push(el);
-	// 		// counter++;
-	// 		break;
-	// 	}
-	// 	// counter++;
-	// }
+	// // console.log('counter:', counter);
+	// // console.log('theList:', theList);
+	// // console.log('theList[counter]:', theList[counter]);
 	// // counter++;
 
-	// console.log(num / theList[0]); // 2639
-	tempNum = tempNum / theList[0];
-	counter++;
-	console.log('tempNum:', tempNum); // 2639
-	// console.log('counter a:', counter);
-	for (const el of list_of_prime_numbers) {
-		if (Number.isInteger(tempNum / el)) {
-			// console.log(el); // 7
-
-			// console.log('counter b:', counter);
-
-			theList.push(el);
-			break;
-		}
-		// counter++; // very bad place
-	}
+	tempNum = tempNum / theList[counter];
+	// console.log('tempNum:', tempNum);
 	console.log('-----');
-	// console.log(num / theList[0] / theList[1]); // 377
-	tempNum = tempNum / theList[1];
-	counter++;
-	console.log('tempNum:', tempNum); // 377
-	// console.log('counter c:', counter);
-
 	for (const el of list_of_prime_numbers) {
 		if (Number.isInteger(tempNum / el)) {
-			// console.log(el); // 13
-			// console.log('counter d:', counter);
+			console.log('The next prime is:', el);
 			theList.push(el);
+
 			break;
 		}
 	}
-	console.log('-----');
-	// console.log(num / theList[0] / theList[1] / theList[2]); // 29
-	tempNum = tempNum / theList[2];
-	counter++;
-	console.log('tempNum:', tempNum); // 29
 
-	for (const el of list_of_prime_numbers) {
-		if (Number.isInteger(tempNum / el)) {
-			// console.log(el); // 29
-			theList.push(el);
-			break;
-		}
-	}
-	console.log('-----');
-	// console.log(num / theList[0] / theList[1] / theList[2] / theList[3]); // 1
-	tempNum = tempNum / theList[3];
-	counter++;
-	console.log('tempNum:', tempNum); // 1
+	// // console.log(num / theList[0]); // 2639
+	// tempNum = tempNum / theList[0];
+	// // counter++;
+	// console.log('tempNum:', tempNum); // 2639
+	// // console.log('counter a:', counter);
+	// for (const el of list_of_prime_numbers) {
+	// 	if (Number.isInteger(tempNum / el)) {
+	// 		console.log('The second prime is:', el); // 7
 
-	for (const el of list_of_prime_numbers) {
-		if (Number.isInteger(tempNum / el)) {
-			console.log(el); // ?
-			theList.push(el);
-			break;
-		}
-	}
+	// 		// console.log('counter b:', counter);
+
+	// 		theList.push(el);
+	// 		break;
+	// 	}
+	// 	// counter++; // very bad place
+	// }
+	// console.log('-----');
+	// // console.log(num / theList[0] / theList[1]); // 377
+	// tempNum = tempNum / theList[1];
+	// // counter++;
+	// console.log('tempNum:', tempNum); // 377
+	// // console.log('counter c:', counter);
+
+	// for (const el of list_of_prime_numbers) {
+	// 	if (Number.isInteger(tempNum / el)) {
+	// 		console.log('The third prime is:', el); // 13
+	// 		// console.log('counter d:', counter);
+	// 		theList.push(el);
+	// 		break;
+	// 	}
+	// }
+	// console.log('-----');
+	// // console.log(num / theList[0] / theList[1] / theList[2]); // 29
+	// tempNum = tempNum / theList[2];
+	// // counter++;
+	// console.log('tempNum:', tempNum); // 29
+
+	// for (const el of list_of_prime_numbers) {
+	// 	if (Number.isInteger(tempNum / el)) {
+	// 		console.log('The forth prime is:', el); // 29
+	// 		theList.push(el);
+	// 		break;
+	// 	}
+	// }
+	// console.log('-----');
+	// // console.log(num / theList[0] / theList[1] / theList[2] / theList[3]); // 1
+	// tempNum = tempNum / theList[3];
+	// // counter++;
+	// console.log('tempNum:', tempNum); // 1
+
+	// for (const el of list_of_prime_numbers) {
+	// 	if (Number.isInteger(tempNum / el)) {
+	// 		console.log(el); // ?
+	// 		theList.push(el);
+	// 		break;
+	// 	}
+	// }
 }
 
 console.log(theList);
