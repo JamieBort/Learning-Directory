@@ -6,6 +6,34 @@ LargestPrimeFactor ProjectEuler JavaScript
 
 ## Status
 
+"Solved" with the correct answer. See:
+
+![Congratulations](Congratulations.png)
+
+and:
+
+![Congratulations2](Congratulations2.png)
+
+"Congratulations, the answer you gave to problem 3 is correct.
+
+You are the 556823rd person to have solved this problem.
+
+This problem has a difficulty rating of 5%. The highest difficulty rating you have solved remains at 5%. 
+
+Not enough data to determine solve metrics.
+
+Return to Problems page.
+
+
+We hope that you enjoyed solving this problem. Please do not deprive others of going through the same process by publishing your solution outside of Project Euler. Members found to be spoiling problems beyond the first one-hundred problems will have their accounts locked.
+
+If you are keen to share your insights and/or wish to see how other members have solved the problem, then please visit thread 3 in our private discussion forum.
+
+Note: The rule about sharing solutions outside of Project Euler does not apply to the first one-hundred problems. Please read the details."
+
+But the code is ugly. It needs to be cleaned up. 
+Additionally, it's not efficient.
+
 ## Problem
 
 Problem URL: https://projecteuler.net/problem=3
@@ -55,6 +83,10 @@ attempt03.js - Close to a solution.
 attempt04.js - A "Solution" for the example. Doesn't work for the number given to solve the problem.
 
 attempt05.js -
+.
+.
+.
+attempt07.js - successful with the example.
 
 README.md - this file.
 
