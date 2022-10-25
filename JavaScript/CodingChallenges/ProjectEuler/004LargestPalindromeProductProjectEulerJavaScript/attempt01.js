@@ -17,7 +17,7 @@
 let num1 = 999;
 let num2 = 999;
 
-function testIfPalindrom(param) {
+function testIfPalindrome(param) {
 	console.log('Is', param, 'a palendrom?');
 
 	// ***************
@@ -75,4 +75,5 @@ function change() {
 	else num2 -= 1;
 }
 
-testIfPalindrom(num1 * num2);
+// testIfPalindrom(num1 * num2);
+testIfPalindrom(12345);
