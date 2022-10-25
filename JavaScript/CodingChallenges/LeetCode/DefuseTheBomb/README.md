@@ -7,6 +7,8 @@ https://leetcode.com/problems/defuse-the-bomb/
 Mostly completed. 
 Needs some fixing and cleaning up.
 
+Leetcode's [Defuse The Bomb](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/CodingChallenges/LeetCode/DefuseTheBomb#status) is almost completed. And it's a quick fix.
+
 ## Problem Statment
 
 You have a bomb to defuse, and your time is running out! Your informer will provide you with a circular array code of length of n and a key k.
