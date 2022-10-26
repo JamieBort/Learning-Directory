@@ -1,16 +1,34 @@
 # Defuse The Bomb
 
-from:
+## Status
+
+Submitted successfully.
+
+See
+
+```
+Success
+Details 
+Runtime: 139 ms, faster than 9.09% of JavaScript online submissions for Defuse the Bomb.
+Memory Usage: 46.7 MB, less than 7.27% of JavaScript online submissions for Defuse the Bomb.
+
+```
+
+And ![Screenshot](Screenshot.png) 
+
+~~Mostly completed. 
+Needs some fixing and cleaning up.
+Leetcode's [Defuse The Bomb](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/CodingChallenges/LeetCode/DefuseTheBomb#status) is almost completed. And it's a quick fix.~~
+
+## Problem
+
+### Problem URl
+
 https://leetcode.com/problems/defuse-the-bomb/
 
-## Status
-Mostly completed. 
-Needs some fixing and cleaning up.
+### Problem Statement
 
-Leetcode's [Defuse The Bomb](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/CodingChallenges/LeetCode/DefuseTheBomb#status) is almost completed. And it's a quick fix.
-
-## Problem Statment
-
+```
 You have a bomb to defuse, and your time is running out! Your informer will provide you with a circular array code of length of n and a key k.
 
 To decrypt the code, you must replace every number. All the numbers are replaced simultaneously.
@@ -59,3 +77,30 @@ n == code.length
 1 <= code[i] <= 100
 
 -(n - 1) <= k <= n - 1
+ ```
+
+## Directories and Files
+
+### Directories
+
+~~Directory01/ - list the contents of this directory. it's purpose, etc.~~
+
+~~Directory02/ - list the contents of this directory. it's purpose, etc.~~
+
+### Files
+
+attempt01.js - I am not sure. ~~The file used for the first attempt at solving the problem.~~
+
+attempt02.js - I am not sure. ~~The file used for the first attempt at solving the problem.~~
+
+attempt03.js - I am not sure. ~~The file used for the first attempt at solving the problem.~~
+
+attempt04.js - I am not sure. ~~The file used for the first attempt at solving the problem.~~
+
+attempt05.js - Completed.
+
+attempt06.js - Identical to `attempt05.js` except the unused code has been deleted.
+
+README.md - this file.
+
+Screenshot.png - used for this README file.
