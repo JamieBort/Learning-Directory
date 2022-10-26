@@ -2,6 +2,18 @@
 
 ## Status
 
+I think I have the correct answer. 
+I am getting `[5,6,7,1,2,3,4]`
+But Leetcode is telling me that
+```
+Output
+[1,2,3,4,5,6,7]
+Expected
+[5,6,7,1,2,3,4]
+```
+
+See this [leetcode correct answer but not working](https://www.google.com/search?q=leetcode+correct+answer+but+not+working&sxsrf=ALiCzsbxLgtg0R2FD_KstBB9WN05Xf-BiQ%3A1666822220818&ei=TLBZY6nKMY3DqtsPm96gqAI&oq=leetcode+correct+answer+but&gs_lcp=Cgdnd3Mtd2l6EAMYATIFCCEQoAEyBQghEKABOgoIABBHENYEELADOgUIABCRAjoLCAAQsQMQgwEQkQI6CggAEIAEEIcCEBQ6EAgAEIAEEIcCELEDEIMBEBQ6BQgAEIAEOggIABCxAxCDAToLCAAQgAQQsQMQgwE6BggAEBYQHjoFCAAQhgM6BQghEKsCSgQITRgBSgQIQRgASgQIRhgAUNgIWJ4hYOYvaAJwAXgAgAGmAYgBzhGSAQQwLjE4mAEAoAEByAEIwAEB&sclient=gws-wiz) internet search.
+
 Completed. But needs to improve on runtime.
 Details 
 Runtime: 120 ms, faster than 30.50% of JavaScript online submissions for Rotate Array.
@@ -18,12 +30,6 @@ https://leetcode.com/problems/rotate-array/
 ### Problem Statement
 
 ```
-Paste the problem 
-statement here.
-Link Screenshots.
- 
-
-
 Given an array, rotate the array to the right by k steps, where k is non-negative.
 
 Follow up:
@@ -68,8 +74,10 @@ Directory02/ - None yet. ~~list the contents of this directory. it's purpose, et
 
 ### Files
 
-attempt01.js - The file used for the first attempt at solving the problem.
+attempt01.js - I am not sure.
 
-attempt02.js - Doesn't exist yet. ~~The file used for the second attempt at solving the problem.~~
+attempt02.js - Completed.
+
+attempt03.js - Cop of attempt02.js but cleaned up.
 
 README.md - this file.
