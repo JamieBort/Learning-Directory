@@ -1,11 +1,11 @@
 // attempt01.js
 
-// // Example 1:
-// // Input: nums = [23,2,4,6,7], k = 6
-// // Output: true
-// // Explanation: [2, 4] is a continuous subarray of size 2 whose elements sum up to 6.
-// const nums = [ 23, 2, 4, 6, 7 ];
-// const k = 6;
+// Example 1:
+// Input: nums = [23,2,4,6,7], k = 6
+// Output: true
+// Explanation: [2, 4] is a continuous subarray of size 2 whose elements sum up to 6.
+const nums = [ 23, 2, 4, 6, 7 ];
+const k = 6;
 
 // // Example 2:
 // // Input: nums = [23,2,6,4,7], k = 6
@@ -27,11 +27,18 @@
 // const nums = [ 5, 0, 0, 0 ];
 // const k = 3;
 
-// Example 5:
-// Input: nums = [23,2,6,4,7], k = 13
-// Output: false
-const nums = [ 23, 2, 6, 4, 7 ];
-const k = 13;
+// // Example 5:
+// // Input: nums = [23,2,6,4,7], k = 13
+// // Output: false
+// const nums = [ 23, 2, 6, 4, 7 ];
+// const k = 13;
+
+// temp = 0;
+// for (let index = 0; index < nums.length; index++) {
+// 	temp += nums[index];
+// 	console.log('temp', temp);
+// 	console.log('temp&=%k', temp % k);
+// }
 
 var checkSubarraySum = function(nums, k) {
 	console.log('nums', nums, 'k', k);
@@ -41,14 +48,19 @@ var checkSubarraySum = function(nums, k) {
 	for (let j = 0; j < nums.length - 2; j++) {
 		for (let index = 0; index < nums.length - j; index++) {
 			sum += nums[index + j];
-			console.log('sum', sum, 'j', j);
+			console.log('sum:', sum, 'j:', j);
+			console.log('sum % k:', sum % k);
+			// console.log('Number.isInteger(sum % k)', Number.isInteger(sum % k));
+
+			console.log('sum % k === 0:', sum % k === 0);
+
 			// console.log('nums[index]', nums[index]);
 			// console.log('nums[index+1]', nums[index + 1]);
 			// console.log('------');
 			// if (nums[index] + nums[index + 1] === k) return true;
 			// if ((nums[index+0] + nums[index + 1]) % k === 0) return true;
-			// if (sum % k === 0) return true;
-			if (Number.isInteger(sum % k)) return true;
+			if (sum % k === 0) return true;
+			// if (Number.isInteger(sum % k)) return true;
 		}
 
 		// for (let index = 0; index < nums.length - 2; index++) {

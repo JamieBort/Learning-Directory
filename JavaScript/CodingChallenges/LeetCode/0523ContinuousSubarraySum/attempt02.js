@@ -33,8 +33,8 @@ var checkSubarraySum = function(nums, k) {
 	for (let j = 0; j < nums.length - 2; j++) {
 		for (let index = 0; index < nums.length - j; index++) {
 			sum += nums[index + j];
-			// if (sum % k === 0) return true;
-			if (Number.isInteger(sum % k)) return true;
+			if (sum % k === 0) return true;
+			// if (Number.isInteger(sum % k)) return true;
 		}
 	}
 	return false;

@@ -1,8 +1,9 @@
 # 0523 Continuous Subarray Sum
 
 ## Status
-Did I finish the problem?
-What is left to work on?
+
+Not done.
+Close.
 
 ## Problem
 
