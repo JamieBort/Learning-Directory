@@ -1,4 +1,4 @@
-# Defuse The Bomb
+# 1652 Defuse The Bomb
 
 ## Status
 
@@ -14,7 +14,9 @@ Memory Usage: 46.7 MB, less than 7.27% of JavaScript online submissions for Defu
 
 ```
 
-And ![Screenshot](Screenshot.png) 
+And 
+
+<img src="Screenshot.png" width=50% height=50%>
 
 ~~Mostly completed. 
 Needs some fixing and cleaning up.
