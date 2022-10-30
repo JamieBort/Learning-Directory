@@ -34,24 +34,48 @@ const expected = 'LVIII';
 var intToRoman = function(num) {
 	console.log('num:', num);
 	let romanNumeral = '';
-	arr = [];
+	let arr = [];
+	let temp = num;
+	// temp *= 4;
+	// console.log('temp:', temp);
+	// console.log('num:', num);
 
 	// first need to pars num:
 	// for (let index = 0; index < num.toString().length; index++) {
 	// 	arr[index] = num % 10;
 	// }
 
-	arr[0] = num % 10;
+	// stop when temp =0
+	arr[0] = temp % 10;
 	console.log('arr:', arr);
+	console.log('======');
 
-	// console.log('num % 10', num % 10);
-	// // arr[0] = num % 10;
-	// console.log('num-(num % 10)', (num = num - num % 10));
-	// console.log('num=num / 10', (num = num / 10));
-	// console.log('num-(num % 10)', (num = num - num % 10));
-	// console.log('Num:', num);
-	// console.log('arr:', arr);
+	console.log('temp:', temp);
+	temp = (temp - temp % 10) / 10;
+	console.log('temp:', temp);
 
+	arr[1] = temp;
+	console.log('arr:', arr);
+	console.log('======');
+
+	console.log('temp:', temp);
+	temp = (temp - temp % 10) / 10;
+	console.log('temp:', temp);
+
+	arr[2] = temp;
+	console.log('arr:', arr);
+	console.log('======');
+
+	if (arr[0] < 4) console.log('do one thing');
+	else if ((arr[0] = 4)) console.log('do something else');
+	else if ((arr[0] = 5)) console.log('do something else');
+	else console.log('do something else');
+
+	// *****************
+	// Use switch case for general
+	// *****************
+
+	//
 	// // talley or compile the romanNumeral
 	// for (let index = 0; index < arr[0]; index++) {
 	// 	romanNumeral += 'I';
