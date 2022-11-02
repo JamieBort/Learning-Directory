@@ -61,16 +61,6 @@ Notes: Also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-s
 Note: also found in https://github.com/JamieBort/LearningDirectory/tree/master/DataStructures#resources and https://github.com/JamieBort/LearningDirectory/tree/master/BigONotation#resources
   >Algorithms and data structures implemented in JavaScript with explanations and links to further readings
 
-
-## ~~Status~~
-
-~~Have a table here or link to a spreadsheet:~~
-
-~~Algorithm Status
-https://docs.google.com/spreadsheets/d/1oVgFB5jMs6Fvcj-ZUAz5ukYWTJpIKLywiqRSRWdGrNc/edit#gid=0~~
-
-### Started
-~~https://trello.com/c/iahXSPAE/697-work-through-the-mergesort-algorithm~~ Moved to https://github.com/JamieBort/LearningDirectory/blob/master/Algorithms/MergeSort/README.md
-
-### ~~Not Started~~
-~~https://trello.com/c/xYY925Nv/273-courseras-algorithms~~
+* Avinash987's Github Coding repo
+https://github.com/Avinash987/Coding
+  >This repository is a collection of my solutions to the must do probelms in geeksforgeeks
