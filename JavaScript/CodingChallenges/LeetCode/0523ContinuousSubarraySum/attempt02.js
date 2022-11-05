@@ -1,4 +1,4 @@
-// attempt01.js
+// attempt02.js
 
 // // Example 1:
 // // Input: nums = [23,2,4,6,7], k = 6

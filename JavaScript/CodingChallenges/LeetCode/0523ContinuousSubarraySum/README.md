@@ -51,14 +51,16 @@ Constraints:
 
 ### Directories
 
-~~Directory01/ - list the contents of this directory. it's purpose, etc.~~
-
-~~Directory02/ - list the contents of this directory. it's purpose, etc.~~
+Directory01/ - Doesn't exist.
 
 ### Files
 
 attempt01.js - The file used for the first attempt at solving the problem.
 
 attempt02.js - The file used for the second attempt at solving the problem.
+
+attempt03.js - The file used for the third attempt at solving the problem. All five examples in it passed. However when I submitted it in Leetcode, I received a `Time Limit Exceeded` response and `94 / 97 testcases passed`.
+
+attempt04.js - 
 
 README.md - this file.
