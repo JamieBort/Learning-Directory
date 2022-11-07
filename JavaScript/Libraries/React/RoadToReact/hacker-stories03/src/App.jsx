@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+  // There is no way to pass information up the component tree, since props are naturally only passed downwards. However, we can introduce a callback handler instead: A callback handler gets introduced as event handler (A), is passed as function in props to another component (B), is executed there as callback handler (C), and calls back to the place it was introduced (D):
   const App = () => {
       const stories = [
         {
@@ -21,22 +22,32 @@ import * as React from 'react';
       ];
       
       console.log('App renders');
+    
+      // A
+      const handleSearch = (event) => {
+        // D
+        console.log(event.target.value);
+      };
 
       return ( 
-      <div>
-      <h1>My Hacker Stories</h1>
-      <label htmlFor="search">Search: </label>
-      <Search />
-      <hr />
-        <List list={stories} />
-      </div>);
+        <div>
+          <h1>My Hacker Stories</h1>
+          <label htmlFor="search">Search: </label>
+          
+          {/* // B */}
+          <Search onSearch={handleSearch} />
+          <hr />
+          <List list={stories} />
+        </div>);
     };
 
-  const Search = () => {
+  const Search = (props) => {
     const [searchTerm, setSearchTerm] = React.useState('');
     const handleChange = (event) => {
       setSearchTerm(event.target.value);
-      // searchTerm = event.target.value;
+      
+      // C
+      props.onSearch(event);
     };
       
     console.log('Search renders');
