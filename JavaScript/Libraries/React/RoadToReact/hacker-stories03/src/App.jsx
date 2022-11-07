@@ -1,66 +1,56 @@
 import * as React from 'react';
- 
-const list = [
-  {
-    title: 'React',
-    url: 'https://reactjs.org/',
-    author: 'Jordan Walke',
-    num_comments: 3,
-    points: 4,
-    objectID: 0,
-  },
-  {
-    title: 'Redux',
-    url: 'https://redux.js.org/',
-    author: 'Dan Abramov, Andrew Clark',
-    num_comments: 2,
-    points: 5,
-    objectID: 1,
-  },
-];
 
   const App = () => {
-    const stories = [
-      {
-        title: 'React',
-        url: 'https://reactjs.org/',
-        author: 'Jordan Walke',
-        objectID: 111111,
-        // ...
-      },
-      {
-        title: 'Redux',
-        url: 'https://redux.js.org/',
-        author: 'Dan Abramov, Andrew Clark',
-        objectID: 111113,
-        // ...
-      },
-    ];
-   
-    return ( 
-    <div>
-    <h1>My Hacker Stories</h1>
-    <label htmlFor="search">Search: </label>
-    <Search />
-     <hr />
-      <List list={stories} />
-    </div>);
-  };
+      const stories = [
+        {
+          title: 'React',
+          url: 'https://reactjs.org/',
+          author: 'Jordan Walke',
+          num_comments: 3,
+          points: 4,
+          objectID: 0,
+        },
+        {
+          title: 'Redux',
+          url: 'https://redux.js.org/',
+          author: 'Dan Abramov, Andrew Clark',
+          num_comments: 2,
+          points: 5,
+          objectID: 1,
+        },
+      ];
+      
+      console.log('App renders');
 
-const Search = () => {
-  const handleChange = (event) => {
-    // synthetic event
-    console.log(event);
-    // value of target (here: input HTML element)
-    console.log(event.target.value);
-  };
-  return (
-    <div>
+      return ( 
+      <div>
+      <h1>My Hacker Stories</h1>
       <label htmlFor="search">Search: </label>
-      <input id="search" type="text" onChange={handleChange} />
-    </div>
-  );
-};
+      <Search />
+      <hr />
+        <List list={stories} />
+      </div>);
+    };
+
+  const Search = () => {
+    const [searchTerm, setSearchTerm] = React.useState('');
+    const handleChange = (event) => {
+      setSearchTerm(event.target.value);
+      // searchTerm = event.target.value;
+    };
+      
+    console.log('Search renders');
+
+    return (
+      <div>
+        <label htmlFor="search">Search: </label>
+        <input id="search" type="text" onChange={handleChange} />
+        <p>
+        Searching for <strong>{searchTerm}</strong>.
+      </p>
+      </div>
+    );
+  };
 
   const List = (props) => (
     <ul>
