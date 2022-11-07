@@ -6,7 +6,7 @@
 
 Each chapter that is completed is committed to GitHub with the same title.
 
-For example, the title `Meet the React Component` will have a commit called `001MeetTheReactComponent`.
+For example, the title `Meet the React Component` will have a commit called ~~`001MeetTheReactComponent`~~ `Finished the 001MeetTheReactComponent chapter.`.
 
 Because it's the first chapter.
 
