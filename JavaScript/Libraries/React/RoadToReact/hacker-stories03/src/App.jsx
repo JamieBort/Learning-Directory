@@ -24,6 +24,7 @@ import * as React from 'react';
       console.log('App renders');
 
       const [searchTerm, setSearchTerm] = React.useState('');
+      console.log('searchTerm:',searchTerm);
     
       // A
       const handleSearch = (event) => {
@@ -34,11 +35,11 @@ import * as React from 'react';
 
       };
 
-      // const searchedStories = stories.filter(function (story) {
+      // const searchedStories = stories.filter(function (story) { // *** THESE TWO do the same thing, but are written differently. ***
       //   return story.title.includes(searchTerm);
       // });
 
-      const searchedStories = stories.filter((story) =>
+      const searchedStories = stories.filter((story) => // *** THESE TWO do the same thing, but are written differently. ***
         // story.title.includes(searchTerm)
         story.title.toLowerCase().includes(searchTerm.toLowerCase())
       );
@@ -57,13 +58,14 @@ import * as React from 'react';
     };
 
   const Search = (props) => {
-    const [searchTerm, setSearchTerm] = React.useState('');
-    const handleChange = (event) => {
-      setSearchTerm(event.target.value);
+    // const [searchTerm, setSearchTerm] = React.useState(''); // *** Removed because we've pulled it up to the App() component. ***
+    
+    // const handleChange = (event) => { // *** This functionality is now being called from the App() component. ***
+    //   setSearchTerm(event.target.value);
       
-      // C
-      props.onSearch(event);
-    };
+    //   // C
+    //   props.onSearch(event);
+    // };
       
     console.log('Search renders');
 
