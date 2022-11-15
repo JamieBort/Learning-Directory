@@ -1,8 +1,6 @@
 # hacker-stories03
 
-# ~~Getting Started with Create React App~~
-
-`npm run dev`
+To serve the program, in Terminal in the `~/Documents/DevFiles/personal_projects/LearningDirectory/JavaScript/Libraries/React/RoadToReact/hacker-stories03` directory run the `npm run dev` command.
 
 Each chapter that is completed is committed to GitHub with the same title.
 
@@ -11,6 +9,30 @@ For example, the title `Meet the React Component` will have a commit called ~~`0
 Because it's the first chapter.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Next Steps
+
+* Create a `scratch/` directory to work through any of the concepts covered in this book.
+
+* Review the `Lifting State` chapter. Until I understand it well.
+
+* In the `scratch/` directory, work through the callbackHandlers concept.
+
+
+
+## Directories and Files
+
+## Directories
+
+* scratch/ - This directory is to work through any of the concepts covered in this book.
+
+* [the rest of the directories has been created through following the instructions of the book.]
+
+## Files
+
+* [the rest of the files has been created through following the instructions of the book.]
+
+---
 
 ## Available Scripts
 
