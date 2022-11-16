@@ -9,9 +9,13 @@
 * hacker-stories02/ - Going back over it to learn it better. Currently worked up through the **Memoized Handlers** section.
 Need to re-read the `Data Re-Fetching` and `Memoized Handlers` sections of the book. To better understand what is going on. Do not re-write code.
 
+* hacker-stories02/ - Going back over it to learn it better. 
+
 ### Files
 
 * README.md - this readme file.
+
+* the-road-to-react.pdf - the PDF of the book.
 
 ## Associated Links
 * https://trello.com/c/BdPESNc3/1224-the-road-to-react-by-robin-wieruch
