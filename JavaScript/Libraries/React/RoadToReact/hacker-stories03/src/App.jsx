@@ -1,5 +1,18 @@
 import * as React from 'react';
 
+// import CallbackHandlersInJSX from './scratch/index'
+// import {BigButton, SmallButton}  from './scratch/index'
+// import { BigButton }  from './scratch/index'
+// import {SmallButton}  from './scratch/index'
+
+// import {CallbackHandlersInJSX as BigButton}  from './scratch/index'
+// import {CallbackHandlersInJSX as SmallButton}  from './scratch/index'
+
+// import {BigButton as CallbackHandlersInJSX}  from './scratch/index'
+// import {SmallButton as CallbackHandlersInJSX}  from './scratch/index'
+
+import {BigButton, SmallButton}  from './scratch/009CallbackHandlersInJSX/CallbackHandlersInJSX_index'
+
   // There is no way to pass information up the component tree, since props are naturally only passed downwards. However, we can introduce a callback handler instead: A callback handler gets introduced as event handler (A), is passed as function in props to another component (B), is executed there as callback handler (C), and calls back to the place it was introduced (D):
   const App = () => {
       const stories = [
@@ -46,6 +59,13 @@ import * as React from 'react';
 
       return ( 
         <div>
+        <BigButton />
+  
+        <hr />
+  
+        {/* <SmallButton />
+        <hr /> */}
+  
           <h1>My Hacker Stories</h1>
           <label htmlFor="search">Search: </label>
           
