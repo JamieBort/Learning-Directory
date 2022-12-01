@@ -1,6 +1,10 @@
 # hacker-stories03
 
-To serve the program, in Terminal in the `~/Documents/DevFiles/personal_projects/LearningDirectory/JavaScript/Libraries/React/RoadToReact/hacker-stories03` directory run the `npm run dev` command.
+To serve the program, 
+
+in Terminal in the `~/Documents/DevFiles/personal_projects/LearningDirectory/JavaScript/Libraries/React/RoadToReact/hacker-stories03` directory 
+
+run the `npm run dev` command.
 
 Each chapter that is completed is committed to GitHub with the same title.
 
