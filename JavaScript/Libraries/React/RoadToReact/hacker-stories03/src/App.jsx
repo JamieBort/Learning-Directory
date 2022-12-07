@@ -3,8 +3,8 @@ import * as React from 'react';
 import CallbackHandlersInJSX009 from './scratch/009CallbackHandlersInJSX/CallbackHandlersInJSX'
 import LiftingState010 from './scratch/010LiftingState/LiftingState'
 
-  // There is no way to pass information up the component tree, since props are naturally only passed downwards. However, we can introduce a callback handler instead: A callback handler gets introduced as event handler (A), is passed as function in props to another component (B), is executed there as callback handler (C), and calls back to the place it was introduced (D):
-  
+// There is no way to pass information up the component tree, since props are naturally only passed downwards. However, we can introduce a callback handler instead: A callback handler gets introduced as event handler (A), is passed as function in props to another component (B), is executed there as callback handler (C), and calls back to the place it was introduced (D):
+
   const App = () => {
       const stories = [
         {
@@ -62,8 +62,7 @@ import LiftingState010 from './scratch/010LiftingState/LiftingState'
 
           <hr /><hr />
           <h2>Scratch Section</h2>
-          <h3>CallbackHandlersInJSX chapter</h3>
-          <CallbackHandlersInJSX009/>
+          {/* <CallbackHandlersInJSX009/> */}
           <LiftingState010/>
 
         </div>);
