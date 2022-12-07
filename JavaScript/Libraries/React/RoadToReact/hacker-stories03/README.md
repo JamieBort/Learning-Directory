@@ -16,9 +16,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Next Steps
 
-* Review the `Lifting State` chapter. Until I understand it well.
+* Review the 012PropsHandling chapter.
+    Use the `scratch/012PropsHandling` directory to learn this better.
 
-* In the `scratch/` directory, work through the callbackHandlers concept.
+* ~~Review the `Lifting State` chapter. Until I understand it well.~~ Done.
+
+* ~~In the `scratch/` directory, work through the callbackHandlers concept.~~ Done.
 
 * ~~Create a `scratch/` directory to work through any of the concepts covered in this book.~~ Done.
 
