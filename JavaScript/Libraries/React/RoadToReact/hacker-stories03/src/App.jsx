@@ -27,16 +27,13 @@ import LiftingState010 from './scratch/010LiftingState/LiftingState'
       
       console.log('App renders');
 
-      const [searchTerm, setSearchTerm] = React.useState('');
+      // const [searchTerm, setSearchTerm] = React.useState(''); // *** From previous chapter ***
+      const [searchTerm, setSearchTerm] = React.useState('React');
       console.log('searchTerm:',searchTerm);
     
-      // A
-      const handleSearch = (event) => {
-        // D
-        console.log(event.target.value);
-
+      const handleSearch = (event) => { // A
+        console.log(event.target.value); // D
         setSearchTerm(event.target.value);
-
       };
 
       // const searchedStories = stories.filter(function (story) { // *** THESE TWO do the same thing, but are written differently. ***
@@ -51,42 +48,35 @@ import LiftingState010 from './scratch/010LiftingState/LiftingState'
       return ( 
         <div>
           <h1>My Hacker Stories</h1>
-          {/* delete me */}
+          {/* DELETE ME */}
           {/* <label htmlFor="search">Search: </label> */}
           
           {/* // B */}
-          <Search onSearch={handleSearch} />
+          {/* *** From previous chapter. *** */}
+          {/* <Search onSearch={handleSearch} /> */}
+          <Search search={searchTerm} onSearch={handleSearch} />
+          
           <hr />
+          {/* *** From previous chapter. *** */}
           {/* <List list={stories} /> */}
           <List list={searchedStories} />
 
-          <hr /><hr />
-          <h2>Scratch Section</h2>
-          {/* <CallbackHandlersInJSX009/> */}
-          <LiftingState010/>
+          <div>
+            <hr /><hr />
+            <h2>Scratch Section</h2>
+            {/* <CallbackHandlersInJSX009/> */}
+            <LiftingState010/>
+          </div>
         </div>);
     };
 
   const Search = (props) => {
-    // const [searchTerm, setSearchTerm] = React.useState(''); // *** Removed because we've pulled it up to the App() component. ***
-    
-    // const handleChange = (event) => { // *** This functionality is now being called from the App() component. ***
-    //   setSearchTerm(event.target.value);
-      
-    //   // C
-    //   props.onSearch(event);
-    // };
-      
     console.log('Search renders');
 
     return (
       <div>
         <label htmlFor="search">Search: </label>
-        {/* <input id="search" type="text" onChange={handleChange} />
-        <p>
-        Searching for <strong>{searchTerm}</strong>.
-        </p> */}
-        <input id="search" type="text" onChange={props.onSearch} />
+        <input id="search" type="text" value={props.search} onChange={props.onSearch} />
       </div>
     );
   };
