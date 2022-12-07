@@ -50,9 +50,9 @@ import LiftingState010 from './scratch/010LiftingState/LiftingState'
 
       return ( 
         <div>
-  
           <h1>My Hacker Stories</h1>
-          <label htmlFor="search">Search: </label>
+          {/* delete me */}
+          {/* <label htmlFor="search">Search: </label> */}
           
           {/* // B */}
           <Search onSearch={handleSearch} />
@@ -64,7 +64,6 @@ import LiftingState010 from './scratch/010LiftingState/LiftingState'
           <h2>Scratch Section</h2>
           {/* <CallbackHandlersInJSX009/> */}
           <LiftingState010/>
-
         </div>);
     };
 

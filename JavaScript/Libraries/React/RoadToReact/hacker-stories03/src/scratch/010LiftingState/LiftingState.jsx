@@ -2,7 +2,7 @@
 
 export default function MasterFunction() {
     return (
-        <h1>hi from MasterFunction in the 010LiftingState file.</h1>
+        <h3>Inside the LiftingState file</h3>
         // <div>
         //   <BigButton2 />
         //   <BigButton2 buttonName="Custom Named Button"/>
