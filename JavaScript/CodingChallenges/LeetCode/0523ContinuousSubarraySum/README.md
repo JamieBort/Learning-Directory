@@ -5,6 +5,9 @@
 Not done.
 Close.
 
+Solution to study:
+https://javascript.plainenglish.io/javascript-algorithms-maximum-subarray-leetcode-15812b95bc4
+
 ## Problem
 
 ### Problem URl
