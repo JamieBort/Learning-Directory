@@ -28,13 +28,25 @@ import LiftingState010 from './scratch/010LiftingState/LiftingState'
       console.log('App renders');
 
       // const [searchTerm, setSearchTerm] = React.useState(''); // *** From previous chapter ***
-      const [searchTerm, setSearchTerm] = React.useState('React');
-      console.log('searchTerm:',searchTerm);
-    
-      const handleSearch = (event) => { // A
-        console.log(event.target.value); // D
+      const [searchTerm, setSearchTerm] = React.useState(
+        localStorage.getItem('search') || 'React'
+      );
+
+      React.useEffect(() => {
+        localStorage.setItem('search', searchTerm);
+      }, [searchTerm]);
+     
+      const handleSearch = (event) => {
         setSearchTerm(event.target.value);
       };
+
+      console.log('searchTerm:',searchTerm);
+    
+      // const handleSearch = (event) => { // A
+      //   console.log(event.target.value); // D
+      //   setSearchTerm(event.target.value);
+      //   localStorage.setItem('search', event.target.value);
+      // };
 
       // const searchedStories = stories.filter(function (story) { // *** THESE TWO do the same thing, but are written differently. ***
       //   return story.title.includes(searchTerm);
