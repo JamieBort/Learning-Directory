@@ -2,7 +2,8 @@
 
 ## Status
 
-Not started.
+~~Not started.~~
+Good start. Need to keep going.
 
 ## Problem
 
