@@ -1,4 +1,4 @@
-# 02EvenFibonacciNumbersProjectEulerJavaScript
+# 002EvenFibonacciNumbersProjectEulerJavaScript
 
 Old title: EvenFibonacciNumbersProjectEulerJavaScript
 
@@ -6,9 +6,14 @@ EvenFibonacciNumbers ProjectEuler JavaScript
 
 Problem URL: https://projecteuler.net/problem=2
 
-### Status 
-With attempt02.js I think I have the correct solution. 
-But when I test my answer with the website I'm told it's not correct.
+### Status
+
+Successfully submitted `4613732` which was produced from `attempt03.js`.
+
+See `Screen Shot 2023-01-06 at 14.58.56.png` and `Screen Shot 2023-01-06 at 14.59.58.png`.
+
+~~With attempt02.js I think I have the correct solution. 
+But when I test my answer with the website I'm told it's not correct.~~
 
 ### Research
 [Project Euler #2: Even Fibonacci numbers](https://medium.com/@TheZaki/project-euler-2-even-fibonacci-numbers-2219e9438970) Medium blog post.
