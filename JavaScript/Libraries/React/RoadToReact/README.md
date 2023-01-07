@@ -9,7 +9,7 @@
 * hacker-stories02/ - Going back over it to learn it better. Currently worked up through the **Memoized Handlers** section.
 Need to re-read the `Data Re-Fetching` and `Memoized Handlers` sections of the book. To better understand what is going on. Do not re-write code.
 
-* hacker-stories02/ - Going back over it to learn it better. 
+* hacker-stories03/ - Going back over it to learn it better. 
 
 ### Files
 
