@@ -12,8 +12,9 @@ MongoDB, Redis, Cassandra, Elasticsearch, and Firebase.
 
 ### Directories
 
-* MongoDB
-* not_sure_where_this_came_from
+* MongoDB - [add description about this directory.]
+
+* not_sure_where_this_came_from - [add description about this directory.]
 
 ### Files
 
