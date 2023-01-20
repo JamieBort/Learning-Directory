@@ -22,3 +22,11 @@ Exercises from sites such as CodeWars.com
 I don't think this should be in here any more. But will leave it for now.
 
 ## Java_Specific_Concepts
+
+## Directories and Files
+
+### Directories
+
+### Files
+
+* java_version_notes.md - This file is to understand my java environment on my machine. And to have a clean install of only one java version. By removing all the current versions and starting clean.
