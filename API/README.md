@@ -37,3 +37,6 @@ Return to [Trello API Calls](https://github.com/JamieBort/LearningDirectory/tree
 * Postman `Associated Links` - see the [Associated Links](https://github.com/JamieBort/LearningDirectory/tree/master/API/Postman#associated-links) section of the Postman README\.md file.
 
 * Rest `Associated Links` - see the [Associated Links](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST#associated-links) section of the REST README\.md file.
+
+* API Professional Development Trello card:
+ https://trello.com/c/NFRSx1Q6/171-api-professional-development
