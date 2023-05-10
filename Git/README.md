@@ -1,33 +1,34 @@
 # Git
 
-
 ## Commands
 
 ### Compare two branches using git diff
+
 https://devconnected.com/how-to-compare-two-git-branches/
 git diff branch1..branch2
 
 ### Delete branches
+
 https://trello.com/c/XZXUcEjo/757-read-up-on-deleting-old-github-branches
 
 ## Directories and Files
 
 ### Directories
 
-* 03gitImmersion/ 
+- 03gitImmersion/
 
-* Day1-PushingToGitHub/      
+- Day1-PushingToGitHub/ - DELETED
 
-* GitHubPullRequestPractice/
+- GitHubPullRequestPractice/ - DELETED
 
-* GitLearning/
+- GitLearning/ - DELETED
 
-* gitignore/
+- gitignore/ - DELETED
 
 ### Files
 
-* README.md
+- README.md
 
 ## Associated Links
 
-* https://trello.com/c/ckIvNpLi/869-git-professional-development
+- https://trello.com/c/ckIvNpLi/869-git-professional-development
