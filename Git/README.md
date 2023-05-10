@@ -15,15 +15,7 @@ https://trello.com/c/XZXUcEjo/757-read-up-on-deleting-old-github-branches
 
 ### Directories
 
-- 03gitImmersion/
-
-- Day1-PushingToGitHub/ - DELETED
-
-- GitHubPullRequestPractice/ - DELETED
-
-- GitLearning/ - DELETED
-
-- gitignore/ - DELETED
+- GitImmersion/ - A guided tour that walks through the fundamentals of Git, inspired by the premise that to know a thing is to do it.
 
 ### Files
 
