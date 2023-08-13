@@ -1,22 +1,34 @@
-// attempt03.js
+// attempt04.js
 
 // Example 1:
 // Input: strs = ["eat","tea","tan","ate","nat","bat"]
 // Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
-const strs = ["eat", "tea", "tan", "ate", "nat", "bat"];
-anAnswer = [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]];
+// const strs = ["eat", "tea", "tan", "ate", "nat", "bat"];
+// anAnswer = [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]];
 
 // Example 2:
 // Input: strs = [""]
 // Output: [[""]]
-
-// const strs = [""]
+// const strs = [""];
+// anAnswer = [[""]];
 
 // Example 3:
 // Input: strs = ["a"]
 // Output: [["a"]]
+// const strs = ["a"];
+// anAnswer = [["a"]];
 
-// const strs = ["a"]
+// Example 4:
+// Input: strs = ["",""]
+// Output: [["",""]]
+// const strs = ["", ""];
+// anAnswer = [["", ""]];
+
+// Example 5:
+// Input: strs = ["","",""]
+// Output: [["","",""]]
+const strs = ["", "", ""];
+anAnswer = [["", "", ""]];
 
 var groupAnagrams = function (strs) {
   // Display the original array.
@@ -39,54 +51,37 @@ var groupAnagrams = function (strs) {
   consoleLogCheck = function () {
     console.log("CHECK:");
     console.log("tempArray:", tempArray);
+    console.log("tempArray.length:", tempArray.length);
     console.log("strs:", strs);
     console.log("finalArray:", finalArray);
     console.log("*********");
   };
 
-  // let tempArray = [];
-
   tempArray.push(strs.shift());
-  // tempArray.push(strs[0]);
-  // console.log("tempArray:", tempArray);
+  consoleLogCheck();
 
   while (strs.length > 0) {
-    // console.log("strs.length:", strs.length);
-
+    console.log("strs.length:", strs.length);
     // Compare two strings to see if they're anagrams.
     for (let index = 0; index < strs.length; index++) {
       // If yes, push them into an array.
       if (anagramTest(tempArray[0], strs[index])) {
-        // console.log("tempArray[0]:", tempArray[0]);
-        // console.log("strs[index]:", strs[index]);
-        // // tempArray.push(strs.shift());
         tempArray.push(strs.splice(index, 1)[0]);
-        // // tempArray.push(strs[index]);
-        // // index--;
-      } else console.log(strs[index], "is not an anagram with", tempArray[0]);
+      }
+      // else console.log(strs[index], "is not an anagram with", tempArray[0]);
       // consoleLogCheck()
     }
 
-    // const finalArray = [tempArray];
     finalArray.push(tempArray);
     tempArray = [];
     tempArray.push(strs.shift());
     // consoleLogCheck();
-
-    // for (let index = 0; index < strs.length; index++) {
-    //   if (anagramTest(tempArray[0], strs[index])) {
-    //     // console.log("tempArray[0]:", tempArray[0]);
-    //     // console.log("!!strs[index]:", strs[index]);
-    //     tempArray.push(strs.splice(index, 1)[0]);
-    //   } else console.log(strs[index], "is not an anagram with", tempArray[0]);
-    // }
-
-    // finalArray.push(tempArray);
-    // consoleLogCheck();
-    // finalArray.push(strs);
   }
-  consoleLogCheck();
+  // consoleLogCheck();
   finalArray.push(tempArray);
+  // if (tempArray.length > 0) finalArray.push(tempArray);
+
+  // if (tempArray[0] != undefined) finalArray.push(tempArray);
 
   return finalArray;
 };
