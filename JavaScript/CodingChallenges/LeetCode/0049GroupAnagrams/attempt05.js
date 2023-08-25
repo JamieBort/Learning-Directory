@@ -1,4 +1,4 @@
-// attempt04.js
+// attempt05.js
 
 // Example 1:
 // Input: strs = ["eat","tea","tan","ate","nat","bat"]
@@ -32,7 +32,7 @@ anAnswer = [["", "", ""]];
 
 var groupAnagrams = function (strs) {
   // Display the original array.
-  console.log("The original array, strs:\n", strs);
+  console.log("The original array, 'strs':\n", strs);
 
   // Declare Variables
   let tempArray = [];
@@ -41,33 +41,28 @@ var groupAnagrams = function (strs) {
   // Function for comparing two strings to see if they're anagrams.
   // Returns 'true' if they're an anagram; 'false' if  not.
   anagramTest = function (param1, param2) {
-    const first = param1.split("").sort().join();
-    const second = param2.split("").sort().join();
-    if (first === second) return true;
+    // If param1 is "", handle it this way:
+    // console.log("param1:", param1);
+    // console.log("param2:", param2);
+    if (param1 === "") {
+      console.log("param1:", param1);
+      console.log("param2:", param2);
+      return true;
+    } else {
+      // If param1 consists of characters, handle it this way:
+      const first = param1.split("").sort().join();
+      const second = param2.split("").sort().join();
+      if (first === second) return true;
+    }
     return false;
   };
 
-  // Function for displaying the contents of the various arrays.
-  consoleLogCheck = function () {
-    console.log("CHECK:");
-    console.log("tempArray:", tempArray);
-    console.log("tempArray.length:", tempArray.length);
-    console.log("strs:", strs);
-    console.log("finalArray:", finalArray);
-    console.log("*********");
-  };
+  // anagramTest(strs[0], strs[1]);
 
   tempArray.push(strs.shift());
-  // consoleLogCheck();
-  strs.forEach((element) => {
-    console.log("strs:", element);
-  });
-  // console.log("strs[0]:", strs[0]);
-  // console.log("strs[1]:", strs[1]);
-  // // console.log("strs[2]:", strs[2]);
 
   while (strs.length > 0) {
-    console.log("strs.length:", strs.length);
+    // console.log("strs.length:", strs.length);
     // Compare two strings to see if they're anagrams.
     for (let index = 0; index < strs.length; index++) {
       // If yes, push them into an array.
@@ -83,11 +78,6 @@ var groupAnagrams = function (strs) {
     tempArray.push(strs.shift());
     // consoleLogCheck();
   }
-  // consoleLogCheck();
-  finalArray.push(tempArray);
-  // if (tempArray.length > 0) finalArray.push(tempArray);
-
-  // if (tempArray[0] != undefined) finalArray.push(tempArray);
 
   return finalArray;
 };
