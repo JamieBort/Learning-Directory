@@ -30,30 +30,38 @@ Completed the challenge.
 Ways to improve the code below:
 Minimize the number of 'if' statements below.
 Remove line 36.
-Generalize 'arrayProduct[i].toString().length' so that the code can be used for palindromes made from the product of an two digits of any length. 
+Generalize 'arrayProduct[i].toString().length' so that the code can be used for palindromes made from the product of an two digits of any length.
 Refactor in other way - look for them.
 ```
 
 ## Directories and Files
 
-old/ - I am not sure.
+- old/ - I am not sure.
 
 ### Directories
 
 ### Files
 
-LargestPalindromeProduct.js - I am not sure.
+- LargestTwoDigitPalindromeProduct.js - I am not sure.
 
-LargestTwoDigitPalindromeProduct.js - I am not sure.
+- attempt01.js - I am not sure.
 
-README.md - this file.
+- attempt02.js - Working as I wanted. But not the right approach. I attempted to multiply two 3-digit numbers and then check if the reverse of their product turned out to be a palindrome. When it failed to be I diminished one of the 3-digit numbers by 1. And then found the product of the two 3-digit numbers again. When that failed to produce a palindrome, I diminished the other 3-digit numbers by 1. and repeated the process.
 
-attempt01.js - I am not sure.
+- attempt02.js - not yet created. Next attempt
+  try finding the greatest palindrome less than 999 \* 999 = 998001.
+  Then find the two 3-digit numbers who's product produces that palindrome.
 
-attempt02.js - Working as I wanted. But not the right approach. I attempted to multiply two 3-digit numbers and then check if the reverse of their product turned out to be a palindrome. When it failed to be I diminished one of the 3-digit numbers by 1. And then found the product of the two 3-digit numbers again. When that failed to produce a palindrome, I diminished the other 3-digit numbers by 1. and repeated the process.
+- attempt05.js - Formerly titled `LargestTwoDigitPalindromeProduct.js`. Not a solution.
 
-attempt02.js - not yet created. Next attempt 
-try finding the greatest palindrome less than 999 * 999 = 998001.
-Then find the two 3-digit numbers who's product produces that palindrome.
+- attempt06.js - Formerly titled `LargestPalindromeProduct.js`. Not a solution.
 
-scratch.js - A scratch file for working out functions and methods.
+- attempt07.js -
+
+- attempt08.js -
+
+- attempt09.js - Has the solution.
+
+- README.md - this file.
+
+- scratch.js - A scratch file for working out functions and methods.
