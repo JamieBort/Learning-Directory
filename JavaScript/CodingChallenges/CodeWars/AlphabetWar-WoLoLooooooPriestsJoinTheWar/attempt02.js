@@ -1,13 +1,15 @@
 // attempt02.js
 
-// alphabetWar("z"); //=>  "z"  => "Right side wins!"
-alphabetWar("tz"); //=>  "ts" => "Left side wins!"
+// Test cases/examples
+alphabetWar("z"); //=>  "z"  => "Right side wins!"
+// alphabetWar("tz"); //=>  "ts" => "Left side wins!"
 // alphabetWar("jz")        //=>  "jz" => "Right side wins!"
 // alphabetWar("zt")        //=>  "st" => "Left side wins!"
 // alphabetWar("azt")       //=> "ast" => "Left side wins!"
 // alphabetWar("tzj")       //=> "tzj" => "Right side wins!"
 
 function alphabetWar(fight) {
+  // Define the variables.
   const leftPower = {
     w: 4,
     p: 3,
@@ -25,78 +27,131 @@ function alphabetWar(fight) {
   const RIGHT = "Right side wins!";
   const LEFT = "Left side wins!";
   const TIE = "Let's fight again!";
-  const leftTotal = 0;
-  const rightTotal = 0;
+  let leftTotal = 0;
+  let rightTotal = 0;
+  let newString = "";
 
-  //   Obtain the length of the string:
-  const length = fight.length;
+  // Obtain the length of the string: // TODO: delete this line.
+  const length = fight.length; // TODO: delete this line.
+  //   console.log(`The string '${fight}' is ${length} characters long.`); // TODO: delete this line.
 
+  // Define the functions.
   const getKeyByValue = function (object, value) {
     return Object.keys(object).find((key) => object[key] === value);
   };
 
-  //   const expr = "s";
   const switchFunction = function (param) {
     switch (param) {
-      case "Oranges":
-        console.log("Oranges are $0.59 a pound.");
-        break;
+      // from left to right
+      case "w":
+        return getKeyByValue(rightPower, leftPower.w);
+      // break;
+      case "p":
+        return getKeyByValue(rightPower, leftPower.p);
+      // break;
+      case "b":
+        return getKeyByValue(rightPower, leftPower.b);
+      // break;
       case "s":
-        console.log("bam!");
-        getKeyByValue(rightPower, leftPower.s);
-        break;
-      case "Papayas":
-        console.log("Mangoes and papayas are $2.79 a pound.");
-        // Expected output: "Mangoes and papayas are $2.79 a pound."
-        break;
+        // console.log("bam!");
+        return getKeyByValue(rightPower, leftPower.s);
+      // break;
+      // from right to left
+      case "m":
+        return getKeyByValue(leftPower, rightPower.m);
+      // break;
+      case "q":
+        return getKeyByValue(leftPower, rightPower.q);
+      // break;
+      case "d":
+        return getKeyByValue(leftPower, rightPower.d);
+      // break;
+      case "z":
+        // return "s";
+        // testCase();
+        // console.log("replacing a z");
+        // // console.log("rightPower.z:", rightPower.z);
+        // // console.log(
+        // //   "getKeyByValue(leftPower, 1):",
+        // //   getKeyByValue(leftPower, 1),
+        // // );
+        // getKeyByValue(leftPower, 1);
+        return getKeyByValue(leftPower, rightPower.z);
+
       default:
         console.log(`Fix me. ${param} is not set up.`);
     }
   };
 
-  //   console.log(getKeyByValue(rightPower, leftPower.s));
+  // Total/sum the points
+  const tallyPoints = function (param1, param2) {
+    // console.log("A function for tallying the points.", param);
+    let tally = 0;
+    for (let i in param1) {
+      // console.log(param[i]);
+      // console.log(leftPower[param[i]]);
+      tally += param2[param1[i]];
+    }
+    return tally;
+  };
 
-  // Search for a "j" in the string. If you find it, replace the letter from the 'rightPower' object with a corresponding letter from the "leftPower" object.
-  // Search for a "t" in the string. If you find it, replace the letter from the 'leftPower' object with a corresponding letter from the "rightPower" object.
-
+  // Search for a "t" in the string.
+  // If you find it,
+  // replace the letter from the 'leftPower' object with a corresponding letter from the "rightPower" object.
   if (fight.includes("t")) {
-    console.log(
-      "We need to change the letters from the 'rightPower' object to the 'leftPower' object.",
-    );
+    // If fight[fight.indexOf("t")] exists,
+    // and if the letter(s) on either side of 't' belong to the 'rightPower' object,
+    // then we'll swap them for the corresponding letter in the 'leftPower' object.
 
-    // If fight[fight.indexOf("t")] exists, and if the letter(s) on either side of 't' belong to the 'rightPower' object, then we'll swap them for the corresponding letter in the 'leftPower' object.
+    // console.log("A 't' appears at the ", fight.indexOf("t"), "character.");
+    // console.log(
+    //   "We need to change the letters from the 'rightPower' object to the 'leftPower' object.",
+    // );
 
-    console.log("The 't' appears at the ", fight.indexOf("t"), "character.");
+    // // the letter before:
+    // console.log(
+    //   "The letter before 't' is:",
+    //   fight.charAt(fight.indexOf("t") - 1),
+    // );
 
-    // the letter before:
-    console.log("The letter before:", fight.charAt(fight.indexOf("t") - 1));
-    // the letter after:
-    console.log(
-      "The letter before:",
+    // // the letter after:
+    // console.log(
+    //   "The letter after 't' is:",
+    //   fight.charAt(fight.indexOf("t") + 1),
+    // );
+
+    console.log(`The old string is "${fight}".`);
+    newString = fight.replace(
       fight.charAt(fight.indexOf("t") + 1),
-      "type of: ",
-      typeof fight.charAt(fight.indexOf("t") + 1),
+      switchFunction(fight.charAt(fight.indexOf("t") + 1)),
     );
-
-    switchFunction("s");
-    switchFunction(fight.charAt(fight.indexOf("t") + 1));
+    leftTotal = tallyPoints(newString, leftPower);
   }
 
-  if (fight.includes("j"))
+  // Search for a "j" in the string.
+  // If you find it,
+  // replace the letter from the 'rightPower' object with a corresponding letter from the "leftPower" object.
+  if (fight.includes("j")) {
     console.log(
       "We need to change the letters from the 'leftPower' object to the 'rightPower' object.",
     );
+    rightTotal = tallyPoints(newString, rightPower);
+  }
 
-  // Parse the string.
+  if (!fight.includes("t") && !fight.includes("j")) {
+    console.log("The string does not contain a 'j' nor a 't'.");
+    tallyPoints(newString);
+  }
 
-  //   console.log(fight.charAt(0));
+  if (fight.includes("t") && fight.includes("j")) {
+    console.log("The string contains a 'j' and a 't'.");
+    tallyPoints(newString);
+  }
 
-  // Total/sum the points
-
-  // Compare the points.
+  console.log(
+    `The leftTotal is ${leftTotal}. The rightTotal is ${rightTotal}.`,
+  );
   if (leftTotal > rightTotal) return LEFT;
   else if (rightTotal > leftTotal) return RIGHT;
   else return TIE;
-
-  //   return "Wo lo loooooo";
 }
