@@ -1,9 +1,9 @@
 // attempt02.js
 
 // Test cases/examples
-alphabetWar("z"); //=>  "z"  => "Right side wins!"
+// alphabetWar("z"); //=>  "z"  => "Right side wins!"
 // alphabetWar("tz"); //=>  "ts" => "Left side wins!"
-// alphabetWar("jz")        //=>  "jz" => "Right side wins!"
+alphabetWar("jz"); //=>  "jz" => "Right side wins!"
 // alphabetWar("zt")        //=>  "st" => "Left side wins!"
 // alphabetWar("azt")       //=> "ast" => "Left side wins!"
 // alphabetWar("tzj")       //=> "tzj" => "Right side wins!"
@@ -31,9 +31,9 @@ function alphabetWar(fight) {
   let rightTotal = 0;
   let newString = "";
 
-  // Obtain the length of the string: // TODO: delete this line.
-  const length = fight.length; // TODO: delete this line.
-  //   console.log(`The string '${fight}' is ${length} characters long.`); // TODO: delete this line.
+  //   // Obtain the length of the string: // TODO: delete this line.
+  //   const length = fight.length; // TODO: delete this line.
+  //   //   console.log(`The string '${fight}' is ${length} characters long.`); // TODO: delete this line.
 
   // Define the functions.
   const getKeyByValue = function (object, value) {
@@ -84,8 +84,10 @@ function alphabetWar(fight) {
   };
 
   // Total/sum the points
+  //                  function (the string, the left/rightPower object) {
   const tallyPoints = function (param1, param2) {
-    // console.log("A function for tallying the points.", param);
+    console.log(`The string to be tallied: ${param1}`); // TODO: delete this line.
+    console.log(`The left/rightPower object: ${JSON.stringify(param2)}`); // TODO: delete this line.
     let tally = 0;
     for (let i in param1) {
       // console.log(param[i]);
@@ -93,6 +95,24 @@ function alphabetWar(fight) {
       tally += param2[param1[i]];
     }
     return tally;
+    // console.log(param2);
+    // let tally = 0;
+    // if (param3 === undefined) {
+    //   for (let i in param1) {
+    //     // console.log(param[i]);
+    //     // console.log(leftPower[param[i]]);
+    //     tally += param2[param1[i]];
+    //   }
+    //   return tally;
+    // }
+    // if (param2 === undefined) {
+    //   for (let i in param1) {
+    //     // console.log(param[i]);
+    //     // console.log(leftPower[param[i]]);
+    //     tally += param3[param1[i]];
+    //   }
+    //   return tally;
+    // }
   };
 
   // Search for a "t" in the string.
@@ -125,6 +145,7 @@ function alphabetWar(fight) {
       fight.charAt(fight.indexOf("t") + 1),
       switchFunction(fight.charAt(fight.indexOf("t") + 1)),
     );
+    // leftTotal = tallyPoints(newString, leftPower, undefined);
     leftTotal = tallyPoints(newString, leftPower);
   }
 
@@ -135,22 +156,33 @@ function alphabetWar(fight) {
     console.log(
       "We need to change the letters from the 'leftPower' object to the 'rightPower' object.",
     );
+    console.log(`The old string is "${fight}".`);
+    newString = fight.replace(
+      fight.charAt(fight.indexOf("j") + 1),
+      switchFunction(fight.charAt(fight.indexOf("j") + 1)),
+    );
+    console.log("newString:", newString);
+    // rightTotal = tallyPoints(newString, undefined, rightPower);
     rightTotal = tallyPoints(newString, rightPower);
   }
 
   if (!fight.includes("t") && !fight.includes("j")) {
     console.log("The string does not contain a 'j' nor a 't'.");
-    tallyPoints(newString);
+    newString = fight;
+    // console.log(rightPower);
+    rightTotal = tallyPoints(newString, rightPower);
+    leftTotal = tallyPoints(newString, leftPower);
   }
 
   if (fight.includes("t") && fight.includes("j")) {
     console.log("The string contains a 'j' and a 't'.");
-    tallyPoints(newString);
+    // tallyPoints(newString);
   }
 
   console.log(
     `The leftTotal is ${leftTotal}. The rightTotal is ${rightTotal}.`,
   );
+  //   if()
   if (leftTotal > rightTotal) return LEFT;
   else if (rightTotal > leftTotal) return RIGHT;
   else return TIE;
