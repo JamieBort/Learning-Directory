@@ -1,7 +1,5 @@
 # AlphabetWar-WoLoLooooooPriestsJoinTheWar
 
-~~[Alphabet war - Wo lo loooooo priests join the war](https://www.codewars.com/kata/alphabet-war-wo-lo-loooooo-priests-join-the-war/javascript)~~
-
 ### Status
 
 Not done yet.
