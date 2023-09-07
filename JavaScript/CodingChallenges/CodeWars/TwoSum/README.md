@@ -1,4 +1,4 @@
-# 0001 Two Sum
+# Two Sum
 
 ## Status
 
