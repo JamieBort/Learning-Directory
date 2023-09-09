@@ -5,6 +5,12 @@ File naming convention.
 ~~Discussion forum found here:
 https://projecteuler.net/thread=20~~
 
+01miscellaneous_challenges/ contains two directories each containing files that I think Josh and I created to pair program.
+
+I think using CodeWars.
+
+I think that there are two directories because the file names are duplicated; possibly because they're identical files.
+
 ## Status
 
 ### Started
