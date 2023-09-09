@@ -2,7 +2,7 @@
 
 ### Status
 
-Not done yet.
+Solved.
 
 ## Problem
 
