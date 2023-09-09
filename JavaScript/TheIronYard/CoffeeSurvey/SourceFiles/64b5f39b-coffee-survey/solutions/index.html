@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Coffee Survey</title>
+    </head>
+    <body>
+        <h1>Coffee Survey</h1>
+
+        <form action="http://foo.com" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <h2>Please provide your contact information</h2>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="phone">Phone Number:</label>
+                <input type='tel' pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}' title='Phone Number (Format: +99(99)9999-9999)'>
+            </fieldset>
+
+            <fieldset>
+                <legend>Survey Questions</legend>
+
+                <h2>Which style of coffee do you prefer?</h2>
+                <input type="radio" name="coffeestyle" value="espressso" checked required>
+                <label for="espressso">Espresso</label>
+                <br>
+                <input type="radio" name="coffeestyle" value="americano">
+                <label for="americano">Americano</label>
+                <br>
+                <input type="radio" name="coffeestyle" value="cappucino">
+                <label for="cappucino">Cappucino</label>
+                <br>
+                <input type="radio" name="coffeestyle" value="other">
+                <label for="other">Other</label>
+
+                <br>
+                
+                <h2>Do you add anything to your coffee? Check all that apply</h2>
+                <input type="checkbox" name="additions" id="sugar" value="sugar">
+                <label for="sugar">Sugar</label>
+                <br>
+                <input type="checkbox" name="additions" id="artificialsweetener" value="artificial-sweetener">
+                <label for="artificialsweetener">Artificial Sweetener</label>
+                <br>
+                <input type="checkbox" name="additions" id="cream" value="cream">
+                <label for="cream">Cream</label>
+                <br>
+                <input type="checkbox" name="additions" id="milk" value="milk">
+                <label for="milk">Milk</label>
+                <br>
+                <input type="checkbox" name="additions" id="butter" value="butter">
+                <label for="butter">Butter</label>
+                <br>
+                <input type="checkbox" name="additions" id="water" value="water">
+                <label for="water">Water</label>
+
+                <br>
+
+                <h2>What size do you normally order?</h2>
+
+                <label for="size">Coffee Size Preference</label>
+                <select type="select" id="size" name="size">
+                    <option value="small" selected>Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+
+                <br>
+
+                <h2>How many cups of coffee do you drink per day, on average?</h2>
+                
+                <label for="size">Coffee Drinking Frequency</label>
+                <select type="select" id="quantity" name="quantity">
+                    <option value="cups1-2" selected>0-1 cups</option>
+                    <option value="cups2-3">2-3 cups</option>
+                    <option value="cups>3">More than 3 cups</option>
+                </select>
+
+                <h2>What is your fondest memory related to coffee?</h2>
+                <label for="memories">Write here:</label>
+                <textarea name="memories" id="memories" cols="30" rows="10"></textarea>
+
+            </fieldset>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
