@@ -27,8 +27,8 @@ solution('abc', 'd') // returns false
 
 ### Files
 
-- attempt01.js -
+- attempt01.js - first attempt.
 
-- attempt02.js -
+- attempt02.js - Solved.
 
 - README.md - this file.
