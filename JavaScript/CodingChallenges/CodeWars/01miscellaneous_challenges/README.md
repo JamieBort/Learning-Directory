@@ -10,10 +10,12 @@ I think that there are two directories because the file names are duplicated; po
 
 ### Directories
 
-- pairprogramming01/
+- CaesarCipher/
 
-  - ~~The work I had done with Josh. He drove mostly (completely?).~~
-  - ~~Formerly "AmISafeToDriveCodeWarsJavaScript/"~~
+  - These are not CodeWars challenges. But I am not sure where else to put them.
+  - They were created with Josh when we were working on the other Code Wars challenges.
+
+- pairprogramming01/
 
 - pairprogramming02/
 

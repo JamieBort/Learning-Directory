@@ -10,57 +10,69 @@ https://docs.google.com/spreadsheets/d/1oVgFB5jMs6Fvcj-ZUAz5ukYWTJpIKLywiqRSRWdG
 
 ### Directories
 
-* BinarySearch/ - directory for the Binary Search algorithm.
+- BinarySearch/
 
-* MergeSort/ - directory for the Merge Sort algorithm.
+  - directory for the Binary Search algorithm.
 
-* Quicksort/ - directory for the Quick Sort algorithm.
+- MergeSort/
+
+  - directory for the Merge Sort algorithm.
+
+- Quicksort/
+
+  - directory for the Quick Sort algorithm.
+
+- RangeW3resourceJavaScript/
+  - I'm not sure.
 
 ### Files
 
-* README.md - this file.
+- README.md - this file.
 
 ## Associated Links
+
 [Algorithms Professional Development](https://trello.com/c/32EUbWm6/272-algorithms-professional-development) Trello card.
 
 The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algorithms) directory of the LearningDirectory GitHub repo.
 
 ## Resources
 
-* Coursera Algorithms
-https://trello.com/c/xYY925Nv/273-courseras-algorithms
+- Coursera Algorithms
+  https://trello.com/c/xYY925Nv/273-courseras-algorithms
 
-* Coderbyte's
-  * [Learn Algorithms in One Week](https://coderbyte.com/starter-course/algorithms-and-data-structures)
-  * [Interview Kit: Algorithms](https://coderbyte.com/interview-kit/algorithms) (Started - see: https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/CodingChallenges/coderbyte/InterviewKitAlgorithms)
-  * [Interview Kit: Google](https://coderbyte.com/interview-kit/google)
+- Coderbyte's
 
-* ~~**another place/sandbox?** to practice coding:~~ Added to proper trello card.
-https://www.geeksforgeeks.org/merge-sort/
+  - [Learn Algorithms in One Week](https://coderbyte.com/starter-course/algorithms-and-data-structures)
+  - [Interview Kit: Algorithms](https://coderbyte.com/interview-kit/algorithms) (Started - see: https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/CodingChallenges/coderbyte/InterviewKitAlgorithms)
+  - [Interview Kit: Google](https://coderbyte.com/interview-kit/google)
 
-* https://stackoverflow.com/questions/1933759/when-is-each-sorting-algorithm-used
+- ~~**another place/sandbox?** to practice coding:~~ Added to proper trello card.
+  https://www.geeksforgeeks.org/merge-sort/
 
-* [7 algorithms and data structures every programmer must know](https://u.osu.edu/cstutorials/2016/11/21/7-algorithms-and-data-structures-every-programmer-must-know/)
+- https://stackoverflow.com/questions/1933759/when-is-each-sorting-algorithm-used
 
-* [Top 25 Algorithms Every Programmer Should Know](https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b) Medium article.
+- [7 algorithms and data structures every programmer must know](https://u.osu.edu/cstutorials/2016/11/21/7-algorithms-and-data-structures-every-programmer-must-know/)
 
-* [Top Data Structures and Algorithms every developer must know](https://dev.to/educative/top-data-structures-and-algorithms-every-developer-must-know-241a) Dev.to article.
+- [Top 25 Algorithms Every Programmer Should Know](https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b) Medium article.
 
-* [algorithms every developer should know](https://www.google.com/search?q=algorithms+every+developer+should+know&oq=algorithms+every+developer+should+know&aqs=chrome..69i57.13643j0j4&sourceid=chrome&ie=UTF-8) internet search.
+- [Top Data Structures and Algorithms every developer must know](https://dev.to/educative/top-data-structures-and-algorithms-every-developer-must-know-241a) Dev.to article.
 
-* Algorithms and data structures implemented in JavaScript with explanations and links to further readings.
-https://github.com/trekhleb/javascript-algorithms#algorithms (also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures  and https://trello.com/c/XNIpgnjj/685-read-up-on-big-o-notation)
+- [algorithms every developer should know](https://www.google.com/search?q=algorithms+every+developer+should+know&oq=algorithms+every+developer+should+know&aqs=chrome..69i57.13643j0j4&sourceid=chrome&ie=UTF-8) internet search.
 
-* https://visualgo.net/en
-Visualizing data structures and algorithms through animation
+- Algorithms and data structures implemented in JavaScript with explanations and links to further readings.
+  https://github.com/trekhleb/javascript-algorithms#algorithms (also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures and https://trello.com/c/XNIpgnjj/685-read-up-on-big-o-notation)
 
-* Google's [Data Structures And Algorithms](https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/) 
+- https://visualgo.net/en
+  Visualizing data structures and algorithms through animation
 
-* [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms) article.
-Notes: Also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures  and https://trello.com/c/32EUbWm6/272-algorithms-professional-development
-Note: also found in https://github.com/JamieBort/LearningDirectory/tree/master/DataStructures#resources and https://github.com/JamieBort/LearningDirectory/tree/master/BigONotation#resources
-  >Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+- Google's [Data Structures And Algorithms](https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/)
 
-* Avinash987's Github Coding repo
-https://github.com/Avinash987/Coding
-  >This repository is a collection of my solutions to the must do probelms in geeksforgeeks
+- [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms) article.
+  Notes: Also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures and https://trello.com/c/32EUbWm6/272-algorithms-professional-development
+  Note: also found in https://github.com/JamieBort/LearningDirectory/tree/master/DataStructures#resources and https://github.com/JamieBort/LearningDirectory/tree/master/BigONotation#resources
+
+  > Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+
+- Avinash987's Github Coding repo
+  https://github.com/Avinash987/Coding
+  > This repository is a collection of my solutions to the must do probelms in geeksforgeeks

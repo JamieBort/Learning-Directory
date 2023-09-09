@@ -22,23 +22,39 @@ b. remove this `To Do` section.
 
 ### Directories
 
-CaesarCipher/ - I am not sure.
+- CodeWars/
 
-CodeWars/ - Coding Challenge website.
+  - Coding Challenge website.
 
-LeetCode/ - Coding Challenge website.
+- LeetCode/
 
-Pramp/ - Interview website with coding challenges.
+  - Coding Challenge website.
 
-ProjectEuler/ - Coding Challenge website.
+- Pramp/
 
-RangeW3resourceJavaScript/ - I am not sure.
+  - Interview website with coding challenges.
 
-TheIronYard/ - I am not sure.
+- ProjectEuler/
 
-binarysearch/ - I am not sure.
+  - Coding Challenge website.
 
-coderbyte/ - Coding Challenge website.
+- RangeW3resourceJavaScript/
+
+  - Moving to ~/Documents/DevFiles/Personal_Projects/LearningDirectory/Algorithms/
+  - ~~I am not sure.~~
+
+- TheIronYard/
+
+  - Moving to
+  - ~~I am not sure.~~
+
+- binarysearch/
+
+  - Moved to ~/Documents/DevFiles/Personal_Projects/LearningDirectory/Algorithms/BinarySearch
+  - I am not sure.
+
+- coderbyte/
+  - Coding Challenge website.
 
 ### Files
 
