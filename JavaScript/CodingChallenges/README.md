@@ -38,21 +38,6 @@ b. remove this `To Do` section.
 
   - Coding Challenge website.
 
-- RangeW3resourceJavaScript/
-
-  - Moving to ~/Documents/DevFiles/Personal_Projects/LearningDirectory/Algorithms/
-  - ~~I am not sure.~~
-
-- TheIronYard/
-
-  - Moving to
-  - ~~I am not sure.~~
-
-- binarysearch/
-
-  - Moved to ~/Documents/DevFiles/Personal_Projects/LearningDirectory/Algorithms/BinarySearch
-  - I am not sure.
-
 - coderbyte/
   - Coding Challenge website.
 

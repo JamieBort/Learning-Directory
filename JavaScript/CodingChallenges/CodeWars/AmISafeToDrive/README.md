@@ -1,11 +1,10 @@
 # AmISafeToDrive
 
+Note: Josh drove on this one. If I attempt, try from scratch.
+
 ### Status
 
-Not done yet.
-
-Not done. Come back to.
-Note: Josh drove on this one. If I attempt, try from scratch.
+Done. Solved. Passed.
 
 ## Problem
 
@@ -72,5 +71,60 @@ should return
 - attempt02.js
 
   - assumption, you are not able to drive unless you have no alcohol in your body at the time you want to drive.
+  - Passed all tests except one (see example 5).
+
+- attempt03.js
+
+  - Close to solving it.
+
+  - See attempt03Error.png
+
+  ````TypeError: Assignment to constant variable.
+    at drive
+    at /home/codewarrior/index.js:72:25
+    at /home/codewarrior/index.js:74:5
+    at Object.handleError
+        <anonymous>```
+
+    and
+
+        ```STDERR
+  /runner/frameworks/javascript/cw-2.js:237
+          throw ex;
+          ^
+  TypeError: Assignment to constant variable.
+    at drive (/home/codewarrior/index.js:33:69)
+    at /home/codewarrior/index.js:72:25
+    at /home/codewarrior/index.js:74:5
+    at Object.handleError (/runner/frameworks/javascript/cw-2.js:233:11)
+    at Object.<anonymous> (/home/codewarrior/index.js:3:6)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at [eval]:1:1
+    at ContextifyScript.Script.runInThisContext (vm.js:50:33)
+    at Object.runInThisContext (vm.js:139:38)
+    at Object.<anonymous> ([eval]-wrapper:6:22)```
+    [Attempt03 Error](attempt03Error.png)!
+
+  ````
+
+- attempt04.js
+
+  - Passed.
+
+  - Changed
+    const finishedConverted
+    and
+    const drive_timeConverted
+
+    to
+    let finishedConverted = 0;
+    and
+    let drive_timeConverted = 0;
 
 - README.md - this file.

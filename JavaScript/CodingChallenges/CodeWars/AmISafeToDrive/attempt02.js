@@ -5,6 +5,7 @@
 // should return [15.16, false]
 
 // Given/Examples
+// Example 1
 const alcohol = [
   [5.2, 568],
   [5.2, 568],
@@ -16,15 +17,50 @@ const alcohol = [
 const finished = "23:00";
 const drive_time = "08:15";
 
+// Example 2
+// Test Passed: Value deep equals [5.05, true]
+// drinks: [ [ 5.2, 568 ], [ 12, 175 ] ]
+// finished: 16:00
+// drive_time: 23:00
+
+// Example 3
+// drinks: [ [ 5.2, 568 ],
+//   [ 5.2, 568 ],
+//   [ 5.2, 568 ],
+//   [ 12, 175 ],
+//   [ 12, 175 ],
+//   [ 12, 175 ] ]
+// finished: 23:00
+// drive_time: 08:15
+// Test Passed: Value deep equals [15.16, false]
+
+// Example 4
+// drinks: [ [ 15.5, 568 ] ]
+// finished: 23:00
+// drive_time: 06:45
+// Test Passed: Value deep equals [8.8, false]
+
+// Example 5
+// drinks: [ [ 10, 100 ] ]
+// finished: 20:00
+// drive_time: 21:00
+// Expected '[1.0, false]' - Expected: [1, false], instead got: [1, true]
+
+// Example 6
+// drinks: [ [ 10, 100 ] ]
+// finished: 20:00
+// drive_time: 21:01
+// Test Passed: Value deep equals [1, true]
+
 function drive(drinks, finished, drive_time) {
-  // Declare variables
+  // *** Declare variables ***
   let tally = 0;
   let finishedConverted = [];
   let drive_timeConverted = [];
   //   console.log("finishedConverted:", finishedConverted);
   //   console.log("drive_timeConverted:", drive_timeConverted);
 
-  //   Declare functions
+  // *** Declare functions ***
 
   //  Function to calculate units of alcohol.
   //  Strength (ABV) x volume (ml) / 1000 = units.
@@ -86,11 +122,11 @@ function drive(drinks, finished, drive_time) {
   }
   console.log("drive_timeConverted after:", drive_timeConverted);
 
-  //   Calculate the elapsed time.
+  // Calculate the elapsed time.
   const eT = elapsedTime(finishedConverted, drive_timeConverted);
   console.log("eT:", eT);
 
-  //   Determine whether enough time has elapsed.
+  // Determine whether enough time has elapsed.
   const checkBoolean = function (params01, params02) {
     console.log("The quantity of alcohol:", params01);
     console.log("The quantity of elapsed time:", params02);
