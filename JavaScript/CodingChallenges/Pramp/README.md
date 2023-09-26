@@ -1,4 +1,4 @@
-# Pramp
+# Pramp/
 
 Pramp coding challenges.
 
@@ -6,10 +6,13 @@ Pramp coding challenges.
 
 ### Directories
 
-Calculator/
+- Calculator/
 
-K-MessedArraySort/
+- FlattenADictionary/
+
+- K-MessedArraySort/
 
 ### Files
 
-README.md - this file.
+- README.md
+  - this file.
