@@ -1,5 +1,9 @@
 # FlattenADictionary/
 
+### Status
+
+I didn't finish it.
+
 ## Problem
 
 ### Problem URL
@@ -50,3 +54,20 @@ Constraints:
 - [time limit] 5000ms
 - [input] Dictionary `dict`
 - [output] Dictionary
+
+## Directories and Files
+
+### Directories
+
+### Files
+
+- attempt01.js
+
+- attempt02.js
+
+- attempt03.js
+
+- attempt04.js - Close but not getting the key to be added correctly.
+
+- README.md
+  - this file.
