@@ -6,6 +6,8 @@ The purpose of this directory is to house the code for this [K-Messed Array Sort
 
 I didn't finish it.
 
+Not done yet.
+
 ### Next Steps
 
 1. Finish it.
@@ -53,3 +55,28 @@ If your peer is stuck, ask them how the fact the array is k-sorted can help divi
 This question is a good opportunity to check if your peer remembers Insertion Sort and Heapsort. In general, it’s an opportunity for both of you to brush up on these sorting algorithms. A good source to refresh your memory is the Sorting Algorithm Article on Wikipedia.
 Watch out for correct calculations and usage of array indices.
 If your peer can’t think of a solution, help their thought process by asking what they can do with a sliding window of size k+1.
+
+## Directories and Files
+
+### Directories
+
+### Files
+
+- attempt00.js
+
+  - my first attempt. Created before attempt01.js was created.
+
+  - former named `K-MessedArraySort.js`
+
+- attempt01.js
+
+  - Method: first create a sorted list function, irrespective of k.
+
+- attempt02.js
+
+  - Not done yet.
+
+  - Explanations online for this problem reference `Insertion Sort`. (See `Insertion Sort` in the `Hints & Tips` above.) So in this file learn `Insertion Sort` by implementing it.
+
+- README.md
+  - this file.
