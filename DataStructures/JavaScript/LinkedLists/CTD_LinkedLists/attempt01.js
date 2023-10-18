@@ -7,6 +7,9 @@
 // Started working on this to help with the class for this assignment:
 // https://replit.com/@RachelFrenkel1/LinkedLists-Algo#index.js
 
+// This file was created before assignment.js was created.
+// This file was not used to solve the problem in assignment.js.
+
 // We need to create a Node class.
 class Node {
   constructor(data, next = null) {
