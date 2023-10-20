@@ -23,7 +23,8 @@ https://www.w3.org/TR/wai-aria-practices/examples/landmarks/main.html
   - https://www.youtube.com/watch?v=PrrljNEpMVg
 - [youtuber who covers this stuff](https://www.youtube.com/channel/UCNbzN3eHbLKPzltSB560DkA)
 - [another youtube video](https://www.youtube.com/watch?v=Lktz1KXbTOU)
-- [and another youtube video](https://www.youtube.com/watch?v=x18vEEfpK3g)
+- and another youtube video [Making Accessible Web Apps Using HTML5 and ChromeVox](https://www.youtube.com/watch?v=x18vEEfpK3g) YouTube video.
+Good info. But watched it already. 
 - [Start Building Accessible Web Applications Today](https://egghead.io/courses/start-building-accessible-web-applications-today) egghead course.
 
 - ~~Chrome extensions~~
