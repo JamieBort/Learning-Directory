@@ -179,5 +179,3 @@ What to keep in mind?
 ## Associated Links
 
 - [Accessibility Master Card](https://trello.com/c/QiXs2V0r/164-accessibility-master-card) Trello card
-
-- ~~[Work on accessibility issues](https://trello.com/c/QiXs2V0r/164-work-on-accessibility-issues) Trello card~~
