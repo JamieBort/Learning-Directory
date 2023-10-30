@@ -1,4 +1,4 @@
-<!-- Temporary file to collect resources for until they can be added to the Resources section of the README.md file. -->
+<!-- Temporary file to collect resources for until they can be systematically added to the Resources section of the README.md file. -->
 
 https://trello.com/c/nSgl3vaI/437-a11y-resources <-- this might be a link to stye guides.
 
@@ -24,7 +24,7 @@ https://www.w3.org/TR/wai-aria-practices/examples/landmarks/main.html
 - [youtuber who covers this stuff](https://www.youtube.com/channel/UCNbzN3eHbLKPzltSB560DkA)
 - [another youtube video](https://www.youtube.com/watch?v=Lktz1KXbTOU)
 - and another youtube video [Making Accessible Web Apps Using HTML5 and ChromeVox](https://www.youtube.com/watch?v=x18vEEfpK3g) YouTube video.
-Good info. But watched it already. 
+  Good info. But watched it already.
 - [Start Building Accessible Web Applications Today](https://egghead.io/courses/start-building-accessible-web-applications-today) egghead course.
 
 - ~~Chrome extensions~~
