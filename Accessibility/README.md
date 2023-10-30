@@ -18,6 +18,20 @@ A directory to house files and directories used to learn these specific concepts
 
   - This readme file.
 
+- [Research.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md)
+
+  - An organized file containing
+
+    - Documentation
+
+    - Research
+
+    - and Resources.
+
+  - This file used to be the README.md file.
+
+    It started out as a copy of the readme file.
+
 - [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md)
 
   - A temporary file to collect resources to be vetted until they can be systematically added to the [Research.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md) file.
@@ -26,9 +40,7 @@ A directory to house files and directories used to learn these specific concepts
 
     It has not been studied, read, vetted, etc.
 
-- [Research.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md)
-
-  - This file used to be the README.md file.
+  - It is a catchall for resources until they can be vetted.
 
 ## Associated Links
 
