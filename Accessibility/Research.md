@@ -62,6 +62,35 @@ What to keep in mind?
 
 - number of characters per line/line length https://practicaltypography.com/line-length.html
 
+- https://web.dev/explore/accessible
+
+  - Make your site keyboard accessible (subsections)
+
+    - Keyboard access fundamentals
+    - Use semantic HTML for easy keyboard wins
+    - Control focus with tabindex
+    - Style focus
+
+  - Understand semantics and basic screen reader support (subsections)
+
+    - Semantics and screen readers
+    - Headings and landmarks
+    - Labels and text alternatives
+    - Media accessibility
+
+  - Create a design and CSS that supports users with different needs (subsections)
+
+    - Accessible tap targets
+    - Color and contrast accessibility
+    - Accessible responsive design
+    - Content reordering
+
+### Tap Targets
+
+- https://developer.chrome.com/docs/lighthouse/seo/tap-targets/
+
+- https://web.dev/articles/accessible-tap-targets
+
 ### Smooth Scrolling
 
 - [Smooth Scrolling and Accessibility](https://css-tricks.com/smooth-scrolling-accessibility/) CSS Tricks article.
@@ -95,7 +124,27 @@ What to keep in mind?
 
 ### Good Resources to keep
 
-### Resources that have not been studied yet
+#### Tools
+
+##### Chrome extensions
+
+- None so far. Check the [Resources that I have not vetted yet](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#resources-that-I-have-not-vetted-yet) section below.
+
+#### Documentation
+
+- None so far. Check the [Resources that I have not vetted yet](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#resources-that-I-have-not-vetted-yet) section below.
+
+#### People
+
+- Scott O'Hara
+
+  - https://codepen.io/scottohara
+
+  - https://github.com/scottaohara
+
+  - https://www.scottohara.me/
+
+### Resources that I have not vetted yet
 
 - (not sure where to put these)
 
@@ -133,7 +182,7 @@ What to keep in mind?
 
 - [7 Principles of Universal Design](https://universaldesign.ie/what-is-universal-design/the-7-principles/)
 
-- Colorblind Web Page Filters
+- Colorblind Web Page Filters/Simulators
 
   - Toptal's [Colorblind Web Page Filter](https://www.toptal.com/designers/colorfilter/)
 
@@ -141,9 +190,15 @@ What to keep in mind?
 
   - [Color vision simulation](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/simulation/index.html)
 
+  - [Who can use this color combination?](https://www.whocanuse.com/)
+
 - [Accessibility Basics: Testing Your Page For Color Blindness](https://css-tricks.com/accessibility-basics-testing-your-page-for-color-blindness/) css-tricks\.com article.
 
-#### Chrome extensions
+- For more, check the [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md) file.
+
+#### Tools
+
+##### Chrome extensions
 
 - https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm
 
@@ -156,6 +211,10 @@ What to keep in mind?
 - https://play.google.com/store/apps/details?id=com.chromereadervoice&hl=en_US
 
 - Ones [I am using](chrome://extensions/) (see: chrome://extensions/) and also found online [here](https://chrome.google.com/webstore/user/purchases?hl=en).
+
+- For more, check the [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md) file.
+
+- [Accessibility Insights for Web](https://accessibilityinsights.io/docs/web/overview/)
 
 #### Documentation
 
@@ -175,6 +234,12 @@ What to keep in mind?
 - [Bureau of Internet Accessibility](https://www.boia.org/) website.
 
 - [IBM Accessibility](https://www.ibm.com/able/)
+
+- For more, check the [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md) file.
+
+#### People
+
+- None so far. Check the [Resources.md](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Resources.md) file.
 
 ## Associated Links
 
