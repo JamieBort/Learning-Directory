@@ -132,7 +132,23 @@ What to keep in mind?
 
 #### Documentation
 
-- None so far. Check the [Resources that I have not vetted yet](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#resources-that-I-have-not-vetted-yet) section below.
+- Resources shared by https://trello.com/c/53VtZ4o9/:
+
+  1. https://practical-accessibility.today/ -> Course for web developers
+  2. https://adamsilver.io/blog/the-problem-with-disabled-buttons-and-what-to-do-instead/
+  3. https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/
+  4. This page has a good recap of how to evaluate a digital thing for accessibility: https://www.w3.org/WAI/test-evaluate/
+  5. **DO NOT SHARE WITH ANYONE**
+
+     Default [WCAG 2.2 A & AA Checklist](https://trello.com/c/53VtZ4o9/48-laurent-sheridan#comment-6549085f4835ccc198407757) checklist we use for a11y QA.
+
+     Based on the WCAG standards.
+
+     We use Safari + VoiceOver to test for screenreader compatibility on iOS, and Edge + NVDA to test on PC.
+
+     We typically do this in conjunction with our standard cross-browser and device testing process.
+
+- For more, check the [Resources that I have not vetted yet](https://github.com/JamieBort/LearningDirectory/blob/master/Accessibility/Research.md#resources-that-I-have-not-vetted-yet) section below.
 
 #### People
 
@@ -230,6 +246,7 @@ What to keep in mind?
   - and [Accessibility](https://www.w3.org/WAI/).
   - and [Tutorials](https://www.w3.org/WAI/tutorials/.)
   - also, https://www.w3.org/TR/wai-aria-practices-1.1/
+  - [ARIA Authoring Practices Guide (APG) Home](https://www.w3.org/WAI/ARIA/apg/)
 
 - [Bureau of Internet Accessibility](https://www.boia.org/) website.
 
