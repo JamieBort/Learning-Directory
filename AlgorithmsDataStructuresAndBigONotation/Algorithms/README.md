@@ -29,6 +29,8 @@ https://docs.google.com/spreadsheets/d/1oVgFB5jMs6Fvcj-ZUAz5ukYWTJpIKLywiqRSRWdG
 
 - README.md - this file.
 
+- SpecificAlgorithmsToWorkOn.txt - Specific algorithms to work on.
+
 ## Associated Links
 
 [Algorithms Professional Development](https://trello.com/c/32EUbWm6/272-algorithms-professional-development) Trello card.
