@@ -77,4 +77,13 @@ The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algo
 
 - Avinash987's Github Coding repo
   https://github.com/Avinash987/Coding
+
   > This repository is a collection of my solutions to the must do probelms in geeksforgeeks
+
+- Recursion
+
+  - [Which Data Structure is used for Implementing Recursion?](https://www.scaler.com/topics/implementing-recursion/) scaler\.com article.
+
+  - [Understanding Recursion — Hint: It’s Less Complicated Than You Think.](https://medium.com/geekculture/understanding-recursion-hint-its-less-complicated-than-you-think-e871a8693d50) Medium article.
+
+  - [Recursion](https://docs.google.com/presentation/d/1fM_sJBCqYazkE8Q8CCM0a6qhCf-hp5nYaHez2osx2Yc/edit#slide=id.g17d373e65dc_0_344) Google slides.

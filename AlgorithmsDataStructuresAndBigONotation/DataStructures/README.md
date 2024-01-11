@@ -29,18 +29,15 @@ The `X` indicates that the language has that data structure.
 
 ## Resources
 
-- Avinash987's Github Coding repo
-  https://github.com/Avinash987/Coding
+- [geeksforgeeks](https://www.geeksforgeeks.org/) has a plethora of information for
 
-  > This repository is a collection of my solutions to the must do probelms in geeksforgeeks
+  - data structures
 
-- Recursion
+  - coding challenges for Java, JavaScript, Python, and a few more
 
-  [Which Data Structure is used for Implementing Recursion?](https://www.scaler.com/topics/implementing-recursion/) scaler\.com article.
+    (already added to the JavaScrip coding challenge directory.)
 
-  [Understanding Recursion — Hint: It’s Less Complicated Than You Think.](https://medium.com/geekculture/understanding-recursion-hint-its-less-complicated-than-you-think-e871a8693d50) Medium article.
-
-  [Recursion](https://docs.google.com/presentation/d/1fM_sJBCqYazkE8Q8CCM0a6qhCf-hp5nYaHez2osx2Yc/edit#slide=id.g17d373e65dc_0_344) Google slides.
+  - and **maybe** big o notation too.
 
 By Data Type
 
