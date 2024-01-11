@@ -38,6 +38,6 @@ Constraints:
 
 - attempt01.js - The file used for the first attempt at solving the problem.
 
-- attempt02.js - Doesn't exist.
+- attempt02.js - The file used for the second attempt at solving the problem.
 
 - README.md - this file.
