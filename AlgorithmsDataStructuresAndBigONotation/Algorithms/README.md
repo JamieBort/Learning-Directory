@@ -88,4 +88,24 @@ The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algo
 
   - [Recursion](https://docs.google.com/presentation/d/1fM_sJBCqYazkE8Q8CCM0a6qhCf-hp5nYaHez2osx2Yc/edit#slide=id.g17d373e65dc_0_344) Google slides.
 
-  - The first [Recursion](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/?ref=ghm) GeeksForGeeks section.
+  - GeeksForGeeks
+
+    - The first [Recursion](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/?ref=ghm) GeeksForGeeks section.
+
+  - LeetCode
+
+    - Recursion I
+
+      https://leetcode.com/explore/learn/card/recursion-i/
+
+    - Recursion II
+
+      https://leetcode.com/explore/learn/card/recursion-ii/
+
+    - tag recursion
+
+      https://leetcode.com/tag/recursion/
+
+    - Become Master In Recursion study guide
+
+      https://leetcode.com/discuss/study-guide/1733447/Become-Master-In-Recursion

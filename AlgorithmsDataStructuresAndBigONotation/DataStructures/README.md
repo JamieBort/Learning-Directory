@@ -41,7 +41,13 @@ The `X` indicates that the language has that data structure.
 
 By Data Type
 
-- [Heap data structure in Javascript](https://learnersbucket.com/tutorials/array/heap-data-structure-in-javascript/) A lot of info here.
+- Binary Tree
+
+  - https://leetcode.com/explore/learn/card/data-structure-tree/
+
+- Heap
+
+  - [Heap data structure in Javascript](https://learnersbucket.com/tutorials/array/heap-data-structure-in-javascript/) A lot of info here.
 
 By Language
 
