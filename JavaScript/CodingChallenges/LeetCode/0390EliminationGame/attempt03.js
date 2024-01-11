@@ -27,10 +27,11 @@ var lastRemaining = function (n) {
   //   }
   //   return intArray[0];
 
-  if (9 % 2) console.log("9 % 2");
-  if (8 % 2) console.log("8 % 2");
-  if (1) console.log("1");
-  if (0) console.log("0");
+  //   if (9 % 2) console.log("9 % 2");
+  //   if (8 % 2) console.log("8 % 2");
+  //   if (1) console.log("1");
+  //   if (0) console.log("0");
+  console.log(Math.trunc(8.76 / 2));
 };
 lastRemaining(9);
 

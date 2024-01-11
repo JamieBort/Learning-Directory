@@ -61,4 +61,14 @@ Constraints:
 
   - The error message received for this submission.
 
+- attempt03.js
+
+- GreatExplanation
+
+  - A really good explanation.
+
+  - See GreatExplanation.md
+
+    - GreatExplanation.png is used here.
+
 - README.md - this file.
