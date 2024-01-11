@@ -87,3 +87,5 @@ The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algo
   - [Understanding Recursion — Hint: It’s Less Complicated Than You Think.](https://medium.com/geekculture/understanding-recursion-hint-its-less-complicated-than-you-think-e871a8693d50) Medium article.
 
   - [Recursion](https://docs.google.com/presentation/d/1fM_sJBCqYazkE8Q8CCM0a6qhCf-hp5nYaHez2osx2Yc/edit#slide=id.g17d373e65dc_0_344) Google slides.
+
+  - The first [Recursion](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/?ref=ghm) GeeksForGeeks section.
