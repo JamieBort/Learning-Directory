@@ -3,7 +3,8 @@
 From: https://binarysearch.com/room/Array-of-Sunshine-EQeMHLNE2t
 
 ## Status
-Not yet started.
+
+Not yet started - it appears as though the binarysearch.com website is shut down.
 
 ## Problem Statement
 

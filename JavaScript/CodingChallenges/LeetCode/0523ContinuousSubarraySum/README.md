@@ -39,7 +39,7 @@ Example 3:
 
 Input: nums = [23,2,6,4,7], k = 13
 Output: false
- 
+
 
 Constraints:
 
@@ -48,22 +48,38 @@ Constraints:
 0 <= sum(nums[i]) <= 231 - 1
 1 <= k <= 231 - 1
 
- ```
+```
 
 ## Directories and Files
 
 ### Directories
 
-Directory01/ - Doesn't exist.
-
 ### Files
 
-attempt01.js - The file used for the first attempt at solving the problem.
+- attempt01.js
 
-attempt02.js - The file used for the second attempt at solving the problem.
+  - The file used for the first attempt at solving the problem.
 
-attempt03.js - The file used for the third attempt at solving the problem. All five examples in it passed. However when I submitted it in Leetcode, I received a `Time Limit Exceeded` response and `94 / 97 testcases passed`.
+- attempt02.js
 
-attempt04.js - 
+  - The file used for the second attempt at solving the problem.
 
-README.md - this file.
+- attempt03.js
+
+  - The file used for the third attempt at solving the problem. All five examples in it passed. However when I submitted it in Leetcode, I received a `Time Limit Exceeded` response and `94 / 97 testcases passed`.
+
+- attempt04.js
+
+  - None done.
+
+- attempt05.js
+
+  - Close.
+
+- README.md
+
+  - this file.
+
+- scratch.js
+
+  - Used for exploring code by playing around with it.

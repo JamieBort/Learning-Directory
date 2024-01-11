@@ -2,7 +2,11 @@
 
 ## Status
 
-Not started yet.
+Completed.
+
+See
+
+![Accepted](Accepted.png)
 
 ## Problem
 
@@ -56,12 +60,6 @@ Directory02/ - Doesn't exist.
 
 ### Files
 
-attempt01.js - The file used for the first attempt at solving the problem.
-
-attempt02.js - The file used for the second attempt at solving the problem.
-
-attempt03.js - The file used for the third attempt at solving the problem. I am very close with this one.
-
-attempt04.js - A copy of attempt03.js except this one is cleaned up.
+attempt01.js - Done.
 
 README.md - this file.
