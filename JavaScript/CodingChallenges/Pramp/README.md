@@ -20,6 +20,8 @@ See the [Coding Challenge Status](https://docs.google.com/spreadsheets/d/10YrY8K
 
 ### Directories
 
+[Follow naming convention that makes sense for coderbyte. Then add a single line description like the one found in the [LeetCode](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/CodingChallenges/LeetCode) directory. Then remove the names of the directories below. Rather than have a long list of them to maintain.]
+
 - Calculator/
 
 - FlattenADictionary/
@@ -30,3 +32,9 @@ See the [Coding Challenge Status](https://docs.google.com/spreadsheets/d/10YrY8K
 
 - README.md
   - this file.
+
+## Associated Links
+
+### Resources
+
+- [nothing]() blogspot blog.

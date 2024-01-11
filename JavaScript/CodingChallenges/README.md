@@ -43,9 +43,13 @@ b. remove this `To Do` section.
 
 ### Files
 
-Coding_Challenge_Template_README.md - The Template README.md file that should be used in each coding challenge directory.
+- Coding_Challenge_Template_README.md
 
-README.md - this file.
+  - **This is outdated.** It needs to be updated.
+  - The Template README.md file that should be used in each coding challenge directory.
+
+- README.md
+  - this file.
 
 ### Associated Links
 

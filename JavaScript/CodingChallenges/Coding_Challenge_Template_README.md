@@ -1,6 +1,9 @@
 # Coding Challenge Template README
 
+**This is outdated.**
+
 ## Status
+
 Did I finish the problem?
 What is left to work on?
 
@@ -13,10 +16,10 @@ Problem URL
 ### Problem Statement
 
 ```
-Paste the problem 
+Paste the problem
 statement here.
 Link Screenshots.
- ```
+```
 
 ## Directories and Files
 
