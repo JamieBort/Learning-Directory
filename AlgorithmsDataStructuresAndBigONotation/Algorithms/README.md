@@ -81,31 +81,39 @@ The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algo
   > This repository is a collection of my solutions to the must do probelms in geeksforgeeks
 
 - Recursion
+  Pooja TiwariPooja Tiwari
+  • 3rd+• 3rd+
+  @SDE java developer@SDE java developer
+  3w • Edited • 3w • Edited •
 
-  - [Which Data Structure is used for Implementing Recursion?](https://www.scaler.com/topics/implementing-recursion/) scaler\.com article.
+Follow
 
-  - [Understanding Recursion — Hint: It’s Less Complicated Than You Think.](https://medium.com/geekculture/understanding-recursion-hint-its-less-complicated-than-you-think-e871a8693d50) Medium article.
+- [A very clear representation of how concept of Recursion works.](https://www.linkedin.com/posts/pooja-tiwari-536604153_a-very-clear-representation-of-how-concept-activity-7143873410341810176-EYGr/?utm_source=share&utm_medium=member_ios) video on LinkedIn.
 
-  - [Recursion](https://docs.google.com/presentation/d/1fM_sJBCqYazkE8Q8CCM0a6qhCf-hp5nYaHez2osx2Yc/edit#slide=id.g17d373e65dc_0_344) Google slides.
+- [Which Data Structure is used for Implementing Recursion?](https://www.scaler.com/topics/implementing-recursion/) scaler\.com article.
 
-  - GeeksForGeeks
+- [Understanding Recursion — Hint: It’s Less Complicated Than You Think.](https://medium.com/geekculture/understanding-recursion-hint-its-less-complicated-than-you-think-e871a8693d50) Medium article.
 
-    - The first [Recursion](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/?ref=ghm) GeeksForGeeks section.
+- [Recursion](https://docs.google.com/presentation/d/1fM_sJBCqYazkE8Q8CCM0a6qhCf-hp5nYaHez2osx2Yc/edit#slide=id.g17d373e65dc_0_344) Google slides.
 
-  - LeetCode
+- GeeksForGeeks
 
-    - Recursion I
+  - The first [Recursion](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/?ref=ghm) GeeksForGeeks section.
 
-      https://leetcode.com/explore/learn/card/recursion-i/
+- LeetCode
 
-    - Recursion II
+  - Recursion I
 
-      https://leetcode.com/explore/learn/card/recursion-ii/
+    https://leetcode.com/explore/learn/card/recursion-i/
 
-    - tag recursion
+  - Recursion II
 
-      https://leetcode.com/tag/recursion/
+    https://leetcode.com/explore/learn/card/recursion-ii/
 
-    - Become Master In Recursion study guide
+  - tag recursion
 
-      https://leetcode.com/discuss/study-guide/1733447/Become-Master-In-Recursion
+    https://leetcode.com/tag/recursion/
+
+  - Become Master In Recursion study guide
+
+    https://leetcode.com/discuss/study-guide/1733447/Become-Master-In-Recursion
