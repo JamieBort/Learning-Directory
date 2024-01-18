@@ -23,11 +23,30 @@ The `X` indicates that the language has that data structure.
 |Trees| | | | |
 |Tuples| | | | |
 
+## Directories and Files
+
+- BinarySearchTree/
+
+- Java/
+
+  - Possibly to be moved or removed. This `Data Structures` directory should be organized by data structures, not by software languages.
+
+- JavaScript/
+
+  - Possibly to be moved or removed. This `Data Structures` directory should be organized by data structures, not by software languages.
+
+### Directories
+
+### Files
+
+- README.md
+  - this file.
+
 ## Associated Links
 
 - https://trello.com/c/NcksvPdV/1092-data-structures-master-card
 
-## Resources
+### Resources
 
 - [geeksforgeeks](https://www.geeksforgeeks.org/) has a plethora of information for
 
