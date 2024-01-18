@@ -1,46 +1,23 @@
-# Data Structures
+# Binary Search Tree
 
 The purpose of this directory is ...
-
-This directory is going to be broken down into respective languages.
-So that Data Structures can be explored and learned separately.
-
-## Table of Data Structures
-
-The `X` indicates that the language has that data structure.
-| |Java|JavaScript| | |
-|---|---|---|---|---|
-|Arrays| | | | |
-|Graphs| | | | |
-|Hash Table/Hash Map| | | | |
-|Heap| | | | |
-|Linked Lists|X|X| | |
-|Maps| | | | |
-|Objects| | | | |
-|Queues (first in, first out)| | | | |
-|Sets| | | | |
-|Stacks (first in, last out)| | | | |
-|Trees| | | | |
-|Tuples| | | | |
 
 ## Directories and Files
 
 ### Directories
 
-- BinarySearchTree/
-
-- Java/
-
-  - Possibly to be moved or removed. This `Data Structures` directory should be organized by data structures, not by software languages.
-
-- JavaScript/
-
-  - Possibly to be moved or removed. This `Data Structures` directory should be organized by data structures, not by software languages.
-
 ### Files
 
+- BinarySearchTree.md
+
+  - The algorithm for Binary Search Trees.
+
+- JavaScript.js
+
+  - The implementation of the Binary Search Tree algorithm found in the `BinarySearchTree.md` file.
+
 - README.md
-  - this file.
+  - This file.
 
 ## Associated Links
 
