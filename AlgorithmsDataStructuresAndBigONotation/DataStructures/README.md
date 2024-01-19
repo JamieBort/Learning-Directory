@@ -27,15 +27,21 @@ The `X` indicates that the language has that data structure.
 
 ### Directories
 
-- BinarySearchTree/
+- Data Structures
 
-- Java/
+  - BinarySearchTree/
 
-  - Possibly to be moved or removed. This `Data Structures` directory should be organized by data structures, not by software languages.
+  - LinkedLists/
 
-- JavaScript/
+- Software Languages
 
-  - Possibly to be moved or removed. This `Data Structures` directory should be organized by data structures, not by software languages.
+  - Java/
+
+    - Possibly to be moved or removed. This `Data Structures` directory should be organized by data structures, not by software languages.
+
+  - JavaScript/
+
+    - Possibly to be moved or removed. This `Data Structures` directory should be organized by data structures, not by software languages.
 
 ### Files
 
@@ -44,9 +50,11 @@ The `X` indicates that the language has that data structure.
 
 ## Associated Links
 
-- https://trello.com/c/NcksvPdV/1092-data-structures-master-card
+- ~~https://trello.com/c/NcksvPdV/1092-data-structures-master-card~~ --> Repurposed for `Research for JavaScript and React Search and Filter Libraries`
 
 ### Resources
+
+Below consists of resources for more than one data type. Otherwise resources for a specific data type is in that data type's directory.
 
 - [geeksforgeeks](https://www.geeksforgeeks.org/) has a plethora of information for
 
@@ -58,20 +66,20 @@ The `X` indicates that the language has that data structure.
 
   - and **maybe** big o notation too.
 
-By Data Type
+- See `Algorithms Class Library Hours Resources` in the Activity of the [Code the Dream algorithms class](https://trello.com/c/Dalqc4Hz/1367-code-the-dream-algorithms-class#comment-652ea958927077bd56ac5507) Trello card.
 
-- Binary Tree
+- Leetcode's [Learn](https://leetcode.com/explore/learn/) page.
 
-  - https://leetcode.com/explore/learn/card/data-structure-tree/
+- By Language
 
-- Heap
+  - [JavaScript Data Structures: Getting Started](https://www.youtube.com/watch?v=41GSinwoMYA) 97 minute YouTube video.
 
-  - [Heap data structure in Javascript](https://learnersbucket.com/tutorials/array/heap-data-structure-in-javascript/) A lot of info here.
+  - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms) GitHub repo.
 
-By Language
+    > This repository contains JavaScript based examples of many popular algorithms and data structures.
 
-- [JavaScript Data Structures: Getting Started](https://www.youtube.com/watch?v=41GSinwoMYA) 97 minute YouTube video.
+    > Each algorithm and data structure has its own separate README with related explanations and links for further reading (including ones to YouTube videos).
 
-- [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms) article.
-  Note: Also shared this with https://trello.com/c/1bKLc39y/687-read-up-on-data-structures and https://trello.com/c/32EUbWm6/272-algorithms-professional-development
-  Note: also found in https://github.com/JamieBort/LearningDirectory/tree/master/Algorithms#resources and https://github.com/JamieBort/LearningDirectory/tree/master/BigONotation#resources >Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+    > Read this in other languages: 简体中文, 繁體中文, 한국어, 日本語, Polski, Français, Español, Português, Русский, Türkçe, Italiana, Bahasa Indonesia, Українська, Arabic, Tiếng Việt, Deutsch
+
+    - Algorithms and data structures implemented in JavaScript with explanations and links to further readings.
