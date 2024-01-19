@@ -54,7 +54,7 @@ The `X` indicates that the language has that data structure.
 
 ### Resources
 
-Below consists of resources for more than one data type. Otherwise resources for a specific data type is in that data type's directory.
+NOTE: Below consists of resources for more than one data type. Otherwise resources for a specific data type is in that data type's directory.
 
 - [geeksforgeeks](https://www.geeksforgeeks.org/) has a plethora of information for
 
