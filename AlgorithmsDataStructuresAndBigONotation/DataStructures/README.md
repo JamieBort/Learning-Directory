@@ -50,11 +50,11 @@ The `X` indicates that the language has that data structure.
 
 ## Associated Links
 
-- ~~https://trello.com/c/NcksvPdV/1092-data-structures-master-card~~ --> Repurposed for `Research for JavaScript and React Search and Filter Libraries`
-
 ### Resources
 
-NOTE: Below consists of resources for more than one data type. Otherwise resources for a specific data type is in that data type's directory.
+NOTE: If you don't see a resource specific to Data Structures below, look for a resource covering Data Structures and Algorithms or Data Structures and Big O Notation in the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/AlgorithmsDataStructuresAndBigONotation#resources) section of the `Algorithms, Data Structures, & Big O Notation` directory.
+
+TODO: Clean up this section so that each resource below consists of only Data Structures content. If it consists of Algorithms content and Data Structures content, or if it consists of Data Structures content and Big O content, move it to the `Algorithms, Data Structures, & Big O Notation` directory.
 
 - [geeksforgeeks](https://www.geeksforgeeks.org/) has a plethora of information for
 

@@ -8,7 +8,7 @@ The purpose of this directory is ...
 
 ### Files
 
-- BinarySearchTree.md
+- BinarySearchTreeAlgorithm.md
 
   - The algorithm for Binary Search Trees.
 

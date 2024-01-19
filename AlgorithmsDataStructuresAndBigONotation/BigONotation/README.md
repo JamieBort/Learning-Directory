@@ -14,9 +14,11 @@ The purpose of this directory is ...
 
 ## Associated Links
 
-- https://trello.com/c/XNIpgnjj/685-big-o-notation
+### Resources
 
-## Resources
+NOTE: If you don't see a resource specific to Big O Notation below, look for a resource covering Big O Notation and Algorithms or Big O Notation and Data Structures in the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/AlgorithmsDataStructuresAndBigONotation#resources) section of the `Algorithms, Data Structures, & Big O Notation` directory.
+
+TODO: Clean up this section so that each resource below consists of only Big O Notation content. If it consists of Big O Notation content and Algorithms content, or if it consists of Big O Notation content and Data Structures content, move it to the `Algorithms, Data Structures, & Big O Notation` directory.
 
 - [All you need to know about “Big O Notation” to crack your next coding interview](https://www.freecodecamp.org/news/all-you-need-to-know-about-big-o-notation-to-crack-your-next-coding-interview-9d575e7eec4/) FreeCodeCamp article.
 

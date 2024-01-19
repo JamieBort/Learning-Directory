@@ -6,38 +6,60 @@ Or to link to those algorithms in the directory of their respective language in 
 See `Algorithm Status` for a global view of the solved algorithms. And by which languages.
 https://docs.google.com/spreadsheets/d/1oVgFB5jMs6Fvcj-ZUAz5ukYWTJpIKLywiqRSRWdGrNc/edit#gid=0
 
+NOTE: note to self, cover Recursion and Memoization/Dynamic Programming.
+
 ## Directories and Files
 
 ### Directories
 
-- BinarySearch/
+- Search
 
-  - directory for the Binary Search algorithm.
+  - BinarySearch/
 
-- MergeSort/
+    - directory for the Binary Search algorithm.
 
-  - directory for the Merge Sort algorithm.
+  - Breadth-first search/
 
-- Quicksort/
+    - Doesn't exist yet.
 
-  - directory for the Quick Sort algorithm.
+  - Depth-first search/
+
+    - Doesn't exist yet.
+
+- Sort
+
+  - MergeSort/
+
+    - directory for the Merge Sort algorithm.
+
+  - Quicksort/
+
+    - directory for the Quick Sort algorithm.
 
 - RangeW3resourceJavaScript/
   - I'm not sure.
 
 ### Files
 
-- README.md - this file.
+- README.md
 
-- SpecificAlgorithmsToWorkOn.txt - Specific algorithms to work on.
+  - this file.
+
+- SpecificAlgorithmsToWorkOn.txt
+
+  - Specific algorithms to work on.
 
 ## Associated Links
 
-[Algorithms Professional Development](https://trello.com/c/32EUbWm6/272-algorithms-professional-development) Trello card.
+~~[Algorithms Professional Development](https://trello.com/c/32EUbWm6/272-algorithms-professional-development) Trello card.~~ Repurposed Trello card.
 
-The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algorithms) directory of the LearningDirectory GitHub repo.
+~~The [Algorithms](https://github.com/JamieBort/LearningDirectory/tree/master/Algorithms) directory of the LearningDirectory GitHub repo.~~ Broken link.
 
-## Resources
+### Resources
+
+NOTE: If you don't see a resource specific to Algorithms below, look for a resource covering Algorithms and Big O notation or Algorithms and Data Structures in the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/AlgorithmsDataStructuresAndBigONotation#resources) section of the `Algorithms, Data Structures, & Big O Notation` directory.
+
+TODO: Clean up this section so that each resource below consists of only Algorithms content. If it consists of Algorithms content and Data Structures content, or if it consists of Algorithms content and Big O content, move it to the `Algorithms, Data Structures, & Big O Notation` directory.
 
 - Coursera Algorithms
   https://trello.com/c/xYY925Nv/273-courseras-algorithms

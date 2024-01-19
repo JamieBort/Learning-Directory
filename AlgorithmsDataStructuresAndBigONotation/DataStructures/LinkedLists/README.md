@@ -6,9 +6,15 @@ The purpose of this directory is ...
 
 ### Directories
 
-### Files- README.md
+### Files
 
-- This file.
+- LinkedListsAlgorithm.md
+
+  - The algorithm for linked lists.
+
+- README.md
+
+  - This file.
 
 ## Associated Links
 

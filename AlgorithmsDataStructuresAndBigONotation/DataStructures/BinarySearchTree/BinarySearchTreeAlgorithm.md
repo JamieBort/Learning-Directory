@@ -1,4 +1,6 @@
-# Binary Search Tree
+# Binary Search Tree Algorithm
+
+## The algorithm for using binary search trees
 
 Class to create a node.
 It contains a constructor that assigns a root node, a left child node, and a right child node.
