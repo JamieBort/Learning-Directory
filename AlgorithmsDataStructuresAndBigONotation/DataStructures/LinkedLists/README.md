@@ -2,6 +2,30 @@
 
 The purpose of this directory is ...
 
+## Visual representation of a linked list
+
+```
+const aLinkedList = {
+    head: {
+        value: 6
+        next: {
+            value: 10
+            next: {
+                value: 12
+                next:
+                    .
+                    .
+                    .
+                    {
+                    value: 3
+                    next: null
+                    }
+                }
+            }
+        }
+    };
+```
+
 ## Directories and Files
 
 ### Directories

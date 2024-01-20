@@ -68,8 +68,6 @@ TODO: Clean up this section so that each resource below consists of only Data St
 
 - See `Algorithms Class Library Hours Resources` in the Activity of the [Code the Dream algorithms class](https://trello.com/c/Dalqc4Hz/1367-code-the-dream-algorithms-class#comment-652ea958927077bd56ac5507) Trello card.
 
-- Leetcode's [Learn](https://leetcode.com/explore/learn/) page.
-
 - By Language
 
   - [JavaScript Data Structures: Getting Started](https://www.youtube.com/watch?v=41GSinwoMYA) 97 minute YouTube video.

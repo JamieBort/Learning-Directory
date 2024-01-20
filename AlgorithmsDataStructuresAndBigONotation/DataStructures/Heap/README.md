@@ -2,6 +2,8 @@
 
 The purpose of this directory is ...
 
+TODO: insert here a visual representation of a heap. See https://github.com/JamieBort/LearningDirectory/blob/master/AlgorithmsDataStructuresAndBigONotation/DataStructures/LinkedLists/README.md for an idea of what I mean here.
+
 ## Directories and Files
 
 ### Directories
