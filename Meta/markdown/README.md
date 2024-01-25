@@ -2,25 +2,19 @@
 
 ## Purpose
 
-House info such as badges and
+House info such as badges, buttons, blogs, icons, and stats.
 
 ## Directories and Files
 
 ### Directories
 
-- [directory name]/
-
-  - [About this directory.]
-
-  - [More info about this directory.]
-
 ### Files
 
-- [name of other file in here]
+- features.md
 
-  - [About this file.]
+  - A list of items that can be added to a markdown file.
 
-  - [More info about this file.]
+  - With resources and information on how to obtain and use them.
 
 - README.md
 

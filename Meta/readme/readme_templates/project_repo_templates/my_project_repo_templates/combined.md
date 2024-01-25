@@ -1,6 +1,8 @@
 <!-- from: https://gist.githubusercontent.com/akashnimare/7b065c12d9750578de8e705fb4771d2f/raw/8124e770051f08172ec0aeacd12a379588383bce/README.md
 
-and https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3#:~:text=A%20great%20README%20file%20helps,open%2Dsource%20software%20on%20GitHub.&text=It%20is%20the%20first%20file,README%20is%20not%20so%20useful -->
+and https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3#:~:text=A%20great%20README%20file%20helps,open%2Dsource%20software%20on%20GitHub.&text=It%20is%20the%20first%20file,README%20is%20not%20so%20useful
+
+I added Documentation, Privacy Policy, and Code of Conduct -->
 
 ## Project title
 
@@ -47,6 +49,8 @@ Show what the library does as concisely as possible, developers should be able t
 
 Provide step by step series of examples and explanations about how to get a development env running.
 
+## Documentation - i added this
+
 ## API Reference
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
@@ -74,3 +78,7 @@ Give proper credits. This could be a link to any repo which inspired you to buil
 A short snippet describing the license (MIT, Apache etc)
 
 MIT © [Yourname]()
+
+## Privacy Policy - i added this
+
+## Code of Conduct - i added this

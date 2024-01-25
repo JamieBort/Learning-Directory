@@ -17,3 +17,9 @@ Readme templetes for project repos from other people.
 - README.md
 
   - This readme file.
+
+### Resources
+
+- Template to fork
+
+  https://github.com/Louis3797/awesome-readme-template
