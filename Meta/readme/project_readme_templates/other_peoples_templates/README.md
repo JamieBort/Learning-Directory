@@ -2,11 +2,19 @@
 
 ## Purpose
 
-To house templates from people's profiles whom I want to emulate.
+To house other people's templates whom I want to emulate.
 
 ## Directories and Files
 
 ### Directories
+
+- profile_readme_templates/
+
+  - Git Profile README Templetes from other people.
+
+- project_repo_templates/
+
+  - Git project repo README Templetes from other people.
 
 ### Files
 

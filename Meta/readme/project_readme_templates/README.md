@@ -2,7 +2,7 @@
 
 ## Purpose
 
-To house template readme files for use in my repos and (maybe) my github profile readme.
+To house template readme files for use in my project repos and my github profile readme.
 
 ## Directories and Files
 
