@@ -84,3 +84,5 @@ To be edited later.
 **Note:** The directories in this repo should mirror the Trello cards found in this one.
 * `Learning Resources` Google Drive spreadsheet
 https://docs.google.com/spreadsheets/d/19T01muqRrKYyg8yOHhmBDMcRdTuwNerqlsc_D00qWTs/edit?usp=drive_open&ouid=116456824083566236348
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
