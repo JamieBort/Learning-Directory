@@ -10,7 +10,7 @@ To house info on the meta topic of README files.
 
 - project_readme_templates/
 
-  - this readme file.
+  - Templates from people's profiles whom I want to emulate.
 
 ### Files
 
