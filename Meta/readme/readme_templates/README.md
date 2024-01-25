@@ -1,4 +1,4 @@
-# project_readme_templates
+# readme_templates
 
 ## Purpose
 
