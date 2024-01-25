@@ -17,3 +17,7 @@ To house info on the meta topic of README files.
 - README.md
 
   - This readme file.
+
+- sections.md
+
+  - Information about the various sections in a project repo readme.
