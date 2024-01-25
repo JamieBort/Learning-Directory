@@ -16,6 +16,7 @@
 ## Associated Links
 
 - .gitignore
+  fyi, this https://github.com/JamieBort/LearningDirectory/tree/master/Meta/gitignore exists.
 
   - the global .gitignore file.
 
