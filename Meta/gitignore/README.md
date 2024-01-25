@@ -12,3 +12,7 @@ https://github.com/JamieBort/LearningDirectory/tree/master/Git#associated-links
 ### Directories
 
 ### Files
+
+- README.md
+
+  - this readme file.
