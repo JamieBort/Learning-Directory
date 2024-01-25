@@ -23,3 +23,7 @@ To house info on meta topics such as README files and .gitignore files.
 - README.md
 
   - This readme file.
+
+- Template_README.md
+
+  - The readme template that I'll use throughout the Learning Directory repo.

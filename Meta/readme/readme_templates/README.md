@@ -8,13 +8,13 @@ To house template readme files for use in my project repos and my github profile
 
 ### Directories
 
-- my_templates/
+- profile_readme_templates/
 
-  - Templates that I created.
+  - Readme templates for github profiles.
 
-- other_peoples_templates/
+- project_repo_templates/
 
-  - Templates from people's profiles whom I want to emulate.
+  - Readme templetes for project repos.
 
 ### Files
 

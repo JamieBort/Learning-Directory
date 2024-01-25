@@ -1,8 +1,8 @@
-# project_repo_templates
+# old profile_readme_templates
 
 ## Purpose
 
-To house Git project repo README Templetes from other people.
+To house Git Profile README Templetes from other people.
 
 ## Directories and Files
 
