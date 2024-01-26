@@ -2,7 +2,7 @@
 
 ## Purpose
 
-To house info on meta topics such as README files and .gitignore files.
+To house info on ~~meta~~ GitHub account and repo topics such as `README.md` files, `.gitignore` files, and licensing.
 
 ## Directories and Files
 
@@ -13,6 +13,10 @@ To house info on meta topics such as README files and .gitignore files.
   - To house info on the meta topic of .gitignore files.
 
   - That said, info on .gitignore may be better suited here maybe?: https://github.com/JamieBort/LearningDirectory/tree/master/Git#associated-links
+
+- licensing/
+
+  - To house info licensing Git repos.
 
 - markdown/
 
