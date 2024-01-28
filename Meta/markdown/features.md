@@ -44,19 +44,27 @@ Some options for including in a README\.md files.
 
 - Buttons
 
-  https://trello.com/c/xA2bxoV4/274-github-buttons
+  - https://trello.com/c/xA2bxoV4/274-github-buttons
+
+- Emojis
+
+  - https://gist.github.com/rxaviers/7360908
+
+  - https://emojipedia.org/
 
 - Icons
 
-  https://free-icons.github.io/free-icons/
+  - https://free-icons.github.io/free-icons/
 
-  and
-  https://github.com/simple-icons/simple-icons#cdn-usage
+  - and
+    https://github.com/simple-icons/simple-icons#cdn-usage
 
 - Stats
 
-  https://github.com/anuraghazra/github-readme-stats
+  - https://github.com/anuraghazra/github-readme-stats
 
-  - Below contains more than one of the above features
-    - https://dev.to/grahamthedev/take-your-github-readme-to-the-next-level-responsive-and-light-and-dark-modes--3kpc
-    - [A beginner’s guide to writing a stunning GitHub profile readme.](https://medium.com/theleanprogrammer/a-beginner-guide-to-writing-a-stunning-github-profile-readme-6ee0e211f5a8) Medium article by Yadvi Bhalla.
+- Below contains more than one of the above features
+
+  - https://dev.to/grahamthedev/take-your-github-readme-to-the-next-level-responsive-and-light-and-dark-modes--3kpc
+
+  - [A beginner’s guide to writing a stunning GitHub profile readme.](https://medium.com/theleanprogrammer/a-beginner-guide-to-writing-a-stunning-github-profile-readme-6ee0e211f5a8) Medium article by Yadvi Bhalla.
