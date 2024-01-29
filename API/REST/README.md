@@ -32,25 +32,15 @@
 
 ### Files
 
-- [NOTES.md](https://github.com/JamieBort/LearningDirectory/blob/master/API/README.md) - Notes about REST Headers, RESTful, non-RESTful, etc.
-
-- [README.md](https://github.com/JamieBort/LearningDirectory/blob/master/API/README.md) - This file.
-
 - README.md
 
   - This readme file.
 
-## Started
+## Status
 
-All of the following have been moved to their respective directories.
+### Started
 
-- ~~https://trello.com/c/9L26mWSo/844-github-restapi-v3-crash-course-with-vanilla-javascript-no-dependencies-again~~
-
-- ~~https://trello.com/c/bt92aOAd/845-mygithubapi~~
-
-- ~~https://trello.com/c/ckENy2E8/255-trello-api-to-develop~~
-
-## Not Started
+### Not Started
 
 - Web Application Deployment (Glitch and Heroku) - Working with Data and APIs in JavaScript YouTube video.
   https://www.youtube.com/watch?v=Rz886HkV1j4
@@ -59,9 +49,7 @@ All of the following have been moved to their respective directories.
 
 - https://trello.com/c/6JIDc2mT/585-consuming-rest-apis-in-react-with-fetch-and-axios
 
-- ~~https://trello.com/c/rq3HwoQw~~
-
-## Tabled
+### Tabled
 
 ## Resources
 
