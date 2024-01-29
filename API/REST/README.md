@@ -8,15 +8,27 @@
 
   -
 
-* [APIPractice](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/APIPractice) - Valuable to review what's been written here.
+- [APIPractice](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/APIPractice)
 
-* [GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies) - Valuable. REST API calls using Vanilla Javascript and No Dependencies.
+  - Valuable to review what's been written here.
 
-* [MyGitHubAPI](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/MyGitHubAPI) - Recreated [GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies).
+  - Contains two Google Maps directories for making API calls.
 
-* [PlayingWithAPIsUsingPython]() - unknown. Not much here.
+- [GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies)
 
-* [TrelloAPICalls](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/TrelloAPICalls) - Just finished working on it. **Valuable.**
+  - Valuable. REST API calls using Vanilla Javascript and No Dependencies.
+
+- [MyGitHubAPI](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/MyGitHubAPI)
+
+  - Recreated [GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies).
+
+- [PlayingWithAPIsUsingPython]()
+
+  - unknown. Not much here.
+
+- [TrelloAPICalls](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST/TrelloAPICalls)
+
+  - Just finished working on it. **Valuable.**
 
 ### Files
 
