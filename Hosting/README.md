@@ -2,29 +2,7 @@
 
 Note, hosting sites. Not Node or the like.
 
-## Directories and Files
-
-### Directories
-
-- Heroku/
-
-  - had success with this.
-
-- ./administrative/hosting_research/
-
-  -
-
-- Netlify/`
-
-  - attempted once. Didn't have success with Node. Ended up using Heroku instead.
-
-### Files
-
-- `README.md`
-
-##
-
-[Some hosting options](https://blog.back4app.com/heroku-alternatives/):
+## Hosting Options
 
 - Back4app
 - Elastic Beanstalk (AWS)
@@ -36,6 +14,26 @@ Note, hosting sites. Not Node or the like.
 - Netlify
 - Docker
 - Kubernetes
+
+## Directories and Files
+
+### Directories
+
+- Heroku/
+
+  - had success with this.
+
+- hosting_research/
+
+  - A list of webpages that are listing hosting site.
+
+- Netlify/`
+
+  - attempted once. Didn't have success with Node. Ended up using Heroku instead.
+
+### Files
+
+- `README.md`
 
 ## Associated Links
 

@@ -1,5 +1,7 @@
 # notes
 
+- [The best free Heroku alternatives in 2024](https://blog.back4app.com/heroku-alternatives/) back4app article.
+
 - [free node react full stack hosting](https://www.google.com/search?q=free+node+react+full+stack+hosting&oq=free+&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg5MgYIARBFGDsyBggCEEUYPDIGCAMQRRg8MgYIBBBFGEEyBggFEEUYQTIGCAYQRRg80gEINDYyMmowajGoAgCwAgA&sourceid=chrome&ie=UTF-8) internet search.
 
   - [8 free React app hosting services](https://www.animaapp.com/blog/industry/8-free-react-app-hosting-services/) animaapp article.
