@@ -2,11 +2,21 @@
 
 ## Purpose
 
-To house info on ~~meta~~ GitHub account and repo topics such as `README.md` files, `.gitignore` files, and licensing.
+To house info on GitHub account and repo topics such as `README.md` files, `.gitignore` files, and licensing.
 
 ## Directories and Files
 
 ### Directories
+
+- contributing/
+
+  -
+
+- env/
+
+- nodeModules/
+
+  - These should not be uploaded to git repositories.
 
 - gitignore/
 
