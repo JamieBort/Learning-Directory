@@ -1,6 +1,6 @@
-# Servers
+# CORS
 
-A directory for learning to serve up files using different technologies.
+~~A directory for learning to serve up files using different technologies.~~
 
 ## Directories and Files
 

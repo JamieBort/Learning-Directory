@@ -2,9 +2,15 @@
 
 ## Valuable info
 
-[How to organise file structure of backend and frontend in MERN](https://stackoverflow.com/a/51128385) (typo is from the site, it is not mine.)
+[How to organise file structure of backend and frontend in MERN](https://stackoverflow.com/a/51128385) StackOverflow post. (typo is from the site, it is not mine.)
 
 [How to deploy frontend and backend on Render in the same folder?](https://www.youtube.com/watch?v=poXp9uP8TfM) 20 minute YouTube video.
+
+Render.com resources
+
+[Free Deploy Node.js Application [NEW 2023 Tutorial For Beginners]](https://www.youtube.com/watch?v=3BliDUq5vPc) 10 minute YouTube video.
+
+[How to Deploy a Node.js App to Render.com for Free (Heroku Alternative)](https://www.youtube.com/watch?v=bnCOyGaSe84) 7 minute YouTube video.
 
 ## Resources
 
