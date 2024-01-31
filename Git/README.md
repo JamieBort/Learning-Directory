@@ -1,5 +1,35 @@
 # Git
 
+The purpose of this Git directory is to house info on files and directories in Git in general.
+
+To find info on the files and directories specific to this LearningDirectory repo, see https://github.com/JamieBort/LearningDirectory/tree/master/Meta
+
+To that end,
+info on .gitignore in general can be found in `this` Git directory.
+
+Info regarding the .gitignore file in `this` LearningDirectory repo can be found in `this` gitignore directory:
+https://github.com/JamieBort/LearningDirectory/tree/master/Meta/gitignore
+
+##
+
+### .gitignore
+
+The [.gitignore](https://github.com/JamieBort/LearningDirectory/blob/master/.gitignore) file. This lists all the file types that I do not want this repo to track.
+Currently that list consists of:
+
+```
+*.DS_Store
+*.env
+and
+*node_modules/
+```
+
+### node_modules/
+
+### package-lock.json
+
+> [[The] package-lock.json [file] is intended to be checked into source control.](https://stackoverflow.com/a/44210813)
+
 ## Directories and Files
 
 ### Directories
@@ -10,7 +40,12 @@
 
 ### Files
 
+- common_git_commands.md
+
+  - Common Git commands that I use and need to reference.
+
 - README.md
+
   - This readme file.
 
 ## Associated Links

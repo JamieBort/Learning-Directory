@@ -2,10 +2,10 @@
 
 ## Purpose
 
-To house info on the meta topic of .gitignore files.
+Info regarding the .gitignore file used in this LearningDirectory repo can be found in `this` gitignore directory.
 
-That said, info on .gitignore may be better suited here maybe?:
-https://github.com/JamieBort/LearningDirectory/tree/master/Git#associated-links
+Info in general regarding the .gitignore file used in Git repos can be found here:
+https://github.com/JamieBort/LearningDirectory/tree/master/Git
 
 ## Directories and Files
 
@@ -20,13 +20,3 @@ https://github.com/JamieBort/LearningDirectory/tree/master/Git#associated-links
 ###
 
 #### .gitignore
-
-The [.gitignore](https://github.com/JamieBort/LearningDirectory/blob/master/.gitignore) file. This lists all the file types that I do not want this repo to track.
-Currently that list consists of:
-
-```
-*.DS_Store
-*.env
-and
-*node_modules/
-```

@@ -2,9 +2,9 @@
 
 ## Purpose
 
-To house info on GitHub repos, repo topics such as `README.md` files, `.gitignore` files, and licensing.
+To house info regarding files and directories of the **LearningDirectory** repo, **not** Git repos in general.
 
-As well as info about this GitHub account. For example the Trello cards in the associated links below.
+To find info on files and directories in Git in general, see https://github.com/JamieBort/LearningDirectory/tree/master/Git
 
 ## Directories and Files
 
