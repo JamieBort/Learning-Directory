@@ -5,15 +5,16 @@ Note, hosting sites. Not Node or the like.
 ## Hosting Options
 
 - Back4app
-- Elastic Beanstalk (AWS)
-- Google App Engine
-- Dokku on Digital Ocean etc.
-- Firebase
-- OpenShift
-- Engine Yard
-- Netlify
 - Docker
+- Dokku on Digital Ocean etc.
+- Elastic Beanstalk (AWS)
+- Engine Yard
+- Firebase
+- Google App Engine
 - Kubernetes
+- Netlify
+- OpenShift
+- Render
 
 ## Directories and Files
 

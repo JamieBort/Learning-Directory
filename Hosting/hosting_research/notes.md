@@ -12,6 +12,22 @@ Render.com resources
 
 [How to Deploy a Node.js App to Render.com for Free (Heroku Alternative)](https://www.youtube.com/watch?v=bnCOyGaSe84) 7 minute YouTube video.
 
+[Deploy Node js API with Env Variables on Render Automatically with GitHub Deploys](https://www.youtube.com/watch?v=68ubggfsQlE) 24 minute YouTube video.
+
+[How to use Environment Variables in Render.com](https://rest-apis-flask.teclado.com/docs/deploy_to_render/environment_variables_and_migrations/) Render documentation.
+
+## Search Phrases
+
+- [hosting frontend backend directory or one directory](https://www.google.com/search?q=hosting+frontend+backend+directory+or+one+directory&oq=hosting+frontend+backend+directory+or+one+directory&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDk3NDdqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8) internet search resulted in:
+
+  - `How to organise file structure of backend and frontend in MERN`
+
+- [render .env file](https://www.google.com/search?q=render+.env+file&oq=render+.env+file&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDM0MTRqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8) internet search resulted in:
+
+  - `Deploy Node js API with Env Variables on Render Automatically with GitHub Deploys`
+
+  - `How to use Environment Variables in Render.com`
+
 ## Resources
 
 - [The best free Heroku alternatives in 2024](https://blog.back4app.com/heroku-alternatives/) back4app article.
