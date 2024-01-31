@@ -2,7 +2,9 @@
 
 ## Purpose
 
-To house info on GitHub account and repo topics such as `README.md` files, `.gitignore` files, and licensing.
+To house info on GitHub repos, repo topics such as `README.md` files, `.gitignore` files, and licensing.
+
+As well as info about this GitHub account. For example the Trello cards in the associated links below.
 
 ## Directories and Files
 
@@ -49,3 +51,10 @@ To house info on GitHub account and repo topics such as `README.md` files, `.git
 - Template_README.md
 
   - The readme template that I'll use throughout the Learning Directory repo.
+
+## Associated Links
+
+- [LearningDirectory Professional Development](https://trello.com/c/vx0oVl0e/237-learningdirectory-professional-development) Trello card.
+  **Note:** The directories in this repo should mirror the Trello cards found in this one.
+- `Learning Resources` Google Drive spreadsheet
+  https://docs.google.com/spreadsheets/d/19T01muqRrKYyg8yOHhmBDMcRdTuwNerqlsc_D00qWTs/edit?usp=drive_open&ouid=116456824083566236348
