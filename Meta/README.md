@@ -16,10 +16,6 @@ To find info on files and directories in Git in general, see https://github.com/
 
 - env/
 
-- nodeModules/
-
-  - These should not be uploaded to git repositories.
-
 - gitignore/
 
   - To house info on the meta topic of .gitignore files.

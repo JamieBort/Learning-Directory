@@ -35,8 +35,13 @@ and
 ### Directories
 
 - GitImmersion/
+
   - A guided tour that walks through the fundamentals of Git.
   - See `Git Immersion` in `Resources` below.
+
+- nodeModules/
+
+  - These should not be uploaded to git repositories.
 
 ### Files
 
