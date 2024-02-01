@@ -15,6 +15,7 @@ Note, hosting sites. Not Node or the like.
 - Netlify
 - OpenShift
 - Render
+- Vercel
 
 ## Directories and Files
 
@@ -31,6 +32,10 @@ Note, hosting sites. Not Node or the like.
 - Netlify/`
 
   - attempted once. Didn't have success with Node. Ended up using Heroku instead.
+
+- Render
+
+- Vercel
 
 ### Files
 
