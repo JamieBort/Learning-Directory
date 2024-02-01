@@ -43,6 +43,8 @@ and
 
 ## Associated Links
 
+- See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 - The following Trello cards may have info on creating a template gitignore file.
 
   - https://trello.com/c/LEttKYh8/1369-populate-the-global-gitignore-file
