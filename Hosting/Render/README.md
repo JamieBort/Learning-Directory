@@ -20,6 +20,13 @@ https://docs.render.com/
 
 ### Deploy Documentation
 
+Note, documentation for Vite + React doesn't exist. See https://docs.render.com/
+Had an error deploying: `Publish directory build does not exist!`
+
+This [Vite App build folder not found!](https://community.render.com/t/vite-app-build-folder-not-found/9516) Render article said to replace `build` in the `Publish directory` field of the [deploy settings](https://dashboard.render.com/static/srv-cmtcj88cmk4c738mspsg/settings) with `dist`.
+
+This was the solution. (I had `build` in that field for when I was deploying a straight React app.)
+
 #### Node (server as static site)
 
 https://docs.render.com/deploy-nextjs-app
