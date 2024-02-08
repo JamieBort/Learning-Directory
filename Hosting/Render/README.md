@@ -31,6 +31,10 @@ This [Vite App build folder not found!](https://community.render.com/t/vite-app-
 
 This was the solution. (I had `build` in that field for when I was deploying a straight React app.)
 
+#### Node Express
+
+https://docs.render.com/deploy-node-express-app
+
 #### Node (server as static site)
 
 https://docs.render.com/deploy-nextjs-app

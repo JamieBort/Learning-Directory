@@ -2,14 +2,13 @@
 
 The purpose of this Git directory is to house info on files and directories regarding Git in general.
 
-~~To that end, info on .gitignore in general can be found in `this` Git directory.~~
-
-~~Info regarding the .gitignore file in `this` LearningDirectory repo can be found in `this` gitignore directory:~~
-~~https://github.com/JamieBort/LearningDirectory/tree/master/Meta/gitignore~~
-
 To find info on the files and directories specific to this LearningDirectory repo, see https://github.com/JamieBort/LearningDirectory/tree/master/Meta
 
 ##
+
+### .vscode
+
+See the `Git/configFiles/` directory.
 
 ### node_modules/
 
