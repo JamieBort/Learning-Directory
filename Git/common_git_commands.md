@@ -2,6 +2,21 @@
 
 Common Git commands that I use and need to reference.
 
+## branch
+
+### Rename branches
+
+source: https://stackoverflow.com/a/6591218
+
+To rename a branch while pointed to any branch:
+`git branch -m <oldname> <newname>`
+
+To push the local branch and reset the upstream branch:
+`git push origin -u <newname>`
+
+To delete the remote branch:
+`git push origin --delete <oldname>`
+
 ## diff
 
 Git diff in specific file/directory while excluding files and directories
