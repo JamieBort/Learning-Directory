@@ -16,6 +16,14 @@ There are also 4. `Frameworks` 5. `Libraries` and 6. `Testing`
 
 `JavaScript`, and `scratch` are temporary.
 
+---
+
+info on package.json properties
+https://docs.npmjs.com/cli/v10/configuring-npm/package-json
+a good resource.
+
+---
+
 ## Directories and Files
 
 ### Directories
