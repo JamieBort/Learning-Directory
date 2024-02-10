@@ -4,6 +4,18 @@ Common Git commands that I use and need to reference.
 
 ## branch
 
+### Deleting branches
+
+Locally
+
+`git branch -d <branch>`
+
+Remote ones
+
+`git push remote_name -d remote_branch_name`
+
+`git push origin -d remote_branch_name`
+
 ### Rename branches
 
 source: https://stackoverflow.com/a/6591218

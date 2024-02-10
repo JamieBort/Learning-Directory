@@ -27,6 +27,16 @@ and
 *node_modules/
 ```
 
+## Checking if it works
+
+Good info here:
+https://stackoverflow.com/a/3306090
+
+## Pattern Format
+
+Documentation for Pattern Format:
+https://git-scm.com/docs/gitignore#_pattern_format
+
 ## Directories and Files
 
 ### Directories
