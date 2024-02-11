@@ -9,3 +9,14 @@ Svelt Typescript resources for my portfolio website:
 - https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_TypeScript,
 
 - and https://svelte.dev/docs/typescript
+
+- For my Svelt TypeScript Portfolio update:
+  https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
+
+- https://github.com/JamieBort/LearningDirectory/tree/master/Languages/TypeScript
+
+- https://learn.svelte.dev/tutorial/context-api
+
+- https://svelte.dev/blog/svelte-and-typescript
+
+- https://typeofnan.dev/setting-up-a-svelte-project-with-typescript/
