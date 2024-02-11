@@ -54,3 +54,10 @@ merging in everything but one file/directory
 
 `git rm -r --cached`
 git rm -r --cached node_modules/
+
+## commands related to the .gitignore file
+
+### checking if a particular file or directory is effected by the .gitignore file
+
+See the [Checking if the file is tracked in github](https://github.com/JamieBort/LearningDirectory/blob/master/Git/gitignore/README.md#checking-if-the-file-is-tracked-in-github) section of the gitignore README file.
+**Note, section name may change.**

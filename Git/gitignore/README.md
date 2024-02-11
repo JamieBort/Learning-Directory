@@ -27,10 +27,18 @@ and
 *node_modules/
 ```
 
-## Checking if it works
+## Checking if the file is tracked in github
+
+Description from this [git-check-ignore - Debug gitignore / exclude files](https://git-scm.com/docs/git-check-ignore) documentation:
+
+> [C]heck whether the file is excluded by .gitignore ... and output the path if it is excluded.
+
+> By default, tracked files are not shown at all since they are not subject to exclude rules; but see ‘--no-index’.
 
 Good info here:
 https://stackoverflow.com/a/3306090
+
+`git check-ignore -v -- <file_path>` Note: `--` may not be needed.
 
 ## Pattern Format
 
