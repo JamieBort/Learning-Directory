@@ -16,6 +16,8 @@ Some options for including in a README\.md files.
 
 - Badges
 
+  - [Adding Custom GitHub Badges to Your Repo](https://css-tricks.com/adding-custom-github-badges-to-your-repo/) css-tricks.com article.
+
   - License Badges
 
     - https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba

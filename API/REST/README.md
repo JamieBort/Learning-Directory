@@ -51,7 +51,41 @@
 
 ### Tabled
 
-## Resources
+## Associated Links
+
+- The `API Professional Development` Trello card associated with this GitHub repo.
+  https://trello.com/c/NFRSx1Q6/171-api-professional-development
+
+- The `Postman` directory in the GitHub LearningDirectory repo.
+  https://github.com/JamieBort/LearningDirectory/tree/master/Postman
+
+- ~~The [API](https://github.com/JamieBort/LearningDirectory/tree/master/API) GitHub repo associated with this Trello card.~~
+
+### Resources
+
+- [Best practices for REST API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/) Stack Overlow Article.
+
+  **Really** good info.
+
+  Including
+
+  - Accept and respond with JSON
+
+  - Use nouns instead of verbs in endpoint paths
+
+  - Name collections with plural nouns
+
+  - Nesting resources for hierarchical objects
+
+  - Handle errors gracefully and return standard error codes
+
+  - Allow filtering, sorting, and pagination
+
+  - Maintain Good Security Practices
+
+  - Cache data to improve performance
+
+  - Versioning our APIs
 
 - Look into this website. It might be helpful for learning APIs better: https://apiary.io/how-apiary-works
 
@@ -78,13 +112,3 @@
     > Test your front-end against a real API.
 
     > A hosted REST-API ready to respond to your AJAX requests.
-
-## Associated Links
-
-- The `API Professional Development` Trello card associated with this GitHub repo.
-  https://trello.com/c/NFRSx1Q6/171-api-professional-development
-
-- The `Postman` directory in the GitHub LearningDirectory repo.
-  https://github.com/JamieBort/LearningDirectory/tree/master/Postman
-
-- ~~The [API](https://github.com/JamieBort/LearningDirectory/tree/master/API) GitHub repo associated with this Trello card.~~
