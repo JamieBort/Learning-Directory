@@ -29,6 +29,20 @@ To push the local branch and reset the upstream branch:
 To delete the remote branch:
 `git push origin --delete <oldname>`
 
+### view branches in a certain order
+
+Here is a simple command that lists all branches with latest commits:
+
+> `git branch -v`
+
+To order by most recent commit, use
+
+> `git branch -v --sort=committerdate`
+
+Both from: https://github.com/JamieBort/Personal-Dashboard/issues/23#issuecomment-1955197420
+
+Related, see https://github.com/JamieBort/LearningDirectory/blob/master/Git/common_git_commands.md#for-each-ref
+
 ## commit
 
 ### Reference Issue number within a commit message
@@ -69,6 +83,18 @@ merging in only one file/directory
 `git checkout <other branch> <file_or_directory_from_that_other_branch>`
 
 merging in everything but one file/directory
+
+## for-each-ref
+
+Here is a simple command that lists all branches with latest commits:
+
+> `git for-each-ref --count=30 --sort=-committerdate refs/heads/ --format='%(refname:short)'`
+
+Here is a simple command that lists all branches with latest commits:
+
+From: https://github.com/JamieBort/Personal-Dashboard/issues/23#issuecomment-1955197420
+
+Related, see https://github.com/JamieBort/LearningDirectory/blob/master/Git/common_git_commands.md#view-branches-in-a-certain-order
 
 ## rm
 
