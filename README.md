@@ -10,6 +10,8 @@ This is to help keep my GitHub account organized.
 
 ### Directories
 
+For a list of directories in this root directory and their description, see the [Directories](https://github.com/JamieBort/LearningDirectory/tree/master/Meta#directories) section of the `README` file in the `Meta` directory.
+
 Each directory contains information about the subject that is named by that directory.
 
 Of note:
@@ -20,9 +22,7 @@ Of note:
 
 ### Files
 
-- README.md
-
-  - This readme file.
+For a list of files in this root directory and their description, see the [Files](https://github.com/JamieBort/LearningDirectory/tree/master/Meta#files) section of the `README` file in the `Meta` directory.
 
 ## How to use?
 

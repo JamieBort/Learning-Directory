@@ -10,25 +10,29 @@ To find info on files and directories in Git in general, see https://github.com/
 
 ### Directories
 
-- contributing/
+- ./Meta/contributing/
 
   -
 
-- env/
+- ./Meta/env/
 
-- gitignore/
+- ./Meta/gitignore/
 
   - To house info on the meta topic of .gitignore files.
 
   - That said, info on .gitignore may be better suited here maybe?: https://github.com/JamieBort/LearningDirectory/tree/master/Git#associated-links
 
-- markdown/
+- ./Meta/markdown/
 
   - House info such as badges, buttons, blogs, icons, and stats.
 
   - readme/ should be in this directory. Or this directory should be in the readme/ directory.
 
-- readme/
+- ./Meta/packageJson/
+
+  -
+
+- ./Meta/readme/
 
   - To house info on the meta topic of README files.
 
@@ -36,13 +40,31 @@ To find info on files and directories in Git in general, see https://github.com/
 
 ### Files
 
-- README.md
+- ./Meta/README.md
 
   - This readme file.
 
-- Template_README.md
+- ./Meta/Template_README.md
 
   - The readme template that I'll use throughout the Learning Directory repo.
+
+- ./.env
+
+  - File of environment variables.
+
+  - It is excluded from this repo.
+
+- ./.gitignore
+
+  - The file listing files and directories that are to be excluded from this repo.
+
+- ./LICENSE.txt
+
+  - The license for this repo.
+
+- ./README.md
+
+  - The readme file for this repo.
 
 ## Associated Links
 

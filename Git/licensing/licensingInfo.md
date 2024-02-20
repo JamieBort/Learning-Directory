@@ -1,6 +1,6 @@
-# licensingInfo.md
+# Licensing Info
 
-Info licensing Git repos.
+Info on Git repo licenses.
 
 ## Licensing Info
 
