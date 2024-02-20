@@ -2,7 +2,7 @@
 
 ## Purpose
 
-To house info licensing Git repos.
+To house info on Git repo licenses.
 
 ## Directories and Files
 

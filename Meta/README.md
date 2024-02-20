@@ -22,10 +22,6 @@ To find info on files and directories in Git in general, see https://github.com/
 
   - That said, info on .gitignore may be better suited here maybe?: https://github.com/JamieBort/LearningDirectory/tree/master/Git#associated-links
 
-- licensing/
-
-  - To house info licensing Git repos.
-
 - markdown/
 
   - House info such as badges, buttons, blogs, icons, and stats.

@@ -27,7 +27,12 @@ See the `Git/configFiles/` directory.
 - GitImmersion/
 
   - A guided tour that walks through the fundamentals of Git.
+
   - See `Git Immersion` in `Resources` below.
+
+- licensing/
+
+  - Info on Git repo licenses.
 
 - nodeModules/
 
