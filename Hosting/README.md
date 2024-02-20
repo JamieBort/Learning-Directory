@@ -11,6 +11,7 @@ Note, hosting sites. Not Node or the like.
 - Engine Yard
 - Firebase
 - Google App Engine
+- Koyeb https://www.koyeb.com/deploy
 - Kubernetes
 - Netlify
 - OpenShift

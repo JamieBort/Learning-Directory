@@ -29,6 +29,28 @@ To push the local branch and reset the upstream branch:
 To delete the remote branch:
 `git push origin --delete <oldname>`
 
+## commit
+
+### Reference Issue number within a commit message
+
+> [include #xxx in your commit message to reference an issue without closing it.](https://stackoverflow.com/a/6742691)
+
+### Closing Issues via Commit Messages
+
+[How to Close Reference issues and pull request](https://github.com/gitbucket/gitbucket/wiki/How-to-Close-Reference-issues-and-pull-request) GitHub Documentation
+
+Stack Overflow post:
+
+> [KEYWORD #ISSUE](https://stackoverflow.com/a/60027286)
+
+and:
+
+> [close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved](https://stackoverflow.com/a/60027286)
+
+Referencing and closing issues across repos:
+
+> [fixes user/repo#xxx](https://stackoverflow.com/a/6742691)
+
 ## diff
 
 Git diff in specific file/directory while excluding files and directories

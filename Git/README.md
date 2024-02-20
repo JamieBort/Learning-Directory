@@ -1,6 +1,6 @@
 # Git
 
-The purpose of this Git directory is to house info on files and directories regarding Git in general.
+The purpose of this Git directory is to house info on git files, git directories, git commands, and git features.
 
 To find info on the files and directories specific to this LearningDirectory repo, see https://github.com/JamieBort/LearningDirectory/tree/master/Meta
 
@@ -20,6 +20,10 @@ See the `Git/configFiles/` directory.
 
 ### Directories
 
+- configFiles/
+
+- gitignore/
+
 - GitImmersion/
 
   - A guided tour that walks through the fundamentals of Git.
@@ -34,6 +38,10 @@ See the `Git/configFiles/` directory.
 - common_git_commands.md
 
   - Common Git commands that I use and need to reference.
+
+- git_features.md
+
+  - Git features such as Issues.
 
 - README.md
 

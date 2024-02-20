@@ -2,9 +2,7 @@
 
 The purpose of this Git directory is to house info on the .gitignore file in general.
 
-~~To that end, info on .gitignore in general can be found in `this` Git directory.~~
-
-Info regarding the .gitignore file in `this` LearningDirectory repo can be found in `this` gitignore directory:
+Therefore, info regarding the .gitignore file in `this` LearningDirectory repo can be found in `this` gitignore directory:
 https://github.com/JamieBort/LearningDirectory/tree/master/Meta/gitignore
 
 To find info specific to the .gitignore file in this LearningDirectory repo, see https://github.com/JamieBort/LearningDirectory/tree/master/Meta/gitignore
