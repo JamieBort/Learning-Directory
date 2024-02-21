@@ -63,6 +63,10 @@
 
 ### Resources
 
+- My bookmarks
+
+  - chrome://bookmarks/?q=API
+
 - [Best practices for REST API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/) Stack Overlow Article.
 
   **Really** good info.
