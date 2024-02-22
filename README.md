@@ -8,21 +8,19 @@ This is to help keep my GitHub account organized.
 
 ## Directories and Files
 
+Information regarding the directories and files in this repo.
+
 ### Directories
 
-For a list of directories in this root directory and their description, see the [Directories](https://github.com/JamieBort/LearningDirectory/tree/master/Meta#directories) section of the `README` file in the `Meta` directory.
+- Each directory contains information about the subject that is named by that directory.
 
-Each directory contains information about the subject that is named by that directory.
+- The `Meta/` directory houses information regarding this repo. Specifically, information **about** the files and directories that this repo contains.
 
-Of note:
-
-- Meta/
-
-  - Houses info on GitHub account and repo topics such as `README.md` files, `.gitignore` files, and licensing.
+- For a list of directories in this root directory and their description, see the [Directories](https://github.com/JamieBort/LearningDirectory/tree/master/Meta#directories) section of the `README` file in the `Meta` directory.
 
 ### Files
 
-For a list of files in this root directory and their description, see the [Files](https://github.com/JamieBort/LearningDirectory/tree/master/Meta#files) section of the `README` file in the `Meta` directory.
+- For a list of files in this root directory and their description, see the [Files](https://github.com/JamieBort/LearningDirectory/tree/master/Meta#files) section of the `README` file in the `Meta` directory.
 
 ## How to use?
 

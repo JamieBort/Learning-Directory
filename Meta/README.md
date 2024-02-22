@@ -2,9 +2,11 @@
 
 ## Purpose
 
-To house info regarding files and directories of the **LearningDirectory** repo, **not** Git repos in general.
+This directory houses info regarding this repo. Specifically, information **about** the files and directories that this repo contains.
 
-To find info on files and directories in Git in general, see https://github.com/JamieBort/LearningDirectory/tree/master/Git
+And **not** about Git repos in general.
+
+To find info regarding files and directories about Git in general, see https://github.com/JamieBort/LearningDirectory/tree/master/Git
 
 ## Directories and Files
 
