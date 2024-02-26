@@ -116,3 +116,5 @@
     > Test your front-end against a real API.
 
     > A hosted REST-API ready to respond to your AJAX requests.
+
+    It was shared in this https://www.youtube.com/watch?time_continue=3&v=23hrM4saaMk&feature=emb_logo Youtube tutorial; which is already saved for future reference/practice in this [JavaScript homework Sending Http Requests with the fetch API](https://trello.com/c/6sBjt4wy/427-javascript-homework-sending-http-requests-with-the-fetch-api) Trello card.
