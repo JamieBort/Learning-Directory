@@ -107,6 +107,14 @@
 
 - Rest API Call Resources
 
+  - https://www.jsonplaceholder.org/
+
+    > JSONPlaceholder is an Open Source Online Mock REST API Service, designed for developers who need fake JSON data, offering simple and easy-to-understand access.
+
+  - https://app.beeceptor.com/mock-server/json-placeholder
+
+    > A hosted alternative to JSON-Placeholder
+
   - https://jsonplaceholder.typicode.com/
 
     > Free fake API for testing and prototyping.

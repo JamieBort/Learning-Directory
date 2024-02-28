@@ -24,6 +24,18 @@ a good resource.
 
 ---
 
+## Resources
+
+- jq
+
+  - from https://jqlang.github.io/jq/
+
+    > `jq` is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that `sed`, `awk`, `grep` and friends let you play with text.
+
+  - from https://github.com/jqlang/jq
+
+    > jq is a lightweight and flexible command-line JSON processor akin to `sed`,`awk`,`grep`, and friends for JSON data. It's written in portable C and has zero runtime dependencies, allowing you to easily slice, filter, map, and transform structured data.
+
 ## Directories and Files
 
 ### Directories
