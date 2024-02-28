@@ -45,3 +45,11 @@ Return to [Trello API Calls](https://github.com/JamieBort/LearningDirectory/tree
 
 - API Professional Development Trello card:
   https://trello.com/c/NFRSx1Q6/171-api-professional-development
+
+- Fun APIs to play with (rest, graphql, all)
+
+  - WikiArt
+
+    - https://docs.google.com/document/u/0/d/1Vxi5lQnMCA21dvNm_7JVd6nQkDS3whV3YjRjbwWPfQU/mobilebasic#!
+    - https://www.wikiart.org/en/App/GetApi
+    - [api wikiart.org](https://www.google.com/search?q=api+wikiart.org&oq=api+wikiart.org&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTIyMzE0ajBqNKgCALACAA&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8#ip=1) internet search.
