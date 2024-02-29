@@ -30,3 +30,9 @@ For learning Bash.
 - Associated Trello card
 
   - https://trello.com/c/pIfruipK/781-bash-master-card
+
+- Tips and Tricks
+
+  - https://github.com/briangerard/bash_class/blob/master/bash_Tips_n_Tricks.pdf and
+
+  - https://github.com/briangerard/bash_class
