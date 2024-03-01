@@ -52,6 +52,8 @@ See the `Git/configFiles/` directory.
 
   - These should not be uploaded to git repositories.
 
+- prune/
+
 - pull_request_templates/
 
 ### Files

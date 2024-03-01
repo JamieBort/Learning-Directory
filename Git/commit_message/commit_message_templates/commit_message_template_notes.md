@@ -4,14 +4,20 @@
 
 ## What?
 
+## When?
+
+## Where?
+
 ## Why?
 
 ## How?
 
-## Where?
+[Using Git Commit Message Templates to Write Better Commit Messages](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733) Gist by lisawolderiksen.
 
-## When?
+https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733#git-configuration
 
-## Examples of Good Commit Messages
+Modify the global config file.
 
-## Examples of Good Bad Messages
+## Examples of Good Commit Template Messages
+
+## Examples of Good Bad Template Messages
