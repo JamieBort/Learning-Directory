@@ -9,6 +9,8 @@ https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contr
 
 - https://github.com/github/docs/blob/9c8028d68702e3ea3aec4d42093df1a95dfaa8d1/.github/CONTRIBUTING.md
 
+- https://mozillascience.github.io/working-open-workshop/contributing/
+
 ## Directories and Files
 
 ### Directories

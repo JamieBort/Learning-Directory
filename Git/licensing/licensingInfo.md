@@ -14,4 +14,8 @@ Info on Git repo licenses.
 
   > Finally, your project may have dependencies with license requirements that you weren’t aware of. Your project’s community, or your employer’s policies, may also require your project to use specific open source licenses. We’ll cover these situations below.
 
-[Choose an open source license](https://choosealicense.com/)
+## Choosing a license
+
+- [Choose an open source license](https://choosealicense.com/)
+
+- https://chooser-beta.creativecommons.org/
