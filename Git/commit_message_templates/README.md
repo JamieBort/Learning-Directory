@@ -31,9 +31,19 @@
 
 ## Directories and Files
 
+- commit_message_notes_images/
+
 ### Directories
 
 ### Files
+
+- commit_message_notes.md
+
+  - My notes on how to write a good commit message.
+
+  - These notes are based on the resources found in the `Resources ot explore` section above.
+
+  - Those resources will be removed as they're reviewed. If they are used, they will be referenced in the commit_message_notes.md file.
 
 - README.md
 
