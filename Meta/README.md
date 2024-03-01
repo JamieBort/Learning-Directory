@@ -20,10 +20,6 @@ Note, Items found in this resources section contain content that do not fit in j
 
 ### Directories
 
-- ./Meta/contributing/
-
-  -
-
 - ./Meta/env/
 
 - ./Meta/gitignore/

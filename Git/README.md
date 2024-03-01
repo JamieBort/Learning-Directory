@@ -20,7 +20,13 @@ See the `Git/configFiles/` directory.
 
 ### Directories
 
+- code_of_conduct/
+
 - configFiles/
+
+- contributing/
+
+  -
 
 - gitignore/
 
@@ -37,6 +43,8 @@ See the `Git/configFiles/` directory.
 - nodeModules/
 
   - These should not be uploaded to git repositories.
+
+- pull_request_templates/
 
 ### Files
 
