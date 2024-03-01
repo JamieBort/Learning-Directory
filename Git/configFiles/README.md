@@ -1,5 +1,9 @@
 # Config Files
 
+Git config files.
+
+IDE config files (?)
+
 ## .vscode
 
 The .vscode config file should (often) be kept out of the repos.

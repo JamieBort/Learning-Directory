@@ -22,15 +22,21 @@ See the `Git/configFiles/` directory.
 
 - code_of_conduct/
 
+  - All things related to behavior while contributing to Git (GitHub ?) repos.
+
 - commit_message/
+
+  - All things related to Git (GitHub ?) commit messages.
 
 - configFiles/
 
 - contributing/
 
-  -
+  - All things related to contributing to Git (GitHub ?) repos.
 
 - gitignore/
+
+  - All things related to .gitignore files.
 
 - GitImmersion/
 

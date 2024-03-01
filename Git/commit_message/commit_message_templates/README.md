@@ -27,6 +27,16 @@
 
 ### Files
 
+- commit_message_template_notes.md
+
+  - The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages Templates.
+
+  - My notes on how to write, create, and use commit message templates.
+
+  - These notes are based on the resources found in the `Resources to explore` section above.
+
+  - Those resources will be removed as they're reviewed. If they are used, they will be referenced in the commit_message_notes.md file.
+
 - README.md
 
   - This readme file.

@@ -1,5 +1,7 @@
 # Code Of Conduct
 
+- All things related to behavior while contributing to Git (GitHub ?) repos.
+
 ## Resources ot explore
 
 - https://github.com/github/docs/blob/9c8028d68702e3ea3aec4d42093df1a95dfaa8d1/.github/CODE_OF_CONDUCT.md

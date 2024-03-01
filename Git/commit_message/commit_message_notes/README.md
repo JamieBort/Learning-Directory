@@ -1,5 +1,7 @@
 # Commit Message Notes
 
+- The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages.
+
 ## Resources to explore
 
 - [Create A Custom Git Commit Template](https://alex-wasik.medium.com/create-a-custom-git-commit-template-84468232a459)
@@ -16,9 +18,13 @@
 
 - commit_message_notes_images/
 
+  - images used in the commit_message_notes.md file.
+
 ### Files
 
 - commit_message_notes.md
+
+  - The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages.
 
   - My notes on how to write a good commit message.
 

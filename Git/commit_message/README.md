@@ -1,6 +1,6 @@
 # Commit Messages
 
-For all things related to Git Commit Messages
+- All things related to Git (GitHub ?) commit messages.
 
 ## Directories and Files
 
@@ -8,7 +8,11 @@ For all things related to Git Commit Messages
 
 - commit_message_templates/
 
+  - The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages Templates.
+
 - commit_message_notes/
+
+  - The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages.
 
 ### Files
 

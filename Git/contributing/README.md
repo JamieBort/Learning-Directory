@@ -1,5 +1,7 @@
 # contributing
 
+- All things related to contributing to Git (GitHub ?) repos.
+
 Create a contributing guideline to be shared here:
 https://github.com/JamieBort/LearningDirectory/tree/master?tab=readme-ov-file#contributing
 
