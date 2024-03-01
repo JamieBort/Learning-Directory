@@ -44,15 +44,15 @@ Note, Items found in this resources section contain content that do not fit in j
 
   - markdown/ should be in this directory. Or this directory should be in the markdown/ directory.
 
+- Meta/templates/
+
+  - To house template files for this repo.
+
 ### Files
 
 - ./Meta/README.md
 
   - This readme file.
-
-- ./Meta/Template_README.md
-
-  - The readme template that I'll use throughout the Learning Directory repo.
 
 - ./.env
 
