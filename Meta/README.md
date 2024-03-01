@@ -8,6 +8,14 @@ And **not** about Git repos in general.
 
 To find info regarding files and directories about Git in general, see https://github.com/JamieBort/LearningDirectory/tree/master/Git
 
+## Resources
+
+Note, Items found in this resources section contain content that do not fit in just one of the directories in this repo.
+
+- https://runestone.academy/ns/books/index
+
+  found from https://blog.runestone.academy/
+
 ## Directories and Files
 
 ### Directories
