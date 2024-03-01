@@ -22,6 +22,8 @@ See the `Git/configFiles/` directory.
 
 - code_of_conduct/
 
+- commit_message/
+
 - configFiles/
 
 - contributing/
