@@ -1,6 +1,6 @@
-# Welcome to <name_of_project> contributing guide <!-- omit in toc -->
+# Welcome to <name_of_project> contributing guide <!-- omit in toc (table of contents) -->
 
-<!-- TODO: Test the link to see which ones need to modified for this template/updated when the template is used. -->
+<!-- TODO: Test all of the links below to see which ones need to modified/updated for when the template is used. Then make note of them with `TODO: FOR THIS TEMPLATE: <instructions here>.` -->
 
 Thank you for investing your time in contributing to this project!
 
@@ -10,16 +10,11 @@ Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approacha
 
 In this guide you will get an overview of the contribution workflow from opening an issue, creating a PR, reviewing, and merging the PR.
 
-<!-- Use the table of contents icon <img src="/contributing/images/table-of-contents.png" width="25" height="25" /> on the top left corner of this document to get to a specific section of this guide quickly. -->
-
 ## New contributor guide
 
 <!-- TODO: FOR THIS TEMPLATE: Link to the proper file here. -->
 
 To get an overview of the project, read the [README](./README.md) file. Here are some resources to help you get started with open source contributions:
-
-<!-- TODO: Delete this line. -->
-<!-- - [Finding ways to contribute to open source on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github) -->
 
 - [Set up Git](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git)
 - [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow)
@@ -27,58 +22,73 @@ To get an overview of the project, read the [README](./README.md) file. Here are
 
 ## Getting started
 
-<!-- To navigate our codebase with confidence, see [the introduction to working in the docs repository](/contributing/README.md) :confetti_ball:. For more information on how we write our markdown files, see "[Using Markdown and Liquid in GitHub Docs](https://docs.github.com/en/contributing/writing-for-github-docs/using-markdown-and-liquid-in-github-docs)." -->
-
-<!-- TODO: Rather than link to a separate file, list the types of contributions in this file here. -->
-
-<!-- Check to see what [types of contributions](/contributing/types-of-contributions.md) we accept before making changes. Some of them don't even require writing a single line of code :sparkles:. -->
-
 ### Types of contributions we're looking for
+
+Here are the types of contributions we are looking for:
 
 - Any problems (bugs) with the code.
 - Updates to the documentation. For example improved wording in the README files, in this Contribution file, etc.
-- A suggested feature.
+- A suggested feature to the app itself.
 
 ### Issues
 
-#### Create a new issue
+Your options here are to 1. Create an new Issue or 2. Solve an Issue.
 
-<!-- TODO: Link to a brief description/tutorial on how to search for GitHub Issues. -->
+<details>
+<summary>What are GitHub Issues?</summary>
+<br>
 
-If you observe a problem with this repo that falls into one of the three types listed above, please first see if that issue already exists.
+- [GitHub Issues are items you can create in a repository to plan, discuss and track work.](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
 
-- If so, feel free to add any new info to that Issue via the comments in that Issue.
+- More info with this [1 minute video.](https://www.youtube.com/watch?v=6HWw7rhwvtY)
 
-<!-- TODO: Link to a brief description/tutorial on creating GitHub Issues. -->
+- And more detail with this [7 minute video.](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
+</details>
 
-- And if that Issue does not already exist, please create a new GitHub Issue.
+#### Create a new Issue
+
+If you observe a problem with this repo that falls into one of the three types listed above (see the `Types of contributions we're looking for` section above), please first see if that issue already exists.
+
+To search for pre-existing Issues, please see [this documentation](https://docs.github.com/en/issues/tracking-your-work-with-issues/filtering-and-searching-issues-and-pull-requests). Or [this 1 minute video.](https://www.youtube.com/watch?v=ErY5nWpA2Uc) Or [this 2.5 minute video.](https://www.youtube.com/watch?v=7n9_pNENx-I)
+
+If that Issue already exists, feel free to add any new info to that Issue via the comments in that Issue.
+
+And if that Issue does not already exist, please create a new GitHub Issue.
+
+<details>
+<summary>How to create a new GitHub Issue</summary>
+
+- GitHub documentation
+  - [Creating an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
+  - [Quickstart for GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart)
+- [This 7 minute video.](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
+</details>
 
 <!-- If you spot a problem with the docs, [search if an issue already exists](https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/github/docs/issues/new/choose). -->
 
-#### Solve an issue
+#### Solve an Issue
 
-Another option to contribute is to solve an existing issue.
+Another option to contribute to is solve an existing issue.
 
-<!-- TODO: Link to a brief description/tutorial on how to search for GitHub Issues. -->
 <!-- TODO: FOR THIS TEMPLATE: Replace `<replace_with_the_repo_name>` with the name of the repo. -->
 
 Scan through our [existing issues](https://github.com/JamieBort/<replace_with_the_repo_name>/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See "[Label reference](https://docs.github.com/en/contributing/collaborating-on-github-docs/label-reference)" for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
 
+<details>
+<summary>How to find a GitHub Issue to work on?</summary>
+
+- This [GIT issues solving procedure](https://gist.github.com/sampathg9/fb25ff2b84b3f279417d) Gist is a concise list in order of what needs to be done.
+- This [WORKING ON YOUR FIRST GITHUB ISSUE](https://www.stevejgordon.co.uk/working-on-your-first-github-issue) article is thorough.
+- A [Git and Github: Working on an Issue](https://www.youtube.com/watch?v=2Y8AkBUbrNU) 6 minute YouTube video.
+</details>
+
 ### Make Changes
-
-<!-- #### Make changes in the UI
-
-Click **Make a contribution** at the bottom of any docs page to make small changes such as a typo, sentence fix, or a broken link. This takes you to the `.md` file where you can make your changes and [create a pull request](#pull-request) for a review. -->
-
- <!-- <img src="/contributing/images/contribution_cta.png" /> -->
 
 #### Make changes in a codespace
 
 For more information about using a codespace for working on GitHub documentation, see "[Working in a codespace](https://docs.github.com/en/contributing/setting-up-your-environment-to-work-on-github-docs/working-on-github-docs-in-a-codespace)."
 
 #### Make changes locally
-
-<!-- TODO: Link to a brief description/tutorial on how to fork the repo. -->
 
 1. Fork the repository.
 
@@ -90,11 +100,7 @@ For more information about using a codespace for working on GitHub documentation
 - Using the command line:
   - [Fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
 
-<!-- 2. Install or update to **Node.js**, at the version specified in `.node-version`. For more information, see [the development guide](../contributing/development.md). -->
-
-<!-- TODO: Link to a brief description/tutorial on how to create a working branch. -->
-
-2. Create a working branch and start with your changes!
+2. [Create a working branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#editing-a-fork) and start with your changes!
 
 ### Commit your update
 

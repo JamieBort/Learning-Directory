@@ -16,7 +16,7 @@ To find info on the files and directories specific to this LearningDirectory rep
 
   - All things related to Git (GitHub ?) commit messages.
 
-- configFiles/
+- config_files/
 
 - contributing/
 
@@ -32,13 +32,17 @@ To find info on the files and directories specific to this LearningDirectory rep
 
   - See `Git Immersion` in `Resources` below.
 
+- issue_templates/
+
 - licensing/
 
   - Info on Git repo licenses.
 
-- nodeModules/
+- node_modules/
 
   - These should not be uploaded to git repositories.
+
+- package/
 
 - prune/
 
