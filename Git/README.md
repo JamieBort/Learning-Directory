@@ -4,18 +4,6 @@ The purpose of this Git directory is to house info on git files, git directories
 
 To find info on the files and directories specific to this LearningDirectory repo, see https://github.com/JamieBort/LearningDirectory/tree/master/Meta
 
-##
-
-### .vscode
-
-See the `Git/configFiles/` directory.
-
-### node_modules/
-
-### package-lock.json
-
-> [[The] package-lock.json [file] is intended to be checked into source control.](https://stackoverflow.com/a/44210813)
-
 ## Directories and Files
 
 ### Directories

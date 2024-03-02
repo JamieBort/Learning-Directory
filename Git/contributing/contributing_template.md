@@ -1,6 +1,6 @@
-# Welcome to '<name of project>' contributing guide <!-- omit in toc -->
+# Welcome to <name_of_project> contributing guide <!-- omit in toc -->
 
-<!-- TODO: Test teh link to see which ones need to modified for this template/updated when the template is used. -->
+<!-- TODO: Test the link to see which ones need to modified for this template/updated when the template is used. -->
 
 Thank you for investing your time in contributing to this project!
 
@@ -16,7 +16,7 @@ In this guide you will get an overview of the contribution workflow from opening
 
 <!-- TODO: FOR THIS TEMPLATE: Link to the proper file here. -->
 
-To get an overview of the project, read the [README](../README.md) file. Here are some resources to help you get started with open source contributions:
+To get an overview of the project, read the [README](./README.md) file. Here are some resources to help you get started with open source contributions:
 
 <!-- TODO: Delete this line. -->
 <!-- - [Finding ways to contribute to open source on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github) -->
@@ -60,8 +60,9 @@ If you observe a problem with this repo that falls into one of the three types l
 Another option to contribute is to solve an existing issue.
 
 <!-- TODO: Link to a brief description/tutorial on how to search for GitHub Issues. -->
+<!-- TODO: FOR THIS TEMPLATE: Replace `<replace_with_the_repo_name>` with the name of the repo. -->
 
-Scan through our [existing issues](https://github.com/github/docs/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See "[Label reference](https://docs.github.com/en/contributing/collaborating-on-github-docs/label-reference)" for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+Scan through our [existing issues](https://github.com/JamieBort/<replace_with_the_repo_name>/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See "[Label reference](https://docs.github.com/en/contributing/collaborating-on-github-docs/label-reference)" for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
 
 ### Make Changes
 
@@ -73,7 +74,7 @@ Click **Make a contribution** at the bottom of any docs page to make small chang
 
 #### Make changes in a codespace
 
-For more information about using a codespace for working on GitHub documentation, see "[Working in a codespace](https://github.com/github/docs/blob/main/contributing/codespace.md)."
+For more information about using a codespace for working on GitHub documentation, see "[Working in a codespace](https://docs.github.com/en/contributing/setting-up-your-environment-to-work-on-github-docs/working-on-github-docs-in-a-codespace)."
 
 #### Make changes locally
 
