@@ -1,6 +1,4 @@
-<!-- TODO: FOR THIS TEMPLATE: Replace <name_of_project> with the name of the repo. -->
-
-# Welcome to the <name_of_project> contributing guide <!-- omit in toc (table of contents) -->
+# Welcome to the Learning Directory contributing guide <!-- omit in toc (table of contents) -->
 
 <!-- TODO: Test all of the links below to see which ones need to modified/updated for when the template is used. Then make note of them with `TODO: FOR THIS TEMPLATE: <instructions here>.` -->
 
@@ -13,8 +11,6 @@ Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approacha
 In this guide you will get an overview of the contribution workflow from opening an issue, creating a PR, reviewing, and merging the PR.
 
 ## New contributor guide
-
-<!-- TODO: FOR THIS TEMPLATE: Link to the proper file here. -->
 
 To get an overview of the project, read the [README](./README.md) file. Here are some resources to help you get started with open source contributions:
 
@@ -83,9 +79,7 @@ To that end, I have created this https://github.com/users/JamieBort/projects/4?p
 
 Another option to contribute to is solve an existing issue.
 
-<!-- TODO: FOR THIS TEMPLATE: Replace the **TWO** instances of `<replace_with_the_repo_name>` below with the name of the repo. -->
-
-Scan through our [existing issues](https://github.com/JamieBort/<replace_with_the_repo_name>/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See "[Label reference](https://github.com/JamieBort/<replace_with_the_repo_name>/labels)" for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix. (What are Labels? [More info here](https://docs.github.com/en/contributing/collaborating-on-github-docs/label-reference).)
+Scan through our [existing issues](https://github.com/JamieBort/LearningDirectory/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See "[Label reference](https://github.com/JamieBort/LearningDirectory/labels)" for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix. (What are Labels? [More info here](https://docs.github.com/en/contributing/collaborating-on-github-docs/label-reference).)
 
 <details>
 <summary>How to find a GitHub Issue to work on?</summary>

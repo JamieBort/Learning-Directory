@@ -28,7 +28,13 @@ This is updated and maintained for myself. However please feel free to make use 
 
 ## Contribute
 
-If you see something that you'd like to fix, modify, or have a suggestion, please create a pull request.
+If you find an issue with the code or have a suggestions on how to improve this site, please see the [CONTRIBUTING](./CONTRIBUTING.md) file. Thank you.
+
+## Code Of Conduct
+
+<!-- TODO: Update this section. -->
+
+[Code of Conduct](./CODE_OF_CONDUCT.md) file
 
 ## License
 
