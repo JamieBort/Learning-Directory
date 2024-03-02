@@ -34,9 +34,11 @@ Note, Items found in this resources section contain content that do not fit in j
 
   - readme/ should be in this directory. Or this directory should be in the readme/ directory.
 
-- ./Meta/packageJson/
+- ./Meta/package_json/
 
-  -
+  - To house info on the package.json file in this repo.
+
+  - TODO: delete this directory. It wont be needed.
 
 - ./Meta/readme/
 
