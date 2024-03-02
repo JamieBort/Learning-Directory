@@ -27,8 +27,8 @@ To get an overview of the project, read the [README](./README.md) file. Here are
 Here are the types of contributions we are looking for:
 
 - Any problems (bugs) with the code.
-- Updates to the documentation. For example improved wording in the README files, in this Contribution file, etc.
-- A suggested feature to the app itself.
+- Updates to the documentation. For example improved wording, broken links, etc.
+- A suggested feature to improve the app itself.
 
 ### Issues
 
@@ -49,7 +49,16 @@ Your options here are to 1. Create an new Issue or 2. Solve an Issue.
 
 If you observe a problem with this repo that falls into one of the three types listed above (see the `Types of contributions we're looking for` section above), please first see if that issue already exists.
 
-To search for pre-existing Issues, please see [this documentation](https://docs.github.com/en/issues/tracking-your-work-with-issues/filtering-and-searching-issues-and-pull-requests). Or [this 1 minute video.](https://www.youtube.com/watch?v=ErY5nWpA2Uc) Or [this 2.5 minute video.](https://www.youtube.com/watch?v=7n9_pNENx-I)
+<details>
+<summary>How to search for an Issue already exists?</summary>
+
+- GitHub documentation
+  - [Search by the title, body, or comments](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments)
+  - [Filtering and searching issues and pull requests](https://docs.github.com/en/issues/tracking-your-work-with-issues/filtering-and-searching-issues-and-pull-requests)
+- Video
+  - [this 1 minute video.](https://www.youtube.com/watch?v=ErY5nWpA2Uc)
+  - [this 2.5 minute video.](https://www.youtube.com/watch?v=7n9_pNENx-I)
+  </details>
 
 If that Issue already exists, feel free to add any new info to that Issue via the comments in that Issue.
 
@@ -64,15 +73,15 @@ And if that Issue does not already exist, please create a new GitHub Issue.
 - [This 7 minute video.](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
 </details>
 
-<!-- If you spot a problem with the docs, [search if an issue already exists](https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/github/docs/issues/new/choose). -->
+If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/github/docs/issues/new/choose).
 
 #### Solve an Issue
 
 Another option to contribute to is solve an existing issue.
 
-<!-- TODO: FOR THIS TEMPLATE: Replace `<replace_with_the_repo_name>` with the name of the repo. -->
+<!-- TODO: FOR THIS TEMPLATE: Replace the **TWO** instances of `<replace_with_the_repo_name>` below with the name of the repo. -->
 
-Scan through our [existing issues](https://github.com/JamieBort/<replace_with_the_repo_name>/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See "[Label reference](https://docs.github.com/en/contributing/collaborating-on-github-docs/label-reference)" for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+Scan through our [existing issues](https://github.com/JamieBort/<replace_with_the_repo_name>/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See "[Label reference](https://github.com/JamieBort/<replace_with_the_repo_name>/labels)" for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix. (What are Labels? [More info here](https://docs.github.com/en/contributing/collaborating-on-github-docs/label-reference).)
 
 <details>
 <summary>How to find a GitHub Issue to work on?</summary>
@@ -126,4 +135,4 @@ Congratulations :tada::tada: Thank you!
 
 I am currently a one-man "team". As such, any and all questions, comments, and suggestions are welcome. Please [reach out to me](https://github.com/JamieBort).
 
-**Note -** This file was heavily borrowed from the [Welcome to GitHub docs contributing guide](https://github.com/github/docs/blob/9c8028d68702e3ea3aec4d42093df1a95dfaa8d1/.github/CONTRIBUTING.md) and adapted here.
+Note - This file was **heavily borrowed** from the [Welcome to GitHub docs contributing guide](https://github.com/github/docs/blob/9c8028d68702e3ea3aec4d42093df1a95dfaa8d1/.github/CONTRIBUTING.md) and adapted here.
