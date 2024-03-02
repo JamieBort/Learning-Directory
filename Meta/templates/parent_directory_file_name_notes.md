@@ -1,4 +1,4 @@
-# `<parent directory file name>` Notes
+# `<parent_directory_file_name>` Notes
 
 ## Who?
 
@@ -12,6 +12,6 @@
 
 ## How?
 
-## Examples of Good `<parent directory file name>` File
+## Examples of Bad `<parent_directory_file_name>` File
 
-## Examples of Bad `<parent directory file name>` File
+## Examples of Good `<parent_directory_file_name>` File
