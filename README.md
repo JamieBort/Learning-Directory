@@ -30,7 +30,7 @@ This is updated and maintained for myself. However please feel free to make use 
 
 If you find an issue with the code or have a suggestions on how to improve this site, please see the [CONTRIBUTING](./CONTRIBUTING.md) file. Thank you.
 
-But also please take a moment to review the [Code Of Conduct](https://github.com/JamieBort/Personal-Dashboard/?tab=readme-ov-file#code-of-conduct) section below. Thank you.
+But also please take a moment to review the [Code Of Conduct](#code-of-conduct) section below. Thank you.
 
 ## Code Of Conduct
 

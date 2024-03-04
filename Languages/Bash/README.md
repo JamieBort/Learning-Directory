@@ -5,6 +5,16 @@ For learning Bash.
 ~~This directory should be renamed to `ShellScripts`.
 `Bash` is a [superset](https://stackoverflow.com/a/5725297/8210460) of `sh`.~~
 
+## Use Cases
+
+Needs I have that do not yet have solutions.
+
+- From the command line, update a string in a markdown file on line 52 (for example) so that I do not need to open up an IDE.
+
+  - some information for a solution
+
+    A response to the Stack Overflow query [Find and Replace Inside a Text File from a Bash Command](https://stackoverflow.com/a/525612)
+
 ## Directories and Files
 
 ### Directories
