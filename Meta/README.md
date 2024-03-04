@@ -66,9 +66,19 @@ Note, Items found in this resources section contain content that do not fit in j
 
   - The file listing files and directories that are to be excluded from this repo.
 
+- ./CONTRIBUTING.md
+
+  - The contribution guide for this repo.
+
+- ./Contributor_Covenant_Code_of_Conduct.md
+
+  - The code of conduct for this repo.
+
 - ./LICENSE.txt
 
   - The license for this repo.
+
+  - The text can be found [here](../LICENSE.txt).
 
 - ./README.md
 
