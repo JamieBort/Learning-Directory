@@ -4,19 +4,19 @@
 
 ### Directories
 
-- Algorithms/
+#### [Algorithms/](./Algorithms/)
 
-  - The purpose of this directory is to house the algorithms I am working on.
+The purpose of this directory is to house the algorithms I am working on.
 
-- BigONotation/
+#### [BigONotation/](./BigONotation/)
 
-- DataStructures/
+#### [DataStructures/](./DataStructures/)
 
 ### Files
 
-- README.md
+#### [README](./README.md)
 
-  - this file.
+This readme file.
 
 ## Associated Links
 

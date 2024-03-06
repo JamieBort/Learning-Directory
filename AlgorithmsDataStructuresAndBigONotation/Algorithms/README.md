@@ -61,6 +61,8 @@ NOTE: If you don't see a resource specific to Algorithms below, look for a resou
 
 TODO: Clean up this section so that each resource below consists of only Algorithms content. If it consists of Algorithms content and Data Structures content, or if it consists of Algorithms content and Big O content, move it to the `Algorithms, Data Structures, & Big O Notation` directory.
 
+[Algorithms Workshop](https://github.com/jbelmont/algorithms-workshop) workshop by jbelmont.
+
 - Coursera Algorithms
   https://trello.com/c/xYY925Nv/273-courseras-algorithms
 

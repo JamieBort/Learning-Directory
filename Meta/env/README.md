@@ -1,21 +1,25 @@
 # env
 
+The .env file(s)... (not uploaded to git as should be the case)
+
+(Note to self: consider linking to a google doc instead. Since info will be placed there and will not need to be dealt with in a Trello card.)### Files
+
 ## Purpose
 
-~~To house info on ~~meta~~ GitHub account and repo topics such as `README.md` files, `.gitignore` files, and licensing.~~
+Info regarding the .env file used in this directory.
+
+For info regarding .env files in general, see the [Security/](../../Security/) directory.
+
+## Resources
+
+[dotENV Professional Development](https://trello.com/c/CN0CvXEA/261-dotenv-professional-development?menu=filter&filter=label:none) Trello card for my reference - info placed there is for me to refer back to.
 
 ## Directories and Files
 
 ### Directories
 
-- env/
+### Files
 
-The .env file(s)... (not uploaded to git as should be the case)
+#### [README](./README.md)
 
-[dotENV Professional Development](https://trello.com/c/CN0CvXEA/261-dotenv-professional-development?menu=filter&filter=label:none) Trello card for my reference - info placed there is for me to refer back to.
-
-(Note to self: consider linking to a google doc instead. Since info will be placed there and will not need to be dealt with in a Trello card.)### Files
-
-- README.md
-
-  - This readme file.
+This readme file.

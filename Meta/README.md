@@ -4,9 +4,17 @@
 
 This directory houses info regarding this repo. Specifically, information **about** the files and directories that this repo contains.
 
-And **not** about Git repos in general.
+And **not** about Git repos in general. To find info regarding files and directories about Git in general, see the `Git/` [README](../Git/README.md) file.
 
-To find info regarding files and directories about Git in general, see https://github.com/JamieBort/LearningDirectory/tree/master/Git
+## Naming Conventions in this Repo
+
+### Currently
+
+Pascalcase
+
+### Future
+
+Maybe Snakecase
 
 ## Resources
 
@@ -20,7 +28,31 @@ Note, Items found in this resources section contain content that do not fit in j
 
 ### Directories
 
-- ./Meta/env/
+#### [Accessibility/](../Accessibility/)
+
+#### [AlgorithmsDataStructuresAndBigONotation/](../AlgorithmsDataStructuresAndBigONotation/)
+
+#### [API/](../API/)
+
+#### [Database/](../Databases/)
+
+#### [DataVisualization/](../DataVisualization/)
+
+#### [Git/](../Git/)
+
+Info on the .gitignore file in general.
+
+#### [Hosting/](../Hosting/)
+
+List of live hosting sites.
+
+#### Meta
+
+#### Meta/env/
+
+#### Meta/gitignore/
+
+Info on the meta topic of .gitignore files.
 
 - ./Meta/gitignore/
 
@@ -49,6 +81,14 @@ Note, Items found in this resources section contain content that do not fit in j
 - Meta/templates/
 
   - To house template files for this repo.
+
+#### [PrinciplesParadigmsPatternsDesigns](../PrinciplesParadigmsPatternsDesigns/)
+
+#### [Security](../Security/)
+
+#### [Testing](../Testing/)
+
+Repository for my exploration of code testing.
 
 ### Files
 
@@ -80,9 +120,9 @@ Note, Items found in this resources section contain content that do not fit in j
 
   - The text can be found [here](../LICENSE.txt).
 
-- ./README.md
+#### [README](../README.md)
 
-  - The readme file for this repo.
+The readme file for this repo.
 
 ## Associated Links
 

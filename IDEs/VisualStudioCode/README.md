@@ -17,6 +17,14 @@ See the [Workspace settings](https://code.visualstudio.com/docs/getstarted/setti
 
 There is currently a .vsconfig directory in https://github.com/JamieBort/LearningDirectory/tree/master and https://github.com/JamieBort/jamiebort.github.io
 
+## Tips and Tricks
+
+### Keyboard Shortcuts
+
+### Use Cases for things I'd like to know how to do
+
+- How to close all open software files in the editor, folder, or window.
+
 ## Directories and Files
 
 ### Directories

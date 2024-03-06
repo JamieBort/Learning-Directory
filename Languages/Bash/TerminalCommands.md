@@ -15,3 +15,7 @@ find ./ -type d -name node_modules/
 [How do I start TextEditor from the command line?](https://apple.stackexchange.com/a/16598) Stack Overflow post.
 
 > open -a TextEdit <./path_to_file_name>
+
+## git commands
+
+See the `Git/` [README](../../Git/README.md) file.

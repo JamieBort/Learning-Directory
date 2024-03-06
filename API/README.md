@@ -1,5 +1,7 @@
 # API
 
+## Purpose
+
 The purpose of this directory is for API research.
 This file holds info.
 
@@ -28,6 +30,8 @@ For a safe place to write code I've create this https://github.com/JamieBort/API
 Return to [Trello API Calls](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls). See [Next Steps](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls#next-steps) there.
 
 ## Resources
+
+[API Workshop](https://github.com/jbelmont/api-workshop) workshop by jbelmont.
 
 - GraphQL `Resources` - see the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL#resources) section of the GraphQL README\.md file.
 

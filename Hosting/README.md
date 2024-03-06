@@ -1,6 +1,6 @@
 # Hosting
 
-Note, hosting sites. Not Node or the like.
+List of live hosting sites.
 
 ## Hosting Options
 

@@ -1,10 +1,12 @@
-# [name_of_the_directory_that_this_readme_file_is_in]
+# Unix
 
 ## Purpose
 
 This is the readme template that I'll use throughout the Learning Directory repo.
 
-## Resources
+## Resource
+
+[Unix Programming and regular expressions workshop](https://github.com/jbelmont/unix-programming-and-regular-expressions-workshop) workshop by jbelmont.
 
 ## Directories and Files
 
@@ -24,6 +26,6 @@ This is the readme template that I'll use throughout the Learning Directory repo
 
 [More_info_about_this_file.]
 
-#### [README](./README.md)
+#### README.md
 
 This readme file.

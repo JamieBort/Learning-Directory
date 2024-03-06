@@ -2,28 +2,7 @@
 
 The purpose of this Git directory is to house info on the .gitignore file in general.
 
-Therefore, info regarding the .gitignore file in `this` LearningDirectory repo can be found in `this` gitignore directory:
-https://github.com/JamieBort/LearningDirectory/tree/master/Meta/gitignore
-
-To find info specific to the .gitignore file in this LearningDirectory repo, see https://github.com/JamieBort/LearningDirectory/tree/master/Meta/gitignore
-
----
-
-From https://stackoverflow.com/a/3307252
-
-> Please remember that patterns in .gitignore file apply recursively to the (sub)directory the file is in and all its subdirectories, unless pattern contains '/' (so e.g. pattern name applies to any file named name in given directory and all its subdirectories, while /name applies to file with this name only in given directory).
-
----
-
-The [.gitignore](https://github.com/JamieBort/LearningDirectory/blob/master/.gitignore) file. This lists all the file types that I do not want this repo to track.
-Currently that list consists of:
-
-```
-*.DS_Store
-*.env
-and
-*node_modules/
-```
+Therefore, info regarding the .gitignore file in `this` LearningDirectory repo can be found in this [meta/gitignore/](../../Meta/README.md#metagitignore) directory.
 
 ## Checking if the file is tracked in github
 
@@ -42,6 +21,33 @@ https://stackoverflow.com/a/3306090
 
 Documentation for Pattern Format:
 https://git-scm.com/docs/gitignore#_pattern_format
+
+## Directories and Files to omit from a repo
+
+These files and directories
+
+- should not be tracked by git,
+- should not checked into git,
+- should be remove from git cache, <!-- TODO: link to command or documentation for removing file/directory from git cache. -->
+- and should not be deployed to a [live hosting site](../../Meta/README.md#hosting).
+
+Therefore they **should** be listed in the .gitignore file.
+
+| Technology | List of files and directories                   |
+| :--------: | ----------------------------------------------- |
+|     -      | .env                                            |
+| JavaScript | <ul><li>node_modules/</li><li>another</li></ul> |
+|    Java    | <ul><li></li><li></li></ul>                     |
+|            |                                                 |
+
+## Directories and Files that should NOT be listed in the .gitignore file.
+
+| Technology | List of files and directories                            |
+| :--------: | -------------------------------------------------------- |
+| JavaScript | <ul><li>package.json</li><li>package-lock.json</li></ul> |
+|    Java    | <ul><li></li><li></li></ul>                              |
+|            |                                                          |
+|            |                                                          |
 
 ## Directories and Files
 
@@ -108,3 +114,9 @@ https://git-scm.com/docs/gitignore#_pattern_format
   - https://www.gitignore.io/ (The [Source](https://stackoverflow.com/a/60221045/8210460))
 
 - My [Gitignore](https://docs.google.com/document/d/1jjaClZ6chwkRsA4jQJf6zIMMsiOrYBqi6bvuSSJ3NaU/edit#heading=h.5tr8sqn1eyz0) Google Drive doc.
+
+### Resources
+
+- gitignore patterns
+
+  > Please remember that patterns in .gitignore file apply recursively to the (sub)directory the file is in and all its subdirectories, unless pattern contains '/' (so e.g. pattern name applies to any file named name in given directory and all its subdirectories, while /name applies to file with this name only in given directory). (From https://stackoverflow.com/a/3307252)

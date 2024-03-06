@@ -2,65 +2,67 @@
 
 The purpose of this Git directory is to house info on git files, git directories, git commands, and git features.
 
-To find info on the files and directories specific to this LearningDirectory repo, see https://github.com/JamieBort/LearningDirectory/tree/master/Meta
+To find info on the files and directories specific to this LearningDirectory repo, see the `Meta/` [README](../Meta/README.md) file.
 
 ## Directories and Files
 
 ### Directories
 
-- code_of_conduct/
+#### code_of_conduct/
 
-  - All things related to behavior while contributing to Git (GitHub ?) repos.
+All things related to behavior while contributing to Git (GitHub ?) repos.
 
-- commit_message/
+#### commit_message/
 
-  - All things related to Git (GitHub ?) commit messages.
+All things related to Git (GitHub ?) commit messages.
 
-- config_files/
+#### config_files/
 
-- contributing/
+#### contributing/
 
-  - All things related to contributing to Git (GitHub ?) repos.
+All things related to contributing to Git (GitHub ?) repos.
 
-- gitignore/
+#### gitignore/
 
-  - All things related to .gitignore files.
+All things related to .gitignore files.
 
-- GitImmersion/
+#### GitImmersion/
 
-  - A guided tour that walks through the fundamentals of Git.
+A guided tour that walks through the fundamentals of Git.
 
-  - See `Git Immersion` in `Resources` below.
+See `Git Immersion` in `Resources` below.
 
-- issue_templates/
+#### issues
 
-- licensing/
+GitHub repo Issues
 
-  - Info on Git repo licenses.
+#### licensing/
 
-- node_modules/
+Info on Git repo licenses.
 
-  - These should not be uploaded to git repositories.
+#### node_modules/
 
-- package/
+These should not be uploaded to git repositories.
 
-- prune/
+#### package/
 
-- pull_request_templates/
+#### prune/
+
+#### pull_request_templates/
 
 ### Files
 
-- common_git_commands.md
+#### common_git_commands.md
 
-  - Common Git commands that I use and need to reference.
+Common Git commands that I use and need to reference.
 
-- git_features.md
+#### git_features.md
 
-  - Git features such as Issues.
+Git features such as Issues.
 
-- README.md
+#### README.md
 
-  - This readme file.
+This readme file.
 
 ## Associated Links
 
