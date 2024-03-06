@@ -47,8 +47,6 @@ Info on Git repo licenses.
 
 These should not be uploaded to git repositories.
 
-#### [package/](./package/)
-
 #### [prune/](./prune/)
 
 #### [pull_request_templates/](./pull_request_templates/)

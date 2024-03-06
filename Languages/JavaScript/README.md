@@ -67,6 +67,10 @@ a good resource.
 - TheIronYard/
   - Moved this directory from ~/Documents/DevFiles/Personal_Projects/LearningDirectory/JavaScript/CodingChallenges/ to ~/Documents/DevFiles/Personal_Projects/LearningDirectory/JavaScript/
 
+#### [package/](./package/)
+
+This directory does not belong here.
+
 ### Files
 
 - README.ms - this readme file.
