@@ -4,6 +4,9 @@ The purpose of this Git directory is to house info on git files, git directories
 
 To find info on the files and directories specific to this LearningDirectory repo, see the `Meta/` [README](../Meta/README.md) file.
 
+See this `List of standards for each repo` section in the Activity of this https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists Trello card:
+https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65e8a2ed79e6df717b84c23a
+
 ## Directories and Files
 
 ### Directories
