@@ -27,6 +27,10 @@ All things related to Git (GitHub ?) commit messages.
 
 All things related to contributing to Git (GitHub ?) repos.
 
+#### [env/](./env/)
+
+This directory houses information about .env files and environment variables.
+
 #### [gitignore/](./gitignore/)
 
 All things related to .gitignore files.

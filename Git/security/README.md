@@ -4,6 +4,10 @@
 
 This directory houses information about security in Git.
 
+## Best practices sensitive files to keep secure
+
+[See `Best practices sensitive files to keep secure` of https://trello.com/c/GYruL063/167-familiarize-about-sensitive-files-to-keep-off-of-github-and-personal-dashboard#comment-65e76548e1ceb9b9ea814269]
+
 ## Resources
 
 - https://trello.com/c/GYruL063/167-familiarize-about-sensitive-files-to-keep-off-of-github-and-personal-dashboard
@@ -20,19 +24,7 @@ This directory houses information about security in Git.
 
 ### Directories
 
-#### directory_name/
-
-[About_this_directory.]
-
-[More_info_about_this_directory.]
-
 ### Files
-
-#### [name_of_other_file_in_here]
-
-[About_this_file.]
-
-[More_info_about_this_file.]
 
 #### [README](./README.md)
 

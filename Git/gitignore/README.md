@@ -4,23 +4,21 @@ The purpose of this Git directory is to house info on the .gitignore file in gen
 
 Therefore, info regarding the .gitignore file in `this` LearningDirectory repo can be found in this [meta/gitignore/](../../Meta/README.md#metagitignore) directory.
 
-## Checking if the file is tracked in github
+## General info
 
-Description from this [git-check-ignore - Debug gitignore / exclude files](https://git-scm.com/docs/git-check-ignore) documentation:
+[5 Types of File to Include in Your .gitignore](https://www.makeuseof.com/gitignore-file-types-to-include/)
 
-> [C]heck whether the file is excluded by .gitignore ... and output the path if it is excluded.
+1. ~~Configuration Files~~
 
-> By default, tracked files are not shown at all since they are not subject to exclude rules; but see ‘--no-index’.
+   I disagree with this one. However, environment variable files should ALWAYS be included when credentials are used. Therefore, always include `.env`.
 
-Good info here:
-https://stackoverflow.com/a/3306090
+2. Build Artifacts (for example build/ directories.)
+3. Integrated Development Environment Files (IDE Files) (for example .vscode/ directories.)
+4. Dependency and Package Files (for example node_modules/ directories.)
+5. Operating System Files (for example .DS_Store files.)
 
-`git check-ignore -v -- <file_path>` Note: `--` may not be needed.
-
-## Pattern Format
-
-Documentation for Pattern Format:
-https://git-scm.com/docs/gitignore#_pattern_format
+Note, there's an alternative to .gitignore:
+[Exclude files from git without committing changes to .gitignore](https://medium.com/@dave_lunny/exclude-files-from-git-without-committing-changes-to-gitignore-986fa712e78d).
 
 ## Directories and Files to omit from a repo
 
@@ -49,19 +47,45 @@ Therefore they **should** be listed in the .gitignore file.
 |            |                                                          |
 |            |                                                          |
 
+## Best practices files to keep out of repos
+
+[See `Best practices files to keep out of repos` of https://trello.com/c/GYruL063/167-familiarize-about-sensitive-files-to-keep-off-of-github-and-personal-dashboard#comment-65e76856763cfe0b98137098]
+
+## Checking if the file is tracked in github
+
+Description from this [git-check-ignore - Debug gitignore / exclude files](https://git-scm.com/docs/git-check-ignore) documentation:
+
+> [C]heck whether the file is excluded by .gitignore ... and output the path if it is excluded.
+
+> By default, tracked files are not shown at all since they are not subject to exclude rules; but see ‘--no-index’.
+
+Good info here:
+https://stackoverflow.com/a/3306090
+
+`git check-ignore -v -- <file_path>` Note: `--` may not be needed.
+
+## Pattern Format
+
+Documentation for Pattern Format:
+https://git-scm.com/docs/gitignore#_pattern_format
+
+From https://stackoverflow.com/a/3307252:
+
+> Please remember that patterns in .gitignore file apply recursively to the (sub)directory the file is in and all its subdirectories, unless pattern contains '/' (so e.g. pattern name applies to any file named name in given directory and all its subdirectories, while /name applies to file with this name only in given directory). (From https://stackoverflow.com/a/3307252)
+
 ## Directories and Files
 
 ### Directories
 
 ### Files
 
-- README.md
+#### [README.md](./README.md)
 
-  - This readme file.
+This readme file.
 
-- template_gitignore
+#### [template_gitignore.md](./template_gitignore.md)
 
-  - A template for the .gitignore file.
+A template for the .gitignore file.
 
 ## Associated Links
 
@@ -114,9 +138,3 @@ Therefore they **should** be listed in the .gitignore file.
   - https://www.gitignore.io/ (The [Source](https://stackoverflow.com/a/60221045/8210460))
 
 - My [Gitignore](https://docs.google.com/document/d/1jjaClZ6chwkRsA4jQJf6zIMMsiOrYBqi6bvuSSJ3NaU/edit#heading=h.5tr8sqn1eyz0) Google Drive doc.
-
-### Resources
-
-- gitignore patterns
-
-  > Please remember that patterns in .gitignore file apply recursively to the (sub)directory the file is in and all its subdirectories, unless pattern contains '/' (so e.g. pattern name applies to any file named name in given directory and all its subdirectories, while /name applies to file with this name only in given directory). (From https://stackoverflow.com/a/3307252)

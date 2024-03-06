@@ -4,7 +4,7 @@ This directory houses all the JavaScript courses, projects, and coding challenge
 
 I am in the process of moving some files and directories from [this repo](https://github.com/JamieBort/CodeChallenges) into this directory.
 
-When done, this directory should have ONLY the following directies in it:
+When done, this directory should have ONLY the following directories in it:
 
 1. `Courses`
 2. `Coding Challenges` and
@@ -67,13 +67,13 @@ a good resource.
 - TheIronYard/
   - Moved this directory from ~/Documents/DevFiles/Personal_Projects/LearningDirectory/JavaScript/CodingChallenges/ to ~/Documents/DevFiles/Personal_Projects/LearningDirectory/JavaScript/
 
-#### [package/](./package/)
-
-This directory does not belong here.
-
 #### [node_modules/](./node_modules/)
 
 These should not be uploaded to git repositories.
+
+#### [package/](./package/)
+
+This directory does not belong here.
 
 ### Files
 

@@ -4,7 +4,7 @@
 
 node_modules
 # exempt the /Git/node_modules/ directory
-!/Git/node_modules/
+!/Languages/JavaScript/node_modules/
 
 scratch*
 
