@@ -2,10 +2,6 @@
 
 https://trello.com/c/5VYmSSXO/520-visual-studio-code-master-card
 
-TODO: Move the Tips and Tricks found in the [Activity](https://trello.com/c/5VYmSSXO/520-visual-studio-code-master-card#comment-65e1da8df92b1eb5a2675e1d) of the `Visual Studio Code Master Card` Trello card to this VisualStudioCode/ directory.
-
-To that end, see https://github.com/JamieBort/LearningDirectory/issues/193
-
 ## .vscode config file
 
 The .vscode config file should (often) be kept out of the repos.
@@ -19,6 +15,25 @@ There is currently a .vsconfig directory in https://github.com/JamieBort/Learnin
 
 ## Tips and Tricks
 
+- Auto Formatting
+  - some here: [https://stackoverflow.com/questions/29973357/how-do-you-format-code-in-visual-studio-code-vscode](https://stackoverflow.com/questions/29973357/how-do-you-format-code-in-visual-studio-code-vscode "‌")
+  - [https://stackoverflow.com/questions/29973357/how-do-you-format-code-in-visual-studio-code-vscode](https://stackoverflow.com/questions/29973357/how-do-you-format-code-in-visual-studio-code-vscode "‌")
+- [Markdown Preview](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview "‌") documentation.
+- Configure word wrap: [https://webstoked.com/enable-word-wrap-visual-studio-code/#:~:text=If you want to apply,That's it](https://webstoked.com/enable-word-wrap-visual-studio-code/#:~:text=If%20you%20want%20to%20apply,That's%20it "‌")!
+- `Search code base:` Ctrl+Shift+F
+- Auto-generate Java constructors:
+  [https://github.com/redhat-developer/vscode-java/issues/1358](https://github.com/redhat-developer/vscode-java/issues/1358 "smartCard-inline")
+
+- Potentially lots of good info here:
+  https://trello.com/c/gJooPvRl/143-explore-the-welcome-page-in-vs-code
+
+### Use Cases
+
+Use Cases that I still need a solution for
+
+I am looking for ways to make keystrokes faster. Such as `command + c` to produce console.log().
+See https://github.com/JamieBort/LearningDirectory/issues/193
+
 ### Keyboard Shortcuts
 
 ### Use Cases for things I'd like to know how to do
@@ -31,6 +46,6 @@ There is currently a .vsconfig directory in https://github.com/JamieBort/Learnin
 
 ### Files
 
-- README.md
+#### [README](./README.md)
 
-  - This readme file.
+This readme file.

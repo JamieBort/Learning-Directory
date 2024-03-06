@@ -6,10 +6,10 @@ https://trello.com/c/0iZsyItX/599-ides-integrated-development-environment
 
 ### Directories
 
-- VisualStudioCode/
+#### [Visual Studio Code/](./VisualStudioCode/)
 
 ### Files
 
-- README.md
+#### [README](./README.md)
 
-  - This readme file.
+This readme file.

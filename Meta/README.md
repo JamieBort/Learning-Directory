@@ -48,6 +48,8 @@ List of live hosting sites.
 
 #### [IDEs/](../IDEs/)
 
+Integrated Development Environments.
+
 #### Meta
 
 #### Meta/env/
