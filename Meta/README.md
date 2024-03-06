@@ -30,13 +30,13 @@ Note, Items found in this resources section contain content that do not fit in j
 
 #### [Accessibility/](../Accessibility/)
 
-#### [AlgorithmsDataStructuresAndBigONotation/](../AlgorithmsDataStructuresAndBigONotation/)
+#### [Algorithms Data Structures And Big O Notation/](../AlgorithmsDataStructuresAndBigONotation/)
 
 #### [API/](../API/)
 
 #### [Database/](../Databases/)
 
-#### [DataVisualization/](../DataVisualization/)
+#### [Data Visualization/](../DataVisualization/)
 
 #### [Git/](../Git/)
 
@@ -82,7 +82,7 @@ Info on the meta topic of .gitignore files.
 
   - To house template files for this repo.
 
-#### [PrinciplesParadigmsPatternsDesigns](../PrinciplesParadigmsPatternsDesigns/)
+#### [Principles Paradigms Patterns Designs](../PrinciplesParadigmsPatternsDesigns/)
 
 #### [Security](../Security/)
 
