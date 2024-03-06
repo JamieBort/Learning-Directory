@@ -27,6 +27,14 @@ There is currently a .vsconfig directory in https://github.com/JamieBort/Learnin
 - Potentially lots of good info here:
   https://trello.com/c/gJooPvRl/143-explore-the-welcome-page-in-vs-code
 
+## [Linter]
+
+https://trello.com/search?q=linter
+
+## [Prettier]
+
+https://trello.com/search?q=prettier
+
 ### Use Cases
 
 Use Cases that I still need a solution for

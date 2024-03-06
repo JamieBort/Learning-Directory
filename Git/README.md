@@ -7,6 +7,8 @@ To find info on the files and directories specific to this LearningDirectory rep
 See this `List of standards for each repo` section in the Activity of this https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists Trello card:
 https://trello.com/c/NnqWRZIE/158-clean-up-github-repositories-and-gists#comment-65e8a2ed79e6df717b84c23a
 
+Git is a tool for source control.
+
 ## Directories and Files
 
 ### Directories
@@ -42,10 +44,6 @@ GitHub repo Issues
 #### [licensing/](./licensing/)
 
 Info on Git repo licenses.
-
-#### [node_modules/](./node_modules/)
-
-These should not be uploaded to git repositories.
 
 #### [prune/](./prune/)
 

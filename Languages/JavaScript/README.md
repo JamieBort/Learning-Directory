@@ -71,6 +71,12 @@ a good resource.
 
 This directory does not belong here.
 
+#### [node_modules/](./node_modules/)
+
+These should not be uploaded to git repositories.
+
 ### Files
 
-- README.ms - this readme file.
+#### [README.md](./README.md)
+
+This readme file.

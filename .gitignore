@@ -5,6 +5,7 @@
 node_modules
 # exempt the /Git/node_modules/ directory
 !/Git/node_modules/
+
 scratch*
 
 .vscode
