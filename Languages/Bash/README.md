@@ -1,9 +1,10 @@
 # Bash
 
-For learning Bash.
+## Purpose
 
-~~This directory should be renamed to `ShellScripts`.
-`Bash` is a [superset](https://stackoverflow.com/a/5725297/8210460) of `sh`.~~
+This directory houses information about Bash.
+
+## Resources
 
 ## Use Cases
 
@@ -19,15 +20,15 @@ Needs I have that do not yet have solutions.
 
 ### Directories
 
-- ShellScripts/
+#### [Shell Scripts](./ShellScripts/)
 
-  - Moved all directories into here because "This directory should be renamed to `ShellScripts`. `Bash` is a [superset](https://stackoverflow.com/a/5725297/8210460) of `sh`."
+Moved all directories into here because "This directory should be renamed to `ShellScripts`. `Bash` is a [superset](https://stackoverflow.com/a/5725297/8210460) of `sh`."
 
 ### Files
 
-- README.md
+#### [README](./README.md)
 
-  - This readme file.
+This readme file.
 
 ## Associated Links
 

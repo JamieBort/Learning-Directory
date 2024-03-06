@@ -50,13 +50,21 @@ List of live hosting sites.
 
 Integrated Development Environments.
 
+#### [Languages/](../Languages/)
+
+This directory houses information about software languages.
+
 #### Meta
+
+This directory.
 
 #### Meta/env/
 
+This directory houses information about the env file(s) in this repo.
+
 #### Meta/gitignore/
 
-Info on the meta topic of .gitignore files.
+This directory houses information about the .gitignore file in this repo.
 
 - ./Meta/gitignore/
 

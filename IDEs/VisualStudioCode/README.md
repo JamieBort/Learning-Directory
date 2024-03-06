@@ -31,8 +31,10 @@ There is currently a .vsconfig directory in https://github.com/JamieBort/Learnin
 
 Use Cases that I still need a solution for
 
-I am looking for ways to make keystrokes faster. Such as `command + c` to produce console.log().
-See https://github.com/JamieBort/LearningDirectory/issues/193
+- I am looking for ways to make keystrokes faster. Such as `command + c` to produce console.log().
+  See https://github.com/JamieBort/LearningDirectory/issues/193
+
+- Search, find, and open a specific README among all the readme files in this repo.
 
 ### Keyboard Shortcuts
 

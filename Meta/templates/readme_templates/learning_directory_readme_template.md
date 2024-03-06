@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This is the readme template that I'll use throughout the Learning Directory repo.
+[This is the readme template that I'll use throughout the Learning Directory repo.]
+
+This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
 
 ## Resources
 
