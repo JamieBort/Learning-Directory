@@ -8,59 +8,61 @@ To find info on the files and directories specific to this LearningDirectory rep
 
 ### Directories
 
-#### code_of_conduct/
+#### [code_of_conduct/](./code_of_conduct/)
 
 All things related to behavior while contributing to Git (GitHub ?) repos.
 
-#### commit_message/
+#### [commit_message/](./commit_message/)
 
 All things related to Git (GitHub ?) commit messages.
 
-#### config_files/
+#### [config_files/](./config_files/)
 
-#### contributing/
+#### [contributing/](./contributing/)
 
 All things related to contributing to Git (GitHub ?) repos.
 
-#### gitignore/
+#### [gitignore/](./gitignore/)
 
 All things related to .gitignore files.
 
-#### GitImmersion/
+#### [GitImmersion/](./GitImmersion/)
 
 A guided tour that walks through the fundamentals of Git.
 
 See `Git Immersion` in `Resources` below.
 
-#### issues
+#### [issues/](./issues/)
 
 GitHub repo Issues
 
-#### licensing/
+#### [licensing/](./licensing/)
 
 Info on Git repo licenses.
 
-#### node_modules/
+#### [node_modules/](./node_modules/)
 
 These should not be uploaded to git repositories.
 
-#### package/
+#### [package/](./package/)
 
-#### prune/
+#### [prune/](./prune/)
 
-#### pull_request_templates/
+#### [pull_request_templates/](./pull_request_templates/)
+
+#### [security/](./security/)
 
 ### Files
 
-#### common_git_commands.md
+#### [common_git_commands.md](./common_git_commands.md)
 
 Common Git commands that I use and need to reference.
 
-#### git_features.md
+#### [git_features.md](./git_features.md)
 
 Git features such as Issues.
 
-#### README.md
+#### [README.md](./README.md)
 
 This readme file.
 
