@@ -98,10 +98,19 @@ Related, see https://github.com/JamieBort/LearningDirectory/blob/master/Git/comm
 
 ## rm
 
-### Remove the node_module/ directory.
+### Remove a cached file or directory
 
-`git rm -r --cached`
-git rm -r --cached node_modules/
+#### Remove a cached file
+
+`git rm --cached <path_to_file_name>`
+
+#### Remove a cached directory
+
+`git rm -r --cached <path_to_directory_name>`
+
+example:
+
+`git rm -r --cached node_modules/`
 
 ## commands related to the .gitignore file
 
