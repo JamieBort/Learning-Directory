@@ -46,6 +46,8 @@ Info on the .gitignore file in general.
 
 List of live hosting sites.
 
+#### [IDEs/](../IDEs/)
+
 #### Meta
 
 #### Meta/env/
