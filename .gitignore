@@ -3,7 +3,7 @@
 .env
 
 node_modules
-# exempt the /Git/node_modules/ directory
+# exempt the ./Languages/JavaScript/node_modules/ directory
 !/Languages/JavaScript/node_modules/
 
 scratch*
