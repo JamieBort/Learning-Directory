@@ -5,7 +5,7 @@ https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues
 
 ## Purpose
 
-This is the readme template that I'll use throughout the Learning Directory repo.
+This directory houses information about Issues.
 
 ## Resources to explore
 
@@ -52,14 +52,12 @@ https://docs.github.com/en/issues/guides
 
 ### Directories
 
-- issue_templates/
+#### [issue_templates/](./issue_templates/)
 
-  - [About_this_directory.]
-
-  - [More_info_about_this_directory.]
+This directory houses information about Issue Templates.
 
 ### Files
 
-- README.md
+#### [README.md](./README.md)
 
-  - This readme file.
+This readme file.

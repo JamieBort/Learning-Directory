@@ -1,8 +1,8 @@
-# issue templates
+# Issue Templates
 
 ## Purpose
 
-This is the readme template that I'll use throughout the Learning Directory repo.
+This directory houses information about Issue Templates.
 
 ## Resources to explore
 
@@ -24,20 +24,8 @@ This is the readme template that I'll use throughout the Learning Directory repo
 
 ### Directories
 
-- [directory_name]/
-
-  - [About_this_directory.]
-
-  - [More_info_about_this_directory.]
-
 ### Files
 
-- [name_of_other_file_in_here]
+#### [README.md](./README.md)
 
-  - [About_this_file.]
-
-  - [More_info_about_this_file.]
-
-- README.md
-
-  - This readme file.
+This readme file.

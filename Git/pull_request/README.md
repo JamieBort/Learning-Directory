@@ -1,7 +1,5 @@
 # Pull Request
 
-pull_request
-
 ## Purpose
 
 This directory houses information about Pull Requests.
