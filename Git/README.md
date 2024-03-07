@@ -129,7 +129,9 @@ Info on Git repo licenses.
 
 #### [prune/](./prune/)
 
-#### [pull_request_templates/](./pull_request_templates/)
+#### [pull_request/](./pull_request/)
+
+This directory houses information about Pull Requests.
 
 #### [security/](./security/)
 
