@@ -14,7 +14,9 @@ This directory houses information about Pull Requests.
 
 ## Resources
 
-Generating a PR (pull request) use SCQA. See this [Tips for getting your Pull Request reviewed on GitHub](https://dev.to/opensauced/tip-for-getting-your-pull-request-reviewed-on-github-2b7c) dev.to 4 nov 2020 article by Brian Douglas.
+- Generating a PR (pull request) use SCQA. See this [Tips for getting your Pull Request reviewed on GitHub](https://dev.to/opensauced/tip-for-getting-your-pull-request-reviewed-on-github-2b7c) dev.to 4 nov 2020 article by Brian Douglas.
+
+- Draft Pull requests are a thing. See [Introducing draft pull requests](https://github.blog/2019-02-14-introducing-draft-pull-requests/) GitHub blog post.
 
 ## Pull Request Features
 
