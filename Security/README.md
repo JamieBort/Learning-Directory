@@ -52,7 +52,7 @@ To house the files and directories from the Maxx Potential Career Lab.
 
 ### Files
 
-#### README.md
+#### [README](./README.md)
 
 This readme file.
 

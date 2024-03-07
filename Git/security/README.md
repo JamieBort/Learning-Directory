@@ -16,7 +16,7 @@ Security options through GitHub
 
 > [Allow your community to privately report potential security vulnerabilities to maintainers and repository owners.](https://github.com/JamieBort/LearningDirectory/settings/security_analysis)
 
-In light of what is poste [here](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability#about-privately-reporting-a-security-vulnerability) there is currently no benefit of me using this feature. My repos are too small - no one else uses them.
+In light of what is posted [here](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability#about-privately-reporting-a-security-vulnerability) there is currently no benefit of me using this feature. My repos are too small - no one else uses them.
 
 Default: Disabled
 
@@ -39,6 +39,14 @@ Mandatory: Enabled
   - Dependabot security updates—Triggered updates to upgrade your dependencies to a secure version when an alert is triggered.
   - Dependabot version updates—Scheduled updates to keep your dependencies up to date with the latest version.
 
+> [You can use Dependabot to alert you when your repository is using a software dependency with a known vulnerability. This guide will help get you started on enabling Dependabot for a repository, and exploring reported alerts.](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide)
+
+- Documentation
+
+  - [Dependabot](https://docs.github.com/en/code-security/dependabot)
+
+  - [Getting Started Quickstart Guide](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide)
+
 #### Dependabot alerts
 
 > [](https://github.com/JamieBort/LearningDirectory/settings/security_analysis)
@@ -52,9 +60,7 @@ Mandatory: Enabled
 
 **NOTE -** Dependabot alert rules can be modified and enabled/disabled.
 
-Default: Enabled
-
-Default: 1 rule enabled
+Default: Enabled with 1 rule
 
 #### Dependabot security updates
 
@@ -90,6 +96,8 @@ Default: Disabled
 [About version updates for dependencies](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates#about-version-updates-for-dependencies)
 
 > You enable Dependabot version updates by checking a dependabot.yml configuration file in to ...
+
+- There can be a `dependabot.yml` file that is used to configure dependency version updates.
 
 Default: Disabled
 
