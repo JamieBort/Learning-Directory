@@ -1,12 +1,17 @@
-<!-- TODO: FOR THIS TEMPLATE: Replace <name_of_project> with the name of the repo. -->
+<!-- NOTE: Regarding the TODO:s in this file that contain FOR THIS FILE:, these are intended to be addressed when the template is used by copying it. -->
+<!-- NOTE: Regarding the TODO:s in this file that contain FOR THIS TEMPLATE:, these are intended to be addressed in THIS file for the future use of this template. -->
+
+<!-- TODO: FOR THIS FILE: Replace <name_of_project> with the name of the repo. -->
+
+<!-- TODO: FOR THIS TEMPLATE Specify below in it's on section how to assign yourself to an issue. To that end, see https://github.com/JamieBort/LearningDirectory/issues/198  -->
 
 # Welcome to the <name_of_project> contributing guide <!-- omit in toc (table of contents) -->
 
-<!-- TODO: Test all of the links below to see which ones need to modified/updated for when the template is used. Then make note of them with `TODO: FOR THIS TEMPLATE: <instructions here>.` -->
+<!-- TODO: FOR THIS TEMPLATE Test all of the links below to see which ones need to modified/updated for when the template is used. Then make note of them with `TODO: FOR THIS FILE: <instructions here>.` -->
 
 Thank you for investing your time in contributing to this project!
 
-<!-- TODO: FOR THIS TEMPLATE: Link to the proper file here. -->
+<!-- TODO: FOR THIS FILE: Link to the proper file here. -->
 
 Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
@@ -14,7 +19,7 @@ In this guide you will get an overview of the contribution workflow from opening
 
 ## New contributor guide
 
-<!-- TODO: FOR THIS TEMPLATE: Link to the proper file here. -->
+<!-- TODO: FOR THIS FILE: Link to the proper file here. -->
 
 To get an overview of the project, read the [README](./README.md) file. Here are some resources to help you get started with open source contributions:
 
@@ -75,7 +80,7 @@ And if that Issue does not already exist, please create a new GitHub Issue.
 - [This 7 minute video.](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
 </details>
 
-<!-- TODO: Add this line back in once I have Issue Templates and/or Issue forms to use here.
+<!-- TODO: FOR THIS TEMPLATE Add this line back in once I have Issue Templates and/or Issue forms to use here.
 To that end, I have created this https://github.com/users/JamieBort/projects/4?pane=issue&itemId=55135312 organizational-level Issue to complete that task. -->
 <!-- If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/github/docs/issues/new/choose). -->
 
@@ -83,7 +88,7 @@ To that end, I have created this https://github.com/users/JamieBort/projects/4?p
 
 Another option to contribute to is solve an existing issue.
 
-<!-- TODO: FOR THIS TEMPLATE: Replace the **TWO** instances of `<replace_with_the_repo_name>` below with the name of the repo. -->
+<!-- TODO: FOR THIS FILE: Replace the **TWO** instances of `<replace_with_the_repo_name>` below with the name of the repo. -->
 
 Scan through our [existing issues](https://github.com/JamieBort/<replace_with_the_repo_name>/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See "[Label reference](https://github.com/JamieBort/<replace_with_the_repo_name>/labels)" for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix. (What are Labels? [More info here](https://docs.github.com/en/contributing/collaborating-on-github-docs/label-reference).)
 

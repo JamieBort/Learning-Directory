@@ -6,13 +6,15 @@
 
 This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
 
+## About
+
 ## Resources
 
 ## Directories and Files
 
 ### Directories
 
-#### directory_name/
+#### [directory_name/](./path_to_directry)
 
 [About_this_directory.]
 
@@ -20,12 +22,12 @@ This directory houses information about [name_of_the_directory_that_this_readme_
 
 ### Files
 
-#### [name_of_other_file_in_here]
+#### [name_of_other_file_in_here.extension]
 
 [About_this_file.]
 
 [More_info_about_this_file.]
 
-#### [README](./README.md)
+#### [README.md](./README.md)
 
 This readme file.
