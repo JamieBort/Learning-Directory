@@ -143,6 +143,10 @@ Default: Disabled
 
   (Also saved in [Resources](../../Security/README.md#resources) section of the README file in the Security/ directory.)
 
+- [Software Security](https://github.com/jbelmont/software-security-workshop) workshop by jbelmont.
+
+  (Also saved in [Resources](../../Security/README.md#resources) section of the README file in the Security/ directory.)
+
 ### GitHub Services/Features
 
 #### Code Scanning

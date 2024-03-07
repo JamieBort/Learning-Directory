@@ -2,37 +2,17 @@
 
 ## Purpose
 
-This directory was added after taking Maxx Potential's Capture the Flag game.
-
-The `Cryptography/`, `Forensics/`, `SocialEngineering/`, `Steganography/`, and `WebExploitation/` directories are some of the topics in the game.
-
-See the [Session 4 - Security](https://docs.google.com/document/d/12N943Vb310FQrw9ChD23I8gnS_vqZ9-RwC_cHW1S5U4/edit) Google Drive doc for access to that game.
-
-## Directories and Files
-
-### Directories
-
-#### directory_name/
-
-[About_this_directory.]
-
-[More_info_about_this_directory.]
-
-### Files
-
-#### [name_of_other_file_in_here]
-
-[About_this_file.]
-
-[More_info_about_this_file.]
-
-#### README.md
-
-This readme file.
-
 ## Resources
 
-[Software Security](https://github.com/jbelmont/software-security-workshop) workshop by jbelmont.
+- [How to keep your repository’s sensitive data secure using git-secret](https://medium.com/@GeorgiosGoniotakis/how-to-keep-your-repositorys-sensitive-data-secure-using-git-secret-c1ddc28cb985) May 13, 2018 Medium article by Georgios Goniotakis.
+
+  This one may not belong here.
+
+  (Also found in the [Resources](../Git/security/README.md#resources) section of the README file in the /Git/security/ directory.)
+
+- [Software Security](https://github.com/jbelmont/software-security-workshop) workshop by jbelmont.
+
+  (Also found in the [Resources](../Git/security/README.md#resources) section of the README file in the /Git/security/ directory.)
 
 A list of FreeCodeCamp [Articles and/or Tutorials](https://www.freecodecamp.org/news/tag/cybersecurity/)
 
@@ -49,6 +29,32 @@ Sites with Lists of CyberSecurity Courses
 - [Cybersecurity Courses](https://www.coursera.org/courses?query=cybersecurity)
   - [IT Fundamentals for Cybersecurity Specialization](https://www.coursera.org/specializations/it-fundamentals-cybersecurity) Coursera course.
   - [Introduction to Cyber Security Specialization](https://www.coursera.org/specializations/intro-cyber-security) Coursera course.
+
+## Directories and Files
+
+### Directories
+
+#### [Maxx Potential Capture The Flag/](./Maxx_Potential_Capture_The_Flag/)
+
+To house the files and directories from the Maxx Potential Career Lab.
+
+<!-- Keeping these here for when I fill out this directory more (for when I add these topics to this directory) I wont have to retype them.
+
+#### [Cryptography/](./Cryptography/)
+
+#### [Forensics/](./Forensics/)
+
+#### [Social Engineering/](./SocialEngineering/)
+
+#### [Steganography/](./Steganography/)
+
+#### [WebExploitation/](./WebExploitation/) -->
+
+### Files
+
+#### README.md
+
+This readme file.
 
 ## Associated Links
 
