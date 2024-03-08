@@ -12,8 +12,12 @@ This directory does not belong in the Git/ directory.
 
 ### Directories
 
+#### [package_json/](./package_json/)
+
+To house info on the package.json file in this repo.
+
 ### Files
 
-- README.md
+#### [README.md](./README.md)
 
-  - This readme file.
+This readme file.
