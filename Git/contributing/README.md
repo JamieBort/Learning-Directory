@@ -31,14 +31,14 @@ Aside from my [notes](https://github.com/JamieBort/LearningDirectory/blob/master
 
 ### Files
 
-- contributing_notes.md
+#### [contributing_notes.md](./contributing_notes.md)
 
-- contributing_template.md
+#### [contributing_template.md](./contributing_template.md)
 
-  - The template I'll use for each of my projects.
+The template I'll use for each of my projects.
 
-  - Original came from this [Welcome to GitHub docs contributing guide](https://github.com/github/docs/blob/9c8028d68702e3ea3aec4d42093df1a95dfaa8d1/.github/CONTRIBUTING.md) file.
+Original came from this [Welcome to GitHub docs contributing guide](https://github.com/github/docs/blob/9c8028d68702e3ea3aec4d42093df1a95dfaa8d1/.github/CONTRIBUTING.md) file.
 
-- README.md
+#### [README.md](./README.md)
 
-  - This readme file.
+This readme file.

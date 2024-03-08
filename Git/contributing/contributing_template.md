@@ -1,5 +1,5 @@
-<!-- NOTE: Regarding the TODO:s in this file that contain FOR THIS FILE:, these are intended to be addressed when the template is used by copying it. -->
-<!-- NOTE: Regarding the TODO:s in this file that contain FOR THIS TEMPLATE:, these are intended to be addressed in THIS file for the future use of this template. -->
+<!-- NOTE: Regarding the TODO:s in this file that contain "FOR THIS FILE:", these are intended to be addressed AFTER this template has been copied into another repo. -->
+<!-- NOTE: Regarding the TODO:s in this file that contain "FOR THIS TEMPLATE:", these are intended to be addressed in THIS file for the future use of this template, BEFORE this template has been copied into another repo. -->
 
 <!-- TODO: FOR THIS FILE: Replace <name_of_project> with the name of the repo. -->
 
@@ -80,9 +80,9 @@ And if that Issue does not already exist, please create a new GitHub Issue.
 - [This 7 minute video.](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
 </details>
 
-<!-- TODO: FOR THIS TEMPLATE Add this line back in once I have Issue Templates and/or Issue forms to use here.
-To that end, I have created this https://github.com/users/JamieBort/projects/4?pane=issue&itemId=55135312 organizational-level Issue to complete that task. -->
-<!-- If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/github/docs/issues/new/choose). -->
+<!-- TODO: FOR THIS FILE: Replace the instance of `<replace_with_the_repo_name>` below with the name of the repo. -->
+
+If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/jamiebort/<replace_with_the_repo_name>/issues/new/choose).
 
 #### Solve an Issue
 
