@@ -8,6 +8,12 @@ This directory houses information about Issue template examples.
 
 ## Resources
 
+See the [Directories](./README.md#directories) section below for example files.
+
+See this [Awesome GitHub Issues & PRs Templates](https://github.com/devspace/awesome-github-templates) GitHub repo for examples.
+
+See this [A collection of GitHub issue and pull request templates](https://github.com/stevemao/github-issue-templates?tab=readme-ov-file) GitHub repo for examples.
+
 ## Directories and Files
 
 ### Directories

@@ -8,6 +8,12 @@ This directory houses information about Pull Requests Templates.
 
 Pull Requests Templates are files that display info to the person creating a pull request. For example it can prompt the person to make sure that certain actions were taken before submitting the pull request.
 
+Issue templates need to go in the `./.github/` directory.
+
+See `https://github.com/JamieBort/LearningDirectory/tree/master/.github/PULL_REQUEST_TEMPLATE.md` as an example.
+
+**Maybe** the template has to be in the master/main branch before it will work.
+
 ## Resources ot explore
 
 - [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)

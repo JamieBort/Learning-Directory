@@ -99,6 +99,12 @@ Default: Disabled
 
 - There can be a `dependabot.yml` file that is used to configure dependency version updates.
 
+The `dependabot.yml` file needs to go in the `./.github/` directory.
+
+See `https://github.com/JamieBort/Personal-Dashboard/tree/master/.github/dependabot.yml` as an example.
+
+**Maybe** the `dependabot.yml` file needs to be in the master/main branch before it will work.
+
 Default: Disabled
 
 ### Code scanning

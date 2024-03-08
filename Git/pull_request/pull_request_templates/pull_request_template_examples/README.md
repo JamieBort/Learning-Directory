@@ -6,6 +6,10 @@ This directory houses examples of Pull Request templates.
 
 ## Resources
 
+See the [Directories](./README.md#directories) section below for example files.
+
+See this [Awesome GitHub Issues & PRs Templates](https://github.com/devspace/awesome-github-templates) GitHub repo for examples.
+
 ## Directories and Files
 
 ### Directories

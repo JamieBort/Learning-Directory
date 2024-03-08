@@ -35,7 +35,9 @@ See
   - https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart
   - Different ways to create an issue:
 
-  - https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue
+  - [Creating an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
+
+    > Issues can be created in a variety of ways, so you can choose the most convenient method for your workflow.
 
   - [Issues documentation](https://docs.github.com/en/issues)
 
