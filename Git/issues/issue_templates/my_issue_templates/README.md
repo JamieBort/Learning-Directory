@@ -18,6 +18,14 @@ I anticipate needing and/or using at least a few templates over time. This is wh
 
 ### Files
 
+#### [bug_report.md](./bug_report.md)
+
+Created by following this [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) documentation.
+
+#### [feature_request.md](./feature_request.md)
+
+Created by following this [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) documentation.
+
 #### [README.md](./README.md)
 
 This readme file.

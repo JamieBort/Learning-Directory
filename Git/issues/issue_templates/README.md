@@ -4,6 +4,10 @@
 
 This directory houses information about Issue Templates.
 
+## About
+
+Issue templates need to go in the `./.github/ISSUE_TEMPLATE/` directory.
+
 ## Resources to explore
 
 - [Get started with GitHub issue forms - GitHub Checkout](https://www.youtube.com/watch?v=qQE1BUkf2-s) XX minute YouTube video.
