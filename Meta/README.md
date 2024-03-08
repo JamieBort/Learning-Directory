@@ -78,12 +78,6 @@ This directory houses information about the .gitignore file in this repo.
 
   - That said, info on .gitignore may be better suited here maybe?: https://github.com/JamieBort/LearningDirectory/tree/master/Git#associated-links
 
-- ./Meta/markdown/
-
-  - House info such as badges, buttons, blogs, icons, and stats.
-
-  - readme/ should be in this directory. Or this directory should be in the readme/ directory.
-
 - ./Meta/package_json/
 
   - To house info on the package.json file in this repo.
