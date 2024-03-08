@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This directory houses information about security in Git.
+This directory houses information about Git security.
 
 ## Best practices sensitive files to keep secure
 

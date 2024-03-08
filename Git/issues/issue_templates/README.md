@@ -24,6 +24,14 @@ This directory houses information about Issue Templates.
 
 ### Directories
 
+#### [issue_template_examples/](./issue_template_examples/)
+
+This directory houses information about Issue template examples.
+
+#### [my_issue_templates/](./my_issue_templates/)
+
+This directory houses information about my Issue templates.
+
 ### Files
 
 #### [README.md](./README.md)

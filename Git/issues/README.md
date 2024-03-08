@@ -1,15 +1,19 @@
-# issues
+# Issues
 
 What are issues?
 https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues
 
 ## Purpose
 
-This directory houses information about Issues.
+This directory houses information about GitHub Issues.
 
 ## Resources to explore
 
 [GitHub Issues Tips and Guidelines](https://www.youtube.com/watch?v=kezinXSoV5A) 15 minute YouTube video.
+
+See the `Bonus: Issue templates for your project` section of this 2023 Axolo [GitHub pull request template](https://axolo.co/blog/p/part-3-github-pull-request-template#bonus-issue-templates-for-your-project) article.
+
+Of note, an automated comment for each issue. See https://github.com/forem/forem/blob/main/.github/workflows/issue.yml
 
 ## From Digital Knowledge Base
 
@@ -19,21 +23,35 @@ collapsed:: true
 
 #### Look up how to properly (best practice) link a file to an issue.
 
-    collapsed:: true
+See
 
-- See
-  - https://stackoverflow.com/a/8910323
-  - https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls
-- https://docs.github.com/en/issues/tracking-your-work-with-issues
+- reference a commit in an issue
+
+  https://stackoverflow.com/a/8910323
+
+- Documentation
+
   - https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues
   - https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart
   - Different ways to create an issue:
-    - https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue
-- https://docs.github.com/en/issues
-  title:: GitHub Issues
-- {{video(https://www.youtube.com/watch?v=DuAyYsWbt5o)}}
-- Github issues in a nutshell:
-  {{video(https://www.youtube.com/watch?v=TKJ4RdhyB5Y)}}
+
+  - https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue
+
+  - [Issues documentation](https://docs.github.com/en/issues)
+
+    > Overview and quickstart buttons
+
+  - [Autolinked references and URLs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)
+
+    > References to URLs, issues, pull requests, and commits are automatically shortened and converted into links.
+
+  - [Tracking your work with issues](https://docs.github.com/en/issues/tracking-your-work-with-issues)
+    > Use GitHub Issues to track ideas and work on GitHub
+
+{{video(https://www.youtube.com/watch?v=DuAyYsWbt5o)}}
+
+Github issues in a nutshell:
+{{video(https://www.youtube.com/watch?v=TKJ4RdhyB5Y)}}
 
 ### Best Practices
 

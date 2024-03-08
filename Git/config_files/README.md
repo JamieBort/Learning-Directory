@@ -1,5 +1,9 @@
 # Config Files
 
+## Purpose
+
+This directory houses information about git config files.
+
 Git config files.
 
 Not IDE config files.

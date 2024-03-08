@@ -1,9 +1,11 @@
-# contributing
-
-- All things related to contributing to Git (GitHub ?) repos.
+# Contributing
 
 TODO: Create a contributing guideline to be shared here:
 https://github.com/JamieBort/LearningDirectory/tree/master?tab=readme-ov-file#contributing
+
+## Purpose
+
+All things related to contributing to Git (GitHub ?) repos.
 
 ## Resources to explore
 

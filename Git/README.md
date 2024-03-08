@@ -93,13 +93,15 @@ First used here: [Back link](https://github.com/JamieBort/Digital-Knowledge-Base
 
 #### [code_of_conduct/](./code_of_conduct/)
 
-All things related to behavior while contributing to Git (GitHub ?) repos.
+This directory houses information about behavior while contributing to Git (GitHub ?) repos.
 
 #### [commit_message/](./commit_message/)
 
-All things related to Git (GitHub ?) commit messages.
+This directory houses information about git commit messages.
 
 #### [config_files/](./config_files/)
+
+This directory houses information about git config files.
 
 #### [contributing/](./contributing/)
 
@@ -111,7 +113,7 @@ This directory houses information about .env files and environment variables.
 
 #### [gitignore/](./gitignore/)
 
-All things related to .gitignore files.
+This directory houses information about .gitignore files.
 
 #### [GitImmersion/](./GitImmersion/)
 
@@ -121,11 +123,11 @@ See `Git Immersion` in `Resources` below.
 
 #### [issues/](./issues/)
 
-GitHub repo Issues
+This directory houses information about GitHub Issues.
 
 #### [licensing/](./licensing/)
 
-Info on Git repo licenses.
+This directory houses information about Git repo licenses.
 
 #### [prune/](./prune/)
 
@@ -134,6 +136,8 @@ Info on Git repo licenses.
 This directory houses information about Pull Requests.
 
 #### [security/](./security/)
+
+This directory houses information about Git security.
 
 ### Files
 

@@ -1,6 +1,8 @@
 # Commit Messages
 
-- All things related to Git (GitHub ?) commit messages.
+## Purpose
+
+This directory houses information about git commit messages.
 
 ## Directories and Files
 

@@ -1,6 +1,8 @@
 # Code Of Conduct
 
-- All things related to behavior while contributing to Git (GitHub ?) repos.
+## Purpose
+
+This directory houses information about behavior while contributing to Git (GitHub ?) repos.
 
 ## Resources ot explore
 

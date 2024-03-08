@@ -1,8 +1,8 @@
-# licensing/
+# Licensing
 
 ## Purpose
 
-To house info on Git repo licenses.
+This directory houses information about Git repo licenses.
 
 ## Directories and Files
 

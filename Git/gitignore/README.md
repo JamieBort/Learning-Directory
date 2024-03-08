@@ -1,6 +1,8 @@
 # gitignore
 
-The purpose of this Git directory is to house info on the .gitignore file in general.
+## Purpose
+
+This directory houses information about .gitignore files in general.
 
 Therefore, info regarding the .gitignore file in `this` LearningDirectory repo can be found in this [meta/gitignore/](../../Meta/README.md#metagitignore) directory.
 
