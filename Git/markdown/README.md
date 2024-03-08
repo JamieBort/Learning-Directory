@@ -10,12 +10,12 @@ House info such as badges, buttons, blogs, icons, and stats.
 
 ### Files
 
-- features.md
+#### [features.md](./features.md)
 
-  - A list of items that can be added to a markdown file.
+A list of items that can be added to a markdown file.
 
-  - With resources and information on how to obtain and use them.
+With resources and information on how to obtain and use them.
 
-- README.md
+#### [README.md](./README.md)
 
-  - This readme file.
+This readme file.

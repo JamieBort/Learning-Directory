@@ -8,65 +8,73 @@ With resources and information on how to obtain and use them.
 
 Some options for including in a README\.md files.
 
-- Table of Contents
+## Table of Contents
 
-  See `Maybe add a table of contents` in the Activity of the https://trello.com/c/Ka1BOJb5/1315-update-the-learningdirectory-readme-file Trello card:
+See `Maybe add a table of contents` in the Activity of the https://trello.com/c/Ka1BOJb5/1315-update-the-learningdirectory-readme-file Trello card:
 
-  https://trello.com/c/Ka1BOJb5/1315-update-the-learningdirectory-readme-file#comment-65abd42b7446cb2ef8e78948
+https://trello.com/c/Ka1BOJb5/1315-update-the-learningdirectory-readme-file#comment-65abd42b7446cb2ef8e78948
 
-- Badges
+## Badges
 
-  - [Adding Custom GitHub Badges to Your Repo](https://css-tricks.com/adding-custom-github-badges-to-your-repo/) css-tricks.com article.
+- [GitHub Markdown Badges Explained](https://daily.dev/blog/github-markdown-badges-explained) FEB 27, 2024 GitHub blog post.
 
-  - License Badges
+- [Adding Custom GitHub Badges to Your Repo](https://css-tricks.com/adding-custom-github-badges-to-your-repo/) css-tricks.com article.
 
-    - https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+- Dynamically update a README markdown file with a timestamp based on the last time that file was updated.
 
-    - https://shields.io/
+  - According to this [Is there a way to automatically add timestamp of a file's last commit in Github README.md file?](https://stackoverflow.com/a/76783465) Stack Overflow response, it cannot be done.
 
-  - Tech Stack Badges
+  - However maybe using this https://github.com/marketplace/actions/dynamic-badges it can be?
 
-    - https://github.com/Ileriayo/markdown-badges
+### License Badges
 
-    - https://github.com/alexandresanlim/Badges4-README.md-Profile
+- https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
-  - Profile View Counter
+- https://shields.io/
 
-    - https://github.com/antonkomarev/github-profile-views-counter
+### Tech Stack Badges
 
-- Blogs
+- https://github.com/Ileriayo/markdown-badges
 
-  Dynamically load blog posts. Maybe not needed for project readmes. But for the profile readme, yes.
+- https://github.com/alexandresanlim/Badges4-README.md-Profile
 
-  - I heard this has good documentation.
+### Profile View Counter
 
-    https://github.com/gautamkrishnar/blog-post-workflow
+- https://github.com/antonkomarev/github-profile-views-counter
 
-  and [Create Awesome Git readMe Profile](https://medium.com/swlh/create-awesome-git-readme-profile-84efa0bcda3b) Medium article.
+## Blogs
 
-- Buttons
+Dynamically load blog posts. Maybe not needed for project readmes. But for the profile readme, yes.
 
-  - https://trello.com/c/xA2bxoV4/274-github-buttons
+- I heard this has good documentation.
 
-- Emojis
+  https://github.com/gautamkrishnar/blog-post-workflow
 
-  - https://gist.github.com/rxaviers/7360908
+and [Create Awesome Git readMe Profile](https://medium.com/swlh/create-awesome-git-readme-profile-84efa0bcda3b) Medium article.
 
-  - https://emojipedia.org/
+## Buttons
 
-- Icons
+- https://trello.com/c/xA2bxoV4/274-github-buttons
 
-  - https://free-icons.github.io/free-icons/
+## Emojis
 
-  - and
-    https://github.com/simple-icons/simple-icons#cdn-usage
+- https://gist.github.com/rxaviers/7360908
 
-- Stats
+- https://emojipedia.org/
 
-  - https://github.com/anuraghazra/github-readme-stats
+## Icons
 
-- Below contains more than one of the above features
+- https://free-icons.github.io/free-icons/
 
-  - https://dev.to/grahamthedev/take-your-github-readme-to-the-next-level-responsive-and-light-and-dark-modes--3kpc
+- and
+  https://github.com/simple-icons/simple-icons#cdn-usage
 
-  - [A beginner’s guide to writing a stunning GitHub profile readme.](https://medium.com/theleanprogrammer/a-beginner-guide-to-writing-a-stunning-github-profile-readme-6ee0e211f5a8) Medium article by Yadvi Bhalla.
+## Stats
+
+- https://github.com/anuraghazra/github-readme-stats
+
+## Below contains more than one of the above features
+
+- https://dev.to/grahamthedev/take-your-github-readme-to-the-next-level-responsive-and-light-and-dark-modes--3kpc
+
+- [A beginner’s guide to writing a stunning GitHub profile readme.](https://medium.com/theleanprogrammer/a-beginner-guide-to-writing-a-stunning-github-profile-readme-6ee0e211f5a8) Medium article by Yadvi Bhalla.
