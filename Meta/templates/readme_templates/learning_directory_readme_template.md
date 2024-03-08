@@ -1,16 +1,22 @@
 # [name_of_the_directory_that_this_readme_file_is_in]
 
-## Purpose
+<!-- [This is the readme template that I'll use throughout the Learning Directory repo. And in directories of other repos.] -->
 
-[This is the readme template that I'll use throughout the Learning Directory repo.]
+## Purpose
 
 This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
 
 ## About
 
+[Some information about this directory.]
+
 ## Resources
 
+[Some resources relevant to this directory.]
+
 ## Directories and Files
+
+Navigate back to the [parent readme file.](../README.md)
 
 ### Directories
 
@@ -20,9 +26,11 @@ This directory houses information about [name_of_the_directory_that_this_readme_
 
 [More_info_about_this_directory.]
 
+The [directory_name/ README.md](./directory_name/README.md) file.
+
 ### Files
 
-#### [name_of_other_file_in_here.extension]
+#### [name_of_other_file_in_here.extension]()
 
 [About_this_file.]
 

@@ -16,6 +16,8 @@ I anticipate needing and/or using at least a few templates over time. This is wh
 
 ## Directories and Files
 
+Navigate back to the [parent readme file.](../README.md)
+
 ### Directories
 
 ### Files
