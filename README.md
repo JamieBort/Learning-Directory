@@ -2,6 +2,8 @@
 
 ## Motivation
 
+<!-- TODO: change this - what is my current motivation? -->
+
 The purpose of this directory is to house all of the code I write as I learn new technologies and hone my skills.
 
 This is to help keep my GitHub account organized.
