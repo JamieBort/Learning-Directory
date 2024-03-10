@@ -1,41 +1,59 @@
-API
+# API
 
-The purpose of this directory is to learn how to use APIs.
+## Purpose
 
-## Status
+The purpose of this directory is for API research.
+This file holds info.
 
-Move all directories into the `GraphQL` directory or the `REST` directory.
-
-~~Just finished working on [Trello API Calls](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls)~~. 
+For a safe place to write code I've create this https://github.com/JamieBort/API-Playground repo.
 
 ## Directories and Files
+
 ### Directories
-* [APIPractice](https://github.com/JamieBort/LearningDirectory/tree/master/API/APIPractice) - unknown. Probably a playground or not valuable.
-* [GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies](https://github.com/JamieBort/LearningDirectory/tree/master/API/GitHubRESTAPIv3CrashCourseWithVanillaJavascriptNoDependencies) - unknown. **Probably valuable.**
-* [GraphQL]()
-* [MyGitHubAPI](https://github.com/JamieBort/LearningDirectory/tree/master/API/MyGitHubAPI) - unknown. **Probably valuable.**
-* [PlayingWithAPIsUsingPython](https://github.com/JamieBort/LearningDirectory/tree/master/API/PlayingWithAPIsUsingPython/01) - unknown.
-* [REST]()
-* [TrelloAPICalls](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls) - Just finished working on it.  **Valuable.**
+
+- Dashboards/ - Directory for the various api dashboards I'll encounter.
+
+- [GraphQL/](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL) - [about this directory].
+
+- [Postman/](https://github.com/JamieBort/LearningDirectory/tree/master/API/Postman) - The purpose of this directory is for learning to use Postman. Postman is an REST API endpoint testing tool. **There are other testing tools.**
+
+- [REST/](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST) - [about this directory].
+
+- [SOAP](https://github.com/JamieBort/LearningDirectory/tree/master/API/SOAP) - [about this directory]. - doesn't exist yet.
 
 ### Files
-* [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/API)
+
+- [README.md](https://github.com/JamieBort/LearningDirectory/tree/master/API) - This file.
 
 ## Next Steps
-Return to [Trello API Calls](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls). See [Next Steps](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls#next-steps) there. 
 
-## Resource
-Look into this website. It might be helpful for learning APIs better: https://apiary.io/how-apiary-works
-> Write an API in 30 minutes. Share it with your teammates or customers. Let them use the API mock to take your API for a spin--without writing any code. Iterate, rinse & repeat. Coding can wait until you know what your developers really need.
+Return to [Trello API Calls](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls). See [Next Steps](https://github.com/JamieBort/LearningDirectory/tree/master/API/TrelloAPICalls#next-steps) there.
 
-[ReqRes](https://reqres.in/)
->Test your front-end against a real API
->A hosted REST-API ready to respond to your AJAX requests.
+## Resources
+
+[API Workshop](https://github.com/jbelmont/api-workshop) workshop by jbelmont.
+
+- GraphQL `Resources` - see the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL#resources) section of the GraphQL README\.md file.
+
+- Postman `Resources` - see the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/API/Postman#resource) section of the Postman README\.md file.
+
+- Rest `Resources` - see the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST#resources) section of the REST README\.md file.
 
 ## Associated Links
 
-The [API Professional Development](https://trello.com/c/NFRSx1Q6/171-api-professional-development) Trello card associated with this GitHub repo.
+- GraphQL `Associated Links` - see the [Associated Links](https://github.com/JamieBort/LearningDirectory/tree/master/API/GraphQL#associated-links) section of the GraphQL README\.md file.
 
-The [API](https://github.com/JamieBort/LearningDirectory/tree/master/API) GitHub repo associated with this Trello card.
+- Postman `Associated Links` - see the [Associated Links](https://github.com/JamieBort/LearningDirectory/tree/master/API/Postman#associated-links) section of the Postman README\.md file.
 
-[Postman](https://github.com/JamieBort/LearningDirectory/tree/master/Postman) directory in the GitHub LearningDirectory repo.
+- Rest `Associated Links` - see the [Associated Links](https://github.com/JamieBort/LearningDirectory/tree/master/API/REST#associated-links) section of the REST README\.md file.
+
+- API Professional Development Trello card:
+  https://trello.com/c/NFRSx1Q6/171-api-professional-development
+
+- Fun APIs to play with (rest, graphql, all)
+
+  - WikiArt
+
+    - https://docs.google.com/document/u/0/d/1Vxi5lQnMCA21dvNm_7JVd6nQkDS3whV3YjRjbwWPfQU/mobilebasic#!
+    - https://www.wikiart.org/en/App/GetApi
+    - [api wikiart.org](https://www.google.com/search?q=api+wikiart.org&oq=api+wikiart.org&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTIyMzE0ajBqNKgCALACAA&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8#ip=1) internet search.
