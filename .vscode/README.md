@@ -1,1 +1,0 @@
-This directory exists for settings for Visual Studio Code.
