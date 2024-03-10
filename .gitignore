@@ -1,3 +1,11 @@
 *.DS_Store
-*.env
-*node_modules/
+
+.env
+
+node_modules
+# exempt the ./Languages/JavaScript/node_modules/ directory
+!/Languages/JavaScript/node_modules/
+
+scratch*
+
+.vscode
