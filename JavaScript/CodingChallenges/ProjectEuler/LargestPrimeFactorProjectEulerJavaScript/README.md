@@ -1,2 +1,0 @@
-# LargestPrimeFactorProjectEulerJavaScript
-LargestPrimeFactor ProjectEuler JavaScript
