@@ -1,5 +1,0 @@
-This is my message title.
-
-This is my message body first line.
-This is my message body second line.
-This is my message body third line.
