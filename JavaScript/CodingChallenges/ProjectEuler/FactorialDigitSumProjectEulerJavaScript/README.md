@@ -1,2 +1,0 @@
-# FactorialDigitSumProjectEulerJavaScript
-FactorialDigitSum ProjectEuler JavaScript
