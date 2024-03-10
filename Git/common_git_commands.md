@@ -2,9 +2,32 @@
 
 Common Git commands that I use and need to reference.
 
-## branch
+## Common Git Commands By Use Case
 
-### Deleting branches
+### Cleaning up the list of branches (local and remote)
+
+Of particular importance to me because I generated a lot with Dependabot pull requests.
+
+I used
+
+- `git branch --merged`,
+- `git branch --merged| grep -Ev "(^\*|master|main|dev)"`, and
+- `git branch --merged | grep -Ev "(^\*|master|main|dev)" | xargs git branch -d`
+
+from this [How do I delete all Git branches which have been merged?](https://stackoverflow.com/a/6127884) Stack Overflow response.
+
+### commands related to the .gitignore file
+
+#### checking if a particular file or directory is effected by the .gitignore file
+
+See the [Checking if the file is tracked in github](https://github.com/JamieBort/LearningDirectory/blob/master/Git/gitignore/README.md#checking-if-the-file-is-tracked-in-github) section of the gitignore README file.
+**Note, section name may change.**
+
+## Common Git Commands By Git <command>
+
+### branch
+
+#### Deleting branches
 
 Locally
 
@@ -16,7 +39,7 @@ Remote ones
 
 `git push origin -d remote_branch_name`
 
-### Rename branches
+#### Rename branches
 
 source: https://stackoverflow.com/a/6591218
 
@@ -29,7 +52,7 @@ To push the local branch and reset the upstream branch:
 To delete the remote branch:
 `git push origin --delete <oldname>`
 
-### view branches in a certain order
+#### view branches in a certain order
 
 Here is a simple command that lists all branches with latest commits:
 
@@ -43,13 +66,13 @@ Both from: https://github.com/JamieBort/Personal-Dashboard/issues/23#issuecommen
 
 Related, see https://github.com/JamieBort/LearningDirectory/blob/master/Git/common_git_commands.md#for-each-ref
 
-## commit
+### commit
 
-### Reference Issue number within a commit message
+#### Reference Issue number within a commit message
 
 > [include #xxx in your commit message to reference an issue without closing it.](https://stackoverflow.com/a/6742691)
 
-### Closing Issues via Commit Messages
+#### Closing Issues via Commit Messages
 
 [How to Close Reference issues and pull request](https://github.com/gitbucket/gitbucket/wiki/How-to-Close-Reference-issues-and-pull-request) GitHub Documentation
 
@@ -65,7 +88,7 @@ Referencing and closing issues across repos:
 
 > [fixes user/repo#xxx](https://stackoverflow.com/a/6742691)
 
-## diff
+### diff
 
 Git diff in specific file/directory while excluding files and directories
 [Exclude a directory from git diff](https://stackoverflow.com/questions/4380945/exclude-a-directory-from-git-diff) StackOverflow
@@ -76,7 +99,7 @@ Git diff in specific file/directory while excluding files and directories
 
 `git diff <one_branch>..<another_branch> -- ':!./backend/package.json' ':!./backend/package-lock.json' ':!./frontend/package.json' ':!./frontend/yarn.lock'`
 
-## merge
+### merge
 
 merging in only one file/directory
 
@@ -84,7 +107,7 @@ merging in only one file/directory
 
 merging in everything but one file/directory
 
-## for-each-ref
+### for-each-ref
 
 Here is a simple command that lists all branches with latest commits:
 
@@ -96,25 +119,18 @@ From: https://github.com/JamieBort/Personal-Dashboard/issues/23#issuecomment-195
 
 Related, see https://github.com/JamieBort/LearningDirectory/blob/master/Git/common_git_commands.md#view-branches-in-a-certain-order
 
-## rm
+### rm
 
-### Remove a cached file or directory
+#### Remove a cached file or directory
 
-#### Remove a cached file
+##### Remove a cached file
 
 `git rm --cached <path_to_file_name>`
 
-#### Remove a cached directory
+##### Remove a cached directory
 
 `git rm -r --cached <path_to_directory_name>`
 
 example:
 
 `git rm -r --cached node_modules/`
-
-## commands related to the .gitignore file
-
-### checking if a particular file or directory is effected by the .gitignore file
-
-See the [Checking if the file is tracked in github](https://github.com/JamieBort/LearningDirectory/blob/master/Git/gitignore/README.md#checking-if-the-file-is-tracked-in-github) section of the gitignore README file.
-**Note, section name may change.**
