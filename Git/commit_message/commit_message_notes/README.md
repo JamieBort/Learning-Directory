@@ -1,8 +1,20 @@
 # Commit Message Notes
 
-- The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages.
+## Purpose
 
-## Resources to explore
+This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
+
+## About
+
+The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages.
+
+## Resources
+
+Resources relevant to this directory.
+
+### Resources to explore
+
+These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
 
 It is possible some of the below will be relevant to the Git/commit_message_templates/ directory.
 
@@ -27,26 +39,34 @@ It is possible some of the below will be relevant to the Git/commit_message_temp
 
     Note, this `Better Commit Messages` Dev.to article has been added to the Git/commit_message_templates/ directory already.
 
+### Vetted Resources
+
 ## Directories and Files
+
+Information regarding the directories and files in this directory.
+
+Navigate back to the [parent readme file.](../README.md)
 
 ### Directories
 
-- commit_message_notes_images/
+#### [commit_message_notes_images/](./path_to_directry)
 
-  - images used in the commit_message_notes.md file.
+Images used in the commit_message_notes.md file.
+
+The [commit_message_notes_images/ README.md](./commit_message_notes_images/README.md) file.
 
 ### Files
 
-- commit_message_notes.md
+#### [commit_message_notes.md](./commit_message_notes.md)
 
-  - The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages.
+The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages.
 
-  - My notes on how to write a good commit message.
+My notes on how to write a good commit message.
 
-  - These notes are based on the resources found in the `Resources to explore` section above.
+These notes are based on the resources found in the `Resources to explore` section above.
 
-  - Those resources will be removed as they're reviewed. If they are used, they will be referenced in the commit_message_notes.md file.
+Those resources will be removed as they're reviewed. If they are used, they will be referenced in the commit_message_notes.md file.
 
-- README.md
+#### [README.md](./README.md)
 
-  - This readme file.
+This readme file.

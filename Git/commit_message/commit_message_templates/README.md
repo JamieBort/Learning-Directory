@@ -2,7 +2,21 @@
 
 Note, to take advantage of this template globally, it requires configuring the global git config file. More about that can be found here.
 
-## Resources to explore
+## Purpose
+
+This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
+
+## About
+
+[Some information about this directory.]
+
+## Resources
+
+Resources relevant to this directory.
+
+### Resources to explore
+
+These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
 
 - [Create A Custom Git Commit Template](https://alex-wasik.medium.com/create-a-custom-git-commit-template-84468232a459) Medium article by Alex Wasik May 10, 2019
 
@@ -14,22 +28,36 @@ Note, to take advantage of this template globally, it requires configuring the g
 
 - [Better Commit Messages](https://dev.to/thefern/better-commit-messages-3dnm) Dev.to article (using a template in vs code (cc [V.S.Code Master Card](https://trello.com/c/5VYmSSXO/520-visual-studio-code-master-card)))
 
+### Vetted Resources
+
 ## Directories and Files
+
+Information regarding the directories and files in this directory.
+
+Navigate back to the [parent readme file.](../README.md)
 
 ### Directories
 
+<!-- #### [directory_name/](./path_to_directry)
+
+[About_this_directory.]
+
+[More_info_about_this_directory.]
+
+The [directory_name/ README.md](./directory_name/README.md) file. -->
+
 ### Files
 
-- commit_message_template_notes.md
+#### [commit_message_template_notes.md](./commit_message_template_notes.md)
 
-  - The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages Templates.
+The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages Templates.
 
-  - My notes on how to write, create, and use commit message templates.
+My notes on how to write, create, and use commit message templates.
 
-  - These notes are based on the resources found in the `Resources to explore` section above.
+These notes are based on the resources found in the `Resources to explore` section above.
 
-  - Those resources will be removed as they're reviewed. If they are used, they will be referenced in the commit_message_notes.md file.
+Those resources will be removed as they're reviewed. If they are used, they will be referenced in the commit_message_notes.md file.
 
-- README.md
+#### [README.md](./README.md)
 
-  - This readme file.
+This readme file.
