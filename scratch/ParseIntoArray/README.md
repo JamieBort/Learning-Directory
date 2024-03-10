@@ -1,1 +1,0 @@
-From: https://stackoverflow.com/questions/48509968/parse-a-google-spreadsheet-into-a-javascript-array
