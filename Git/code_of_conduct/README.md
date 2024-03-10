@@ -4,9 +4,9 @@
 
 This directory houses information about behavior while contributing to Git (GitHub ?) repos.
 
-## Resources ot explore
+## Resources to explore
 
-Resources ot explore for the code_of_conduct_notes.md file.
+Resources to explore for the code_of_conduct_notes.md file.
 
 They'll be deleted when I am done with them.
 
@@ -50,7 +50,7 @@ Additionally they will be referenced in the code_of_conduct_notes.md file if I u
 
 - code_of_conduct_notes.md
 
-  - My notes from the files found under the `Resources ot explore` section above.
+  - My notes from the files found under the `Resources to explore` section above.
 
 - code_of_conduct_template.md
 

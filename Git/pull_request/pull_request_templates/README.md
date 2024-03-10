@@ -14,7 +14,7 @@ See `https://github.com/JamieBort/LearningDirectory/tree/master/.github/PULL_REQ
 
 **Maybe** the template has to be in the master/main branch before it will work.
 
-## Resources ot explore
+## Resources to explore
 
 - [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
 

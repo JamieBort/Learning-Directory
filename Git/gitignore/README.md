@@ -6,6 +6,10 @@ This directory houses information about .gitignore files in general.
 
 Therefore, info regarding the .gitignore file in `this` LearningDirectory repo can be found in this [meta/gitignore/](../../Meta/README.md#metagitignore) directory.
 
+## About
+
+[Some information about this directory.]
+
 ## General info
 
 [5 Types of File to Include in Your .gitignore](https://www.makeuseof.com/gitignore-file-types-to-include/)
@@ -75,21 +79,13 @@ From https://stackoverflow.com/a/3307252:
 
 > Please remember that patterns in .gitignore file apply recursively to the (sub)directory the file is in and all its subdirectories, unless pattern contains '/' (so e.g. pattern name applies to any file named name in given directory and all its subdirectories, while /name applies to file with this name only in given directory). (From https://stackoverflow.com/a/3307252)
 
-## Directories and Files
+## Resources
 
-### Directories
+[Some resources relevant to this directory.]
 
-### Files
+### Resources to explore
 
-#### [README.md](./README.md)
-
-This readme file.
-
-#### [template_gitignore.md](./template_gitignore.md)
-
-A template for the .gitignore file.
-
-## Associated Links
+These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
 
 - See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
@@ -140,3 +136,23 @@ A template for the .gitignore file.
   - https://www.gitignore.io/ (The [Source](https://stackoverflow.com/a/60221045/8210460))
 
 - My [Gitignore](https://docs.google.com/document/d/1jjaClZ6chwkRsA4jQJf6zIMMsiOrYBqi6bvuSSJ3NaU/edit#heading=h.5tr8sqn1eyz0) Google Drive doc.
+
+### Vetted Resources
+
+## Directories and Files
+
+Information regarding the directories and files in this directory.
+
+Navigate back to the [parent readme file.](../README.md)
+
+### Directories
+
+### Files
+
+#### [README.md](./README.md)
+
+This readme file.
+
+#### [template_gitignore.md](./template_gitignore.md)
+
+A template for the .gitignore file.

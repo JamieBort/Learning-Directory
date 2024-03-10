@@ -12,9 +12,17 @@ This directory houses information about [name_of_the_directory_that_this_readme_
 
 ## Resources
 
-[Some resources relevant to this directory.]
+Resources relevant to this directory.
+
+### Resources to explore
+
+These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
+
+### Vetted Resources
 
 ## Directories and Files
+
+Information regarding the directories and files in this directory.
 
 Navigate back to the [parent readme file.](../README.md)
 
