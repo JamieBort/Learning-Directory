@@ -31,6 +31,8 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 - https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
 
+- https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_TypeScript
+
 ### Vetted Resources
 
 ## Directories and Files

@@ -18,7 +18,7 @@ and
 
 - https://education.launchcode.org/intro-to-professional-web-dev/chapters/typescript/exercises.html
 
-while collaborating with https://trello.com/c/mD2AFgUJ/948-julia-zolotarev-master-card
+while collaborating with [Julia](https://trello.com/c/mD2AFgUJ/948-julia-zolotarev-master-card).
 
 ### Status
 
@@ -50,17 +50,13 @@ Navigate back to the <parent_directory> [README.md](../README.md) file.
 
 #### [attempt_01/](./attempt_01/)
 
-<!-- [About_this_directory.]
-
-[More_info_about_this_directory.] -->
+First attempt to solving the challenges that were created in the typescript-lc101-projects_renamed/ directory. See the [typescript-lc101-projects_renamed/](#typescript-lc101-projects_renamed) section below.
 
 The [attempt_01/ README.md](./attempt_01/README.md) file.
 
 #### [typescript-lc101-projects_renamed/](./typescript-lc101-projects_renamed/)
 
-<!-- [About_this_directory.]
-
-[More_info_about_this_directory.] -->
+Directories and files created from following the instructions found here: https://education.launchcode.org/intro-to-professional-web-dev/chapters/typescript/exercises.html
 
 The [typescript-lc101-projects_renamed/ README.md](./typescript-lc101-projects_renamed/README.md) file.
 
