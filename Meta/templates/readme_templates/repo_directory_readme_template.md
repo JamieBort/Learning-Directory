@@ -18,7 +18,10 @@ Resources relevant to this directory.
 
 ### Resources to explore
 
-These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
+<!-- TODO: Old to be updated:
+These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory. -->
+
+These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
 <!-- - first resource
 
@@ -29,6 +32,26 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 ## Directories and Files
 
 Information regarding the directories and files in this directory.
+
+<!-- TODO: Consider changing
+
+Navigate back to the [parent_readme_file/ README.md](../README.md)
+
+to
+
+Navigate back to the parent readme file.
+
+or to
+
+Navigate back to the readme file in the parent directory.
+
+or to
+
+Navigate back to the <parent_directory> [README.md](../README.md) file.
+
+If so update all files....
+
+-->
 
 Navigate back to the [parent_readme_file/ README.md](../README.md)
 
