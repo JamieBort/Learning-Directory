@@ -2,7 +2,7 @@
 
 Common Git commands that I use and need to reference.
 
-## Common Git Commands By Use Case
+## Listed By Use Case
 
 ### Cleaning up the list of branches (local and remote)
 
@@ -14,16 +14,27 @@ I used
 - `git branch --merged| grep -Ev "(^\*|master|main|dev)"`, and
 - `git branch --merged | grep -Ev "(^\*|master|main|dev)" | xargs git branch -d`
 
-from this [How do I delete all Git branches which have been merged?](https://stackoverflow.com/a/6127884) Stack Overflow response.
+source:
+[How do I delete all Git branches which have been merged?](https://stackoverflow.com/a/6127884) Stack Overflow response.
 
 ### commands related to the .gitignore file
+
+### Renaming a file
+
+command:
+`git mv OLD-FILENAME NEW-FILENAME`
+
+source:
+[Renaming a file](https://docs.github.com/en/repositories/working-with-files/managing-files/renaming-a-file#renaming-a-file-using-the-command-line) (Renaming a file using the command line)
+
+> You can rename any file in your repository directly in GitHub or by using the command line.
 
 #### checking if a particular file or directory is effected by the .gitignore file
 
 See the [Checking if the file is tracked in github](https://github.com/JamieBort/LearningDirectory/blob/master/Git/gitignore/README.md#checking-if-the-file-is-tracked-in-github) section of the gitignore README file.
 **Note, section name may change.**
 
-## Common Git Commands By Git <command>
+## Listed (alphabetically )By Using a Git <command>
 
 ### branch
 

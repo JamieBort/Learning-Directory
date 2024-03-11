@@ -81,11 +81,11 @@ collapsed:: true
 
 ## ???
 
-### git-hooks
+<!-- ### git-hooks
 
 What are git-hooks?
 
-First used here: [Back link](https://github.com/JamieBort/Digital-Knowledge-Base/blob/main/pages/Logseq.md#backing-up-via-github)
+First used here: [Back link](https://github.com/JamieBort/Digital-Knowledge-Base/blob/main/pages/Logseq.md#backing-up-via-github) -->
 
 ## Resources
 
@@ -171,6 +171,8 @@ All things related to contributing to Git (GitHub ?) repos.
 #### [env/](./env/)
 
 This directory houses information about .env files and environment variables.
+
+#### [git-hooks/](./git-hooks/)
 
 #### [gitignore/](./gitignore/)
 
