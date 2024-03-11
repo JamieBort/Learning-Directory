@@ -27,17 +27,19 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the [Languages/ README.md](../README.md)
+<!-- Navigate back to the [Languages/ README.md](../README.md) -->
+
+Navigate back to the Typescript [README.md](../README.md) file.
 
 ### Directories
 
-<!-- #### [directory_name/](./path_to_directory)
+#### [Typescript_Playground/](./Typescript_Playground/)
 
-[About_this_directory.]
+<!-- [About_this_directory.]
 
-[More_info_about_this_directory.]
+[More_info_about_this_directory.] -->
 
-The [directory_name/ README.md](./directory_name/README.md) file. -->
+The [Typescript_Playground/ README.md](./Typescript_Playground/README.md) file.
 
 ### Files
 
