@@ -1,6 +1,14 @@
 # Visual Studio Code
 
-https://trello.com/c/5VYmSSXO/520-visual-studio-code-master-card
+## Purpose
+
+The purpose of this directory is to <!-- [...]. -->
+
+## About
+
+This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
+
+<!-- [Some information about this directory.] -->
 
 ## .vscode config file
 
@@ -44,18 +52,56 @@ Use Cases that I still need a solution for
 
 - Search, find, and open a specific README among all the readme files in this repo.
 
+- Closing all files in the editor with `command + ???`
+
+- Collapsing all directories in the explorer (to the left) with `command + ???`
+
+- Opening all primary directories in the explorer (to the left) with `command + ???`
+
+- Opening ALL directories in the explorer (to the left) with `command + ???`
+
 ### Keyboard Shortcuts
 
 ### Use Cases for things I'd like to know how to do
 
 - How to close all open software files in the editor, folder, or window.
 
+## Resources
+
+Resources relevant to this directory.
+
+### Resources to explore
+
+These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
+
+- https://trello.com/c/5VYmSSXO/520-visual-studio-code-master-card
+
+### Vetted Resources
+
 ## Directories and Files
+
+Information regarding the directories and files in this directory.
+
+Navigate back to the [parent_readme_file/ README.md](../README.md)
 
 ### Directories
 
+<!-- #### [directory_name/](./path_to_directry)
+
+[About_this_directory.]
+
+[More_info_about_this_directory.]
+
+The [directory_name/ README.md](./directory_name/README.md) file. -->
+
 ### Files
 
-#### [README](./README.md)
+<!-- #### [name_of_other_file_in_here.extension]()
+
+[About_this_file.]
+
+[More_info_about_this_file.] -->
+
+#### [README.md](./README.md)
 
 This readme file.
