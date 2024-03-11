@@ -4,9 +4,11 @@
 
 ## Purpose
 
-This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
+The purpose of this directory is to [...].
 
 ## About
+
+This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
 
 [Some information about this directory.]
 
