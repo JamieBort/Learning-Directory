@@ -28,13 +28,13 @@ Navigate back to the [parent readme file.](../README.md)
 
 ### Directories
 
-#### [commit_message_templates/](./commit_message_templates)
+#### [commit_message_templates/](./commit_message_templates/)
 
 The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages Templates.
 
 The [directory_name/ README.md](./commit_message_templates/README.md) file.
 
-#### [commit_message_templates/](./commit_message_notes)
+#### [commit_message_notes/](./commit_message_notes/)
 
 The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages.
 
