@@ -216,6 +216,18 @@ This directory houses information about Git security.
 
 Common Git commands that I use and need to reference.
 
+- Listed By Error Or Message
+
+  Solutions that I needed to seek out due to an error or message that I came across.
+
+- Listed By Use Case
+
+  A situation (not precipitated by an error nor message) that I needed to search for a solution for.
+
+- Listed (alphabetically) By Using a Git <command>
+
+  Commands listed alphabetically by git command.
+
 #### [git_features.md](./git_features.md)
 
 Git features such as Issues.
