@@ -18,10 +18,23 @@ Resources relevant to this directory.
 
 These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
-- Some TypeScript resources found here:
-  https://trello.com/c/HN0yPqxa/949-pair-programming-with-julia-on-march-10
+- https://exercism.io/tracks/typescript/
+
+- exercises:
+
+  - https://typescript-exercises.github.io/
+
+  - https://github.com/typescript-exercises/typescript-exercises
+
+  - https://exercism.io/tracks/typescript/exercises
+
+  - https://education.launchcode.org/intro-to-professional-web-dev/chapters/typescript/exercises.html
 
 ### Vetted Resources
+
+- https://www.typescriptlang.org/
+
+- https://education.launchcode.org/intro-to-professional-web-dev/chapters/typescript/index.html
 
 ## Directories and Files
 

@@ -36,6 +36,14 @@ Note, Items found in this resources section contain content that do not fit in j
 
 ## Directories and Files
 
+Information regarding the directories and files in this directory.
+
+<!-- Navigate back to the [parent_readme_file/ README.md](../README.md) -->
+
+The [Learning Directory README.md](../README.md) file.
+
+<!-- The [Meta/ README.md](../Meta/README.md) file. -->
+
 ### Directories
 
 ### [./.github/](../.github)
@@ -103,6 +111,12 @@ To house template files for this repo.
 #### [Principles Paradigms Patterns Designs](../PrinciplesParadigmsPatternsDesigns/)
 
 #### [Regular Expressions](../RegularExpressions/)
+
+#### [Resources](../Resources/)
+
+This directory houses information about all the topics found in the Learning Directory repo.
+
+However the ones found here are here because they encompasses information about more than one topic. Rather than reference this info at least twice, once in each directory, it is placed here.
 
 #### [Security](../Security/)
 
