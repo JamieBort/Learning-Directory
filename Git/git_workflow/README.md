@@ -6,6 +6,8 @@
 
 I created this directory to document the best way to "collaborate" with myself in my repos.
 
+<!-- NOTE: See brainstorm in this https://github.com/JamieBort/Learning-Directory/issues/248 Issue. -->
+
 ## About
 
 Currently these directories were thrown together just to put some thoughts down "on paper". I'll clean them up as I return to them.
