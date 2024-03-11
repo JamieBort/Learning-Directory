@@ -12,7 +12,7 @@ This directory houses Readme templetes for project repos from other people.
 
 ### Resources to explore
 
-These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
+These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
 ### Vetted Resources
 

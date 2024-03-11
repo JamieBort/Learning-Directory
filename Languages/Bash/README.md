@@ -28,7 +28,7 @@ Resources relevant to this directory.
 
 ### Resources to explore
 
-These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
+These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
 - [3 command line games for learning Bash the fun way](https://opensource.com/article/19/10/learn-bash-command-line-games)
 
