@@ -1,8 +1,12 @@
-# IDEs (Integrated Development Environments)
+# Continuous Deployment
+
+<!-- [This is the readme template that I'll use throughout the Learning Directory repo. And in directories of other repos.] -->
 
 ## Purpose
 
 The purpose of this directory is to <!-- [...]. -->
+
+I crated this directory as a result of coming across the article found in "Something to consider" below.
 
 ## About
 
@@ -18,7 +22,7 @@ Resources relevant to this directory.
 
 These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
 
-- https://trello.com/c/0iZsyItX/599-ides-integrated-development-environment
+- [Something to consider](https://stackoverflow.com/a/30247795) as I learn look into ways to better "collaborate" with just myself.
 
 ### Vetted Resources
 
@@ -26,21 +30,17 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-<!-- Navigate back to the [parent_readme_file/ README.md](../README.md) -->
-
-The [Learning Directory README.md](../README.md) file.
-
-The [Meta/ README.md](../Meta/README.md) file.
+Navigate back to the [git_workflow/ README.md](../README.md)
 
 ### Directories
 
-#### [Visual Studio Code/](./VisualStudioCode/)
+<!-- #### [directory_name/](./path_to_directory)
 
-<!-- [About_this_directory.]
+[About_this_directory.]
 
-[More_info_about_this_directory.] -->
+[More_info_about_this_directory.]
 
-The [VisualStudioCode/ README.md](./VisualStudioCode/README.md) file.
+The [directory_name/ README.md](./directory_name/README.md) file. -->
 
 ### Files
 

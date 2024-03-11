@@ -1,12 +1,18 @@
-# Frameworks
+# Git Workflow
 
 ## Purpose
 
 <!-- The purpose of this directory is to [...]. -->
 
+I created this directory to document the best way to "collaborate" with myself in my repos.
+
+<!-- NOTE: See brainstorm in this https://github.com/JamieBort/Learning-Directory/issues/248 Issue. -->
+
 ## About
 
-This directory houses information about JavaScript Frameworks.
+Currently these directories were thrown together just to put some thoughts down "on paper". I'll clean them up as I return to them.
+
+<!-- This directory houses information about [name_of_the_directory_that_this_readme_file_is_in]. -->
 
 <!-- [Some information about this directory.] -->
 
@@ -18,59 +24,31 @@ Resources relevant to this directory.
 
 These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
 
-<!-- - first resource
-
-- second resource -->
-
 ### Vetted Resources
 
 ## Directories and Files
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the [JavaScript/ README.md](../README.md)
+Navigate back to the [git_workflow/ README.md](../README.md)
 
 ### Directories
 
-#### [Angular/](./Angular/)
+#### [continuous_deployment/](./git_flow/)
 
 <!-- [About_this_directory.]
 
 [More_info_about_this_directory.] -->
 
-The [Angular/ README.md](./Angular/README.md) file.
+The [continuous_deployment/ README.md](./continuous_deployment/README.md) file.
 
-#### [gatsby-site/](./gatsby-site/)
-
-<!-- [About_this_directory.]
-
-[More_info_about_this_directory.] -->
-
-The [gatsby-site/ README.md](./gatsby-site/README.md) file.
-
-#### [NextJS/](./NextJS/)
+#### [git_flow/](./git_flow/)
 
 <!-- [About_this_directory.]
 
 [More_info_about_this_directory.] -->
 
-The [NextJS/ README.md](./NextJS/README.md) file.
-
-#### [ReactNative/](./ReactNative/)
-
-<!-- [About_this_directory.]
-
-[More_info_about_this_directory.] -->
-
-The [ReactNative/ README.md](./ReactNative/README.md) file.
-
-#### [Svelte/](./Svelte/)
-
-<!-- [About_this_directory.]
-
-[More_info_about_this_directory.] -->
-
-The [Svelte/ README.md](./Svelte/README.md) file.
+The [git_flow/ README.md](./git_flow/README.md) file.
 
 ### Files
 

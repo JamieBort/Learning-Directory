@@ -1,8 +1,8 @@
-# Svelt
+# Svelte Notes
 
-## Svelt Typescript
+## Svelte Typescript
 
-Svelt Typescript resources for my portfolio website:
+Svelte Typescript resources for my portfolio website:
 
 - https://www.google.com/search?q=typescript+svelt&oq=typescript+svelt&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDc0NTBqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8,
 

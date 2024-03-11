@@ -2,7 +2,20 @@
 
 Common Git commands that I use and need to reference.
 
+## Listed By Error Or Message
+
+Solutions that I needed to seek out due to an error or message that I came across.
+
+### `Already up-to-date`
+
+situation:
+I attempted to merge main into dev: `git merge main` and received `Already up-to-date`.
+
+The solution I used: https://stackoverflow.com/q/634546
+
 ## Listed By Use Case
+
+A situation (not precipitated by an error nor message) that I needed to search for a solution for.
 
 ### Cleaning up the list of branches (local and remote)
 
@@ -17,7 +30,9 @@ I used
 source:
 [How do I delete all Git branches which have been merged?](https://stackoverflow.com/a/6127884) Stack Overflow response.
 
-### commands related to the .gitignore file
+### Commands related to the .gitignore file
+
+Clearing the git cache for example.
 
 ### Renaming a file
 
@@ -29,14 +44,16 @@ source:
 
 > You can rename any file in your repository directly in GitHub or by using the command line.
 
-#### checking if a particular file or directory is effected by the .gitignore file
+#### Checking if a particular file or directory is effected by the .gitignore file
 
 See the [Checking if the file is tracked in github](https://github.com/JamieBort/LearningDirectory/blob/master/Git/gitignore/README.md#checking-if-the-file-is-tracked-in-github) section of the gitignore README file.
 **Note, section name may change.**
 
-## Listed (alphabetically )By Using a Git <command>
+## Listed (alphabetically) By Using a Git <command>
 
-### branch
+Commands listed alphabetically by git command.
+
+### `branch`
 
 #### Deleting branches
 
@@ -77,7 +94,7 @@ Both from: https://github.com/JamieBort/Personal-Dashboard/issues/23#issuecommen
 
 Related, see https://github.com/JamieBort/LearningDirectory/blob/master/Git/common_git_commands.md#for-each-ref
 
-### commit
+### `commit`
 
 #### Reference Issue number within a commit message
 
@@ -99,7 +116,7 @@ Referencing and closing issues across repos:
 
 > [fixes user/repo#xxx](https://stackoverflow.com/a/6742691)
 
-### diff
+### `diff`
 
 Git diff in specific file/directory while excluding files and directories
 [Exclude a directory from git diff](https://stackoverflow.com/questions/4380945/exclude-a-directory-from-git-diff) StackOverflow
@@ -110,7 +127,7 @@ Git diff in specific file/directory while excluding files and directories
 
 `git diff <one_branch>..<another_branch> -- ':!./backend/package.json' ':!./backend/package-lock.json' ':!./frontend/package.json' ':!./frontend/yarn.lock'`
 
-### merge
+### `merge`
 
 merging in only one file/directory
 
@@ -118,7 +135,7 @@ merging in only one file/directory
 
 merging in everything but one file/directory
 
-### for-each-ref
+### `for-each-ref`
 
 Here is a simple command that lists all branches with latest commits:
 
@@ -130,7 +147,7 @@ From: https://github.com/JamieBort/Personal-Dashboard/issues/23#issuecomment-195
 
 Related, see https://github.com/JamieBort/LearningDirectory/blob/master/Git/common_git_commands.md#view-branches-in-a-certain-order
 
-### rm
+### `rm`
 
 #### Remove a cached file or directory
 
