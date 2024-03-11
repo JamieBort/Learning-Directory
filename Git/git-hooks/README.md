@@ -20,9 +20,7 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 ### git-hooks
 
-What are git-hooks?
-
-First used here: [Back link](https://github.com/JamieBort/Digital-Knowledge-Base/blob/main/pages/Logseq.md#backing-up-via-github)
+First used here: [Backing up via GitHub](https://github.com/JamieBort/Digital-Knowledge-Base/blob/main/pages/Logseq.md#backing-up-via-github)
 
 ### Vetted Resources
 
