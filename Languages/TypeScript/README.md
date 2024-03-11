@@ -1,37 +1,52 @@
 # TypeScript
 
-For my Svelt TypeScript Portfolio update:
+## Purpose
 
-- https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
+<!-- The purpose of this directory is to [...]. -->
 
-- https://github.com/JamieBort/LearningDirectory/tree/master/Languages/JavaScript/Frameworks/Svelte
+## About
 
-This directory houses all the TypeScript courses, projects, and coding challenges I have started and completed.
+This directory houses information about TypeScript.
 
-This directory should have ONLY the following directies in it, plus this readme file:
+<!-- [Some information about this directory.] -->
 
-1. `Courses`
-2. `Coding Challenges` and
-3. `Projects`
+## Resources
 
-as defined in this [Explanation of files and directories](https://github.com/JamieBort/LearningDirectory#explanation-of-files-and-directories) section; and this readme file.
+Resources relevant to this directory.
 
-~~Note: Added the `Java_Specific_Concepts` directory to work on Packages.~~
+### Resources to explore
 
-## Courses
+These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
 
-Udemy courses and the like.
-Tutorials.
+- Some TypeScript resources found here:
+  https://trello.com/c/HN0yPqxa/949-pair-programming-with-julia-on-march-10
 
-## Coding Challenges
+### Vetted Resources
 
-Exercises from sites such as CodeWars.com
+## Directories and Files
 
-### Projects
+Information regarding the directories and files in this directory.
 
-I don't think this should be in here any more. But will leave it for now.
+Navigate back to the [Languages/ README.md](../README.md)
 
-~~## Java_Specific_Concepts~~
+### Directories
 
-Some TypeScript resources found here:
-https://trello.com/c/HN0yPqxa/949-pair-programming-with-julia-on-march-10
+<!-- #### [directory_name/](./path_to_directory)
+
+[About_this_directory.]
+
+[More_info_about_this_directory.]
+
+The [directory_name/ README.md](./directory_name/README.md) file. -->
+
+### Files
+
+<!-- #### [name_of_other_file_in_here.extension]()
+
+[About_this_file.]
+
+[More_info_about_this_file.] -->
+
+#### [README.md](./README.md)
+
+This readme file.

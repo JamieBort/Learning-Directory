@@ -26,7 +26,11 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the [parent_readme_file/ README.md](../README.md)
+<!-- Navigate back to the [parent_readme_file/ README.md](../README.md) -->
+
+The [Learning Directory README.md](../README.md) file.
+
+The [Meta/ README.md](../Meta/README.md) file.
 
 ### Directories
 

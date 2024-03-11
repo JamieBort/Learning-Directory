@@ -1,30 +1,22 @@
 # JavaScript
 
-This directory houses all the JavaScript courses, projects, and coding challenges I have started and completed.
+## Purpose
 
-I am in the process of moving some files and directories from [this repo](https://github.com/JamieBort/CodeChallenges) into this directory.
+<!-- The purpose of this directory is to [...]. -->
 
-When done, this directory should have ONLY the following directories in it:
+## About
 
-1. `Courses`
-2. `Coding Challenges` and
-3. `Projects`
+This directory houses information about JavaScript.
 
-as defined in this [Explanation of files and directories](https://github.com/JamieBort/LearningDirectory#explanation-of-files-and-directories) section; and this readme file.
-
-There are also 4. `Frameworks` 5. `Libraries` and 6. `Testing`
-
-`JavaScript`, and `scratch` are temporary.
-
----
-
-info on package.json properties
-https://docs.npmjs.com/cli/v10/configuring-npm/package-json
-a good resource.
-
----
+<!-- [Some information about this directory.] -->
 
 ## Resources
+
+Resources relevant to this directory.
+
+### Resources to explore
+
+These will be deleted when I am done with them. If they are of use they'll be moved to [Vetted Resources](#vetted-resources) below. Or a relevant file/directory in this directory.
 
 - jq
 
@@ -36,46 +28,101 @@ a good resource.
 
     > jq is a lightweight and flexible command-line JSON processor akin to `sed`,`awk`,`grep`, and friends for JSON data. It's written in portable C and has zero runtime dependencies, allowing you to easily slice, filter, map, and transform structured data.
 
+### Vetted Resources
+
 ## Directories and Files
+
+Information regarding the directories and files in this directory.
+
+Navigate back to the [Languages/ README.md](../README.md)
 
 ### Directories
 
-- Coding Challenges/
+#### [CodingChallenges/](./CodingChallenges/)
 
-  - Exercises from sites such as CodeWars.com
+Exercises from sites such as CodeWars.com
 
-- Courses/
+The [CodingChallenges/ README.md](./CodingChallenges/README.md) file.
 
-  - Udemy courses and the like. Tutorials.
+#### [Courses/](./Courses/)
 
-- Projects/
+Udemy courses and the like. Tutorials.
 
-  - Doesn't exist yet.
+The [Courses/ README.md](./Courses/README.md) file.
 
-- JavaScript Specific Concepts/
+#### [Frameworks/](./Frameworks/)
 
-  - A directory to house files and directories used to learn these specific concepts.
+<!-- Exercises from sites such as CodeWars.com -->
 
-- Libraries/
+The [Frameworks/ README.md](./Frameworks/README.md) file.
 
-  - Libraries such as Redux or D3 that I am trying to lear using.
+#### [IntroductionToAJAXWithjQuery/](./IntroductionToAJAXWithjQuery/)
 
-- Testing/
+<!-- Exercises from sites such as CodeWars.com -->
 
-  - ?
+The [IntroductionToAJAXWithjQuery/ README.md](./IntroductionToAJAXWithjQuery/README.md) file.
 
-- TheIronYard/
-  - Moved this directory from ~/Documents/DevFiles/Personal_Projects/LearningDirectory/JavaScript/CodingChallenges/ to ~/Documents/DevFiles/Personal_Projects/LearningDirectory/JavaScript/
+#### [JavaScriptSpecificConcepts/](./JavaScriptSpecificConcepts/)
+
+A directory to house files and directories used to learn these specific concepts.
+
+The [JavaScriptSpecificConcepts/ README.md](./JavaScriptSpecificConcepts/README.md) file.
+
+#### [JavaScriptTesting/](./JavaScriptTesting/)
+
+<!-- Exercises from sites such as CodeWars.com -->
+
+Note, [Testing/](./Testing/) exists.
+
+The [JavaScriptTesting/ README.md](./JavaScriptTesting/README.md) file.
+
+#### [Libraries/](./Libraries/)
+
+Libraries such as Redux or D3 that I am trying to learn using.
+
+The [Libraries/ README.md](./Libraries/README.md) file.
 
 #### [node_modules/](./node_modules/)
 
-These should not be uploaded to git repositories.
+<!-- Exercises from sites such as CodeWars.com -->
+
+The [node_modules/ README.md](./node_modules/README.md) file.
 
 #### [package/](./package/)
 
 This directory does not belong here.
 
+The [package/ README.md](./package/README.md) file.
+
+#### [scratch/](./scratch/)
+
+I am not sure but it should not be here.
+
+The [scratch/ README.md](./scratch/README.md) file.
+
+#### [Testing/](./Testing/)
+
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+Note, [JavaScriptTesting/](./JavaScriptTesting/) exists.
+
+The [Testing/ README.md](./Testing/README.md) file.
+
+#### [TheIronYard/](./TheIronYard/)
+
+Moved this directory from LearningDirectory/JavaScript/CodingChallenges/ to LearningDirectory/JavaScript/
+
+The [TheIronYard/ README.md](./TheIronYard/README.md) file.
+
 ### Files
+
+<!-- #### [name_of_other_file_in_here.extension]()
+
+[About_this_file.]
+
+[More_info_about_this_file.] -->
 
 #### [README.md](./README.md)
 

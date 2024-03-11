@@ -30,17 +30,17 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the [parent_readme_file/ README.md](../README.md)
+Navigate back to the [git_workflow/ README.md](../README.md)
 
 ### Directories
 
-#### [directory_name/](./path_to_directry)
+<!-- #### [directory_name/](./path_to_directory)
 
-<!-- [About_this_directory.]
+[About_this_directory.]
 
-[More_info_about_this_directory.] -->
+[More_info_about_this_directory.]
 
-The [directory_name/ README.md](./directory_name/README.md) file.
+The [directory_name/ README.md](./directory_name/README.md) file. -->
 
 ### Files
 

@@ -34,7 +34,7 @@ Navigate back to the [parent_readme_file/ README.md](../README.md)
 
 ### Directories
 
-#### [directory_name/](./path_to_directry)
+#### [directory_name/](./path_to_directory)
 
 <!-- [About_this_directory.]
 

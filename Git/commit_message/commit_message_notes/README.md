@@ -49,7 +49,7 @@ Navigate back to the [parent readme file.](../README.md)
 
 ### Directories
 
-#### [commit_message_notes_images/](./path_to_directry)
+#### [commit_message_notes_images/](./commit_message_notes_images/)
 
 Images used in the commit_message_notes.md file.
 

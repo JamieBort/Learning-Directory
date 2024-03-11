@@ -32,7 +32,7 @@ Navigate back to the [git_flow/ README.md](../README.md)
 
 ### Directories
 
-<!-- #### [directory_name/](./path_to_directry)
+<!-- #### [directory_name/](./path_to_directory)
 
 [About_this_directory.]
 
