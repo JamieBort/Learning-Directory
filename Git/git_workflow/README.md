@@ -34,6 +34,10 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 - [Create a Github Actions workflow that auto-merges the master back to dev](https://medium.com/@karlstad/create-a-github-actions-workflow-that-auto-merges-the-master-back-to-dev-branch-8b1ebe7009b3) Feb 14, 2020 Medium article by [Alexander Karlstad](https://medium.com/@karlstad).
 
+- [git bringing feature branch up to date with master](https://www.google.com/search?q=git+bringing+feature+branch+up+to+date+with+master&oq=git+bringing+feature+branch+up+to+date+with+master&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDg1NDJqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8)
+
+  - [Updating a feature branch](https://gist.github.com/whoisryosuke/36b3b41e738394170b9a7c230665e6b9) gist.
+
 ### Vetted Resources
 
 ## Directories and Files
