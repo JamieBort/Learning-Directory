@@ -24,6 +24,14 @@ Resources relevant to this directory.
 
 These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
+- [Automatically merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/automatically-merging-a-pull-request)
+
+  > You can increase development velocity by enabling auto-merge for a pull request so that the pull request will merge automatically when all merge requirements are met.
+
+- [Can GitHub automatically merge branches?](https://stackoverflow.com/questions/35445186/can-github-automatically-merge-branches)
+
+- [Create a Github Actions workflow that auto-merges the master back to dev](https://medium.com/@karlstad/create-a-github-actions-workflow-that-auto-merges-the-master-back-to-dev-branch-8b1ebe7009b3) Feb 14, 2020 Medium article by [Alexander Karlstad](https://medium.com/@karlstad).
+
 ### Vetted Resources
 
 ## Directories and Files
