@@ -152,6 +152,8 @@ Navigate back to the [parent readme file.](../README.md)
 
 ### Directories
 
+#### [actions/](./actions/)
+
 #### [code_of_conduct/](./code_of_conduct/)
 
 This directory houses information about behavior while contributing to Git (GitHub ?) repos.
