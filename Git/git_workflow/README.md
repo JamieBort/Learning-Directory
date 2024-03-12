@@ -1,5 +1,7 @@
 # Git Workflow
 
+Related: [actions](../actions/) directory.
+
 ## Purpose
 
 <!-- The purpose of this directory is to [...]. -->
