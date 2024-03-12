@@ -46,17 +46,13 @@ Navigate back to the [git_workflow/ README.md](../README.md)
 
 #### [continuous_deployment/](./git_flow/)
 
-<!-- [About_this_directory.]
-
-[More_info_about_this_directory.] -->
+A Git workflow option/method.
 
 The [continuous_deployment/ README.md](./continuous_deployment/README.md) file.
 
 #### [git_flow/](./git_flow/)
 
-<!-- [About_this_directory.]
-
-[More_info_about_this_directory.] -->
+A Git workflow option/method.
 
 The [git_flow/ README.md](./git_flow/README.md) file.
 

@@ -1,4 +1,4 @@
-# README Data Science
+# Data Science
 
 This directory houses all of the courses that Chris Manna sent me via the email below. (see gmail link) They were given to him by his manager to get ramped up for their data science project.
 
@@ -15,8 +15,6 @@ https://trello.com/c/SDmsvfcZ/645-complete-this-machine-learning-certificate
 
 https://trello.com/c/Ctm1Rp74/644-complete-this-ibm-datascience-certificate
 
-
-
 Email from Chris Manna:
 https://mail.google.com/mail/u/0/#search/from%3Acmanna285%40gmail.com/FMfcgxwHMGBGBtshfgQzThZDVNRtsQbZ
 
@@ -26,3 +24,13 @@ Neo4J DS Certification
 [Orange Youtube channel](https://www.youtube.com/channel/UClKKWBe2SCAEyv7ZNGhIe4g)
 [Stanford ML Course Certification](https://www.coursera.org/learn/machine-learning)
 [IBM DS Course Certification](https://www.coursera.org/professional-certificates/ibm-data-science)
+
+## Directories and Files
+
+Information regarding the directories and files in this directory.
+
+<!-- Navigate back to the [parent_readme_file/ README.md](../README.md) -->
+
+Navigate back to the Learning Directory [README.md](../README.md) file.
+
+Navigate back to the Meta/ directory [README.md](../Meta/README.md) file.

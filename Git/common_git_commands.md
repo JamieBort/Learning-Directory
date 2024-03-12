@@ -2,16 +2,11 @@
 
 Common Git commands that I use and need to reference.
 
-## Listed By Error Or Message
+## Table of Contents
 
-Solutions that I needed to seek out due to an error or message that I came across.
-
-### `Already up-to-date`
-
-situation:
-I attempted to merge main into dev: `git merge main` and received `Already up-to-date`.
-
-The solution I used: https://stackoverflow.com/q/634546
+1. [Listed By Use Case](#listed-by-use-case) - A situation (not precipitated by an error nor message) that I needed to search for a solution for.
+2. [Listed (alphabetically) By Using a Git <command>](#listed-alphabetically-by-using-a-git-command) - Commands listed alphabetically by git command.
+3. [Listed By Error Or Message](#listed-by-error-or-message) - Solutions that I needed to seek out due to an error or message that I came across.
 
 ## Listed By Use Case
 
@@ -49,7 +44,7 @@ source:
 See the [Checking if the file is tracked in github](https://github.com/JamieBort/LearningDirectory/blob/master/Git/gitignore/README.md#checking-if-the-file-is-tracked-in-github) section of the gitignore README file.
 **Note, section name may change.**
 
-## Listed (alphabetically) By Using a Git <command>
+## Listed (alphabetically) By Using a Git `<command>`
 
 Commands listed alphabetically by git command.
 
@@ -162,3 +157,14 @@ Related, see https://github.com/JamieBort/LearningDirectory/blob/master/Git/comm
 example:
 
 `git rm -r --cached node_modules/`
+
+## Listed By Error Or Message
+
+Solutions that I needed to seek out due to an error or message that I came across.
+
+### `Already up-to-date`
+
+situation:
+I attempted to merge main into dev: `git merge main` and received `Already up-to-date`.
+
+The solution I used: https://stackoverflow.com/q/634546
