@@ -8,6 +8,14 @@ A directory to house files and directories used to learn these specific concepts
 
 ## Directories and Files
 
+Information regarding the directories and files in this directory.
+
+<!-- Navigate back to the [parent_readme_file/ README.md](../README.md) -->
+
+Navigate back to the Learning Directory [README.md](../README.md) file.
+
+Navigate back to the Meta/ directory [README.md](../Meta/README.md) file.
+
 ### Directories
 
 - [NONE SO FAR]
