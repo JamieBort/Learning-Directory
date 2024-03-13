@@ -2,7 +2,13 @@
 
 ## Purpose
 
-This directory houses information about git commit messages.
+The purpose of this directory is to house information about git commit messages.
+
+## About
+
+<!-- This directory houses information about [name_of_the_directory_that_this_readme_file_is_in]. -->
+
+<!-- [Some information about this directory.] -->
 
 ## About
 
@@ -52,15 +58,17 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
   **And more.**
 
+- https://trello.com/c/ikEZAIDr/523-read-up-on-writing-good-git-commit-messages
+
+### Vetted Resources
+
 ### Vetted Resources
 
 ## Directories and Files
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the [parent readme file.](../README.md)
-
-## Directories and Files
+Navigate back to the `Git/` [README.md](../README.md) file.
 
 ### Directories
 
@@ -68,15 +76,21 @@ Navigate back to the [parent readme file.](../README.md)
 
 The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages Templates.
 
-The [directory_name/ README.md](./commit_message_templates/README.md) file.
+The `commit_message_templates/` [README.md](./commit_message_templates/README.md) file.
 
 #### [commit_message_notes/](./commit_message_notes/)
 
 The notes taken on `who`, `what`, `when`, `where`, `why`, and `how` of Git Commit Messages.
 
-The [commit_message_notes/ README.md](./commit_message_notes/README.md) file.
+The `commit_message_notes/` [README.md](./commit_message_notes/README.md) file.
 
 ### Files
+
+<!-- #### [name_of_other_file_in_here.extension]()
+
+[About_this_file.]
+
+[More_info_about_this_file.] -->
 
 #### [README.md](./README.md)
 

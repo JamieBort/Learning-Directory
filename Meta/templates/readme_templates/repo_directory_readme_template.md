@@ -16,7 +16,7 @@ This directory houses information about [name_of_the_directory_that_this_readme_
 
 Theres a need for use cases somewhere.
 
-TODO: think about this. -->
+TODO: Think about this. -->
 
 <!-- ## Table Of Contents NOTE: For when I start to add them. See https://github.com/JamieBort/Learning-Directory/issues/254 -->
 
@@ -38,7 +38,7 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the <parent_directory> [README.md](../README.md) file.
+Navigate back to the `parent_directory/` [README.md](../README.md) file.
 
 ### Directories
 
@@ -48,7 +48,15 @@ Navigate back to the <parent_directory> [README.md](../README.md) file.
 
 [More_info_about_this_directory.] -->
 
-The [directory_name/ README.md](./directory_name/README.md) file.
+<!--
+
+old
+
+The [directory_name/ README.md](./directory_name/README.md) file. -->
+
+<!-- new -->
+
+The `directory_name/` [README.md](./directory_name/README.md) file.
 
 ### Files
 

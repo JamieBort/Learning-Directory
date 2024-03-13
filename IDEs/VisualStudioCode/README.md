@@ -96,7 +96,7 @@ Navigate back to the [IDEs/ README.md](../README.md)
 
 [More_info_about_this_directory.]
 
-The [directory_name/ README.md](./directory_name/README.md) file. -->
+The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 ### Files
 

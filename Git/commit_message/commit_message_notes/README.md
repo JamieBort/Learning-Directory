@@ -55,6 +55,8 @@ Images used in the commit_message_notes.md file.
 
 The [commit_message_notes_images/ README.md](./commit_message_notes_images/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 ### Files
 
 #### [commit_message_notes.md](./commit_message_notes.md)

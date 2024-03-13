@@ -40,6 +40,8 @@ Navigate back to the [JavaScript/ README.md](../README.md)
 
 The [Angular/ README.md](./Angular/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [gatsby-site/](./gatsby-site/)
 
 <!-- [About_this_directory.]
@@ -47,6 +49,8 @@ The [Angular/ README.md](./Angular/README.md) file.
 [More_info_about_this_directory.] -->
 
 The [gatsby-site/ README.md](./gatsby-site/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 #### [NextJS/](./NextJS/)
 
@@ -56,6 +60,8 @@ The [gatsby-site/ README.md](./gatsby-site/README.md) file.
 
 The [NextJS/ README.md](./NextJS/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [ReactNative/](./ReactNative/)
 
 <!-- [About_this_directory.]
@@ -64,6 +70,8 @@ The [NextJS/ README.md](./NextJS/README.md) file.
 
 The [ReactNative/ README.md](./ReactNative/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [Svelte/](./Svelte/)
 
 <!-- [About_this_directory.]
@@ -71,6 +79,8 @@ The [ReactNative/ README.md](./ReactNative/README.md) file.
 [More_info_about_this_directory.] -->
 
 The [Svelte/ README.md](./Svelte/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 ### Files
 

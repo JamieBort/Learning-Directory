@@ -54,11 +54,15 @@ This directory houses information about Issue template examples.
 
 [issue_template_examples/ README.md](./issue_template_examples/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [my_issue_templates/](./my_issue_templates/)
 
 This directory houses information about my Issue templates.
 
 The [my_issue_templates/ README.md](./my_issue_templates/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 ### Files
 

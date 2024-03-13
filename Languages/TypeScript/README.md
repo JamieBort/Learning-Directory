@@ -54,6 +54,8 @@ Navigate back to the Typescript [README.md](../README.md) file.
 
 The [Typescript_Playground/ README.md](./Typescript_Playground/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 ### Files
 
 <!-- #### [name_of_other_file_in_here.extension]()

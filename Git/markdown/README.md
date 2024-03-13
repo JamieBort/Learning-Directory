@@ -42,7 +42,7 @@ Navigate back to the Git/ [README.md](../README.md) file.
 
 [More_info_about_this_directory.]
 
-The [directory_name/ README.md](./directory_name/README.md) file. -->
+The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 ### Files
 

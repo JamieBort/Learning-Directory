@@ -26,6 +26,8 @@ This section may get its own directory sooner than later.
 
 See the [Learning Directory Git Workflow](../../Meta/README.md#learning-directory-git-workflow) section of the Meta/ README.md file
 
+### Digital Knowledge Base
+
 ## Resources
 
 Resources relevant to this directory.
@@ -82,11 +84,15 @@ A Git workflow option/method.
 
 The [continuous_deployment/ README.md](./continuous_deployment/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [git_flow/](./git_flow/)
 
 A Git workflow option/method.
 
 The [git_flow/ README.md](./git_flow/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 ### Files
 

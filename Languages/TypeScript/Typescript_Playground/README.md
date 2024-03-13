@@ -54,11 +54,15 @@ First attempt to solving the challenges that were created in the typescript-lc10
 
 The [attempt_01/ README.md](./attempt_01/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [typescript-lc101-projects_renamed/](./typescript-lc101-projects_renamed/)
 
 Directories and files created from following the instructions found here: https://education.launchcode.org/intro-to-professional-web-dev/chapters/typescript/exercises.html
 
 The [typescript-lc101-projects_renamed/ README.md](./typescript-lc101-projects_renamed/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 ### Files
 

@@ -44,11 +44,15 @@ Exercises from sites such as CodeWars.com
 
 The [CodingChallenges/ README.md](./CodingChallenges/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [Courses/](./Courses/)
 
 Udemy courses and the like. Tutorials.
 
 The [Courses/ README.md](./Courses/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 #### [Frameworks/](./Frameworks/)
 
@@ -56,17 +60,23 @@ The [Courses/ README.md](./Courses/README.md) file.
 
 The [Frameworks/ README.md](./Frameworks/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [IntroductionToAJAXWithjQuery/](./IntroductionToAJAXWithjQuery/)
 
 <!-- Exercises from sites such as CodeWars.com -->
 
 The [IntroductionToAJAXWithjQuery/ README.md](./IntroductionToAJAXWithjQuery/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [JavaScriptSpecificConcepts/](./JavaScriptSpecificConcepts/)
 
 A directory to house files and directories used to learn these specific concepts.
 
 The [JavaScriptSpecificConcepts/ README.md](./JavaScriptSpecificConcepts/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 #### [JavaScriptTesting/](./JavaScriptTesting/)
 
@@ -76,11 +86,15 @@ Note, [Testing/](./Testing/) exists.
 
 The [JavaScriptTesting/ README.md](./JavaScriptTesting/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [Libraries/](./Libraries/)
 
 Libraries such as Redux or D3 that I am trying to learn using.
 
 The [Libraries/ README.md](./Libraries/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 #### [node_modules/](./node_modules/)
 
@@ -88,17 +102,23 @@ The [Libraries/ README.md](./Libraries/README.md) file.
 
 The [node_modules/ README.md](./node_modules/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [package/](./package/)
 
 This directory does not belong here.
 
 The [package/ README.md](./package/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [scratch/](./scratch/)
 
 I am not sure but it should not be here.
 
 The [scratch/ README.md](./scratch/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 #### [Testing/](./Testing/)
 
@@ -110,11 +130,15 @@ Note, [JavaScriptTesting/](./JavaScriptTesting/) exists.
 
 The [Testing/ README.md](./Testing/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [TheIronYard/](./TheIronYard/)
 
 Moved this directory from LearningDirectory/JavaScript/CodingChallenges/ to LearningDirectory/JavaScript/
 
 The [TheIronYard/ README.md](./TheIronYard/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 ### Files
 

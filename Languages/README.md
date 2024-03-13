@@ -46,6 +46,8 @@ The [Meta/ README.md](../Meta/README.md) file.
 
 The [Bash/ README.md](./Bash/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [CSS/](./CSS/)
 
 <!-- [About_this_directory.]
@@ -53,6 +55,8 @@ The [Bash/ README.md](./Bash/README.md) file.
 [More_info_about_this_directory.] -->
 
 The [CSS/ README.md](./CSS/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 #### [GoogleAppScript/](./GoogleAppScript/)
 
@@ -62,6 +66,8 @@ Created when I added an email feature to my [JamieBort.com](https://JamieBort.co
 
 The [GoogleAppScript/ README.md](./GoogleAppScript/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [HTML/](./HTML/)
 
 <!-- [About_this_directory.]
@@ -69,6 +75,8 @@ The [GoogleAppScript/ README.md](./GoogleAppScript/README.md) file.
 [More_info_about_this_directory.] -->
 
 The [HTML/ README.md](./HTML/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 #### [Java/](./Java/)
 
@@ -78,6 +86,8 @@ The [HTML/ README.md](./HTML/README.md) file.
 
 The [Java/ README.md](./Java/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [JavaScript/](./JavaScript/)
 
 <!-- [About_this_directory.]
@@ -85,6 +95,8 @@ The [Java/ README.md](./Java/README.md) file.
 [More_info_about_this_directory.] -->
 
 The [JavaScript/ README.md](./JavaScript/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 #### [NextJS/](./NextJS/)
 
@@ -94,6 +106,8 @@ The [JavaScript/ README.md](./JavaScript/README.md) file.
 
 The [NextJS/ README.md](./NextJS/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [Node/](./Node/)
 
 <!-- [About_this_directory.]
@@ -101,6 +115,8 @@ The [NextJS/ README.md](./NextJS/README.md) file.
 [More_info_about_this_directory.] -->
 
 The [Node/ README.md](./Node/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 #### [Python/](./Python/)
 
@@ -110,6 +126,8 @@ The [Node/ README.md](./Node/README.md) file.
 
 The [Python/ README.md](./Python/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [TypeScript/](./TypeScript/)
 
 <!-- [About_this_directory.]
@@ -118,6 +136,8 @@ The [Python/ README.md](./Python/README.md) file.
 
 The [TypeScript/ README.md](./TypeScript/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [Unix/](./Unix/)
 
 <!-- [About_this_directory.]
@@ -125,6 +145,8 @@ The [TypeScript/ README.md](./TypeScript/README.md) file.
 [More_info_about_this_directory.] -->
 
 The [Unix/ README.md](./Unix/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 ### Files
 

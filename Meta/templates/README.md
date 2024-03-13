@@ -38,6 +38,8 @@ Templates from people's profiles whom I want to emulate.
 
 The [readme_templates/ README.md](./readme_templates/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 ### Files
 
 #### [parent_directory_file_name_notes.md](./parent_directory_file_name_notes.md)

@@ -38,6 +38,8 @@ Note, Template_README.md exists.
 
 The [profile_readme_templates/ README.md](./profile_readme_templates/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [project_repo_templates/](./profile_readme_templates/)
 
 Readme templetes for project repos.
@@ -45,6 +47,8 @@ Readme templetes for project repos.
 Note, Template_README.md exists.
 
 The [project_repo_templates/ README.md](./project_repo_templates/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 ### Files
 

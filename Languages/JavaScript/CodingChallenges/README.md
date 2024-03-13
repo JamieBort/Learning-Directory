@@ -62,21 +62,29 @@ Coding Challenge website.
 
 The [coderbyte/ README.md](./coderbyte/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [CodeWars/](./CodeWars/)
 
 Coding Challenge website.
 
 The [CodeWars/ README.md](./CodeWars/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [GeeksForGeeks/](./GeeksForGeeks/)
 
 Coding Challenge website.
 The [GeeksForGeeks/ README.md](./GeeksForGeeks/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [LeetCode/](./LeetCode/)
 
 Coding Challenge website.
 The [LeetCode/ README.md](./LeetCode/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 #### [Pramp/](./Pramp/)
 
@@ -84,11 +92,15 @@ Interview website with coding challenges.
 
 The [Pramp/ README.md](./Pramp/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 #### [ProjectEuler/](./ProjectEuler/)
 
 Coding Challenge website.
 
 The [ProjectEuler/ README.md](./ProjectEuler/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 #### [ReactCodingChallenges/](./ReactCodingChallenges/)
 
@@ -97,6 +109,8 @@ The [ProjectEuler/ README.md](./ProjectEuler/README.md) file.
 [More_info_about_this_directory.] -->
 
 The [ReactCodingChallenges/ README.md](./ReactCodingChallenges/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
 ### Files
 

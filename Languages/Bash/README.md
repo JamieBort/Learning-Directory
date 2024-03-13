@@ -60,6 +60,8 @@ Moved all directories into here because "This directory should be renamed to `Sh
 
 The [ShellScripts/ README.md](./ShellScripts/README.md) file.
 
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
 ### Files
 
 <!-- #### [name_of_other_file_in_here.extension]()
