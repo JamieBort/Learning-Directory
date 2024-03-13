@@ -14,9 +14,9 @@ The purpose of this directory is to house information about git commit messages.
 
 [Some information about this directory.]
 
-## To Do
+## Use Cases
 
-Figure out how to force myself (using bash, VS Code, etc.) to maintain 50ish characters for the title and 72ish characters for the body of commit messages.
+- Figure out how to force myself (using bash, VS Code, etc.) to maintain 50ish characters for the title and 72ish characters for the body of commit messages.
 
 ## Resources
 

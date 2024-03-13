@@ -10,6 +10,10 @@ This directory houses information about Git commit templates.
 
 <!-- [Some information about this directory.] -->
 
+## Use Cases
+
+- Figure out how to use the commit template in Terminal/with Bash.
+
 ## Resources
 
 Resources relevant to this directory.
