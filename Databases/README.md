@@ -26,6 +26,12 @@ It seems to have a database component.
 |     ?     |                                                                                                               ?                                                                                                                |                                                                                                               ?                                                                                                               |
 |     ?     |                                                                                                               ?                                                                                                                |                                                                                                               ?                                                                                                               |
 
+## Online Options
+
+### Airtable
+
+### Upstash
+
 ## Directories and Files
 
 Information regarding the directories and files in this directory.

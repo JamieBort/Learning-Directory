@@ -12,6 +12,21 @@ Common Git commands that I use and need to reference.
 
 A situation (not precipitated by an error nor message) that I needed to search for a solution for.
 
+### Edit commit message after push
+
+issue:
+editing a commit message after push
+
+source:
+The solution to [Changing git commit message after push (given that no one pulled from remote)](https://stackoverflow.com/a/8981216); specifically I used
+
+1. `git commit --amend`
+<!-- TODO: link to the vi/ directory in this repo. -->
+2. I edited the message in vi.
+3. lastly `git push --force <repository> <branch>`, or `git push --force origin <branch>`
+
+This appears to be another good resource. [How to change a Git commit message after a push](https://www.educative.io/answers/how-to-change-a-git-commit-message-after-a-push)
+
 ### Cleaning up the list of branches (local and remote)
 
 Of particular importance to me because I generated a lot with Dependabot pull requests.
@@ -25,10 +40,6 @@ I used
 source:
 [How do I delete all Git branches which have been merged?](https://stackoverflow.com/a/6127884) Stack Overflow response.
 
-### Commands related to the .gitignore file
-
-Clearing the git cache for example.
-
 ### Renaming a file
 
 command:
@@ -38,6 +49,10 @@ source:
 [Renaming a file](https://docs.github.com/en/repositories/working-with-files/managing-files/renaming-a-file#renaming-a-file-using-the-command-line) (Renaming a file using the command line)
 
 > You can rename any file in your repository directly in GitHub or by using the command line.
+
+### Commands related to the .gitignore file
+
+#### Clearing the git cache
 
 #### Checking if a particular file or directory is effected by the .gitignore file
 

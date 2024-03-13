@@ -60,6 +60,10 @@ Use Cases that I still need a solution for
 
 - Opening ALL directories in the explorer (to the left) with `command + ???`
 
+- Saving auto formats. It changes single quotes to double quotes. How do I make single quotes the default?
+
+  - This happens with JavaScript and TypeScript. Prettier extension is the formatter for these two file types.
+
 ### Keyboard Shortcuts
 
 ### Use Cases for things I'd like to know how to do

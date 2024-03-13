@@ -12,6 +12,12 @@ This directory houses information about [name_of_the_directory_that_this_readme_
 
 <!-- [Some information about this directory.] -->
 
+<!-- ## Use cases
+
+Theres a need for use cases somewhere.
+
+TODO: think about this. -->
+
 ## Resources
 
 Resources relevant to this directory.
@@ -30,27 +36,7 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-<!-- TODO: Consider changing
-
-Navigate back to the [parent_readme_file/ README.md](../README.md)
-
-to
-
-Navigate back to the parent readme file.
-
-or to
-
-Navigate back to the readme file in the parent directory.
-
-or to
-
 Navigate back to the <parent_directory> [README.md](../README.md) file.
-
-If so update all files....
-
--->
-
-Navigate back to the [parent_readme_file/ README.md](../README.md)
 
 ### Directories
 
