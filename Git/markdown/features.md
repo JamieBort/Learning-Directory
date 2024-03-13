@@ -14,6 +14,8 @@ See `Maybe add a table of contents` in the Activity of the https://trello.com/c/
 
 https://trello.com/c/Ka1BOJb5/1315-update-the-learningdirectory-readme-file#comment-65abd42b7446cb2ef8e78948
 
+And see https://github.com/JamieBort/Learning-Directory/issues/254
+
 ## Badges
 
 - [GitHub Markdown Badges Explained](https://daily.dev/blog/github-markdown-badges-explained) FEB 27, 2024 GitHub blog post.

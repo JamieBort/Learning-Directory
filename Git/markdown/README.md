@@ -18,7 +18,7 @@ Resources relevant to this directory.
 
 These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
-TODO: look into a `github readme table of contents generator`.
+TODO: look into a `github readme table of contents generator`. To that end, see https://github.com/JamieBort/Learning-Directory/issues/254
 
 <!-- - first resource
 
