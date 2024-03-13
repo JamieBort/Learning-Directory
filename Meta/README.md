@@ -20,6 +20,24 @@ Pascalcase
 
 Maybe Snakecase
 
+## Git Workflow
+
+Git workflow for this Learning Directory repo.
+
+1. Push changes from the dev branch to the origin/dev branch.
+
+2. Pull changes from origin/master to master branch.
+
+3. Make copies of dev and master.
+
+4. Merge master into dev.
+
+5. Resolve merge conflicts.
+
+6. Merge dev into master.
+
+7. Delete copies of dev and master.
+
 ## Resources
 
 ### Resources to explore
