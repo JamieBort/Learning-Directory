@@ -50,6 +50,14 @@ source:
 
 > You can rename any file in your repository directly in GitHub or by using the command line.
 
+### Renaming a branch
+
+command:
+`git branch -m <oldname> <newname>`
+
+source:
+https://stackoverflow.com/a/6591218
+
 ### Commands related to the .gitignore file
 
 #### Clearing the git cache
