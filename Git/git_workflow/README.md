@@ -18,6 +18,14 @@ Currently these directories were thrown together just to put some thoughts down 
 
 <!-- [Some information about this directory.] -->
 
+## Git Workflow for my repos
+
+This section may get its own directory sooner than later.
+
+### Learning Directory Git Workflow
+
+See the [Learning Directory Git Workflow](../../Meta/README.md#learning-directory-git-workflow) section of the Meta/ README.md file
+
 ## Resources
 
 Resources relevant to this directory.
@@ -37,6 +45,20 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 - [git bringing feature branch up to date with master](https://www.google.com/search?q=git+bringing+feature+branch+up+to+date+with+master&oq=git+bringing+feature+branch+up+to+date+with+master&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDg1NDJqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8)
 
   - [Updating a feature branch](https://gist.github.com/whoisryosuke/36b3b41e738394170b9a7c230665e6b9) gist.
+
+- [Best Practices for Managing Feature Branches](https://www.linkedin.com/pulse/best-practices-managing-feature-branches-derek-ashmore) LinkedIn article.
+
+- [best practices for dev and master branches](https://www.google.com/search?q=best+practices+for+dev+and+master+branches&oq=best+practices+for+dev+and+master+branches&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDkxNjhqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8) internet search.
+
+  - [Git Branching: Best Practices for Software Development](https://medium.com/@shreyasmatade/git-branching-best-practices-for-software-development-d2a10bdc00bf) May 31, 2023 Medium article by Shreyas Matade.
+
+- [best practices git pull origin master](https://www.google.com/search?q=best+practices+git+pull+origin+master&oq=best+practices+git+pull+origin+master&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDY5OTlqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8) internet search.
+
+  - [What does git pull origin master do?](https://www.git-tower.com/learn/git/faq/git-pull-origin-master) git-tower article.
+
+  - [Git best practices and tips](https://gwu-libraries.github.io/Git.html) suggests to rebase. And goes over squashing commits.
+
+- **LOTS** of good info here. [Comparing Git workflows: What you should know](https://www.atlassian.com/git/tutorials/comparing-workflows#!workflow-gitflow)
 
 ### Vetted Resources
 

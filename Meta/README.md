@@ -20,23 +20,40 @@ Pascalcase
 
 Maybe Snakecase
 
-## Git Workflow
+## Learning Directory Git Workflow
 
 Git workflow for this Learning Directory repo.
 
-1. Push changes from the dev branch to the origin/dev branch.
+For information on Git workflow in general, see the [git_workflow/](../Git/git_workflow/) directory in the Git/ directory.
 
-2. Pull changes from origin/master to master branch.
+1. git checkout dev
 
-3. Make copies of dev and master.
+2. Push changes from the dev branch to the origin/dev branch.
 
-4. Merge master into dev.
+3. Make copy of dev branch (dev_backup).
 
-5. Resolve merge conflicts.
+4. git checkout master
 
-6. Merge dev into master.
+5. Make copy of master branch (master_backup).
 
-7. Delete copies of dev and master.
+6. Pull changes from origin/master to master branch.
+
+7. Make copy of master branch after pull (master_backup_after_pull).
+
+8. git checkout dev
+
+<!-- TODO: Figure out which is better for this repo at this step. Rebase or merge. See https://github.com/JamieBort/Learning-Directory/issues/252 -->
+
+9. [Merge master into dev.](https://gist.github.com/calaway/ea880263b0c0495bb00ee877f001dc59)
+   `git merge master`
+   [or rebase master into dev](https://gwu-libraries.github.io/Git.html)
+   `git rebase master`
+
+10. Resolve merge conflicts.
+
+11. Merge dev into master.
+
+12. Delete all copies of dev and master branches.
 
 ## Resources
 
