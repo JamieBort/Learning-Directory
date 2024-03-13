@@ -180,6 +180,10 @@ This directory houses information about .env files and environment variables.
 
 #### [git-hooks/](./git-hooks/)
 
+#### [github_notifications/](./github_notifications/)
+
+This directory houses information about GigHub notifications.
+
 #### [gitignore/](./gitignore/)
 
 This directory houses information about .gitignore files.
