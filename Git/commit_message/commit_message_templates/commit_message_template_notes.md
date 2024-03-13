@@ -12,9 +12,10 @@
 
 ## How?
 
-[Using Git Commit Message Templates to Write Better Commit Messages](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733) Gist by lisawolderiksen.
+How to create a git message template and then set it up so
 
-https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733#git-configuration
+- that it is used every time?
+- or so that you can access and use it when you want it?
 
 Modify the global config file.
 
