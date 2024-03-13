@@ -60,6 +60,12 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 - **LOTS** of good info here. [Comparing Git workflows: What you should know](https://www.atlassian.com/git/tutorials/comparing-workflows#!workflow-gitflow)
 
+- More info on `git rebase`
+
+  - [Git Rebase](https://www.javatpoint.com/git-rebase)
+
+  - and [Git Rebase Master](https://www.simplilearn.com/what-is-git-rebase-command-article#:~:text=The%20Git%20master%20to%20branch,permanently%20deletes%20the%20old%20commits.) section of this `What is Git Rebase, and How Do You Use It?` Feb 11, 2024 article by John Terra
+
 ### Vetted Resources
 
 ## Directories and Files
