@@ -18,6 +18,8 @@ Theres a need for use cases somewhere.
 
 TODO: think about this. -->
 
+<!-- ## Table Of Contents NOTE: For when I start to add them. See https://github.com/JamieBort/Learning-Directory/issues/254 -->
+
 ## Resources
 
 Resources relevant to this directory.
