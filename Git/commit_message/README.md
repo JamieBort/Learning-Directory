@@ -14,6 +14,10 @@ The purpose of this directory is to house information about git commit messages.
 
 [Some information about this directory.]
 
+## To Do
+
+Figure out how to force myself (using bash, VS Code, etc.) to maintain 50ish characters for the title and 72ish characters for the body of commit messages.
+
 ## Resources
 
 Resources relevant to this directory.
@@ -59,6 +63,28 @@ These will be deleted when I am done with them. If they are of use they'll be mo
   **And more.**
 
 - https://trello.com/c/ikEZAIDr/523-read-up-on-writing-good-git-commit-messages
+
+- [5 Useful Tips For A Better Commit Message](https://thoughtbot.com/blog/5-useful-tips-for-a-better-commit-message) April 26, 2013 updated on June 12, 2015 by Caleb Hearth.
+
+  - https://commit.style/
+
+    > Commit message style guide for Git
+
+    > The first line of a commit message serves as a summary. When displayed
+    > on the web, it's often styled as a heading, and in emails, it's
+    > typically used as the subject. As such, you should capitalize it and
+    > omit any trailing punctuation. Aim for about 50 characters, give or
+    > take, otherwise it may be painfully truncated in some contexts. Write
+    > it, along with the rest of your message, in the imperative tense: "Fix
+    > bug" and not "Fixed bug" or "Fixes bug". Consistent wording makes it
+    > easier to mentally process a list of commits.
+
+    > Oftentimes a subject by itself is sufficient. When it's not, add a
+    > blank line (this is important) followed by one or more paragraphs hard
+    > wrapped to 72 characters. Git is strongly opinionated that the author
+    > is responsible for line breaks; if you omit them, command line tooling
+    > will show it as one extremely long unwrapped line. Fortunately, most
+    > text editors are capable of automating this.
 
 ### Vetted Resources
 

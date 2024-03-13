@@ -4,11 +4,11 @@ Note, to take advantage of this template globally, it requires configuring the g
 
 ## Purpose
 
-This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
+This directory houses information about Git commit templates.
 
 ## About
 
-[Some information about this directory.]
+<!-- [Some information about this directory.] -->
 
 ## Resources
 
@@ -19,8 +19,6 @@ Resources relevant to this directory.
 These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
 - [Create A Custom Git Commit Template](https://alex-wasik.medium.com/create-a-custom-git-commit-template-84468232a459) Medium article by Alex Wasik May 10, 2019
-
-- [Using Git Commit Message Templates to Write Better Commit Messages](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733) Gist by lisawolderiksen.
 
 - [How to Take Your Git Commit Messages to The Next Level With a Commit Template](https://efren45marin.medium.com/how-to-take-your-git-commit-messages-to-the-next-level-with-a-commit-template-cd3a608b1ac9) by Efren Marin Dec 21, 2022
 
@@ -34,7 +32,7 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the [parent readme file.](../README.md)
+Navigate back to the `git_commit/` [README.md](../README.md) file.
 
 ### Directories
 
@@ -45,6 +43,22 @@ Navigate back to the [parent readme file.](../README.md)
 [More_info_about_this_directory.]
 
 The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
+#### [commit_message_template_examples/](./commit_message_template_examples/)
+
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+The `commit_message_template_examples/` [README.md](./commit_message_template_examples/README.md) file.
+
+#### [my_commit_message_templates/](./my_commit_message_templates/)
+
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+The `my_commit_message_templates/` [README.md](./my_commit_message_templates/README.md) file.
 
 ### Files
 

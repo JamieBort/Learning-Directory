@@ -1,20 +1,34 @@
 # Config Files
 
+TODO: Consider changing this name to `git_config_files`.
+
 ## Purpose
+
+<!-- The purpose of this directory is to [...]. -->
+
+## About
 
 This directory houses information about git config files.
 
-Git config files.
+This directory does not contain info on IDE config files. For more info on IDE config files, see the [README.md](../../IDEs/README.md) file in the `IDEs/` directory.
 
-Not IDE config files.
+Note, git config is mentioned in the [/Git/commit_message/commit_message_templates/](../commit_message/commit_message_templates/) directory.
 
-Note, git config is mentioned in the `/Git/commit_message/commit_message_templates/` directory.
+## Use Cases
 
-## Questions to have answered
+Questions to have answered
 
 What's the difference between `--system` scoped and `--global` scoped?
 
-## Resources to explore
+## Tips and tricks with customizing git
+
+## Resources
+
+Resources relevant to this directory.
+
+### Resources to explore
+
+These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
 - [Git: Understanding Git Config](https://mincong.io/2018/07/29/git-understanding-git-config/)
 
@@ -48,4 +62,32 @@ What's the difference between `--system` scoped and `--global` scoped?
 
     https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 
-## Tips and tricks with customizing git
+### Vetted Resources
+
+## Directories and Files
+
+Information regarding the directories and files in this directory.
+
+Navigate back to the `Git/` [README.md](../README.md) file.
+
+### Directories
+
+<!-- #### [directory_name/](./path_to_directory)
+
+[About_this_directory.]
+
+[More_info_about_this_directory.]
+
+The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
+### Files
+
+#### [git_config_notes.md](./git_config_notes.md)
+
+[About_this_file.]
+
+[More_info_about_this_file.]
+
+#### [README.md](./README.md)
+
+This readme file.

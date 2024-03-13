@@ -1,5 +1,7 @@
 # Terminal Commands
 
+<!-- TODO: add a Table of Contents here. See the same here https://github.com/JamieBort/Learning-Directory/blob/master/Git/common_git_commands.md#table-of-contents -->
+
 ## find
 
 ### find a file or directory
@@ -16,20 +18,26 @@ From the current directory this command finds and prints the file path for all .
 
 ### find a string in a file
 
-From https://stackoverflow.com/a/45802423
-
+command:
 `grep -R <stringToSearch> <dirName>`
 
-From https://stackoverflow.com/a/16957078
+source:
+From https://stackoverflow.com/a/45802423
 
+command:
 `grep -Rnw '/path/to/somewhere/' -e 'pattern'`
+
+source:
+From https://stackoverflow.com/a/16957078
 
 ## open up textEdit
 
-[How do I start TextEditor from the command line?](https://apple.stackexchange.com/a/16598) Stack Overflow post.
+command:
+`open -a TextEdit <./path_to_file_name>`
 
-> open -a TextEdit <./path_to_file_name>
+source:
+[How do I start TextEditor from the command line?](https://apple.stackexchange.com/a/16598) Stack Overflow post.
 
 ## git commands
 
-See the [README](../../Git/README.md) file in the `Git/` directory.
+See the [README.md](../../Git/README.md) file in the `Git/` directory.
