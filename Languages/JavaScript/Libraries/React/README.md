@@ -80,14 +80,6 @@ Worked through the 'Side-Effects/React Side-Effects' section.
 
 The `RoadToReact/` [README.md](./RoadToReact/README.md) file.
 
-#### [scratch/](./scratch/)
-
-TODO: Delete this directory.
-
-Created for practicing what I've learned/am learning from these tutorials.
-
-The `scratch/` [README.md](./scratch/README.md) file.
-
 #### [ShowHideComponent/](./ShowHideComponent/)
 
 A tutorial I am following for learning how to show and hide components.

@@ -48,8 +48,6 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 ## Directories and Files
 
-## Directories and Files
-
 Information regarding the directories and files in this directory.
 
 Navigate back to the [CodingChallenges/ README.md](../README.md)
