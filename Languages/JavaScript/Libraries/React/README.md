@@ -74,16 +74,6 @@ The `my-app/` [README.md](./my-app/README.md) file.
 
 The `ReactSpecificConcepts/` [README.md](./ReactSpecificConcepts/README.md) file.
 
-#### [ReactTicTacToeTutorial/](./ReactTicTacToeTutorial/)
-
-TODO: Delete this directory.
-
-Technically done. But there's more work to be done.
-
-See the [Next Step](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Libraries/React/ReactTicTacToeTutorial#next-steps) of the `ReactTicTacToeTutorial` directory.
-
-The `ReactTicTacToeTutorial/` [README.md](./ReactTicTacToeTutorial/README.md) file.
-
 #### [RoadToReact/](./RoadToReact/)
 
 Worked through the 'Side-Effects/React Side-Effects' section.
