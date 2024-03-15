@@ -28,6 +28,12 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
     > jq is a lightweight and flexible command-line JSON processor akin to `sed`,`awk`,`grep`, and friends for JSON data. It's written in portable C and has zero runtime dependencies, allowing you to easily slice, filter, map, and transform structured data.
 
+- Exporting classes
+
+  - https://stackoverflow.com/a/58134238/8210460
+
+  - https://timonweb.com/javascript/how-to-enable-ecmascript-6-imports-in-nodejs/
+
 ### Vetted Resources
 
 ## Directories and Files
