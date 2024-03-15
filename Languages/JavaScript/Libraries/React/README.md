@@ -60,14 +60,6 @@ A great tutorial. It introduced `componentDidMount`, API calls, and the concept 
 
 The `manager/` [README.md](./manager/README.md) file.
 
-#### [my-app/](./my-app/)
-
-TODO: delete this directory
-
-Created in preparation for `ReactTicTacToeTutorial`.
-
-The `my-app/` [README.md](./my-app/README.md) file.
-
 #### [ReactSpecificConcepts/](./ReactSpecificConcepts/)
 
 <!-- [About_this_directory.]
@@ -81,14 +73,6 @@ The `ReactSpecificConcepts/` [README.md](./ReactSpecificConcepts/README.md) file
 Worked through the 'Side-Effects/React Side-Effects' section.
 
 The `RoadToReact/` [README.md](./RoadToReact/README.md) file.
-
-#### [ShowHideComponent/](./ShowHideComponent/)
-
-TODO: delete this directory
-
-A tutorial I am following for learning how to show and hide components.
-
-The `ShowHideComponent/` [README.md](./ShowHideComponent/README.md) file.
 
 ### Files
 

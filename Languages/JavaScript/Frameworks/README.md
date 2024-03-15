@@ -44,6 +44,8 @@ The [Angular/ README.md](./Angular/README.md) file.
 
 #### [gatsby-site/](./gatsby-site/)
 
+TODO: delete this directory.
+
 <!-- [About_this_directory.]
 
 [More_info_about_this_directory.] -->
