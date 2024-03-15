@@ -1,5 +1,7 @@
 # Meta
 
+TODO: See the [java_version_notes.md](../Languages/Java/README.md#java_version_notesmd) file regarding Java files on my computer. On second thought, maybe that info isn't relevant here...
+
 ## Purpose
 
 This directory houses info regarding this repo. Specifically, information **about** the files and directories that this repo contains.
@@ -8,7 +10,7 @@ And **not** about Git repos in general. To find info regarding files and directo
 
 ## About
 
-[Some information about this directory.]
+<!-- [Some information about this directory.] -->
 
 ## Naming Conventions in this Repo
 

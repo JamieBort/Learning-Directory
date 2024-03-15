@@ -112,16 +112,6 @@ The [package/ README.md](./package/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
-#### [scratch/](./scratch/)
-
-I am not sure but it should not be here.
-
-TODO: Delete this directory.
-
-The [scratch/ README.md](./scratch/README.md) file.
-
-<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
-
 #### [Testing/](./Testing/)
 
 <!-- [About_this_directory.]

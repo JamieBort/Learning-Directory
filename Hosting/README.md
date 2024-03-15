@@ -1,8 +1,30 @@
 # Hosting
 
-List of live hosting sites.
+## Purpose
 
-## Hosting Options
+<!-- The purpose of this directory is to [...]. -->
+
+## About
+
+This directory houses information about hosting sites.
+
+<!-- [Some information about this directory.] -->
+
+## Resources
+
+Resources relevant to this directory.
+
+### Resources to explore
+
+These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
+
+- [Hosting](https://trello.com/c/Z6kPD3vr/573-hosting) Trello card.
+
+- [Hosting](https://github.com/JamieBort/LearningDirectory/tree/master/Hosting) directory of the LearningDirectory GitHub repo.
+
+### Vetted Resources
+
+#### Hosting Options
 
 - Back4app
 - Docker
@@ -30,30 +52,56 @@ Navigate back to the Meta/ directory [README.md](../Meta/README.md) file.
 
 ### Directories
 
-- Heroku/
+#### [Heroku/](./Heroku/)
 
-  - had success with this.
+Had success with this.
 
-- hosting_research/
+The `Heroku/` [README.md](./Heroku/README.md) file.
 
-  - A list of webpages that are listing hosting site.
+#### [hosting_research/](./hosting_research/)
 
-- Netlify/`
+A list of webpages that are listing hosting site.
 
-  - attempted once. Didn't have success with Node. Ended up using Heroku instead.
+The `hosting_research/` [README.md](./hosting_research/README.md) file.
 
-- Render
+#### [Koyeb/](./Koyeb/)
 
-- Vercel
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+The `Koyeb/` [README.md](./Koyeb/README.md) file.
+
+#### [Netlify/](./Netlify/)
+
+Attempted once. Didn't have success with Node. Ended up using Heroku instead.
+
+The `Netlify/` [README.md](./Netlify/README.md) file.
+
+#### [Render/](./Render/)
+
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+The `Render/` [README.md](./Render/README.md) file.
+
+#### [Vercel/](./Vercel/)
+
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+The `Vercel/` [README.md](./Vercel/README.md) file.
 
 ### Files
 
-- README.md
+<!-- #### [name_of_other_file_in_here.extension]()
 
-  - This readme file.
+[About_this_file.]
 
-## Associated Links
+[More_info_about_this_file.] -->
 
-[Hosting](https://trello.com/c/Z6kPD3vr/573-hosting) Trello card.
+#### [README.md](./README.md)
 
-[Hosting](https://github.com/JamieBort/LearningDirectory/tree/master/Hosting) directory of the LearningDirectory GitHub repo.
+This readme file.
