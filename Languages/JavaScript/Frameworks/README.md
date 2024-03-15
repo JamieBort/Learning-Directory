@@ -42,18 +42,6 @@ The [Angular/ README.md](./Angular/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
-#### [gatsby-site/](./gatsby-site/)
-
-TODO: delete this directory.
-
-<!-- [About_this_directory.]
-
-[More_info_about_this_directory.] -->
-
-The [gatsby-site/ README.md](./gatsby-site/README.md) file.
-
-<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
-
 #### [NextJS/](./NextJS/)
 
 <!-- [About_this_directory.]
