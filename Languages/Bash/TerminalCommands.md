@@ -16,6 +16,10 @@ From the current directory this command finds and prints the file path for all .
 
 `find ./ -type f -name .DS_Store`
 
+### find at least two files or directories
+
+`find . -type f \( -name "package-lock.json" -o -name "package.json" \)`
+
 ### find a string in a file
 
 command:
