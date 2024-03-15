@@ -123,7 +123,7 @@
     "express-session": "1.15.1",
     "istanbul": "0.4.5",
     "jade": "~1.11.0",
-    "marked": "0.3.6",
+    "marked": "4.0.10",
     "method-override": "2.3.7",
     "mocha": "3.2.0",
     "morgan": "1.9.1",
