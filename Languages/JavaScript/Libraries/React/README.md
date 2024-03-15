@@ -38,7 +38,7 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the `parent_directory/` [README.md](../README.md) file.
+Navigate back to the `Libraries/` [README.md](../README.md) file.
 
 ### Directories
 
@@ -81,6 +81,8 @@ Worked through the 'Side-Effects/React Side-Effects' section.
 The `RoadToReact/` [README.md](./RoadToReact/README.md) file.
 
 #### [scratch/](./scratch/)
+
+TODO: Delete this directory.
 
 Created for practicing what I've learned/am learning from these tutorials.
 

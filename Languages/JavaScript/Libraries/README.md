@@ -28,17 +28,33 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the `parent_directory/` [README.md](../README.md) file.
+Navigate back to the `JavaScript/` [README.md](../README.md) file.
 
 ### Directories
 
-<!-- #### [directory_name/](./path_to_directory)
+#### [D3/](./D3/)
 
-[About_this_directory.]
+<!-- [About_this_directory.]
 
-[More_info_about_this_directory.]
+[More_info_about_this_directory.] -->
 
-The `directory_name/` [README.md](./directory_name/README.md) file. -->
+The `D3/` [README.md](./D3/README.md) file.
+
+#### [React/](./React/)
+
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+The `React/` [README.md](./React/README.md) file.
+
+#### [Redux/](./Redux/)
+
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+The `Redux/` [README.md](./Redux/README.md) file.
 
 ### Files
 

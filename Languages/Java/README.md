@@ -32,7 +32,7 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the `parent_directory/` [README.md](../README.md) file.
+Navigate back to the `Languages/` [README.md](../README.md) file.
 
 ### Directories
 

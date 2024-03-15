@@ -46,7 +46,7 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the `parent_directory/` [README.md](../README.md) file.
+Navigate back to the `Hosting/` [README.md](../README.md) file.
 
 ### Directories
 
@@ -68,16 +68,6 @@ The `GettingStartedOnHerokuWithNodeJs/` [README.md](./GettingStartedOnHerokuWith
 [More_info_about_this_directory.] -->
 
 The `java-getting-started/` [README.md](./java-getting-started/README.md) file.
-
-#### [ReactHeroku/](./ReactHeroku/)
-
-TODO: Delete this directory.
-
-<!-- [About_this_directory.]
-
-[More_info_about_this_directory.] -->
-
-The `ReactHeroku/` [README.md](./ReactHeroku/README.md) file.
 
 #### [TourOfHeroesOnHeroku/](./TourOfHeroesOnHeroku/)
 
