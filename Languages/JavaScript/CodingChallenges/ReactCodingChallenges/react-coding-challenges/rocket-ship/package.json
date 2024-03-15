@@ -9,7 +9,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "5.0.1",
-    "yarn": "^1.22.10"
+    "yarn": "^1.22.13"
   },
   "scripts": {
     "start": "react-scripts start",
