@@ -68,8 +68,6 @@ The `my-app/` [README.md](./my-app/README.md) file.
 
 #### [ReactSpecificConcepts/](./ReactSpecificConcepts/)
 
-TODO: Delete this directory.
-
 <!-- [About_this_directory.]
 
 [More_info_about_this_directory.] -->
@@ -77,6 +75,8 @@ TODO: Delete this directory.
 The `ReactSpecificConcepts/` [README.md](./ReactSpecificConcepts/README.md) file.
 
 #### [ReactTicTacToeTutorial/](./ReactTicTacToeTutorial/)
+
+TODO: Delete this directory.
 
 Technically done. But there's more work to be done.
 
