@@ -114,6 +114,8 @@ The [package/ README.md](./package/README.md) file.
 
 #### [Testing/](./Testing/)
 
+TODO: delete this directory.
+
 <!-- [About_this_directory.]
 
 [More_info_about_this_directory.] -->

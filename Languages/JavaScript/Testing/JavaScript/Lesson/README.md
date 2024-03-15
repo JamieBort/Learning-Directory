@@ -1,1 +1,0 @@
-Using this to share how to test in JavaScript.
