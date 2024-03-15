@@ -47,12 +47,6 @@ Navigate back to the `parent_directory/` [README.md](../README.md) file.
 
 The `directory_name/` [README.md](./directory_name/README.md) file.
 
-#### [BuildANodeJsAPIInUnder30Minutes/](./BuildANodeJsAPIInUnder30Minutes/)
-
-TODO: Delete this directory.
-
-The `BuildANodeJsAPIInUnder30Minutes/` [README.md](./BuildANodeJsAPIInUnder30Minutes/README.md) file.
-
 #### [HelloWorldWithNodeJS/](./HelloWorldWithNodeJS/)
 
 <!-- [About_this_directory.]
