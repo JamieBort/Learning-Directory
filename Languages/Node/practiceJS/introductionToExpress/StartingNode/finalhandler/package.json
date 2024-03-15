@@ -53,7 +53,7 @@
     "url": "https://github.com/pillarjs/finalhandler/issues"
   },
   "dependencies": {
-    "debug": "2.6.7",
+    "debug": "2.6.9",
     "encodeurl": "~1.0.1",
     "escape-html": "~1.0.3",
     "on-finished": "~2.3.0",
