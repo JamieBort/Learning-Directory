@@ -2,19 +2,23 @@
 
 The purpose of this directory is ...
 
-## Directories and Files
+## Purpose
 
-### Directories
+The purpose of this directory is to <!-- [...]. -->
 
-### Files
+## About
 
-- NOTES.md - File where my notes are taken.
+This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
 
-- README.md - this file.
+<!-- [Some information about this directory.] -->
 
-## Associated Links
+## Resources
 
-### Resources
+Resources relevant to this directory.
+
+### Resources to explore
+
+These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
 NOTE: If you don't see a resource specific to Big O Notation below, look for a resource covering Big O Notation and Algorithms or Big O Notation and Data Structures in the [Resources](https://github.com/JamieBort/LearningDirectory/tree/master/AlgorithmsDataStructuresAndBigONotation#resources) section of the `Algorithms, Data Structures, & Big O Notation` directory.
 
@@ -33,3 +37,57 @@ TODO: Clean up this section so that each resource below consists of only Big O N
 - [Big O Notation: A primer for beginning devs](https://www.educative.io/blog/a-big-o-primer-for-beginning-devs)
   (from `What is Big O Notation Explained: Space and Time Complexity` above.)
   A good start for learning/understanding.
+
+- Time Complexity
+
+  - https://www.mygreatlearning.com/blog/why-is-time-complexity-essential/#:~:text=Time%20complexity%20is%20defined%20as,execution%20time%20of%20an%20algorithm.
+
+  - https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/amp/
+
+  - https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/
+
+  - https://www.freecodecamp.org/news/time-complexity-of-algorithms/
+
+  - https://www.simplilearn.com/tutorials/data-structure-tutorial/time-and-space-complexity
+
+- Space Complexity
+
+  - https://www.simplilearn.com/tutorials/data-structure-tutorial/time-and-space-complexity#:~:text=Space%20complexity%20refers%20to%20the,Space%2Dcomplexity%20with%20auxiliary%20space.
+
+  - https://www.geeksforgeeks.org/g-fact-86/amp/
+
+  - https://en.m.wikipedia.org/wiki/Space_complexity
+
+  - https://www.scaler.com/topics/data-structures/space-complexity-in-data-structure/
+
+  - https://www.educative.io/answers/what-is-space-complexity-of-an-algorithm-and-how-it-is-measured
+
+  - https://www.baeldung.com/cs/space-complexity
+
+### Vetted Resources
+
+## Directories and Files
+
+Information regarding the directories and files in this directory.
+
+Navigate back to the `parent_directory/` [README.md](../README.md) file.
+
+### Directories
+
+<!-- #### [directory_name/](./path_to_directory)
+
+[About_this_directory.]
+
+[More_info_about_this_directory.]
+
+The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
+### Files
+
+#### [NOTES.md](./NOTES.md)
+
+File where my notes are taken.
+
+#### [README.md](./README.md)
+
+This readme file.

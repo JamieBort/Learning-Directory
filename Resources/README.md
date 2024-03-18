@@ -18,9 +18,13 @@ Resources relevant to this directory.
 
 These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
-<!-- - first resource
+- [[SDF Public Access UNIX System .. Est. 1987]](https://sdf.org/)
 
-- second resource -->
+  - [WHAT IS SDF? (QUICK SUMMARY)](https://sdf.org/?faq?BASICS?01)
+
+    > [We] provide remotely accessible computing facilities for the advancement of public education, cultural enrichment, scientific research and recreation. Members can interact electronically with each other regardless of their location using passive or interactive forums. Further purposes include the recreational exchange of information concerning the Liberal and Fine Arts.
+
+    > Members have access to games, email, usenet, chat, bboard, gopherspace, webspace, programming utilities, archivers, browsers, and more. The SDF community is made up of caring, highly skilled people who operate behind the scenes and in the underground to maintain a non-commercial INTERNET.
 
 ### Vetted Resources
 

@@ -1,34 +1,22 @@
 # Algorithms, Data Structures, & Big O Notation
 
-## Directories and Files
+## Purpose
 
-Information regarding the directories and files in this directory.
+<!-- The purpose of this directory is to [...]. -->
 
-<!-- Navigate back to the [parent_readme_file/ README.md](../README.md) -->
+## About
 
-Navigate back to the Learning Directory [README.md](../README.md) file.
+<!-- This directory houses information about [name_of_the_directory_that_this_readme_file_is_in]. -->
 
-Navigate back to the Meta/ directory [README.md](../Meta/README.md) file.
-
-### Directories
-
-#### [Algorithms/](./Algorithms/)
-
-The purpose of this directory is to house the algorithms I am working on.
-
-#### [BigONotation/](./BigONotation/)
-
-#### [DataStructures/](./DataStructures/)
-
-### Files
-
-#### [README](./README.md)
-
-This readme file.
-
-## Associated Links
+<!-- [Some information about this directory.] -->
 
 ## Resources
+
+Resources relevant to this directory.
+
+### Resources to explore
+
+These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
 NOTE: Each item below is a resource that covers two of the following: `Algorithms`, `Data Structures`, & `Big O Notation`. For a resource that covers only one of the previous, see its respective directory.
 
@@ -57,3 +45,53 @@ NOTE: Each item below is a resource that covers two of the following: `Algorithm
   - Covers Data Structures
 
   - Covers Algorithms
+
+### Vetted Resources
+
+## Directories and Files
+
+Information regarding the directories and files in this directory.
+
+<!-- Navigate back to the [parent_readme_file/ README.md](../README.md) -->
+
+Navigate back to the Learning Directory [README.md](../README.md) file.
+
+Navigate back to the Meta/ directory [README.md](../Meta/README.md) file.
+
+### Directories
+
+#### [Algorithms/](./Algorithms/)
+
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+The `Algorithms/` [README.md](./Algorithms/README.md) file.
+
+#### [BigONotation/](./BigONotation/)
+
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+The `BigONotation/` [README.md](./BigONotation/README.md) file.
+
+#### [DataStructures/](./DataStructures/)
+
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+The `DataStructures/` [README.md](./DataStructures/README.md) file.
+
+### Files
+
+<!-- #### [name_of_other_file_in_here.extension]()
+
+[About_this_file.]
+
+[More_info_about_this_file.] -->
+
+#### [README.md](./README.md)
+
+This readme file.
