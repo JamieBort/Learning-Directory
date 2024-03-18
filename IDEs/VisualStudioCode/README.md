@@ -80,6 +80,11 @@ HOW to take advantage of the fundamentals.
     - "Tips and Tricks" in the Activity of
       https://trello.com/c/5VYmSSXO/520-visual-studio-code-master-card#comment-65e1da8df92b1eb5a2675e1d
 
+- Snippets
+
+  - Learn about using text expanders with digital knowledge base vs code and elsewhere
+    https://trello.com/c/poZ4lSde/2402-text-expanders-or-snippets-in-vs-code
+
 ### Keyboard Shortcuts
 
 ### Use Cases for things I'd like to know how to do
