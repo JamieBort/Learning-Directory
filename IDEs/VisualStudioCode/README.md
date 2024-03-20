@@ -55,6 +55,12 @@ Use Cases that I still need a solution for
 
   - This happens with JavaScript and TypeScript. Prettier extension is the formatter for these two file types.
 
+- Using just the keyboard,
+
+  - change focus between the editor, explorer, terminal all in vs code
+
+  - toggle open/close explorer and terminal
+
 ## Tips and Tricks
 
 HOW to take advantage of the fundamentals.
@@ -98,6 +104,8 @@ HOW to take advantage of the fundamentals.
 
 - Linter and Extensions are mentioned in this Trello card.
   https://trello.com/c/BOA5A1G7/519-make-these-changes-to-visual-studio-code
+
+- See the [Extensions not used](https://trello.com/c/5VYmSSXO/520-visual-studio-code-master-card#comment-65fb2153665d376ea1ec5475) section of this https://trello.com/c/5VYmSSXO/520-visual-studio-code-master-card Trello card.
 
 ## Currently Used
 
