@@ -4,7 +4,7 @@ TODO: See the [java_version_notes.md](../Languages/Java/README.md#java_version_n
 
 ## Purpose
 
-This directory houses info regarding this repo. Specifically, information **about** the files and directories that this repo contains.
+The purpose of this `Meta/` directory is to house info regarding this `Learning Directory` repo. Specifically, information **about** the files and directories that this repo contains.
 
 And **not** about Git repos in general. To find info regarding files and directories about Git in general, see the `Git/` [README](../Git/README.md) file.
 
@@ -160,7 +160,7 @@ This directory houses information about software languages.
 
 #### Meta
 
-This directory.
+The purpose of this `Meta/` directory is to house info regarding this `Learning Directory` repo.
 
 #### [Meta/env/](./env/)
 

@@ -118,6 +118,14 @@ The [Node/ README.md](./Node/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
+#### [package_managers/](./package_managers/)
+
+<!-- [About_this_directory.]
+
+[More_info_about_this_directory.] -->
+
+The `package_managers/` [README.md](./package_managers/README.md) file.
+
 #### [Python/](./Python/)
 
 <!-- [About_this_directory.]
