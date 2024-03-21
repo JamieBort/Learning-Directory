@@ -10,6 +10,16 @@ This directory houses information about Command Line Interfaces.
 
 <!-- [Some information about this directory.] -->
 
+## CLIs
+
+### Terminal
+
+MacOS Terminal
+
+### VSCode's CLI
+
+See the [Command Line Interface (CLI)](../IDEs/VisualStudioCode/README.md#command-line-interface-cli) section in the VSCode/ README.md file.
+
 ## Resources
 
 Resources relevant to this directory.

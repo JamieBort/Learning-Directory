@@ -25,6 +25,10 @@ There is currently a .vsconfig directory in https://github.com/JamieBort/Learnin
 
 ## Features
 
+### Command Line Interface (CLI)
+
+[Command Line Interface (CLI)](https://code.visualstudio.com/docs/editor/command-line)
+
 ### Keybindings
 
 ### Snippets
@@ -98,6 +102,8 @@ HOW to take advantage of the fundamentals.
 
   - Learn about using text expanders with digital knowledge base vs code and elsewhere
     https://trello.com/c/poZ4lSde/2402-text-expanders-or-snippets-in-vs-code
+
+## Best Practices
 
 ### Keyboard Shortcuts
 
