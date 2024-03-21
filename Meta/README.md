@@ -128,6 +128,10 @@ This is where the Pull Request template lives. See [Pull Request Templates](http
 
 #### [API/](../API/)
 
+#### [CLI/](../CLI/)
+
+Command Line Interfaces
+
 #### [Accessibility/](../Accessibility/)
 
 #### [Algorithms Data Structures And Big O Notation/](../AlgorithmsDataStructuresAndBigONotation/)
