@@ -23,6 +23,14 @@ See the [Workspace settings](https://code.visualstudio.com/docs/getstarted/setti
 
 There is currently a .vsconfig directory in https://github.com/JamieBort/LearningDirectory/tree/master and https://github.com/JamieBort/jamiebort.github.io
 
+## Features
+
+### Keybindings
+
+### Snippets
+
+Activated with `⌃Space`. See the [Snippets in Visual Studio Code](#snippets-in-visual-studio-code) section below.
+
 ## [Linter]
 
 https://trello.com/search?q=linter
@@ -135,6 +143,28 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 - https://trello.com/c/Yu6Bu4xt/1053-visual-studio-code-tips-and-tricks-to-consider
 
 ### Vetted Resources
+
+#### User Interface
+
+https://code.visualstudio.com/docs/getstarted/userinterface
+
+- Activity bar
+
+- Editor groups
+
+- Status bar
+
+- Side bar
+
+#### [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets#:~:text=In%20Visual%20Studio%20Code%2C%20snippets,Snippet%20in%20the%20Command%20Palette).)
+
+##### Keybindings Can be assigned to snippets
+
+See
+
+- [Assign keybindings to snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_assign-keybindings-to-snippets)
+
+- And [Keybindings](#keybindings) above.
 
 ## Directories and Files
 
