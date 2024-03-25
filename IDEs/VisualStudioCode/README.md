@@ -103,7 +103,18 @@ HOW to take advantage of the fundamentals.
   - Learn about using text expanders with digital knowledge base vs code and elsewhere
     https://trello.com/c/poZ4lSde/2402-text-expanders-or-snippets-in-vs-code
 
+- 1 minute `Save some time with code snippets` video by Visual Studio Code.
+  https://www.youtube.com/watch?v=RMOkYdKxelY
+
+      - in the `command palette`, type `snippet` to see which snippets are available.
+      - There are some built-in vscode snippets.
+      - it is possible to create custom snippets.
+
+  Select `configure user snippets ` in the `command palette`.
+
 ## Best Practices
+
+See https://trello.com/c/2IhxHqSs/287-find-a-vscode-extension-for-snippets#comment-65fc85aff4c1d1b6830603a0
 
 ### Keyboard Shortcuts
 
@@ -147,6 +158,10 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 - https://trello.com/c/5VYmSSXO/520-visual-studio-code-master-card
 
 - https://trello.com/c/Yu6Bu4xt/1053-visual-studio-code-tips-and-tricks-to-consider
+
+- [How To Create Custom VSCode Snippets](https://youtu.be/TGh2NpCIDlc) 10 minute YouTube video.
+
+- https://trello.com/c/9VbgMp2u/808-create-shortcuts-for-vs-code-to-paste-common-snippets-quickly
 
 ### Vetted Resources
 

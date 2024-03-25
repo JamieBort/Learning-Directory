@@ -14,6 +14,10 @@ This directory houses information about Homebrew.
 
 <!-- [Some information about this directory.] -->
 
+## To Do
+
+TODO: address this https://trello.com/c/QnFpCjDK/1256-mysql-jdk-and-python-warnings-while-updating-brew trello card.
+
 ## Brew commands
 
 TODO: Follow convention found ~~here [../../Bash/TerminalCommands.md](../../Bash/TerminalCommands.md) or~~ in the [Table of Contents](../../../Git/common_git_commands.md#table-of-contents) of the `common_git_commands.md` file.

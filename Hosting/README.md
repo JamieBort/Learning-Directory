@@ -52,6 +52,10 @@ Navigate back to the Meta/ directory [README.md](../Meta/README.md) file.
 
 ### Directories
 
+#### [Git/]
+
+Git allows you to host static sites.
+
 #### [Heroku/](./Heroku/)
 
 Had success with this.
