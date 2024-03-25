@@ -30,67 +30,111 @@ For information on Git workflow in general, see the [git_workflow/](../Git/git_w
 
 1. git checkout dev
 
-   `git checkout dev && git status`
+   ```
+   git checkout dev && git status
+   ```
 
 2. Push changes from the dev branch to the origin/dev branch.
 
-   `git push && git status`
+   ```
+   git push && git status
+   ```
 
 3. Make copy of dev branch (dev_backup).
 
-   `git branch`
+   ```
+   git branch
+   ```
 
-   `git branch -d dev_backup && git branch -c dev dev_backup && git branch`
+   TODO: Use the OR operator `||` in the event that the dev_backup branch doesn't already exist.
+
+   ```
+   git branch -d dev_backup && git branch -c dev dev_backup && git branch
+   ```
 
 4. git checkout master
 
-   `git checkout master && git status`
+   ```
+   git checkout master && git status
+   ```
 
 5. Make copy of master branch (master_backup).
 
-   `git branch -d master_backup && git branch -c master master_backup && git branch`
+   TODO: Use the OR operator `||` in the event that the master_backup branch doesn't already exist.
+
+   ```
+   git branch -d master_backup && git branch -c master master_backup && git branch
+   ```
 
 6. Pull changes from origin/master to master branch.
 
-   `git pull origin master && git status`
+   ```
+   git pull origin master && git status
+   ```
 
 7. Make copy of master branch after pull (master_backup_after_pull).
 
-   `git branch -d master_backup_after_pull && git branch -c master master_backup_after_pull && git branch`
+   TODO: Use the OR operator `||` in the event that the master_backup_after_pull branch doesn't already exist.
+
+   ```
+   git branch -d master_backup_after_pull && git branch -c master master_backup_after_pull && git branch
+   ```
 
 8. git checkout dev
 
-   `git checkout dev && git status`
+   ```
+   git checkout dev && git status
+   ```
 
 <!-- TODO: Figure out which is better for this repo at this step. Rebase or merge. See https://github.com/JamieBort/Learning-Directory/issues/252 -->
 
-9. [Merge master into dev.](https://gist.github.com/calaway/ea880263b0c0495bb00ee877f001dc59)
+9. Merge master into dev. Or rebase master into dev.
 
-   `git merge master && git status`
+   - [Merge master into dev.](https://gist.github.com/calaway/ea880263b0c0495bb00ee877f001dc59)
 
-   [or rebase master into dev](https://gwu-libraries.github.io/Git.html)
+     ```
+     git merge master && git status
+     ```
 
-   `git rebase master && git status`
+   - [or rebase master into dev](https://gwu-libraries.github.io/Git.html)
+
+     ```
+     git rebase master && git status
+     ```
 
 10. Resolve merge conflicts.
 
 11. Push changes from the dev branch to the origin/dev branch.
 
-    `git push && git status`
+    ```
+    git push && git status
+    ```
 
 12. git checkout master
 
-    `git checkout master && git status`
+    ```
+    git checkout master && git status
+    ```
 
 13. Merge dev into master.
 
-    `git merge dev && git status`
+    ```
+    git merge dev && git status
+    ```
 
-14. Checkout the dev branch
+14. Push changes to master
 
-    `git checkout dev && git status`
+    ```
+    git push && git status
+    ```
 
-15. Delete all copies of dev and master branches.
+15. Checkout the dev branch
+
+    ```
+    git checkout dev && git status
+    ```
+
+16. Delete all copies of dev and master branches.
 
 ## Resources
 
