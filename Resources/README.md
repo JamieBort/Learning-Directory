@@ -39,11 +39,88 @@ These will be deleted when I am done with them. If they are of use they'll be mo
   - [Site Generators](https://jamstack.org/generators/)
     > A List of Static Site Generators for Jamstack Sites
 
-#### Open Source Software (TODO: find a directory for the following open source software info.)
+#### Open Source Software
 
 ##### Open Source Projects
 
 ###### Sources for Open Source Projects
+
+(TODO: find a directory for the following open source software info.)
+
+- From GitHub\.com
+
+  - `Explore`
+
+    https://github.com/explore
+
+  - `#open-source-project` Github\.com
+
+    https://github.com/topics/open-source-project >Here are 446 public repositories matching this topic...
+
+  - `#help-wanted` Github\.com
+
+    https://github.com/topics/help-wanted
+
+  - `#contributions-welcome` Github\.com
+
+    https://github.com/topics/contributions-welcome
+
+  - `#first-timers-only` Github\.com
+
+    https://github.com/topics/first-timers-only
+
+  - `#low-hanging-fruit` Github\.com
+
+    https://github.com/topics/low-hanging-fruit
+
+  - `#easy` Github\.com
+
+    https://github.com/topics/easy
+
+  - `#beginner-friendly` Github\.com
+
+    https://github.com/topics/beginner-friendly
+
+  - `#good-first-bug` Github\.com
+
+    https://github.com/topics/good-first-bug
+
+  - `#good-first-issue` Github\.com
+
+    https://github.com/topics/good-first-issue
+
+  - [Maybe more]
+
+- https://hot.opensauced.pizza/
+  I am adding this (https://hot.opensauced.pizza/) here because I don't know where to put it right now - crunched for time.
+
+- https://hackernoon.com/how-to-find-open-source-projects-for-beginners
+  Lists `10 Platforms to Find Open Source Projects for Beginners`
+
+- [50 Top Java Projects on GitHub](https://medium.com/issuehunt/50-top-java-projects-on-github-adbfe9f67dbc) Medium article. **Open in incognito mode.**
+
+####### Some first issues
+
+- From [Read these six articles](https://trello.com/c/DZikPmNy/1270-read-these-six-articles#comment-650b673999ce4ab3be039d5d) Trello card.
+
+  - https://github.com/salikansari6/react-preloader-tmnt/issues/4
+
+  - https://github.com/zulip/zulip/issues?page=2&q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+
+  - https://www.firsttimersonly.com/
+
+  - https://goodfirstissues.com/
+
+  - https://github.com/iter8-tools/iter8/issues/735
+
+- `#good-first-issue` Github\.com
+  https://github.com/topics/good-first-issue
+
+  > Here are 1,553 public repositories matching this topic...
+
+  Also posted above.
+
+- [github first issue](https://www.google.com/search?q=github+first+issue&oq=github+first+issue&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDM3OTJqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8) internet search.
 
 ###### GitHub\.com
 

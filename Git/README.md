@@ -172,7 +172,7 @@ This directory houses information about git config files.
 
 #### [contributing/](./contributing/)
 
-All things related to contributing to Git (GitHub ?) repos.
+This directory houses information about contributing to repos.
 
 #### [env/](./env/)
 

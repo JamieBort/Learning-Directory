@@ -1,11 +1,17 @@
-# Contributing
+# Contributors
 
 TODO: Create a contributing guideline to be shared here:
 https://github.com/JamieBort/LearningDirectory/tree/master?tab=readme-ov-file#contributing
 
+**Others** contributing to **my** projects. For **me** contributing to **others'** projects, see the `contributing/` [README.md](../ contributing/README.md) file.
+
 ## Purpose
 
-All things related to contributing to Git (GitHub ?) repos.
+<!-- The purpose of this directory is to [...]. -->
+
+## About
+
+This directory houses information for other people about contributing to repos that belong to me.
 
 ## Resources to explore
 
