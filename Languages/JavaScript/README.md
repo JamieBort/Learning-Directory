@@ -118,20 +118,6 @@ The [package/ README.md](./package/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
-#### [Testing/](./Testing/)
-
-TODO: delete this directory.
-
-<!-- [About_this_directory.]
-
-[More_info_about_this_directory.] -->
-
-Note, [JavaScriptTesting/](./JavaScriptTesting/) exists.
-
-The [Testing/ README.md](./Testing/README.md) file.
-
-<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
-
 #### [TheIronYard/](./TheIronYard/)
 
 Moved this directory from LearningDirectory/JavaScript/CodingChallenges/ to LearningDirectory/JavaScript/

@@ -30,32 +30,63 @@ For information on Git workflow in general, see the [git_workflow/](../Git/git_w
 
 1. git checkout dev
 
+   `git checkout dev`
+
 2. Push changes from the dev branch to the origin/dev branch.
+
+   `git push`
 
 3. Make copy of dev branch (dev_backup).
 
+   `git branch`
+
+   `git branch -d dev_backup && git branch -c dev dev_backup`
+
 4. git checkout master
+
+   `git checkout master`
 
 5. Make copy of master branch (master_backup).
 
+   `git branch -d master_backup && git branch -c master master_backup`
+
 6. Pull changes from origin/master to master branch.
+
+   `git pull origin master`
 
 7. Make copy of master branch after pull (master_backup_after_pull).
 
+   `git branch -d master_backup_after_pull && git branch -c master master_backup_after_pull`
+
 8. git checkout dev
+
+   `git checkout dev`
 
 <!-- TODO: Figure out which is better for this repo at this step. Rebase or merge. See https://github.com/JamieBort/Learning-Directory/issues/252 -->
 
 9. [Merge master into dev.](https://gist.github.com/calaway/ea880263b0c0495bb00ee877f001dc59)
+
    `git merge master`
+
    [or rebase master into dev](https://gwu-libraries.github.io/Git.html)
+
    `git rebase master`
 
 10. Resolve merge conflicts.
 
-11. Merge dev into master.
+11. Push changes from the dev branch to the origin/dev branch.
 
-12. Delete all copies of dev and master branches.
+    `git push`
+
+12. git checkout master
+
+    `git checkout master`
+
+13. Merge dev into master.
+
+    `git merge master`
+
+14. Delete all copies of dev and master branches.
 
 ## Resources
 
