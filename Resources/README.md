@@ -47,6 +47,8 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 (TODO: find a directory for the following open source software info.)
 
+####### GitHub Hashtags
+
 - From GitHub\.com
 
   - `Explore`
@@ -55,7 +57,9 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
   - `#open-source-project` Github\.com
 
-    https://github.com/topics/open-source-project >Here are 446 public repositories matching this topic...
+    https://github.com/topics/open-source-project
+
+    > Here are 446 public repositories matching this topic...
 
   - `#help-wanted` Github\.com
 
@@ -91,14 +95,6 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
   - [Maybe more]
 
-- https://hot.opensauced.pizza/
-  I am adding this (https://hot.opensauced.pizza/) here because I don't know where to put it right now - crunched for time.
-
-- https://hackernoon.com/how-to-find-open-source-projects-for-beginners
-  Lists `10 Platforms to Find Open Source Projects for Beginners`
-
-- [50 Top Java Projects on GitHub](https://medium.com/issuehunt/50-top-java-projects-on-github-adbfe9f67dbc) Medium article. **Open in incognito mode.**
-
 ####### Some first issues
 
 - From [Read these six articles](https://trello.com/c/DZikPmNy/1270-read-these-six-articles#comment-650b673999ce4ab3be039d5d) Trello card.
@@ -122,59 +118,22 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 - [github first issue](https://www.google.com/search?q=github+first+issue&oq=github+first+issue&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDM3OTJqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8) internet search.
 
-###### GitHub\.com
+####### Platforms Listing Open Source Projects
 
-- `Explore`
+- https://hot.opensauced.pizza/
 
-  https://github.com/explore
+  > Find Open-Source Repositories to contribute today
 
-- `#open-source-project` Github\.com
+- https://hackernoon.com/how-to-find-open-source-projects-for-beginners
 
-  https://github.com/topics/open-source-project >Here are 446 public repositories matching this topic...
+  Lists `10 Platforms to Find Open Source Projects for Beginners`
 
-- `#help-wanted` Github\.com
-
-  https://github.com/topics/help-wanted
-
-- `#contributions-welcome` Github\.com
-
-  https://github.com/topics/contributions-welcome
-
-- `#first-timers-only` Github\.com
-
-  https://github.com/topics/first-timers-only
-
-- `#low-hanging-fruit` Github\.com
-
-  https://github.com/topics/low-hanging-fruit
-
-- `#easy` Github\.com
-
-  https://github.com/topics/easy
-
-- `#beginner-friendly` Github\.com
-
-  https://github.com/topics/beginner-friendly
-
-- `#good-first-bug` Github\.com
-
-  https://github.com/topics/good-first-bug
-
-- `#good-first-issue` Github\.com
-
-  https://github.com/topics/good-first-issue
-
-- [Maybe more]
-
-- Some first issues
-  See [Some first issues](https://trello.com/c/8TIOG9bg/293-contribute-to-open-source#comment-650b66c327d1b2646214bced) in the Activity of this https://trello.com/c/8TIOG9bg/293-contribute-to-open-source
-  Trello card.
-
-###### Platforms
+- [50 Top Java Projects on GitHub](https://medium.com/issuehunt/50-top-java-projects-on-github-adbfe9f67dbc) Medium article. **Open in incognito mode.**
 
 - https://hot.opensauced.pizza/
 
 - https://hackernoon.com/how-to-find-open-source-projects-for-beginners
+
   Lists `10 Platforms to Find Open Source Projects for Beginners`
 
 - [50 Top Java Projects on GitHub](https://medium.com/issuehunt/50-top-java-projects-on-github-adbfe9f67dbc) Medium article. **Open in incognito mode.**
