@@ -23,6 +23,20 @@ See the [Workspace settings](https://code.visualstudio.com/docs/getstarted/setti
 
 There is currently a .vsconfig directory in https://github.com/JamieBort/LearningDirectory/tree/master and https://github.com/JamieBort/jamiebort.github.io
 
+### Format On Save
+
+[Format On Save](https://code.visualstudio.com/updates/v1_6#_format-on-save) documentation.
+
+For repos that I do not want formatted when I save, I use the following. For example my `Digital Knowledge Base` repo.
+
+```
+{
+  "editor.formatOnSave": false
+}
+```
+
+**!!! NOTE:** - the file can still be inadvertently formatted with using a keystroke. See the [Formatting](#formatting) section below. **!!!**
+
 ## Features
 
 ### Command Line Interface (CLI)
@@ -164,6 +178,19 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 - https://trello.com/c/9VbgMp2u/808-create-shortcuts-for-vs-code-to-paste-common-snippets-quickly
 
 ### Vetted Resources
+
+#### Documentation
+
+##### Formatting
+
+[Formatting](https://code.visualstudio.com/docs/editor/codebasics#_formatting)
+
+> VS Code has great support for source code formatting. The editor has two explicit format actions:
+
+> - Format Document (⇧⌥F) - Format the entire active file.
+> - Format Selection (⌘K ⌘F) - Format the selected text.
+
+> You can invoke these from the Command Palette (⇧⌘P) or the editor context menu.
 
 #### User Interface
 
