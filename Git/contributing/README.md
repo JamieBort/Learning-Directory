@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this directory is to [...].
+<!-- The purpose of this directory is to [...]. -->
 
 ## About
 
@@ -31,6 +31,12 @@ Information regarding the directories and files in this directory.
 Navigate back to the `contributing/` [README.md](../README.md) file.
 
 ### Directories
+
+#### [contributing_examples/](./contributing_examples/)
+
+This directory houses Examples of CONTRIBUTING.md files; the files that inform who someone can contribute to a repo.
+
+The `contributing_examples/` [README.md](./contributing_examples/README.md) file.
 
 #### [contributing_to_others/](./contributing_to_others/)
 
