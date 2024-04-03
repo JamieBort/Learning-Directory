@@ -48,7 +48,7 @@ This directory houses my various Pull Request templates.
 
 #### [pull_request_template_examples/](./pull_request_template_examples)
 
-This directory houses examples of Pull Request templates.
+The purpose of this directory is to house examples of Pull Request templates.
 
 ### Files
 
