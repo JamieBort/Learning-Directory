@@ -2,6 +2,8 @@
 
 NOTE: I have an issue template for bugs and one for features, but I do not have one for updating documentation. And the [contributing_template.md](../../../contributing/contributing_template.md#types-of-contributions-were-looking-for) file lists bugs, features, and updates to documentation as three possible ways to contribute.
 
+TODO: Update my Issue templates with the requirement to acknowledge the code of conduct file(s) and contributing docs. To that end, see these https://github.com/open-sauced/intro/issues/ Issues for examples.
+
 ## Purpose
 
 This directory houses information about my Issue templates.

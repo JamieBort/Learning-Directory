@@ -42,6 +42,8 @@ See `https://github.com/JamieBort/LearningDirectory/tree/master/.github/ISSUE_TE
 
   > You can define different input types, validations, default assignees, and default labels for your issue forms.
 
+NOTE: More good issue template examples might be found in the repos highlighted in this [contributing_examples/](../../contributing/contributing_examples/) directory or this [pull_request_templates/](../../pull_request/pull_request_templates/) directory.
+
 ## Directories and Files
 
 Navigate back to the [parent readme file.](../README.md)
