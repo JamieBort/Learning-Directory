@@ -93,6 +93,12 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
     https://github.com/topics/good-first-issue
 
+  - Trending allows you to filter by `Spoken Language`
+
+    This can be further filtered by Software Language: https://github.com/trending?since=daily&spoken_language_code=es
+
+    From twitter https://twitter.com/eddiejaoude/status/1778870564641243341
+
   - [Maybe more]
 
 ####### Some first issues
