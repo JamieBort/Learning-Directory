@@ -192,6 +192,12 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 > You can invoke these from the Command Palette (⇧⌘P) or the editor context menu.
 
+#### Java
+
+[Managing Java Projects in VS Code](https://code.visualstudio.com/docs/java/java-project)
+
+> The [Project Manager for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency) extension helps you to manage your Java projects and their dependencies. It also helps you to create new Java projects, packages, and classes. To get the complete Java language support in Visual Studio Code, you can install the [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack), which includes the Project Manager for Java extension.
+
 #### User Interface
 
 https://code.visualstudio.com/docs/getstarted/userinterface
