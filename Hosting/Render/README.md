@@ -18,7 +18,7 @@ https://docs.render.com/
 
 - https://docs.render.com/environment-variables
 
-In [this](https://github.com/JamieBort/jamiebort.github.io/blob/back_end_express/backend/app.js) file I have `const accessToken = process.env.GITHUB_ACCESS_TOKEN;`.
+In [this](https://github.com/JamieBort/Portfolio-Website/blob/master/backend/app.js) file I have `const accessToken = process.env.GITHUB_ACCESS_TOKEN;`.
 
 Following this [Environment Variables and Secrets](https://docs.render.com/configure-environment-variables#configuring-secrets-and-other-environment-information-on-render) document, I used `GITHUB_ACCESS_TOKEN` as the `Key` and the GitHub access token as the `Value`.
 
