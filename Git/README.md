@@ -174,13 +174,13 @@ This directory houses information about git config files.
 
 This directory houses information about contributing to repos.
 
-#### Default community health files
+#### [default_community_health_files/](./default_community_health_files/)
 
-Directory doesn't exist yet.
+~~Directory doesn't exist yet.~~
 
 <!-- TODO:
 
-1. Create this directory.
+1. ~~Create this directory.~~
 
 2. See https://github.com/JamieBort/.github
 

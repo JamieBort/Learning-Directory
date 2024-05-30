@@ -72,6 +72,12 @@ https://docs.github.com/en/issues/guides
 
 ### Directories
 
+#### [Git Issue Prompt](./Git%20Issue%20Prompt/)
+
+Created when I was working on this [default_community_health_files/](../default_community_health_files/) directory.
+
+TODO: figure this out to use it maybe.
+
 #### [issue_templates/](./issue_templates/)
 
 This directory houses information about Issue Templates.

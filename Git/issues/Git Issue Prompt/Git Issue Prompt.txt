@@ -1,0 +1,24 @@
+Documenting to figure out how to achieve this prompt. See screenshots and the text below.
+
+---------------------------
+
+https://github.com/open-sauced/intro/issues/new/choose
+
+I selected "bug report" which brought me to 
+
+https://github.com/open-sauced/intro/issues/new?assignees=&labels=%F0%9F%91%80+needs+triage%2C%F0%9F%90%9B+bug&projects=&template=bug_report.yml&title=Bug%3A+
+
+---------------------------
+
+Text:
+It looks like this is your first time opening an issue in this project!
+
+Be sure to review the contributing guidelines and code of conduct.
+
+Reporting a security vulnerability?
+Check out the project's security policy.
+
+Looking for help?
+Check out the project’s instructions for getting support.
+
+---------------------------
