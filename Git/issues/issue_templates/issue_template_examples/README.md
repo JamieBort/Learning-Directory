@@ -20,6 +20,12 @@ Navigate back to the [parent readme file.](../README.md)
 
 ### Directories
 
+### Files
+
+#### [GitHub Docs Bug Report Issue Template Example](./github_docs_bug_report_issue_template_example.yml)
+
+From https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+
 #### [Example 1: Simple GitHub issue template](./Example1Axolo.md)
 
 This example is from https://axolo.co/blog/p/part-3-github-pull-request-template#bonus-issue-templates-for-your-project
@@ -54,8 +60,6 @@ This example is from https://github.com/github/docs/tree/main/.github/ISSUE_TEMP
 
 - requires that the person check the box saying they've read the code of conduct file,
 - has asterisks.
-
-### Files
 
 #### [README.md](./README.md)
 

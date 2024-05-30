@@ -174,6 +174,25 @@ This directory houses information about git config files.
 
 This directory houses information about contributing to repos.
 
+#### Default community health files
+
+Directory doesn't exist yet.
+
+<!-- TODO:
+
+1. Create this directory.
+
+2. See https://github.com/JamieBort/.github
+
+3. See https://github.com/JamieBort/.github/issues
+
+4. See https://github.com/JamieBort/Learning-Directory/issues/500
+
+-->
+
+> Creating a default community health file
+> You can create default community health files, such as CONTRIBUTING and CODE_OF_CONDUCT. Default files will be used for any repository owned by the account that does not contain its own file of that type.
+
 #### [env/](./env/)
 
 This directory houses information about .env files and environment variables.
