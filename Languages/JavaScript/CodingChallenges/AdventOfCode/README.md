@@ -1,21 +1,23 @@
-# <!-- [name_of_the_directory_that_this_readme_file_is_in] -->
+# Advent Of Code
 
-<!-- [This is the readme template that I'll use throughout the Learning Directory repo. And in directories of other repos.] -->
+File naming convention:
+YYYYDD.js where YYYY is the year the challenge was made available and DD was the day of the month when it was made available.
 
 ## Table of Contents
 
 1. [Purpose](#purpose)
 2. [About](#about)
-3. [Resources](#resources)
-4. [Directories and Files](#directories-and-files)
+3. [Directories and Files](#directories-and-files)
+<!-- 3. [Resources](#resources)
+4. [Directories and Files](#directories-and-files) -->
 
 ## Purpose
 
-The purpose of this directory is to <!-- [...]. -->
+The purpose of this directory is to house coding challenges for the [Advent Of Code](https://adventofcode.com/) website.
 
 ## About
 
-This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
+<!-- This directory houses information about [name_of_the_directory_that_this_readme_file_is_in]. -->
 
 <!-- [Some information about this directory.] -->
 
@@ -27,19 +29,19 @@ TODO: Think about this. -->
 
 <!-- ## Table Of Contents NOTE: For when I start to add them. See https://github.com/JamieBort/Learning-Directory/issues/254 -->
 
-## Resources
+<!-- ## Resources
 
 Resources relevant to this directory.
 
 ### Resources to explore
 
-These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
+These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory. -->
 
 <!-- - first resource
 
 - second resource -->
 
-### Vetted Resources
+<!-- ### Vetted Resources -->
 
 ## Directories and Files
 

@@ -2,6 +2,16 @@
 
 TODO: See the [java_version_notes.md](../Languages/Java/README.md#java_version_notesmd) file regarding Java files on my computer. On second thought, maybe that info isn't relevant here...
 
+## Table of Contents
+
+1. [Purpose](#purpose)
+2. [About](#about)
+3. [Naming Conventions in this Repo](#naming-conventions-in-this-repo)
+4. [Learning Directory Git Workflow](#learning-directory-git-workflow)
+5. [Resources](#resources)
+6. [Directories and Files](#directories-and-files)
+7. [Branches](#branches)
+
 ## Purpose
 
 The purpose of this `Meta/` directory is to house info regarding this `Learning Directory` repo. Specifically, information **about** the files and directories that this repo contains.
@@ -273,3 +283,23 @@ The text can be found [here](../LICENSE.txt).
 #### [README.md](../README.md)
 
 The readme file for this repo.
+
+## Branches
+
+### Branch Relationship
+
+```
+master
+   |
+   +- dev
+      |
+      +- coding-challenges
+```
+
+### Branch Descriptions
+
+master - The production branch.
+
+dev - The development branch.
+
+coding-challenges - The branch used strictly for adding coding challenge content.

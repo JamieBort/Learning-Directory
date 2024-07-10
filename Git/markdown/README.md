@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this directory is to ouse info such as badges, buttons, blogs, icons, and stats.
+The purpose of this directory is to house info such as badges, buttons, blogs, icons, and stats.
 
 ## About
 

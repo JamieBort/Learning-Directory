@@ -1,5 +1,12 @@
 # JavaScript Coding Challenges
 
+## Table of Contents
+
+1. [Purpose](#purpose)
+2. [About](#about)
+3. [Resources](#resources)
+4. [Directories and Files](#directories-and-files)
+
 ## Purpose
 
 <!-- The purpose of this directory is to [...]. -->
@@ -59,6 +66,14 @@ Navigate back to the [CodingChallenges/ README.md](../README.md)
 Coding Challenge website.
 
 The [coderbyte/ README.md](./coderbyte/README.md) file.
+
+<!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
+
+#### [AdventOfCode](./AdventOfCode/)
+
+Coding Challenge website.
+
+The [AdventOfCode/ README.md](./AdventOfCode/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
