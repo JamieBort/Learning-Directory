@@ -47,25 +47,29 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 Information regarding the directories and files in this directory.
 
-Navigate back to the `parent_directory/` [README.md](../README.md) file.
+Navigate back to the `CodingChallenges/` [README.md](../README.md) file.
 
 ### Directories
 
-#### [directory_name/](./path_to_directory)
+#### [2023/](./2023/)
 
-<!-- [About_this_directory.]
+Directory housing the coding challenges for 2023.
 
-[More_info_about_this_directory.] -->
+The `2023/` [README.md](./2023/README.md) file.
 
-<!--
+<!-- The `01/` [README.md](./01/README.md) file.
 
-old
+#### [2023/](./2023/01/)
 
-The [directory_name/ README.md](./directory_name/README.md) file. -->
+Directory housing the work for the first coding challenge.
 
-<!-- new -->
+The `01/` [README.md](./01/README.md) file.
 
-The `directory_name/` [README.md](./directory_name/README.md) file.
+#### [02/](./2023/02/)
+
+Directory housing the work for the first coding challenge.
+
+The `02/` [README.md](./01/README.md) file. -->
 
 ### Files
 

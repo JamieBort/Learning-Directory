@@ -44,7 +44,7 @@ The [Meta/ README.md](../Meta/README.md) file.
 
 [More_info_about_this_directory.] -->
 
-The [Bash/ README.md](./Bash/README.md) file.
+The `Bash/` [README.md](./Bash/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
@@ -54,7 +54,7 @@ The [Bash/ README.md](./Bash/README.md) file.
 
 [More_info_about_this_directory.] -->
 
-The [CSS/ README.md](./CSS/README.md) file.
+The `CSS/` [README.md](./CSS/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
@@ -64,7 +64,7 @@ This directory houses information about Google Scripts.
 
 Created when I added an email feature to my [JamieBort.com](https://JamieBort.com) Portfolio Website.
 
-The [GoogleAppScript/ README.md](./GoogleAppScript/README.md) file.
+The `GoogleAppScript/` [README.md](./GoogleAppScript/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
@@ -74,7 +74,7 @@ The [GoogleAppScript/ README.md](./GoogleAppScript/README.md) file.
 
 [More_info_about_this_directory.] -->
 
-The [HTML/ README.md](./HTML/README.md) file.
+The `HTML/` [README.md](./HTML/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
@@ -84,7 +84,7 @@ The [HTML/ README.md](./HTML/README.md) file.
 
 [More_info_about_this_directory.] -->
 
-The [Java/ README.md](./Java/README.md) file.
+The `Java/` [README.md](./Java/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
@@ -94,7 +94,7 @@ The [Java/ README.md](./Java/README.md) file.
 
 [More_info_about_this_directory.] -->
 
-The [JavaScript/ README.md](./JavaScript/README.md) file.
+The `JavaScript/` [README.md](./JavaScript/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
@@ -104,7 +104,7 @@ The [JavaScript/ README.md](./JavaScript/README.md) file.
 
 [More_info_about_this_directory.] -->
 
-The [NextJS/ README.md](./NextJS/README.md) file.
+The `NextJS/` [README.md](./NextJS/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
@@ -114,7 +114,7 @@ The [NextJS/ README.md](./NextJS/README.md) file.
 
 [More_info_about_this_directory.] -->
 
-The [Node/ README.md](./Node/README.md) file.
+The `Node/` [README.md](./Node/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
@@ -132,7 +132,7 @@ The `package_managers/` [README.md](./package_managers/README.md) file.
 
 [More_info_about_this_directory.] -->
 
-The [Python/ README.md](./Python/README.md) file.
+The `Python/` [README.md](./Python/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
@@ -142,7 +142,7 @@ The [Python/ README.md](./Python/README.md) file.
 
 [More_info_about_this_directory.] -->
 
-The [TypeScript/ README.md](./TypeScript/README.md) file.
+The `TypeScript/` [README.md](./TypeScript/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
@@ -152,7 +152,7 @@ The [TypeScript/ README.md](./TypeScript/README.md) file.
 
 [More_info_about_this_directory.] -->
 
-The [Unix/ README.md](./Unix/README.md) file.
+The `Unix/` [README.md](./Unix/README.md) file.
 
 <!-- The `directory_name/` [README.md](./directory_name/README.md) file. -->
 
