@@ -1,15 +1,13 @@
 # Python Coding Challenges
 
-<!-- This directory houses all the Python coding challenges I have started and completed. -->
-
 <!-- See 'Online Games' from this [Career To-Dos](https://docs.google.com/document/d/1K-FDmLzGuYkasZpv9A1gTEV396rtWAi1bnCDh2uE7Q0/edit#) Google Drive document for more code challenge website ideas. -->
 
-<!-- ### Associatiated Links
+<!-- ### Associated Links
 NOTE: make sure this section is in the `README Coding Challenges` for other languages, particularly the link to the very same Trello card. -->
 
 ## Purpose
 
-The purpose of this directory is to house all the Python coding challenges I have started and completed.
+The purpose of this directory is to house all the Python coding challenges I have started or completed.
 
 ## About
 
@@ -37,6 +35,30 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 - [Coding Challenge Status](https://docs.google.com/spreadsheets/d/10YrY8K-pfzFaiObyjOPFbDnwkBQdjMw7VCdLe7lx2tQ/edit#gid=0) Google Drive spreadsheet.
 
+- [Python Professional Development](https://trello.com/c/WV626DAH/169-python-professional-development) Trello card
+
+  - ###Started
+
+  - ###Not Started
+
+    https://trello.com/c/mneEpHej/690-python-exercise
+
+    https://trello.com/c/VoMaQObH/700-complete-2-in-1-python-for-business-and-finance-bootcamp
+
+    https://trello.com/c/i5E5NU8R/679-python-and-database-resources
+
+  - ###Tabled
+
+    https://trello.com/c/Upxkpgx3/683-learn-to-code-in-python-3-programming-beginner-to-advanced-your-progress-udemy-course
+
+  - ###Associated Links
+
+    - https://github.com/JamieBort/LearningDirectory/tree/master/Python
+
+  - ###Master Card
+
+    https://trello.com/c/vx0oVl0e/237-learningdirectory-professional-development
+
 ### Vetted Resources
 
 ## Directories and Files
@@ -53,7 +75,7 @@ Navigate back to the `parent_directory/` [README.md](../README.md) file.
 
 Coding Challenge website.
 
-The [AdventOfCode/ README.md](./AdventOfCode/README.md) file.
+The `AdventOfCode/` [README.md](./AdventOfCode/README.md) file.
 
 #### [LeetCode/](./LeetCode/)
 
