@@ -93,6 +93,12 @@ The `LeetCode/` [README.md](./LeetCode/README.md) file.
 
 The `ProjectEuler/` [README.md](./ProjectEuler/README.md) file.
 
+#### [ReverseString/](./ReverseString/)
+
+A misc. challenge found from/following: https://interviewing.io/questions/reverse-string
+
+The `ReverseString/` [README.md](./ProjectEuler/README.md) file.
+
 ### Files
 
 <!-- #### [name_of_other_file_in_here.extension]()

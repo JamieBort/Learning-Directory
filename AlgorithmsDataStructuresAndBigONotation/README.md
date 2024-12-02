@@ -48,6 +48,10 @@ NOTE: Each item below is a resource that covers two of the following: `Algorithm
 
 - [7 algorithms and data structures every programmer must know](https://u.osu.edu/cstutorials/2016/11/21/7-algorithms-and-data-structures-every-programmer-must-know/)
 
+- [Technical Interview Questions and Solutions](https://interviewing.io/questions) interviewing.io coding challenges that go into several approaches in terms of time and space complexity.
+
+  > Browse our database of interview questions and full-length solutions from top companies
+
 ### Vetted Resources
 
 ## Directories and Files

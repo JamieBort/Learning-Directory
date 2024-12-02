@@ -46,6 +46,10 @@ These will be deleted when I am done with them. If they are of use they'll be mo
 
 ### Vetted Resources
 
+- Documentation
+
+  https://docs.python.org/3/
+
 ## Directories and Files
 
 Information regarding the directories and files in this directory.
