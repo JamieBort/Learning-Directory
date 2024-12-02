@@ -2,17 +2,11 @@
 
 ## Purpose
 
-Repository for my exploration of code testing.
-
-Search terms for more tutorials: Junit test examples, and Medium: https://medium.com/search?q=junit
-
-For Java, using Maven to set up your testing environment: https://dev.to/chrisvasqm/introduction-to-unit-testing-with-java-2544
-
-The purpose of this directory is to <!-- [...]. -->
+The purpose of this directory is to house my code testing resources.
 
 ## About
 
-This directory houses information about [name_of_the_directory_that_this_readme_file_is_in].
+<!-- This directory houses information about [name_of_the_directory_that_this_readme_file_is_in]. -->
 
 <!-- [Some information about this directory.] -->
 
@@ -21,6 +15,10 @@ This directory houses information about [name_of_the_directory_that_this_readme_
 Resources relevant to this directory.
 
 ### Resources to explore
+
+Search terms for more tutorials: Junit test examples, and Medium: https://medium.com/search?q=junit
+
+For Java, using Maven to set up your testing environment: https://dev.to/chrisvasqm/introduction-to-unit-testing-with-java-2544
 
 These will be deleted when I am done with them. If they are of use they'll be moved to the [Vetted Resources](#vetted-resources) section below. Or a relevant file/directory in this directory.
 
@@ -44,6 +42,8 @@ Navigate back to the Meta/ directory [README.md](../Meta/README.md) file.
 
 ### Directories
 
+#### [TypeScript/](./TypeScript/)
+
 #### [Java/](./Java/)
 
 <!-- [About_this_directory.]
@@ -59,6 +59,10 @@ The `Java/` [README.md](./Java/README.md) file.
 [More_info_about_this_directory.] -->
 
 The `JavaScript/` [README.md](./JavaScript/README.md) file.
+
+#### [TypeScript/](./TypeScript/)
+
+The `TypeScript/` [README.md](./TypeScript/README.md)
 
 ### Files
 
