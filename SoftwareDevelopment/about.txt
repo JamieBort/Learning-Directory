@@ -1,0 +1,2 @@
+This directory was created to house software development concepts.
+To that end, I intend on moving all software development related directories into this one so that it mirrors the content found in https://github.com/JamieBort/Digital-Knowledge-Base/blob/main/pages/Software%20Development.md

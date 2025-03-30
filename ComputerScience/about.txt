@@ -1,0 +1,2 @@
+This directory was created to house computer science concepts.
+To that end, I intend on moving all computer science related directories into this one so that it mirrors the content found in https://github.com/JamieBort/Digital-Knowledge-Base/blob/main/pages/Computer%20Science.md
